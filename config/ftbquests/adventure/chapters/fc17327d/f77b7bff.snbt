@@ -1,0 +1,10 @@
+{
+	x: -3.5d,
+	y: 11.5d,
+	tasks: [{
+		uid: "ad9319e6",
+		type: "gamestage",
+		title: "在【冒险·叁】处取得进展",
+		stage: "hardmode"
+	}]
+}

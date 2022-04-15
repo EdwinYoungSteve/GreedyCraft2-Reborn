@@ -1,0 +1,22 @@
+{
+	title: "【科技·壹】初始科技",
+	icon: {
+		id: "thermalexpansion:device",
+		tag: {
+			Facing: 3b,
+			SideCache: [B;
+				0b,
+				1b,
+				0b,
+				0b,
+				0b,
+				0b
+			],
+			RSControl: 0b,
+			Energy: 0
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

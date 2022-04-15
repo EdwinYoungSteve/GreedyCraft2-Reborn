@@ -1,0 +1,42 @@
+{
+	title: "§b让我们从一块橙色金属开始……",
+	x: 2.0d,
+	y: -2.0d,
+	description: "制作模块化合金锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"8dbd83c6"
+	],
+	tasks: [{
+		uid: "f00ce333",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}]
+	}],
+	rewards: [{
+		uid: "3a39108e",
+		type: "item",
+		item: "modularmachinery:itemmodularium",
+		count: 16,
+		random_bonus: 8
+	},
+	{
+		uid: "b18972b3",
+		type: "item",
+		item: "modularmachinery:blockcasing",
+		count: 16
+	},
+	{
+		uid: "874fa2b3",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "a174e194",
+		type: "choice",
+		table: 1
+	}]
+}

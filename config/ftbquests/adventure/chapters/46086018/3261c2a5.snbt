@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	dependencies: [
+		"792ea1ae"
+	],
+	tasks: [{
+		uid: "457de3c2",
+		type: "item",
+		items: [{
+			item: "divinerpg:snow_globe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

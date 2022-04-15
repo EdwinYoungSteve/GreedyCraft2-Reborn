@@ -1,0 +1,7 @@
+{
+	title: "【冒险·贰】保持耐心",
+	icon: "minecraft:netherrack",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

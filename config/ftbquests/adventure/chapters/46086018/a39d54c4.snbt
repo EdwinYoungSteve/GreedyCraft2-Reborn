@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: 4.5d,
+	dependencies: [
+		"d80bbebb"
+	],
+	tasks: [{
+		uid: "4e65c49f",
+		type: "item",
+		items: [{
+			item: "divinerpg:ancient_entity_statue"
+		}]
+	}]
+}

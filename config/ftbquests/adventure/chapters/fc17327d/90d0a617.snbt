@@ -1,0 +1,40 @@
+{
+	title: "§b启示录",
+	x: -5.0d,
+	y: 10.0d,
+	description: "击杀天启骑士，获得天启锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"56c7ea3e"
+	],
+	tasks: [{
+		uid: "b1ca83c4",
+		type: "item",
+		items: [{
+			item: "gct_mobs:apocalypsium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "20e24a61",
+		type: "item",
+		item: "gct_mobs:apocalypsium_ingot",
+		count: 24
+	},
+	{
+		uid: "afae37ba",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "213f1888",
+		type: "choice",
+		table: 1
+	},
+	{
+		uid: "588687f2",
+		type: "xp",
+		xp: 1000
+	}]
+}

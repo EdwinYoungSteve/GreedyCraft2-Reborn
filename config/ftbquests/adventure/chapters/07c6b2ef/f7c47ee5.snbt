@@ -1,0 +1,25 @@
+{
+	title: "§b瓦特给我托梦了",
+	x: -4.0d,
+	y: -3.5d,
+	description: "制作蒸汽能源炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"21e1125d"
+	],
+	tasks: [{
+		uid: "467671fa",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

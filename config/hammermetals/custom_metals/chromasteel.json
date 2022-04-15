@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xf44336,
+    "langs": {
+        "material": {
+            "en": "Chromasteel",
+            "zh": "炫钢"
+        }
+    }
+}

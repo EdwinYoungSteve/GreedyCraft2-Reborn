@@ -1,0 +1,40 @@
+{
+    "registryname": "mana_liquefactor",
+    "localizedname": "魔力液化机",
+    "requires-blueprint": true,
+    "failure-action": "still",
+    "color": "C6CBBB",
+    "parts": [
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "gugu-utils:sparkmanahatch@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "gct_ores:terrasteel_machine_frame@0"
+            ]
+        }
+    ]}

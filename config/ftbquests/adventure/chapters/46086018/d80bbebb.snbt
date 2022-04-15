@@ -1,0 +1,18 @@
+{
+	x: -1.5d,
+	y: 3.0d,
+	dependencies: [
+		"860f8e50",
+		"feae1cad",
+		"5e25f9ae"
+	],
+	tasks: [{
+		uid: "de559575",
+		type: "item",
+		items: [{
+			item: "divinerpg:mysterious_clock"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

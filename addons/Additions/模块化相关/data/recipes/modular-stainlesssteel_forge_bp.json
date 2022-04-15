@@ -1,0 +1,34 @@
+{
+  "recipe": {
+    "type": "forge:ore_shaped",
+    "result": {
+      "item": "modularmachinery:itemblueprint",
+      "nbt": "{dynamicmachine:\"modularmachinery:stainlesssteel_forge\"}"
+    },
+    "key": {
+      "0": {
+        "ore_name": "ingotSteel",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "1": {
+        "ore_name": "blockModularium",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "2": {
+        "stack_list": [
+          {
+            "item": "gct_ores:blue_print_forge",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      }
+    },
+    "pattern": [
+      "010",
+      "121",
+      "010"
+    ]
+  },
+  "type": "additions:crafting_shaped"
+}

@@ -1,0 +1,50 @@
+{
+	title: "§b核心的核心",
+	x: 3.5d,
+	y: -3.5d,
+	description: "制作第一个机械控制器！",
+	text: [
+		""
+	],
+	dependencies: [
+		"bccabccf"
+	],
+	tasks: [{
+		uid: "be194560",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "28002086",
+		type: "item",
+		item: "modularmachinery:itemmodularium",
+		count: 32
+	},
+	{
+		uid: "c7662b83",
+		type: "item",
+		item: "modularmachinery:blockenergyinputhatch"
+	},
+	{
+		uid: "0f66ad9a",
+		type: "item",
+		item: "modularmachinery:blockinputbus"
+	},
+	{
+		uid: "28ba775c",
+		type: "item",
+		item: "modularmachinery:blockoutputbus"
+	},
+	{
+		uid: "73acc371",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "4b9106a3",
+		type: "random",
+		table: 1
+	}]
+}

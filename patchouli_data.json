@@ -1,0 +1,46 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "patchouli:the_elysia_project": {
+      "viewedEntries": [
+        "patchouli:constitution/overview",
+        "patchouli:law/overview",
+        "patchouli:logs/log_1",
+        "patchouli:logs/log_2",
+        "patchouli:logs/log_3",
+        "patchouli:logs/log_4",
+        "patchouli:logs/log_5",
+        "patchouli:logs/log_6",
+        "patchouli:logs/log_7",
+        "patchouli:logs/log_8"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:logs/log_7",
+        "patchouli:logs/log_6",
+        "patchouli:logs/log_8",
+        "patchouli:logs/log_5",
+        "patchouli:logs/log_4",
+        "patchouli:logs/log_3",
+        "patchouli:logs/log_2",
+        "patchouli:logs/log_1",
+        "patchouli:law/overview",
+        "patchouli:constitution/overview"
+      ],
+      "completedManualQuests": []
+    },
+    "patchouli:greedycraft_guide_book": {
+      "viewedEntries": [
+        "patchouli:guide/guide_first_things_to_do",
+        "patchouli:guide/guide_stages"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:guide/guide_stages",
+        "patchouli:guide/guide_first_things_to_do"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

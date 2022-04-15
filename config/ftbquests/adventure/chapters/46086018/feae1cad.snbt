@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	dependencies: [
+		"4c400631"
+	],
+	tasks: [{
+		uid: "9e7c4874",
+		type: "item",
+		items: [{
+			item: "divinerpg:netherite_ingot"
+		}]
+	}]
+}

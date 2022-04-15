@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"b0907c42"
+	],
+	tasks: [{
+		uid: "6fa86b25",
+		type: "item",
+		items: [{
+			item: "divinerpg:purple_blaze"
+		}]
+	}]
+}

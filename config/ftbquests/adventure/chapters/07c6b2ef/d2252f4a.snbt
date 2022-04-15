@@ -1,0 +1,26 @@
+{
+	title: "§b冰火同源！",
+	x: -2.5d,
+	y: -3.5d,
+	description: "制作反应能源炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"21e1125d"
+	],
+	tasks: [{
+		uid: "44d6992e",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 3s,
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "§b流体与固体反应？",
+	x: 8.0d,
+	y: 2.5d,
+	description: "制作流体转置机",
+	text: [
+		""
+	],
+	dependencies: [
+		"56ae2c57"
+	],
+	tasks: [{
+		uid: "b5cc1e27",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 8s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fcb9534f",
+		type: "choice",
+		table: 1
+	},
+	{
+		uid: "3c3b9efb",
+		type: "xp",
+		xp: 450
+	}]
+}

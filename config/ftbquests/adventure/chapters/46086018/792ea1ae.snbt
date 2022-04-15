@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	dependencies: [
+		"aabc0db4",
+		"a39d54c4"
+	],
+	tasks: [{
+		uid: "dcfba764",
+		type: "item",
+		items: [{
+			item: "divinerpg:king_of_scorchers_statue"
+		}]
+	}]
+}

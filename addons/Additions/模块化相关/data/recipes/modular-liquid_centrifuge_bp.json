@@ -1,0 +1,38 @@
+{
+  "recipe": {
+    "type": "forge:ore_shaped",
+    "result": {
+      "item": "modularmachinery:itemblueprint",
+      "nbt": "{dynamicmachine:\"modularmachinery:liquid_centrifuge\"}"
+    },
+    "key": {
+      "0": {
+        "ore_name": "blockIridium",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "1": {
+        "ore_name": "blockModularium",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "2": {
+        "stack_list": [
+          {
+            "item": "gct_ores:blue_print_empty",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "3": {
+        "ore_name": "blockPlatinum",
+        "type": "additions:ingredient_ore_nbt"
+      }
+    },
+    "pattern": [
+      "010",
+      "121",
+      "313"
+    ]
+  },
+  "type": "additions:crafting_shaped"
+}

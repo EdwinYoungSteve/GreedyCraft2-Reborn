@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: 4.5d,
+	dependencies: [
+		"792ea1ae",
+		"89d26b2d"
+	],
+	tasks: [{
+		uid: "7aff4915",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-slime_crown"
+		}]
+	}]
+}

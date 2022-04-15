@@ -1,0 +1,36 @@
+{
+	title: "§b这是物品还是方块？",
+	x: 3.5d,
+	y: 1.0d,
+	description: "制作机器框架，热力机器的基础材料！",
+	text: [
+		""
+	],
+	dependencies: [
+		"a7d0748a"
+	],
+	tasks: [{
+		uid: "c1f5d454",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "e91aedef",
+		type: "item",
+		item: "thermalexpansion:frame",
+		count: 8,
+		random_bonus: 2
+	},
+	{
+		uid: "b1c54b47",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "d38b5fd9",
+		type: "random",
+		table: 1
+	}]
+}

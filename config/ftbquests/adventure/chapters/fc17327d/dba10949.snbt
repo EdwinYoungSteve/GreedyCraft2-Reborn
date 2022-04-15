@@ -1,0 +1,35 @@
+{
+	title: "§b这东西是怎么形成的？",
+	x: 1.0d,
+	y: 10.0d,
+	description: "在黑暗森林中央或火焰沼泽挖掘炽铁矿石！",
+	text: [
+		""
+	],
+	dependencies: [
+		"d52f425b"
+	],
+	tasks: [{
+		uid: "53f444f6",
+		type: "item",
+		items: [{
+			item: "additions:twilightaddon-fiery_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "8e729f61",
+		type: "item",
+		item: "additions:twilightaddon-fiery_ore",
+		count: 8
+	},
+	{
+		uid: "ef1db03e",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "105f1b49",
+		type: "random",
+		table: 1
+	}]
+}

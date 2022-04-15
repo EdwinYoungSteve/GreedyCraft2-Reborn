@@ -1,0 +1,19 @@
+{
+	title: "§b清洁能源II",
+	x: -2.5d,
+	y: -0.5d,
+	description: "制作指定的太阳能电池板",
+	text: [
+		""
+	],
+	dependencies: [
+		"8dbac590"
+	],
+	tasks: [{
+		uid: "402371c9",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_2"
+		}]
+	}]
+}

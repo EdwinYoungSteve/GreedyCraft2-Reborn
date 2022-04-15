@@ -1,0 +1,42 @@
+{
+	title: "§b钢铁是怎样炼成的",
+	x: -3.5d,
+	y: 4.0d,
+	description: "使用高炉制作一块钢锭！",
+	text: [
+		""
+	],
+	dependencies: [
+		"8636a008",
+		"8c8857fb"
+	],
+	tasks: [{
+		uid: "62d2238c",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}]
+	}],
+	rewards: [{
+		uid: "4c0f71a6",
+		type: "item",
+		item: "thermalfoundation:material 1 160",
+		count: 8
+	},
+	{
+		uid: "7a46519c",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 32
+	},
+	{
+		uid: "50d60742",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "cd0e98a0",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,63 @@
+{
+	title: "§4旅行者VI",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "abyssalcraft:aboots"
+	},
+	x: -0.5d,
+	y: 7.0d,
+	description: "行走指定的距离",
+	text: [
+		""
+	],
+	dependencies: [
+		"f1f3f2b6"
+	],
+	tasks: [{
+		uid: "b7bfffc6",
+		type: "stat",
+		stat: "stat.walkOneCm",
+		value: 90000000
+	}],
+	rewards: [{
+		uid: "f3459c53",
+		type: "xp",
+		xp: 6245000
+	},
+	{
+		uid: "b88c2d76",
+		type: "item",
+		item: "cyclicmagic:plate_push_fast",
+		count: 128
+	},
+	{
+		uid: "19997e47",
+		type: "item",
+		item: "cyclicmagic:plate_push_fast_corner",
+		count: 64
+	},
+	{
+		uid: "ffd131bc",
+		type: "item",
+		item: "cyclicmagic:plate_push_fast_angle",
+		count: 64
+	},
+	{
+		uid: "beb05dcd",
+		type: "item",
+		item: "tconstruct:materials 1 50",
+		count: 5
+	},
+	{
+		uid: "aa07bb93",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "bda6a8d3",
+		type: "random",
+		table: 2
+	}]
+}

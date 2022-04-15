@@ -1,0 +1,35 @@
+{
+	title: "§b深水区",
+	x: -6.5d,
+	y: 5.5d,
+	description: "挖掘一块锰矿石",
+	text: [
+		""
+	],
+	dependencies: [
+		"8636a008"
+	],
+	tasks: [{
+		uid: "96a628d6",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-manganese_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "496c4b2f",
+		type: "item",
+		item: "additions:greedycraft-manganese_ore",
+		count: 4
+	},
+	{
+		uid: "a8f2c966",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "91941ebc",
+		type: "random",
+		table: 1
+	}]
+}

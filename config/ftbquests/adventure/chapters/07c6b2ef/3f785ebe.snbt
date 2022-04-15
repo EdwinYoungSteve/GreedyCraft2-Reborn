@@ -1,0 +1,26 @@
+{
+	title: "§b什么都能烧",
+	x: -1.0d,
+	y: -3.5d,
+	description: "制作弱化能源炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"21e1125d"
+	],
+	tasks: [{
+		uid: "15c53fcc",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 4s,
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}]
+}

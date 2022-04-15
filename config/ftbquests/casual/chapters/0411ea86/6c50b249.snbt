@@ -1,0 +1,36 @@
+{
+	title: "§4立方。",
+	x: 11.5d,
+	y: -1.0d,
+	description: "击败天启立方",
+	text: [
+		""
+	],
+	dependencies: [
+		"6834e401",
+		"4f88b9b2"
+	],
+	tasks: [{
+		uid: "38138dc2",
+		type: "item",
+		items: [{
+			item: "gct_mobs:apocalypsium_scrap"
+		}]
+	}],
+	rewards: [{
+		uid: "f8388814",
+		type: "item",
+		item: "gct_mobs:apocalypsium_scrap",
+		count: 32
+	},
+	{
+		uid: "dedec3b3",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "6325650a",
+		type: "xp",
+		xp: 55500
+	}]
+}
