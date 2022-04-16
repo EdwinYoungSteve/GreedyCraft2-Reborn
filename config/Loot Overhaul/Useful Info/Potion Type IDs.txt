@@ -296,6 +296,16 @@ tiths:hard_ice
        tiths:hard_ice - 3600 - 0 - false - true
 
 
+enderio:withering
+   - Effects: 
+       minecraft:wither - 900 - 0 - false - true
+
+
+enderio:long_withering
+   - Effects: 
+       minecraft:wither - 2400 - 0 - false - true
+
+
 enderio:floating
    - Effects: 
        minecraft:levitation - 140 - 0 - false - true
@@ -319,31 +329,6 @@ enderio:confusion
 enderio:long_confusion
    - Effects: 
        minecraft:nausea - 2400 - 0 - false - true
-
-
-enderio:withering
-   - Effects: 
-       minecraft:wither - 900 - 0 - false - true
-
-
-enderio:long_withering
-   - Effects: 
-       minecraft:wither - 2400 - 0 - false - true
-
-
-quark:resilience
-   - Effects: 
-       quark:resilience - 3600 - 0 - false - true
-
-
-quark:long_resilience
-   - Effects: 
-       quark:resilience - 9600 - 0 - false - true
-
-
-quark:strong_resilience
-   - Effects: 
-       quark:resilience - 1800 - 1 - false - true
 
 
 quark:haste
@@ -399,6 +384,21 @@ quark:danger_sight
 quark:long_danger_sight
    - Effects: 
        quark:danger_sight - 9600 - 0 - false - true
+
+
+quark:resilience
+   - Effects: 
+       quark:resilience - 3600 - 0 - false - true
+
+
+quark:long_resilience
+   - Effects: 
+       quark:resilience - 9600 - 0 - false - true
+
+
+quark:strong_resilience
+   - Effects: 
+       quark:resilience - 1800 - 1 - false - true
 
 
 potioncore:saturation
@@ -1603,6 +1603,11 @@ charm:ender_sight
        charm:ender_sight - 200 - 0 - false - true
 
 
+blue_skies:unluck
+   - Effects: 
+       minecraft:unluck - 6000 - 0 - false - true
+
+
 gct_mobs:curse_of_twilight
    - Effects: 
        gct_mobs:curse_of_twilight - 3600 - 0 - false - true
@@ -1616,6 +1621,16 @@ gct_mobs:channeling
 gct_mobs:blue_screen
    - Effects: 
        gct_mobs:blue_screen - 3600 - 0 - false - true
+
+
+gct_mobs:anti_anyposion
+   - Effects: 
+       gct_mobs:anti_anyposion - 3600 - 0 - false - true
+
+
+gct_mobs:world_end
+   - Effects: 
+       gct_mobs:world_end - 3600 - 0 - false - true
 
 
 extrautils2:xu2.doom
@@ -1665,15 +1680,5 @@ extrautils2:xu2.love
 extrautils2:xu2.purging
    - Effects: 
        extrautils2:effect.xu2.purging - 0 - 0 - false - true
-
-
-gct_mobs:world_end
-   - Effects: 
-       gct_mobs:world_end - 3600 - 0 - false - true
-
-
-gct_mobs:anti_anyposion
-   - Effects: 
-       gct_mobs:anti_anyposion - 3600 - 0 - false - true
 
 

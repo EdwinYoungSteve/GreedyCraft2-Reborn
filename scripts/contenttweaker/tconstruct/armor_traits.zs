@@ -21,6 +21,7 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.game.IGame;
+import crafttweaker.world.IExplosion;
 
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.tconstruct.Material;

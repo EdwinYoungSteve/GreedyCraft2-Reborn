@@ -126,6 +126,15 @@ CompactMachines
 	- Terrain Scale: 1.0
 
 
+betweenlands
+	- Id: 20
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
 divinerpg:eden
 	- Id: 420
 	- Height: 256
@@ -225,6 +234,78 @@ theaurorian
 	- Terrain Scale: 1.0
 
 
+euca
+	- Id: 820
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 5.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+boiling_point
+	- Id: 822
+	- Height: 128
+	- Has Sky? true
+	- Cloud Height: 64.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+cloudia
+	- Id: 826
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 8.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+corba
+	- Id: 824
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+depths
+	- Id: 821
+	- Height: 128
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+frozen_lands
+	- Id: 823
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 100.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+terrania
+	- Id: 827
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+senterian
+	- Id: 829
+	- Height: 128
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
 candymod
 	- Id: 23
 	- Height: 256
@@ -267,6 +348,42 @@ Spectre
 	- Has Sky? false
 	- Cloud Height: -5.0
 	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+Arche
+	- Id: 25
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+everbright
+	- Id: 76
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 180.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+everdawn
+	- Id: 77
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 180.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+misty_world
+	- Id: 69
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 192.0
+	- Can Respawn Here? true
 	- Terrain Scale: 1.0
 
 

@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xc9dcb4,
+    "langs": {
+        "material": {
+            "en": "Knight Metal",
+            "zh": "骑士金属"
+        }
+    }
+}

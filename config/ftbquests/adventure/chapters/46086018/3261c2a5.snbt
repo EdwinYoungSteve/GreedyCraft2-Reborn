@@ -1,6 +1,11 @@
 {
+	title: "§b这只是个门钥匙",
 	x: 0.0d,
 	y: 6.0d,
+	description: "制作雪花球",
+	text: [
+		""
+	],
 	dependencies: [
 		"792ea1ae"
 	],

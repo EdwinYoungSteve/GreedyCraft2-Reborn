@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xdbc0c0,
+    "langs": {
+        "material": {
+            "en": "Alumite",
+            "zh": "耐酸铝"
+        }
+    }
+}

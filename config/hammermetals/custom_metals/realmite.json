@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xde8d36,
+    "langs": {
+        "material": {
+            "en": "Realmite",
+            "zh": "诺米特"
+        }
+    }
+}

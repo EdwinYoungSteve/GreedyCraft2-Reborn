@@ -63,7 +63,7 @@
             "x": [-1, 0, 1],
             "y": [1, 2],
             "z": 1,
-            "elements": ["minecraft:lava"]
+            "elements": ["abyssalcraft:solidlava"]
         },
         {
             "x": -2,

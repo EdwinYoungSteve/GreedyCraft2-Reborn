@@ -21,6 +21,15 @@ val oeEnchantId = <enchantment:oeintegration:oreexcavation>.id as int;
 //                            //
 ////////////////////////////////
 
+recipes.remove(<gct_ores:chaos_shard_block>);
+recipes.addShaped(<gct_ores:chaos_shard_block> * 1, [[<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>], [<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>],[<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>]]);
+recipes.remove(<draconicevolution:chaos_shard:0>);
+recipes.addShaped(<draconicevolution:chaos_shard:0> * 9, [[<gct_ores:chaos_shard_block>, null, null], [null, null, null],[null, null, null]]);
+recipes.remove(<gct_ores:stormy_shard_block>);
+recipes.addShaped(<gct_ores:stormy_shard_block> * 1, [[<gct_ores:stormy_shard>, <gct_ores:stormy_shard>, <gct_ores:stormy_shard>], [<gct_ores:stormy_shard>, <gct_ores:stormy_shard>, <gct_ores:stormy_shard>],[<gct_ores:stormy_shard>, <gct_ores:stormy_shard>, <gct_ores:stormy_shard>]]);
+recipes.remove(<gct_ores:stormy_shard>);
+recipes.addShaped(<gct_ores:stormy_shard> * 9, [[<gct_ores:stormy_shard_block>, null, null], [null, null, null],[null, null, null]]);
+
 RecipeUtil.addShapeless("web_to_string", <minecraft:string> * 2,
     [<minecraft:web>]
 );

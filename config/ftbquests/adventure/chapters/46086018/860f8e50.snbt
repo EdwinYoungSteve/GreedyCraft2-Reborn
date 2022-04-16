@@ -1,6 +1,11 @@
 {
+	title: "§b阴暗藏于深处",
 	x: -1.5d,
 	y: 1.5d,
+	description: "获得阴影锭，卢比和诺米特的合金",
+	text: [
+		""
+	],
 	dependencies: [
 		"2384505d",
 		"5e5f2936"
@@ -11,5 +16,22 @@
 		items: [{
 			item: "divinerpg:shadow_bar"
 		}]
+	}],
+	rewards: [{
+		uid: "20103be3",
+		type: "item",
+		item: "divinerpg:shadow_bar",
+		count: 5,
+		random_bonus: 3
+	},
+	{
+		uid: "f15954ed",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "72cb7f5a",
+		type: "random",
+		table: 1
 	}]
 }

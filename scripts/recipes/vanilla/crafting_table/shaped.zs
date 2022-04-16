@@ -19,6 +19,18 @@ import scripts.util.lang as LangUtil;
 //                            //
 ////////////////////////////////
 
+recipes.remove(<divinerpg:mysterious_clock>);
+recipes.addShaped(<divinerpg:mysterious_clock> * 1, [[<divinerpg:netherite_chunk>, <tconstruct:ingots:2>, <divinerpg:netherite_chunk>], [<divinerpg:shadow_bar>, <minecraft:clock>, <divinerpg:shadow_bar>],[<additions:twilightaddon-refined_twilight_gem>, <tconstruct:ingots:2>, <additions:twilightaddon-refined_twilight_gem>]]);
+
+recipes.remove(<divinerpg:infernal_flame>);
+recipes.addShaped(<divinerpg:infernal_flame> * 1, [[<minecraft:redstone>, <divinerpg:purple_blaze>, <minecraft:glowstone_dust>], [<minecraft:redstone>, <botania:blazeblock>, <minecraft:glowstone_dust>],[<minecraft:redstone>, <divinerpg:purple_blaze>, <minecraft:glowstone_dust>]]);
+
+recipes.remove(<additions:greedycraft-slime_crown>);
+recipes.addShaped(<additions:greedycraft-slime_crown> * 1, [[<minecraft:gold_ingot>, <thermalfoundation:material:161>, <minecraft:gold_ingot>], [<tconstruct:ingots:3>, <minecraft:slime>, <tconstruct:ingots:3>],[<tconstruct:ingots:3>, <tconstruct:ingots:3>, <tconstruct:ingots:3>]]);
+
+recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "divinerpg:the_grue"}}) * 1, [[null, <ore:ingotArlemite>, null], [<ore:ingotRupee>, <minecraft:egg>, <ore:ingotRupee>],[null, <ore:ingotArlemite>, null]]);
+recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "divinerpg:enthralled_dramcryx"}}) * 1, [[null, <divinerpg:rupee_ingot>, null], [<divinerpg:arlemite_ingot>, <minecraft:egg>, <divinerpg:arlemite_ingot>],[null, <divinerpg:rupee_ingot>, null]]);
+
 RecipeUtil.addShaped("tofustick", <tofucraft:tofustick>, [
     [<minecraft:gold_block>, <tofucraft:material:18>, <minecraft:gold_block>],
     [<minecraft:gold_block>, <tofucraft:blocktofumomen>, <minecraft:gold_block>],
@@ -1383,6 +1395,11 @@ RecipeUtil.addShaped("transmutation_disk", <equivalentintegrations:conjuration_a
     [<ore:ingotAeonsteel>, <additions:greedycraft-energy_matter_core>, <ore:ingotAeonsteel>], 
     [<ore:ingotAeonsteel>, <ore:pearlFluix>, <ore:ingotAeonsteel>]
 ]);
+RecipeUtil.addShaped("final_cuit", <additions:mekaddon-final_control_circuit>, [
+    [null, <ore:ingotChromasteel>, null],
+    [<ore:alloyFinal>, <ore:circuitUltimate>, <ore:alloyFinal>],
+    [null, <ore:ingotChromasteel>, null]
+]);
 
 /* Templates
 
@@ -1398,3 +1415,4 @@ RecipeUtil.addShaped("", <>, [
     []
 ]);
 */
+

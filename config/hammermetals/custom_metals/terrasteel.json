@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x3dbe00,
+    "langs": {
+        "material": {
+            "en": "Terrasteel",
+            "zh": "泰拉钢"
+        }
+    }
+}

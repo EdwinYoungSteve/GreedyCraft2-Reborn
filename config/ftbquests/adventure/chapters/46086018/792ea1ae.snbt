@@ -1,6 +1,11 @@
 {
+	title: "§b紫色诱惑",
 	x: 0.0d,
 	y: 4.5d,
+	description: "使用地狱之火召唤并击杀紫焰王",
+	text: [
+		""
+	],
 	dependencies: [
 		"aabc0db4",
 		"a39d54c4"

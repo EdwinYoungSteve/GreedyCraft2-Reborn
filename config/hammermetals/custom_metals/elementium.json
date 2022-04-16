@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xf15cae,
+    "langs": {
+        "material": {
+            "en": "Elementium",
+            "zh": "源质钢"
+        }
+    }
+}

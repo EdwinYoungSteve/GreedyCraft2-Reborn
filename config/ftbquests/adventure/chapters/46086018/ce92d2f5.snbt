@@ -1,6 +1,11 @@
 {
+	title: "§b不是钴-60",
 	x: 1.5d,
 	y: 0.0d,
+	description: "挖掘一块钴矿石",
+	text: [
+		""
+	],
 	dependencies: [
 		"4c400631"
 	],
@@ -10,5 +15,21 @@
 		items: [{
 			item: "tconstruct:ore"
 		}]
+	}],
+	rewards: [{
+		uid: "7ea338fc",
+		type: "item",
+		item: "tconstruct:ore",
+		count: 8
+	},
+	{
+		uid: "7e021f91",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "cc459ebd",
+		type: "random",
+		table: 1
 	}]
 }

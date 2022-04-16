@@ -126,7 +126,12 @@ global deathQuotes as string[][string] = {
         "§6我们赶到事发现场时只发现一张纸条，上面写着：“%playername%，yyds”",
         "§6我大意了，没有闪！",
         "§e年轻人我劝你耗子尾汁！",
-        "§emc_Edwin加入了游戏。"
+        "§emc_Edwin加入了游戏。",
+        "§e%playername%被凋灵风暴吃了！",
+        "§d你TM故意找茬是不是？！",
+        "§d%playername%，去找TCreopargh快活吧！",
+        "§a打的就是你。",
+        "§e你知道吗？贪婪整合包出手机版了！"
     ],
     en_us: [
         "§bˉ\\_(ツ)_/ˉ",

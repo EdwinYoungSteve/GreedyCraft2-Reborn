@@ -18,11 +18,6 @@ import scripts.util.oredict as OredictUtil;
 <ore:ingotNetherite>.remove(<divinerpg:netherite_ingot>);
 <ore:blockNetherite>.remove(<divinerpg:netherite_block>);
 <ore:oreNetherite>.remove(<divinerpg:netherite_ore>);
-<ore:blockFiery>.remove(<twilightforest:block_storage:1>);
-<ore:ingotFiery>.remove(<twilightforest:fiery_ingot>);
-<ore:ingotFierymetal>.remove(<additions:banned-fiery_ingot>);
-<ore:blockFierymetal>.remove(<jaopca:block_blockfierymetal>);
-
 
 var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:blockFierymetal> : [<twilightforest:block_storage:1>],
@@ -388,6 +383,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:gemDivine> : [<divinerpg:divine_stone>],
     <ore:gemCorrupted> : [<divinerpg:corrupted_stone>],
     <ore:gemMolten> : [<divinerpg:molten_stone>],
+    <ore:gemBloodgem> : [<divinerpg:bloodgem>],
     <ore:gemEnderDivine> : [<divinerpg:ender_stone>],
     <ore:oreAquatic> : [<divinerpg:pure_aquatic_pellets>],
     <ore:palletsAquatic> : [<divinerpg:aquatic_pellets>],
@@ -404,7 +400,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:ingotApalachia> : [<divinerpg:apalachia_fragments>],
     <ore:ingotSkythern> : [<divinerpg:skythern_fragments>],
     <ore:ingotMortum> : [<divinerpg:mortum_fragments>],
-    <ore:slimeball> : [<divinerpg:aqua_ball>],
+    <ore:ballAqua> : [<divinerpg:aqua_ball>],
     <ore:gemHealing> : [<divinerpg:healing_stone>],
     <ore:gemCinnabar> : [<tiths:mercury_sulfide>],
     <ore:ingotCinnabar> : [<ore:gemCinnabar>],
@@ -440,7 +436,14 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:itemYellowMatter> : [<projectex:matter:8>],
     <ore:itemOrangeMatter> : [<projectex:matter:9>],
     <ore:itemWhiteMatter> : [<projectex:matter:10>],
-    <ore:itemFadingMatter> : [<projectex:matter:11>]
+    <ore:itemFadingMatter> : [<projectex:matter:11>],
+    <ore:ingotElementium> : [<ore:ingotElvenElementium>],
+    <ore:nuggetElementium> : [<ore:nuggetElvenElementium>],
+    <ore:blockElementium> : [<ore:blockElvenElementium>],
+    <ore:blockCalciumCarbonate> : [
+        <ore:stoneLimestone>, 
+        <ore:stoneMarble>
+    ]
 };
  
 var removeMap as IIngredient[][IOreDictEntry] = {

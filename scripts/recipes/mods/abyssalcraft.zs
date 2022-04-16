@@ -14,8 +14,12 @@ import mods.abyssalcraft.Transmutator;
 import mods.abyssalcraft.CreationRitual;
 import mods.abyssalcraft.InfusionRitual;
 
+Transmutator.removeTransmutationOutput(<abyssalcraft:solidlava>);
+
 Transmutator.addFuel(<abyssalcraft:cingot>, 1200);
 Transmutator.addFuel(<additions:greedycraft-energy_matter_core>, 600000);
+Transmutator.addFuel(<gct_mobs:sanite_ingot>, 2000);
+Transmutator.addFuel(<gct_mobs:sanite_block>, 18000);
 
 InfusionRitual.addRitual("abyssalite", 0, -1, 500, false, <abyssalcraft:abyore>,  <minecraft:iron_ore>, [
     <abyssalcraft:shadowshard>, 

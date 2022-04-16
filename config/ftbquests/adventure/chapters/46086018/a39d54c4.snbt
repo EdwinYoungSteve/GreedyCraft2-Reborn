@@ -1,6 +1,11 @@
 {
+	title: "§b乌 鸦 坐 飞 机",
 	x: -1.5d,
 	y: 4.5d,
+	description: "使用神秘之钟召唤并击杀远古之力",
+	text: [
+		"记得带上你的史莱姆靴子！"
+	],
 	dependencies: [
 		"d80bbebb"
 	],

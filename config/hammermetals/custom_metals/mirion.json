@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xc6dd66,
+    "langs": {
+        "material": {
+            "en": "Mirion",
+            "zh": "蕴魔结晶"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x080606,
+    "langs": {
+        "material": {
+            "en": "Fiery",
+            "zh": "炽铁"
+        }
+    }
+}

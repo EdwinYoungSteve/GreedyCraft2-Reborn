@@ -1,6 +1,11 @@
 {
+	title: "§b不存在的，也是虚构的",
 	x: 3.0d,
 	y: 1.5d,
+	description: "挖掘一块阿迪特矿石",
+	text: [
+		""
+	],
 	dependencies: [
 		"4c400631"
 	],
@@ -10,5 +15,21 @@
 		items: [{
 			item: "tconstruct:ore 1 1"
 		}]
+	}],
+	rewards: [{
+		uid: "abc37df8",
+		type: "item",
+		item: "tconstruct:ore 1 1",
+		count: 8
+	},
+	{
+		uid: "b4ad3182",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "0775897d",
+		type: "choice",
+		table: 1
 	}]
 }

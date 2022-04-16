@@ -105,6 +105,8 @@ draconium                                         ([no block])                  
 wyvern_metal                                      ([no block])                                                                     = ·ÉÁú¾ÛºÏÎï
 draconic_metal                                    ([no block])                                                                     = ÉñÁú¾ÛºÏÎï
 chaotic_metal                                     ([no block])                                                                     = »ìãç½â¹¹ÖÊ
+essence_metal                                     ([no block])                                                                     = ÈÛÈÚÔÌÄ§Ô´ÖÊ
+pink_metal                                        ([no block])                                                                     = ÈÛÈÚ·ÛÉ«½ğÊô
 iridium                                           ([no block])                                                                     = ÈÛÈÚÒ¿
 osmium                                            ([no block])                                                                     = ÈÛÈÚï°
 refined_obsidian                                  ([no block])                                                                     = ÈÛÈÚÇ¿»¯ºÚê×Ê¯
@@ -165,6 +167,9 @@ obsidiorite_fluid                                 (taiga:molten_obsidiorite_flui
 alumite                                           (plustic:plustic.molten_alumite)                                                 = ÈÛÈÚÄÍËáÂÁ
 osgloglas                                         (plustic:plustic.molten_osgloglas)                                               = ÈÛÈÚï°Ó«ºÚê×ºÏ½ğ
 osmiridium                                        (plustic:plustic.molten_osmiridium)                                              = ÈÛÈÚÒ¿ï°ºÏ½ğ
+dawnstone                                         (embers:dawnstone)                                                               = ÈÛÈÚÀèÃ÷Ê¯
+octine                                            (pewter:molten_octine)                                                           = ÈÛÈÚ³ãÑ×Ìú
+syrmorite                                         (pewter:molten_syrmorite)                                                        = ÈÛÈÚÈüÄ¦Í­
 adeninite                                         (pewter:molten_adeninite)                                                        = Molten ÏÙàÑßÊ
 aetherium                                         (pewter:molten_aetherium)                                                        = Molten ÒÔÌ«
 bnightium                                         (pewter:molten_bnightium)                                                        = Molten Ò¹Ã÷

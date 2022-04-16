@@ -110,6 +110,9 @@ Casting.addBasinRecipe(<gct_ores:chaotic_draconium_block>, null, <liquid:chaotic
 Casting.addBasinRecipe(<gct_ores:genite_machine_frame>, <thermalexpansion:frame>, <liquid:genite>, 576, false, 100);
 Casting.addBasinRecipe(<gct_ores:everite_machine_frame>, <thermalexpansion:frame>, <liquid:everite>, 576, false, 100);
 Casting.addBasinRecipe(<gct_ores:balanced_matrix_block>, null, <liquid:balanced_matrix>, VOLUME_BLOCK, false, 300);
+Casting.addBasinRecipe(<abyssalcraft:solidlava>, <minecraft:glass>, <liquid:lava>, 1000, true, 100);
+Casting.addBasinRecipe(<gct_tcon:solidpyrotheumblock>, <minecraft:glass>, <liquid:pyrotheum>, 1000, true, 100);
+Casting.addBasinRecipe(<gct_tcon:solidnitriteblock>, <minecraft:glass>, <liquid:nitronite_fluid>, 1000, true, 100);
 
 Casting.addTableRecipe(<abyssalcraft:ethaxiumingot>, <tconstruct:cast_custom>, <liquid:ethaxium>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<additions:astral_metal_ingot>, <tconstruct:cast_custom>, <liquid:astral_metal>, VOLUME_INGOT, false, 200);

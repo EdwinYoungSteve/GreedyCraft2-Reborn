@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x7a80d2,
+    "langs": {
+        "material": {
+            "en": "Osmiridium",
+            "zh": "铱锇合金"
+        }
+    }
+}

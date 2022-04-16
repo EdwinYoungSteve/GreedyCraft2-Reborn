@@ -171,3 +171,4 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <twilightforest:giant_leaves>, 
 	[<ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, <ore:treeLeaves>, null], 
 	[null, null, null, null, null, null, null, null, null]
 ]);
+
