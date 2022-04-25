@@ -1,0 +1,50 @@
+{
+    "versionName": "2.0.0",
+    "versionCode": 1,
+    "versionFormat": "%versionName%.%versionCode%.%versionGroup%",
+    "sponsors": [],
+    "sponsorMessage": [
+        "",
+        {
+            "text": "您的赞助是我创作的动力，感谢赞助！",
+            "color": "gold"
+        },
+        {
+            "text": "\n"
+        },
+        {
+            "text": "成为赞助者！",
+            "color": "red",
+            "bold": true,
+            "underlined": true,
+            "clickEvent": {
+                "action": "open_url",
+                "value": "https://afdian.net/@eys2008lu493992"
+            }
+        }
+    ],
+    "changelogs": {
+        "2.0.0": [
+            "第一个贪婪整合包2版本"
+        ]
+    },
+    "variables": {
+        "versionGroup": 0
+    },
+    "welcomeMessage": [
+        "",
+        {
+            "text": "欢迎游玩",
+            "color": "gold"
+        },
+        {
+            "text": "贪婪整合包II：重生",
+            "bold": true,
+            "color": "aqua"
+        },
+        {
+            "text": "！",
+            "color": "gold"
+        }
+    ]
+}
