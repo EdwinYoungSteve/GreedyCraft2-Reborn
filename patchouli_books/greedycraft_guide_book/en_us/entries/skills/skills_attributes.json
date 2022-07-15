@@ -1,12 +1,12 @@
 {
-    "name": "Skill Attributes",
+    "name": "技能属性",
     "icon": "minecraft:diamond_sword",
     "category": "patchouli:skill_category",
     "priority": true,
     "pages": [
         {
             "type": "text",
-            "text": "Leveling up skills give you different boosts to your $(6)Attributes$(). Different skills affect different types of attributes:  $(li)$(2)Agility$(): $(5)Movement Speed$() $(li)$(2)Attack$(): $(5)Attack Damage$() $(li)$(2)Building$(): $(5)Armor Toughness$() $(li)$(2)Defense$(): $(5)Armor Points$() $(li)$(2)Farming$(): $(5)Max Health$()$(li) $(2)Gathering$(): $(5)Luck$()$(li)$(2)Magic$(): $(5)Gain more EXP when picking up XP orbs$() $(li)$(2)Mining$(): $(5)Attack Speed$()"
+            "text": "升级技能能给你提供不同的$(6)属性$()加成！不同的技能影响的属性种类不同： $(li)$(2)敏捷$(): $(5)移动速度$() $(li)$(2)攻击$(): $(5)攻击伤害$() $(li)$(2)建造$(): $(5)盔甲韧性$() $(li)$(2)防御$(): $(5)盔甲点数$() $(li)$(2)农耕$(): $(5)最大生命值$()$(li)$(2)采集$(): $(5)幸运$()$(li)$(2)魔法$(): $(5)获得经验数量$() $(li)$(2)挖掘$(): $(5)攻击速度$()"
         }
     ]
 }
