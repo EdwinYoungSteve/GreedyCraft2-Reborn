@@ -1,0 +1,10 @@
+{
+  "item_block": {
+    "name": "不锈钢矿石",
+    "ore_dict": "oreStainlessSteel",
+    "type": "additions:block_simple"
+  },
+  "name": "不锈钢矿石",
+  "material": "minecraft:stone",
+  "type": "additions:simple"
+}

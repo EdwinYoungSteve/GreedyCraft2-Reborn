@@ -1,0 +1,10 @@
+{
+  "item_block": {
+    "name": "精灵钢矿石",
+    "ore_dict": "oreElfsteel",
+    "type": "additions:block_simple"
+  },
+  "name": "精灵钢矿石",
+  "material": "minecraft:stone",
+  "type": "additions:simple"
+}

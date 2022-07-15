@@ -1,0 +1,10 @@
+{
+  "item_block": {
+    "name": "熔岩矿石",
+    "ore_dict": "oreLavaSolid",
+    "type": "additions:block_simple"
+  },
+  "name": "熔岩矿石",
+  "material": "minecraft:stone",
+  "type": "additions:simple"
+}
