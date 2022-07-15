@@ -18,12 +18,16 @@ import mods.jei.JEI;
 
 import scripts.util.machines as MMUtil;
 
-MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_ingot>, 6), (30000 * FORGE_COST_MULTIPLIER) as int, (64000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
+MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_ingot>, 8), (30000 * FORGE_COST_MULTIPLIER) as int, (64000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
     <additions:durasteel_ingot>,
+    <additions:greedycraft-hellite_ingot>,
+    <tiths:ingot_witherium>,
+    <gct_ores:genite_ingot>,
     <tconevo:material>,
-    <draconicevolution:draconium_ingot>,
     <enderio:item_alloy_endergy_ingot:3>,
-    <gct_ores:genite_ingot>
+    <theaurorian:auroriansteel>,
+    <additions:greedycraft-twilight_crystal_ingot>,
+    <draconicevolution:draconium_ingot>
 ] as IItemStack[], {
     <additions:greedycraft-catalyst_star> : {
         speed: 0.75,
@@ -37,6 +41,10 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
         speed: 0.15,
         energy: 0.3
     }, 
+    <gct_ores:relifed_witherium_ingot> : {
+        speed: 0.15,
+        energy: 0.3
+    },
     <extrabotany:material:1> : {
         speed: 0.35,
         energy: 0.35

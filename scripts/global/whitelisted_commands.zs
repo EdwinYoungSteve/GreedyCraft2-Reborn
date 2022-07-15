@@ -8,6 +8,8 @@
 
 global whitelistedCommands as string[] = [
     "ping",
+    "sampler",
+    "csampler",
     "me", 
     "say", 
     "help", 

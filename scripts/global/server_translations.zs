@@ -72,6 +72,13 @@ global serverTranslations as string[string][string] = {
         "greedycraft.zensummoning.frostmaw.fail.4": "§c冰霜巨口不愿回应你的召唤，现在的天气过于晴朗。它只在寒冷的生物群系下雪时出没！",
         "greedycraft.zensummoning.frostmaw.fail.5": "§c你只能在主世界召唤冰霜巨口！",
         "greedycraft.zensummoning.frostmaw.success": "§b冰霜巨口 §5§o已苏醒！",
+
+        "greedycraft.zensummoning.zethur.fail.1": "§c召唤失败。周围的地形不够开阔。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§c高草等可以穿过的方块同样也会影响召唤。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。",
+        "greedycraft.zensummoning.zethur.fail.2": "§c召唤失败。周围的地板不够平整。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§cc这条消息表明祭坛上方有足够的空气，但是祭坛所处的平台大小不够或有缺口。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。",
+        "greedycraft.zensummoning.zethur.fail.4": "§c西风雷鸣云无法被凝聚……现在的天气过于晴朗。它只在下雨天时出没！",
+        "greedycraft.zensummoning.zethur.fail.5": "§c你只能在天境召唤西风雷鸣云！",
+        "greedycraft.zensummoning.zethur.success": "§9西风雷鸣云 §5§o已苏醒！",
+
         "greedycraft.zensummoning.tcreopargh.fail.1": "§c你只能在下界召唤§c§kTCreopargh§r§c。",
         "greedycraft.zensummoning.tcreopargh.fail.2": "§c无法召唤§c§kTCreopargh§r§c。周围的地形不够开阔。",
         "greedycraft.zensummoning.tcreopargh.fail.3": "§c无法召唤§c§kTCreopargh§r§c。周围的地形不够平坦。",
@@ -85,7 +92,8 @@ global serverTranslations as string[string][string] = {
         "greedycraft.scoreboard.mode.adventure": "§9游戏模式：§6冒险",
         "greedycraft.scoreboard.mode.casual": "§9游戏模式：§a休闲",
         "greedycraft.scoreboard.mode.expert": "§9游戏模式：§c专家",
-        "greedycraft.scoreboard.author": "§eBy：§dTCreopargh",
+        "greedycraft.scoreboard.author": "原作：§dTCreopargh",
+        "greedycraft.scoreboard.author2": "改进：§dmc_Edwin",
         "greedycraft.stage.unfamiliar.name": "§5§ka§r §d未知物品 §5§ka§r",
         "greedycraft.stage.wither_skull.name": "§c无法直视的头颅",
         "greedycraft.stage.disabled_item.name": "§4已禁用的物品",

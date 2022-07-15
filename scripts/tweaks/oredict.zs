@@ -18,8 +18,14 @@ import scripts.util.oredict as OredictUtil;
 <ore:ingotNetherite>.remove(<divinerpg:netherite_ingot>);
 <ore:blockNetherite>.remove(<divinerpg:netherite_block>);
 <ore:oreNetherite>.remove(<divinerpg:netherite_ore>);
+<ore:blockHellstone>.remove(<journey:hellstoneblock>);
+<ore:ingotHellstone>.remove(<journey:hellstoneingot>);
+<ore:oreHellstone>.remove(<journey:hellstoneore>);
 
 var oredictMap as IIngredient[][IOreDictEntry] = {
+    <ore:ingotBloodcrust> : [<journey:hellstoneingot>],
+    <ore:blockBloodcrust> : [<journey:hellstoneblock>],
+    <ore:oreBloodcrust> : [<journey:hellstoneore>],
     <ore:blockFierymetal> : [<twilightforest:block_storage:1>],
     <ore:ingotFierymetal> : [<twilightforest:fiery_ingot>],
     <ore:gemCarminite> : [<twilightforest:carminite>],
@@ -439,11 +445,24 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:itemFadingMatter> : [<projectex:matter:11>],
     <ore:ingotElementium> : [<ore:ingotElvenElementium>],
     <ore:nuggetElementium> : [<ore:nuggetElvenElementium>],
-    <ore:blockElementium> : [<ore:blockElvenElementium>],
-    <ore:blockCalciumCarbonate> : [
-        <ore:stoneLimestone>, 
-        <ore:stoneMarble>
-    ]
+    <ore:blockElementium> : [<botania:storage:2>],
+    <ore:blockCalciumCarbonate> : [<ore:stoneLimestone>],
+    <ore:gemManaDiamond> : [<ore:manaDiamond>],
+    <ore:gemManaLapis> : [<botanicadds:mana_lapis>],
+    <ore:blockManaLapis> : [<botanicadds:mana_lapis_block>],
+    <ore:gemManaQuartz> : [<botania:quartz:1>],
+    <ore:shardSpace> : [<rftools:dimensional_shard>],
+    <ore:ingotAurorianite> : [<theaurorian:aurorianiteingot>],
+    <ore:ingotCrystalline> : [<theaurorian:crystallineingot>],
+    <ore:ingotUmbra> : [<theaurorian:umbraingot>],
+    <ore:logWoodVethea> : [
+        <divinerpg:dreamwood_log>,
+        <divinerpg:hyrewood_log>,
+        <divinerpg:mintwood_log>,
+        <divinerpg:firewood_log>
+    ],
+    <ore:gemDilithium> : [<taiga:dilithium_crystal>],
+    <ore:dilithium> : [<taiga:dilithium_crystal>]
 };
  
 var removeMap as IIngredient[][IOreDictEntry] = {

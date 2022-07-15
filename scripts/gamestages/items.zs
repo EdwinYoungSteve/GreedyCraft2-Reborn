@@ -105,7 +105,6 @@ GameStagesUtil.stageGettingStarted.addIngredients([
 ], false);
 
 GameStagesUtil.stageFusionMatrix.addIngredients([
-    <additions:greedycraft-beast_hand>,
     <zensummoning:altar>,
     <ore:oreDraconium>,
     <ore:ingotDraconium>,
@@ -114,6 +113,10 @@ GameStagesUtil.stageFusionMatrix.addIngredients([
     <ore:ingotElectronium>,
     <ore:blockElectronium>,
     <mysticalcreations:fusion_matrix_essence>
+], true);
+
+GameStagesUtil.stageVetheaBreaker.addIngredients([
+    <additions:greedycraft-beast_hand>
 ], true);
 
 GameStagesUtil.stageWyvern.addIngredients([
@@ -333,7 +336,23 @@ GameStagesUtil.stageNether.addIngredients([
     <divinerpg:arcanium>,
     <divinerpg:collector>,
     <divinerpg:collector_fragments>,
-    <divinerpg:dungeon_tokens>
+    <divinerpg:dungeon_tokens>,
+    <additions:greedycraft-iciricium_ingot>,
+    <additions:greedycraft-iciricium_ore>,
+    <jaopca:block_blockiciricium>,
+    <jaopca:item_dusticiricium>,
+    <abyssalcraft:cingot>,
+    <abyssalcraft:ingotblock:1>,
+    <abyssalcraft:ingotnugget:1>,
+    <acintegration:dust:1>,
+    <additions:twilightaddon-refined_twilight_gem>,
+    <tconstruct:ingots:2>,
+    <tconstruct:metal:2>,
+    <tconstruct:nuggets:2>,
+    <additions:greedycraft-iciricium_scroll>,
+    <additions:greedycraft-gem_of_sing>,
+    <additions:greedycraft-balancite_ingot>,
+    <additions:greedycraft-balancite_block>
 ], true);
 
 GameStagesUtil.stageNether.addIngredients([
@@ -620,7 +639,10 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
     <ore:ingotStellarAlloy>,
     <ore:blockStellarAlloy>,
     <ore:nuggetStellarAlloy>,
-    <abyssalcraft:soulreaper>
+    <abyssalcraft:soulreaper>,
+    <additions:greedycraft-soul_of_slider>,
+    <additions:greedycraft-gem_of_valkyrie>,
+    <additions:greedycraft-sun_crystal>
 ], true);
 
 GameStagesUtil.stageNoviceWizard.addIngredients([
@@ -843,5 +865,6 @@ GameStagesUtil.stageHardmode.addModId(["avaritia", "draconicevolution", "extrabo
 GameStagesUtil.stageNether.addModId(["aether_legacy", "cyclicmagic", "touhou_little_maid", "aeble"]);
 GameStagesUtil.stageNoviceWizard.addModId(["bloodmagic", "bloodarsenal", "animus"]);
 GameStagesUtil.stageNoviceEngineer.addModId(["enderio"]);
+GameStagesUtil.stageDisabled.addModId(["embers", "matteroverdrive", "naturesaura", "industrialforegoing"]);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");

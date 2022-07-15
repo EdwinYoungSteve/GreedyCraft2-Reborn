@@ -670,3 +670,99 @@ starskyTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
     }
 };
 starskyTrait.register();
+
+val disappearingTrait = TraitBuilder.create("disappearing");
+disappearingTrait.color = Color.fromHex("ffffff").getIntColor();
+disappearingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.disappearingTrait.name");
+disappearingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.disappearingTrait.desc");
+disappearingTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IEntityLivingBase) {
+        var ownerBase as IEntityLivingBase = owner;
+        if (isSelected) {
+            ownerBase.addPotionEffect(<potion:minecraft:invisibility>.makePotionEffect(20, 0, false, false));
+        } 
+    }
+};
+disappearingTrait.register();
+
+val twilighthand1Trait = TraitBuilder.create("twilight_hand1");
+twilighthand1Trait.color = Color.fromHex("ffffff").getIntColor();
+twilighthand1Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait1.name");
+twilighthand1Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait.desc");
+twilighthand1Trait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker.getDimension() == 420||attacker.getDimension() == 421||attacker.getDimension() == 422||attacker.getDimension() == 423||attacker.getDimension() == 424) {
+        return newDamage * 1.2f;
+    }
+    return newDamage;
+};
+twilighthand1Trait.register();
+
+val twilighthand2Trait = TraitBuilder.create("twilight_hand2");
+twilighthand2Trait.color = Color.fromHex("ffffff").getIntColor();
+twilighthand2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait2.name");
+twilighthand2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait.desc");
+twilighthand2Trait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker.getDimension() == 420||attacker.getDimension() == 421||attacker.getDimension() == 422||attacker.getDimension() == 423||attacker.getDimension() == 424) {
+        return newDamage * 1.4f;
+    }
+    return newDamage;
+};
+twilighthand2Trait.register();
+
+val twilighthand3Trait = TraitBuilder.create("twilight_hand3");
+twilighthand3Trait.color = Color.fromHex("ffffff").getIntColor();
+twilighthand3Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait3.name");
+twilighthand3Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait.desc");
+twilighthand3Trait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker.getDimension() == 420||attacker.getDimension() == 421||attacker.getDimension() == 422||attacker.getDimension() == 423||attacker.getDimension() == 424) {
+        return newDamage * 1.6f;
+    }
+    return newDamage;
+};
+twilighthand3Trait.register();
+
+val twilighthand4Trait = TraitBuilder.create("twilight_hand4");
+twilighthand4Trait.color = Color.fromHex("ffffff").getIntColor();
+twilighthand4Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait4.name");
+twilighthand4Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait.desc");
+twilighthand4Trait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker.getDimension() == 420||attacker.getDimension() == 421||attacker.getDimension() == 422||attacker.getDimension() == 423||attacker.getDimension() == 424) {
+        return newDamage * 1.8f;
+    }
+    return newDamage;
+};
+twilighthand4Trait.register();
+
+val twilighthand5Trait = TraitBuilder.create("twilight_hand5");
+twilighthand5Trait.color = Color.fromHex("ffffff").getIntColor();
+twilighthand5Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait5.name");
+twilighthand5Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait.desc");
+twilighthand5Trait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker.getDimension() == 420||attacker.getDimension() == 421||attacker.getDimension() == 422||attacker.getDimension() == 423||attacker.getDimension() == 424) {
+        return newDamage * 2.0f;
+    }
+    return newDamage;
+};
+twilighthand5Trait.register();
+
+val worldendTrait = TraitBuilder.create("world_end");
+worldendTrait.color = Color.fromHex("ffffff").getIntColor();
+worldendTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.worldendTrait.name");
+worldendTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.worldendTrait.desc");
+worldendTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    target.addPotionEffect(<potion:gct_mobs:anti_anyposion>.makePotionEffect(20, 0, false, false));
+    return newDamage;
+};
+worldendTrait.register();
+
+val nightmareTrait = TraitBuilder.create("nightmare");
+nightmareTrait.color = Color.fromHex("ffffff").getIntColor();
+nightmareTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.nightmareTrait.name");
+nightmareTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.nightmareTrait.desc");
+nightmareTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker.getDimension() == 427) {
+        return newDamage + (target.maxHealth * 0.03f);
+    }
+    return newDamage;
+};
+nightmareTrait.register();

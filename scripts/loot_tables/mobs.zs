@@ -80,6 +80,15 @@ LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main")
 LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addItemEntry(<minecraft:iron_ingot>, 1, 1, [Functions.setCount(32, 64)], []);
 LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addLootTableEntry("minecraft:chests/simple_dungeon", 1, 1, [Conditions.killedByPlayer()]);
 
+LootTweaker.getTable("aether_legacy:entities/bosses/slider").getPool("main").addItemEntry(<additions:greedycraft-soul_of_slider>, 1, 1, [Functions.setCount(2, 8)], []);
+LootTweaker.getTable("aether_legacy:entities/bosses/valkyrie_queen").getPool("main").addItemEntry(<additions:greedycraft-gem_of_valkyrie>, 1, 1, [Functions.setCount(2, 8)], []);
+LootTweaker.getTable("aether_legacy:entities/bosses/sun_spirit").getPool("main").addItemEntry(<additions:greedycraft-sun_crystal>, 1, 1, [Functions.setCount(2, 8)], []);
+
+LootTweaker.getTable("journey:mobs/boss/nether_beast").getPool("main").addItemEntry(<additions:greedycraft-hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
+LootTweaker.getTable("journey:mobs/boss/withering_beast").getPool("main").addItemEntry(<additions:greedycraft-hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
+LootTweaker.getTable("journey:mobs/boss/calcia").getPool("main").addItemEntry(<additions:greedycraft-hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
+LootTweaker.getTable("journey:mobs/boss/soul_watcher").getPool("main").addItemEntry(<additions:greedycraft-hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
+
 if (CalendarUtil.isChristmas()) {
     for mob in mobList {
         var table as LootTable = LootTweaker.getTable("minecraft:entities/" + mob);

@@ -33,7 +33,7 @@ events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent
     if (showScoreboard) {
         server.commandManager.executeCommand(server, "/scoreboard objectives add title dummy " + LangUtil.format("greedycraft.scoreboard.title", VersionUtil.getVersionName()));
         server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.mode.adventure") + " title 2");
-        server.commandManager.executeCommand(server, "/scoreboard players set §b title 3");
+        server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.author2") + " title 3");
         server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.author") + " title 4");
         if (player.hasGameStage("iswuss")) {
             if (player.creative) {

@@ -18,14 +18,15 @@ import mods.jei.JEI;
 
 import scripts.util.machines as MMUtil;
 
-MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_ingot>, 6), (18000 * FORGE_COST_MULTIPLIER) as int, (10000000 * FORGE_COST_MULTIPLIER) as long, [
-    <tconstruct:ingots:2>,
+MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_ingot>, 8), (18000 * FORGE_COST_MULTIPLIER) as int, (10000000 * FORGE_COST_MULTIPLIER) as long, [
     <additions:stainless_steel_ingot>,
-    <additions:asgardium_ingot>,
-    <additions:aeroite_ingot>,
-    <additions:aqualite_ingot>,
-    <twilightforest:fiery_ingot>,
-    <nyx:meteor_ingot>
+    <additions:greedycraft-balancite_ingot>,
+    <additions:greedycraft-iciricium_ingot>,
+    <abyssalcraft:cingot>,
+    <abyssalcraft:dreadiumingot>,
+    <divinerpg:shadow_bar>,
+    <tconstruct:ingots:2>,
+    <additions:twilightaddon-refined_twilight_gem>
 ] as IItemStack[], {
     <additions:greedycraft-catalyst_star> : {
         speed: 0.85,
@@ -51,7 +52,7 @@ MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_in
         speed: 0.25,
         energy: 0.25
     }, 
-    <abyssalcraft:dreadiumingot> : {
+    <divinerpg:netherite_ingot> : {
         speed: 0.25,
         energy: 0.25
     },

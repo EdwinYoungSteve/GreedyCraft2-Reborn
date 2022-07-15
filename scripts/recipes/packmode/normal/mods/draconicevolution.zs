@@ -33,7 +33,7 @@ FusionCrafting.add(<projecte:item.pe_transmutation_tablet>, <projecte:transmutat
     <ore:coreSuperior>,
     <ore:coreSuperior>
 ]);
-FusionCrafting.add(<additions:greedycraft-creative_soul>, <draconicevolution:chaotic_core>, 3, 8589934592, [ 
+FusionCrafting.add(<additions:greedycraft-creative_soul>, <draconicevolution:chaotic_core>, 3, 68719476736, [ 
     <additions:greedycraft-creative_shard>,
     <additions:greedycraft-creative_shard>,
     <additions:greedycraft-creative_shard>,
@@ -93,7 +93,7 @@ FusionCrafting.add(<projecte:condenser_mk1>, <projecte:alchemical_chest>, 0, 800
     <ore:coreExcellent>,
     <additions:greedycraft-energy_matter_core>
 ]);
-FusionCrafting.add(<draconicevolution:awakened_core>, <minecraft:nether_star>, 1, 128000000, [ 
+FusionCrafting.add(<draconicevolution:awakened_core>, <minecraft:nether_star>, 1, 393216000, [ 
     <ore:coreExcellent>,
     <ore:coreExcellent>,
     <draconicevolution:draconic_ingot>,
@@ -109,7 +109,7 @@ FusionCrafting.add(<additions:greedycraft-blueprint_tactic>, <additions:greedycr
     <draconicevolution:draconium_ingot>,
     <draconicevolution:draconium_ingot>
 ]);
-FusionCrafting.add(<draconicevolution:chaotic_core>, <draconicevolution:chaos_shard>, 2, 1024000000, [ 
+FusionCrafting.add(<draconicevolution:chaotic_core>, <draconicevolution:chaos_shard>, 2, 3145728000, [ 
     <tconevo:metal>,
     <tconevo:metal>,
     <tconevo:metal:5>,
@@ -119,7 +119,7 @@ FusionCrafting.add(<draconicevolution:chaotic_core>, <draconicevolution:chaos_sh
     <additions:chromasteel_ingot>,
     <additions:chromasteel_ingot>
 ]);
-FusionCrafting.add(<draconicevolution:wyvern_core>, <minecraft:nether_star>, 0, 1600000, [ 
+FusionCrafting.add(<draconicevolution:wyvern_core>, <minecraft:nether_star>, 0, 24576000, [ 
     <ore:coreBasic>,
     <ore:coreBasic>,
     <ore:coreBasic>,
@@ -185,7 +185,7 @@ FusionCrafting.add(<thaumcraft:primordial_pearl>, <thaumcraft:void_seed>, 0, 204
     <thaumcraft:ingot>,
     <thaumcraft:ingot:1>
 ]);
-FusionCrafting.add(<gct_ores:relifed_core>, <minecraft:nether_star>, 1, 128000000, [ 
+FusionCrafting.add(<gct_ores:relifed_core>, <minecraft:nether_star>, 1, 393216000, [ 
     <ore:coreExcellent>,
     <ore:coreExcellent>,
     <gct_ores:relifed_witherium_ingot>,
@@ -195,7 +195,7 @@ FusionCrafting.add(<gct_ores:relifed_core>, <minecraft:nether_star>, 1, 12800000
     <additions:aeonsteel_ingot>,
     <ore:metalAwakened>
 ]);
-FusionCrafting.add(<gct_ores:fallen_core>, <minecraft:nether_star>, 0, 1600000, [ 
+FusionCrafting.add(<gct_ores:fallen_core>, <minecraft:nether_star>, 0, 24576000, [ 
     <ore:coreBasic>,
     <ore:coreBasic>,
     <ore:coreBasic>,
@@ -205,7 +205,7 @@ FusionCrafting.add(<gct_ores:fallen_core>, <minecraft:nether_star>, 0, 1600000, 
     <ore:metalWyvern>,
     <ore:metalWyvern>
 ]);
-FusionCrafting.add(<gct_ores:stormy_core>, <gct_ores:stormy_shard>, 2, 1024000000, [ 
+FusionCrafting.add(<gct_ores:stormy_core>, <gct_ores:stormy_shard>, 2, 3145728000, [ 
     <tconevo:metal>,
     <tconevo:metal>,
     <tconevo:metal:5>,

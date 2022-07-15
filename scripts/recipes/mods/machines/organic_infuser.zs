@@ -117,7 +117,6 @@ val crops as IItemStack[][] = [
     [<mysticalagriculture:cobalt_seeds>, <mysticalagriculture:cobalt_essence>],
     [<mysticalagriculture:invar_seeds>, <mysticalagriculture:invar_essence>],
     [<mysticalagriculture:fluxed_electrum_seeds>, <mysticalagriculture:fluxed_electrum_essence>],
-    [<mysticalagriculture:fiery_ingot_seeds>, <mysticalagriculture:fiery_ingot_essence>],
     [<mysticalagriculture:glowstone_ingot_seeds>, <mysticalagriculture:glowstone_ingot_essence>],
     [<mysticalagriculture:void_metal_seeds>, <mysticalagriculture:void_metal_essence>],
     [<mysticalagriculture:sapphire_seeds>, <mysticalagriculture:sapphire_essence>],
@@ -147,25 +146,6 @@ val crops as IItemStack[][] = [
     [<mysticalagradditions:nether_star_seeds>, <mysticalagradditions:nether_star_essence>],
     [<mysticalagradditions:neutronium_seeds>, <mysticalagradditions:neutronium_essence>],
     [<mysticalagradditions:dragon_egg_seeds>, <mysticalagradditions:dragon_egg_essence>],
-    [<jaopca:item_mysticalseedsscarlite>, <jaopca:item_essencescarlite>],
-    [<jaopca:item_mysticalseedscryonium>, <jaopca:item_essencecryonium>],
-    [<jaopca:item_mysticalseedsambrosium>, <jaopca:item_essenceambrosium>],
-    [<jaopca:item_mysticalseedshephaestite>, <jaopca:item_essencehephaestite>],
-    [<jaopca:item_mysticalseedsexperience>, <jaopca:item_essenceexperience>],
-    [<jaopca:item_mysticalseedsdimensionalshard>, <jaopca:item_essencedimensionalshard>],
-    [<jaopca:item_mysticalseedsinfernium>, <jaopca:item_essenceinfernium>],
-    [<jaopca:item_mysticalseedsliquifiedcoralium>, <jaopca:item_essenceliquifiedcoralium>],
-    [<jaopca:item_mysticalseedsshadowium>, <jaopca:item_essenceshadowium>],
-    [<jaopca:item_mysticalseedscytosinite>, <jaopca:item_essencecytosinite>],
-    [<jaopca:item_mysticalseedsasgardium>, <jaopca:item_essenceasgardium>],
-    [<jaopca:item_mysticalseedsaeroite>, <jaopca:item_essenceaeroite>],
-    [<jaopca:item_mysticalseedsumbrium>, <jaopca:item_essenceumbrium>],
-    [<jaopca:item_mysticalseedsniter>, <jaopca:item_essenceniter>],
-    [<jaopca:item_mysticalseedsancientdebris>, <jaopca:item_essenceancientdebris>],
-    [<jaopca:item_mysticalseedsastralstarmetal>, <jaopca:item_essenceastralstarmetal>],
-    [<jaopca:item_mysticalseedsquartzblack>, <jaopca:item_essencequartzblack>],
-    [<jaopca:item_mysticalseedsaqualite>, <jaopca:item_essenceaqualite>],
-    [<jaopca:item_mysticalseedsmanganese>, <jaopca:item_essencemanganese>],
     [<mysticalagriculture:tier1_inferium_seeds>, <mysticalagriculture:crafting>],
     [<mysticalagriculture:tier2_inferium_seeds>, <mysticalagriculture:crafting> * 2],
     [<mysticalagriculture:tier3_inferium_seeds>, <mysticalagriculture:crafting> * 3],
@@ -174,7 +154,8 @@ val crops as IItemStack[][] = [
     [<mysticalagradditions:tier6_inferium_seeds>, <mysticalagriculture:crafting> * 6],
     [<appliedenergistics2:crystal_seed>, <appliedenergistics2:material:10>],
     [<appliedenergistics2:crystal_seed:600>, <appliedenergistics2:material:11>],
-    [<appliedenergistics2:crystal_seed:1200>, <appliedenergistics2:material:12>]
+    [<appliedenergistics2:crystal_seed:1200>, <appliedenergistics2:material:12>],
+    [<mysticalagriculture:fiery_ingot_seeds>, <mysticalagriculture:fiery_ingot_essence>]
 ];
 
 var recipeId = 0;

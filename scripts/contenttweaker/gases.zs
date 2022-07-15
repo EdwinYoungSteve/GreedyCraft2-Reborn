@@ -24,6 +24,51 @@ helium.setNeedFluid(false);
 helium.setIcon("blocks/gas_clear");
 helium.register();
 
+var neon = GasFactory.createGas("neon");
+neon.setUnlocalizedName("neon");
+neon.setColorize(true);
+neon.setColor(0xff0000);
+neon.setNeedBucket(true);
+neon.setNeedFluid(false);
+neon.setIcon("blocks/gas_clear");
+neon.register();
+
+var argon = GasFactory.createGas("argon");
+argon.setUnlocalizedName("argon");
+argon.setColorize(true);
+argon.setColor(0x9900ff);
+argon.setNeedBucket(true);
+argon.setNeedFluid(false);
+argon.setIcon("blocks/gas_clear");
+argon.register();
+
+var krypton = GasFactory.createGas("krypton");
+krypton.setUnlocalizedName("krypton");
+krypton.setColorize(true);
+krypton.setColor(0x8ec21f);
+krypton.setNeedBucket(true);
+krypton.setNeedFluid(false);
+krypton.setIcon("blocks/gas_clear");
+krypton.register();
+
+var xenon = GasFactory.createGas("xenon");
+xenon.setUnlocalizedName("xenon");
+xenon.setColorize(true);
+xenon.setColor(0xffebb5);
+xenon.setNeedBucket(true);
+xenon.setNeedFluid(false);
+xenon.setIcon("blocks/gas_clear");
+xenon.register();
+
+var radon = GasFactory.createGas("radon");
+radon.setUnlocalizedName("radon");
+radon.setColorize(true);
+radon.setColor(0x008f0a);
+radon.setNeedBucket(true);
+radon.setNeedFluid(false);
+radon.setIcon("blocks/gas_clear");
+radon.register();
+
 var nitrogenoxide = GasFactory.createGas("nitrogenoxide");
 nitrogenoxide.setUnlocalizedName("nitrogenoxide");
 nitrogenoxide.setColorize(true);
@@ -68,3 +113,48 @@ carbondioxide.setNeedBucket(true);
 carbondioxide.setNeedFluid(false);
 carbondioxide.setIcon("blocks/gas_clear");
 carbondioxide.register();
+
+var hydrochloricacid = GasFactory.createGas("hydrochloricacid");
+hydrochloricacid.setUnlocalizedName("hydrochloricacid");
+hydrochloricacid.setColorize(true);
+hydrochloricacid.setColor(0x9fd3cd);
+hydrochloricacid.setNeedBucket(true);
+hydrochloricacid.setNeedFluid(false);
+hydrochloricacid.setIcon("blocks/gas_clear");
+hydrochloricacid.register();
+
+var air = GasFactory.createGas("air");
+air.setUnlocalizedName("air");
+air.setColorize(true);
+air.setColor(0xffffff);
+air.setNeedBucket(true);
+air.setNeedFluid(false);
+air.setIcon("blocks/gas_clear");
+air.register();
+
+var airnether = GasFactory.createGas("airnether");
+airnether.setUnlocalizedName("airnether");
+airnether.setColorize(true);
+airnether.setColor(0x733c3d);
+airnether.setNeedBucket(true);
+airnether.setNeedFluid(false);
+airnether.setIcon("blocks/gas_clear");
+airnether.register();
+
+var airend = GasFactory.createGas("airend");
+airend.setUnlocalizedName("airend");
+airend.setColorize(true);
+airend.setColor(0x111111);
+airend.setNeedBucket(true);
+airend.setNeedFluid(false);
+airend.setIcon("blocks/gas_clear");
+airend.register();
+
+var airabyss = GasFactory.createGas("airabyss");
+airabyss.setUnlocalizedName("airabyss");
+airabyss.setColorize(true);
+airabyss.setColor(0x00aaaa);
+airabyss.setNeedBucket(true);
+airabyss.setNeedFluid(false);
+airabyss.setIcon("blocks/gas_clear");
+airabyss.register();

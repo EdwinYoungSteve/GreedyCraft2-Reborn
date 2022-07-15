@@ -32,6 +32,7 @@ val how_to_repair = game.localize("greedycraft.tooltip.constant.how_to_repair");
 val cant_set_spawn = game.localize("greedycraft.tooltip.constant.cant_set_spawn");
 val machinery_upgrade_guide = game.localize("greedycraft.tooltip.constant.machinery_upgrade_guide");
 val machinery_upgrade_warning = game.localize("greedycraft.tooltip.constant.machinery_upgrade_warning");
+val odch = game.localize("greedycraft.tooltip.odct");
 
 val tooltipMap as string[][IIngredient] = {
     <mysticalagriculture:supremium_helmet> : [flight_disabled],
@@ -200,7 +201,21 @@ val tooltipMap as string[][IIngredient] = {
     <minecraft:repeating_command_block> : [game.localize("greedycraft.tooltip.command_block")],
     <minecraft:chain_command_block> : [game.localize("greedycraft.tooltip.command_block")],
     <minecraft:structure_block> : [game.localize("greedycraft.tooltip.command_block")],
-    <contenttweaker:tablet_of_enlightenment>: [game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.1"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.2"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.3"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.4"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.5")]
+    <contenttweaker:tablet_of_enlightenment>: [game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.1"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.2"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.3"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.4"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.5")],
+    <modularmachinery:itemmodularium> : [game.localize("greedycraft.tooltip.contenttweaker.modularblock")],
+    <modularmachinery:blockcasing:*> : [game.localize("greedycraft.tooltip.contenttweaker.modularblock")],
+    <divinerpg:teaker_lump> : [game.localize("greedycraft.tooltip.lumps")],
+    <divinerpg:amthirmis_lump> : [game.localize("greedycraft.tooltip.lumps")],
+    <divinerpg:darven_lump> : [game.localize("greedycraft.tooltip.lumps")],
+    <divinerpg:cermile_lump> : [game.localize("greedycraft.tooltip.lumps")],
+    <divinerpg:pardimal_lump> : [game.localize("greedycraft.tooltip.lumps")],
+    <divinerpg:quadrotic_lump> : [game.localize("greedycraft.tooltip.lumps")],
+    <divinerpg:karos_lump> : [game.localize("greedycraft.tooltip.lumps")],
+    <divinerpg:heliosis_lump> : [game.localize("greedycraft.tooltip.lumps")],
+    <divinerpg:arksiane_lump> : [game.localize("greedycraft.tooltip.lumps")],
+    <additions:botaniaddon-manadiamond> : [odch],
+    <additions:botaniaddon-mana_lapis> : [odch],
+    <additions:botaniaddon-mana_quartz> : [odch]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

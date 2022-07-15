@@ -471,7 +471,8 @@ val removedRecipes as IIngredient[] = [
     <ageofminecraft:fusionlesserdreadbeast>,
     <ageofminecraft:fusionshadowbeast>,
     <ageofminecraft:fusiongskeleton>,
-    <buildinggadgets:exchangertool>
+    <buildinggadgets:exchangertool>,
+    <divinerpg:shadow_bar>
 ];
 
 val removedRecipeNames as string[] = [

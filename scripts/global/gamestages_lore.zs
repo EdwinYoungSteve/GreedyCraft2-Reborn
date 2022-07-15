@@ -46,8 +46,7 @@ global gameStagesLore as string[][string][string][string] = {
                 "各种下界专属物品",
                 "大量地牢宝藏",
                 "怪物现在会拥有更强力的盔甲和武器",
-                "可以进入天境",
-                "可以召唤女仆协助你生存"
+                "可以进入天境"
             ]
         },
         abyssal_conquerer: {
@@ -117,10 +116,10 @@ global gameStagesLore as string[][string][string][string] = {
                 "你获得了一种崭新的材料，你相信它有无比强大的潜力。"
             ],
             unlocks: [
-                "龙锭",
+                "龙锭，凋灵锭",
                 "电子锭",
                 "可以召唤困难模式Boss",
-                "可以挑战冰霜巨口"
+                "可以进入梦魇世界"
             ]
         },
         wyvern: {
@@ -140,7 +139,7 @@ global gameStagesLore as string[][string][string][string] = {
             ],
             unlocks: [
                 "神龙金属",
-                "可以在末地挖掘钛金",
+                "可以在末地挖掘钛",
                 "可以迎战混沌守卫",
                 "可以挖掘基岩",
                 "创造模式飞行"
@@ -164,8 +163,7 @@ global gameStagesLore as string[][string][string][string] = {
             ],
             unlocks: [
                 "混沌金属",
-                "寰宇锭",
-                "无尽催化剂"
+                "寰宇锭"
             ]
         },
         wielder_of_infinity: {
@@ -188,6 +186,15 @@ global gameStagesLore as string[][string][string][string] = {
                 "创造模式物品",
                 "特别奖励",
                 "最后的终端"
+            ]
+        },
+        vethea_breaker: {
+            alias: ["梦魇破坏者"],
+            lore: [
+                "终于逃出了这个牢笼……"
+            ],
+            unlocks: [
+                "可以挑战冰霜巨口"
             ]
         },
         novice_engineer: {

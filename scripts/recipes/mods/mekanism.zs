@@ -30,3 +30,4 @@ mods.mekanism.chemical.oxidizer.addRecipe(<thermalfoundation:material:802>, <gas
 mods.mekanism.chemical.oxidizer.addRecipe(<thermalfoundation:storage_resource:1>, <gas:carbonoxide> * 720);
 
 mods.mekanism.chemical.infuser.addRecipe(<gas:oxygen>, <gas:carbonoxide> * 2, <gas:carbondioxide> * 2);
+mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogenchloride> * 500, <gas:water>, <gas:hydrochloricacid> * 500);

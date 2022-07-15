@@ -75,6 +75,10 @@ GameStagesUtil.stageNether.addOreReplacement(<netherendingores:ore_other_1>, <mi
 GameStagesUtil.stageNether.addOreReplacement(<ore:oreAeroite>, <aether_legacy:aercloud>, false);
 GameStagesUtil.stageNether.addOreReplacement(<ore:oreAqualite>, <minecraft:prismarine>, false);
 GameStagesUtil.stageNether.addOreReplacement(<thaumcraft:ore_quartz>, <minecraft:stone>, false);
+GameStagesUtil.stageNether.addOreReplacement(<embers:ore_quartz>, <minecraft:stone>, false);
+GameStagesUtil.stageNether.addOreReplacement(<divinerpg:rupee_ore>, <minecraft:stone>, false);
+GameStagesUtil.stageNether.addOreReplacement(<divinerpg:arlemite_ore>, <minecraft:stone>, false);
+GameStagesUtil.stageNether.addOreReplacement(<divinerpg:realmite_ore>, <minecraft:stone>, false);
 
 GameStagesUtil.stageNoviceEngineer.addOreReplacement(<enderio:block_simple_alloy_smelter>, <additions:greedycraft-unknown_block>, false);
 GameStagesUtil.stageNoviceEngineer.addOreReplacement(<enderio:block_simple_crafter>, <additions:greedycraft-unknown_block>, false);

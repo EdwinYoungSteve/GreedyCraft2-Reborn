@@ -28,7 +28,6 @@ import mods.ctutils.world.IGameRules;
 
 events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
     var entity as IEntityLivingBase = event.entityLivingBase;
-
     // Fix entities having too much speed
     if (entity.motionX > 9.0) {
         entity.motionX = 8.0;

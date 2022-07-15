@@ -4,6 +4,7 @@
 
 global FROSTMAW_HP as int = 25000;
 global BARAKO_HP as int = 60000;
+global ZETHUR_HP as int = 19000;
 global BARAKO_MINION_COUNT as int = 4;
 global FROSTMAW_MINION_COUNT as int = 6;
 global PACKMODE as int = MODE_ADVENTURE;

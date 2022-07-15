@@ -29,7 +29,7 @@ FusionCrafting.add(<gct_ores:stormy_witherium_block> * 4, <gct_ores:relifed_with
     <ore:metalChaotic>
 ]);
 
-FusionCrafting.add(<gct_ores:command_core>, <mekanism:controlcircuit:3>, 2, 1958000000, [
+FusionCrafting.add(<gct_ores:command_core>, <mekanism:controlcircuit:3>, 2, 2147483647, [
     <ore:ingotHarcadium>,
     <ore:ingotHarcadium>,
     <ore:ingotHarcadium>,
@@ -48,7 +48,7 @@ FusionCrafting.add(<gct_ores:command_core>, <mekanism:controlcircuit:3>, 2, 1958
     <ore:ingotMithminite>
 ]);
 
-FusionCrafting.add(<gct_ores:creepy_wither_doll>, <additions:taigaddon-harcadium_block>, 2, 500000000, [
+FusionCrafting.add(<gct_ores:creepy_wither_doll>, <additions:taigaddon-harcadium_block>, 2, 3355443200, [
     <minecraft:skull:1>,
     <minecraft:skull:1>,
     <minecraft:skull:1>,
@@ -59,7 +59,7 @@ FusionCrafting.add(<gct_ores:creepy_wither_doll>, <additions:taigaddon-harcadium
     <minecraft:soul_sand>
 ]);
 
-FusionCrafting.add(<gct_ores:rng_relinquisher>, <draconicevolution:chaotic_core>, 3, 800000000, [
+FusionCrafting.add(<gct_ores:rng_relinquisher>, <draconicevolution:chaotic_core>, 3, 16777216000, [
     <ore:ingotHarcadium>,
     <ore:ingotHarcadium>,
     <ore:ingotVoidEssence>,
@@ -70,7 +70,7 @@ FusionCrafting.add(<gct_ores:rng_relinquisher>, <draconicevolution:chaotic_core>
     <ore:metalChaotic>
 ]);
 
-FusionCrafting.add(<minecraft:command_block>, <gct_ores:command_core>, 3, 1280000000, [
+FusionCrafting.add(<minecraft:command_block>, <gct_ores:command_core>, 3, 52428800000, [
     <ore:coreRelifed>,
     <ore:coreRelifed>,
     <ore:coreRelifed>,
@@ -85,14 +85,14 @@ FusionCrafting.add(<minecraft:command_block>, <gct_ores:command_core>, 3, 128000
     <ore:blockAdamantium>
 ]);
 
-FusionCrafting.add(<gct_ores:creepy_witherstorm_doll>, <gct_ores:creepy_wither_doll>, 3, 1234500000, [
+FusionCrafting.add(<gct_ores:creepy_witherstorm_doll>, <gct_ores:creepy_wither_doll>, 3, 12345678900, [
     <ore:coreEpic>,
     <ore:coreEpic>,
     <ore:singularityIron>,
     <minecraft:command_block>
 ]);
 
-FusionCrafting.add(<gct_ores:ruled_draconium_block> * 4, <gct_ores:chaotic_draconium_block> * 4, 3, 12800000000, [
+FusionCrafting.add(<gct_ores:ruled_draconium_block> * 4, <gct_ores:chaotic_draconium_block> * 4, 3, 102400000000, [
     <ore:coreChaotic>,
     <draconicadditions:chaos_heart>,
     <ore:blockAdamantium>,
@@ -103,7 +103,7 @@ FusionCrafting.add(<gct_ores:ruled_draconium_block> * 4, <gct_ores:chaotic_draco
     <ore:blockEverite>
 ]);
 
-FusionCrafting.add(<gct_ores:equipment_witherium_block> * 4, <gct_ores:stormy_witherium_block> * 4, 3, 12800000000, [
+FusionCrafting.add(<gct_ores:equipment_witherium_block> * 4, <gct_ores:stormy_witherium_block> * 4, 3, 102400000000, [
     <ore:coreStormy>,
     <ore:netherStarWithered>,
     <ore:blockAdamantium>,
@@ -145,7 +145,7 @@ FusionCrafting.add(<gct_ores:stormy_metal_ingot>, <tconevo:material>, 3, 1024000
     <minecraft:dragon_egg>
 ]);
 
-FusionCrafting.add(<gct_ores:ordered_fusion_core>, <draconicevolution:fusion_crafting_core>, 3, 13107200000, [
+FusionCrafting.add(<gct_ores:ordered_fusion_core>, <draconicevolution:fusion_crafting_core>, 3, 131072000000, [
     <ore:gemOrderCrystal>,
     <ore:gemOrderCrystal>,
     <draconicevolution:crafting_injector:3>,

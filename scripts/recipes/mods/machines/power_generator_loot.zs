@@ -20,16 +20,16 @@ val speed = 100;
 
 RecipeBuilder.newBuilder(regName + "_t1", regName, speed, 0)
     .addItemInput(<ore:dungeonLootTier1>)
-    .addEnergyPerTickOutput(500)
+    .addEnergyPerTickOutput(512)
     .build();
 
 RecipeBuilder.newBuilder(regName + "_t2", regName, speed * 2, 0)
     .addItemInput(<ore:dungeonLootTier2>)
-    .addEnergyPerTickOutput(1000)
+    .addEnergyPerTickOutput(1024)
     .build();
    
 RecipeBuilder.newBuilder(regName + "_t3", regName, speed * 4, 0)
     .addItemInput(<ore:dungeonLootTier3>)
-    .addEnergyPerTickOutput(4000)
+    .addEnergyPerTickOutput(4096)
     .build();
     

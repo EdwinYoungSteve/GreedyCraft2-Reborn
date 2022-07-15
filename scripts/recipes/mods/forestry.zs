@@ -394,11 +394,6 @@ val seedRecipes as IIngredient[][][IItemStack] = {
         [essence[4], base[4], essence[4]], 
         [<ore:gemRuby>, essence[4], <ore:gemRuby>]
     ],
-    <mysticalagriculture:fiery_ingot_seeds> : [
-        [<ore:ingotFiery>, essence[4], <ore:ingotFiery>], 
-        [essence[4], base[4], essence[4]], 
-        [<ore:ingotFiery>, essence[4], <ore:ingotFiery>]
-    ],
     <mysticalagriculture:iridium_seeds> : [
         [<ore:ingotIridium>, essence[5], <ore:ingotIridium>], 
         [essence[5], base[5], essence[5]], 
@@ -613,96 +608,6 @@ val seedRecipes as IIngredient[][][IItemStack] = {
         [<ore:ice>, essence[1], <ore:ice>], 
         [essence[1], base[1], essence[1]], 
         [<ore:ice>, essence[1], <ore:ice>]
-    ],
-    <jaopca:item_mysticalseedsscarlite> : [
-        [<ore:gemScarlite>, essence[5], <ore:gemScarlite>], 
-        [essence[5], base[5], essence[5]], 
-        [<ore:gemScarlite>, essence[5], <ore:gemScarlite>]
-    ],
-    <jaopca:item_mysticalseedscryonium> : [
-        [<ore:ingotCryonium>, essence[6], <ore:ingotCryonium>], 
-        [essence[6], base[6], essence[6]], 
-        [<ore:ingotCryonium>, essence[6], <ore:ingotCryonium>]
-    ],
-    <jaopca:item_mysticalseedsambrosium> : [
-        [<ore:gemAmbrosium>, essence[3], <ore:gemAmbrosium>], 
-        [essence[3], base[3], essence[3]], 
-        [<ore:gemAmbrosium>, essence[3], <ore:gemAmbrosium>]
-    ],
-    <jaopca:item_mysticalseedshephaestite> : [
-        [<ore:gemHephaestite>, essence[3], <ore:gemHephaestite>], 
-        [essence[3], base[3], essence[3]], 
-        [<ore:gemHephaestite>, essence[3], <ore:gemHephaestite>]
-    ],
-    <jaopca:item_mysticalseedsexperience> : [
-        [<ore:ingotExperience>, essence[3], <ore:ingotExperience>], 
-        [essence[3], base[3], essence[3]], 
-        [<ore:ingotExperience>, essence[3], <ore:ingotExperience>]
-    ],
-    <jaopca:item_mysticalseedsaqualite> : [
-        [<ore:ingotAqualite>, essence[5], <ore:ingotAqualite>], 
-        [essence[5], base[5], essence[5]], 
-        [<ore:ingotAqualite>, essence[5], <ore:ingotAqualite>]
-    ],
-    <jaopca:item_mysticalseedsmanganese> : [
-        [<ore:ingotManganese>, essence[4], <ore:ingotManganese>], 
-        [essence[4], base[4], essence[4]], 
-        [<ore:ingotManganese>, essence[4], <ore:ingotManganese>]
-    ],
-    <jaopca:item_mysticalseedsdimensionalshard> : [
-        [<ore:gemDimensionalShard>, essence[3], <ore:gemDimensionalShard>], 
-        [essence[3], base[3], essence[3]], 
-        [<ore:gemDimensionalShard>, essence[3], <ore:gemDimensionalShard>]
-    ],
-    <jaopca:item_mysticalseedsinfernium> : [
-        [<ore:ingotInfernium>, essence[6], <ore:ingotInfernium>], 
-        [essence[6], base[6], essence[6]], 
-        [<ore:ingotInfernium>, essence[6], <ore:ingotInfernium>]
-    ],
-    <jaopca:item_mysticalseedsliquifiedcoralium> : [
-        [<ore:ingotLiquifiedCoralium>, essence[3], <ore:ingotLiquifiedCoralium>], 
-        [essence[3], base[3], essence[3]], 
-        [<ore:ingotLiquifiedCoralium>, essence[3], <ore:ingotLiquifiedCoralium>]
-    ],
-    <jaopca:item_mysticalseedsshadowium> : [
-        [<ore:ingotShadowium>, essence[5], <ore:ingotShadowium>], 
-        [essence[5], base[5], essence[5]], 
-        [<ore:ingotShadowium>, essence[5], <ore:ingotShadowium>]
-    ],
-    <jaopca:item_mysticalseedscytosinite> : [
-        [<ore:ingotCytosinite>, essence[6], <ore:ingotCytosinite>], 
-        [essence[6], base[6], essence[6]], 
-        [<ore:ingotCytosinite>, essence[6], <ore:ingotCytosinite>]
-    ],
-    <jaopca:item_mysticalseedsasgardium> : [
-        [<ore:ingotAsgardium>, essence[4], <ore:ingotAsgardium>], 
-        [essence[4], base[4], essence[4]], 
-        [<ore:ingotAsgardium>, essence[4], <ore:ingotAsgardium>]
-    ],
-    <jaopca:item_mysticalseedsaeroite> : [
-        [<ore:ingotAeroite>, essence[4], <ore:ingotAeroite>], 
-        [essence[4], base[4], essence[4]], 
-        [<ore:ingotAeroite>, essence[4], <ore:ingotAeroite>]
-    ],
-    <jaopca:item_mysticalseedsumbrium> : [
-        [<ore:ingotUmbrium>, essence[3], <ore:ingotUmbrium>], 
-        [essence[3], base[3], essence[3]], 
-        [<ore:ingotUmbrium>, essence[3], <ore:ingotUmbrium>]
-    ],
-    <jaopca:item_mysticalseedsniter> : [
-        [<ore:dustNiter>, essence[3], <ore:dustNiter>], 
-        [essence[3], base[3], essence[3]], 
-        [<ore:dustNiter>, essence[3], <ore:dustNiter>]
-    ],
-    <jaopca:item_mysticalseedsancientdebris> : [
-        [<ore:gemAncientDebris>, essence[6], <ore:gemAncientDebris>], 
-        [essence[6], base[6], essence[6]], 
-        [<ore:gemAncientDebris>, essence[6], <ore:gemAncientDebris>]
-    ],
-    <jaopca:item_mysticalseedsquartzblack> : [
-        [<ore:gemQuartzBlack>, essence[3], <ore:gemQuartzBlack>], 
-        [essence[3], base[3], essence[3]], 
-        [<ore:gemQuartzBlack>, essence[3], <ore:gemQuartzBlack>]
     ],
     <mysticalagradditions:awakened_draconium_seeds> : [
         [<ore:ingotDraconiumAwakened>, essence[6], <ore:ingotDraconiumAwakened>], 

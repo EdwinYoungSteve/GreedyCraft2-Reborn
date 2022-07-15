@@ -542,3 +542,87 @@ geneticevolutionTrait.onHurt = function(trait, armor, player, source, damage, ne
     }
 };
 geneticevolutionTrait.register();
+
+val disappearingTrait = ArmorTraitBuilder.create("disappearing");
+disappearingTrait.color = Color.fromHex("ffffff").getIntColor();
+disappearingTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.disappearingTrait.name");
+disappearingTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.disappearingTrait.desc");
+disappearingTrait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        player.addPotionEffect(<potion:minecraft:invisibility>.makePotionEffect(20, 2, false, false));
+    }
+};
+disappearingTrait.register();
+
+val twilightarmor1Trait = ArmorTraitBuilder.create("twilight_armor1");
+twilightarmor1Trait.color = Color.fromHex("ffffff").getIntColor();
+twilightarmor1Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.twilightarmor1Trait.name");
+twilightarmor1Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.twilightarmorTrait.desc");
+twilightarmor1Trait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (player.getDimension() == 420||player.getDimension() == 421||player.getDimension() == 422||player.getDimension() == 423||player.getDimension() == 424) {
+        return newDamage * 0.95f;
+    }
+    return newDamage;
+};
+twilightarmor1Trait.register();
+
+val twilightarmor2Trait = ArmorTraitBuilder.create("twilight_armor2");
+twilightarmor2Trait.color = Color.fromHex("ffffff").getIntColor();
+twilightarmor2Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.twilightarmor2Trait.name");
+twilightarmor2Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.twilightarmorTrait.desc");
+twilightarmor2Trait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (player.getDimension() == 420||player.getDimension() == 421||player.getDimension() == 422||player.getDimension() == 423||player.getDimension() == 424) {
+        return newDamage * 0.9f;
+    }
+    return newDamage;
+};
+twilightarmor2Trait.register();
+
+val twilightarmor3Trait = ArmorTraitBuilder.create("twilight_armor3");
+twilightarmor3Trait.color = Color.fromHex("ffffff").getIntColor();
+twilightarmor3Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.twilightarmor3Trait.name");
+twilightarmor3Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.twilightarmorTrait.desc");
+twilightarmor3Trait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (player.getDimension() == 420||player.getDimension() == 421||player.getDimension() == 422||player.getDimension() == 423||player.getDimension() == 424) {
+        return newDamage * 0.85f;
+    }
+    return newDamage;
+};
+twilightarmor3Trait.register();
+
+val twilightarmor4Trait = ArmorTraitBuilder.create("twilight_armor4");
+twilightarmor4Trait.color = Color.fromHex("ffffff").getIntColor();
+twilightarmor4Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.twilightarmor4Trait.name");
+twilightarmor4Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.twilightarmorTrait.desc");
+twilightarmor4Trait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (player.getDimension() == 420||player.getDimension() == 421||player.getDimension() == 422||player.getDimension() == 423||player.getDimension() == 424) {
+        return newDamage * 0.8f;
+    }
+    return newDamage;
+};
+twilightarmor4Trait.register();
+
+val twilightarmor5Trait = ArmorTraitBuilder.create("twilight_armor5");
+twilightarmor5Trait.color = Color.fromHex("ffffff").getIntColor();
+twilightarmor5Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.twilightarmor5Trait.name");
+twilightarmor5Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.twilightarmorTrait.desc");
+twilightarmor5Trait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (player.getDimension() == 420||player.getDimension() == 421||player.getDimension() == 422||player.getDimension() == 423||player.getDimension() == 424) {
+        return newDamage * 0.75f;
+    }
+    return newDamage;
+};
+twilightarmor5Trait.register();
+
+val nightmareTrait = ArmorTraitBuilder.create("nightmare");
+nightmareTrait.color = Color.fromHex("ffffff").getIntColor();
+nightmareTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.nightmareTrait.name");
+nightmareTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.nightmareTrait.desc");
+nightmareTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) { 
+    var mutiplier = player.maxHealth / 1000;
+    if (mutiplier >= 0.2) {
+        return newDamage * 0.8;
+    }
+    return newDamage * (1 - mutiplier);
+};
+nightmareTrait.register();

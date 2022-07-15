@@ -84,7 +84,7 @@ CompressionCrafting.addRecipe(<jaopca:item_singularitycertusquartz>, <jaopca:blo
 CompressionCrafting.addRecipe(<jaopca:item_singularitychargedcertusquartz>, <jaopca:block_blockchargedcertusquartz>, 200, jy, 100000000, 500000);
 CompressionCrafting.addRecipe(<jaopca:item_singularitycoal>, <minecraft:coal_block>, 800, cj, 100000000, 500000);
 CompressionCrafting.addRecipe(<jaopca:item_singularitycoralium>, <jaopca:block_blockcoralium>, 500, gj, 100000000, 500000);
-CompressionCrafting.addRecipe(<jaopca:item_singularitydimensionalshard>, <jaopca:block_blockdimensionalshard>, 200, jy, 100000000, 500000);
+//CompressionCrafting.addRecipe(<jaopca:item_singularitydimensionalshard>, <jaopca:block_blockdimensionalshard>, 200, jy, 100000000, 500000);
 CompressionCrafting.addRecipe(<jaopca:item_singularityenderbiotite>, <jaopca:block_blockenderbiotite>, 300, jy, 100000000, 500000);
 CompressionCrafting.addRecipe(<jaopca:item_singularityhephaestite>, <defiledlands:hephaestite_block>, 500, gj, 100000000, 500000);
 CompressionCrafting.addRecipe(<jaopca:item_singularitymalachite>, <biomesoplenty:gem_block:5>, 200, jy, 100000000, 500000);
@@ -95,7 +95,7 @@ CompressionCrafting.addRecipe(<jaopca:item_singularitysapphire>, <biomesoplenty:
 CompressionCrafting.addRecipe(<jaopca:item_singularityscarlite>, <defiledlands:scarlite_block>, 200, jy, 100000000, 500000);
 CompressionCrafting.addRecipe(<jaopca:item_singularitytanzanite>, <biomesoplenty:gem_block:4>, 200, jy, 100000000, 500000);
 CompressionCrafting.addRecipe(<jaopca:item_singularitytopaz>, <biomesoplenty:gem_block:3>, 200, jy, 100000000, 500000);
-CompressionCrafting.addRecipe(<jaopca:item_singularityniter>, <jaopca:block_blockniter>, 300, jy, 100000000, 500000);
+//CompressionCrafting.addRecipe(<jaopca:item_singularityniter>, <jaopca:block_blockniter>, 300, jy, 100000000, 500000);
 
 //合成拓展模组提供奇点：
 CompressionCrafting.addRecipe(<extendedcrafting:singularity_custom:1>, <taiga:basalt_block>, 300, gj, 100000000, 500000);

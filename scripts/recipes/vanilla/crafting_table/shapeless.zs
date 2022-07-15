@@ -30,6 +30,9 @@ recipes.addShaped(<gct_ores:stormy_shard_block> * 1, [[<gct_ores:stormy_shard>, 
 recipes.remove(<gct_ores:stormy_shard>);
 recipes.addShaped(<gct_ores:stormy_shard> * 9, [[<gct_ores:stormy_shard_block>, null, null], [null, null, null],[null, null, null]]);
 
+RecipeUtil.addShapeless("vethea_crafting_table", <minecraft:crafting_table> * 1,
+    [<ore:logWoodVethea>]
+);
 RecipeUtil.addShapeless("web_to_string", <minecraft:string> * 2,
     [<minecraft:web>]
 );

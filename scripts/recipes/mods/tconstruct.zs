@@ -74,8 +74,9 @@ Alloy.addRecipe(<liquid:martisite> * 3, [<liquid:caesium> * 4, <liquid:leadite> 
 Alloy.addRecipe(<liquid:flashite> * 3, [<liquid:francium> * 2, <liquid:babyrite> * 2, <liquid:errorite> * 2]);
 Alloy.addRecipe(<liquid:overlaite>, [<liquid:martisite>, <liquid:clearite>]);
 Alloy.addRecipe(<liquid:balancite> * 2, [<liquid:aqualite>, <liquid:aeroite>, <liquid:asgardium>, <liquid:meteor>]);
-Alloy.addRecipe(<liquid:shadow_bar>, [<liquid:rupee>, <liquid:arlemite>]);
+Alloy.addRecipe(<liquid:shadow_bar>, [<liquid:rupee>, <liquid:realmite>]);
 Alloy.addRecipe(<liquid:glowing_signalum> * 144, [<liquid:signalum> * 144, <liquid:glowstone> * 1000]);
+Alloy.addRecipe(<liquid:twilight_crystal>, [<liquid:eden>, <liquid:wildwood>, <liquid:apalachia>, <liquid:skythern>, <liquid:mortum>]);
 
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);

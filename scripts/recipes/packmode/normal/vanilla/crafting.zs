@@ -39,12 +39,6 @@ recipes.addShaped("auto_gen_-226107769", <additions:greedycraft-twilight_gem>, [
     [<ore:treeSapling>, <botania:fertilizer>, <ore:treeSapling>]
 ]);
 
-recipes.addShaped("auto_gen_-1501549292", <additions:greedycraft-ender_charm>, [
-    [<ore:pearlEnderEye>, <ore:ingotDurasteel>, <ore:pearlEnderEye>],
-    [<ore:ingotDreadium>, <ore:netherStar>, <ore:ingotDreadium>],
-    [<ore:pearlEnderEye>, <ore:ingotDurasteel>, <ore:pearlEnderEye>]
-]);
-
 recipes.addShaped("auto_gen_-1473452503", <additions:greedycraft-twilight_shield>, [
     [<twilightforest:ironwood_ingot>, <twilightforest:knightmetal_ingot>, <twilightforest:ironwood_ingot>],
     [<twilightforest:fiery_ingot>, <twilightforest:alpha_fur>, <twilightforest:fiery_ingot>],

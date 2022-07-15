@@ -33,3 +33,18 @@ evileye2.setGenBiome("gct_mobs:curruptplain");
 evileye2.setBaseBlock("gct_mobs:corruptgrass");
 evileye2.setDimWhitelist(41);
 evileye2.register();
+
+var livingwood = TreeFactory.createTree("livingwood");
+livingwood.setTreeType("OAK");
+livingwood.setLog("gct_mobs:livingwood_log");
+livingwood.setLeaf("gct_mobs:livingwood_leaves");
+livingwood.setMinHeight(4);
+livingwood.setExtraHeight(1);
+livingwood.setGenFrequency(1);
+livingwood.setGenAttempts(2);
+livingwood.extraThick = false;
+livingwood.setGenBiome("gct_mobs:mana_forest");
+livingwood.setBaseBlock("gct_mobs:mana_grass");
+livingwood.setDimWhitelist(0);
+livingwood.addSapling();
+livingwood.register();
