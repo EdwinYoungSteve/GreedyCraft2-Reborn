@@ -1,0 +1,19 @@
+{
+	title: "§b金黄的",
+	x: 10.0d,
+	y: -3.0d,
+	description: "获得精神碎片",
+	text: [
+		"吃掉梦魇燃料可以获得精神燃料"
+	],
+	dependencies: [
+		"dc4d53b2"
+	],
+	tasks: [{
+		uid: "4bac2c15",
+		type: "item",
+		items: [{
+			item: "extrabotany:material"
+		}]
+	}]
+}

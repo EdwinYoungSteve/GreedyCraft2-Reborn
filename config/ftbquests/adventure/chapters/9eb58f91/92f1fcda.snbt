@@ -1,0 +1,10 @@
+{
+	x: 9.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "246c3b27",
+		type: "gamestage",
+		title: "在【冒险·伍】处取得进展",
+		stage: "chaotic"
+	}]
+}

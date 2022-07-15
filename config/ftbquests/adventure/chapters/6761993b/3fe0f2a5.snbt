@@ -1,0 +1,15 @@
+{
+	x: 3.5d,
+	y: 4.5d,
+	text: [
+		"五种意志合金混合的合金"
+	],
+	dependencies: [
+		"143d9aba"
+	],
+	tasks: [{
+		uid: "8e9c88bd",
+		type: "checkmark",
+		title: "混合意志合金"
+	}]
+}

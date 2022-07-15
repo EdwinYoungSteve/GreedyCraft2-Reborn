@@ -1,7 +1,7 @@
 {
-	title: "§b经典，烧煤炭？",
+	title: "§b经典的岩浆发电？",
 	x: -5.5d,
-	y: -3.5d,
+	y: -2.0d,
 	description: "制作热力能源炉",
 	text: [
 		""
@@ -21,6 +21,29 @@
 				Energy: 0,
 				Level: 0b
 			}
-		}]
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6d1892bf",
+		type: "item",
+		item: {
+			id: "thermalexpansion:florb",
+			Damage: 1s,
+			tag: {
+				Fluid: "lava"
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "b2c960ad",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "8c23105e",
+		type: "random",
+		table: 1
 	}]
 }

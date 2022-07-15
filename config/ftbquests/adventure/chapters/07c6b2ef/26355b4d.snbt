@@ -1,7 +1,7 @@
 {
 	title: "§b只能起一点作用吧……",
-	x: 6.5d,
-	y: 2.5d,
+	x: 8.0d,
+	y: -2.0d,
 	description: "制作有机灌注器",
 	text: [
 		""
@@ -29,7 +29,8 @@
 				Energy: 0,
 				Level: 0b
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "1e6c6042",

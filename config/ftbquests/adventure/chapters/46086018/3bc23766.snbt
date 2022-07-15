@@ -1,5 +1,6 @@
 {
 	title: "§b关于我转生成……",
+	icon: "additions:greedycraft-slime_crown",
 	x: 1.5d,
 	y: 4.5d,
 	description: "使用史莱姆皇冠召唤并击杀史莱姆之神",
@@ -15,6 +16,13 @@
 		type: "item",
 		items: [{
 			item: "additions:greedycraft-slime_crown"
+		}]
+	},
+	{
+		uid: "f74ec795",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-royal_gel"
 		}]
 	}],
 	rewards: [{

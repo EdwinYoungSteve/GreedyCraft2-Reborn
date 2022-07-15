@@ -1,0 +1,12 @@
+{
+	x: 8.0d,
+	y: 1.5d,
+	dependencies: [
+		"ac88b58f"
+	],
+	tasks: [{
+		uid: "7b85521a",
+		type: "checkmark",
+		title: "模块化血之祭坛"
+	}]
+}

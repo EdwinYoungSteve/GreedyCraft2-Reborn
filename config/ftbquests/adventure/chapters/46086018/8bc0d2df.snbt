@@ -1,0 +1,50 @@
+{
+	title: "§b微妙平衡，四合一",
+	x: 0.0d,
+	y: 12.0d,
+	description: "使用水华，陨星，云浮，神金合成守恒合金",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8cbced76",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-balancite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "861f022b",
+		type: "item",
+		item: "additions:aqualite_ingot",
+		count: 4
+	},
+	{
+		uid: "b36240e8",
+		type: "item",
+		item: "additions:aeroite_ingot",
+		count: 4
+	},
+	{
+		uid: "4bdb042d",
+		type: "item",
+		item: "additions:asgardium_ingot",
+		count: 4
+	},
+	{
+		uid: "5aff9995",
+		type: "item",
+		item: "nyx:meteor_ingot",
+		count: 4
+	},
+	{
+		uid: "0667963b",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "8cbca976",
+		type: "random",
+		table: 2
+	}]
+}

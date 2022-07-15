@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x777777,
+    "langs": {
+        "material": {
+            "en": "Skythern",
+            "zh": "冰刺"
+        }
+    }
+}

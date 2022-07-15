@@ -1,7 +1,7 @@
 {
 	title: "§b流体与固体反应？",
 	x: 8.0d,
-	y: 2.5d,
+	y: 1.0d,
 	description: "制作流体转置机",
 	text: [
 		""
@@ -29,16 +29,17 @@
 				Energy: 0,
 				Level: 0b
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "fcb9534f",
-		type: "choice",
-		table: 1
-	},
-	{
 		uid: "3c3b9efb",
 		type: "xp",
 		xp: 450
+	},
+	{
+		uid: "ebcd7f48",
+		type: "random",
+		table: 1
 	}]
 }

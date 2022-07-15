@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xac94d00,
+    "langs": {
+        "material": {
+            "en": "Intermedium",
+            "zh": "中级精华"
+        }
+    }
+}

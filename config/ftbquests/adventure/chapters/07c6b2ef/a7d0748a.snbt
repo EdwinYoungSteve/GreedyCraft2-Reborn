@@ -142,5 +142,12 @@
 		uid: "9f12bf71",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "56c9c80e",
+		type: "item",
+		item: "oeintegration:excavatemodifier",
+		count: 2,
+		random_bonus: 2
 	}]
 }

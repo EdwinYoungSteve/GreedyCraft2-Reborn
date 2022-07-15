@@ -1,0 +1,25 @@
+{
+	x: -3.5d,
+	y: -0.5d,
+	dependencies: [
+		"53c62857"
+	],
+	tasks: [{
+		uid: "56a57d31",
+		type: "item",
+		items: [{
+			item: "mekanism:tierinstaller 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2006c4ff",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "b70a65b0",
+		type: "loot",
+		table: 2
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "§b把它们都打成粉！",
-	x: 3.5d,
-	y: 2.5d,
+	x: 5.0d,
+	y: -0.5d,
 	description: "制作磨粉机",
 	text: [
 		""
@@ -29,7 +29,8 @@
 				Energy: 0,
 				Level: 0b
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "d15b4d50",

@@ -1,0 +1,20 @@
+{
+	title: "§b制造合金",
+	x: 3.0d,
+	y: -1.5d,
+	description: "获得简易合金炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"65376d4f"
+	],
+	tasks: [{
+		uid: "aeb040fb",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	}]
+}

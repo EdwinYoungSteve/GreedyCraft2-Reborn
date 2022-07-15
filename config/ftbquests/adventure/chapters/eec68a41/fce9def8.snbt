@@ -1,0 +1,15 @@
+{
+	title: "§b深入黑暗",
+	x: 10.0d,
+	y: 1.5d,
+	description: "进入漆黑世界",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c81cca88",
+		type: "dimension",
+		icon: "journey:blackblock",
+		dim: -11325
+	}]
+}

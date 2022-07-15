@@ -9,8 +9,8 @@
             "elements": "modularmachinery:blockcasing@1",
             "x": 0,
             "y": 1,
-            "z": 1,
-            "description": "将最上层中间的方块换成此方块以降低配方制作时间至75%！",
+            "z": 0,
+            "description": "将控制器上方的方块换成此方块以降低配方制作时间至75%！",
             "modifier": {
                 "io": "output",
                 "target": "duration",
@@ -22,8 +22,8 @@
             "elements": "modularmachinery:blockcasing@2",
             "x": 0,
             "y": 1,
-            "z": 1,
-            "description": "将最上层中间的方块换成此方块以降低配方制作时间至66%！",
+            "z": 0,
+            "description": "将控制器上方的方块换成此方块以降低配方制作时间至66%！",
             "modifier": {
                 "io": "output",
                 "target": "duration",
@@ -35,8 +35,8 @@
             "elements": "modularmachinery:blockcasing@3",
             "x": 0,
             "y": 1,
-            "z": 1,
-            "description": "将最上层中间的方块换成此方块以降低配方制作时间至50%！",
+            "z": 0,
+            "description": "将控制器上方的方块换成此方块以降低配方制作时间至50%！",
             "modifier": {
                 "io": "output",
                 "target": "duration",
@@ -48,8 +48,8 @@
             "elements": "modularmachinery:blockcasing@5",
             "x": 0,
             "y": 1,
-            "z": 1,
-            "description": "将最上层中间的方块换成此方块以降低配方制作时间至33%！",
+            "z": 0,
+            "description": "将控制器上方的方块换成此方块以降低配方制作时间至33%！",
             "modifier": {
                 "io": "output",
                 "target": "duration",
@@ -60,70 +60,339 @@
     ],
     "parts": [
         {
-            "x": [1, 0, -1],
-            "y": -1,
-            "z": [2, 1, 0],
-            "elements": "casings_all"
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_tofu"
+            ]
         },
         {
-            "x": [1, -1],
+            "x": -1,
             "y": 0,
-            "z": [2, 0],
-            "elements": "casings_tofu"
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_tofu"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_tofu"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "casings_tofu"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
         },
         {
             "x": 0,
             "y": 0,
             "z": 2,
-            "elements": "casings_tofu"
+            "elements": [
+                "casings_all"
+            ]
         },
         {
             "x": 1,
             "y": 0,
-            "z": 1,
-            "elements": "casings_tofu"
+            "z": 2,
+            "elements": [
+                "casings_tofu"
+            ]
         },
         {
             "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": "casings_tofu"
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
         },
         {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": "casings_tofu"
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "tofucraft:tfcollector@0"
+            ]
         },
         {
             "x": 1,
-            "y": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
             "z": 1,
-            "elements": "casings_tofu"
+            "elements": [
+                "tofucraft:tfcollector@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "tconstruct:metal@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "tofucraft:blocktofumetal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "tofucraft:tfcollector@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
         },
         {
             "x": 0,
             "y": 1,
             "z": 0,
-            "elements": "casings_tofu"
+            "elements": [
+                "casings_all"
+            ]
         },
         {
-            "x": 0,
+            "x": -1,
             "y": 1,
             "z": 1,
-            "elements": "casings_tofu"
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "tofucraft:blocktofumetal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "tofucraft:blocktofumetal@0"
+            ]
         },
         {
             "x": 0,
             "y": 1,
             "z": 2,
-            "elements": "casings_tofu"
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "tconstruct:metal@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "tofucraft:blocktofumetal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
         },
         {
             "x": 0,
-            "y": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "tconstruct:metal@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
             "z": 1,
-            "elements": "tofucraft:soymilk"
+            "elements": [
+                "tconstruct:metal@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "tofucraft:antenna_basic@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "tofucraft:antenna_basic@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "casings_tofu"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "tofucraft:antenna_basic@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "tofucraft:antenna_basic@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "casings_tofu"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+            ]
         }
     ]
 }

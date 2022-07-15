@@ -1,0 +1,13 @@
+{
+	x: 6.5d,
+	y: 6.0d,
+	dependencies: [
+		"f120e4b1",
+		"79c1a617"
+	],
+	tasks: [{
+		uid: "09b03e3d",
+		type: "checkmark",
+		title: "坠星位标"
+	}]
+}

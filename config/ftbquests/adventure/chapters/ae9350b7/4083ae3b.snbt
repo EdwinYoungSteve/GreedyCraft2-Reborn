@@ -1,0 +1,38 @@
+{
+	title: "§b这玩意怎么还不掉！",
+	x: 0.0d,
+	y: 1.5d,
+	description: "获得陨星锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "222052fd",
+		type: "item",
+		items: [{
+			item: "nyx:meteor_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "805a6823",
+		type: "item",
+		item: "nyx:meteor_rock",
+		count: 32
+	},
+	{
+		uid: "b5886fba",
+		type: "item",
+		item: "nyx:fallen_star",
+		count: 4
+	},
+	{
+		uid: "4b6f23c1",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d58cc2dd",
+		type: "xp",
+		xp: 800
+	}]
+}

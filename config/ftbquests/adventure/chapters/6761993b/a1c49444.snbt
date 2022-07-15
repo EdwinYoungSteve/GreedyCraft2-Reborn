@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: 3.0d,
+	dependencies: [
+		"4c9da309"
+	],
+	tasks: [{
+		uid: "c5371688",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crucible"
+		}]
+	}]
+}

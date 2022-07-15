@@ -1,7 +1,7 @@
 {
 	title: "§b它的温度究竟是多少？！！",
-	x: 9.5d,
-	y: 4.0d,
+	x: 5.0d,
+	y: -2.0d,
 	description: "制作熔岩炉",
 	text: [
 		""
@@ -29,7 +29,8 @@
 				Energy: 0,
 				Level: 0b
 			}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "171728f7",

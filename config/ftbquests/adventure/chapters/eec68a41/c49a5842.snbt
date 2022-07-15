@@ -1,0 +1,19 @@
+{
+	title: "§b转化次元！",
+	x: 2.5d,
+	y: -4.5d,
+	description: "制作次元催化器，用于转化物品",
+	text: [
+		""
+	],
+	dependencies: [
+		"afe9840b"
+	],
+	tasks: [{
+		uid: "7f1d67f7",
+		type: "item",
+		items: [{
+			item: "extrabotany:dimensioncatalyst"
+		}]
+	}]
+}

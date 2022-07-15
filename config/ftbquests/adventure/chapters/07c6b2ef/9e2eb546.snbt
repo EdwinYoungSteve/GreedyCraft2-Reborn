@@ -1,0 +1,44 @@
+{
+	title: "§b小型电子板",
+	x: 5.0d,
+	y: 8.5d,
+	description: "获得小型电子板",
+	text: [
+		""
+	],
+	dependencies: [
+		"e4e83c3f"
+	],
+	tasks: [{
+		uid: "084e8931",
+		type: "item",
+		items: [{
+			id: "forestry:chipsets",
+			tag: {
+				T: 0s
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "00f3dafa",
+		type: "item",
+		item: "thermalfoundation:material 1 129",
+		count: 16
+	},
+	{
+		uid: "cf975042",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 32
+	},
+	{
+		uid: "ccef50fc",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "05013a60",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -64,376 +64,1124 @@
     ],
     "parts": [
         {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": ["minecraft:glass@0"]
-        },
-        {
             "x": -1,
             "y": 0,
             "z": 0,
-            "elements": "casings_all"
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 3,
-            "elements": ["minecraft:glass@0"]
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
         },
         {
             "x": 1,
             "y": 2,
             "z": 1,
-            "elements": ["minecraft:glass@0"]
+            "elements": [
+                "contenttweaker:organic_fluid@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "quark:blaze_rod@0","quark:blaze_rod@1"
+            ]
         },
         {
             "x": 1,
             "y": 0,
             "z": 0,
-            "elements": "casings_all"
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
         },
         {
-            "x": 0,
+            "x": 2,
             "y": 2,
-            "z": 3,
-            "elements": ["minecraft:glass@0"]
-        },
-        {
-            "x": -1,
-            "y": -2,
             "z": 1,
-            "elements": ["modularmachinery:blockcasing@4"]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 3,
-            "elements": ["minecraft:glass@0"]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 1,
-            "elements": ["modularmachinery:blockcasing@4"]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 4,
-            "elements": "casings_all"
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 3,
-            "elements": ["modularmachinery:blockcasing@4"]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 1,
-            "elements": ["modularmachinery:blockcasing@4"]
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
         },
         {
             "x": 2,
             "y": 0,
-            "z": 2,
-            "elements": ["minecraft:glass@0"]
+            "z": 0,
+            "elements": [
+                "quark:blaze_rod@0","quark:blaze_rod@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "quark:blaze_rod@0","quark:blaze_rod@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
         },
         {
             "x": 0,
             "y": 0,
             "z": 4,
-            "elements": ["minecraft:glass@0"]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 3,
-            "elements": ["modularmachinery:blockcasing@4"]
+            "elements": [
+                "casings_all"
+            ]
         },
         {
             "x": 1,
             "y": 0,
             "z": 4,
-            "elements": "casings_all"
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
         },
         {
-            "x": 1,
-            "y": -2,
-            "z": 3,
-            "elements": ["modularmachinery:blockcasing@4"]
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "quark:blaze_rod@0","quark:blaze_rod@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
         },
         {
             "x": 1,
             "y": -1,
             "z": 0,
-            "elements": "casings_all"
+            "elements": [
+                "botania:quartztypeblaze@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "quark:blaze_rod@0","quark:blaze_rod@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-star_metal_block@0"
+            ]
         },
         {
             "x": 0,
             "y": -1,
             "z": 0,
-            "elements": ["mysticalagriculture:storage@4"]
+            "elements": [
+                "extrautils2:simpledecorative@2"
+            ]
         },
         {
             "x": -1,
             "y": 1,
             "z": 0,
-            "elements": ["modularmachinery:blockcasing@4"]
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "quark:blaze_rod@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:quartztypeblaze@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-star_metal_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "quark:blaze_rod@0","quark:blaze_rod@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "quark:blaze_rod@0","quark:blaze_rod@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:quartztypeblaze@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:alchemycatalyst@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:alchemycatalyst@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "quark:blaze_rod@0","quark:blaze_rod@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:quartztypeblaze@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "quark:blaze_rod@0","quark:blaze_rod@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "quark:blaze_rod@0","quark:blaze_rod@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "quark:blaze_rod@0","quark:blaze_rod@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "botania:conjurationcatalyst@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "quark:blaze_rod@0","quark:blaze_rod@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "botania:blazeblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "extrautils2:simpledecorative@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "botania:blazeblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "botania:blazeblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "extrautils2:simpledecorative@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "botanicadds:terra_catalyst@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "extrautils2:simpledecorative@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "botanicadds:terra_catalyst@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "botania:blazeblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "extrautils2:simpledecorative@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:organic_fluid@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "botania:conjurationcatalyst@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:organic_fluid@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:organic_fluid@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "botania:conjurationcatalyst@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
         },
         {
             "x": -2,
             "y": 1,
             "z": 2,
-            "elements": ["modularmachinery:blockcasing@4"]
+            "elements": [
+                "casings_all"
+            ]
         },
         {
             "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": "casings_all"
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": ["modularmachinery:blockcasing@4"]
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-star_metal_block@0"
+            ]
         },
         {
             "x": -2,
             "y": -1,
             "z": 1,
-            "elements": "casings_all"
+            "elements": [
+                "botania:quartztypeblaze@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "quark:blaze_rod@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "botania:alchemycatalyst@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-star_metal_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
         },
         {
             "x": 1,
             "y": 1,
-            "z": 0,
-            "elements": ["modularmachinery:blockcasing@4"]
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
         },
         {
-            "x": -1,
-            "y": -1,
-            "z": 1,
-            "elements": ["mysticalagriculture:growth_accelerator@0"]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 4,
-            "elements": ["modularmachinery:blockcasing@4"]
-        },
-        {
-            "x": -2,
-            "y": -1,
+            "x": 2,
+            "y": 3,
             "z": 3,
-            "elements": "casings_all"
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
         },
         {
-            "x": 0,
+            "x": 1,
             "y": -1,
             "z": 1,
-            "elements": ["mysticalagriculture:growth_accelerator@0"]
+            "elements": [
+                "botania:alchemycatalyst@0"
+            ]
         },
         {
             "x": 2,
             "y": 1,
             "z": 2,
-            "elements": ["modularmachinery:blockcasing@4"]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 4,
-            "elements": ["modularmachinery:blockcasing@4"]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 3,
-            "elements": ["mysticalagriculture:growth_accelerator@0"]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": ["mysticalagriculture:growth_accelerator@0"]
+            "elements": [
+                "casings_all"
+            ]
         },
         {
             "x": 2,
             "y": -1,
             "z": 1,
-            "elements": "casings_all"
+            "elements": [
+                "botania:quartztypeblaze@3"
+            ]
         },
         {
-            "x": 1,
-            "y": 1,
-            "z": 4,
-            "elements": ["modularmachinery:blockcasing@4"]
-        },
-        {
-            "x": 0,
-            "y": -1,
+            "x": -2,
+            "y": 4,
             "z": 3,
-            "elements": ["mysticalagriculture:growth_accelerator@0"]
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
         },
         {
-            "x": 1,
-            "y": -1,
-            "z": 3,
-            "elements": ["mysticalagriculture:growth_accelerator@0"]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 3,
-            "elements": "casings_all"
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
         },
         {
             "x": -2,
             "y": 0,
             "z": 1,
-            "elements": "casings_all"
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
         },
         {
             "x": -1,
             "y": 2,
             "z": 2,
-            "elements": ["minecraft:glass@0"]
+            "elements": [
+                "contenttweaker:organic_fluid@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
         },
         {
             "x": 0,
             "y": 2,
             "z": 2,
-            "elements": ["minecraft:glass@0"]
+            "elements": [
+                "contenttweaker:organic_fluid@0"
+            ]
         },
         {
-            "x": -2,
+            "x": 0,
             "y": 0,
-            "z": 3,
-            "elements": "casings_all"
+            "z": 1,
+            "elements": [
+                "botania:conjurationcatalyst@0"
+            ]
         },
         {
             "x": 1,
             "y": 2,
             "z": 2,
-            "elements": ["minecraft:glass@0"]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 2,
-            "elements": ["modularmachinery:blockcasing@4"]
+            "elements": [
+                "contenttweaker:organic_fluid@0"
+            ]
         },
         {
             "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": "casings_all"
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 2,
-            "elements": ["modularmachinery:blockcasing@4"]
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
         },
         {
             "x": 1,
-            "y": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
             "z": 2,
-            "elements": ["modularmachinery:blockcasing@4"]
+            "elements": [
+                "casings_all"
+            ]
         },
         {
             "x": 2,
             "y": 0,
-            "z": 3,
-            "elements": "casings_all"
-        },
-        {
-            "x": -2,
-            "y": 1,
             "z": 1,
-            "elements": ["modularmachinery:blockcasing@4"]
+            "elements": [
+                "mysticalagriculture:storage@3"
+            ]
         },
         {
             "x": -2,
-            "y": 1,
-            "z": 3,
-            "elements": ["modularmachinery:blockcasing@4"]
-        },
-        {
-            "x": -2,
-            "y": -1,
+            "y": 3,
             "z": 2,
-            "elements": ["mysticalagriculture:storage@4"]
+            "elements": [
+                "extrautils2:simpledecorative@2"
+            ]
         },
         {
-            "x": 2,
+            "x": -2,
             "y": 1,
             "z": 1,
-            "elements": ["modularmachinery:blockcasing@4"]
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
         },
         {
             "x": -1,
-            "y": -1,
+            "y": 3,
             "z": 2,
-            "elements": ["mysticalagriculture:growth_accelerator@0"]
+            "elements": [
+                "quark:blaze_rod@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "botanicadds:terra_catalyst@0"
+            ]
         },
         {
             "x": 0,
-            "y": -1,
+            "y": 3,
             "z": 2,
-            "elements": ["minecraft:diamond_block@0"]
+            "elements": [
+                "extrautils2:simpledecorative@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:storage@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "quark:blaze_rod@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "botanicadds:terra_catalyst@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "extrautils2:simpledecorative@2"
+            ]
         },
         {
             "x": 2,
             "y": 1,
-            "z": 3,
-            "elements": ["modularmachinery:blockcasing@4"]
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@1"
+            ]
         },
         {
             "x": -1,
             "y": -1,
             "z": 4,
-            "elements": "casings_all"
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": ["mysticalagriculture:growth_accelerator@0"]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 2,
-            "elements": ["mysticalagriculture:storage@4"]
+            "elements": [
+                "botania:quartztypeblaze@4"
+            ]
         },
         {
             "x": 0,
             "y": -1,
             "z": 4,
-            "elements": ["mysticalagriculture:storage@4"]
+            "elements": [
+                "extrautils2:simpledecorative@2"
+            ]
         },
         {
             "x": 1,
             "y": -1,
             "z": 4,
-            "elements": "casings_all"
+            "elements": [
+                "botania:quartztypeblaze@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "extendedcrafting:storage@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "natura:bloodwood_fence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockinfusedwood@2"
+            ]
         },
         {
             "x": -1,
             "y": 2,
             "z": 1,
-            "elements": ["minecraft:glass@0"]
+            "elements": [
+                "contenttweaker:organic_fluid@0"
+            ]
         },
         {
             "x": 0,
             "y": 2,
             "z": 1,
-            "elements": ["minecraft:glass@0"]
+            "elements": [
+                "contenttweaker:organic_fluid@0"
+            ]
         }
     ]
 }

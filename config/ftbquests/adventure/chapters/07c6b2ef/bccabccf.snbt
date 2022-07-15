@@ -1,7 +1,7 @@
 {
 	title: "§b让我们从一块橙色金属开始……",
-	x: 2.0d,
-	y: -2.0d,
+	x: 0.5d,
+	y: 4.0d,
 	description: "制作模块化合金锭",
 	text: [
 		""
@@ -35,8 +35,8 @@
 		xp: 500
 	},
 	{
-		uid: "a174e194",
-		type: "choice",
+		uid: "9e7e4e12",
+		type: "random",
 		table: 1
 	}]
 }

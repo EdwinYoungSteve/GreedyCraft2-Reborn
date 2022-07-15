@@ -242,6 +242,254 @@
                 "restriction": "whitelist",
                 "value": [101]
             }
+        },
+        "iceika_iciricium_ore": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:greedycraft-iciricium_ore",
+                    "weight": 100
+                }],
+                "material": "divinerpg:frozen_stone",
+                "cluster-size": 4
+            },
+            "max-height": 40,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [425]
+            }
+        },
+        "manasteel": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:botaniaddon-manasteel_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 8
+            },
+            "max-height": 55,
+            "min-height": 1,
+            "cluster-count": 6,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            },
+            "biome": {
+                "restriction": "whitelist",
+                "value": "gct_mobs:mana_forest"
+            }
+        },
+        "manadiamond": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:botaniaddon-manadiamond_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 6
+            },
+            "max-height": 20,
+            "min-height": 1,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            },
+            "biome": {
+                "restriction": "whitelist",
+                "value": "gct_mobs:mana_forest"
+            }
+        },
+        "manalapis": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:botaniaddon-manalapis_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 8
+            },
+            "max-height": 36,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            },
+            "biome": {
+                "restriction": "whitelist",
+                "value": "gct_mobs:mana_forest"
+            }
+        },
+        "manaquartz": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:botaniaddon-manaquartz_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 12
+            },
+            "max-height": 36,
+            "min-height": 1,
+            "cluster-count": 4,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            },
+            "biome": {
+                "restriction": "whitelist",
+                "value": "gct_mobs:mana_forest"
+            }
+        },
+        "chillinium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:greedycraft-chillinium_ore",
+                    "weight": 100
+                }],
+                "material": "journey:frozendirt",
+                "cluster-size": 3
+            },
+            "max-height": 36,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1, 0]
+            }
+        },
+        "iceika_shards_ore": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:greedycraft-shards_corrupted_ore",
+                    "weight": 20
+                }, {
+                    "name": "additions:greedycraft-shards_divine_ore",
+                    "weight": 20
+                }, {
+                    "name": "additions:greedycraft-shards_jungle_ore",
+                    "weight": 20
+                }, {
+                    "name": "additions:greedycraft-shards_molten_ore",
+                    "weight": 20
+                }, {
+                    "name": "additions:greedycraft-shards_terran_ore",
+                    "weight": 20
+                }],
+                "material": "divinerpg:frozen_stone",
+                "cluster-size": 16
+            },
+            "max-height": 40,
+            "min-height": 1,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [425]
+            }
+        },
+        "nether_blood_crystal": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "journey:bleedstoneore",
+                    "weight": 100
+                }],
+                "material": "minecraft:netherrack",
+                "cluster-size": 1
+            },
+            "max-height": 100,
+            "min-height": 40,
+            "cluster-count": 32,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "vethea_bronze": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:vethea-vethea_bronze_debris",
+                    "weight": 100
+                }],
+                "material": "divinerpg:dream_stone",
+                "cluster-size": 8
+            },
+            "max-height": 255,
+            "min-height": 1,
+            "cluster-count": 30,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [427]
+            }
+        },
+        "vethea_conductive": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:vethea-vethea_conductive_iron_debris",
+                    "weight": 100
+                }],
+                "material": "divinerpg:dream_stone",
+                "cluster-size": 8
+            },
+            "max-height": 255,
+            "min-height": 1,
+            "cluster-count": 30,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [427]
+            }
+        },
+        "vethea_clay": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:vethea-vethea_clay_ore",
+                    "weight": 100
+                }],
+                "material": "divinerpg:dream_stone",
+                "cluster-size": 12
+            },
+            "max-height": 255,
+            "min-height": 1,
+            "cluster-count": 45,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [427]
+            }
         }
     }
 }

@@ -1,0 +1,10 @@
+{
+	x: -9.5d,
+	y: 5.5d,
+	tasks: [{
+		uid: "cbc5701a",
+		type: "gamestage",
+		title: "在【冒险·贰】处取得进展",
+		stage: "fearless_man"
+	}]
+}

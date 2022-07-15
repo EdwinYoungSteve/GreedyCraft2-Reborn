@@ -1,0 +1,28 @@
+{
+	x: -2.0d,
+	y: 2.5d,
+	dependencies: [
+		"9b34a8ff"
+	],
+	tasks: [{
+		uid: "8909ec21",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b32355d0",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "e12956c6",
+		type: "loot",
+		table: 1
+	}]
+}

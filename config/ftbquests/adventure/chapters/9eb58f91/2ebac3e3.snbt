@@ -1,0 +1,20 @@
+{
+	title: "§b会漏电的",
+	x: 1.5d,
+	y: -1.5d,
+	description: "合成简易斯特林发电机",
+	text: [
+		""
+	],
+	dependencies: [
+		"65376d4f"
+	],
+	tasks: [{
+		uid: "dc1db34f",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_stirling_generator"
+		}],
+		ignore_nbt: 1b
+	}]
+}

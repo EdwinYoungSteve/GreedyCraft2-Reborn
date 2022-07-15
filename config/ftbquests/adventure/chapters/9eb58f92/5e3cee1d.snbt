@@ -1,0 +1,22 @@
+{
+	x: -9.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "3043a263",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "328e085f",
+		type: "item",
+		item: "thermalfoundation:ore 1 6",
+		count: 10
+	},
+	{
+		uid: "969d8888",
+		type: "xp",
+		xp: 100
+	}]
+}

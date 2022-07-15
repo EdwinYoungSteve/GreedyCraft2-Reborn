@@ -1,0 +1,19 @@
+{
+	title: "§b自然催化器",
+	x: 1.0d,
+	y: -4.5d,
+	description: "制作泰拉催化器",
+	text: [
+		""
+	],
+	dependencies: [
+		"afe9840b"
+	],
+	tasks: [{
+		uid: "5faf799d",
+		type: "item",
+		items: [{
+			item: "botanicadds:terra_catalyst"
+		}]
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "§b开 始 了！",
+	x: -4.5d,
+	y: 3.0d,
+	description: "制作ME控制器，它的每个面可以传出8个频道！",
+	text: [
+		""
+	],
+	dependencies: [
+		"bb69a736"
+	],
+	tasks: [{
+		uid: "8a0607ae",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "d7bac6b9",
+		type: "item",
+		item: "appliedenergistics2:controller"
+	},
+	{
+		uid: "1f51e50c",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "70eac3c1",
+		type: "random",
+		table: 1
+	}]
+}

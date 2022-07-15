@@ -1,0 +1,35 @@
+{
+	title: "§b太阳之光",
+	x: 8.5d,
+	y: 4.0d,
+	description: "使用伊甸宝石在伊甸祭坛上召唤并击杀太阳风暴",
+	text: [
+		""
+	],
+	dependencies: [
+		"e3d95de1"
+	],
+	tasks: [{
+		uid: "6cd84525",
+		type: "item",
+		items: [{
+			item: "divinerpg:sunstorm_statue"
+		}]
+	}],
+	rewards: [{
+		uid: "5942f726",
+		type: "item",
+		item: "divinerpg:eden_block",
+		count: 2
+	},
+	{
+		uid: "ce63633f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d3def8e8",
+		type: "xp",
+		xp: 2000
+	}]
+}

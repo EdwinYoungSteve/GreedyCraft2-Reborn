@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x7141ac,
+    "langs": {
+        "material": {
+            "en": "Manyullyn",
+            "zh": "玛玉灵"
+        }
+    }
+}

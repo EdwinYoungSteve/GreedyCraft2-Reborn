@@ -26,11 +26,6 @@
 		xp: 500
 	},
 	{
-		uid: "6cc2caf4",
-		type: "choice",
-		table: 1
-	},
-	{
 		uid: "ba0b0c62",
 		type: "random",
 		table: 1
@@ -41,5 +36,10 @@
 		auto: "no_toast",
 		advancement: "twilightforest:progress_merge",
 		criterion: ""
+	},
+	{
+		uid: "8fb4aacf",
+		type: "random",
+		table: 1
 	}]
 }

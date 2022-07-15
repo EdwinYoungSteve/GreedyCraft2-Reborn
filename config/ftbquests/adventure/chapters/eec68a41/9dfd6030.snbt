@@ -32,13 +32,13 @@
 		count: 8
 	},
 	{
-		uid: "df69ab70",
-		type: "choice",
-		table: 0
-	},
-	{
 		uid: "80105347",
 		type: "xp",
 		xp: 50
+	},
+	{
+		uid: "990db72b",
+		type: "random",
+		table: 0
 	}]
 }

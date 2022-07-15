@@ -1,0 +1,28 @@
+{
+	title: "§b步入冰刺",
+	x: 7.0d,
+	y: 8.5d,
+	description: "进入冰刺之地维度",
+	text: [
+		""
+	],
+	dependencies: [
+		"96c1dc4e"
+	],
+	tasks: [{
+		uid: "51cf4c11",
+		type: "dimension",
+		icon: "divinerpg:skythern_portal",
+		dim: 423
+	}],
+	rewards: [{
+		uid: "3398758c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "f23a9e40",
+		type: "xp",
+		xp: 1000
+	}]
+}

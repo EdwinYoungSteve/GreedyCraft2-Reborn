@@ -34,13 +34,13 @@
 		count: 64
 	},
 	{
-		uid: "2d3a25c2",
-		type: "choice",
-		table: 1
-	},
-	{
 		uid: "4d39404f",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "44a26ff1",
+		type: "random",
+		table: 1
 	}]
 }

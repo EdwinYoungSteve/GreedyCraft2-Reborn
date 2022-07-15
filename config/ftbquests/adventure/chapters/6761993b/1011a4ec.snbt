@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	dependencies: [
+		"3f924e0c"
+	],
+	tasks: [{
+		uid: "ad0b4288",
+		type: "item",
+		items: [{
+			item: "bloodarsenal:blood_infused_wooden_log"
+		}]
+	}]
+}

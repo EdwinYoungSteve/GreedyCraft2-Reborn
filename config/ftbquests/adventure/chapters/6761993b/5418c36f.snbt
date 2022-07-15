@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 3.0d,
+	dependencies: [
+		"a1c49444"
+	],
+	tasks: [{
+		uid: "5c238108",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crystallizer"
+		}]
+	}]
+}

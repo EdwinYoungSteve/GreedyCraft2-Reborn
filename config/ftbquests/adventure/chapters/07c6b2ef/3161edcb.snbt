@@ -1,7 +1,7 @@
 {
 	title: "§b冷，冰……",
-	x: 8.0d,
-	y: 1.0d,
+	x: -1.0d,
+	y: -3.5d,
 	description: "合成极寒末影锭！",
 	text: [
 		""

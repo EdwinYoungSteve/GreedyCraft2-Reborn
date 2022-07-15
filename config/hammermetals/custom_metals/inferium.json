@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x819b00,
+    "langs": {
+        "material": {
+            "en": "Inferium",
+            "zh": "下级精华"
+        }
+    }
+}

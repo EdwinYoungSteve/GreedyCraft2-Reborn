@@ -1,0 +1,13 @@
+{
+	x: -2.0d,
+	y: 5.0d,
+	dependencies: [
+		"3a4a58f2"
+	],
+	tasks: [{
+		uid: "d16c4152",
+		type: "kill",
+		entity: "gct_mobs:zethur",
+		value: 1L
+	}]
+}

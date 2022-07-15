@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x008aed,
+    "langs": {
+        "material": {
+            "en": "Superium",
+            "zh": "高级精华"
+        }
+    }
+}

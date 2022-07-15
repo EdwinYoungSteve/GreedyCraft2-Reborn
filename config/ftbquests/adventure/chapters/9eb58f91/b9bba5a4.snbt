@@ -1,0 +1,19 @@
+{
+	title: "§b黝黑框架",
+	x: 7.5d,
+	y: 0.0d,
+	description: "获得强化机器框架",
+	text: [
+		""
+	],
+	dependencies: [
+		"148cc14b"
+	],
+	tasks: [{
+		uid: "047339b3",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 54"
+		}]
+	}]
+}

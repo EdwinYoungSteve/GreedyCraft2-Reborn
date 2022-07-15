@@ -1,0 +1,30 @@
+{
+	x: -0.5d,
+	y: -2.0d,
+	dependencies: [
+		"97cdb294"
+	],
+	tasks: [{
+		uid: "8cfe1c2d",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "eb7d6701",
+		type: "item",
+		item: "mekanismgenerators:reactor 1 1",
+		count: 8
+	},
+	{
+		uid: "b493dc0b",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "f769f011",
+		type: "loot",
+		table: 2
+	}]
+}

@@ -1,0 +1,75 @@
+{
+	title: "§b击穿黑金",
+	x: 7.0d,
+	y: 11.5d,
+	description: "使用五种水晶召唤击杀黑金世界的6个BOSS",
+	text: [
+		""
+	],
+	dependencies: [
+		"cb6baa72"
+	],
+	tasks: [{
+		uid: "526c1da4",
+		type: "item",
+		items: [{
+			item: "divinerpg:karot_statue"
+		}]
+	},
+	{
+		uid: "4fd61d2f",
+		type: "item",
+		items: [{
+			item: "divinerpg:densos_statue"
+		}]
+	},
+	{
+		uid: "47235992",
+		type: "item",
+		items: [{
+			item: "divinerpg:reyvor_statue"
+		}]
+	},
+	{
+		uid: "ee9c9c7a",
+		type: "item",
+		items: [{
+			item: "divinerpg:soul_fiend_statue"
+		}]
+	},
+	{
+		uid: "ad1d893a",
+		type: "item",
+		items: [{
+			item: "divinerpg:twilight_demon_statue"
+		}]
+	},
+	{
+		uid: "6b40c9e3",
+		type: "item",
+		items: [{
+			item: "divinerpg:vamacheron_statue"
+		}]
+	}],
+	rewards: [{
+		uid: "847976af",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "716b139d",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "0aa6e7b7",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "da7cedc1",
+		type: "item",
+		item: "divinerpg:mortum_block",
+		count: 4
+	}]
+}

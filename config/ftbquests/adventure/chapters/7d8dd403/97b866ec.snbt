@@ -1,0 +1,40 @@
+{
+	title: "§b来到极光",
+	x: 2.5d,
+	y: 5.5d,
+	description: "获得极光传送门框架",
+	text: [
+		""
+	],
+	dependencies: [
+		"a29a289d"
+	],
+	tasks: [{
+		uid: "1e750ce5",
+		type: "item",
+		items: [{
+			item: "theaurorian:aurorianportalframebricks"
+		}]
+	}],
+	rewards: [{
+		uid: "855016a8",
+		type: "item",
+		item: "theaurorian:crystal",
+		count: 16
+	},
+	{
+		uid: "a962d36a",
+		type: "item",
+		item: "minecraft:fire_charge"
+	},
+	{
+		uid: "159e4e04",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "25791900",
+		type: "xp",
+		xp: 800
+	}]
+}

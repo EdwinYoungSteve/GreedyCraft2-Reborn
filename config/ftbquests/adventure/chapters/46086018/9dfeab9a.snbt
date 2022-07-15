@@ -1,0 +1,35 @@
+{
+	title: "§b劈颅手",
+	x: 4.5d,
+	y: 6.0d,
+	description: "获得凋灵骷髅头颅",
+	text: [
+		""
+	],
+	dependencies: [
+		"6124dc63"
+	],
+	tasks: [{
+		uid: "79657cdc",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "fd467406",
+		type: "item",
+		item: "minecraft:skull 1 1",
+		count: 32
+	},
+	{
+		uid: "8dc79499",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "d48149ce",
+		type: "random",
+		table: 1
+	}]
+}

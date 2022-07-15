@@ -28,13 +28,13 @@
 		table: 1
 	},
 	{
-		uid: "213f1888",
-		type: "choice",
-		table: 1
-	},
-	{
 		uid: "588687f2",
 		type: "xp",
 		xp: 1000
+	},
+	{
+		uid: "9facca17",
+		type: "random",
+		table: 2
 	}]
 }

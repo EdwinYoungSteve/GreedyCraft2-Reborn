@@ -1,7 +1,7 @@
 {
 	title: "§b基础合金之一",
-	x: 2.0d,
-	y: -0.5d,
+	x: 0.5d,
+	y: 2.5d,
 	description: "合成青铜锭，铜锡合金",
 	text: [
 		""
@@ -29,8 +29,8 @@
 		xp: 300
 	},
 	{
-		uid: "f6902db3",
-		type: "choice",
+		uid: "0ef0da49",
+		type: "random",
 		table: 0
 	}]
 }

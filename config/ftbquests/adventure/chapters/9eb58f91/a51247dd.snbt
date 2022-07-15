@@ -1,0 +1,15 @@
+{
+	x: 9.0d,
+	y: -3.0d,
+	dependencies: [
+		"533ded67",
+		"92f1fcda"
+	],
+	tasks: [{
+		uid: "e5f49eeb",
+		type: "item",
+		items: [{
+			item: "additions:eioaddon-blackhole_alloy_ingot"
+		}]
+	}]
+}

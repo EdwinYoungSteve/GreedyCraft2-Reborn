@@ -1,0 +1,17 @@
+{
+	x: -9.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "be13e7ff",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "41cf98d8",
+		type: "item",
+		item: "thermalfoundation:ore 1 7",
+		count: 10
+	}]
+}

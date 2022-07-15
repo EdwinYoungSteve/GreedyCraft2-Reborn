@@ -1,0 +1,14 @@
+{
+	x: 10.5d,
+	y: -3.0d,
+	dependencies: [
+		"a51247dd"
+	],
+	tasks: [{
+		uid: "47f12b94",
+		type: "item",
+		items: [{
+			item: "additions:eioaddon-creative_alloy_ingot"
+		}]
+	}]
+}

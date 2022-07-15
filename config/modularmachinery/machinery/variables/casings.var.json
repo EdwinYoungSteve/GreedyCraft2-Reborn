@@ -6,7 +6,13 @@
         "modularmachinery:blockfluidinputhatch",
         "modularmachinery:blockoutputbus",
         "modularmachinery:blockenergyoutputhatch",
-        "modularmachinery:blockfluidoutputhatch"
+        "modularmachinery:blockfluidoutputhatch",
+        "gugu-utils:environmenthatch",
+        "gugu-utils:energyoutputport",
+        "gugu-utils:sparkmanahatch",
+        "gugu-utils:emberinputhatch",
+        "gugu-utils:aurainputhatch",
+        "gugu-utils:aspecthatch"
     ],
     "casings_decorative": [
         "modularmachinery:blockcasing"
@@ -33,5 +39,12 @@
     "iron_bars": [
         "minecraft:iron_bars",
 		"chisel:ironpane"
+    ],
+    "casings_upgrade": [
+        "modularmachinery:blockcasing@1",
+        "modularmachinery:blockcasing@2",
+        "modularmachinery:blockcasing@3",
+        "modularmachinery:blockcasing@4",
+        "modularmachinery:blockcasing@5"
     ]
 }

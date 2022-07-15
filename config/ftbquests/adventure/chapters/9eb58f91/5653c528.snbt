@@ -1,0 +1,14 @@
+{
+	x: 10.5d,
+	y: -1.5d,
+	dependencies: [
+		"ba088ac9"
+	],
+	tasks: [{
+		uid: "01d6fe29",
+		type: "item",
+		items: [{
+			item: "enderio:block_farm_station"
+		}]
+	}]
+}

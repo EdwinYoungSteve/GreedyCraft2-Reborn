@@ -1,0 +1,26 @@
+{
+	x: -5.0d,
+	y: -3.5d,
+	dependencies: [
+		"9b34a8ff"
+	],
+	tasks: [{
+		uid: "b129ce4a",
+		type: "item",
+		items: [{
+			item: "mekanism:filterupgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4ea4aa73",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "42d1437d",
+		type: "item",
+		item: "mekanism:filterupgrade"
+	}]
+}

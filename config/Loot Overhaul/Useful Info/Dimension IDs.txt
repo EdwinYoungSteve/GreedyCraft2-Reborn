@@ -207,33 +207,6 @@ divinerpg:vethea
 	- Terrain Scale: 1.0
 
 
-lostcities
-	- Id: 111
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? true
-	- Terrain Scale: 1.0
-
-
-emptiness
-	- Id: 14676
-	- Height: 256
-	- Has Sky? false
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 16.0
-
-
-theaurorian
-	- Id: 645
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 255.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
 euca
 	- Id: 820
 	- Height: 256
@@ -306,6 +279,33 @@ senterian
 	- Terrain Scale: 1.0
 
 
+lostcities
+	- Id: 111
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+emptiness
+	- Id: 14676
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 16.0
+
+
+theaurorian
+	- Id: 645
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 255.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
 candymod
 	- Id: 23
 	- Height: 256
@@ -319,33 +319,6 @@ AetherI
 	- Id: 4
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: -5.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-Deep Dark
-	- Id: -11325
-	- Height: 128
-	- Has Sky? false
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-ExtraUtils2_Quarry_Dim
-	- Id: -9999
-	- Height: 128
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-Spectre
-	- Id: -343800852
-	- Height: 256
-	- Has Sky? false
 	- Cloud Height: -5.0
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
@@ -375,6 +348,33 @@ everdawn
 	- Has Sky? true
 	- Cloud Height: 180.0
 	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+Deep Dark
+	- Id: -11325
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+ExtraUtils2_Quarry_Dim
+	- Id: -9999
+	- Height: 128
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+Spectre
+	- Id: -343800852
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: -5.0
+	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
 

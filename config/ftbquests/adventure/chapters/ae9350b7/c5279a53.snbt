@@ -1,0 +1,63 @@
+{
+	title: "§b有机会！",
+	x: 7.5d,
+	y: 4.5d,
+	description: "获得机会方块",
+	text: [
+		"纯粹看脸的世界，真的"
+	],
+	tasks: [{
+		uid: "514dcea8",
+		type: "item",
+		items: [{
+			item: "chancecubes:chance_cube"
+		}]
+	}],
+	rewards: [{
+		uid: "b7c94ef2",
+		type: "item",
+		item: "chancecubes:chance_pendant_tier1"
+	},
+	{
+		uid: "b94173c8",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "cofhcore:luck2"
+			}
+		}
+	},
+	{
+		uid: "174dbed4",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "09ae488e",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "560e6128",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				CustomPotionEffects: [{
+					ShowParticles: 0b,
+					Duration: 6000,
+					Id: 27,
+					Amplifier: 126
+				}],
+				CustomPotionColor: 0,
+				display: {
+					Lore: [
+						"§9今天出货率真高啊！"
+					],
+					Name: "§8非酋药剂"
+				}
+			}
+		}
+	}]
+}

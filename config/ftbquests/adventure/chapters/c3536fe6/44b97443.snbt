@@ -1,0 +1,17 @@
+{
+	title: "§b堕入黑暗",
+	x: -9.5d,
+	y: 3.5d,
+	description: "从奥穆索的虚空里进入黑暗领域",
+	text: [
+		""
+	],
+	dependencies: [
+		"bc4818a6"
+	],
+	tasks: [{
+		uid: "369e8516",
+		type: "dimension",
+		dim: 53
+	}]
+}

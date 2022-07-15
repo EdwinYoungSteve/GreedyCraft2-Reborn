@@ -1,0 +1,14 @@
+{
+	x: 6.5d,
+	y: 4.5d,
+	dependencies: [
+		"79c1a617"
+	],
+	tasks: [{
+		uid: "3f6d4f7f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	}]
+}

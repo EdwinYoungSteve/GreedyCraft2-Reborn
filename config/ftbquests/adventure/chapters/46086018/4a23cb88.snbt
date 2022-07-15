@@ -28,8 +28,8 @@
 		xp: 500
 	},
 	{
-		uid: "0775897d",
-		type: "choice",
+		uid: "7d1e76f7",
+		type: "random",
 		table: 1
 	}]
 }

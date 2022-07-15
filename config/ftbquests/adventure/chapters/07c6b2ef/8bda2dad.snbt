@@ -15,5 +15,15 @@
 		items: [{
 			item: "solarflux:solar_panel_3"
 		}]
+	}],
+	rewards: [{
+		uid: "6d5d61dc",
+		type: "item",
+		item: "solarflux:solar_panel_3"
+	},
+	{
+		uid: "1d3e129b",
+		type: "xp",
+		xp: 450
 	}]
 }

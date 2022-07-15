@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x3c8195,
+    "langs": {
+        "material": {
+            "en": "Wildwood",
+            "zh": "原始"
+        }
+    }
+}

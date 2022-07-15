@@ -1,0 +1,20 @@
+{
+	title: "§b我为律者",
+	x: 13.0d,
+	y: -1.5d,
+	description: "召唤并击杀空之律者！",
+	text: [
+		""
+	],
+	dependencies: [
+		"d97d3f15"
+	],
+	tasks: [{
+		uid: "03087c4a",
+		type: "item",
+		items: [{
+			item: "extrabotany:cosmetic 1 8"
+		}],
+		ignore_nbt: 1b
+	}]
+}

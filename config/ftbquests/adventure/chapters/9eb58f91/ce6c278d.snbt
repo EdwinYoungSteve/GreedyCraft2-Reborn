@@ -1,0 +1,21 @@
+{
+	title: "§b最强粉碎机",
+	x: 6.0d,
+	y: 1.5d,
+	description: "制作强化SAG磨粉机",
+	text: [
+		""
+	],
+	dependencies: [
+		"7b441dcf",
+		"148cc14b"
+	],
+	tasks: [{
+		uid: "cf53a138",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_sag_mill"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "§b燃烧吧，基岩！",
+	x: 1.5d,
+	y: 0.0d,
+	description: "在基岩上点火，获得基岩粉",
+	text: [
+		""
+	],
+	dependencies: [
+		"f3a15c8b"
+	],
+	tasks: [{
+		uid: "de2a0339",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 20"
+		}]
+	}]
+}

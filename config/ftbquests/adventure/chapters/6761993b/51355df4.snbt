@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	dependencies: [
+		"98499983"
+	],
+	tasks: [{
+		uid: "ccc024a5",
+		type: "item",
+		items: [{
+			item: "bloodmagic:teleposition_focus"
+		}],
+		ignore_nbt: 1b
+	}]
+}

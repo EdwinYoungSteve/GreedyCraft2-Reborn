@@ -8,18 +8,6 @@
 		""
 	],
 	rewards: [{
-		uid: "d3bd0829",
-		type: "item",
-		title: "这是一本说明书",
-		auto: "enabled",
-		item: {
-			id: "patchouli:guide_book",
-			tag: {
-				"patchouli:book": "patchouli:greedycraft_guide_book"
-			}
-		}
-	},
-	{
 		uid: "f19ad107",
 		type: "item",
 		title: "这是另一本更强的说明书",

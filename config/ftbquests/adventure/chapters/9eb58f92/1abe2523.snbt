@@ -1,0 +1,25 @@
+{
+	x: -6.5d,
+	y: 1.0d,
+	dependencies: [
+		"ac4dcc2a"
+	],
+	tasks: [{
+		uid: "df2b2561",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b1395c20",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "0c6625ff",
+		type: "loot",
+		table: 0
+	}]
+}

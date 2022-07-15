@@ -1,0 +1,15 @@
+{
+	x: 3.5d,
+	y: 6.0d,
+	dependencies: [
+		"cb767f8b"
+	],
+	tasks: [{
+		uid: "e6a5466a",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_diviner"
+		}],
+		ignore_nbt: 1b
+	}]
+}

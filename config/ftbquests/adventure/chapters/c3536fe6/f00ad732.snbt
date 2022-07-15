@@ -1,0 +1,20 @@
+{
+	title: "§b高级法杖",
+	x: -6.5d,
+	y: 5.0d,
+	description: "获得奥穆索撕裂法杖",
+	text: [
+		""
+	],
+	dependencies: [
+		"5d80cdc8"
+	],
+	tasks: [{
+		uid: "a7ca976d",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:drainstaff 1 3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

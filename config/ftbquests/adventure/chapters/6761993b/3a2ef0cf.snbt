@@ -1,0 +1,14 @@
+{
+	x: 6.5d,
+	y: 3.0d,
+	dependencies: [
+		"1a4db9ec"
+	],
+	tasks: [{
+		uid: "7ed0a460",
+		type: "item",
+		items: [{
+			item: "bloodarsenal:blood_diamond 1 3"
+		}]
+	}]
+}

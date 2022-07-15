@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x630099,
+    "langs": {
+        "material": {
+            "en": "Insanium",
+            "zh": "究极精华"
+        }
+    }
+}

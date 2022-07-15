@@ -1,0 +1,19 @@
+{
+	title: "§b怪恶心的……",
+	x: 8.5d,
+	y: -3.0d,
+	description: "通过魔力池将煤炭转化为梦魇燃料",
+	text: [
+		""
+	],
+	dependencies: [
+		"df33955a"
+	],
+	tasks: [{
+		uid: "e4a1b8d6",
+		type: "item",
+		items: [{
+			item: "extrabotany:nightmarefuel"
+		}]
+	}]
+}

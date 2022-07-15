@@ -1,0 +1,30 @@
+{
+	x: -3.5d,
+	y: -2.0d,
+	dependencies: [
+		"9b34a8ff"
+	],
+	tasks: [{
+		uid: "0d0485ed",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "65aaf3a7",
+		type: "item",
+		item: "mekanism:basicblock2",
+		count: 32
+	},
+	{
+		uid: "7447d6dc",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "0f88b029",
+		type: "loot",
+		table: 1
+	}]
+}

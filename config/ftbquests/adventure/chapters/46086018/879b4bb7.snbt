@@ -1,0 +1,30 @@
+{
+	title: "§b天境传说",
+	x: 4.5d,
+	y: 7.5d,
+	description: "进入天境维度",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e156437a",
+		type: "dimension",
+		icon: "minecraft:glowstone",
+		dim: 4
+	}],
+	rewards: [{
+		uid: "ae4e3aee",
+		type: "item",
+		item: "aether_legacy:golden_parachute"
+	},
+	{
+		uid: "d80191ab",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "eb228ae8",
+		type: "xp",
+		xp: 600
+	}]
+}

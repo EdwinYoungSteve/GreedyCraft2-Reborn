@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: 6.5d,
+	dependencies: [
+		"fcc46f35",
+		"c575a24e"
+	],
+	tasks: [{
+		uid: "30768ba7",
+		type: "item",
+		items: [{
+			item: "journey:eucaportalframe"
+		}]
+	}]
+}

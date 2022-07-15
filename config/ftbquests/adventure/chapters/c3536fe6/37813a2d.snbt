@@ -1,0 +1,19 @@
+{
+	title: "§b原力！",
+	x: -3.5d,
+	y: 3.5d,
+	description: "在梦魇世界第四层击杀毁灭者",
+	text: [
+		"使用梦魇打火石在毁灭者祭坛上召唤"
+	],
+	dependencies: [
+		"d259408c",
+		"e8c29a84"
+	],
+	tasks: [{
+		uid: "694cd451",
+		type: "kill",
+		entity: "divinerpg:wreck",
+		value: 1L
+	}]
+}

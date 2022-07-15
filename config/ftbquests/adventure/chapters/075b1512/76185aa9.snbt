@@ -1,0 +1,11 @@
+{
+	x: -10.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "e68ce051",
+		type: "stat",
+		icon: "minecraft:iron_helmet",
+		stat: "stat.playOneMinute",
+		value: 1728000
+	}]
+}

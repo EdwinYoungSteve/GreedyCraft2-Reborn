@@ -1,0 +1,23 @@
+{
+	title: "§b深渊权杖",
+	x: -5.0d,
+	y: 3.5d,
+	description: "使用深渊仪式合成守门者之杖",
+	text: [
+		""
+	],
+	dependencies: [
+		"866fed5b",
+		"f00ad732"
+	],
+	tasks: [{
+		uid: "346064fc",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:staff",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

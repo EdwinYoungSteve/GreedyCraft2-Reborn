@@ -1,0 +1,19 @@
+{
+	title: "§b灰暗的噩梦",
+	x: -6.5d,
+	y: 2.0d,
+	description: "获得伊桑斯锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"bc4818a6"
+	],
+	tasks: [{
+		uid: "2ab574a2",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:ethaxiumingot"
+		}]
+	}]
+}

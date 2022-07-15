@@ -1,0 +1,13 @@
+{
+	x: -3.5d,
+	y: 6.5d,
+	dependencies: [
+		"3a4a58f2"
+	],
+	tasks: [{
+		uid: "463032f7",
+		type: "kill",
+		entity: "mowziesmobs:frostmaw",
+		value: 1L
+	}]
+}

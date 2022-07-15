@@ -1,0 +1,11 @@
+{
+	x: -2.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "8ea75fc4",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	}]
+}

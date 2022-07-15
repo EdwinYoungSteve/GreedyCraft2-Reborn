@@ -1,0 +1,47 @@
+{
+	title: "§b欢迎来到洛式世界",
+	x: -3.0d,
+	y: 4.5d,
+	description: "获得一本深渊死灵之书",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "67169381",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "191c3e48",
+		type: "item",
+		item: "abyssalcraft:statue",
+		count: 2
+	},
+	{
+		uid: "ba8cbc43",
+		type: "item",
+		item: "gct_ores:say_the_sun_burns_chaos"
+	},
+	{
+		uid: "a501a0c3",
+		type: "item",
+		item: "gct_ores:love_is_the_slave_of_chaos"
+	},
+	{
+		uid: "0ddfaf10",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "83c854b7",
+		type: "random",
+		table: 1
+	}]
+}

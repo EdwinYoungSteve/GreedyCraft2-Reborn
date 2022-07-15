@@ -1,0 +1,10 @@
+{
+	x: -9.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: "a2218b44",
+		type: "gamestage",
+		title: "在【冒险·叁】处取得进展",
+		stage: "fusion_matrix"
+	}]
+}

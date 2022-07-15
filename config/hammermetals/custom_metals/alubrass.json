@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xe2be4e,
+    "langs": {
+        "material": {
+            "en": "Alubrass",
+            "zh": "铝黄铜"
+        }
+    }
+}

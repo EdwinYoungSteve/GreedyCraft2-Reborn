@@ -17,5 +17,26 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ad9c050d",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "3396ba10",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "fde25953",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_fire_resistance"
+			}
+		},
+		count: 8
 	}]
 }
