@@ -1,0 +1,14 @@
+{
+	x: -8.0d,
+	y: 11.0d,
+	dependencies: [
+		"92b01be6"
+	],
+	tasks: [{
+		uid: "db305efb",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sap_ball"
+		}]
+	}]
+}

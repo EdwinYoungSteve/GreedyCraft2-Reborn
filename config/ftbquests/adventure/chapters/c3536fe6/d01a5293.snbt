@@ -1,0 +1,16 @@
+{
+	x: 2.5d,
+	y: 8.0d,
+	dependencies: [
+		"b74b35dc"
+	],
+	tasks: [{
+		uid: "8d414a0e",
+		type: "item",
+		items: [{
+			item: "journey:thunderbirdorb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

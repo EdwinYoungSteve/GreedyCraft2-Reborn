@@ -1,6 +1,11 @@
 {
+	title: "§b黄金与白银",
 	x: -2.0d,
 	y: 6.5d,
+	description: "获得桉域结界石",
+	text: [
+		""
+	],
 	dependencies: [
 		"fcc46f35",
 		"c575a24e"

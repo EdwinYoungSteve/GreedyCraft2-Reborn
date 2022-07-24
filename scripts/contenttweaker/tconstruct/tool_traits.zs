@@ -104,7 +104,7 @@ gambleTrait.calcDamage = function(trait, tool, attacker, target, originalDamage,
     if (rand < 0.15) {
         dmg = newDamage * 2 as float; 
     } else if (rand < 0.45) {
-        dmg = newDamage * 2 as float; 
+        dmg = newDamage / 2 as float; 
     }
     return dmg;
 };
@@ -119,7 +119,7 @@ ragingTrait.calcCrit = function(trait, tool, attacker, target) {
 };
 ragingTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (!isCritical) {
-        return newDamage * 1.25;
+        
     }
     return  newDamage * 0.75;
 };
@@ -766,3 +766,32 @@ nightmareTrait.calcDamage = function(trait, tool, attacker, target, originalDama
     return newDamage;
 };
 nightmareTrait.register();
+
+val strongmoonTrait = TraitBuilder.create("strong_moon");
+strongmoonTrait.color = Color.fromHex("ffffff").getIntColor(); 
+strongmoonTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.strongmoonTrait.name");
+strongmoonTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.strongmoonTrait.desc");
+strongmoonTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
+        val player as IPlayer = attacker;
+        if(player.world.isDayTime()==false){
+                return newDamage * 2;
+        }
+                return newDamage / 2;
+};
+strongmoonTrait.register();
+
+val aurorapowerTrait = TraitBuilder.create("aurora_power");
+aurorapowerTrait.color = Color.fromHex("ffffff").getIntColor(); 
+aurorapowerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.aurorapowerTrait.name");
+aurorapowerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.aurorapowerTrait.desc");
+aurorapowerTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical){
+        var nowMoonPhase as int = attacker.world.getMoonPhase();
+        if (attacker.getDimension() == 645){
+                return newDamage * 2;
+        }else if (nowMoonPhase >= 3 & !attacker.world.isDayTime()){
+                return newDamage *(nowMoonPhase /2);
+        }
+        return newDamage;
+
+};
+aurorapowerTrait.register();

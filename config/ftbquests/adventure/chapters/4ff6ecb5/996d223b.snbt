@@ -1,0 +1,32 @@
+{
+	title: "腐化裂隙？超逊的啦！",
+	x: 1.5d,
+	y: 1.5d,
+	dependencies: [
+		"577b454a",
+		"7ed66664"
+	],
+	tasks: [{
+		uid: "8beaf9fc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:causality_collapser"
+		}]
+	}],
+	rewards: [{
+		uid: "bce36e4d",
+		type: "item",
+		item: "thaumcraft:causality_collapser",
+		count: 3
+	},
+	{
+		uid: "14617b49",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "d16c0eab",
+		type: "loot",
+		table: 2
+	}]
+}

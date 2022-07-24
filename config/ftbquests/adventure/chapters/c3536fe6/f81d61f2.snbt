@@ -1,0 +1,13 @@
+{
+	x: -9.5d,
+	y: 11.0d,
+	dependencies: [
+		"92b01be6"
+	],
+	tasks: [{
+		uid: "bb0fb6d5",
+		type: "kill",
+		entity: "thebetweenlands:spirit_tree_face_large",
+		value: 1L
+	}]
+}

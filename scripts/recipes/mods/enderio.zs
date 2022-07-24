@@ -71,6 +71,7 @@ AlloySmelter.addRecipe(<additions:taigaddon-tierite_ingot> * 2, [<ore:ingotCloud
 AlloySmelter.addRecipe(<additions:eioaddon-blackhole_alloy_ingot> * 2, [<ore:ingotStellarAlloy>, <draconicevolution:chaos_shard:1> * 4, <ore:ingotVoid>], 300000, 200.0f);
 AlloySmelter.addRecipe(<additions:eioaddon-creative_alloy_ingot> * 2, [<ore:ingotBlackholeAlloy> * 2, <ore:ingotBalancedMatrix>, <ore:shardCreative>], 1000000, 1000.0f);
 AlloySmelter.addRecipe(<tconevo:material> * 2, [<ore:ingotManyullyn> * 2, <ore:ingotAdamant>, <ore:ingotEnderium> * 2], 50000, 20.0f);
+AlloySmelter.addRecipe(<additions:greedycraft-daynight_ingot>, [<ore:ingotFalsite>, <ore:ingotVentium>, <ore:ingotHorizonite>], 5000, 10.0f);
 
 SagMill.removeRecipe(<minecraft:coal>);
 SagMill.removeRecipe(<actuallyadditions:block_misc:2>);

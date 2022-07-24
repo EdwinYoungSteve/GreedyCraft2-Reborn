@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: 8.0d,
+	dependencies: [
+		"8a04dd69"
+	],
+	tasks: [{
+		uid: "e973effc",
+		type: "item",
+		items: [{
+			item: "journey:cloudiaportalframe"
+		}]
+	}]
+}

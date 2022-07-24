@@ -2025,6 +2025,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 44.0,
+      "defense": 33.75,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 28.0,
+      "modifier": 31.764706,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 28.0,
+      "materialType": "trim"
+    },
+    "identifier": "aurorianite",
+    "color": -5391105,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
       "durability": 48.0,
       "defense": 10.8,
       "materialType": "core"
@@ -3543,6 +3565,28 @@
   },
   {
     "coreMaterialStats": {
+      "durability": 37.0,
+      "defense": 30.6,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 11.2,
+      "modifier": 27.52941,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 11.2,
+      "materialType": "trim"
+    },
+    "identifier": "umbra",
+    "color": -12628910,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
+  },
+  {
+    "coreMaterialStats": {
       "durability": 54.0,
       "defense": 36.0,
       "materialType": "core"
@@ -4090,6 +4134,28 @@
     "type": "METAL",
     "castable": false,
     "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 28.0,
+      "defense": 40.5,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 22.4,
+      "modifier": 29.647058,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 22.4,
+      "materialType": "trim"
+    },
+    "identifier": "hellcrust",
+    "color": -11513776,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
   },
   {
     "coreMaterialStats": {
@@ -5806,6 +5872,28 @@
     "type": "METAL",
     "castable": false,
     "craftable": true
+  },
+  {
+    "coreMaterialStats": {
+      "durability": 2.0,
+      "defense": 15.75,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 1.12,
+      "modifier": 2.117647,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 1.12,
+      "materialType": "trim"
+    },
+    "identifier": "crystalline",
+    "color": -68865,
+    "type": "METAL",
+    "castable": true,
+    "craftable": false
   },
   {
     "coreMaterialStats": {

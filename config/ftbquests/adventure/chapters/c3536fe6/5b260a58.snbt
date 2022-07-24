@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 8.0d,
+	dependencies: [
+		"0618c1c5"
+	],
+	tasks: [{
+		uid: "9f8ed105",
+		type: "item",
+		items: [{
+			item: "journey:senterianportalframe"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "什么？vis不够用？",
+	x: -5.5d,
+	y: 3.5d,
+	dependencies: [
+		"55a56909"
+	],
+	tasks: [{
+		uid: "5bcf51b6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "768963ac",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "24125adc",
+		type: "loot",
+		table: 1
+	}]
+}

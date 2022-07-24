@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: 6.5d,
+	dependencies: [
+		"2791d5a6"
+	],
+	tasks: [{
+		uid: "76449305",
+		type: "item",
+		items: [{
+			item: "journey:trophyterra"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -6.5d,
+	y: 14.0d,
+	dependencies: [
+		"44b179ac"
+	],
+	tasks: [{
+		uid: "45a313f1",
+		type: "kill",
+		icon: "ageofminecraft:chaosguardian",
+		entity: "draconicevolution:chaosguardian",
+		value: 1L
+	},
+	{
+		uid: "ecbea910",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaos_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "9974eed5",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "chaotic_dominator"
+	}]
+}

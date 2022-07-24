@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xc31a1f,
+    "langs": {
+        "material": {
+            "en": "Ventium",
+            "zh": "风腾"
+        }
+    }
+}

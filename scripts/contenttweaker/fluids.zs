@@ -919,3 +919,53 @@ molten_twilight_crystal.color = Color.fromHex("189800").getIntColor();
 molten_twilight_crystal.stillLocation = "base:fluids/molten";
 molten_twilight_crystal.flowingLocation = "base:fluids/molten_flowing";
 molten_twilight_crystal.register();
+
+//gt 2
+
+val molten_hellcrust = mods.contenttweaker.VanillaFactory.createFluid("hellcrust", Color.fromHex("505050").getIntColor()); 
+molten_hellcrust.material = <blockmaterial:lava>;
+molten_hellcrust.viscosity = 3000;
+molten_hellcrust.density = 6500;
+molten_hellcrust.colorize = true;
+molten_hellcrust.temperature = 1000;
+molten_hellcrust.luminosity = 10;
+molten_hellcrust.color = Color.fromHex("505050").getIntColor();
+molten_hellcrust.stillLocation = "base:fluids/molten";
+molten_hellcrust.flowingLocation = "base:fluids/molten_flowing";
+molten_hellcrust.register();
+
+val molten_umbra = mods.contenttweaker.VanillaFactory.createFluid("umbra", Color.fromHex("3f4c52").getIntColor()); 
+molten_umbra.material = <blockmaterial:lava>;
+molten_umbra.viscosity = 3000;
+molten_umbra.density = 6500;
+molten_umbra.colorize = true;
+molten_umbra.temperature = 1000;
+molten_umbra.luminosity = 10;
+molten_umbra.color = Color.fromHex("3f4c52").getIntColor();
+molten_umbra.stillLocation = "base:fluids/molten";
+molten_umbra.flowingLocation = "base:fluids/molten_flowing";
+molten_umbra.register();
+
+val molten_crystalline = mods.contenttweaker.VanillaFactory.createFluid("crystalline", Color.fromHex("fef2ff").getIntColor()); 
+molten_crystalline.material = <blockmaterial:lava>;
+molten_crystalline.viscosity = 3000;
+molten_crystalline.density = 6500;
+molten_crystalline.colorize = true;
+molten_crystalline.temperature = 1000;
+molten_crystalline.luminosity = 10;
+molten_crystalline.color = Color.fromHex("fef2ff").getIntColor();
+molten_crystalline.stillLocation = "base:fluids/molten";
+molten_crystalline.flowingLocation = "base:fluids/molten_flowing";
+molten_crystalline.register();
+
+val molten_aurorianite = mods.contenttweaker.VanillaFactory.createFluid("aurorianite", Color.fromHex("adbcff").getIntColor()); 
+molten_aurorianite.material = <blockmaterial:lava>;
+molten_aurorianite.viscosity = 3000;
+molten_aurorianite.density = 6500;
+molten_aurorianite.colorize = true;
+molten_aurorianite.temperature = 1000;
+molten_aurorianite.luminosity = 10;
+molten_aurorianite.color = Color.fromHex("adbcff").getIntColor();
+molten_aurorianite.stillLocation = "base:fluids/molten";
+molten_aurorianite.flowingLocation = "base:fluids/molten_flowing";
+molten_aurorianite.register();

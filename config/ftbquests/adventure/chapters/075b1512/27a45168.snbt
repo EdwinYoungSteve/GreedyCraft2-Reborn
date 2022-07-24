@@ -1,0 +1,31 @@
+{
+	x: 5.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "589079c3",
+		type: "stat",
+		icon: "minecraft:leather_boots",
+		stat: "stat.fallOneCm",
+		value: 2000
+	}],
+	rewards: [{
+		uid: "9ce75a12",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "5c543387",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

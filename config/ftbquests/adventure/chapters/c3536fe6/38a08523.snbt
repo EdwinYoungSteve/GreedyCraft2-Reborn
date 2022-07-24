@@ -1,0 +1,13 @@
+{
+	x: -9.5d,
+	y: 14.0d,
+	dependencies: [
+		"ff630876"
+	],
+	tasks: [{
+		uid: "341a1a8a",
+		type: "kill",
+		entity: "thebetweenlands:dreadful_mummy",
+		value: 1L
+	}]
+}

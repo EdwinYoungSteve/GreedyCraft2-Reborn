@@ -365,6 +365,11 @@ greedycraft.tconstruct.tool_trait.assassinTrait.desc=§o躬耕于黑暗，侍奉
 greedycraft.tconstruct.tool_trait.madnessTrait.name=癫狂
 greedycraft.tconstruct.tool_trait.madnessTrait.desc=§o究竟是人性的扭曲还是道德的沦丧？§r\n§f手持这把工具会使你扭曲，但随着扭曲值增加你能够造成更高的伤害。
 greedycraft.tool_trait.tooltip.damage_increase=§9武器伤害加成：%s%%
+//gt 2
+greedycraft.tconstruct.tool_trait.strongmoonTrait.name=强月
+greedycraft.tconstruct.tool_trait.strongmoonTrait.desc=§o好大好圆....的月亮§r\n夜晚奋起反击，白天畏畏缩缩。
+greedycraft.tconstruct.tool_trait.aurorapowerTrait.name=极光之力
+greedycraft.tconstruct.tool_trait.aurorapowerTrait.desc=维度内x2，维度外看月亮脸色，最高约3.5倍
 greedycraft.tooltip.abyssalcraft.gatewaykeydl.1=§c只有无畏之人才能进入恐惧之门。
 greedycraft.tooltip.abyssalcraft.gatewaykeyjzh.1=§c只有击败了巨龙的人才有资格进入奥穆索。
 greedycraft.tooltip.additions.greedycraft-aeroite_ore.1=§e请用铲子挖掘
@@ -1697,3 +1702,4 @@ greedycraft.event.executor.welcome.0=§9>§d>§6> §d§ka§r §c裁决者§6
 greedycraft.event.executor.welcome.1=§c加入了游戏！§d§ka§r §6<§d<§9<
 greedycraft.event.sponsor.welcome.0=§e>§a>§b> §d§ka§r §e
 greedycraft.event.sponsor.welcome.1=§e加入了游戏！§d§ka§r §b<§a<§e<
+

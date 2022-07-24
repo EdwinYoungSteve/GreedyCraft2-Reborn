@@ -84,6 +84,10 @@ aeonsteel                                         (contenttweaker:aeonsteel)    
 chromasteel                                       (contenttweaker:chromasteel)                                                     = ÈÛÈÚìÅ¸Ö
 spectre                                           (contenttweaker:spectre)                                                         = Áé»êÖ®Èª
 gaiasteel                                         (contenttweaker:gaiasteel)                                                       = ÈÛÈÚ¸ÇÑÇ¸Ö
+hellcrust                                         (contenttweaker:hellcrust)                                                       = ÈÛÈÚ½¹ÑÒ
+umbra                                             (contenttweaker:umbra)                                                           = ÈÛÈÚ±¾Ó°
+crystalline                                       (contenttweaker:crystalline)                                                     = ÈÛÈÚÔÂÄı¾§
+aurorianite                                       (contenttweaker:aurorianite)                                                     = ÈÛÈÚ¼«¹â
 molten_blood_infused_iron                         (bloodarsenal:bloodarsenal.molten_blood_infused_iron)                            = ÈÛÈÚ×¢ÑªÌú
 umbrium                                           (defiledlands:molten_umbrium)                                                    = ÈÛÈÚÓ°ËØ
 xu_evil_metal                                     ([no block])                                                                     = ¶ñÄ§¹à×¢Ìú
@@ -204,6 +208,8 @@ apalachia                                         (pewter:molten_apalachia)     
 skythern                                          (pewter:molten_skythern)                                                         = Molten ±ù´Ì
 mortum                                            (pewter:molten_mortum)                                                           = Molten ºÚ½ğ
 twilight_crystal                                  (pewter:molten_twilight_crystal)                                                 = Molten Äº¹â½á¾§
+shadium                                           (pewter:molten_shadium)                                                          = Molten ÒõËî
+lunium                                            (pewter:molten_lunium)                                                           = Molten ä—
 arlemite                                          (pewter:molten_arlemite)                                                         = Molten °¢ÀÕÃ×ÌØ
 hellstone                                         (pewter:molten_hellstone)                                                        = Molten ×ï¶ñ
 lava_solid                                        (pewter:molten_lava_solid)                                                       = Molten ¹ÌÌ¬ÈÛÑÒ

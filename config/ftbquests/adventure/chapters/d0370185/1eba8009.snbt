@@ -1,0 +1,30 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	can_repeat: true,
+	size: 8.0d,
+	tasks: [{
+		uid: "326ccac6",
+		type: "item",
+		title: "输入一个矿辞为metalAwakened的金属作为交换",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any metalAwakened"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "metalAwakened"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a7ddc3d8",
+		type: "choice",
+		table: 6
+	}]
+}

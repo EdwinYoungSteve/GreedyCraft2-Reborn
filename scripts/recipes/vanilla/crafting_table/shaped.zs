@@ -35,6 +35,7 @@ recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:wither
 recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:reaper"}}) * 1, [[null, <minecraft:skull:1>, null], [<quark:black_ash>, <minecraft:egg>, <quark:black_ash>],[null, <tconstruct:materials:17>, null]]);
 recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:minighast"}}) * 1, [[null, <journey:boilpowder>, null], [<minecraft:ghast_tear>, <minecraft:egg>, <minecraft:ghast_tear>],[null, <minecraft:ghast_tear>, null]]);
 recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:screamer"}}) * 1, [[null, <journey:hellstoneingot>, null], [<journey:hellstoneingot>, <minecraft:egg>, <journey:hellstoneingot>],[null, <minecraft:ender_eye>, null]]);
+recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:turducken"}}) * 1, [[null, <minecraft:feather>, null], [<journey:storoningot>, <minecraft:egg>, <journey:storoningot>],[null, <minecraft:feather>, null]]);
 
 recipes.addShaped(<modularcontroller:controller_builder_basic> * 1, [[<thermalfoundation:material:324>, <thermalfoundation:material:354>, <thermalfoundation:material:324>], [<thermalfoundation:material:354>, <modularmachinery:blockcontroller>, <thermalfoundation:material:354>],[<thermalfoundation:material:324>, <thermalfoundation:material:354>, <thermalfoundation:material:324>]]);
 recipes.addShaped(<gct_ores:blue_print_empty> * 1, [[<bigreactors:dustgraphite>, <bigreactors:dustgraphite>, <bigreactors:dustgraphite>], [<bigreactors:dustgraphite>, <minecraft:paper>, <bigreactors:dustgraphite>],[<bigreactors:dustgraphite>, <bigreactors:dustgraphite>, <bigreactors:dustgraphite>]]);
@@ -112,6 +113,13 @@ recipes.addShaped(<hooked:hook:4> * 1, [[<additions:vethea-vethea_ingot_mk9>, <d
 
 recipes.remove(<journey:eucaportalframe>);
 recipes.addShaped(<journey:eucaportalframe> * 1, [[<aether_legacy:holystone>, <jaopca:item_nuggetcryonium>, <aether_legacy:holystone>], [<gct_ores:lavarite_nugget>, <journey:eucaportalgem>, <gct_ores:snowingium_nugget>],[<aether_legacy:holystone>, <gct_ores:aetherium_nugget>, <aether_legacy:holystone>]]);
+recipes.addShaped(<additions:greedycraft-thunder_eye> * 1, [[<aether_legacy:aercloud:0>, <additions:aeonsteel_ingot>, <aether_legacy:aercloud:0>], [<gct_ores:witherium_dust>, <extendedcrafting:material:40>, <gct_ores:witherium_dust>],[<aether_legacy:aercloud:0>, <additions:aeonsteel_ingot>, <aether_legacy:aercloud:0>]]);
+
+recipes.addShaped(<blue_skies:zeal_lighter> * 1, [[<journey:celestiumingot>, <minecraft:feather>, null], [<journey:celestiumingot>, null, <minecraft:flint>],[<minecraft:feather>, <minecraft:flint>, <journey:luniumclump>]]);
+recipes.addShaped(<blue_skies:lunar_stonebrick> * 14, [[<abyssalcraft:shadowgem>, <journey:flairiumingot>, <abyssalcraft:shadowgem>], [<journey:flairiumingot>, <minecraft:emerald>, <journey:flairiumingot>],[<abyssalcraft:shadowgem>, <journey:flairiumingot>, <abyssalcraft:shadowgem>]]);
+recipes.addShaped(<blue_skies:turquoise_stonebrick> * 14, [[<abyssalcraft:shadowgem>, <journey:desingot>, <abyssalcraft:shadowgem>], [<journey:desingot>, <minecraft:emerald>, <journey:desingot>],[<abyssalcraft:shadowgem>, <journey:desingot>, <abyssalcraft:shadowgem>]]);
+recipes.addShaped(<mist:portal_base:3> * 1, [[null, <minecraft:mossy_cobblestone>, null], [<minecraft:mossy_cobblestone>, <mcs:compressed_gold_block:1>, <minecraft:mossy_cobblestone>],[<minecraft:gold_ingot>, <abyssalcraft:ethaxiumingot>, <minecraft:gold_ingot>]]);
+recipes.addShaped(<mist:portal_base:2> * 1, [[<minecraft:gold_ingot>, <abyssalcraft:ethaxiumingot>, <minecraft:gold_ingot>], [<minecraft:mossy_cobblestone>, <mcs:compressed_gold_block:1>, <minecraft:mossy_cobblestone>],[null, <minecraft:mossy_cobblestone>, null]]);
 
 RecipeUtil.addShaped("wood_pattern", <tconstruct:pattern> * 16, [
     [null, <ore:logWoodVethea>, null],

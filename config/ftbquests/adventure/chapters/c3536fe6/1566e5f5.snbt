@@ -1,0 +1,15 @@
+{
+	x: 1.0d,
+	y: 6.5d,
+	dependencies: [
+		"c8282a84",
+		"aec834b9"
+	],
+	tasks: [{
+		uid: "e3ced1f5",
+		type: "item",
+		items: [{
+			item: "journey:depthsportalframe"
+		}]
+	}]
+}

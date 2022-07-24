@@ -1,0 +1,30 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	dependencies: [
+		"996d223b"
+	],
+	tasks: [{
+		uid: "b0cf93ff",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_seed"
+		}]
+	}],
+	rewards: [{
+		uid: "959d6ff5",
+		type: "item",
+		item: "thaumcraft:void_seed",
+		count: 10
+	},
+	{
+		uid: "b2dfe2af",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "aa6d844a",
+		type: "loot",
+		table: 2
+	}]
+}

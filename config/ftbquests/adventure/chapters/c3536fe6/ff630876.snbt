@@ -1,0 +1,14 @@
+{
+	x: -11.0d,
+	y: 14.0d,
+	dependencies: [
+		"355fce12"
+	],
+	tasks: [{
+		uid: "ff43e994",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mummy_bait"
+		}]
+	}]
+}

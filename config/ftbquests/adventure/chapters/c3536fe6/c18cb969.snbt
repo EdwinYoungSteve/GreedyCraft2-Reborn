@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: 8.0d,
+	dependencies: [
+		"42baff69"
+	],
+	tasks: [{
+		uid: "4ecba1cb",
+		type: "item",
+		items: [{
+			item: "blue_skies:zeal_lighter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

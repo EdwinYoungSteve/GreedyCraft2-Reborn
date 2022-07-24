@@ -1,0 +1,27 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	text: [
+		"一直苦于要自己给坩埚加水？试试这个吧"
+	],
+	dependencies: [
+		"75992ca5"
+	],
+	tasks: [{
+		uid: "8a02289e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:everfull_urn"
+		}]
+	}],
+	rewards: [{
+		uid: "d66838a2",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "804ddcd0",
+		type: "loot",
+		table: 1
+	}]
+}

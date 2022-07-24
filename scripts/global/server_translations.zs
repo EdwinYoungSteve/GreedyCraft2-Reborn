@@ -93,7 +93,7 @@ global serverTranslations as string[string][string] = {
         "greedycraft.scoreboard.mode.casual": "§9游戏模式：§a休闲",
         "greedycraft.scoreboard.mode.expert": "§9游戏模式：§c专家",
         "greedycraft.scoreboard.author": "原作：§dTCreopargh",
-        "greedycraft.scoreboard.author2": "改进：§dmc_Edwin",
+        "greedycraft.scoreboard.author2": "改进：§dGreediest工作室",
         "greedycraft.stage.unfamiliar.name": "§5§ka§r §d未知物品 §5§ka§r",
         "greedycraft.stage.wither_skull.name": "§c无法直视的头颅",
         "greedycraft.stage.disabled_item.name": "§4已禁用的物品",

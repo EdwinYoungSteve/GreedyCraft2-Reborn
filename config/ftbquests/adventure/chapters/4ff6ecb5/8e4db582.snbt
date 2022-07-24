@@ -1,0 +1,30 @@
+{
+	title: "尝试神秘的太阳能？",
+	x: -1.5d,
+	y: 0.0d,
+	dependencies: [
+		"75992ca5"
+	],
+	tasks: [{
+		uid: "7fa2e334",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_alchemical"
+		}]
+	}],
+	rewards: [{
+		uid: "2321983b",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "134c6989",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "b2cd0a50",
+		type: "item",
+		item: "solarflux:solar_panel_alchemical"
+	}]
+}

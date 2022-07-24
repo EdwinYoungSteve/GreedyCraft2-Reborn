@@ -1,0 +1,17 @@
+{
+	x: -12.5d,
+	y: 5.0d,
+	dependencies: [
+		"8efccf0c"
+	],
+	tasks: [{
+		uid: "c1ee4f26",
+		type: "item",
+		items: [{
+			item: "tconevo:metal"
+		},
+		{
+			item: "gct_ores:fallen_metal_ingot"
+		}]
+	}]
+}

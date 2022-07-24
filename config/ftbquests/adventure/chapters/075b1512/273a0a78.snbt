@@ -1,5 +1,5 @@
 {
-	x: -10.5d,
+	x: -6.5d,
 	y: 1.0d,
 	tasks: [{
 		uid: "b7185534",
@@ -7,5 +7,25 @@
 		icon: "minecraft:leather_helmet",
 		stat: "stat.playOneMinute",
 		value: 115200
+	}],
+	rewards: [{
+		uid: "bee02be1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "42f121c0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
 	}]
 }

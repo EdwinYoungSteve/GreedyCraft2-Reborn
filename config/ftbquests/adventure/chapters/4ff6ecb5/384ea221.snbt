@@ -1,0 +1,27 @@
+{
+	title: "检查检查脑子？",
+	x: -8.5d,
+	y: -2.0d,
+	dependencies: [
+		"d5f049de"
+	],
+	tasks: [{
+		uid: "f88c0da0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:sanity_checker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b1b35087",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "687267ba",
+		type: "loot",
+		table: 0
+	}]
+}

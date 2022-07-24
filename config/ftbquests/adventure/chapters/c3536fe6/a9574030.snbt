@@ -1,0 +1,14 @@
+{
+	x: -9.5d,
+	y: 8.0d,
+	dependencies: [
+		"14262308"
+	],
+	tasks: [{
+		uid: "842217aa",
+		type: "item",
+		items: [{
+			item: "journey:terraniaportalframe"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 5.5d,
+	y: 8.0d,
+	dependencies: [
+		"7bd9b0fd"
+	],
+	tasks: [{
+		uid: "e79661c3",
+		type: "item",
+		items: [{
+			item: "journey:loggerorb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

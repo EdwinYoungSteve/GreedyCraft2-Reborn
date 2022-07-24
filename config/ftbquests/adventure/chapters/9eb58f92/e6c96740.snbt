@@ -21,5 +21,11 @@
 		uid: "c2621a12",
 		type: "loot",
 		table: 0
+	},
+	{
+		uid: "88666300",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "master_engineer"
 	}]
 }

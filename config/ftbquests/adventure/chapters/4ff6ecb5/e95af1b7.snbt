@@ -1,0 +1,30 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	dependencies: [
+		"d1d09aad",
+		"410072eb"
+	],
+	tasks: [{
+		uid: "32f5c895",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_void_metal"
+		}]
+	}],
+	rewards: [{
+		uid: "a8e11930",
+		type: "item",
+		item: "solarflux:solar_panel_void_metal"
+	},
+	{
+		uid: "6a5169e1",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "8d1705c0",
+		type: "loot",
+		table: 2
+	}]
+}

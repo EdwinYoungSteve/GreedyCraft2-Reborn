@@ -1,0 +1,14 @@
+{
+	x: -11.0d,
+	y: 3.5d,
+	dependencies: [
+		"20d59d5f"
+	],
+	tasks: [{
+		uid: "a3603324",
+		type: "item",
+		items: [{
+			item: "mist:niobium_ore"
+		}]
+	}]
+}

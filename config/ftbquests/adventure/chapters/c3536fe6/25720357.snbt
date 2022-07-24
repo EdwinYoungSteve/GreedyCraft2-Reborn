@@ -1,0 +1,14 @@
+{
+	x: -12.5d,
+	y: 11.0d,
+	dependencies: [
+		"d58d70ed"
+	],
+	tasks: [{
+		uid: "9026089b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:gecko_cage"
+		}]
+	}]
+}

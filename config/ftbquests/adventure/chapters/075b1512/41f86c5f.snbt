@@ -1,0 +1,33 @@
+{
+	x: 4.0d,
+	y: 13.0d,
+	dependencies: [
+		"b5ff65cc"
+	],
+	tasks: [{
+		uid: "5aac6635",
+		type: "stat",
+		stat: "stat.flyOneCm",
+		value: 3000000
+	}],
+	rewards: [{
+		uid: "f19b16b4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "762450fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

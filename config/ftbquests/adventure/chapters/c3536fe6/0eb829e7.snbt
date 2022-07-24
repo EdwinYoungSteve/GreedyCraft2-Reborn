@@ -1,0 +1,16 @@
+{
+	x: 2.5d,
+	y: 5.0d,
+	dependencies: [
+		"b74b35dc"
+	],
+	tasks: [{
+		uid: "7782908e",
+		type: "item",
+		items: [{
+			item: "journey:scaleorb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

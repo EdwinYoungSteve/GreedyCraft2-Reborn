@@ -21,8 +21,18 @@ import scripts.util.oredict as OredictUtil;
 <ore:blockHellstone>.remove(<journey:hellstoneblock>);
 <ore:ingotHellstone>.remove(<journey:hellstoneingot>);
 <ore:oreHellstone>.remove(<journey:hellstoneore>);
+<ore:gemSapphire>.remove(<journey:sapphire>);
+<ore:oreSapphire>.remove(<journey:sapphireore>);
+<ore:blockSapphire>.remove(<journey:sapphireblock>);
 
 var oredictMap as IIngredient[][IOreDictEntry] = {
+    <ore:ingotFalsite> : [<blue_skies:falsite_ingot>],
+    <ore:oreFalsite> : [<blue_skies:falsite_ore>],
+    <ore:ingotVentium> : [<blue_skies:ventium_ingot>],
+    <ore:oreVentium> : [<blue_skies:ventium_ore>],
+    <ore:ingotHorizonite> : [<blue_skies:horizonite_ingot>],
+    <ore:blockHorizonite> : [<blue_skies:horizonite_block>],
+    <ore:oreHorizonite> : [<blue_skies:horizonite_ore>],
     <ore:ingotBloodcrust> : [<journey:hellstoneingot>],
     <ore:blockBloodcrust> : [<journey:hellstoneblock>],
     <ore:oreBloodcrust> : [<journey:hellstoneore>],
@@ -462,9 +472,11 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <divinerpg:firewood_log>
     ],
     <ore:gemDilithium> : [<taiga:dilithium_crystal>],
-    <ore:dilithium> : [<taiga:dilithium_crystal>]
+    <ore:dilithium> : [<taiga:dilithium_crystal>],
+    <ore:dustShadium> : [<journey:shadiumdust>],
+    <ore:dustLunium> : [<journey:luniumdust>]
 };
- 
+
 var removeMap as IIngredient[][IOreDictEntry] = {
     <ore:cobblestone> : [<quark:biome_cobblestone:1>]
 };

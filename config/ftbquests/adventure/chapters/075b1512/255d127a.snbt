@@ -1,11 +1,34 @@
 {
-	x: -10.5d,
+	x: -6.5d,
 	y: 7.0d,
+	dependencies: [
+		"038c9bc3"
+	],
 	tasks: [{
 		uid: "b0dd778c",
 		type: "stat",
 		icon: "minecraft:diamond_helmet",
 		stat: "stat.playOneMinute",
 		value: 9216000
+	}],
+	rewards: [{
+		uid: "55963608",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "ed1f5657",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
 	}]
 }

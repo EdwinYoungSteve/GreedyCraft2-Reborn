@@ -1,0 +1,27 @@
+{
+	title: "妈妈再也不担心我污染高了",
+	x: -5.5d,
+	y: -2.0d,
+	dependencies: [
+		"d5f049de"
+	],
+	tasks: [{
+		uid: "c359782a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:creative_flux_sponge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1cf3349d",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "f97a9073",
+		type: "loot",
+		table: 2
+	}]
+}

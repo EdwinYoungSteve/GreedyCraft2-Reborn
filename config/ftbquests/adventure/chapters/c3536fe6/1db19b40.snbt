@@ -1,0 +1,15 @@
+{
+	x: -11.0d,
+	y: 9.5d,
+	dependencies: [
+		"14262308"
+	],
+	tasks: [{
+		uid: "571b7ab6",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:swamp_talisman"
+		}],
+		ignore_nbt: 1b
+	}]
+}

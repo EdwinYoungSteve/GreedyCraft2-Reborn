@@ -1,0 +1,63 @@
+{
+	x: 4.0d,
+	y: 8.5d,
+	dependencies: [
+		"21ed889e"
+	],
+	tasks: [{
+		uid: "e366986d",
+		type: "stat",
+		stat: "stat.flyOneCm",
+		value: 1000000
+	}],
+	rewards: [{
+		uid: "9eec738b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "2caefa1e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "a895747e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "f0906a96",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "8913b682",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x404040,
+    "langs": {
+        "material": {
+            "en": "Dullium",
+            "zh": "沉黯"
+        }
+    }
+}

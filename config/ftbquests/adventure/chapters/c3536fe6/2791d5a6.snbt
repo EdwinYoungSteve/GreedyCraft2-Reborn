@@ -1,0 +1,16 @@
+{
+	x: -8.0d,
+	y: 6.5d,
+	dependencies: [
+		"4a1d25aa"
+	],
+	tasks: [{
+		uid: "9cd212cf",
+		type: "item",
+		items: [{
+			item: "journey:enchantedterrastar"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

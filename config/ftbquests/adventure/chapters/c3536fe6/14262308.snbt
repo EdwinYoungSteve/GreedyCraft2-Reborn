@@ -1,0 +1,13 @@
+{
+	x: -11.0d,
+	y: 8.0d,
+	dependencies: [
+		"5f7f8d0a"
+	],
+	tasks: [{
+		uid: "b3b9e778",
+		type: "kill",
+		entity: "mowziesmobs:barako",
+		value: 1L
+	}]
+}

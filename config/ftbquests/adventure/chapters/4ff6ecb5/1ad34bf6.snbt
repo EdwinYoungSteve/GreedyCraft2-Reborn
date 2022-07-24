@@ -1,0 +1,28 @@
+{
+	x: -6.5d,
+	y: 2.5d,
+	text: [
+		"开高塔宝箱有概率获取"
+	],
+	dependencies: [
+		"d5f049de"
+	],
+	tasks: [{
+		uid: "746bbd6c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curio"
+		}]
+	}],
+	rewards: [{
+		uid: "193daa40",
+		type: "item",
+		item: "thaumcraft:curio",
+		count: 5
+	},
+	{
+		uid: "07f4a03e",
+		type: "xp",
+		xp: 100
+	}]
+}

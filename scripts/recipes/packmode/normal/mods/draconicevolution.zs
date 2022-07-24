@@ -124,8 +124,8 @@ FusionCrafting.add(<draconicevolution:wyvern_core>, <minecraft:nether_star>, 0, 
     <ore:coreBasic>,
     <ore:coreBasic>,
     <ore:coreBasic>,
-    <draconicevolution:draconium_ingot>,
-    <draconicevolution:draconium_ingot>,
+    <ore:ingotNiobium>,
+    <ore:ingotOrbadite>,
     <ore:metalWyvern>,
     <ore:metalWyvern>
 ]);
@@ -200,8 +200,8 @@ FusionCrafting.add(<gct_ores:fallen_core>, <minecraft:nether_star>, 0, 24576000,
     <ore:coreBasic>,
     <ore:coreBasic>,
     <ore:coreBasic>,
-    <tiths:ingot_witherium>,
-    <tiths:ingot_witherium>,
+    <ore:ingotNiobium>,
+    <ore:ingotOrbadite>,
     <ore:metalWyvern>,
     <ore:metalWyvern>
 ]);

@@ -1,6 +1,6 @@
 {
   "bookGuiScale": 0,
-  "clickedVisualize": false,
+  "clickedVisualize": true,
   "bookData": {
     "patchouli:the_elysia_project": {
       "viewedEntries": [
@@ -19,26 +19,109 @@
       "history": [
         "patchouli:logs/log_7",
         "patchouli:logs/log_6",
-        "patchouli:logs/log_8",
         "patchouli:logs/log_5",
         "patchouli:logs/log_4",
         "patchouli:logs/log_3",
-        "patchouli:logs/log_2",
         "patchouli:logs/log_1",
-        "patchouli:law/overview",
-        "patchouli:constitution/overview"
+        "patchouli:constitution/overview",
+        "patchouli:logs/log_8",
+        "patchouli:logs/log_2",
+        "patchouli:law/overview"
       ],
       "completedManualQuests": []
     },
     "patchouli:greedycraft_guide_book": {
       "viewedEntries": [
         "patchouli:guide/guide_first_things_to_do",
-        "patchouli:guide/guide_stages"
+        "patchouli:guide/guide_stages",
+        "patchouli:guide/guide_side_quests",
+        "patchouli:quick_start/perspective",
+        "patchouli:misc/commands",
+        "patchouli:misc/harvest_levels",
+        "patchouli:food/food_introduction",
+        "patchouli:mods/backup",
+        "patchouli:mods/journey",
+        "patchouli:mods/journey_summoningtable",
+        "patchouli:difficulty/difficulty_factors",
+        "patchouli:difficulty/difficulty_sync",
+        "patchouli:difficulty/difficulty_introduction",
+        "patchouli:quick_start/welcome",
+        "patchouli:quick_start/quests",
+        "patchouli:quick_start/excavation",
+        "patchouli:quick_start/story",
+        "patchouli:quick_start/packmodes",
+        "patchouli:quick_start/death_penalty",
+        "patchouli:quick_start/keybinds",
+        "patchouli:quick_start/performance_tips",
+        "patchouli:quick_start/pro_tips",
+        "patchouli:quick_start/teleport",
+        "patchouli:gamestages/gamestages_introduction",
+        "patchouli:gamestages/gamestages_hardmode",
+        "patchouli:gamestages/gamestages_list",
+        "patchouli:gamestages/gamestages_pouch",
+        "patchouli:skills/skills_introduction",
+        "patchouli:skills/skills_attributes",
+        "patchouli:guide/guide_maid",
+        "patchouli:guide/guide_hardmode_bosses",
+        "patchouli:guide/guide_modular_machines",
+        "patchouli:guide/guide_tconstruct",
+        "patchouli:guide/guide_terra_alloy",
+        "patchouli:misc/food_introduction",
+        "patchouli:misc/dank_null",
+        "patchouli:misc/lucky_clover",
+        "patchouli:misc/misc_recipes",
+        "patchouli:misc/creative_shards",
+        "patchouli:misc/backup",
+        "patchouli:misc/demagnetizer",
+        "patchouli:misc/music",
+        "patchouli:misc/territory",
+        "patchouli:misc/purger",
+        "patchouli:misc/kitchen",
+        "patchouli:misc/teaming",
+        "patchouli:misc/lost_city",
+        "patchouli:misc/medals"
       ],
       "bookmarks": [],
       "history": [
-        "patchouli:guide/guide_stages",
-        "patchouli:guide/guide_first_things_to_do"
+        "patchouli:gamestages/gamestages_list",
+        "patchouli:mods/journey_summoningtable",
+        "patchouli:misc/medals",
+        "patchouli:misc/lost_city",
+        "patchouli:misc/teaming",
+        "patchouli:misc/kitchen",
+        "patchouli:misc/purger",
+        "patchouli:misc/territory",
+        "patchouli:misc/music",
+        "patchouli:misc/demagnetizer",
+        "patchouli:misc/backup",
+        "patchouli:misc/creative_shards",
+        "patchouli:misc/misc_recipes"
+      ],
+      "completedManualQuests": []
+    },
+    "theaurorian:the_aurorian_guide": {
+      "viewedEntries": [
+        "theaurorian:aurorianbasics/1makingtheportal",
+        "theaurorian:aurorianbasics/3materials",
+        "theaurorian:aurorianbasics/2structurestolookfor",
+        "theaurorian:aurorianbasics/5lootscrapping",
+        "theaurorian:aurorianbasics/6moonlightforge",
+        "theaurorian:aurorianbasics/7scrapper",
+        "theaurorian:modprogression/2therunestonedungeon",
+        "theaurorian:modprogression/4darkstonedungeon",
+        "theaurorian:modprogression/3runestonedungeonmobs"
+      ],
+      "bookmarks": [],
+      "history": [
+        "theaurorian:aurorianbasics/5lootscrapping",
+        "theaurorian:aurorianbasics/1makingtheportal",
+        "theaurorian:aurorianbasics/2structurestolookfor",
+        "theaurorian:aurorianbasics/3materials",
+        "theaurorian:aurorianbasics/7scrapper",
+        "theaurorian:aurorianbasics/6moonlightforge",
+        "theaurorian:modprogression/4darkstonedungeon",
+        "theaurorian:modprogression/2therunestonedungeon",
+        "theaurorian:modprogression/3runestonedungeonmobs"
       ],
       "completedManualQuests": []
     }

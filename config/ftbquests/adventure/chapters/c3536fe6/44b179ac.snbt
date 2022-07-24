@@ -1,0 +1,27 @@
+{
+	x: -8.0d,
+	y: 14.0d,
+	dependencies: [
+		"c3f11661"
+	],
+	tasks: [{
+		uid: "722fbeff",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}]
+	},
+	{
+		uid: "187ebe52",
+		type: "item",
+		items: [{
+			item: "gct_ores:relifed_core"
+		}]
+	}],
+	rewards: [{
+		uid: "c02dd2a0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "awakened"
+	}]
+}

@@ -1053,3 +1053,55 @@ poop.addExtraMaterialStats(810);
 poop.addBowMaterialStats(getDrawSpeed(1.1) as float, 4.5, 1.4);
 poop.addProjectileMaterialStats();
 poop.register();
+
+val hellcrust = mods.contenttweaker.tconstruct.MaterialBuilder.create("hellcrust");//材料id
+hellcrust.color = Color.fromHex("505050").getIntColor();//颜色 
+hellcrust.craftable = false;//部件加工台
+hellcrust.castable = true;//浇筑
+hellcrust.representativeItem = <item:journey:hellcrustingot>;//显示的材料
+hellcrust.addItem(<item:journey:hellcrustingot>);//需要的材料
+hellcrust.liquid = <liquid:hellcrust>;
+hellcrust.localizedName = game.localize("greedycraft.tconstruct.material.hellcrust.name");
+hellcrust.addHeadMaterialStats(600, 10, 9, 5);//头部
+hellcrust.addHandleMaterialStats(1.4, 250);//手柄
+hellcrust.addExtraMaterialStats(200);//额外
+hellcrust.register();
+
+val umbra = mods.contenttweaker.tconstruct.MaterialBuilder.create("umbra");//材料id
+umbra.color = Color.fromHex("3f4c52").getIntColor();//颜色 
+umbra.craftable = false;//部件加工台
+umbra.castable = true;//浇筑
+umbra.representativeItem = <item:theaurorian:umbraingot>;//显示的材料
+umbra.addItem(<item:theaurorian:umbraingot>);//需要的材料
+umbra.liquid = <liquid:umbra>;
+umbra.localizedName = game.localize("greedycraft.tconstruct.material.umbra.name");
+umbra.addHeadMaterialStats(797, 3.2, 6.8, 5);//头部
+umbra.addHandleMaterialStats(1.3, 130);//手柄
+umbra.addExtraMaterialStats(100);//额外
+umbra.register();
+
+val crystalline = mods.contenttweaker.tconstruct.MaterialBuilder.create("crystalline");//材料id
+crystalline.color = Color.fromHex("fef2ff").getIntColor();//颜色 
+crystalline.craftable = false;//部件加工台
+crystalline.castable = true;//浇筑
+crystalline.representativeItem = <item:theaurorian:crystallineingot>;//显示的材料
+crystalline.addItem(<item:theaurorian:crystallineingot>);//需要的材料
+crystalline.liquid = <liquid:crystalline>;
+crystalline.localizedName = game.localize("greedycraft.tconstruct.material.crystalline.name");
+crystalline.addHeadMaterialStats(50, 17.25, 3.5, 4);//头部
+crystalline.addHandleMaterialStats(0.1, 10);//手柄
+crystalline.addExtraMaterialStats(10);//额外
+crystalline.register();
+
+val aurorianite = mods.contenttweaker.tconstruct.MaterialBuilder.create("aurorianite");//材料id
+aurorianite.color = Color.fromHex("adbcff").getIntColor();//颜色 
+aurorianite.craftable = false;//部件加工台
+aurorianite.castable = true;//浇筑
+aurorianite.representativeItem = <item:theaurorian:aurorianiteingot>;//显示的材料
+aurorianite.addItem(<item:theaurorian:aurorianiteingot>);//需要的材料
+aurorianite.liquid = <liquid:aurorianite>;
+aurorianite.localizedName = game.localize("greedycraft.tconstruct.material.aurorianite.name");
+aurorianite.addHeadMaterialStats(950, 6.15, 7.5, 4);//头部
+aurorianite.addHandleMaterialStats(1.5, 0);//手柄
+aurorianite.addExtraMaterialStats(250);//额外
+aurorianite.register();

@@ -1,0 +1,14 @@
+{
+	x: 7.0d,
+	y: 8.0d,
+	dependencies: [
+		"ae2acd92"
+	],
+	tasks: [{
+		uid: "8624598c",
+		type: "item",
+		items: [{
+			item: "journey:trophylogger"
+		}]
+	}]
+}

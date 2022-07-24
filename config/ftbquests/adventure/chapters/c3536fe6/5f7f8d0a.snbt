@@ -1,0 +1,14 @@
+{
+	x: -11.0d,
+	y: 6.5d,
+	dependencies: [
+		"8efccf0c"
+	],
+	tasks: [{
+		uid: "f3d6ad51",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-sun_totem"
+		}]
+	}]
+}

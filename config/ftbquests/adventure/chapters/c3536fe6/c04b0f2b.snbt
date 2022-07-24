@@ -1,0 +1,14 @@
+{
+	x: -8.0d,
+	y: 9.5d,
+	dependencies: [
+		"92b01be6"
+	],
+	tasks: [{
+		uid: "efcf4ae2",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_ore"
+		}]
+	}]
+}

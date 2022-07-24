@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: 9.5d,
+	dependencies: [
+		"c04b0f2b"
+	],
+	tasks: [{
+		uid: "f17ff30f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:valonite_ore"
+		}]
+	}]
+}

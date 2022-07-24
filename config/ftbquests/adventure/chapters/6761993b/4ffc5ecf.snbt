@@ -11,5 +11,11 @@
 		items: [{
 			item: "tconevo:metal 1 25"
 		}]
+	}],
+	rewards: [{
+		uid: "b169bb45",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "skilled_wizard"
 	}]
 }

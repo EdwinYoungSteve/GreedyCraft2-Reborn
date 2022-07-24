@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: 6.5d,
+	dependencies: [
+		"f639bef8",
+		"696c8192"
+	],
+	tasks: [{
+		uid: "4bef5796",
+		type: "item",
+		items: [{
+			item: "journey:corbaportalframe"
+		}]
+	}]
+}

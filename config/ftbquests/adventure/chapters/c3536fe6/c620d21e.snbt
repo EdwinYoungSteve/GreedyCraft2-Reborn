@@ -1,0 +1,14 @@
+{
+	x: 7.0d,
+	y: 5.0d,
+	dependencies: [
+		"491ca84c"
+	],
+	tasks: [{
+		uid: "e8bebf61",
+		type: "item",
+		items: [{
+			item: "journey:trophysentry"
+		}]
+	}]
+}

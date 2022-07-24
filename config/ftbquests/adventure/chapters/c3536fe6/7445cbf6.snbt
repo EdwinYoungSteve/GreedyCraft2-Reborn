@@ -1,0 +1,17 @@
+{
+	x: -8.0d,
+	y: 15.5d,
+	dependencies: [
+		"44b179ac"
+	],
+	tasks: [{
+		uid: "fe1fcd6b",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 5"
+		},
+		{
+			item: "gct_ores:relifed_metal_ingot"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 8.0d,
+	dependencies: [
+		"d01a5293"
+	],
+	tasks: [{
+		uid: "9331b189",
+		type: "item",
+		items: [{
+			item: "journey:trophyroc"
+		}]
+	}]
+}

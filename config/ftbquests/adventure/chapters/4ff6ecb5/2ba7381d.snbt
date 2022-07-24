@@ -1,0 +1,26 @@
+{
+	x: -4.5d,
+	y: -3.5d,
+	dependencies: [
+		"e82bcb02"
+	],
+	tasks: [{
+		uid: "1fd702ca",
+		type: "item",
+		items: [{
+			item: "thaumadditions:void_thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "614b8dfc",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "7a538567",
+		type: "loot",
+		table: 1
+	}]
+}

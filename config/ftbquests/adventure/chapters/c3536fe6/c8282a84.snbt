@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	dependencies: [
+		"6305e642"
+	],
+	tasks: [{
+		uid: "4a36247f",
+		type: "item",
+		items: [{
+			item: "journey:trophyeudor"
+		}]
+	}]
+}
