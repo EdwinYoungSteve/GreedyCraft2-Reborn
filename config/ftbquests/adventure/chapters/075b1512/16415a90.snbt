@@ -9,7 +9,7 @@
 		type: "stat",
 		icon: "minecraft:iron_boots",
 		stat: "stat.fallOneCm",
-		value: 30000
+		value: 3000000
 	}],
 	rewards: [{
 		uid: "f47701da",

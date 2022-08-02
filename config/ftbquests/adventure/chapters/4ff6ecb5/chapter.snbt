@@ -2,6 +2,6 @@
 	title: "【魔法·肆】神秘时代",
 	icon: "thaumadditions:mithrillium_ingot",
 	always_invisible: false,
-	group: 0,
+	group: -277029338,
 	default_quest_shape: ""
 }

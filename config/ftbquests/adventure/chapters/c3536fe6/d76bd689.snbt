@@ -1,6 +1,11 @@
 {
+	title: "§b又一个沼泽",
 	x: 4.0d,
 	y: 6.5d,
+	description: "合成尘泥沼泽结界石",
+	text: [
+		""
+	],
 	dependencies: [
 		"f639bef8",
 		"696c8192"
@@ -11,5 +16,15 @@
 		items: [{
 			item: "journey:corbaportalframe"
 		}]
+	}],
+	rewards: [{
+		uid: "b510fe7f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "debab7b3",
+		type: "xp",
+		xp: 5000
 	}]
 }

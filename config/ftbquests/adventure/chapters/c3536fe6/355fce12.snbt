@@ -1,6 +1,11 @@
 {
+	title: "§b最后一步",
 	x: -11.0d,
 	y: 12.5d,
+	description: "制作蒸馏器",
+	text: [
+		""
+	],
 	dependencies: [
 		"dcf8dfa6"
 	],
@@ -10,5 +15,15 @@
 		items: [{
 			item: "thebetweenlands:alembic"
 		}]
+	}],
+	rewards: [{
+		uid: "1aa87b16",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "b8460851",
+		type: "xp",
+		xp: 5000
 	}]
 }

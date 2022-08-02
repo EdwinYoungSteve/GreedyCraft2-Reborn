@@ -9,7 +9,7 @@
 		type: "stat",
 		icon: "minecraft:golden_leggings",
 		stat: "stat.walkOneCm",
-		value: 100000
+		value: 10000000
 	}],
 	rewards: [{
 		uid: "1a427356",

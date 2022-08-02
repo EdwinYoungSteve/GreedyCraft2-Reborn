@@ -9,7 +9,7 @@
 		type: "stat",
 		icon: "avaritia:infinity_pants",
 		stat: "stat.walkOneCm",
-		value: 1000000
+		value: 100000000
 	}],
 	rewards: [{
 		uid: "e07c3f7c",

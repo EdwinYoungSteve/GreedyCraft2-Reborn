@@ -1,6 +1,11 @@
 {
+	title: "§bReverse",
 	x: 2.5d,
 	y: 5.0d,
+	description: "合成诅咒：绝望",
+	text: [
+		""
+	],
 	dependencies: [
 		"b74b35dc"
 	],
@@ -12,5 +17,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3d6ac607",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "dfbbf0f2",
+		type: "xp",
+		xp: 3000
 	}]
 }

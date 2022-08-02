@@ -1,6 +1,11 @@
 {
+	title: "§b阴森而阴间",
 	x: -9.5d,
 	y: 9.5d,
+	description: "进入交错次元",
+	text: [
+		""
+	],
 	dependencies: [
 		"1db19b40"
 	],
@@ -8,5 +13,15 @@
 		uid: "4f9c25b2",
 		type: "dimension",
 		dim: 20
+	}],
+	rewards: [{
+		uid: "873b5a3a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7ace14a6",
+		type: "xp",
+		xp: 5000
 	}]
 }

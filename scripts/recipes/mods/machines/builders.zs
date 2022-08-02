@@ -77,20 +77,20 @@ RecipeBuilder.newBuilder("controller_aeonsteel_forge", "builder_refined", 6000)
     .build();
 
 //炫钢熔合机
-/*RecipeBuilder.newBuilder("controller_chromasteel_forge", "builder_advanced", 6000)
+RecipeBuilder.newBuilder("controller_chromasteel_forge", "builder_advanced", 6000)
     .addFluidInput(<liquid:redstone> * 40000)
     .addItemInput(<modularcontroller:aeonsteel_forge_controller> * 1)
     .addItemInput(<ore:ingotModularium>, 512)
     .addItemInput(<ore:plateAeonsteel>, 12)
-    .addItemInput(, 16)
-    .addItemInput(, 16)
-    .addItemInput(, 16)
+    .addItemInput(<ore:plateEverite>, 16)
+    .addItemInput(<ore:plateOsmiridium>, 16)
+    .addItemInput(<ore:plateVoid>, 16)
     .addItemInput(<ore:circuitBasic>, 20)
     .addItemInput(<ore:circuitAdvanced>, 10)
     .addEnergyPerTickInput(400)
-    .addItemOutput(<modularcontroller:aeonsteel_forge_controller>)
-    .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aeonsteel_forge"}))
-    .build();*/
+    .addItemOutput(<modularcontroller:chromasteel_forge_controller>)
+    .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:chromasteel_forge"}))
+    .build();
 
 //固体离心机
 RecipeBuilder.newBuilder("controller_solid_centrifuge", "builder_basic", 1800)

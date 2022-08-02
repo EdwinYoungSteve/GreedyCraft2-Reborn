@@ -15,5 +15,10 @@
 		items: [{
 			item: "divinerpg:demon_furnace"
 		}]
+	}],
+	rewards: [{
+		uid: "9771dda2",
+		type: "random",
+		table: 7
 	}]
 }

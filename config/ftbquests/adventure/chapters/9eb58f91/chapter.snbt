@@ -2,7 +2,7 @@
 	title: "【科技·贰】末影网络",
 	icon: "enderio:item_alloy_endergy_ingot 1 3",
 	always_invisible: false,
-	group: 0,
+	group: -647796496,
 	default_quest_shape: "",
 	images: [{
 		x: -5.5d,

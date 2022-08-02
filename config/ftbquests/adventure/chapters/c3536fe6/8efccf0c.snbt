@@ -1,6 +1,11 @@
 {
+	title: "§b飞龙之力",
 	x: -11.0d,
 	y: 5.0d,
+	description: "制作飞龙核心以及堕落核心！",
+	text: [
+		""
+	],
 	dependencies: [
 		"4cfe187d"
 	],
@@ -23,5 +28,28 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "wyvern"
+	},
+	{
+		uid: "b513f569",
+		type: "item",
+		item: "draconicevolution:wyvern_core",
+		count: 2
+	},
+	{
+		uid: "950e363a",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "32b3f25a",
+		type: "item",
+		item: "minecraft:end_crystal",
+		count: 16
+	},
+	{
+		uid: "d9449bab",
+		type: "item",
+		item: "draconicevolution:dragon_heart",
+		count: 5
 	}]
 }

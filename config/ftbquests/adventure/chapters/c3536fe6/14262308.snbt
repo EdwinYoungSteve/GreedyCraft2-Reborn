@@ -1,6 +1,11 @@
 {
+	title: "§b太阳领袖",
 	x: -11.0d,
 	y: 8.0d,
+	description: "击杀太阳酋长",
+	text: [
+		""
+	],
 	dependencies: [
 		"5f7f8d0a"
 	],
@@ -9,5 +14,27 @@
 		type: "kill",
 		entity: "mowziesmobs:barako",
 		value: 1L
+	}],
+	rewards: [{
+		uid: "389919b8",
+		type: "item",
+		item: "additions:infernium_ingot",
+		count: 10
+	},
+	{
+		uid: "291439a4",
+		type: "item",
+		item: "taiga:nihilite_ingot",
+		count: 8
+	},
+	{
+		uid: "4af724fe",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "b3785bb4",
+		type: "xp",
+		xp: 15000
 	}]
 }

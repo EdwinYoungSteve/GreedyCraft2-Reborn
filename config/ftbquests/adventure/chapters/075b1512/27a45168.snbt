@@ -6,7 +6,7 @@
 		type: "stat",
 		icon: "minecraft:leather_boots",
 		stat: "stat.fallOneCm",
-		value: 2000
+		value: 200000
 	}],
 	rewards: [{
 		uid: "9ce75a12",

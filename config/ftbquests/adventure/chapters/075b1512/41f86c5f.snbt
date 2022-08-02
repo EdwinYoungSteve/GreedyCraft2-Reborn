@@ -7,8 +7,9 @@
 	tasks: [{
 		uid: "5aac6635",
 		type: "stat",
+		icon: "minecraft:elytra",
 		stat: "stat.flyOneCm",
-		value: 3000000
+		value: 300000000
 	}],
 	rewards: [{
 		uid: "f19b16b4",

@@ -9,7 +9,7 @@
 		type: "stat",
 		icon: "abyssalcraft:ethaxiumboots",
 		stat: "stat.fallOneCm",
-		value: 750000
+		value: 75000000
 	}],
 	rewards: [{
 		uid: "e09ea0f4",

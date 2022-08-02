@@ -1507,15 +1507,6 @@ blue_skies:upward_spike - 1504
 blue_skies:venom_spit - 1505
 blue_skies:summoner_lightning - 1506
 thebetweenlands:false_xp - 1507
-matteroverdrive:failed_pig - 1508
-matteroverdrive:failed_cow - 1509
-matteroverdrive:failed_chicken - 1510
-matteroverdrive:failed_sheep - 1511
-matteroverdrive:mad_scientist - 1512
-matteroverdrive:mutant_scientist - 1513
-matteroverdrive:rogue_android - 1514
-matteroverdrive:ranged_rogue_android - 1515
-matteroverdrive:drone - 1516
 naturalpledge:sealarrow - 1517
 evilcraft:entity_item_undespawnable - 1518
 evilcraft:vengeance_spirit - 1519

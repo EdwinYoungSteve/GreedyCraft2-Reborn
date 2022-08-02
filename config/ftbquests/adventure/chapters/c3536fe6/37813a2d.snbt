@@ -15,5 +15,10 @@
 		type: "kill",
 		entity: "divinerpg:wreck",
 		value: 1L
+	}],
+	rewards: [{
+		uid: "0e41a9aa",
+		type: "random",
+		table: 7
 	}]
 }

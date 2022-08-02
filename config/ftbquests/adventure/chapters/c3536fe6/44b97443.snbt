@@ -13,5 +13,15 @@
 		uid: "369e8516",
 		type: "dimension",
 		dim: 53
+	}],
+	rewards: [{
+		uid: "b6147516",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d0696023",
+		type: "xp",
+		xp: 2000
 	}]
 }

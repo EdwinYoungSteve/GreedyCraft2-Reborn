@@ -9,7 +9,7 @@
 		type: "stat",
 		icon: "minecraft:chainmail_boots",
 		stat: "stat.fallOneCm",
-		value: 8000
+		value: 800000
 	}],
 	rewards: [{
 		uid: "ec6e242e",

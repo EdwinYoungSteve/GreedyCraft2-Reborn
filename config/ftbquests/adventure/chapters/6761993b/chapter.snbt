@@ -2,7 +2,7 @@
 	title: "【魔法·叁】血液律动",
 	icon: "tconevo:metal 1 25",
 	always_invisible: false,
-	group: 0,
+	group: -277029338,
 	default_quest_shape: "",
 	images: [{
 		x: 2.0d,

@@ -16,5 +16,15 @@
 		items: [{
 			item: "journey:eucaportalframe"
 		}]
+	}],
+	rewards: [{
+		uid: "d444b0ad",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "32462d65",
+		type: "xp",
+		xp: 1000
 	}]
 }

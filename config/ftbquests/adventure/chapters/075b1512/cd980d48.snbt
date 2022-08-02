@@ -9,7 +9,7 @@
 		type: "stat",
 		icon: "minecraft:chainmail_leggings",
 		stat: "stat.walkOneCm",
-		value: 8000
+		value: 800000
 	}],
 	rewards: [{
 		uid: "eb9bee2d",

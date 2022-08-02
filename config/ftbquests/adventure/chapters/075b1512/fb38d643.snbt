@@ -9,7 +9,7 @@
 		type: "stat",
 		icon: "abyssalcraft:corhelmet",
 		stat: "stat.playOneMinute",
-		value: 2016000000
+		value: 20160000
 	}],
 	rewards: [{
 		uid: "23c5746f",

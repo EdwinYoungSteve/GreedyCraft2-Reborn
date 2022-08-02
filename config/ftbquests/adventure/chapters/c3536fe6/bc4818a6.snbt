@@ -17,5 +17,21 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "77ecb814",
+		type: "item",
+		item: "abyssalcraft:dreadiumingot",
+		count: 4
+	},
+	{
+		uid: "5577f5af",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "42ce2c9b",
+		type: "xp",
+		xp: 1000
 	}]
 }

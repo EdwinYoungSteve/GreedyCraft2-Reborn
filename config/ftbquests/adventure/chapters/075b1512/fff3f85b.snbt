@@ -9,7 +9,7 @@
 		type: "stat",
 		icon: "abyssalcraft:aboots",
 		stat: "stat.fallOneCm",
-		value: 250000
+		value: 25000000
 	}],
 	rewards: [{
 		uid: "50d74a11",

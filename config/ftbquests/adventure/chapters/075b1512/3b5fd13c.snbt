@@ -9,7 +9,7 @@
 		type: "stat",
 		icon: "minecraft:diamond_boots",
 		stat: "stat.fallOneCm",
-		value: 160000
+		value: 16000000
 	}],
 	rewards: [{
 		uid: "92f0b6e1",

@@ -1,6 +1,11 @@
 {
+	title: "§b来自大自然的恶意",
 	x: -9.5d,
 	y: 12.5d,
+	description: "找到鬼魂城堡，击杀原始恶意",
+	text: [
+		"鬼魂城堡的生成率较低，其会自然生成于交错次元维度任意群系地表"
+	],
 	dependencies: [
 		"38a08523",
 		"f81d61f2"
@@ -10,5 +15,15 @@
 		type: "kill",
 		entity: "thebetweenlands:fortress_boss",
 		value: 1L
+	}],
+	rewards: [{
+		uid: "b46f8cae",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "3c24439a",
+		type: "xp",
+		xp: 30000
 	}]
 }

@@ -19,5 +19,10 @@
 		items: [{
 			item: "modularcontroller:vethea_enchanter_controller"
 		}]
+	}],
+	rewards: [{
+		uid: "e51645a9",
+		type: "random",
+		table: 7
 	}]
 }

@@ -9,7 +9,7 @@
 		type: "stat",
 		icon: "abyssalcraft:alegs",
 		stat: "stat.walkOneCm",
-		value: 250000
+		value: 25000000
 	}],
 	rewards: [{
 		uid: "3da4a20f",

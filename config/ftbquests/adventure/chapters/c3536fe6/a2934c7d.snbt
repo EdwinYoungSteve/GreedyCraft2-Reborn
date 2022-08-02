@@ -1,6 +1,11 @@
 {
+	title: "§b残蚀已满",
 	x: -8.0d,
 	y: 11.0d,
+	description: "从凝胶树上获得凝胶球，用于补充残蚀值",
+	text: [
+		""
+	],
 	dependencies: [
 		"92b01be6"
 	],
@@ -10,5 +15,21 @@
 		items: [{
 			item: "thebetweenlands:sap_ball"
 		}]
+	}],
+	rewards: [{
+		uid: "7e233afd",
+		type: "item",
+		item: "thebetweenlands:sap_ball",
+		count: 16
+	},
+	{
+		uid: "ae79ff41",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "bbfd4d81",
+		type: "xp",
+		xp: 5000
 	}]
 }

@@ -14,5 +14,15 @@
 		type: "dimension",
 		icon: "journey:eucaportal",
 		dim: 820
+	}],
+	rewards: [{
+		uid: "3bcfd8b8",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "613968bc",
+		type: "xp",
+		xp: 1000
 	}]
 }

@@ -14,5 +14,10 @@
 		type: "kill",
 		entity: "divinerpg:quadro",
 		value: 1L
+	}],
+	rewards: [{
+		uid: "f10131f8",
+		type: "random",
+		table: 7
 	}]
 }

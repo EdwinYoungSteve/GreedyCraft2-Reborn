@@ -2,7 +2,7 @@
 	title: "【科技·叁】核能机械",
 	icon: "mekanism:ingot",
 	always_invisible: false,
-	group: 0,
+	group: -647796496,
 	default_quest_shape: "",
 	images: [{
 		x: -4.5d,

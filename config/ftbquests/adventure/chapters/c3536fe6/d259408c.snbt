@@ -15,5 +15,10 @@
 		items: [{
 			item: "divinerpg:rock_chunks"
 		}]
+	}],
+	rewards: [{
+		uid: "c3b4ed8f",
+		type: "random",
+		table: 7
 	}]
 }

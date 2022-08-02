@@ -1,6 +1,11 @@
 {
+	title: "§b沼泽奇遇",
 	x: -11.0d,
 	y: 9.5d,
+	description: "在主世界的德鲁伊祭坛上制作沼泽护身符",
+	text: [
+		"沼泽会自然生成该结构，击杀祭坛周围的德鲁伊会掉落护身符碎片"
+	],
 	dependencies: [
 		"14262308"
 	],
@@ -11,5 +16,21 @@
 			item: "thebetweenlands:swamp_talisman"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5f4992c",
+		type: "item",
+		item: "thebetweenlands:sludge_ball",
+		count: 4
+	},
+	{
+		uid: "953c3719",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "f2585392",
+		type: "xp",
+		xp: 3000
 	}]
 }

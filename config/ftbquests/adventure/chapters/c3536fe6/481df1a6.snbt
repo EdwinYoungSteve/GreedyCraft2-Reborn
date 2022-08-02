@@ -18,5 +18,10 @@
 		items: [{
 			item: "divinerpg:nightmare_bed"
 		}]
+	}],
+	rewards: [{
+		uid: "73bcf278",
+		type: "random",
+		table: 7
 	}]
 }

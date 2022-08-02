@@ -2,7 +2,7 @@
 	title: "【冒险·贰】保持耐心",
 	icon: "additions:durasteel_ingot",
 	always_invisible: false,
-	group: 0,
+	group: 689139086,
 	default_quest_shape: "",
 	images: [{
 		x: -6.0d,

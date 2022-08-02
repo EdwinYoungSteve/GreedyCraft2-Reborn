@@ -24,5 +24,10 @@
 		{
 			item: "divinerpg:dreamwood_log"
 		}]
+	}],
+	rewards: [{
+		uid: "bb34d696",
+		type: "random",
+		table: 7
 	}]
 }

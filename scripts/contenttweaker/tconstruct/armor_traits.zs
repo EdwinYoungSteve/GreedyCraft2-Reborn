@@ -626,3 +626,18 @@ nightmareTrait.onHurt = function(trait, armor, player, source, damage, newDamage
     return newDamage * (1 - mutiplier);
 };
 nightmareTrait.register();
+
+val foglightTrait = ArmorTraitBuilder.create("fog_light");
+foglightTrait.color = Color.fromHex("ffeb3b").getIntColor();
+foglightTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.foglightTrait.name");
+foglightTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.foglightTrait.desc");
+foglightTrait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        if (player.getDimension() == 69){
+                if(player.getY() < 100 ){
+                        player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(99, 1, false, false));
+                }
+        }
+    }
+};
+foglightTrait.register();

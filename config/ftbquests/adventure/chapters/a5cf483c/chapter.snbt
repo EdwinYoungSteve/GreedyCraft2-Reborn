@@ -2,7 +2,7 @@
 	title: "【魔法·贰】璀璨星辉",
 	icon: "astralsorcery:itemcraftingcomponent 1 1",
 	always_invisible: false,
-	group: 0,
+	group: -277029338,
 	default_quest_shape: "",
 	images: [{
 		x: 5.0d,

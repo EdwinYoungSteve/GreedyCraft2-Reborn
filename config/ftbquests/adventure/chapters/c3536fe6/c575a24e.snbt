@@ -14,5 +14,21 @@
 		type: "kill",
 		entity: "gct_mobs:zethur",
 		value: 1L
+	}],
+	rewards: [{
+		uid: "f1cc33ea",
+		type: "item",
+		item: "additions:greedycraft-aetherium_ingot",
+		count: 8
+	},
+	{
+		uid: "5f8d6e6d",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "59d72b58",
+		type: "xp",
+		xp: 10000
 	}]
 }

@@ -88,6 +88,17 @@ hellcrust                                         (contenttweaker:hellcrust)    
 umbra                                             (contenttweaker:umbra)                                                           = ÈÛÈÚ±¾Ó°
 crystalline                                       (contenttweaker:crystalline)                                                     = ÈÛÈÚÔÂÄı¾§
 aurorianite                                       (contenttweaker:aurorianite)                                                     = ÈÛÈÚ¼«¹â
+niobium                                           (contenttweaker:niobium)                                                         = ÈÛÈÚîê
+flairium                                          (tconstruct:molten_flairium)                                                     = ÈÛÁ¶°µ½ğ¿ó
+des                                               (tconstruct:molten_des)                                                          = ÈÛÁ¶¶§¸Ö
+orbadite                                          (tconstruct:molten_orbadite)                                                     = ÈÛÁ¶Á×Ìú¿ó
+storon                                            (tconstruct:molten_storon)                                                       = ÈÛÁ¶Ìì½ğ¿ó
+korite                                            (tconstruct:molten_korite)                                                       = ÈÛÁ¶À¶ê×
+horizonite                                        (contenttweaker:horizonite)                                                      = ÈÛÈÚÑ×Ìú
+falsite                                           (contenttweaker:falsite)                                                         = ÈÛÈÚÎ±Ää
+ventium                                           (contenttweaker:ventium)                                                         = ÈÛÈÚ·çÌÚ
+mekyum                                            (tconstruct:molten_mekyum)                                                       = ÈÛÁ¶×ÏÔÆÄ¸
+celestium                                         (tconstruct:molten_celestium)                                                    = ÈÛÁ¶ÌìÇà¿ó
 molten_blood_infused_iron                         (bloodarsenal:bloodarsenal.molten_blood_infused_iron)                            = ÈÛÈÚ×¢ÑªÌú
 umbrium                                           (defiledlands:molten_umbrium)                                                    = ÈÛÈÚÓ°ËØ
 xu_evil_metal                                     ([no block])                                                                     = ¶ñÄ§¹à×¢Ìú

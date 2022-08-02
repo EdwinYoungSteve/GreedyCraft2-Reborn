@@ -9,7 +9,7 @@
 		type: "stat",
 		icon: "avaritia:infinity_boots",
 		stat: "stat.fallOneCm",
-		value: 1000000
+		value: 100000000
 	}],
 	rewards: [{
 		uid: "e47776bb",

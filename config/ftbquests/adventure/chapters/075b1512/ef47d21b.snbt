@@ -9,7 +9,7 @@
 		type: "stat",
 		icon: "abyssalcraft:corlegs",
 		stat: "stat.walkOneCm",
-		value: 350000
+		value: 35000000
 	}],
 	rewards: [{
 		uid: "5dcbb9f0",

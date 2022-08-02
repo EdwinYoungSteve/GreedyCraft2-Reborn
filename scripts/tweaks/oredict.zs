@@ -24,8 +24,14 @@ import scripts.util.oredict as OredictUtil;
 <ore:gemSapphire>.remove(<journey:sapphire>);
 <ore:oreSapphire>.remove(<journey:sapphireore>);
 <ore:blockSapphire>.remove(<journey:sapphireblock>);
+<ore:ingotBlackIron>.remove(<extendedcrafting:material>);
+<ore:nuggetBlackIron>.remove(<extendedcrafting:material:1>);
+<ore:blockBlackIron>.remove(<extendedcrafting:storage>);
 
 var oredictMap as IIngredient[][IOreDictEntry] = {
+    <ore:ingotBlackiron> : [<extendedcrafting:material>],
+    <ore:blockBlackiron> : [<extendedcrafting:storage>],
+    <ore:nuggetBlackiron> : [<extendedcrafting:storage>],
     <ore:ingotFalsite> : [<blue_skies:falsite_ingot>],
     <ore:oreFalsite> : [<blue_skies:falsite_ore>],
     <ore:ingotVentium> : [<blue_skies:ventium_ingot>],

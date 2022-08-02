@@ -15,5 +15,10 @@
 		items: [{
 			item: "additions:vethea-vethea_conductive_iron_debris"
 		}]
+	}],
+	rewards: [{
+		uid: "80b4873b",
+		type: "random",
+		table: 7
 	}]
 }

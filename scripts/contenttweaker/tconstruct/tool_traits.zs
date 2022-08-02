@@ -795,3 +795,21 @@ aurorapowerTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 
 };
 aurorapowerTrait.register();
+
+val foglightTrait = TraitBuilder.create("fog_light");
+foglightTrait.color = Color.fromHex("ffffff").getIntColor();
+foglightTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.foglightTrait.name");
+foglightTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.foglightTrait.desc");
+foglightTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected){
+      if (owner instanceof IEntityLivingBase) {
+        val player as IPlayer = owner;//所有工具基本都需要声明对象，
+        if (isSelected){
+              if (player.getDimension() == 69){
+                if(player.getY() < 80 ){
+                        player.addPotionEffect(<potion:minecraft:haste>.makePotionEffect(99, 2, false, false));
+                }
+        }
+        }
+      }
+};
+foglightTrait.register();

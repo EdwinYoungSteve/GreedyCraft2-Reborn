@@ -120,10 +120,10 @@ FusionCrafting.add(<draconicevolution:chaotic_core>, <draconicevolution:chaos_sh
     <additions:chromasteel_ingot>
 ]);
 FusionCrafting.add(<draconicevolution:wyvern_core>, <minecraft:nether_star>, 0, 24576000, [ 
-    <ore:coreBasic>,
-    <ore:coreBasic>,
-    <ore:coreBasic>,
-    <ore:coreBasic>,
+    <ore:coreDraconium>,
+    <ore:coreDraconium>,
+    <ore:coreDraconium>,
+    <ore:coreDraconium>,
     <ore:ingotNiobium>,
     <ore:ingotOrbadite>,
     <ore:metalWyvern>,
@@ -196,10 +196,10 @@ FusionCrafting.add(<gct_ores:relifed_core>, <minecraft:nether_star>, 1, 39321600
     <ore:metalAwakened>
 ]);
 FusionCrafting.add(<gct_ores:fallen_core>, <minecraft:nether_star>, 0, 24576000, [ 
-    <ore:coreBasic>,
-    <ore:coreBasic>,
-    <ore:coreBasic>,
-    <ore:coreBasic>,
+    <ore:coreWitherium>,
+    <ore:coreWitherium>,
+    <ore:coreWitherium>,
+    <ore:coreWitherium>,
     <ore:ingotNiobium>,
     <ore:ingotOrbadite>,
     <ore:metalWyvern>,

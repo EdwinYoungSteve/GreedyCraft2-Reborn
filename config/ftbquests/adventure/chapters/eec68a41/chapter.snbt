@@ -2,7 +2,7 @@
 	title: "【魔法·壹】初识魔力",
 	icon: "botania:manaresource 1 7",
 	always_invisible: false,
-	group: 0,
+	group: -277029338,
 	default_quest_shape: "",
 	images: [{
 		x: 4.5d,

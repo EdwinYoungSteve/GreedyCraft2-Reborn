@@ -16,5 +16,27 @@
 		items: [{
 			item: "abyssalcraft:odb"
 		}]
+	}],
+	rewards: [{
+		uid: "090e3b94",
+		type: "item",
+		item: {
+			id: "minecraft:flint_and_steel",
+			tag: {
+				display: {
+					Name: "你在作死吗"
+				}
+			}
+		}
+	},
+	{
+		uid: "b3cb809a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7ab378d5",
+		type: "xp",
+		xp: 1000
 	}]
 }

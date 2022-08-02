@@ -15,5 +15,10 @@
 		items: [{
 			item: "divinerpg:honeychunk"
 		}]
+	}],
+	rewards: [{
+		uid: "5e284222",
+		type: "random",
+		table: 7
 	}]
 }

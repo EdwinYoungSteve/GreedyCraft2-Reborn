@@ -1,6 +1,11 @@
 {
+	title: "§b这玩意扔水里不会炸吧？",
 	x: -6.5d,
 	y: 9.5d,
+	description: "在交错次元挖掘法罗钠",
+	text: [
+		""
+	],
 	dependencies: [
 		"c04b0f2b"
 	],

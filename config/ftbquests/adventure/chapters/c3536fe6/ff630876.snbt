@@ -1,6 +1,11 @@
 {
+	title: "§b还在跳动！",
 	x: -11.0d,
 	y: 14.0d,
+	description: "合成木乃伊诱饵",
+	text: [
+		""
+	],
 	dependencies: [
 		"355fce12"
 	],
@@ -10,5 +15,15 @@
 		items: [{
 			item: "thebetweenlands:mummy_bait"
 		}]
+	}],
+	rewards: [{
+		uid: "bafe904c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "80c37427",
+		type: "xp",
+		xp: 5000
 	}]
 }

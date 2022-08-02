@@ -1,6 +1,11 @@
 {
+	title: "§b最后的诅咒",
 	x: 5.5d,
 	y: 5.0d,
+	description: "合成诅咒：凝视",
+	text: [
+		""
+	],
 	dependencies: [
 		"7bd9b0fd"
 	],
@@ -12,5 +17,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "598a5dec",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "cfc05da1",
+		type: "xp",
+		xp: 7000
 	}]
 }

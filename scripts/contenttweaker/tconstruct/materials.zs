@@ -1105,3 +1105,182 @@ aurorianite.addHeadMaterialStats(950, 6.15, 7.5, 4);//头部
 aurorianite.addHandleMaterialStats(1.5, 0);//手柄
 aurorianite.addExtraMaterialStats(250);//额外
 aurorianite.register();
+
+val depthslight = mods.contenttweaker.tconstruct.MaterialBuilder.create("depthslight");//材料id
+depthslight.color = Color.fromHex("2168ad").getIntColor();//颜色 
+depthslight.craftable = true;//部件加工台
+depthslight.castable = false;//浇筑
+depthslight.representativeItem = <item:journey:depthslight>;//显示的材料
+depthslight.addItem(<item:journey:depthslight>);//需要的材料
+depthslight.localizedName = game.localize("greedycraft.tconstruct.material.depthslight.name");
+depthslight.addHeadMaterialStats(1500, 14, 9, 5);//头部
+depthslight.addHandleMaterialStats(1.6, 600);//手柄
+depthslight.addExtraMaterialStats(850);//额外
+depthslight.register();
+
+val corbalog = mods.contenttweaker.tconstruct.MaterialBuilder.create("corbalog");//材料id
+corbalog.color = Color.fromHex("242c08").getIntColor();//颜色 
+corbalog.craftable = true;//部件加工台
+corbalog.castable = false;//浇筑
+corbalog.representativeItem = <item:journey:corbalog>;//显示的材料
+corbalog.addItem(<item:journey:corbalog>);//需要的材料
+corbalog.localizedName = game.localize("greedycraft.tconstruct.material.corbalog.name");
+corbalog.addHeadMaterialStats(35, 1.5, 2, 0);//头部
+corbalog.addHandleMaterialStats(1, 25);//手柄
+corbalog.addExtraMaterialStats(15);//额外
+corbalog.register();
+
+val niobium = mods.contenttweaker.tconstruct.MaterialBuilder.create("niobium");//材料id
+niobium.color = Color.fromHex("d1d3df").getIntColor();//颜色 
+niobium.craftable = false;//部件加工台
+niobium.castable = true;//浇筑
+niobium.representativeItem = <item:mist:niobium_ingot>;//显示的材料
+niobium.addItem(<item:journey:niobium>);//需要的材料
+niobium.liquid = <liquid:niobium>;
+niobium.localizedName = game.localize("greedycraft.tconstruct.material.niobium.name");
+niobium.addHeadMaterialStats(500, 13.4, 13, 5);//头部
+niobium.addHandleMaterialStats(2, 200);//手柄
+niobium.addExtraMaterialStats(120);//额外
+niobium.register();
+
+val flairium = mods.contenttweaker.tconstruct.MaterialBuilder.create("flairium");//材料id
+flairium.color = Color.fromHex("8f7353").getIntColor();//颜色 
+flairium.craftable = false;//部件加工台
+flairium.castable = true;//浇筑
+flairium.representativeItem = <item:journey:flairiumingot>;//显示的材料
+flairium.addItem(<item:journey:flairiumingot>);//需要的材料
+flairium.liquid = <liquid:flairium>;
+flairium.localizedName = game.localize("greedycraft.tconstruct.material.flairium.name");
+flairium.addHeadMaterialStats(200, 6.2, 11, 5);//头部
+flairium.addHandleMaterialStats(0.7, 100);//手柄
+flairium.addExtraMaterialStats(80);//额外
+flairium.register();
+
+val des = mods.contenttweaker.tconstruct.MaterialBuilder.create("des");//材料id
+des.color = Color.fromHex("b4b4fc").getIntColor();//颜色 
+des.craftable = false;//部件加工台
+des.castable = true;//浇筑
+des.representativeItem = <item:journey:desingot>;//显示的材料
+des.addItem(<item:journey:desingot>);//需要的材料
+des.liquid = <liquid:des>;
+des.localizedName = game.localize("greedycraft.tconstruct.material.des.name");
+des.addHeadMaterialStats(2000, 16, 8.5, 6);//头部
+des.addHandleMaterialStats(1.5, 1000);//手柄
+des.addExtraMaterialStats(80);//额外
+des.register();
+
+val orbadite = mods.contenttweaker.tconstruct.MaterialBuilder.create("orbadite");//材料id
+orbadite.color = Color.fromHex("94a25d").getIntColor();//颜色 
+orbadite.craftable = false;//部件加工台
+orbadite.castable = true;//浇筑
+orbadite.representativeItem = <item:journey:orbaditeingot>;//显示的材料
+orbadite.addItem(<item:journey:orbaditeingot>);//需要的材料
+orbadite.liquid = <liquid:orbadite>;
+orbadite.localizedName = game.localize("greedycraft.tconstruct.material.orbadite.name");
+orbadite.addHeadMaterialStats(800, 11, 10.5, 5);//头部
+orbadite.addHandleMaterialStats(1.5, 500);//手柄
+orbadite.addExtraMaterialStats(500);//额外
+orbadite.register();
+
+val storon = mods.contenttweaker.tconstruct.MaterialBuilder.create("storon");//材料id
+storon.color = Color.fromHex("d6c35a").getIntColor();//颜色 
+storon.craftable = false;//部件加工台
+storon.castable = true;//浇筑
+storon.representativeItem = <item:journey:storoningot>;//显示的材料
+storon.addItem(<item:journey:storoningot>);//需要的材料
+storon.liquid = <liquid:storon>;
+storon.localizedName = game.localize("greedycraft.tconstruct.material.storon.name");
+storon.addHeadMaterialStats(1150, 9.5, 9, 5);//头部
+storon.addHandleMaterialStats(1.3, 500);//手柄
+storon.addExtraMaterialStats(350);//额外
+storon.register();
+
+val korite = mods.contenttweaker.tconstruct.MaterialBuilder.create("korite");//材料id
+korite.color = Color.fromHex("6ad2ff").getIntColor();//颜色 
+korite.craftable = false;//部件加工台
+korite.castable = true;//浇筑
+korite.representativeItem = <item:journey:koriteingot>;//显示的材料
+korite.addItem(<item:journey:koriteingot>);//需要的材料
+korite.liquid = <liquid:korite>;
+korite.localizedName = game.localize("greedycraft.tconstruct.material.korite.name");
+korite.addHeadMaterialStats(1000, 14, 9.5, 5);//头部
+korite.addHandleMaterialStats(1, 400);//手柄
+korite.addExtraMaterialStats(400);//额外
+korite.register();
+
+val hardfoggystone = mods.contenttweaker.tconstruct.MaterialBuilder.create("hardfoggystone");//材料id
+hardfoggystone.color = Color.fromHex("303e3d").getIntColor();//颜色 
+hardfoggystone.craftable = true;//部件加工台
+hardfoggystone.castable = false;//浇筑
+hardfoggystone.representativeItem = <item:mist:stone_basic>;//显示的材料
+hardfoggystone.addItem(<item:mist:stone_basic>);//需要的材料
+hardfoggystone.localizedName = game.localize("greedycraft.tconstruct.material.hardfoggystone.name");
+hardfoggystone.addHeadMaterialStats(500, 40, 7.5, 5);//头部
+hardfoggystone.addHandleMaterialStats(0.5, 100);//手柄
+hardfoggystone.addExtraMaterialStats(200);//额外
+hardfoggystone.register();
+
+val horizonite = mods.contenttweaker.tconstruct.MaterialBuilder.create("horizonite");//材料id
+horizonite.color = Color.fromHex("fcab39").getIntColor();//颜色 
+horizonite.craftable = false;//部件加工台
+horizonite.castable = true;//浇筑
+horizonite.representativeItem = <item:blue_skies:horizonite_ingot>;//显示的材料
+horizonite.addItem(<item:blue_skies:horizonite_ingot>);//需要的材料
+horizonite.liquid = <liquid:horizonite>;
+horizonite.localizedName = game.localize("greedycraft.tconstruct.material.horizonite.name");
+horizonite.addHeadMaterialStats(450, 15, 9, 5);//头部
+horizonite.addHandleMaterialStats(1.1, 400);//手柄
+horizonite.addExtraMaterialStats(300);//额外
+horizonite.register();
+
+val falsite = mods.contenttweaker.tconstruct.MaterialBuilder.create("falsite");//材料id
+falsite.color = Color.fromHex("7561e2").getIntColor();//颜色 
+falsite.craftable = false;//部件加工台
+falsite.castable = true;//浇筑
+falsite.representativeItem = <item:blue_skies:falsite_ingot>;//显示的材料
+falsite.addItem(<item:blue_skies:falsite_ingot>);//需要的材料
+falsite.liquid = <liquid:falsite>;
+falsite.localizedName = game.localize("greedycraft.tconstruct.material.falsite.name");
+falsite.addHeadMaterialStats(400, 12, 11, 5);//头部
+falsite.addHandleMaterialStats(0.8, 400);//手柄
+falsite.addExtraMaterialStats(450);//额外
+falsite.register();
+
+val ventium = mods.contenttweaker.tconstruct.MaterialBuilder.create("ventium");//材料id
+ventium.color = Color.fromHex("cf2532").getIntColor();//颜色 
+ventium.craftable = false;//部件加工台
+ventium.castable = true;//浇筑
+ventium.representativeItem = <item:blue_skies:ventium_ingot>;//显示的材料
+ventium.addItem(<item:blue_skies:ventium_ingot>);//需要的材料
+ventium.liquid = <liquid:ventium>;
+ventium.localizedName = game.localize("greedycraft.tconstruct.material.ventium.name");
+ventium.addHeadMaterialStats(550, 14, 12.5, 5);//头部
+ventium.addHandleMaterialStats(1, 550);//手柄
+ventium.addExtraMaterialStats(550);//额外
+ventium.register();
+
+val mekyum = mods.contenttweaker.tconstruct.MaterialBuilder.create("mekyum");//材料id
+mekyum.color = Color.fromHex("ec84ec").getIntColor();//颜色 
+mekyum.craftable = false;//部件加工台
+mekyum.castable = true;//浇筑
+mekyum.representativeItem = <item:journey:mekyumingot>;//显示的材料
+mekyum.addItem(<item:journey:mekyumingot>);//需要的材料
+mekyum.liquid = <liquid:mekyum>;
+mekyum.localizedName = game.localize("greedycraft.tconstruct.material.mekyum.name");
+mekyum.addHeadMaterialStats(400, 9.5, 8.5, 4);//头部
+mekyum.addHandleMaterialStats(1.5, 140);//手柄
+mekyum.addExtraMaterialStats(250);//额外
+mekyum.register();
+
+val celestium = mods.contenttweaker.tconstruct.MaterialBuilder.create("celestium");//材料id
+celestium.color = Color.fromHex("51947b").getIntColor();//颜色 
+celestium.craftable = false;//部件加工台image.png
+celestium.castable = true;//浇筑
+celestium.representativeItem = <item:journey:celestiumingot>;//显示的材料
+celestium.addItem(<item:journey:celestiumingot>);//需要的材料
+celestium.liquid = <liquid:celestium>;
+celestium.localizedName = game.localize("greedycraft.tconstruct.material.celestium.name");
+celestium.addHeadMaterialStats(700, 13, 11, 5);//头部
+celestium.addHandleMaterialStats(1.4, 500);//手柄
+celestium.addExtraMaterialStats(220);//额外
+celestium.register();

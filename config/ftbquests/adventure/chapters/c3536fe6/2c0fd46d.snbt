@@ -15,5 +15,27 @@
 		items: [{
 			item: "abyssalcraft:ethaxiumingot"
 		}]
+	}],
+	rewards: [{
+		uid: "1aae2775",
+		type: "item",
+		item: "abyssalcraft:ethaxiumingot",
+		count: 4
+	},
+	{
+		uid: "4169da75",
+		type: "item",
+		item: "abyssalcraft:eldritchscale",
+		count: 8
+	},
+	{
+		uid: "3395f2f8",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "c2debebe",
+		type: "xp",
+		xp: 3500
 	}]
 }

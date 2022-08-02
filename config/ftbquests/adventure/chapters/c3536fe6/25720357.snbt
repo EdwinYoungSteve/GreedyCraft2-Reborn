@@ -1,6 +1,11 @@
 {
+	title: "§b爱动物人士表示墙裂谴责",
 	x: -12.5d,
 	y: 11.0d,
+	description: "合成壁虎笼子",
+	text: [
+		""
+	],
 	dependencies: [
 		"d58d70ed"
 	],
@@ -10,5 +15,21 @@
 		items: [{
 			item: "thebetweenlands:gecko_cage"
 		}]
+	}],
+	rewards: [{
+		uid: "f3c67c95",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 11",
+		count: 6
+	},
+	{
+		uid: "e1db3374",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "cb4a5020",
+		type: "random",
+		table: 2
 	}]
 }

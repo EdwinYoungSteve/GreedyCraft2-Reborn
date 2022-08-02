@@ -18,20 +18,23 @@ import mods.jei.JEI;
 
 import scripts.util.machines as MMUtil;
 
-MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromasteel_ingot>, 6), (42000 * FORGE_COST_MULTIPLIER) as int, (240000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
+MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromasteel_ingot>, 8), (42000 * FORGE_COST_MULTIPLIER) as int, (240000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
     <additions:aeonsteel_ingot>,
     <gct_ores:everite_ingot>,
-    <additions:shadowium_ingot>,
-    <botanicadds:gaiasteel_ingot>,
-    <abyssalcraft:ethaxiumingot>,
-    <plustic:mirioningot>,
-    <biomesoplenty:terrestrial_artifact>,
-    <mekanism:atomicalloy>,
-    <tconevo:metal:20>,
-    <tconevo:metal>,
     <tconevo:metal:5>,
-    <avaritia:resource:1>
+    <gct_ores:relifed_metal_ingot>,
+    <thebetweenlands:items_misc:11>,
+    <additions:greedycraft-daynight_ingot>,
+    <tconevo:metal:20>,
+    <plustic:osgloglasingot>,
+    <journey:orbaditeingot>,
+    <additions:botaniaddon-elfsteel_ingot>,
+    <biomesoplenty:terrestrial_artifact>
 ] as IItemStack[], {
+    <additions:astral_metal_ingot> : {
+        speed: 0.15,
+        energy: 0.2
+    },
     <additions:greedycraft-catalyst_star> : {
         speed: 0.5,
         energy: 0.5

@@ -14806,10 +14806,10 @@ jaopca:item_coinfalsite - 18488
 hammermetals:daynight_rod - 18489
 jaopca:item_singularitydaynight - 18490
 jaopca:item_sharddullium - 18491
-jaopca:fluid_moltenventium - 18492
+hammermetals:blackiron_block - 18492
 hammermetals:daynight_block - 18493
 jaopca:block_wallventium - 18494
-jaopca:fluid_moltenfalsite - 18495
+jaopca:block_crystalclusterblackiron - 18495
 jaopca:item_clumpdaynight - 18496
 jaopca:item_crystalfragmentfalsite - 18497
 jaopca:item_crystalfragmentdaynight - 18498
@@ -17884,6 +17884,7 @@ jaopca:item_shardknightmetal - 21566
 hammermetals:orichalcos_ore - 21567
 hammermetals:gaiasteel_coil - 21568
 jaopca:item_crystalabyssrupee - 21569
+hammermetals:blackiron_nugget - 21570
 jaopca:block_crystalclusterarlemite - 21571
 jaopca:block_fenceorichalcos - 21572
 jaopca:block_slaborichalcos - 21573
@@ -17896,16 +17897,20 @@ jaopca:block_slabgaiasteel - 21579
 gct_ores:greedycraft_mod_changer - 21580
 jaopca:item_crystalabyssknightmetal - 21581
 jaopca:item_coinrealmite - 21582
+jaopca:item_dustsmallblackiron - 21583
 jaopca:block_slabrealmite - 21584
 jaopca:item_crystalorichalcos - 21585
+jaopca:item_shardblackiron - 21586
 pewter:molten_fallen_metal - 21587
 jaopca:item_crystalabyssarlemite - 21588
 jaopca:item_clumparlemite - 21589
+hammermetals:blackiron_dust - 21590
 jaopca:block_stairsrealmite - 21591
 jaopca:block_glasshardenedrealmite - 21592
 jaopca:block_fencearlemite - 21593
 jaopca:item_crystalshardknightmetal - 21594
 jaopca:block_slabarlemite - 21595
+hammermetals:blackiron_plate - 21596
 pewter:molten_ordered_metal - 21597
 jaopca:block_doubleslabrealmite - 21598
 jaopca:item_coinarlemite - 21599
@@ -17923,6 +17928,7 @@ jaopca:item_clusterrealmite - 21610
 jaopca:item_crystalabyssrealmite - 21611
 jaopca:item_clusterrupee - 21612
 jaopca:item_dusttinyknightmetal - 21613
+additions:greedycraft-betwnite_ingot - 21614
 hammermetals:gaiasteel_casing - 21615
 jaopca:block_glasshardenedorichalcos - 21616
 pewter:molten_relifed_metal - 21617
@@ -17947,6 +17953,7 @@ jaopca:item_coingaiasteel - 21635
 jaopca:item_dustsmallrealmite - 21636
 jaopca:block_wallarlemite - 21637
 jaopca:item_crystalabyssgaiasteel - 21638
+hammermetals:blackiron_rod - 21639
 jaopca:item_crystalrupee - 21640
 jaopca:item_singularityarlemite - 21641
 jaopca:item_platedenserealmite - 21642
@@ -17957,6 +17964,7 @@ jaopca:item_dusttinyrupee - 21646
 gct_ores:fallen_metal_gear - 21647
 jaopca:item_platedenseknightmetal - 21648
 jaopca:item_platedenserupee - 21649
+hammermetals:blackiron_casing - 21650
 gct_ores:relifed_metal_plate - 21651
 jaopca:item_crystalabyssorichalcos - 21652
 hammermetals:orichalcos_nugget - 21653
@@ -17964,6 +17972,7 @@ jaopca:item_dusttinyrealmite - 21654
 jaopca:block_wallknightmetal - 21655
 jaopca:block_doubleslabrupee - 21656
 jaopca:item_clumpknightmetal - 21657
+additions:botaniaddon-michael_rune - 21658
 jaopca:item_dustdirtyrealmite - 21659
 jaopca:item_singularityrealmite - 21660
 jaopca:block_slabknightmetal - 21661
@@ -18000,6 +18009,7 @@ gct_mobs:evileye_stair - 21691
 jaopca:item_crystalfierymetal - 21692
 gct_ores:orichalcos_machine_frame - 21693
 gct_ores:gaia_steel_machine_frame - 21694
+jaopca:block_doubleslabblackiron - 21695
 jaopca:block_glasshardenedfierymetal - 21696
 jaopca:item_platedensegaiasteel - 21697
 gct_ores:terrasteel_machine_frame - 21698
@@ -18057,6 +18067,7 @@ mysticalagriculture:titanium_seeds - 21749
 hammermetals:iridium_coil - 21750
 hammermetals:constantan_rod - 21751
 hammermetals:electrum_dust - 21752
+additions:botaniaddon-gabriel_rune - 21753
 hammermetals:electrum_rod - 21754
 hammermetals:invar_casing - 21755
 hammermetals:palladium_block - 21756
@@ -18219,6 +18230,7 @@ hammermetals:electrum_ingot - 21912
 hammermetals:nickel_block - 21913
 hammermetals:osmium_casing - 21914
 hammermetals:steel_casing - 21915
+jaopca:block_stairsblackiron - 21916
 hammermetals:cobalt_coil - 21917
 hammermetals:chrome_ore - 21918
 hammermetals:cobalt_block - 21919
@@ -18280,6 +18292,7 @@ hammermetals:silver_gear - 21974
 jaopca:block_crystalclusterpalladium - 21975
 jaopca:block_wallpalladium - 21976
 hammermetals:iridium_ingot - 21977
+jaopca:item_platedenseblackiron - 21978
 mysticalagriculture:chrome_essence - 21979
 hammermetals:silver_casing - 21980
 hammermetals:bronze_ingot - 21981
@@ -18347,8 +18360,10 @@ hammermetals:aeonsteel_casing - 22042
 hammermetals:chromasteel_gear - 22043
 jaopca:item_dusttinyaeonsteel - 22044
 hammermetals:chromasteel_coil - 22045
+hammermetals:blackiron_ingot - 22046
 hammermetals:aeonsteel_nugget - 22047
 jaopca:item_clumpaeonsteel - 22048
+additions:botaniaddon-raphael_rune - 22049
 jaopca:item_dustsmallchromasteel - 22050
 jaopca:item_dustdirtyaeonsteel - 22051
 hammermetals:chromasteel_ingot - 22052
@@ -18359,6 +18374,7 @@ jaopca:item_singularitychromasteel - 22056
 jaopca:item_coinaeonsteel - 22057
 jaopca:item_platedensechromasteel - 22058
 hammermetals:aeonsteel_block - 22059
+additions:botaniaddon-sandalphon_rune - 22060
 jaopca:item_singularityaeonsteel - 22061
 jaopca:item_clusterchromasteel - 22062
 jaopca:block_crystalclusteraeonsteel - 22063
@@ -18366,7 +18382,9 @@ jaopca:block_wallchromasteel - 22064
 jaopca:item_crystalabysscosmilite - 22065
 hammermetals:chromasteel_rod - 22066
 jaopca:block_doubleslabcosmilite - 22067
+hammermetals:blackiron_coil - 22068
 jaopca:item_platedenseaeonsteel - 22069
+hammermetals:blackiron_gear - 22070
 jaopca:item_dusttinycosmilite - 22071
 hammermetals:chromasteel_casing - 22072
 jaopca:block_glasshardenedcosmilite - 22073
@@ -18375,9 +18393,11 @@ jaopca:item_dustsmallaeonsteel - 22075
 hammermetals:cosmilite_block - 22076
 jaopca:block_slabchromasteel - 22077
 jaopca:block_stairsaeonsteel - 22078
+hammermetals:blackiron_ore - 22079
 jaopca:block_doubleslabchromasteel - 22080
 hammermetals:chromasteel_ore - 22081
 jaopca:item_clumpchromasteel - 22082
+jaopca:item_dusttinyblackiron - 22083
 jaopca:block_fenceaeonsteel - 22084
 jaopca:item_crystalchromasteel - 22085
 jaopca:item_dustdirtychromasteel - 22086
@@ -18424,10 +18444,12 @@ jaopca:item_crystalshardcosmilite - 22126
 jaopca:block_slabaeonsteel - 22127
 jaopca:block_glasshardenedaeonsteel - 22128
 jaopca:block_wallcosmilite - 22129
+jaopca:block_fenceblackiron - 22130
 jaopca:block_fencechromasteel - 22131
 jaopca:item_platedensecosmilite - 22132
 jaopca:item_crystalabysschromasteel - 22133
 jaopca:item_crystalfragmentaeonsteel - 22134
+jaopca:item_clumpblackiron - 22135
 jaopca:block_crystalclusterchromasteel - 22136
 jaopca:item_dusttinychromasteel - 22137
 hammermetals:fierymetal_nugget - 22138
@@ -18573,8 +18595,11 @@ hammermetals:terrasteel_ingot - 22277
 hammermetals:gaiasteel_ore - 22278
 jaopca:block_stairsgaiasteel - 22279
 hammermetals:orichalcos_coil - 22280
+jaopca:block_glasshardenedblackiron - 22281
 jaopca:item_singularityorichalcos - 22282
 jaopca:block_crystalclustergaiasteel - 22283
+jaopca:item_clusterblackiron - 22284
+jaopca:block_slabblackiron - 22285
 hammermetals:orichalcos_plate - 22286
 hammermetals:gaiasteel_block - 22287
 jaopca:item_dustsmallorichalcos - 22288
@@ -18583,6 +18608,7 @@ jaopca:item_crystalfragmentgaiasteel - 22290
 hammermetals:gaiasteel_dust - 22291
 hammermetals:gaiasteel_nugget - 22292
 jaopca:item_clusterorichalcos - 22293
+jaopca:block_wallblackiron - 22294
 jaopca:block_wallgaiasteel - 22295
 hammermetals:gaiasteel_rod - 22296
 jaopca:block_wallorichalcos - 22297
@@ -18605,6 +18631,7 @@ hammermetals:alumite_nugget - 22313
 hammermetals:osmiridium_coil - 22314
 hammermetals:osmiridium_gear - 22315
 jaopca:block_stairsosgloglas - 22316
+jaopca:item_singularityblackiron - 22317
 hammermetals:alumite_plate - 22318
 jaopca:item_coinalumite - 22319
 jaopca:item_platedenseosmiridium - 22320
@@ -18632,6 +18659,7 @@ hammermetals:osgloglas_coil - 22341
 jaopca:item_dusttinyosgloglas - 22342
 hammermetals:osmiridium_ore - 22343
 jaopca:item_singularityosmiridium - 22344
+jaopca:item_dustdirtyblackiron - 22345
 jaopca:item_shardosgloglas - 22346
 hammermetals:alumite_ore - 22347
 hammermetals:mirion_nugget - 22348
@@ -18646,12 +18674,16 @@ jaopca:item_coinosgloglas - 22356
 jaopca:block_wallosgloglas - 22357
 jaopca:item_platedensealumite - 22358
 jaopca:item_clusteralumite - 22359
+jaopca:item_crystalfragmentblackiron - 22360
 jaopca:block_doubleslabalumite - 22361
+additions:botaniaddon-haniel_rune - 22362
 jaopca:item_singularitymirion - 22363
+jaopca:item_coinblackiron - 22364
 jaopca:item_crystalabyssmirion - 22365
 jaopca:item_crystalabyssosmiridium - 22366
 hammermetals:osgloglas_dust - 22367
 jaopca:item_dustdirtyalumite - 22368
+jaopca:item_crystalshardblackiron - 22369
 jaopca:item_crystalshardosgloglas - 22370
 jaopca:item_shardmirion - 22371
 jaopca:item_shardalumite - 22372
@@ -18702,15 +18734,18 @@ jaopca:item_crystalosmiridium - 22416
 jaopca:item_clusterosgloglas - 22417
 jaopca:item_dustsmallalumite - 22418
 jaopca:item_crystalfragmentmirion - 22419
+additions:botaniaddon-mythsteel_ingot - 22420
 hammermetals:mirion_casing - 22421
 hammermetals:mirion_ore - 22422
 jaopca:item_coinosmiridium - 22423
 hammermetals:alumite_block - 22424
 jaopca:block_slabosgloglas - 22425
+jaopca:item_crystalblackiron - 22426
 hammermetals:osmiridium_block - 22427
 jaopca:item_crystalshardmirion - 22428
 jaopca:item_crystalshardalumite - 22429
 hammermetals:osgloglas_ingot - 22430
+jaopca:item_crystalabyssblackiron - 22431
 jaopca:block_stairsalumite - 22432
 jaopca:item_clustermirion - 22433
 jaopca:item_dustdirtyosgloglas - 22434
@@ -18737,6 +18772,7 @@ jaopca:item_dustsmallsodium - 22454
 hammermetals:sodium_rod - 22455
 jaopca:item_singularitysodium - 22456
 jaopca:item_crystalabysssodium - 22457
+additions:greedycraft-sanite_ore - 22458
 jaopca:item_crystalshardsodium - 22459
 jaopca:fluid_moltensodium - 22460
 hammermetals:sodium_casing - 22461
@@ -18783,7 +18819,6 @@ additions:mekaddon-iron_oxide_dust - 22504
 embers:ancient_motive_core - 22505
 embers:sealed_planks - 22506
 thebetweenlands:dentrothyst_shield_green_polished - 22507
-matteroverdrive:matter_analyzer - 22508
 journey:pinkcloudiacloud - 22509
 journey:euca_gold_stone - 22510
 blue_skies:maple_fence_gate - 22511
@@ -18807,7 +18842,6 @@ journey:workshopcarpet - 22528
 journey:lightstonebody - 22529
 journey:sentient_pinion_destruction - 22530
 journey:chocolate - 22531
-mysticalagriculture:dilithium_seeds - 22532
 journey:sapphireboots - 22533
 journey:blazierbricks - 22534
 thebetweenlands:bone_shovel - 22535
@@ -18815,7 +18849,6 @@ thebetweenlands:mud_bricks_climbable - 22536
 blue_skies:turquoise_cobblestone_slab - 22537
 mist:oak_branch - 22538
 thebetweenlands:pestle - 22539
-matteroverdrive:fusion_reactor_coil - 22540
 blue_skies:starlit_button - 22541
 embers:axe_clockwork - 22542
 embers:wall_ashen_tile - 22543
@@ -18867,19 +18900,16 @@ thebetweenlands:polished_limestone_slab - 22588
 journey:goldenbloom - 22589
 journey:candycane - 22590
 journey:frostbiterspawner - 22591
-matteroverdrive:phaser_rifle - 22592
 journey:mekyumingot - 22593
 blue_skies:bluebright_leaves - 22594
 blue_skies:venison_steak - 22595
 blue_skies:mossy_turquoise_cobblestone_wall - 22596
-matteroverdrive:decorative.vent.bright - 22597
 thebetweenlands:snail_flesh_smoked - 22598
 embers:ember_jar - 22599
 journey:golembow - 22600
 journey:tomatoseeds - 22601
 embers:stamp_plate_raw - 22602
 mist:niobium_boots - 22603
-matteroverdrive:decorative.holo_matrix - 22604
 journey:trophywitherbeast - 22605
 journey:terraniaportalgem - 22606
 journey:boillock - 22607
@@ -18887,7 +18917,6 @@ mist:remains - 22608
 industrialforegoing:crop_enrich_material_injector - 22609
 thebetweenlands:bl_bucket - 22610
 journey:dungeonchiseledbrickfence - 22611
-matteroverdrive:decorative.floor_tile - 22612
 journey:darkcrystal - 22613
 blue_skies:hidden_spike - 22614
 embers:grandhammer - 22615
@@ -18900,7 +18929,6 @@ journey:depthsstairs - 22621
 journey:boil_square_brick - 22622
 naturesaura:color_changer - 22623
 journey:luniteblock - 22624
-matteroverdrive:decorative.floor_noise - 22625
 thebetweenlands:tiny_sludge_worm - 22626
 blue_skies:lunar_stairs - 22627
 mist:pine_branch - 22628
@@ -18912,7 +18940,6 @@ journey:loggerorb - 22633
 blue_skies:lunar_stonebrick_wall - 22634
 journey:scorched_stalagmite_med - 22635
 embers:geo_separator - 22636
-matteroverdrive:network_flash_drive - 22637
 beyondtheveil:ghost_weed - 22638
 journey:corba_wall - 22639
 journey:eucalightgreenleaves - 22640
@@ -18940,7 +18967,6 @@ thebetweenlands:syrmorite_ore - 22661
 journey:blazehornbody - 22662
 blue_skies:baneful_mushroom - 22663
 mist:mulch - 22664
-matteroverdrive:replicator - 22665
 journey:zatpedal - 22666
 thebetweenlands:puffshroom - 22667
 jaopca:item_stickelfsteel - 22668
@@ -18992,14 +19018,12 @@ journey:frozenflower - 22713
 blue_skies:glowing_nature_wall - 22714
 blue_skies:everdawn_pyrope_ore - 22715
 industrialforegoing:bioreactor - 22716
-matteroverdrive:transport_flash_drive - 22717
 journey:dark_matter_gemstone - 22718
 thebetweenlands:test_item_chimp_ruler - 22719
 blue_skies:mossy_turquoise_stonebrick_wall - 22720
 mist:niobium_helmet - 22721
 industrialforegoing:enchantment_invoker - 22722
 journey:depthsportalgem - 22723
-matteroverdrive:plasma_shotgun - 22724
 thebetweenlands:copper_iris - 22725
 thebetweenlands:mud_brick_roof - 22726
 thebetweenlands:dead_grass - 22727
@@ -19015,7 +19039,6 @@ thebetweenlands:rotten_plank_fence_gate - 22736
 journey:terranianvine - 22737
 thebetweenlands:rubber_tree_planks - 22738
 naturesaura:birth_spirit - 22739
-matteroverdrive:romulan_ale - 22740
 journey:goldenbulb - 22741
 beyondtheveil:fleshcarbontoken - 22742
 journey:ashualore - 22743
@@ -19061,7 +19084,6 @@ journey:hell_bell - 22782
 embers:nugget_lead - 22783
 journey:loggerssword - 22784
 thebetweenlands:betweenstone_stairs - 22785
-matteroverdrive:solar_panel - 22786
 beyondtheveil:sigil_player - 22787
 journey:koriteblock - 22788
 thebetweenlands:crab_pot - 22789
@@ -19076,17 +19098,14 @@ blue_skies:everdawn_turquoise_axe - 22797
 thebetweenlands:dentrothyst_shield_orange - 22798
 industrialforegoing:mob_duplicator - 22799
 journey:depthsportalframe - 22800
-matteroverdrive:tritanium_wrench - 22801
 thebetweenlands:coarse_swamp_dirt - 22802
 embers:superheater - 22803
 thebetweenlands:fumigant - 22804
-matteroverdrive:decorative.white_plate - 22805
 thebetweenlands:compost_block - 22806
 mist:glass_container - 22807
 journey:golditebody - 22808
 thebetweenlands:marsh_marigold_flower - 22809
 journey:fireboundlegs - 22810
-matteroverdrive:tritanium_dust - 22811
 journey:enderilliumshard - 22812
 journey:withicblade - 22813
 thebetweenlands:weak_mossy_betweenstone_tiles - 22814
@@ -19128,7 +19147,6 @@ mist:gas_analyzer - 22849
 beyondtheveil:memory_sieve - 22850
 thebetweenlands:astatos - 22851
 thebetweenlands:dungeon_wall_candle - 22852
-matteroverdrive:spacetime_equalizer - 22853
 journey:cloudslicer - 22854
 emberstic:stamp_pick_head - 22855
 thebetweenlands:marsh_mallow - 22856
@@ -19144,11 +19162,9 @@ journey:boilinglamp - 22865
 thebetweenlands:pitstone_brick_slab - 22866
 beyondtheveil:barrel - 22867
 embers:tyrfing - 22868
-matteroverdrive:decomposer - 22869
 thebetweenlands:smooth_betweenstone_slab - 22870
 beyondtheveil:dream_bottle - 22871
 mist:floating_mat - 22872
-matteroverdrive:artifact - 22873
 mist:acacia_leaves - 22874
 blue_skies:lunar_log - 22875
 journey:thunderbirdorb - 22876
@@ -19165,9 +19181,7 @@ journey:enlightenerboots - 22886
 blue_skies:turquoise_chestplate - 22887
 journey:lightstoneboots - 22888
 thebetweenlands:rubber_tree_plank_slab - 22889
-matteroverdrive:network_pipe - 22890
 blue_skies:everbright_turquoise_pickaxe - 22891
-matteroverdrive:me_conversion_matrix - 22892
 journey:golditelegs - 22893
 thebetweenlands:anadia_meat_raw - 22894
 journey:scorched_cactus - 22895
@@ -19227,7 +19241,6 @@ journey:roc_spawner_egg - 22949
 journey:opgoldenpotato - 22950
 beyondtheveil:sigil_pathway - 22951
 thebetweenlands:snot_pod - 22952
-matteroverdrive:matter_dust_refined - 22953
 journey:minighastspawner - 22954
 journey:mellium_crystal - 22955
 journey:sapphireore - 22956
@@ -19236,7 +19249,6 @@ embers:ingot_dawnstone - 22958
 blue_skies:green_bean_seeds - 22959
 journey:flamebow - 22960
 thebetweenlands:mud_tiles_spike_trap - 22961
-matteroverdrive:holo_sign - 22962
 journey:frostflake - 22963
 mist:grass_c - 22964
 blue_skies:green_bean - 22965
@@ -19269,7 +19281,6 @@ mist:pine_fence - 22991
 thebetweenlands:cragrock_chiseled_mossy - 22992
 journey:sentry_node_blood - 22993
 industrialforegoing:black_hole_tank - 22994
-matteroverdrive:tritanium_crate_red - 22995
 thebetweenlands:limestone_brick_slab - 22996
 journey:gorbitesword - 22997
 embers:sword_tin - 22998
@@ -19289,7 +19300,6 @@ journey:enchantedleaf - 23011
 thebetweenlands:milkweed - 23012
 mist:snow_fence_gate - 23013
 journey:flaming_hammer - 23014
-matteroverdrive:decorative.floor_tiles - 23015
 thebetweenlands:slimy_bone_block - 23016
 mist:rocks - 23017
 journey:cloudia_tall_grass - 23018
@@ -19297,12 +19307,10 @@ thebetweenlands:polished_limestone - 23019
 journey:ashdust - 23020
 journey:sentry_disk - 23021
 embers:stamp_flat_raw - 23022
-matteroverdrive:tritanium_shovel - 23023
 thebetweenlands:ancient_greatsword - 23024
 journey:tempestbattleaxe - 23025
 thebetweenlands:item_cage - 23026
 mist:clay_ball - 23027
-matteroverdrive:sniper_scope - 23028
 mist:acacia_fence - 23029
 blue_skies:dusk_fence_gate - 23030
 thebetweenlands:valonite_shield - 23031
@@ -19342,13 +19350,11 @@ blue_skies:poison_stairs - 23064
 blue_skies:chiseled_crystal_sandstone - 23065
 thebetweenlands:glowing_smooth_cragrock - 23066
 journey:hellwingspawner - 23067
-matteroverdrive:tritanium_crate_brown - 23068
 journey:frozenplanks - 23069
 journey:terranian_flower - 23070
 mist:niobium_door - 23071
 thebetweenlands:tar_loot_pot - 23072
 blue_skies:chilled_lily_pad - 23073
-matteroverdrive:microwave - 23074
 beyondtheveil:elder_stone_bricks - 23075
 thebetweenlands:aqua_middle_gem_block - 23076
 mist:spruce_step - 23077
@@ -19392,7 +19398,6 @@ journey:frozenblooms - 23114
 industrialforegoing:conveyor - 23115
 journey:essence_catalyst - 23116
 thebetweenlands:scabyst_brick_slab - 23117
-matteroverdrive:android_pill - 23118
 thebetweenlands:rock_snot_pearl - 23119
 naturesaura:field_creator - 23120
 mist:pine_wall - 23121
@@ -19400,7 +19405,6 @@ journey:hongoshroom - 23122
 journey:tangleberrybush - 23123
 aurorianitems:portalcatalyst - 23124
 beyondtheveil:bleeding_belt - 23125
-matteroverdrive:omni_tool - 23126
 naturesaura:golden_leaves - 23127
 journey:storonore - 23128
 blue_skies:horizonite_block - 23129
@@ -19416,10 +19420,8 @@ thebetweenlands:filtered_silt_glass_pane - 23138
 embers:ore_silver - 23139
 thebetweenlands:cragrock_tiles - 23140
 mist:urn - 23141
-mysticalagriculture:dilithium_crop - 23142
 mist:rubber_helmet - 23143
 blue_skies:everdawn_charoite_ore - 23144
-matteroverdrive:decorative.stripes - 23145
 journey:luniumboots - 23146
 thebetweenlands:simulacrum_deepman - 23147
 naturesaura:infused_iron_shovel - 23148
@@ -19441,7 +19443,6 @@ beyondtheveil:beanstalk - 23163
 embers:nugget_nickel - 23164
 journey:staffofenlightenment - 23165
 industrialforegoing:fluiddictionary_converter - 23166
-matteroverdrive:matter_pipe - 23167
 embers:large_tank - 23168
 mist:willow_wall - 23169
 blue_skies:lunar_dirt - 23170
@@ -19477,7 +19478,6 @@ embers:clockwork_attenuator - 23200
 journey:treehugger - 23201
 thebetweenlands:weedwood_log_fence_gate - 23202
 journey:depthskey - 23203
-matteroverdrive:pattern_monitor - 23204
 embers:auto_hammer - 23205
 journey:orbaditebody - 23206
 blue_skies:everbright_diopside_sword - 23207
@@ -19492,7 +19492,6 @@ blue_skies:lunar_pressure_plate - 23215
 thebetweenlands:items_crushed - 23216
 thebetweenlands:predator_bow - 23217
 blue_skies:everbright_pyrope_axe - 23218
-mysticalagriculture:tritanium_essence - 23219
 thebetweenlands:bauble - 23220
 blue_skies:mossy_lunar_stonebrick - 23221
 journey:enlightenerhelmet - 23222
@@ -19521,7 +19520,6 @@ jaopca:block_fencecrimsonmiddlegem - 23244
 thebetweenlands:between_you_and_me - 23245
 beyondtheveil:curtain - 23246
 journey:darkenforcer - 23247
-matteroverdrive:isolinear_circuit - 23248
 thebetweenlands:gallery_frame_small - 23249
 thebetweenlands:mossy_limestone_bricks - 23250
 blue_skies:cherry - 23251
@@ -19557,13 +19555,11 @@ blue_skies:lunar_cobblestone - 23280
 beyondtheveil:drink_mead - 23281
 embers:mini_boiler - 23282
 mist:spruce_slab - 23283
-matteroverdrive:gravitational_anomaly - 23284
 thebetweenlands:weedwood_trapdoor - 23285
 thebetweenlands:fried_swamp_kelp - 23286
 journey:cavernrecord - 23287
 journey:overseerspawner - 23288
 blue_skies:frostbright_sapling - 23289
-mysticalagriculture:tritanium_seeds - 23290
 blue_skies:cracked_lunar_stonebrick_stairs - 23291
 thebetweenlands:dentrothyst_shield_orange_polished - 23292
 journey:charred_grass - 23293
@@ -19615,7 +19611,6 @@ thebetweenlands:glue - 23338
 thebetweenlands:pitstone_pillar - 23339
 embers:ashen_tile - 23340
 blue_skies:lunar_fence - 23341
-matteroverdrive:tritanium_nugget - 23342
 industrialforegoing:latex_processing_unit - 23343
 journey:luniumshovel - 23344
 journey:snakeskinlegs - 23345
@@ -19625,7 +19620,6 @@ journey:depthspiercer - 23348
 naturesaura:rf_converter - 23349
 journey:trophylogger - 23350
 industrialforegoing:black_hole_unit - 23351
-matteroverdrive:weapon_handle - 23352
 thebetweenlands:giant_root_plank_fence - 23353
 journey:darkbrick - 23354
 journey:depthsbody - 23355
@@ -19681,9 +19675,6 @@ journey:greengem - 23404
 thebetweenlands:scabyst_door_item - 23405
 thebetweenlands:sludge_slicer - 23406
 journey:juiceberry - 23407
-matteroverdrive:decorative.tritanium_plate_stripe - 23408
-matteroverdrive:tritanium_crate_yellow - 23409
-matteroverdrive:contract_market - 23410
 thebetweenlands:sap_ball - 23411
 thebetweenlands:jam_donut - 23412
 journey:spineberries - 23413
@@ -19696,7 +19687,6 @@ journey:blood - 23419
 blue_skies:protection_broadstone - 23420
 journey:elderblock - 23421
 mist:filter_coal_ore - 23422
-matteroverdrive:energy_pack - 23423
 industrialforegoing:mob_slaughter_factory - 23424
 thebetweenlands:living_weedwood_shield - 23425
 thebetweenlands:pitstone_brick_stairs - 23426
@@ -19745,16 +19735,13 @@ mysticalagriculture:slimy_bone_crop - 23468
 thebetweenlands:possessed_block - 23469
 journey:terrianbow - 23470
 naturesaura:token_terror - 23471
-matteroverdrive:holo_sights_base - 23472
 journey:goldite_flower - 23473
 thebetweenlands:aa_upgrade_urchin - 23474
 thebetweenlands:dead_lichen - 23475
 thebetweenlands:pitstone_tiles - 23476
 journey:fireboundbody - 23477
 naturesaura:nature_altar - 23478
-matteroverdrive:tritanium_crate_light_blue - 23479
 thebetweenlands:sapling_spirit_tree - 23480
-matteroverdrive:molten_tritanium - 23481
 journey:frozenglass - 23482
 thebetweenlands:bone_leggings - 23483
 emberstic:stamp_arrow_shaft - 23484
@@ -19810,10 +19797,8 @@ journey:shadiumbody - 23533
 jaopca:block_stairsvalonite - 23534
 embers:nonbeliever_amulet - 23535
 thebetweenlands:sulfur_block - 23536
-matteroverdrive:upgrade - 23537
 thebetweenlands:purified_swamp_dirt - 23538
 journey:tall_glowshroom_green - 23539
-matteroverdrive:decorative.coils - 23540
 journey:livegreenbody - 23541
 industrialforegoing:water_resources_collector - 23542
 thebetweenlands:cragrock_chiseled - 23543
@@ -19846,7 +19831,6 @@ journey:pet_food - 23569
 journey:nethicaxe - 23570
 naturesaura:mover_cart - 23571
 blue_skies:frostbright_bookshelf - 23572
-matteroverdrive:pattern_drive - 23573
 embers:ingot_electrum - 23574
 blue_skies:pink_raspberry - 23575
 blue_skies:glowing_life_slab - 23576
@@ -19856,7 +19840,6 @@ industrialforegoing:dye_mixer - 23579
 thebetweenlands:log_rubber - 23580
 naturesaura:ancient_stairs - 23581
 journey:celestiummultitool - 23582
-mysticalagriculture:tritanium_crop - 23583
 journey:swamp_shelf - 23584
 thebetweenlands:giant_root_planks - 23585
 journey:euca_hopper_spawner_egg - 23586
@@ -19917,7 +19900,6 @@ journey:hateful_heart - 23640
 journey:cherrycandycane - 23641
 thebetweenlands:cattail - 23642
 thebetweenlands:dead_moss - 23643
-matteroverdrive:tritanium_leggings - 23644
 naturesaura:shockwave_creator - 23645
 journey:shimmerdust - 23646
 naturesaura:token_anger - 23647
@@ -19926,7 +19908,6 @@ thebetweenlands:weedwood_planks - 23649
 thebetweenlands:mossy_betweenstone_brick_slab - 23650
 thebetweenlands:lurker_skin_boots - 23651
 thebetweenlands:pitstone_wall - 23652
-matteroverdrive:tritanium_chestplate - 23653
 journey:mintcandycane - 23654
 jaopca:block_slabcrimsonmiddlegem - 23655
 embers:ashen_stone_slab - 23656
@@ -19971,13 +19952,11 @@ journey:golemsword - 23694
 journey:crystalizedbattleaxe - 23695
 thebetweenlands:octine_shield - 23696
 embers:seed_gold - 23697
-matteroverdrive:weapon_module_barrel - 23698
 thebetweenlands:log_portal - 23699
 thebetweenlands:dentrothyst - 23700
 blue_skies:bluebright_slab - 23701
 journey:starlightboots - 23702
 thebetweenlands:voodoo_doll - 23703
-matteroverdrive:ion_sniper - 23704
 thebetweenlands:marsh_hibiscus - 23705
 thebetweenlands:rotbulb - 23706
 blue_skies:mossy_turquoise_cobblestone_slab - 23707
@@ -19992,7 +19971,6 @@ blue_skies:everbright_portal - 23715
 journey:flamehelmet - 23716
 embers:shovel_lead - 23717
 journey:terrashroomblockpurple - 23718
-matteroverdrive:rogue_android_part - 23719
 thebetweenlands:cave_grass - 23720
 jaopca:block_slaboctine - 23721
 journey:netherbeastorb - 23722
@@ -20000,7 +19978,6 @@ thebetweenlands:mire_coral - 23723
 journey:bleedstone - 23724
 blue_skies:silver_slab - 23725
 beyondtheveil:drink_wine - 23726
-matteroverdrive:tritanium_crate_lime - 23727
 journey:dessword - 23728
 journey:bleedstonedust - 23729
 thebetweenlands:temple_brick_stairs - 23730
@@ -20018,13 +19995,11 @@ embers:aspectus_dawnstone - 23741
 embers:seed_nickel - 23742
 blue_skies:starlit_crafting_table - 23743
 jaopca:block_doubleslaboctine - 23744
-jaopca:block_walltritanium - 23745
 mist:acid_sand - 23746
 journey:bleedrocklegs - 23747
 thebetweenlands:sludge_worm_egg_sac - 23748
 blue_skies:raspberry - 23749
 beyondtheveil:dream_focus - 23750
-matteroverdrive:network_router - 23751
 blue_skies:everdawn_charoite_pickaxe - 23752
 mysticalagriculture:syrmorite_essence - 23753
 industrialforegoing:laser_drill - 23754
@@ -20037,15 +20012,12 @@ journey:miners_pearl - 23760
 journey:celestiumpickaxe - 23761
 thebetweenlands:sludge_worm_arrow - 23762
 aurorianitems:lavenderflour - 23763
-matteroverdrive:weapon_receiver - 23764
 jaopca:block_doubleslabsyrmorite - 23765
 thebetweenlands:bulb_capped_mushroom - 23766
 journey:cloudia_chest - 23767
 naturesaura:firework_generator - 23768
-matteroverdrive:fusion_reactor_io - 23769
 blue_skies:turquoise_tallgrass - 23770
 mist:meat_cook - 23771
-jaopca:block_doubleslabtritanium - 23772
 blue_skies:crystal_glass_pane - 23773
 thebetweenlands:weedwood_rowboat_upgrade_lantern - 23774
 journey:burningleaves - 23775
@@ -20055,7 +20027,6 @@ journey:shadiumaxe - 23778
 journey:crisp_grass - 23779
 thebetweenlands:syrmorite_trapdoor - 23780
 journey:golditeboots - 23781
-matteroverdrive:tritanium_crate_blue - 23782
 blue_skies:frostbright_fence - 23783
 journey:terraniantallgrass - 23784
 journey:reinforcedstoneingot - 23785
@@ -20136,13 +20107,10 @@ industrialforegoing:laser_lens_inverted - 23859
 embers:ore_quartz - 23860
 embers:ember_gauge - 23861
 journey:normalgoldenwing - 23862
-matteroverdrive:tritanium_helmet - 23863
-matteroverdrive:integration_matrix - 23864
 emberstic:stamp_large_sword_blade - 23865
 journey:rubble - 23866
 embers:anti_tinker_lens - 23867
 journey:sorcererspawner - 23868
-matteroverdrive:pylon - 23869
 thebetweenlands:mummy_bait - 23870
 journey:diamonddust - 23871
 journey:tainted_mud - 23872
@@ -20172,7 +20140,6 @@ journey:spawnerbar - 23895
 jaopca:block_glasshardenedsyrmorite - 23896
 blue_skies:frostbright_fence_gate - 23897
 emberstic:stamp_hammer_head - 23898
-matteroverdrive:tritanium_spine - 23899
 journey:storonpickaxe - 23900
 journey:euca_dungeon_brick_stairs - 23901
 journey:flamingspring - 23902
@@ -20203,7 +20170,6 @@ thebetweenlands:middle_fruit_jello - 23926
 mist:mushrooms_cook - 23927
 journey:overgrown_loot_box - 23928
 thebetweenlands:magic_item_magnet - 23929
-matteroverdrive:trilithium_crystal - 23930
 beyondtheveil:worn_bricks - 23931
 thebetweenlands:sludge - 23932
 embers:axe_lead - 23933
@@ -20228,7 +20194,6 @@ journey:frostbittenpiercer - 23951
 blue_skies:everdawn_pyrope_hoe - 23952
 thebetweenlands:log_rotten_bark_carved_16 - 23953
 thebetweenlands:freshwater_urchin - 23954
-matteroverdrive:pattern_storage - 23955
 thebetweenlands:log_rotten_bark_carved_15 - 23956
 blue_skies:smooth_midnight_sandstone - 23957
 thebetweenlands:log_rotten_bark_carved_10 - 23959
@@ -20274,7 +20239,6 @@ mist:pine_leaves - 24001
 journey:flamebody - 24002
 embers:stairs_ashen_stone - 24003
 blue_skies:everdawn_turquoise_hoe - 24004
-matteroverdrive:network_switch - 24005
 thebetweenlands:wooden_support_beam_rotten_1 - 24006
 thebetweenlands:wooden_support_beam_rotten_2 - 24007
 journey:terranialamp - 24008
@@ -20297,7 +20261,6 @@ gugu-utils:emberinputhatch - 24024
 thebetweenlands:weedwood_workbench - 24025
 blue_skies:zeal_lighter - 24026
 jaopca:block_doubleslabsulfur - 24027
-matteroverdrive:matter_container - 24028
 journey:corbastone - 24029
 journey:hellstoneclump - 24030
 thebetweenlands:limestone_brick_wall - 24031
@@ -20308,7 +20271,6 @@ beyondtheveil:elder_bricks_chiseled - 24035
 journey:ashualblock - 24036
 blue_skies:turquoise_stone_button - 24037
 journey:hellshards - 24038
-matteroverdrive:tritanium_ingot - 24039
 thebetweenlands:weedwood_chest - 24040
 embers:mech_accessor - 24041
 thebetweenlands:valonite_shovel - 24042
@@ -20358,20 +20320,17 @@ embers:sword_dawnstone - 24089
 embers:axe_tin - 24090
 naturesaura:ender_access - 24091
 thebetweenlands:smooth_betweenstone - 24092
-matteroverdrive:weapon_station - 24093
 journey:eucagoldleaves - 24094
 journey:frost_gem_block - 24095
 thebetweenlands:tainted_potion - 24096
 blue_skies:charoite_block - 24097
 blue_skies:diopside_helmet - 24098
-matteroverdrive:tritanium_crate_cyan - 24099
 embers:ashen_cloth - 24100
 beyondtheveil:held_fletum - 24101
 journey:teleportationstaff - 24102
 journey:lava_bloom - 24103
 blue_skies:frostbright_button - 24104
 embers:mech_core - 24105
-matteroverdrive:contract - 24106
 thebetweenlands:mossy_betweenstone_tiles - 24107
 blue_skies:charoite - 24108
 embers:block_electrum - 24109
@@ -20395,7 +20354,6 @@ mist:aspen_slab - 24127
 thebetweenlands:mud_brick_spike_trap - 24128
 jaopca:block_stairsoctine - 24129
 journey:coremender - 24130
-matteroverdrive:weapon_module_holo_sights - 24131
 blue_skies:mossy_lunar_cobblestone - 24132
 journey:depthstile - 24133
 mist:a_tree_leaves - 24134
@@ -20403,11 +20361,9 @@ journey:slimun - 24135
 thebetweenlands:pearled_pear - 24136
 journey:forestplasma - 24137
 thebetweenlands:hearthgrove_plank_door_item - 24138
-matteroverdrive:decorative.separator - 24139
 journey:sentrykingorb - 24140
 blue_skies:lunar_stone_pressure_plate - 24141
 jaopca:item_singularityniobium - 24142
-matteroverdrive:emergency_ration - 24143
 thebetweenlands:mud_tower_beam_tube - 24144
 journey:lore_scroll - 24145
 journey:iridiumblock - 24146
@@ -20439,15 +20395,12 @@ thebetweenlands:filtered_silt - 24171
 mist:s_tree_door - 24172
 industrialforegoing:froster - 24173
 journey:storonblock - 24174
-matteroverdrive:matter_scanner - 24175
 industrialforegoing:tinydryrubber - 24176
 thebetweenlands:scabyst_block - 24177
 naturesaura:animal_spawner - 24178
 embers:jet_augment - 24179
-matteroverdrive:decorative.carbon_fiber_plate - 24180
 thebetweenlands:leaves_spirit_tree_middle - 24181
 blue_skies:nectarine - 24182
-matteroverdrive:star_map - 24183
 thebetweenlands:ring_of_flight - 24184
 journey:corallatororb - 24185
 jaopca:item_crystalshardelfsteel - 24186
@@ -20455,7 +20408,6 @@ journey:hollowbody - 24187
 thebetweenlands:filtered_silt_glass - 24188
 blue_skies:everdawn_diopside_sword - 24189
 journey:gorbitedust - 24190
-matteroverdrive:tritanium_axe - 24191
 journey:witheringbeastsword - 24192
 journey:eucaportalgem - 24193
 jaopca:item_singularitygreenmiddlegem - 24194
@@ -20464,7 +20416,6 @@ jaopca:item_singularitylifecrystal - 24196
 journey:yellowgem - 24197
 thebetweenlands:bone_boots - 24198
 journey:mekyumore - 24199
-matteroverdrive:s_magnet - 24200
 thebetweenlands:pearl_block - 24201
 jaopca:item_singularityscabyst - 24202
 thebetweenlands:aa_upgrade_leap - 24203
@@ -20492,9 +20443,7 @@ embers:caminite_lever - 24224
 mist:pine_block - 24225
 thebetweenlands:nibbletwig_plank_door_item - 24226
 mist:willow_slab - 24227
-matteroverdrive:machine_casing - 24228
 blue_skies:turquoise_stone_pressure_plate - 24229
-matteroverdrive:earl_gray_tea - 24230
 journey:rocmeat - 24231
 thebetweenlands:fishing_spear_amphibious_robust - 24232
 embers:dust_ash - 24233
@@ -20504,13 +20453,11 @@ emberstic:stamp_fletching - 24236
 journey:sizzlerwoodlog - 24237
 blue_skies:frostbright_crafting_table - 24238
 journey:orbaditehoe - 24239
-jaopca:block_crystalclustertritanium - 24240
 journey:depthsflake - 24241
 journey:luniteore - 24242
 journey:sapphireaxe - 24243
 blue_skies:infused_arc_sword - 24244
 journey:crystalflake - 24245
-matteroverdrive:battery - 24246
 jaopca:item_dustniobium - 24247
 journey:sentacoin - 24248
 jaopca:item_dustoctine - 24249
@@ -20519,7 +20466,6 @@ blue_skies:starlit_sapling - 24251
 thebetweenlands:octine_pickaxe - 24252
 embers:field_chart - 24253
 journey:championssword - 24254
-jaopca:block_stairstritanium - 24255
 blue_skies:devine - 24256
 journey:shadiumblock - 24257
 journey:depthsshingle - 24258
@@ -20533,7 +20479,6 @@ journey:frostbittenbow - 24265
 thebetweenlands:aspectrus_fruit - 24266
 mist:niobium_ingot - 24267
 thebetweenlands:syrmorite_helmet - 24268
-matteroverdrive:tritanium_crate_silver - 24269
 beyondtheveil:idol - 24270
 blue_skies:moonstone_pressure_plate - 24271
 thebetweenlands:anadia - 24272
@@ -20543,14 +20488,12 @@ mist:oak_trunk - 24275
 jaopca:item_dustaquamiddlegem - 24276
 emberstic:stamp_kama_head - 24277
 blue_skies:dungeon_block - 24278
-matteroverdrive:quantum_fold_manipulator - 24279
 journey:dungeonbrickcarved - 24280
 blue_skies:bluebright_stairs - 24281
 jaopca:item_dustgreenmiddlegem - 24282
 mist:spruce_wall - 24283
 jaopca:item_dustlifecrystal - 24284
 embers:mechanical_pump - 24285
-matteroverdrive:phaser - 24286
 journey:withicdust - 24287
 journey:leaperslegs - 24288
 journey:totem_base - 24289
@@ -20597,7 +20540,6 @@ thebetweenlands:rubber_tree_plank_stairs - 24329
 thebetweenlands:shock_arrow - 24330
 mist:birch_fence_gate - 24331
 journey:obsidianrod - 24332
-jaopca:block_glasshardenedtritanium - 24333
 industrialforegoing:enchantment_extractor - 24334
 thebetweenlands:crab_pot_filter - 24335
 embers:adhesive - 24336
@@ -20611,7 +20553,6 @@ journey:bloodrune - 24343
 naturesaura:dimension_rail_nether - 24344
 emberstic:stamp_tough_tool_rod - 24345
 blue_skies:lunar_sapling - 24346
-matteroverdrive:decorative.vent.dark - 24347
 thebetweenlands:lore_scrap - 24348
 journey:largenetherbrick - 24349
 industrialforegoing:plant_interactor - 24350
@@ -20622,7 +20563,6 @@ thebetweenlands:valonite_leggings - 24354
 jaopca:item_nuggetaquamiddlegem - 24355
 journey:naturetablet - 24356
 journey:greengemblock - 24357
-matteroverdrive:tritanium_crate_white - 24358
 naturesaura:gold_powder - 24359
 jaopca:item_nuggetcrimsonmiddlegem - 24360
 mist:stone_brick_fence - 24361
@@ -20652,7 +20592,6 @@ thebetweenlands:poisoned_angler_tooth_arrow - 24384
 journey:firebomb - 24385
 mist:acacia_stairs - 24386
 journey:bubblesword - 24387
-jaopca:block_fencetritanium - 24388
 thebetweenlands:mossy_betweenstone_brick_wall - 24389
 journey:dungeonlampstairs - 24390
 thebetweenlands:amphibious_leggings - 24391
@@ -20689,7 +20628,6 @@ journey:corbaportal - 24421
 mist:oak_door - 24422
 thebetweenlands:leaves_spirit_tree_top - 24423
 journey:terraniandirt - 24424
-matteroverdrive:tritanium_pickaxe - 24425
 journey:mekyummultitool - 24426
 journey:skull_of_decay - 24427
 thebetweenlands:alembic - 24428
@@ -20699,7 +20637,6 @@ journey:terrastar - 24431
 jaopca:item_coinniobium - 24432
 blue_skies:lunar_stone_axe - 24433
 jaopca:item_coinoctine - 24434
-matteroverdrive:data_pad - 24435
 blue_skies:moonlit_flower - 24436
 industrialforegoing:infinity_drill - 24437
 beyondtheveil:sacrificial_knife - 24438
@@ -20731,7 +20668,6 @@ thebetweenlands:scabyst_pitstone_dotted - 24463
 thebetweenlands:button_bush - 24464
 journey:heartlrg - 24465
 thebetweenlands:dentrothyst_fluid_vial - 24466
-matteroverdrive:weapon_module_color - 24467
 thebetweenlands:hollow_log - 24468
 embers:hoe_dawnstone - 24469
 mist:r_tree_slab - 24470
@@ -20754,7 +20690,6 @@ blue_skies:midnight_glass_pane - 24486
 mist:t_tree_branch - 24487
 jaopca:block_slabgreenmiddlegem - 24488
 journey:naturesblade - 24489
-matteroverdrive:tritanium_sword - 24490
 beyondtheveil:worn_brick_stairs - 24491
 blue_skies:horizonite_sword - 24492
 journey:slimy_flesh - 24493
@@ -20793,7 +20728,6 @@ jaopca:item_gearsyrmorite - 24525
 industrialforegoing:crop_recolector - 24526
 journey:sentry_rock - 24527
 journey:charskullbody - 24528
-jaopca:item_geartritanium - 24529
 journey:frostybow - 24530
 thebetweenlands:smooth_pitstone_stairs - 24531
 naturesaura:infused_brick_slab_double - 24532
@@ -20837,7 +20771,6 @@ mist:ash - 24569
 journey:frozeniceball - 24570
 mist:snow_fence - 24571
 journey:flameboots - 24572
-matteroverdrive:security_protocol - 24573
 journey:frozengrass - 24574
 jaopca:block_stairssulfur - 24575
 journey:cloudiacobblestone - 24576
@@ -20862,7 +20795,6 @@ thebetweenlands:damp_torch - 24594
 embers:block_tank - 24595
 jaopca:block_slabscabyst - 24596
 thebetweenlands:shimmer_stone - 24597
-matteroverdrive:tritanium_crate_green - 24598
 journey:hellstoneingot - 24599
 journey:concentratedblood - 24600
 journey:dungeonlampfence - 24601
@@ -20890,7 +20822,6 @@ jaopca:item_platesyrmorite - 24622
 naturesaura:conversion_catalyst - 24623
 mist:a_tree_trunk - 24624
 embers:shovel_electrum - 24625
-jaopca:item_platetritanium - 24626
 journey:sapphiresword - 24627
 journey:ancient_stone_runic_3 - 24628
 journey:incubator_lit - 24629
@@ -20922,7 +20853,6 @@ journey:dungeonbrickstairs - 24655
 beyondtheveil:damp_stone - 24656
 journey:flamingbow - 24657
 thebetweenlands:betweenstone_chiseled - 24658
-matteroverdrive:spacetime_accelerator - 24659
 blue_skies:arcs - 24660
 jaopca:item_platescabyst - 24661
 journey:orbaditeshovel - 24662
@@ -20940,7 +20870,6 @@ journey:trophystalk - 24673
 thebetweenlands:leaves_sap_tree - 24674
 blue_skies:turquoise_cobblestone - 24675
 naturesaura:bottle_two_the_rebottling - 24676
-matteroverdrive:weapon_module_ricochet - 24677
 journey:shadiumore - 24678
 thebetweenlands:weedwood_plank_stairs - 24679
 beyondtheveil:necronomicon - 24680
@@ -20959,14 +20888,12 @@ thebetweenlands:mud_brick_stairs - 24692
 thebetweenlands:chiromaw_egg_lightning - 24693
 industrialforegoing:mob_detector - 24694
 blue_skies:life_wall - 24695
-matteroverdrive:tritanium_crate_black - 24696
 embers:ember_cartridge - 24697
 journey:oceanplasma - 24698
 journey:cloudiagrass - 24699
 journey:charskulllegs - 24700
 journey:dungeonlamp - 24701
 thebetweenlands:cave_moss - 24702
-matteroverdrive:android_station - 24703
 journey:earthen_hammer - 24704
 blue_skies:bluebright_chest - 24705
 thebetweenlands:bladderwort_stalk - 24706
@@ -20983,13 +20910,11 @@ journey:hotbrick - 24716
 thebetweenlands:ancient_helmet - 24717
 journey:corveggieseeds - 24718
 journey:depthsdirt - 24719
-matteroverdrive:industrial_glass - 24720
 journey:nether_chest - 24721
 jaopca:item_sticksyrmorite - 24722
 journey:flamelegs - 24723
 naturesaura:eye - 24724
 embers:staff_ember - 24725
-jaopca:item_sticktritanium - 24726
 journey:corbapiercer - 24727
 embers:archaic_edge - 24728
 thebetweenlands:smooth_cragrock - 24729
@@ -20999,7 +20924,6 @@ beyondtheveil:blood_well - 24732
 blue_skies:lunar_wood_pickaxe - 24733
 blue_skies:everbright_turquoise_hoe - 24734
 thebetweenlands:pitstone_bricks - 24735
-matteroverdrive:gravitational_stabilizer - 24736
 journey:flairiumhelmet - 24737
 journey:nethicshovel - 24738
 thebetweenlands:compacted_mud_slope - 24739
@@ -21063,7 +20987,6 @@ jaopca:block_fenceniobium - 24797
 journey:boil_cobble - 24798
 thebetweenlands:spores - 24799
 mist:a_tree_step - 24800
-matteroverdrive:decorative.beams - 24801
 thebetweenlands:pitstone_brick_wall - 24802
 blue_skies:frostbright_chest - 24803
 mist:poplar_wall - 24804
@@ -21143,7 +21066,6 @@ journey:dungeonchiseledbrick - 24877
 journey:lament_depths - 24878
 naturesaura:aura_trove - 24879
 journey:trophyeudor - 24880
-matteroverdrive:charging_station - 24881
 blue_skies:dusk_sapling - 24882
 blue_skies:starlit_planks - 24883
 journey:gorbiteboots - 24884
@@ -21171,14 +21093,12 @@ journey:totem_scared - 24905
 journey:boilingbars - 24906
 thebetweenlands:cragrock_brick_wall - 24907
 journey:corbastick - 24908
-matteroverdrive:tritanium_crate_magenta - 24909
 journey:bogwood_log - 24910
 blue_skies:everdawn_turquoise_ore - 24911
 blue_skies:cherry_button - 24912
 journey:orbaditepickaxe - 24913
 jaopca:item_singularityvalonite - 24914
 journey:tall_golden_stalks - 24915
-matteroverdrive:tritanium_crate_gray - 24916
 blue_skies:turquoise_leggings - 24917
 journey:golditehelmet - 24918
 thebetweenlands:cragrock_stairs - 24919
@@ -21206,10 +21126,8 @@ thebetweenlands:limestone_slab - 24940
 beyondtheveil:slugcatcher - 24941
 journey:sentrysword - 24942
 jaopca:item_plateaquamiddlegem - 24943
-matteroverdrive:inscriber - 24944
 jaopca:block_wallaquamiddlegem - 24945
 blue_skies:bluebright_button - 24946
-matteroverdrive:transporter - 24947
 jaopca:block_slabaquamiddlegem - 24948
 thebetweenlands:rubber_tree_plank_door_item - 24949
 jaopca:block_fencesyrmorite - 24950
@@ -21242,7 +21160,6 @@ journey:enchantedterrastar - 24976
 journey:charm_of_luck - 24977
 thebetweenlands:sap_spit - 24978
 naturesaura:ancient_log - 24979
-matteroverdrive:tritanium_hoe - 24980
 naturesaura:infused_slab - 24981
 blue_skies:peanut - 24982
 journey:overseeingeye - 24983
@@ -21252,7 +21169,6 @@ pewter:molten_syrmorite - 24986
 mist:gold_ore - 24987
 mist:t_tree_door - 24988
 journey:royal_hammer - 24989
-matteroverdrive:record_transformation - 24990
 journey:deshoe - 24991
 jaopca:item_dustsmallsyrmorite - 24992
 jaopca:block_glasshardenedoctine - 24993
@@ -21280,7 +21196,6 @@ thebetweenlands:caving_rope - 25014
 jaopca:item_dustsmallaquamiddlegem - 25016
 thebetweenlands:barnacle_1_2 - 25017
 mist:soup - 25018
-matteroverdrive:decorative.tritanium_lamp - 25020
 jaopca:item_dustsmallcrimsonmiddlegem - 25021
 industrialforegoing:ore_processor - 25022
 journey:blazingbow - 25024
@@ -21288,7 +21203,6 @@ thebetweenlands:sapling_weedwood - 25025
 jaopca:item_dustsmallgreenmiddlegem - 25026
 mist:rubber - 25027
 journey:ghasttentacle - 25028
-matteroverdrive:h_compensator - 25029
 journey:screamerspawner - 25030
 blue_skies:everbright_diopside_shovel - 25031
 mist:oak_fence_gate - 25032
@@ -21308,7 +21222,6 @@ journey:senterian_heart_block - 25045
 beyondtheveil:gear - 25046
 embers:block_nickel - 25047
 industrialforegoing:fertilizer - 25048
-matteroverdrive:heavy_matter_pipe - 25049
 mist:a_tree_fence_gate - 25050
 journey:cloudiawall - 25051
 journey:stonecraftingtable - 25052
@@ -21331,7 +21244,6 @@ jaopca:block_stairssyrmorite - 25068
 naturesaura:cave_finder - 25069
 journey:opgoldenwing - 25070
 blue_skies:maple_ladder - 25071
-matteroverdrive:plasma_core - 25072
 thebetweenlands:valonite_helmet - 25073
 journey:cloudialamp - 25074
 journey:depthsblueflower - 25075
@@ -21362,12 +21274,10 @@ thebetweenlands:dentrothyst_vial - 25099
 blue_skies:cracked_lunar_stonebrick_wall - 25100
 journey:celestiumdust - 25101
 blue_skies:moonstone_lantern - 25102
-matteroverdrive:tritanium_plate - 25103
 thebetweenlands:hearthgrove_plank_slab - 25104
 thebetweenlands:volarpad - 25105
 thebetweenlands:mud_loot_pot - 25106
 embers:ashen_cloak_chest - 25107
-jaopca:item_cointritanium - 25108
 jaopca:item_platedenseniobium - 25109
 journey:bradberry - 25110
 jaopca:item_platedenseoctine - 25111
@@ -21383,7 +21293,6 @@ blue_skies:everbright_moonstone_ore - 25120
 thebetweenlands:shambler_tongue - 25121
 thebetweenlands:weedwood_plank_button - 25122
 emberstic:stamp_sharpening_kit - 25123
-jaopca:block_slabtritanium - 25124
 journey:hellmetalhelmet - 25125
 journey:bogwood_sapling - 25126
 journey:luniumbody - 25127
@@ -21392,19 +21301,16 @@ thebetweenlands:dungeon_door_runes_mimic - 25129
 blue_skies:cherry_tallgrass - 25130
 journey:overgrownnatureball - 25131
 jaopca:item_platedensesyrmorite - 25132
-jaopca:item_dusttinytritanium - 25133
 journey:corba_cracked_bricks - 25134
 journey:corbaleaves - 25135
 mist:willow_branch - 25136
 journey:heartsml - 25137
 mist:niobium_axe - 25138
-jaopca:item_platedensetritanium - 25139
 journey:smithstoneore - 25140
 thebetweenlands:dungeon_door_runes - 25141
 journey:coldclump - 25142
 blue_skies:maple_stairs - 25143
 journey:locked_chest - 25144
-jaopca:item_dustsmalltritanium - 25145
 aurorianitems:compressedshard - 25146
 jaopca:item_singularityoctine - 25147
 journey:orbaditedust - 25148
@@ -21463,13 +21369,11 @@ thebetweenlands:spreading_sludgy_dirt - 25200
 journey:flaminghide - 25201
 journey:tall_molten_plant - 25202
 beyondtheveil:surgery_tools - 25203
-matteroverdrive:creative_battery - 25204
 blue_skies:moonstone - 25205
 thebetweenlands:bubbler_crab - 25206
 mist:r_tree_fence_gate - 25207
 industrialforegoing:sewage_composter_solidifier - 25208
 journey:corba_dark_bricks - 25209
-matteroverdrive:dilithium_ore - 25210
 journey:hellstonemultitool - 25211
 embers:ingot_nickel - 25212
 embers:archaic_brick - 25213
@@ -21479,7 +21383,6 @@ thebetweenlands:fish_bait - 25216
 beyondtheveil:damp_wood_stairs - 25217
 journey:magic_thread_of_tethering - 25218
 journey:rocklauncher - 25219
-matteroverdrive:decorative.engine_exhaust_plasma - 25220
 blue_skies:dusk_stairs - 25221
 embers:ashen_brick - 25222
 journey:sizzlerecord - 25223
@@ -21527,7 +21430,6 @@ blue_skies:maple_leaves - 25264
 jaopca:block_wallcrimsonmiddlegem - 25265
 mist:saltpeter_ore - 25266
 beyondtheveil:wolf_medallion - 25267
-jaopca:item_dustdirtytritanium - 25268
 jaopca:item_dusttinysalt - 25269
 thebetweenlands:angry_betweenstone - 25270
 blue_skies:starlit_chest - 25271
@@ -21561,11 +21463,8 @@ journey:thunderblade - 25299
 thebetweenlands:gallery_frame_large - 25300
 jaopca:block_glasshardenedniobium - 25301
 thebetweenlands:silt_glass_jar - 25302
-matteroverdrive:decorative.clean - 25303
-matteroverdrive:matter_dust - 25304
 thebetweenlands:smooth_betweenstone_stairs - 25305
 mist:t_tree_trapdoor - 25306
-matteroverdrive:tritanium_crate_purple - 25307
 journey:royalstabber - 25308
 embers:hoe_nickel - 25309
 blue_skies:everbright_turquoise_ore - 25310
@@ -21578,7 +21477,6 @@ mist:s_tree_wall - 25316
 thebetweenlands:mossy_smooth_betweenstone_wall - 25317
 journey:terraniaportal - 25318
 journey:boilgate - 25319
-matteroverdrive:portable_decomposer - 25320
 mist:hygrometer - 25321
 embers:plate_nickel - 25322
 journey:corbagrass - 25323
@@ -21586,13 +21484,11 @@ journey:moon_of_eternal_night - 25324
 journey:nethicgemstoneblock - 25325
 journey:celestiumore - 25326
 thebetweenlands:puddle - 25327
-jaopca:item_singularitytritanium - 25328
 gugu-utils:aurainputhatch - 25329
 journey:fruitycandycane - 25330
 journey:earthennetherplank - 25331
 thebetweenlands:weedwood_plank_fence_gate - 25332
 blue_skies:maple_crafting_table - 25333
-matteroverdrive:android_spawner - 25334
 journey:infernoplant - 25335
 blue_skies:raw_azulfo_beef - 25336
 journey:essence_buckler - 25337
@@ -21611,7 +21507,6 @@ thebetweenlands:compacted_mud_slab - 25349
 thebetweenlands:syrmorite_pressure_plate - 25350
 industrialforegoing:lava_fabricator - 25351
 mist:niobium_chestplate - 25352
-matteroverdrive:fusion_reactor_controller - 25353
 thebetweenlands:log_sap - 25354
 mist:birch_door - 25355
 embers:ember_pulser - 25356
@@ -21624,7 +21519,6 @@ journey:terraniasapling - 25362
 aurorianitems:crystalcompound - 25363
 journey:freezingtablet - 25364
 journey:eudororb - 25365
-jaopca:item_clumptritanium - 25366
 emberstic:stamp_tough_binding - 25367
 journey:blazehornlegs - 25368
 mist:a_tree_fence - 25369
@@ -21637,7 +21531,6 @@ journey:charredbow - 25375
 blue_skies:diopside_gem - 25376
 blue_skies:turquoise_cobblestone_wall - 25377
 journey:desshovel - 25378
-matteroverdrive:tritanium_crate_orange - 25379
 journey:blazehornboots - 25380
 mist:iron_ore - 25381
 journey:lament_deconstructor_corba - 25382
@@ -21721,9 +21614,7 @@ blue_skies:horizonite_axe - 25460
 thebetweenlands:bog_bean_flower - 25461
 blue_skies:bluebright_trapdoor - 25462
 journey:senterian_heart_eye - 25463
-jaopca:item_shardtritanium - 25464
 blue_skies:starlit_fence_gate - 25465
-matteroverdrive:decorative.tritanium_plate - 25466
 thebetweenlands:chirobarb_shock_erupter - 25467
 blue_skies:lunar_stonebrick_stairs - 25468
 journey:dried_mud - 25469
@@ -21806,7 +21697,6 @@ journey:tall_crumbling_plant - 25545
 thebetweenlands:syrmorite_barrel - 25546
 mist:willow_fence_gate - 25547
 thebetweenlands:rubber_tree_plank_trapdoor - 25548
-matteroverdrive:hc_battery - 25549
 thebetweenlands:octine_axe - 25550
 aurorianitems:preparedflesh - 25551
 thebetweenlands:olmlette - 25552
@@ -21817,12 +21707,10 @@ jaopca:item_crystalsyrmorite - 25556
 embers:stirling - 25557
 journey:crystalflakehelmet - 25558
 journey:blaziumblock - 25559
-matteroverdrive:dilithium_crystal - 25560
 blue_skies:dusk_bookshelf - 25561
 journey:ashblock - 25562
 embers:block_silver - 25563
 emberstic:stamp_tool_rod - 25564
-matteroverdrive:tritanium_ore - 25565
 journey:senterianfloor - 25566
 journey:earthen_heatflower - 25567
 thebetweenlands:cragrock_wall - 25568
@@ -21831,7 +21719,6 @@ journey:rocswing - 25570
 thebetweenlands:pickerel_weed - 25571
 journey:euca_square_runic_bricks - 25572
 journey:storonsword - 25573
-matteroverdrive:decorative.tritanium_plate_colored - 25574
 embers:plate_dawnstone - 25575
 thebetweenlands:smooth_pitstone_slab - 25576
 thebetweenlands:forbidden_fig - 25577
@@ -21853,7 +21740,6 @@ thebetweenlands:mud_brick_slab_decay_3 - 25592
 journey:iceflake - 25593
 journey:sizzleberrybush - 25594
 blue_skies:blue_lore - 25595
-mysticalagriculture:dilithium_essence - 25596
 thebetweenlands:aa_upgrade_trigger - 25597
 journey:koritemultitool - 25598
 jaopca:block_blockscabyst - 25599
@@ -21863,7 +21749,6 @@ journey:terranianlog - 25602
 embers:ingot_aluminum - 25603
 journey:bogweed - 25604
 blue_skies:frostbright_leaves - 25605
-matteroverdrive:forcefield_emitter - 25606
 journey:bluewaterrecord - 25607
 embers:fluid_gauge - 25608
 embers:reaction_chamber - 25609
@@ -21916,7 +21801,6 @@ thebetweenlands:druid_stone_4 - 25656
 thebetweenlands:druid_stone_5 - 25657
 blue_skies:lunar_cobblestone_wall - 25658
 jaopca:item_singularitysulfur - 25659
-jaopca:item_crystalfragmenttritanium - 25660
 journey:boilchain - 25661
 jaopca:block_fenceaquamiddlegem - 25662
 journey:honglowshroom - 25663
@@ -21940,7 +21824,6 @@ journey:snowshoveler - 25680
 industrialforegoing:fluid_pump - 25681
 embers:stairs_ashen_brick - 25682
 journey:hellthornroot - 25683
-jaopca:item_crystaltritanium - 25684
 beyondtheveil:memory_phial - 25685
 blue_skies:everdawn_diopside_ore - 25686
 journey:orbaditehelmet - 25687
@@ -21960,7 +21843,6 @@ thebetweenlands:mob_spawner - 25700
 blue_skies:lunar_lever - 25701
 journey:gorbiteshovel - 25702
 embers:creative_ember_source - 25703
-matteroverdrive:machine_hull - 25704
 blue_skies:turquoise_stone_shovel - 25705
 journey:conjuringstaff - 25706
 journey:ring_poison - 25707
@@ -21988,7 +21870,6 @@ jaopca:item_crystalshardniobium - 25728
 journey:hellstoneblock - 25729
 jaopca:item_crystalshardoctine - 25730
 blue_skies:everbright_pyrope_sword - 25731
-matteroverdrive:tritanium_crate_pink - 25732
 blue_skies:everdawn_charoite_sword - 25733
 mist:poplar_leaves - 25734
 naturesaura:infused_iron_chest - 25735
@@ -22009,14 +21890,11 @@ journey:hellturtleshell - 25749
 journey:hotbrickstairs - 25750
 jaopca:item_crystalshardsyrmorite - 25751
 embers:plate_silver - 25752
-matteroverdrive:decorative.matter_tube - 25753
 journey:scaleorb - 25754
 embers:axe_silver - 25755
 jaopca:item_singularityaquamiddlegem - 25756
-jaopca:item_crystalshardtritanium - 25757
 thebetweenlands:leaves_spirit_tree_bottom - 25758
 thebetweenlands:repeller - 25759
-matteroverdrive:matter - 25760
 journey:ancientpiece_2 - 25761
 journey:ancientpiece_1 - 25762
 embers:crystal_cell - 25763
@@ -22047,7 +21925,6 @@ naturesaura:auto_crafter - 25787
 embers:ember_belt - 25788
 thebetweenlands:edge_shroom - 25789
 thebetweenlands:mysterious_record - 25790
-matteroverdrive:tritanium_block - 25791
 journey:workshopstonefence - 25792
 journey:stoneclump - 25793
 journey:goldbotspawner - 25794
@@ -22090,7 +21967,6 @@ journey:frostypiercer - 25830
 journey:airrootmelon - 25831
 thebetweenlands:sludge_jello - 25832
 journey:hellstoneboots - 25833
-matteroverdrive:matter_plasma - 25834
 blue_skies:diopside_block - 25835
 blue_skies:turquoise_stonebrick_stairs - 25836
 embers:pipe - 25837
@@ -22105,12 +21981,10 @@ thebetweenlands:present - 25845
 journey:mantlebow - 25846
 industrialforegoing:item_splitter - 25847
 mist:r_tree_branch - 25848
-matteroverdrive:matter_recycler - 25849
 mysticalagriculture:octine_essence - 25850
 thebetweenlands:limestone - 25851
 mist:r_tree_stairs - 25852
 journey:overgrownstaff - 25853
-jaopca:item_crystalabysstritanium - 25854
 blue_skies:dungeon_key - 25855
 emberstic:stamp_pan_head - 25856
 embers:flame_barrier - 25857
@@ -22176,14 +22050,12 @@ journey:darklylegs - 25917
 jaopca:item_dustsmalloctine - 25918
 thebetweenlands:thatch_slab - 25919
 blue_skies:snowbloom - 25920
-matteroverdrive:tritanium_crate - 25921
 industrialforegoing:fluid_crafter - 25922
 journey:fireboundhelmet - 25923
 jaopca:item_clusterniobium - 25924
 aurorianitems:goldlapisalloy - 25925
 thebetweenlands:offering_table - 25926
 thebetweenlands:scabyst_bricks - 25927
-matteroverdrive:tritanium_boots - 25928
 journey:senterianrock - 25929
 jaopca:block_crystalclustersyrmorite - 25930
 thebetweenlands:volarkite - 25931
@@ -22207,7 +22079,6 @@ thebetweenlands:kraken_calamari - 25948
 journey:lament_deconstructor_cloudia - 25949
 thebetweenlands:nettle_flowered - 25950
 blue_skies:cherry_stick - 25951
-jaopca:item_clustertritanium - 25952
 thebetweenlands:nibbletwig_plank_fence_gate - 25953
 thebetweenlands:chiromaw_wing - 25954
 blue_skies:charoite_chestplate - 25955
@@ -22245,7 +22116,6 @@ thebetweenlands:the_explorer - 25986
 blue_skies:turquoise_block - 25988
 journey:starlightblade - 25989
 jaopca:item_plateniobium - 25990
-jaopca:fluid_moltenniobium - 25991
 journey:skypiercer - 25992
 jaopca:item_clusteroctine - 25993
 mist:spruce_fence - 25994
@@ -22258,13 +22128,11 @@ journey:cloudwoodplanks - 26000
 journey:golemchunk - 26001
 mist:bio_shale - 26002
 beyondtheveil:flute - 26003
-jaopca:fluid_moltentritanium - 26004
 journey:friedflamingghasttentacle - 26005
 blue_skies:bluebright_bookshelf - 26006
 blue_skies:starlit_slab - 26007
 journey:gorbiteore - 26008
 journey:snakeskinboots - 26009
-matteroverdrive:new_tritanium_crate - 26010
 jaopca:item_dusttinyvalonite - 26011
 embers:pickaxe_electrum - 26012
 pewter:molten_arlemite - 26013
@@ -23271,7 +23139,6 @@ jaopca:block_doubleslabsupremium - 27067
 jaopca:block_glasshardenedalubrass - 27069
 jaopca:block_stairsalubrass - 27070
 jaopca:block_crystalclusteralubrass - 27071
-jaopca:fluid_moltenhorizonite - 27072
 jaopca:item_dustsmallalubrass - 27073
 hammermetals:alubrass_block - 27074
 jaopca:item_singularityalubrass - 27075

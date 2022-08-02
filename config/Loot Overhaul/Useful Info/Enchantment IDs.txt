@@ -816,14 +816,6 @@ theaurorian:lightning
    - Max Level: 4
 
 
-matteroverdrive:overclock
-   - Id: 101
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
 journey:hot touch
    - Id: 102
    - Rarity: RARE

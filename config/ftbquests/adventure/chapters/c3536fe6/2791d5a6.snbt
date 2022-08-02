@@ -1,6 +1,11 @@
 {
+	title: "§b……",
 	x: -8.0d,
 	y: 6.5d,
+	description: "合成迷惑之星：狂乱",
+	text: [
+		""
+	],
 	dependencies: [
 		"4a1d25aa"
 	],
@@ -12,5 +17,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d3292237",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ffbd7c65",
+		type: "xp",
+		xp: 5000
 	}]
 }

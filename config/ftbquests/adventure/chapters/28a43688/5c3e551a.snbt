@@ -1,0 +1,17 @@
+{
+	x: -9.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "24cb29cc",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaotic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "7ef00873",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "chaotic"
+	}]
+}

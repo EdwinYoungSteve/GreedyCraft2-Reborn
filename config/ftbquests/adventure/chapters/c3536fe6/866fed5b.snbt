@@ -15,5 +15,32 @@
 		items: [{
 			item: "abyssalcraft:gatekeeperessence"
 		}]
+	}],
+	rewards: [{
+		uid: "dc26b125",
+		type: "item",
+		item: "abyssalcraft:ethaxiumingot",
+		count: 8
+	},
+	{
+		uid: "1886c948",
+		type: "item",
+		item: "abyssalcraft:crystal 1 25",
+		count: 16
+	},
+	{
+		uid: "873355c4",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "0400576b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "7167cae3",
+		type: "xp",
+		xp: 30000
 	}]
 }

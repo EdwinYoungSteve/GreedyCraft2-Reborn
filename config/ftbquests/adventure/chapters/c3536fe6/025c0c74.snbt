@@ -22,5 +22,15 @@
 		},
 		entity: "abyssalcraft:shadowboss",
 		value: 1L
+	}],
+	rewards: [{
+		uid: "9305a2ff",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "94a3aecf",
+		type: "xp",
+		xp: 10000
 	}]
 }

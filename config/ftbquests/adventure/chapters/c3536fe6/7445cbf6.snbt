@@ -1,6 +1,11 @@
 {
+	title: "§b目标近在咫尺",
 	x: -8.0d,
 	y: 15.5d,
+	description: "合成神龙金属锭或者重生金属锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"44b179ac"
 	],

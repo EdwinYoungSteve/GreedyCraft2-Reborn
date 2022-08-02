@@ -1,6 +1,11 @@
 {
+	title: "§b不能飞……吗？",
 	x: -12.5d,
 	y: 5.0d,
+	description: "获得飞龙金属锭或堕落金属锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"8efccf0c"
 	],
@@ -13,5 +18,21 @@
 		{
 			item: "gct_ores:fallen_metal_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "d06ead7c",
+		type: "item",
+		item: "gct_ores:fallen_core",
+		count: 2
+	},
+	{
+		uid: "2686c6a7",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "a601a1da",
+		type: "random",
+		table: 3
 	}]
 }

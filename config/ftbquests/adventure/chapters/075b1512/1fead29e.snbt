@@ -9,7 +9,7 @@
 		type: "stat",
 		icon: "minecraft:golden_boots",
 		stat: "stat.fallOneCm",
-		value: 100000
+		value: 10000000
 	}],
 	rewards: [{
 		uid: "905791a1",

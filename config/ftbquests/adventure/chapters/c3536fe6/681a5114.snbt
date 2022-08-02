@@ -20,5 +20,26 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b64525a2",
+		type: "item",
+		item: "abyssalcraft:ethaxiumingot",
+		count: 4
+	},
+	{
+		uid: "50e40b36",
+		type: "item",
+		item: "abyssalcraft:gatekeeperessence"
+	},
+	{
+		uid: "183f3170",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "571b7d64",
+		type: "xp",
+		xp: 3000
 	}]
 }

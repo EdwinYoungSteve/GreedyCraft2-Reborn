@@ -1,6 +1,11 @@
 {
+	title: "§b不是铜",
 	x: -8.0d,
 	y: 9.5d,
+	description: "在交错次元挖掘赛摩铜矿石",
+	text: [
+		""
+	],
 	dependencies: [
 		"92b01be6"
 	],

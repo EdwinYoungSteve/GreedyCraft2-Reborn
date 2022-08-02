@@ -1,6 +1,11 @@
 {
+	title: "§b黑夜弥漫",
 	x: -2.0d,
 	y: 9.5d,
+	description: "访问永夜之地",
+	text: [
+		""
+	],
 	dependencies: [
 		"c18cb969"
 	],
@@ -8,5 +13,15 @@
 		uid: "5a1a7bad",
 		type: "dimension",
 		dim: 77
+	}],
+	rewards: [{
+		uid: "5885c391",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7493f5a3",
+		type: "xp",
+		xp: 3000
 	}]
 }

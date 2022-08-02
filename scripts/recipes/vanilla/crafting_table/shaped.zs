@@ -36,6 +36,9 @@ recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:reaper
 recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:minighast"}}) * 1, [[null, <journey:boilpowder>, null], [<minecraft:ghast_tear>, <minecraft:egg>, <minecraft:ghast_tear>],[null, <minecraft:ghast_tear>, null]]);
 recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:screamer"}}) * 1, [[null, <journey:hellstoneingot>, null], [<journey:hellstoneingot>, <minecraft:egg>, <journey:hellstoneingot>],[null, <minecraft:ender_eye>, null]]);
 recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:turducken"}}) * 1, [[null, <minecraft:feather>, null], [<journey:storoningot>, <minecraft:egg>, <journey:storoningot>],[null, <minecraft:feather>, null]]);
+recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:purplian"}}) * 1, [[null, <tconstruct:ingots:2>, null], [<journey:shadiumingot>, <minecraft:egg>, <journey:shadiumingot>],[null, <tconstruct:ingots:2>, null]]);
+recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:overseer"}}) * 1, [[null, <thermalfoundation:material:24>, null], [<journey:luniumingot>, <minecraft:egg>, <journey:luniumingot>],[null, <thermalfoundation:material:24>, null]]);
+recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:overseerelder"}}) * 1, [[null, <minecraft:ender_eye>, null], [<journey:storoningot>, <minecraft:egg>, <journey:storoningot>],[null, <minecraft:ender_eye>, null]]);
 
 recipes.addShaped(<modularcontroller:controller_builder_basic> * 1, [[<thermalfoundation:material:324>, <thermalfoundation:material:354>, <thermalfoundation:material:324>], [<thermalfoundation:material:354>, <modularmachinery:blockcontroller>, <thermalfoundation:material:354>],[<thermalfoundation:material:324>, <thermalfoundation:material:354>, <thermalfoundation:material:324>]]);
 recipes.addShaped(<gct_ores:blue_print_empty> * 1, [[<bigreactors:dustgraphite>, <bigreactors:dustgraphite>, <bigreactors:dustgraphite>], [<bigreactors:dustgraphite>, <minecraft:paper>, <bigreactors:dustgraphite>],[<bigreactors:dustgraphite>, <bigreactors:dustgraphite>, <bigreactors:dustgraphite>]]);
@@ -120,6 +123,9 @@ recipes.addShaped(<blue_skies:lunar_stonebrick> * 14, [[<abyssalcraft:shadowgem>
 recipes.addShaped(<blue_skies:turquoise_stonebrick> * 14, [[<abyssalcraft:shadowgem>, <journey:desingot>, <abyssalcraft:shadowgem>], [<journey:desingot>, <minecraft:emerald>, <journey:desingot>],[<abyssalcraft:shadowgem>, <journey:desingot>, <abyssalcraft:shadowgem>]]);
 recipes.addShaped(<mist:portal_base:3> * 1, [[null, <minecraft:mossy_cobblestone>, null], [<minecraft:mossy_cobblestone>, <mcs:compressed_gold_block:1>, <minecraft:mossy_cobblestone>],[<minecraft:gold_ingot>, <abyssalcraft:ethaxiumingot>, <minecraft:gold_ingot>]]);
 recipes.addShaped(<mist:portal_base:2> * 1, [[<minecraft:gold_ingot>, <abyssalcraft:ethaxiumingot>, <minecraft:gold_ingot>], [<minecraft:mossy_cobblestone>, <mcs:compressed_gold_block:1>, <minecraft:mossy_cobblestone>],[null, <minecraft:mossy_cobblestone>, null]]);
+
+recipes.addShaped(<journey:mysteriousdisk> * 1, [[<journey:fluffyfeather>, <journey:golemchunk>, <journey:fluffyfeather>], [<journey:golemchunk>, <journey:cloudiaorb>, <journey:golemchunk>],[<journey:fluffyfeather>, <journey:golemchunk>, <journey:fluffyfeather>]]);
+
 
 RecipeUtil.addShaped("wood_pattern", <tconstruct:pattern> * 16, [
     [null, <ore:logWoodVethea>, null],

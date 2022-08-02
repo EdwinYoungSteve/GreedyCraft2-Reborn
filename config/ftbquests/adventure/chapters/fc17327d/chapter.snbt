@@ -2,7 +2,7 @@
 	title: "【冒险·壹】初入世界",
 	icon: "additions:stainless_steel_ingot",
 	always_invisible: false,
-	group: 0,
+	group: 689139086,
 	default_quest_shape: "",
 	images: [{
 		x: 3.0d,

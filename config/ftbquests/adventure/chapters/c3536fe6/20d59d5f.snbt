@@ -16,5 +16,21 @@
 		uid: "7d193d30",
 		type: "dimension",
 		dim: 69
+	}],
+	rewards: [{
+		uid: "cdad8c1d",
+		type: "item",
+		item: "minecraft:gold_block",
+		count: 2
+	},
+	{
+		uid: "12d637fe",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "295b9307",
+		type: "xp",
+		xp: 4000
 	}]
 }

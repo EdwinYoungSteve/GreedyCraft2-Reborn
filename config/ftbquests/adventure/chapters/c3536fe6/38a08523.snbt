@@ -1,6 +1,11 @@
 {
+	title: "§b真的很阴间",
 	x: -9.5d,
 	y: 14.0d,
+	description: "召唤并击杀恐怖的泥炭木乃伊",
+	text: [
+		""
+	],
 	dependencies: [
 		"ff630876"
 	],
@@ -9,5 +14,15 @@
 		type: "kill",
 		entity: "thebetweenlands:dreadful_mummy",
 		value: 1L
+	}],
+	rewards: [{
+		uid: "e4711826",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "69d90ccd",
+		type: "xp",
+		xp: 20000
 	}]
 }

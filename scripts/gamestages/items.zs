@@ -865,6 +865,6 @@ GameStagesUtil.stageHardmode.addModId(["avaritia", "draconicevolution", "extrabo
 GameStagesUtil.stageNether.addModId(["aether_legacy", "cyclicmagic", "touhou_little_maid", "aeble"]);
 GameStagesUtil.stageNoviceWizard.addModId(["bloodmagic", "bloodarsenal", "animus"]);
 GameStagesUtil.stageNoviceEngineer.addModId(["enderio"]);
-GameStagesUtil.stageDisabled.addModId(["embers", "matteroverdrive", "naturesaura", "industrialforegoing"]);
+GameStagesUtil.stageDisabled.addModId(["embers", "naturesaura", "industrialforegoing"]);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");
