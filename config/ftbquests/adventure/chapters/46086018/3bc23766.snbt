@@ -8,7 +8,6 @@
 		""
 	],
 	dependencies: [
-		"792ea1ae",
 		"89d26b2d"
 	],
 	tasks: [{

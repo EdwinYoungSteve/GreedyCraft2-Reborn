@@ -1,6 +1,11 @@
 {
+	title: "§b降噪升级",
 	x: -2.0d,
 	y: -3.5d,
+	description: "制作一个降噪升级",
+	text: [
+		"降低机器的噪声，最多放4个"
+	],
 	dependencies: [
 		"9b34a8ff"
 	],

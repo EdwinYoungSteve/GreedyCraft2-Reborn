@@ -1,7 +1,7 @@
 {
 	title: "§b变异烈焰人",
 	x: 0.0d,
-	y: 3.0d,
+	y: 1.5d,
 	description: "击杀紫焰人，获得紫焰粉",
 	text: [
 		""

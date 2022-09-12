@@ -13,16 +13,10 @@
 		uid: "0e3c2d7d",
 		type: "item",
 		items: [{
-			item: "extracells:storage.component 1 11"
+			item: "aeadditions:storage.component 1 7"
 		}]
 	}],
 	rewards: [{
-		uid: "08ef80f0",
-		type: "item",
-		item: "extracells:storage.component 1 14",
-		count: 2
-	},
-	{
 		uid: "f79eba72",
 		type: "random",
 		table: 1

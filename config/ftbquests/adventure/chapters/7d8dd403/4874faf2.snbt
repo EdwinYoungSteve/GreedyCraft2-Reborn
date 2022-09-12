@@ -1,6 +1,6 @@
 {
 	title: "§bNether Beast",
-	x: -3.5d,
+	x: -3.0d,
 	y: 7.0d,
 	description: "合成诅咒：野蛮",
 	text: [

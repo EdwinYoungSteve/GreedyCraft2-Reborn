@@ -9,9 +9,6 @@
 	default_quest_disable_jei: false,
 	emergency_items: [{
 		item: "additions:greedycraft-emergency_button"
-	},
-	{
-		item: "gct_ores:greedycraft_mod_changer"
 	}],
 	emergency_items_cooldown: "1m",
 	drop_loot_crates: false,

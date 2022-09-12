@@ -1,7 +1,7 @@
 {
 	title: "加油！快完了！",
-	x: 8.5d,
-	y: -2.5d,
+	x: 7.5d,
+	y: -2.0d,
 	dependencies: [
 		"43ab4306",
 		"ac1955d7"

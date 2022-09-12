@@ -1,0 +1,250 @@
+[2022-09-12 14:47:14] [Client thread INFO] CustomSkinLoader 14.13-SNAPSHOT-278
+[2022-09-12 14:47:14] [Client thread INFO] DataDir: D:\贪婪2\.minecraft\versions\GreedyCraft\CustomSkinLoader
+[2022-09-12 14:47:14] [Client thread INFO] Operating System: Windows 10 (amd64) version 10.0
+[2022-09-12 14:47:14] [Client thread INFO] Java Version: 1.8.0_341, Oracle Corporation
+[2022-09-12 14:47:14] [Client thread INFO] Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[2022-09-12 14:47:14] [Client thread INFO] Minecraft: null(GreedyCraft GreedyCraft)
+[2022-09-12 14:47:14] [Client thread INFO] Config File: D:\贪婪2\.minecraft\versions\GreedyCraft\CustomSkinLoader\CustomSkinLoader.json
+[2022-09-12 14:47:14] [Client thread INFO] Try to load config.
+[2022-09-12 14:47:14] [Client thread INFO] Successfully load config.
+[2022-09-12 14:47:14] [Client thread INFO] Add a profile loader: MojangAPI
+[2022-09-12 14:47:14] [Client thread INFO] Add a profile loader: Legacy
+[2022-09-12 14:47:14] [Client thread INFO] Add a profile loader: CustomSkinAPI
+[2022-09-12 14:47:14] [Client thread INFO] Add a profile loader: CustomSKinAPIPlus
+[2022-09-12 14:47:14] [Client thread INFO] Add a profile loader: UniSkinAPI
+[2022-09-12 14:47:14] [Client thread INFO] Add a profile loader: ElyByAPI
+[2022-09-12 14:47:14] [Client thread INFO] Add a profile loader: GlitchlessAPI
+[2022-09-12 14:47:14] [Client thread INFO] Successfully update config.
+[2022-09-12 14:47:14] [Client thread INFO] version : 14.13
+[2022-09-12 14:47:14] [Client thread INFO] buildNumber : 278
+[2022-09-12 14:47:14] [Client thread INFO] loadlist : [{ "name": "LocalSkin", "type": "Legacy", "checkPNG": "true", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "slim", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littlesk.in/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "http://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "MCSkin", "type": "CustomSkinAPI", "root": "https://mcskin.cn/" }]
+[2022-09-12 14:47:14] [Client thread INFO] enableDynamicSkull : false
+[2022-09-12 14:47:14] [Client thread INFO] enableTransparentSkin : true
+[2022-09-12 14:47:14] [Client thread INFO] forceIgnoreHttpsCertificate : true
+[2022-09-12 14:47:14] [Client thread INFO] forceLoadAllTextures : false
+[2022-09-12 14:47:14] [Client thread INFO] enableCape : true
+[2022-09-12 14:47:14] [Client thread INFO] forceFillSkullNBT : false
+[2022-09-12 14:47:14] [Client thread INFO] threadPoolSize : 1
+[2022-09-12 14:47:14] [Client thread INFO] retryTime : 0
+[2022-09-12 14:47:14] [Client thread INFO] cacheExpiry : 50
+[2022-09-12 14:47:14] [Client thread INFO] forceUpdateSkull : false
+[2022-09-12 14:47:14] [Client thread INFO] enableLocalProfileCache : true
+[2022-09-12 14:47:14] [Client thread INFO] enableCacheAutoClean : true
+[2022-09-12 14:47:14] [Client thread INFO] forceDisableCache : false
+[2022-09-12 15:18:46] [碎梦刀's skull INFO] Loading 碎梦刀's profile.
+[2022-09-12 15:18:46] [碎梦刀's skull INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-09-12 15:18:47] [碎梦刀's skull INFO] Both skin and cape not found.
+[2022-09-12 15:18:47] [碎梦刀's skull INFO] 2/8 Try to load profile from 'Mojang'.
+[2022-09-12 15:18:47] [碎梦刀's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-09-12 15:18:47] [碎梦刀's skull INFO] Payload: ["碎梦刀"]
+[2022-09-12 15:18:48] [碎梦刀's skull DEBUG] Failed to request (Response Code: 400)
+[2022-09-12 15:18:48] [碎梦刀's skull INFO] Profile not found.(碎梦刀's profile not found.)
+[2022-09-12 15:18:48] [碎梦刀's skull INFO] 3/8 Try to load profile from 'LittleSkin'.
+[2022-09-12 15:18:48] [碎梦刀's skull DEBUG] Try to request 'https://littlesk.in/csl/碎梦刀.json'.
+[2022-09-12 15:18:48] [碎梦刀's skull DEBUG] Encoded URL: https://littlesk.in/csl/%E7%A2%8E%E6%A2%A6%E5%88%80.json
+[2022-09-12 15:18:50] [碎梦刀's skull DEBUG] Failed to request https://littlesk.in/csl/碎梦刀.json (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:18:50] [碎梦刀's skull INFO] Profile not found.
+[2022-09-12 15:18:50] [碎梦刀's skull INFO] 4/8 Try to load profile from 'BlessingSkin'.
+[2022-09-12 15:18:50] [碎梦刀's skull DEBUG] Try to request 'http://skin.prinzeugen.net/碎梦刀.json'.
+[2022-09-12 15:18:50] [碎梦刀's skull DEBUG] Encoded URL: http://skin.prinzeugen.net/%E7%A2%8E%E6%A2%A6%E5%88%80.json
+[2022-09-12 15:18:51] [碎梦刀's skull DEBUG] Failed to request (Response Code: 404)
+[2022-09-12 15:18:51] [碎梦刀's skull INFO] Profile not found.
+[2022-09-12 15:18:51] [碎梦刀's skull INFO] 5/8 Try to load profile from 'ElyBy'.
+[2022-09-12 15:18:51] [碎梦刀's skull DEBUG] Try to request 'http://skinsystem.ely.by/textures/碎梦刀'.
+[2022-09-12 15:18:51] [碎梦刀's skull DEBUG] Encoded URL: http://skinsystem.ely.by/textures/%E7%A2%8E%E6%A2%A6%E5%88%80
+[2022-09-12 15:18:52] [碎梦刀 INFO] Cached profile will be used.
+[2022-09-12 15:18:52] [碎梦刀 WARNING] (!Cached Profile is empty!) Expiry:0
+[2022-09-12 15:18:52] [碎梦刀 INFO] Loading 碎梦刀's profile.
+[2022-09-12 15:18:52] [碎梦刀 INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-09-12 15:18:52] [碎梦刀 INFO] Both skin and cape not found.
+[2022-09-12 15:18:52] [碎梦刀 INFO] 2/8 Try to load profile from 'Mojang'.
+[2022-09-12 15:18:52] [碎梦刀 DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-09-12 15:18:52] [碎梦刀 INFO] Payload: ["碎梦刀"]
+[2022-09-12 15:18:52] [碎梦刀 DEBUG] Failed to request (Response Code: 400)
+[2022-09-12 15:18:52] [碎梦刀 INFO] Profile not found.(碎梦刀's profile not found.)
+[2022-09-12 15:18:52] [碎梦刀 INFO] 3/8 Try to load profile from 'LittleSkin'.
+[2022-09-12 15:18:52] [碎梦刀 DEBUG] Try to request 'https://littlesk.in/csl/碎梦刀.json'.
+[2022-09-12 15:18:52] [碎梦刀 DEBUG] Encoded URL: https://littlesk.in/csl/%E7%A2%8E%E6%A2%A6%E5%88%80.json
+[2022-09-12 15:18:53] [碎梦刀's skull DEBUG] Failed to request http://skinsystem.ely.by/textures/碎梦刀 (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:18:53] [碎梦刀's skull INFO] Profile not found.
+[2022-09-12 15:18:53] [碎梦刀's skull INFO] 6/8 Try to load profile from 'SkinMe'.
+[2022-09-12 15:18:53] [碎梦刀's skull DEBUG] Try to request 'http://www.skinme.cc/uniskin/碎梦刀.json'.
+[2022-09-12 15:18:53] [碎梦刀's skull DEBUG] Encoded URL: http://www.skinme.cc/uniskin/%E7%A2%8E%E6%A2%A6%E5%88%80.json
+[2022-09-12 15:18:53] [碎梦刀's skull DEBUG] Successfully request (Response Code: 200 , Content Length: -1)
+[2022-09-12 15:18:53] [碎梦刀's skull DEBUG] Saved to cache (Length: 37 , Path: 'D:\贪婪2\.minecraft\versions\GreedyCraft\CustomSkinLoader\caches\7f67c9fd2ad28b2a323e35560d801ac15c652124' , Expire: 1662967223)
+[2022-09-12 15:18:53] [碎梦刀's skull DEBUG] Content: {"errno":404,"msg":"User not found."}
+[2022-09-12 15:18:53] [碎梦刀's skull INFO] Error 404: User not found.
+[2022-09-12 15:18:53] [碎梦刀's skull INFO] 7/8 Try to load profile from 'GlitchlessGames'.
+[2022-09-12 15:18:53] [碎梦刀's skull DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=碎梦刀'.
+[2022-09-12 15:18:53] [碎梦刀's skull DEBUG] Encoded URL: https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=%E7%A2%8E%E6%A2%A6%E5%88%80
+[2022-09-12 15:18:54] [碎梦刀 DEBUG] Failed to request https://littlesk.in/csl/碎梦刀.json (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:18:54] [碎梦刀 INFO] Profile not found.
+[2022-09-12 15:18:54] [碎梦刀 INFO] 4/8 Try to load profile from 'BlessingSkin'.
+[2022-09-12 15:18:54] [碎梦刀 DEBUG] Try to request 'http://skin.prinzeugen.net/碎梦刀.json'.
+[2022-09-12 15:18:54] [碎梦刀 DEBUG] Encoded URL: http://skin.prinzeugen.net/%E7%A2%8E%E6%A2%A6%E5%88%80.json
+[2022-09-12 15:18:55] [碎梦刀 DEBUG] Failed to request (Response Code: 404)
+[2022-09-12 15:18:55] [碎梦刀 INFO] Profile not found.
+[2022-09-12 15:18:55] [碎梦刀 INFO] 5/8 Try to load profile from 'ElyBy'.
+[2022-09-12 15:18:55] [碎梦刀 DEBUG] Try to request 'http://skinsystem.ely.by/textures/碎梦刀'.
+[2022-09-12 15:18:55] [碎梦刀 DEBUG] Encoded URL: http://skinsystem.ely.by/textures/%E7%A2%8E%E6%A2%A6%E5%88%80
+[2022-09-12 15:18:56] [碎梦刀's skull DEBUG] Failed to request https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=碎梦刀 (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:18:56] [碎梦刀's skull INFO] Profile not found.
+[2022-09-12 15:18:56] [碎梦刀's skull INFO] 8/8 Try to load profile from 'MCSkin'.
+[2022-09-12 15:18:56] [碎梦刀's skull DEBUG] Try to request 'https://mcskin.cn/碎梦刀.json'.
+[2022-09-12 15:18:56] [碎梦刀's skull DEBUG] Encoded URL: https://mcskin.cn/%E7%A2%8E%E6%A2%A6%E5%88%80.json
+[2022-09-12 15:18:57] [碎梦刀 DEBUG] Failed to request http://skinsystem.ely.by/textures/碎梦刀 (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:18:57] [碎梦刀 INFO] Profile not found.
+[2022-09-12 15:18:57] [碎梦刀 INFO] 6/8 Try to load profile from 'SkinMe'.
+[2022-09-12 15:18:57] [碎梦刀 DEBUG] Try to request 'http://www.skinme.cc/uniskin/碎梦刀.json'.
+[2022-09-12 15:18:57] [碎梦刀 DEBUG] Cache file found (Length: 37 , Path: 'D:\贪婪2\.minecraft\versions\GreedyCraft\CustomSkinLoader\caches\7f67c9fd2ad28b2a323e35560d801ac15c652124' , Expire: 1662967223)
+[2022-09-12 15:18:57] [碎梦刀 INFO] Try to load from cache 'D:\贪婪2\.minecraft\versions\GreedyCraft\CustomSkinLoader\caches\7f67c9fd2ad28b2a323e35560d801ac15c652124'.
+[2022-09-12 15:18:57] [碎梦刀 DEBUG] Successfully load from cache
+[2022-09-12 15:18:57] [碎梦刀 DEBUG] Content: {"errno":404,"msg":"User not found."}
+[2022-09-12 15:18:57] [碎梦刀 INFO] Error 404: User not found.
+[2022-09-12 15:18:57] [碎梦刀 INFO] 7/8 Try to load profile from 'GlitchlessGames'.
+[2022-09-12 15:18:57] [碎梦刀 DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=碎梦刀'.
+[2022-09-12 15:18:57] [碎梦刀 DEBUG] Encoded URL: https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=%E7%A2%8E%E6%A2%A6%E5%88%80
+[2022-09-12 15:18:58] [碎梦刀's skull DEBUG] Failed to request https://mcskin.cn/碎梦刀.json (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:18:58] [碎梦刀's skull INFO] Profile not found.
+[2022-09-12 15:18:58] [碎梦刀's skull INFO] 碎梦刀's profile not found in load list.
+[2022-09-12 15:18:59] [碎梦刀 DEBUG] Failed to request https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=碎梦刀 (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:18:59] [碎梦刀 INFO] Profile not found.
+[2022-09-12 15:18:59] [碎梦刀 INFO] 8/8 Try to load profile from 'MCSkin'.
+[2022-09-12 15:18:59] [碎梦刀 DEBUG] Try to request 'https://mcskin.cn/碎梦刀.json'.
+[2022-09-12 15:18:59] [碎梦刀 DEBUG] Encoded URL: https://mcskin.cn/%E7%A2%8E%E6%A2%A6%E5%88%80.json
+[2022-09-12 15:19:01] [碎梦刀 DEBUG] Failed to request https://mcskin.cn/碎梦刀.json (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:19:01] [碎梦刀 INFO] Profile not found.
+[2022-09-12 15:19:01] [碎梦刀 INFO] 碎梦刀's profile not found in load list.
+[2022-09-12 15:22:37] [碎梦刀's skull INFO] Loading 碎梦刀's profile.
+[2022-09-12 15:22:37] [碎梦刀's skull INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-09-12 15:22:37] [碎梦刀's skull INFO] Both skin and cape not found.
+[2022-09-12 15:22:37] [碎梦刀's skull INFO] 2/8 Try to load profile from 'Mojang'.
+[2022-09-12 15:22:37] [碎梦刀's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-09-12 15:22:37] [碎梦刀's skull INFO] Payload: ["碎梦刀"]
+[2022-09-12 15:22:37] [碎梦刀's skull DEBUG] Failed to request (Response Code: 400)
+[2022-09-12 15:22:37] [碎梦刀's skull INFO] Profile not found.(碎梦刀's profile not found.)
+[2022-09-12 15:22:37] [碎梦刀's skull INFO] 3/8 Try to load profile from 'LittleSkin'.
+[2022-09-12 15:22:37] [碎梦刀's skull DEBUG] Try to request 'https://littlesk.in/csl/碎梦刀.json'.
+[2022-09-12 15:22:37] [碎梦刀's skull DEBUG] Encoded URL: https://littlesk.in/csl/%E7%A2%8E%E6%A2%A6%E5%88%80.json
+[2022-09-12 15:22:40] [碎梦刀's skull DEBUG] Failed to request https://littlesk.in/csl/碎梦刀.json (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:22:40] [碎梦刀's skull INFO] Profile not found.
+[2022-09-12 15:22:40] [碎梦刀's skull INFO] 4/8 Try to load profile from 'BlessingSkin'.
+[2022-09-12 15:22:40] [碎梦刀's skull DEBUG] Try to request 'http://skin.prinzeugen.net/碎梦刀.json'.
+[2022-09-12 15:22:40] [碎梦刀's skull DEBUG] Encoded URL: http://skin.prinzeugen.net/%E7%A2%8E%E6%A2%A6%E5%88%80.json
+[2022-09-12 15:22:40] [碎梦刀's skull DEBUG] Failed to request (Response Code: 404)
+[2022-09-12 15:22:40] [碎梦刀's skull INFO] Profile not found.
+[2022-09-12 15:22:40] [碎梦刀's skull INFO] 5/8 Try to load profile from 'ElyBy'.
+[2022-09-12 15:22:40] [碎梦刀's skull DEBUG] Try to request 'http://skinsystem.ely.by/textures/碎梦刀'.
+[2022-09-12 15:22:40] [碎梦刀's skull DEBUG] Encoded URL: http://skinsystem.ely.by/textures/%E7%A2%8E%E6%A2%A6%E5%88%80
+[2022-09-12 15:22:42] [碎梦刀's skull DEBUG] Failed to request http://skinsystem.ely.by/textures/碎梦刀 (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:22:42] [碎梦刀's skull INFO] Profile not found.
+[2022-09-12 15:22:42] [碎梦刀's skull INFO] 6/8 Try to load profile from 'SkinMe'.
+[2022-09-12 15:22:42] [碎梦刀's skull DEBUG] Try to request 'http://www.skinme.cc/uniskin/碎梦刀.json'.
+[2022-09-12 15:22:42] [碎梦刀's skull DEBUG] Encoded URL: http://www.skinme.cc/uniskin/%E7%A2%8E%E6%A2%A6%E5%88%80.json
+[2022-09-12 15:22:43] [碎梦刀's skull DEBUG] Successfully request (Response Code: 200 , Content Length: -1)
+[2022-09-12 15:22:43] [碎梦刀's skull DEBUG] Saved to cache (Length: 37 , Path: 'D:\贪婪2\.minecraft\versions\GreedyCraft\CustomSkinLoader\caches\7f67c9fd2ad28b2a323e35560d801ac15c652124' , Expire: 1662967455)
+[2022-09-12 15:22:43] [碎梦刀's skull DEBUG] Content: {"errno":404,"msg":"User not found."}
+[2022-09-12 15:22:43] [碎梦刀's skull INFO] Error 404: User not found.
+[2022-09-12 15:22:43] [碎梦刀's skull INFO] 7/8 Try to load profile from 'GlitchlessGames'.
+[2022-09-12 15:22:43] [碎梦刀's skull DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=碎梦刀'.
+[2022-09-12 15:22:43] [碎梦刀's skull DEBUG] Encoded URL: https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=%E7%A2%8E%E6%A2%A6%E5%88%80
+[2022-09-12 15:22:45] [碎梦刀's skull DEBUG] Failed to request https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=碎梦刀 (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:22:45] [碎梦刀's skull INFO] Profile not found.
+[2022-09-12 15:22:45] [碎梦刀's skull INFO] 8/8 Try to load profile from 'MCSkin'.
+[2022-09-12 15:22:45] [碎梦刀's skull DEBUG] Try to request 'https://mcskin.cn/碎梦刀.json'.
+[2022-09-12 15:22:45] [碎梦刀's skull DEBUG] Encoded URL: https://mcskin.cn/%E7%A2%8E%E6%A2%A6%E5%88%80.json
+[2022-09-12 15:22:47] [碎梦刀's skull DEBUG] Failed to request https://mcskin.cn/碎梦刀.json (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:22:47] [碎梦刀's skull INFO] Profile not found.
+[2022-09-12 15:22:47] [碎梦刀's skull INFO] 碎梦刀's profile not found in load list.
+[2022-09-12 15:24:07] [CB_ssaxxcvv2's skull INFO] Loading CB_ssaxxcvv2's profile.
+[2022-09-12 15:24:07] [CB_ssaxxcvv2's skull INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-09-12 15:24:07] [CB_ssaxxcvv2's skull INFO] Both skin and cape not found.
+[2022-09-12 15:24:07] [CB_ssaxxcvv2's skull INFO] 2/8 Try to load profile from 'Mojang'.
+[2022-09-12 15:24:07] [CB_ssaxxcvv2's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-09-12 15:24:07] [CB_ssaxxcvv2's skull INFO] Payload: ["CB_ssaxxcvv2"]
+[2022-09-12 15:24:08] [CB_ssaxxcvv2's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 65)
+[2022-09-12 15:24:08] [CB_ssaxxcvv2's skull DEBUG] Content: [{"id":"8a53d9ac6fb247c795d9f5a72e8c58b7","name":"CB_ssaxxcvv2"}]
+[2022-09-12 15:24:08] [CB_ssaxxcvv2's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/8a53d9ac6fb247c795d9f5a72e8c58b7'.
+[2022-09-12 15:24:09] [CB_ssaxxcvv2's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 708)
+[2022-09-12 15:24:09] [CB_ssaxxcvv2's skull DEBUG] Saved to cache (Length: 708 , Path: 'D:\贪婪2\.minecraft\versions\GreedyCraft\CustomSkinLoader\caches\ce3c32eaa32008361b069315f481d6ca380845d3' , Expire: 1662967544)
+[2022-09-12 15:24:09] [CB_ssaxxcvv2's skull DEBUG] Content: {
+  "id" : "8a53d9ac6fb247c795d9f5a72e8c58b7",
+  "name" : "CB_ssaxxcvv2",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjk2NzY1MTEyNCwKICAicHJvZmlsZUlkIiA6ICI4YTUzZDlhYzZmYjI0N2M3OTVkOWY1YTcyZThjNThiNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDQl9zc2F4eGN2djIiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM0NDQ2ZjYyNDg0MTUxNWI2YzRmMTAyM2JjZDg5YzFlYzA0OGM3MGI3ZjJjNmZjNTNiZDdjMTZjMDVhYzJmMiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+  } ]
+}
+[2022-09-12 15:24:09] [CB_ssaxxcvv2's skull INFO] CB_ssaxxcvv2's profile loaded.
+[2022-09-12 15:24:09] [CB_ssaxxcvv2's skull INFO] Successfully save LocalProfile.
+[2022-09-12 15:24:09] [CB_ssaxxcvv2's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/434446f624841515b6c4f1023bcd89c1ec048c70b7f2c6fc53bd7c16c05ac2f2 , Model: default , CapeUrl: http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933  , Expiry: 1662967499)
+[2022-09-12 15:24:09] [Client thread INFO] ThreadDownloadImageData Class: net.minecraft.client.renderer.ThreadDownloadImageData
+[2022-09-12 15:38:43] [KUpakupa's skull INFO] Loading KUpakupa's profile.
+[2022-09-12 15:38:43] [KUpakupa's skull INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-09-12 15:38:43] [KUpakupa's skull INFO] Both skin and cape not found.
+[2022-09-12 15:38:43] [KUpakupa's skull INFO] 2/8 Try to load profile from 'Mojang'.
+[2022-09-12 15:38:43] [KUpakupa's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-09-12 15:38:43] [KUpakupa's skull INFO] Payload: ["KUpakupa"]
+[2022-09-12 15:38:45] [KUpakupa's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 61)
+[2022-09-12 15:38:45] [KUpakupa's skull DEBUG] Content: [{"id":"a8bbcda1e6b6468ea199859a113d3597","name":"KUpakupa"}]
+[2022-09-12 15:38:45] [KUpakupa's skull DEBUG] Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/a8bbcda1e6b6468ea199859a113d3597'.
+[2022-09-12 15:38:46] [KUpakupa's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 772)
+[2022-09-12 15:38:46] [KUpakupa's skull DEBUG] Saved to cache (Length: 772 , Path: 'D:\贪婪2\.minecraft\versions\GreedyCraft\CustomSkinLoader\caches\f31fe9fda739d519de0b4d50c7cc843847e29523' , Expire: 1662968418)
+[2022-09-12 15:38:46] [KUpakupa's skull DEBUG] Content: {
+  "id" : "a8bbcda1e6b6468ea199859a113d3597",
+  "name" : "KUpakupa",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjk2ODUyODA1MywKICAicHJvZmlsZUlkIiA6ICJhOGJiY2RhMWU2YjY0NjhlYTE5OTg1OWExMTNkMzU5NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLVXBha3VwYSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYzkxZDQwYmM4YjU5YTcwNjE1NzZhZDZhZTYxNGU4ZWQyOTEyYjFiZTE3MTY0ZjA1MmM0ZWUzZTgxMjg5NTIzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+  } ]
+}
+[2022-09-12 15:38:46] [KUpakupa's skull INFO] KUpakupa's profile loaded.
+[2022-09-12 15:38:46] [KUpakupa's skull INFO] Successfully save LocalProfile.
+[2022-09-12 15:38:46] [KUpakupa's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/fc91d40bc8b59a7061576ad6ae614e8ed2912b1be17164f052c4ee3e81289523 , Model: slim , CapeUrl: http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933  , Expiry: 1662968376)
+[2022-09-12 15:39:23] [CyaNideEPiC's skull INFO] Loading CyaNideEPiC's profile.
+[2022-09-12 15:39:23] [CyaNideEPiC's skull INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-09-12 15:39:23] [CyaNideEPiC's skull INFO] Both skin and cape not found.
+[2022-09-12 15:39:23] [CyaNideEPiC's skull INFO] 2/8 Try to load profile from 'Mojang'.
+[2022-09-12 15:39:23] [CyaNideEPiC's skull DEBUG] Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2022-09-12 15:39:23] [CyaNideEPiC's skull INFO] Payload: ["CyaNideEPiC"]
+[2022-09-12 15:39:24] [CyaNideEPiC's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 2)
+[2022-09-12 15:39:24] [CyaNideEPiC's skull DEBUG] Content: []
+[2022-09-12 15:39:24] [CyaNideEPiC's skull INFO] Profile not found.(CyaNideEPiC's profile not found.)
+[2022-09-12 15:39:24] [CyaNideEPiC's skull INFO] 3/8 Try to load profile from 'LittleSkin'.
+[2022-09-12 15:39:24] [CyaNideEPiC's skull DEBUG] Try to request 'https://littlesk.in/csl/CyaNideEPiC.json'.
+[2022-09-12 15:39:26] [CyaNideEPiC's skull DEBUG] Failed to request https://littlesk.in/csl/CyaNideEPiC.json (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:39:26] [CyaNideEPiC's skull INFO] Profile not found.
+[2022-09-12 15:39:26] [CyaNideEPiC's skull INFO] 4/8 Try to load profile from 'BlessingSkin'.
+[2022-09-12 15:39:26] [CyaNideEPiC's skull DEBUG] Try to request 'http://skin.prinzeugen.net/CyaNideEPiC.json'.
+[2022-09-12 15:39:27] [CyaNideEPiC's skull DEBUG] Failed to request (Response Code: 404)
+[2022-09-12 15:39:27] [CyaNideEPiC's skull INFO] Profile not found.
+[2022-09-12 15:39:27] [CyaNideEPiC's skull INFO] 5/8 Try to load profile from 'ElyBy'.
+[2022-09-12 15:39:27] [CyaNideEPiC's skull DEBUG] Try to request 'http://skinsystem.ely.by/textures/CyaNideEPiC'.
+[2022-09-12 15:39:29] [CyaNideEPiC's skull DEBUG] Failed to request http://skinsystem.ely.by/textures/CyaNideEPiC (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:39:29] [CyaNideEPiC's skull INFO] Profile not found.
+[2022-09-12 15:39:29] [CyaNideEPiC's skull INFO] 6/8 Try to load profile from 'SkinMe'.
+[2022-09-12 15:39:29] [CyaNideEPiC's skull DEBUG] Try to request 'http://www.skinme.cc/uniskin/CyaNideEPiC.json'.
+[2022-09-12 15:39:29] [CyaNideEPiC's skull DEBUG] Successfully request (Response Code: 200 , Content Length: -1)
+[2022-09-12 15:39:29] [CyaNideEPiC's skull DEBUG] Saved to cache (Length: 37 , Path: 'D:\贪婪2\.minecraft\versions\GreedyCraft\CustomSkinLoader\caches\77a5df9a640e437d27efd2d2950589d87ed36117' , Expire: 1662968460)
+[2022-09-12 15:39:29] [CyaNideEPiC's skull DEBUG] Content: {"errno":404,"msg":"User not found."}
+[2022-09-12 15:39:29] [CyaNideEPiC's skull INFO] Error 404: User not found.
+[2022-09-12 15:39:29] [CyaNideEPiC's skull INFO] 7/8 Try to load profile from 'GlitchlessGames'.
+[2022-09-12 15:39:29] [CyaNideEPiC's skull DEBUG] Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=CyaNideEPiC'.
+[2022-09-12 15:39:31] [CyaNideEPiC's skull DEBUG] Failed to request https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=CyaNideEPiC (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:39:31] [CyaNideEPiC's skull INFO] Profile not found.
+[2022-09-12 15:39:31] [CyaNideEPiC's skull INFO] 8/8 Try to load profile from 'MCSkin'.
+[2022-09-12 15:39:31] [CyaNideEPiC's skull DEBUG] Try to request 'https://mcskin.cn/CyaNideEPiC.json'.
+[2022-09-12 15:39:33] [CyaNideEPiC's skull DEBUG] Failed to request https://mcskin.cn/CyaNideEPiC.json (Exception: java.net.ConnectException: Connection refused: connect)
+[2022-09-12 15:39:33] [CyaNideEPiC's skull INFO] Profile not found.
+[2022-09-12 15:39:33] [CyaNideEPiC's skull INFO] CyaNideEPiC's profile not found in load list.
+[2022-09-12 15:39:33] [CyaNideEPiC's skull INFO] Successfully load LocalProfile.
+[2022-09-12 15:39:33] [CyaNideEPiC's skull INFO] CyaNideEPiC's LocalProfile will be used.
+[2022-09-12 15:39:33] [CyaNideEPiC's skull INFO] (SkinUrl: http://ely.by/storage/skins/46aec9360a6512144439fc15173c08ec.png , Model: default , CapeUrl: null  , Expiry: 1662968423)
+[2022-09-12 15:40:37] [TCreopargh's skull INFO] Loading TCreopargh's profile.
+[2022-09-12 15:40:37] [TCreopargh's skull INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-09-12 15:40:37] [TCreopargh's skull INFO] Both skin and cape not found.
+[2022-09-12 15:40:37] [TCreopargh's skull INFO] 2/8 Try to load profile from 'Mojang'.
+[2022-09-12 15:40:37] [TCreopargh's skull INFO] Default profile will be used.
+[2022-09-12 15:40:37] [TCreopargh's skull INFO] TCreopargh's profile loaded.
+[2022-09-12 15:40:37] [TCreopargh's skull INFO] Successfully save LocalProfile.
+[2022-09-12 15:40:37] [TCreopargh's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/19f7812597854676eb9c8cdb0d603f680813a4f450b2ec28178a6ea8eb6b1806 , Model: slim , CapeUrl: null  , Expiry: 1662968487)

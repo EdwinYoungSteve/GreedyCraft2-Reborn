@@ -1,6 +1,11 @@
 {
+	title: "§b聚变反应堆",
 	x: -0.5d,
 	y: -2.0d,
+	description: "制作反应堆端口，组成聚变反应堆",
+	text: [
+		""
+	],
 	dependencies: [
 		"97cdb294"
 	],

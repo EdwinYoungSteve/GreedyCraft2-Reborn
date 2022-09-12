@@ -19,7 +19,7 @@
 		uid: "71cf76bb",
 		type: "item",
 		item: "minecraft:obsidian",
-		count: 32
+		count: 16
 	},
 	{
 		uid: "dae95bcc",
@@ -41,6 +41,6 @@
 				Fluid: "lava"
 			}
 		},
-		count: 8
+		count: 4
 	}]
 }

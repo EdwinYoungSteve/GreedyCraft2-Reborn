@@ -1,21 +1,21 @@
 {
     "registryname": "cosmic_forge",
-    "localizedname": "寰宇熔炉",
+    "localizedname": "寰宇熔合机",
     "requires-blueprint": true,
     "failure-action": "still",
-    "color": "424242",
+    "color": "cccccc",
     "modifiers": [
         {
             "elements": "modularmachinery:blockcasing@1",
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至75%！",
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至80%！",
             "modifier": {
                 "io": "output",
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.75
+                "multiplier": 0.80
             }
         },
         {
@@ -23,16 +23,29 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至66%！",
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至70%！",
             "modifier": {
                 "io": "output",
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.66
+                "multiplier": 0.70
             }
         },
         {
             "elements": "modularmachinery:blockcasing@3",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至60%！",
+            "modifier": {
+                "io": "output",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.60
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
             "x": 0,
             "y": 1,
             "z": 0,
@@ -41,574 +54,225 @@
                 "io": "output",
                 "target": "duration",
                 "operation": 1,
-                "multiplier": 0.5
-            }
-        },
-        {
-            "elements": "modularmachinery:blockcasing@5",
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至33%！",
-            "modifier": {
-                "io": "output",
-                "target": "duration",
-                "operation": 1,
-                "multiplier": 0.33
+                "multiplier": 0.50
             }
         }
     ],
     "parts": [
         {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcontroller@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
             "x": 1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 6,
+            "y": -5,
             "z": 3,
             "elements": [
-                "gct_ores:chaotic_draconium_block@0"
+                "casings_all"
             ]
         },
         {
-            "x": 3,
-            "y": 4,
-            "z": 2,
+            "x": 5,
+            "y": 0,
+            "z": 5,
             "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
+                "casings_all"
             ]
         },
         {
             "x": 1,
-            "y": 0,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "casings_all"
             ]
         },
         {
             "x": -3,
-            "y": 0,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "additions:greedycraft-chromasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_all"
             ]
         },
         {
             "x": 4,
-            "y": 4,
-            "z": 2,
+            "y": 5,
+            "z": 5,
             "elements": [
-                "thermalfoundation:glass@8"
+                "casings_all"
             ]
         },
         {
-            "x": 3,
-            "y": 2,
+            "x": 7,
+            "y": 3,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
+                "casings_all"
             ]
         },
         {
-            "x": 2,
-            "y": 0,
-            "z": 0,
+            "x": -3,
+            "y": -3,
+            "z": 5,
             "elements": [
-                "modularmachinery:blockcasing@4"
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_upgrade"
             ]
         },
         {
             "x": -4,
-            "y": 0,
-            "z": 0,
+            "y": -5,
+            "z": -5,
             "elements": [
                 "additions:greedycraft-chromasteel_block@0"
             ]
         },
         {
             "x": 4,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "additions:greedycraft-chromasteel_block@0"
-            ]
-        },
-        {
-            "x": -4,
             "y": 5,
-            "z": 2,
+            "z": -3,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": -3,
-            "y": 7,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
             "z": 3,
             "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "enderio:block_end_iron_bars@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 0,
-            "elements": [
                 "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "tiths:block_witherium@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "enderio:block_end_iron_bars@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "enderio:block_end_iron_bars@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "tiths:block_witherium@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "enderio:block_end_iron_bars@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "gct_ores:stormy_metal_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "enderio:block_end_iron_bars@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "tiths:block_witherium@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "tiths:block_witherium@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "gct_ores:chaotic_draconium_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "minecraft:fire@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "minecraft:fire@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "minecraft:fire@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "minecraft:fire@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "minecraft:fire@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
             ]
         },
         {
@@ -616,2551 +280,1640 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "thermalfoundation:glass@8"
+                "casings_upgrade"
             ]
         },
         {
-            "x": 4,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "gct_ores:chaotic_draconium_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 5,
-            "z": 1,
+            "x": -3,
+            "y": -3,
+            "z": 4,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": -3,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 3,
-            "z": 0,
+            "y": -3,
+            "z": -3,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": -3,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "enderio:block_end_iron_bars@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "enderio:block_end_iron_bars@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "enderio:block_end_iron_bars@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "enderio:block_end_iron_bars@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "enderio:block_end_iron_bars@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 3,
-            "z": 0,
+            "y": -3,
+            "z": -2,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": -4,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "gct_ores:chaotic_draconium_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "gct_ores:chaotic_draconium_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 7,
-            "z": 1,
+            "y": -5,
+            "z": -3,
             "elements": [
                 "additions:greedycraft-chromasteel_block@0"
             ]
         },
         {
             "x": -3,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "additions:greedycraft-chromasteel_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 5,
-            "z": 0,
+            "y": -3,
+            "z": -1,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": -4,
-            "y": 6,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
             "z": 0,
             "elements": [
-                "additions:greedycraft-chromasteel_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "gct_ores:stormy_witherium_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "gct_ores:stormy_witherium_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "additions:greedycraft-terra_alloy_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "gct_ores:stormy_witherium_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "gct_ores:stormy_witherium_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "additions:greedycraft-chromasteel_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "additions:greedycraft-chromasteel_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "additions:greedycraft-chromasteel_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 5,
-            "elements": [
                 "casings_all"
             ]
         },
         {
-            "x": -3,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "gct_ores:ice_alloy_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "gct_ores:fire_alloy_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "additions:greedycraft-terra_alloy_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "gct_ores:fire_alloy_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "gct_ores:ice_alloy_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "additions:greedycraft-chromasteel_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "gct_ores:stormy_witherium_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "gct_ores:stormy_witherium_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "additions:greedycraft-terra_alloy_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "gct_ores:stormy_witherium_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "gct_ores:stormy_witherium_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 6,
-            "z": 5,
+            "x": -5,
+            "y": -5,
+            "z": -4,
             "elements": [
                 "additions:greedycraft-chromasteel_block@0"
             ]
         },
         {
             "x": 3,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
             "y": 5,
-            "z": 4,
+            "z": -3,
             "elements": [
                 "casings_all"
             ]
         },
         {
-            "x": -4,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "gct_ores:sky_alloy_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "gct_ores:relifed_witherium_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "gct_ores:ice_alloy_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "gct_ores:relifed_witherium_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "gct_ores:relifed_witherium_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "gct_ores:fire_alloy_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "gct_ores:relifed_witherium_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "additions:greedycraft-terra_alloy_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "gct_ores:relifed_witherium_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "gct_ores:fire_alloy_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 5,
-            "z": 4,
+            "x": -5,
+            "y": 0,
+            "z": 1,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": 3,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "gct_ores:ice_alloy_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "gct_ores:sky_alloy_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 6,
-            "z": 4,
-            "elements": [
-                "gct_ores:chaotic_draconium_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "tconevo:metal_block@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 6,
-            "z": 4,
-            "elements": [
-                "gct_ores:chaotic_draconium_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
             "y": 5,
-            "z": 3,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 4,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": -3,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
             "y": 7,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "gct_ores:fire_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
             "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "additions:greedycraft-chromasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "additions:greedycraft-chromasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "additions:greedycraft-chromasteel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "additions:greedycraft-chromasteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -3,
             "elements": [
                 "additions:greedycraft-chromasteel_block@0"
             ]
         },
         {
             "x": -4,
-            "y": 3,
-            "z": 2,
+            "y": -3,
+            "z": -4,
             "elements": [
-                "gct_ores:sky_alloy_block@0"
+                "thermalfoundation:glass@8"
             ]
         },
         {
             "x": -3,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 1,
+            "y": 2,
+            "z": -3,
             "elements": [
                 "casings_all"
             ]
         },
         {
-            "x": -3,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "tiths:block_witherium@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "gct_ores:relifed_witherium_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "tiths:block_witherium@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "gct_ores:stormy_metal_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "gct_ores:relifed_witherium_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "draconicevolution:infused_obsidian@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "tiths:block_witherium@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "gct_ores:relifed_witherium_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 7,
-            "z": 4,
+            "x": -4,
+            "y": -3,
+            "z": -5,
             "elements": [
                 "additions:greedycraft-chromasteel_block@0"
             ]
         },
         {
             "x": 2,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "tiths:block_witherium@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "gct_ores:relifed_witherium_block@0"
-            ]
-        },
-        {
-            "x": 0,
             "y": 1,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "gct_ores:relifed_witherium_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 5,
-            "z": 3,
+            "z": 7,
             "elements": [
                 "casings_all"
             ]
         },
         {
-            "x": 3,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 1,
-            "z": 1,
+            "z": 0,
             "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
+                "casings_upgrade"
             ]
         },
         {
-            "x": 4,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "gct_ores:sky_alloy_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
+            "x": -4,
+            "y": -3,
             "z": 1,
             "elements": [
                 "casings_all"
             ]
         },
         {
-            "x": -4,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "gct_ores:chaotic_draconium_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 2,
+            "x": 2,
+            "y": 1,
             "z": 1,
             "elements": [
-                "thermalfoundation:glass@8"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "minecraft:fire@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "minecraft:fire@0"
+                "casings_upgrade"
             ]
         },
         {
             "x": 0,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "minecraft:fire@0"
-            ]
-        },
-        {
-            "x": -2,
             "y": 2,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "minecraft:fire@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "tconevo:metal_block@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
+                "casings_upgrade"
             ]
         },
         {
             "x": 2,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "minecraft:fire@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
+            "y": 1,
             "z": 2,
             "elements": [
-                "draconicevolution:draconium_block@0"
+                "casings_upgrade"
             ]
         },
         {
-            "x": 0,
-            "y": 2,
+            "x": -1,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_pyrotheum@0"
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "additions:greedycraft-chromasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "additions:greedycraft-chromasteel_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "casings_all"
             ]
         }
-    ]}
+    ]
+}

@@ -1,6 +1,6 @@
 {
-	x: 2.0d,
-	y: 4.5d,
+	x: 3.5d,
+	y: 3.5d,
 	dependencies: [
 		"cb767f8b"
 	],
@@ -10,5 +10,15 @@
 		items: [{
 			item: "bloodmagic:demon_extras 1 10"
 		}]
+	}],
+	rewards: [{
+		uid: "81973390",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "92b521ea",
+		type: "xp",
+		xp: 1000
 	}]
 }

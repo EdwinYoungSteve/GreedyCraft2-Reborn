@@ -1,7 +1,8 @@
 {
 	title: "§b耐心到达极限",
 	x: 0.0d,
-	y: 13.5d,
+	y: 15.0d,
+	shape: "pentagon",
 	description: "搭建耐钢熔合机，制作耐钢锭！",
 	text: [
 		"耐钢锭需要多方块结构——耐钢熔合机制作",

@@ -1,0 +1,16 @@
+{
+	title: "§b和eio的不一样",
+	x: -11.0d,
+	y: 1.0d,
+	description: "合成末影锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "55a8c43c",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 36"
+		}]
+	}]
+}

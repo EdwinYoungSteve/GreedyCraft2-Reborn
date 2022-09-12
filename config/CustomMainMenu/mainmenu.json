@@ -71,7 +71,7 @@
             "texture": "greedycraft:mainmenu/shortbuttonhd.png",
             "action": {
                 "type": "openLink",
-                "link": "http://greedycraft.tcreopargh.xyz/"
+                "link": "about:blank"
             }
         },
         "options": {
@@ -133,7 +133,7 @@
             "imageHeight": 383,
 			"wrappedButton": 17325,
             "texture": "greedycraft:mainmenu/account.png",
-            "tooltip": "§7您目前登录的用户名是§e#username#\n§a点击以切换账户！"
+            "tooltip": "greedycraft.menu.account"
         },
         "sponsor": {
             "text": " ",
@@ -149,30 +149,13 @@
             "tooltip": "greedycraft.menu.sponsor",
             "action": {
                 "type": "openLink",
-                "link": "http://donate.tcreopargh.xyz/"
-            }
-        },
-        "discord": {
-            "text": " ",
-            "posX": -25,
-            "posY": 80,
-            "width": 20,
-            "height": 20,
-            "alignment": "top_right",
-            "clickSound": "block.lever.click",
-            "imageWidth": 383,
-            "imageHeight": 383,
-            "texture": "greedycraft:mainmenu/discord.png",
-            "tooltip": "greedycraft.menu.discord",
-            "action": {
-                "type": "openLink",
-                "link": "https://discord.gg/jpwncsDN"
+                "link": "https://afdian.net/@eys2008lu493992"
             }
         },
         "github": {
             "text": " ",
             "posX": -25,
-            "posY": 105,
+            "posY": 80,
             "width": 20,
             "height": 20,
             "alignment": "top_right",
@@ -189,7 +172,7 @@
         "open_folder": {
             "text": " ",
             "posX": -25,
-            "posY": 130,
+            "posY": 105,
             "width": 20,
             "height": 20,
             "alignment": "top_right",
@@ -202,29 +185,12 @@
                 "type": "openFolder",
                 "folderName": "/"
             }
-        },
-		"bisect": {
-			"text": " ",
-			"posX": -25,
-			"posY": 155,
-			"width": 20,
-			"height": 20,
-			"alignment": "top_right",
-			"clickSound": "block.lever.click",
-			"imageWidth": 383,
-			"imageHeight": 383,
-			"texture": "greedycraft:mainmenu/bisect.png",
-			"tooltip": "§6§l需要服务器吗？\n§b贪婪整合包§a由§9Bisect Hosting§a赞助！\n§a使用优惠码§dTCreopargh§a即可获取首月§b25%%优惠§a！\n§e（建议服务器内存不少于§68GB§e。）",
-			"action": {
-				"type": "openLink",
-				"link": "https://bisecthosting.com/TCreopargh"
-			}
-		}
+        }
     },
     "labels": {
         "mojang": {
             "text": "Copyright Mojang AB. Do not distribute!",
-            "hoverText": "§7§n点击查看Minecraft开发人员列表",
+            "hoverText": "Minecraft 1.12.2",
             "color": -1,
             "alignment": "bottom_right",
             "posX": -2,
@@ -236,8 +202,8 @@
             }
         },
         "minecraft_version": {
-			"text": "§aMinecraft §2#mcversion#",
-			"hoverText": "§aMinecraft Coder Pack §2#mcpversion#",
+			"text": "Minecraft #mcversion#",
+			"hoverText": "Minecraft Coder Pack #mcpversion#",
             "color": -1,
             "posX": 2,
             "posY": -52,
@@ -245,16 +211,16 @@
         },
         "modinfo": {
             "alignment": "bottom_left",
-			"text": "§9Forge版本: §b#forgeversion#  §e已加载§6#modsloaded#§e个模组",
-			"hoverText": "§aFML版本: §2#fmlversion#  §d已启用§5#modsactive#§d个模组",
+			"text": "Forge: #forgeversion#  #modsloaded#Mods Loaded",
+			"hoverText": "FML: #fmlversion#  #modsactive#Mods Active",
             "color": -1,
             "posX": 2,
             "posY": -32
         },
         "packinfo": {
             "alignment": "bottom_left",
-			"text": " §e★ §b§l贪婪整合包 §e★ §r§dby TCreopargh",
-			"hoverText": " §5★ §c§l贪婪整合包 §5★ §r§aby TCreopargh",
+			"text": "Greedycraft2-Reborn by mc_Edwin",
+			"hoverText": "Greedycraft Original by TCreopargh",
             "action": {
                 "type": "openLink",
                 "link": "https://greedycraft.com/"
@@ -264,8 +230,8 @@
             "posY": -42
         },
         "time": {
-			"text": "§9你好，§e#username#§9！§6现在是：§b#time#",
-			"hoverText": "§9你好，§e#username#§9！§6现在是：§d#date# §b#time#",
+			"text": "You are #username# Time: #time#",
+			"hoverText": "Time: #date# #time#",
             "posX": 2,
             "posY": 12,
             "color": -1,
@@ -275,7 +241,7 @@
             "text": "web:http://json.tcreopargh.xyz/greedycraft-announcements.txt",
             "action": {
                 "type": "openLink",
-                "link": "https://greedycraft.com/"
+                "link": "https://www.mcbbs.net/thread-1369059-1-1.html"
             },
             "posX": 2,
             "posY": 22,

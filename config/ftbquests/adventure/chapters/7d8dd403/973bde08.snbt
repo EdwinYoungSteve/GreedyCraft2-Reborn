@@ -1,11 +1,12 @@
 {
 	title: "§bC₅H₅N₅O",
-	x: 5.5d,
-	y: 1.0d,
+	x: 3.0d,
+	y: 2.5d,
 	description: "在深渊荒原泥土层挖掘鸟嘌呤晶",
 	text: [
 		""
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"9329a5dd"
 	],

@@ -115,10 +115,10 @@ knowledgefulTrait.onHurt = function(trait, armor, player, source, damage, newDam
     var reduction = 0.0f;
     if (!isNull(player)) {
         var xp = player.xp as float;
-        if(xp > 300.0f) {
-            xp = 300.0f;
+        if(xp > 1000.0f) {
+            xp = 1000.0f;
         }
-        reduction = (xp / 300.0f) as float * 0.36f;
+        reduction = (xp / 1000.0f) as float * 0.36f;
     }
     
     return newDamage * calcSingleArmor(reduction as float) as float;

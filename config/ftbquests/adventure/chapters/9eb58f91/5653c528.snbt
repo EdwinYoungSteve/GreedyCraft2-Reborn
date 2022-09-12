@@ -1,6 +1,11 @@
 {
+	title: "§b自动种植！",
 	x: 10.5d,
 	y: -1.5d,
+	description: "制作种植站",
+	text: [
+		""
+	],
 	dependencies: [
 		"ba088ac9"
 	],
@@ -10,5 +15,10 @@
 		items: [{
 			item: "enderio:block_farm_station"
 		}]
+	}],
+	rewards: [{
+		uid: "33eea92e",
+		type: "xp",
+		xp: 2000
 	}]
 }

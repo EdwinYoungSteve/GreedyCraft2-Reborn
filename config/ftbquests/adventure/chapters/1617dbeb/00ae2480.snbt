@@ -1,0 +1,11 @@
+{
+	x: -11.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: "e129f9c3",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:lavarite_seeds"
+		}]
+	}]
+}

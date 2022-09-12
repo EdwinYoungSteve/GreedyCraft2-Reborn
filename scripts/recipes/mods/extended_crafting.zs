@@ -172,3 +172,54 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <twilightforest:giant_leaves>, 
 	[null, null, null, null, null, null, null, null, null]
 ]);
 
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:essenceofdarkerrealm>, [
+	[null, null, <gct_aby:densedarkstone>, <gct_aby:densedarkstone>, <gct_aby:densedarkstone>, null, null], 
+	[null, <gct_aby:densedarkstone>, <ore:ingotSanite>, <gct_aby:shoggothtancale>, <ore:ingotSanite>, <gct_aby:densedarkstone>, null], 
+	[<gct_aby:densedarkstone>, <ore:ingotSanite>, <gct_aby:shoggothtancale>, <gct_aby:shadownuclear>, <gct_aby:shoggothtancale>, <ore:ingotSanite>, <gct_aby:densedarkstone>], 
+	[<gct_aby:densedarkstone>, <gct_aby:shoggothtancale>, <gct_aby:shadownuclear>, <gct_aby:densedarkstone>, <gct_aby:shadownuclear>, <gct_aby:shoggothtancale>, <gct_aby:densedarkstone>], 
+	[<gct_aby:densedarkstone>, <ore:ingotSanite>, <gct_aby:shoggothtancale>, <gct_aby:shadownuclear>, <gct_aby:shoggothtancale>, <ore:ingotSanite>, <gct_aby:densedarkstone>], 
+	[null, <gct_aby:densedarkstone>, <ore:ingotSanite>, <gct_aby:shoggothtancale>, <ore:ingotSanite>, <gct_aby:densedarkstone>, null], 
+	[null, null, <gct_aby:densedarkstone>, <gct_aby:densedarkstone>, <gct_aby:densedarkstone>, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:keyofdark>, [
+	[<gct_aby:essenceofdarkrealm>, null, null, <abyssalcraft:oc>, null], 
+	[null, <gct_aby:essenceofdarkrealm>, <abyssalcraft:oc>, <abyssalcraft:soulreaper>, <abyssalcraft:oc>], 
+	[null, null, <gct_aby:essenceofdarkrealm>, <abyssalcraft:oc>, null], 
+	[null, <ore:blockEthaxium>, null, <gct_aby:essenceofdarkrealm>, null], 
+	[<ore:blockEthaxium>, null, null, null, <gct_aby:essenceofdarkrealm>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:essenceofdarkrealm>, [
+	[null, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, null], 
+	[<ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>], 
+	[<ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>], 
+	[<ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>], 
+	[null, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:sanity_altar>, [
+	[<ore:ingotSanite>, null, null, null, <ore:ingotSanite>], 
+	[<abyssalcraft:darkstone_brick>, <ore:ingotSanite>, <ore:ingotCthulhurite>, <ore:ingotSanite>, <abyssalcraft:darkstone_brick>], 
+	[null, <ore:gemShadow>, <ore:blockSanite>, <ore:gemShadow>, null], 
+	[null, null, <abyssalcraft:darkstone_brick>, null, null], 
+	[null, null, <ore:gemShadow>, null, null]
+]);
+//机械心脏3
+mods.extendedcrafting.TableCrafting.addShaped(0, <journey:heartlrg>, [
+	[<scalinghealth:heartcontainer>, null, null, null, <scalinghealth:heartcontainer>], 
+	[<scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>, <scalinghealth:heartcontainer>], 
+	[<scalinghealth:heartcontainer>, <ore:ingotBoundMetal>, <journey:heartmed>, <ore:ingotBoundMetal>, <scalinghealth:heartcontainer>], 
+	[null, <scalinghealth:heartcontainer>, <ore:ingotBoundMetal>, <scalinghealth:heartcontainer>, null], 
+	[null, null, <scalinghealth:heartcontainer>, null, null]
+]);
+//机械心脏4
+mods.extendedcrafting.TableCrafting.addShaped(0, <journey:heartult>, [
+	[<cyclicmagic:heart_food>, null, null, null, <cyclicmagic:heart_food>], 
+	[<cyclicmagic:heart_food>, <cyclicmagic:heart_food>, <cyclicmagic:heart_food>, <cyclicmagic:heart_food>, <cyclicmagic:heart_food>], 
+	[<cyclicmagic:heart_food>, <ore:ingotCrimsonite>, <journey:heartlrg>, <ore:ingotCrimsonite>, <cyclicmagic:heart_food>], 
+	[null, <cyclicmagic:heart_food>, <ore:ingotCrimsonite>, <cyclicmagic:heart_food>, null], 
+	[null, null, <cyclicmagic:heart_food>, null, null]
+]);
+//霓虹石英（无序合成）
+mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_ores:rainboquartz> * 48, [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:nuggetChromasteel>]);

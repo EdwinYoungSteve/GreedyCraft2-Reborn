@@ -18,7 +18,8 @@
 		type: "item",
 		items: [{
 			item: "modularcontroller:vethea_enchanter_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "e51645a9",

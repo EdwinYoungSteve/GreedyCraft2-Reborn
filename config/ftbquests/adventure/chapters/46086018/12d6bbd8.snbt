@@ -1,6 +1,6 @@
 {
 	title: "§b翠绿之书",
-	x: 0.0d,
+	x: -1.5d,
 	y: 9.0d,
 	description: "升级死灵之书为深渊荒原级别",
 	text: [

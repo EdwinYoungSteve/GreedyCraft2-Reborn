@@ -1,6 +1,6 @@
 {
 	title: "§b波粒二象性",
-	x: 10.0d,
+	x: 12.5d,
 	y: -1.5d,
 	description: "合成光子锭",
 	text: [
@@ -16,5 +16,23 @@
 		items: [{
 			item: "extrabotany:material 1 8"
 		}]
+	},
+	{
+		uid: "7f2d9270",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "2c5d91d1",
+		type: "item",
+		item: "extrabotany:material 1 8",
+		count: 2
+	},
+	{
+		uid: "cca006a6",
+		type: "xp",
+		xp: 2000
 	}]
 }

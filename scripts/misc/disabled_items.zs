@@ -1103,7 +1103,13 @@ val disabledItems as IIngredient[] = [
     <inventorypets:flying_saddle_pet>,
     <cfm:item_envelope>,
     <cyclicmagic:fluid_drain>,
-    <cyclicmagic:inventory_food>
+    <cyclicmagic:inventory_food>,
+    //临时
+    <projecte:item.pe_transmutation_tablet>,
+    <projecte:transmutation_table>,
+    <projectex:stone_table>,
+    <projectex:arcane_tablet>,
+    <tinymobfarm:ultimate_farm>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

@@ -1,0 +1,9 @@
+{
+	x: -15.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "23f20e33",
+		type: "gamestage",
+		stage: "balanced_matrix"
+	}]
+}

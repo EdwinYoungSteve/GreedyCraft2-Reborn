@@ -1,6 +1,11 @@
 {
+	title: "§bNaCl溶液？",
 	x: -3.5d,
 	y: -2.0d,
+	description: "制作一个热力蒸馏阀门",
+	text: [
+		""
+	],
 	dependencies: [
 		"9b34a8ff"
 	],

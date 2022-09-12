@@ -93,6 +93,7 @@ global gameStagesLore as string[][string][string][string] = {
         hardmode: {
             alias: ["困难模式"],
             lore: [
+                "千万别以为已经结束了！这刚刚开始……",
                 "末影龙体内被诅咒的灵魂已被释放。",
                 "在刚才的较量中，他并没有使出全力，因为它得知自己将获得解脱。",
                 "巨龙之力影响到了每一个维度，无尽的挑战在等着你..."
@@ -411,6 +412,76 @@ global gameStagesLore as string[][string][string][string] = {
                 "物品现在会显示EMC值",
                 "解锁更高级的转化桌",
                 "可以将物品转化为EMC"
+            ]
+        },
+        gatekeeper: {
+            alias: ["践踏守门者"],
+            lore: [
+                "表层深渊，征服！"
+            ],
+            unlocks: [
+                "可以进入深暗领域等中层深渊维度",
+                "更多的……掉san的生物！",
+                "更加疯狂！"
+            ]
+        },
+        gaia_deleter: {
+            alias: ["盖亚删除者"],
+            lore: [
+                "大地之母已被击败，接下来……"
+            ],
+            unlocks: [
+                "可以进入精灵国度",
+                "四级符文！"
+            ]
+        },
+        storm_breaker: {
+            alias: ["风暴平息"],
+            lore: [
+                "来自传说的巨型野兽被击败……"
+            ],
+            unlocks: [
+                "可以制作风暴核心"
+            ]
+        },
+        stormy: {
+            alias: ["风暴之力"],
+            lore: [
+                "寰宇之下，万物之上"
+            ],
+            unlocks: [
+                "可以制作寰宇锭"
+            ]
+        },
+        cosmic: {
+            alias: ["寰宇支配者"],
+            lore: [
+                "或许曾经它是终点，可现在它微不足道。"
+            ],
+            unlocks: [
+                "新的矿物已经生成",
+                "更多的拓展内容",
+                "难度增加",
+                "史诗级支线！"
+            ]
+        },
+        balanced_matrix: {
+            alias: ["趋于平衡"],
+            lore: [
+                "更加强大，更加复杂的……金属。"
+            ],
+            unlocks: [
+                "可以前往秩序之地",
+                "难度飙升"
+            ]
+        },
+        order: {
+            alias: ["遵守秩序"],
+            lore: [
+                "混沌的尽头便是秩序？"
+            ],
+            unlocks: [
+                "来自终焉的呼唤已经收到"
             ]
         }
     },

@@ -1,0 +1,11 @@
+{
+	x: -7.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "21d0bf89",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:glowstone_seeds"
+		}]
+	}]
+}

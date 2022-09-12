@@ -2,7 +2,7 @@
 	title: "§b末影护符",
 	icon: "additions:greedycraft-ender_charm",
 	x: -0.5d,
-	y: 4.0d,
+	y: 5.5d,
 	description: "合成末影护符以解锁末地阶段",
 	text: [
 		""

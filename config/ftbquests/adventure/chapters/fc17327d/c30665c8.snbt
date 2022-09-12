@@ -1,8 +1,8 @@
 {
 	title: "§b石器时代",
 	icon: "minecraft:cobblestone",
-	x: -5.0d,
-	y: 2.5d,
+	x: -16.5d,
+	y: 8.5d,
 	description: "用镐子挖掘一块圆石！",
 	text: [
 		""

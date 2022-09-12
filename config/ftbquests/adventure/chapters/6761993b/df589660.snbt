@@ -1,6 +1,6 @@
 {
-	x: 3.5d,
-	y: -1.5d,
+	x: 5.0d,
+	y: -0.5d,
 	dependencies: [
 		"51833430"
 	],
@@ -13,5 +13,26 @@
 			tag: {}
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "600bdccc",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "55ebe291",
+		type: "item",
+		item: {
+			id: "bloodmagic:soul_gem",
+			Damage: 3s,
+			tag: {
+				souls: 4096.0d
+			}
+		}
+	},
+	{
+		uid: "e5ec70e1",
+		type: "xp",
+		xp: 2000
 	}]
 }

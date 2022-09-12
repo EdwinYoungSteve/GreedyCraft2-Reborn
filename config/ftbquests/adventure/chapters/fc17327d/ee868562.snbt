@@ -1,13 +1,12 @@
 {
 	title: "§b钢铁是怎样炼成的",
-	x: -3.5d,
-	y: 4.0d,
+	x: -12.0d,
+	y: 6.5d,
 	description: "使用高炉制作一块钢锭！",
 	text: [
 		""
 	],
 	dependencies: [
-		"8636a008",
 		"8c8857fb"
 	],
 	tasks: [{

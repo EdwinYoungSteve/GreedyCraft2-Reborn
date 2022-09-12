@@ -1,7 +1,8 @@
 {
 	title: "§b恒心笃定",
-	x: 5.5d,
-	y: 11.5d,
+	x: 2.5d,
+	y: 13.0d,
+	shape: "pentagon",
 	description: "使用恒钢熔炉制作恒钢！",
 	text: [
 		""

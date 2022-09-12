@@ -1,8 +1,9 @@
 {
-	x: -2.5d,
-	y: -1.5d,
+	x: -6.0d,
+	y: 1.5d,
 	dependencies: [
-		"1c5509e5"
+		"3f924e0c",
+		"e33ac341"
 	],
 	tasks: [{
 		uid: "bbb17079",
@@ -10,5 +11,15 @@
 		items: [{
 			item: "bloodmagic:altar"
 		}]
+	}],
+	rewards: [{
+		uid: "1ad8b2d8",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f5047b83",
+		type: "xp",
+		xp: 500
 	}]
 }

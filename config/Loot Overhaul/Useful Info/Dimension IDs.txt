@@ -36,6 +36,15 @@ the_end
 	- Terrain Scale: 1.0
 
 
+dimdarkerrealm
+	- Id: 55
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
 beside_void
 	- Id: 41
 	- Height: 256
@@ -117,20 +126,20 @@ Tofu World
 	- Terrain Scale: 1.0
 
 
-CompactMachines
-	- Id: 144
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: -5.0
-	- Can Respawn Here? true
-	- Terrain Scale: 1.0
-
-
 betweenlands
 	- Id: 20
 	- Height: 256
 	- Has Sky? true
 	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+CompactMachines
+	- Id: 144
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: -5.0
 	- Can Respawn Here? true
 	- Terrain Scale: 1.0
 
@@ -316,7 +325,7 @@ candymod
 
 
 AetherI
-	- Id: 4
+	- Id: 173
 	- Height: 256
 	- Has Sky? true
 	- Cloud Height: -5.0
@@ -369,13 +378,13 @@ ExtraUtils2_Quarry_Dim
 	- Terrain Scale: 1.0
 
 
-Spectre
-	- Id: -343800852
+nc_wasteland
+	- Id: 4598
 	- Height: 256
-	- Has Sky? false
-	- Cloud Height: -5.0
+	- Has Sky? true
+	- Cloud Height: 128.0
 	- Can Respawn Here? false
-	- Terrain Scale: 1.0
+	- Terrain Scale: 0.125
 
 
 misty_world
@@ -384,6 +393,15 @@ misty_world
 	- Has Sky? true
 	- Cloud Height: 192.0
 	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+Spectre
+	- Id: -343800852
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: -5.0
+	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
 
@@ -397,7 +415,7 @@ twilight_forest
 
 
 Storage Cell
-	- Id: 3
+	- Id: 741
 	- Height: 256
 	- Has Sky? true
 	- Cloud Height: 128.0

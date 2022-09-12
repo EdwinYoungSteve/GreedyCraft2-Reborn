@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xe83c33,
+    "langs": {
+        "material": {
+            "en": "crimsonite",
+            "zh": "猩红"
+        }
+    }
+}

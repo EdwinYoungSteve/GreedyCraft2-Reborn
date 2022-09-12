@@ -1,0 +1,11 @@
+{
+	x: -2.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "fb846187",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:canopium_seeds"
+		}]
+	}]
+}

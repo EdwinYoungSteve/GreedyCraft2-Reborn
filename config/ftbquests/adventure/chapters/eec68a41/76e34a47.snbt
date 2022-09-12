@@ -1,6 +1,6 @@
 {
 	title: "§b我为律者",
-	x: 13.0d,
+	x: 18.5d,
 	y: -1.5d,
 	description: "召唤并击杀空之律者！",
 	text: [
@@ -10,11 +10,15 @@
 		"d97d3f15"
 	],
 	tasks: [{
-		uid: "03087c4a",
+		uid: "41acf728",
 		type: "item",
 		items: [{
-			item: "extrabotany:cosmetic 1 8"
-		}],
-		ignore_nbt: 1b
+			item: "extrabotany:specialbag"
+		}]
+	}],
+	rewards: [{
+		uid: "ade4c47f",
+		type: "xp",
+		xp: 5000
 	}]
 }

@@ -11,7 +11,7 @@
   "hit_sound": "minecraft:block.sand.hit",
   "step_sound": "minecraft:block.sand.step",
   "fall_sound": "minecraft:block.sand.fall",
-  "hardness": 50.0,
+  "hardness": 8.0,
   "resistance": 2000.0,
   "harvest_level": 6,
   "harvest_tool": "shovel",

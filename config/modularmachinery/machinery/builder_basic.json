@@ -1,5 +1,5 @@
 {
-    "registryname": "builder_basic",
+    "registryname": "builder_1",
     "localizedname": "基础装配室",
     "requires-blueprint": true,
     "failure-action": "still",

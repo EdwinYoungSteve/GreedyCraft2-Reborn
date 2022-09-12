@@ -8,14 +8,14 @@
   },
   {
     "identifier": "cinder",
-    "enabled": true,
+    "enabled": false,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
     "tier": 1
   },
   {
     "identifier": "arctic",
-    "enabled": true,
+    "enabled": false,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
     "tier": 1

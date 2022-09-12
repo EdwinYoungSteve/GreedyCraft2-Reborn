@@ -355,10 +355,10 @@ knowledgefulTrait.calcDamage = function(trait, tool, attacker, target, originalD
     if (attacker instanceof IPlayer) {
         val player as IPlayer = attacker;
         var xpLevel = player.xp;
-        if (xpLevel > 300) {
-            xpLevel = 300;
+        if (xpLevel > 1000) {
+            xpLevel = 1000;
         }
-        return newDamage as float * (1.0f + xpLevel as float * 0.002f) as float;
+        return newDamage as float * (1.0f + xpLevel as float * 0.0008f) as float;
     }
     return newDamage;
 };
@@ -766,7 +766,7 @@ nightmareTrait.calcDamage = function(trait, tool, attacker, target, originalDama
     return newDamage;
 };
 nightmareTrait.register();
-
+//gt 2
 val strongmoonTrait = TraitBuilder.create("strong_moon");
 strongmoonTrait.color = Color.fromHex("ffffff").getIntColor(); 
 strongmoonTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.strongmoonTrait.name");

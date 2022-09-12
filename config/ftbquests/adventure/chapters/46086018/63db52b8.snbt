@@ -1,13 +1,12 @@
 {
 	title: "§b恐怖之地",
-	x: 1.5d,
+	x: -3.0d,
 	y: 12.0d,
 	description: "升级撕裂法杖至恐惧之地级别",
 	text: [
 		""
 	],
 	dependencies: [
-		"95cbc791",
 		"ae7ef8ed"
 	],
 	tasks: [{

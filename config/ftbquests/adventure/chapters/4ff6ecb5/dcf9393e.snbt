@@ -1,7 +1,7 @@
 {
 	title: "我炼的第一种金！",
 	x: -0.5d,
-	y: -1.0d,
+	y: -2.0d,
 	dependencies: [
 		"75992ca5"
 	],

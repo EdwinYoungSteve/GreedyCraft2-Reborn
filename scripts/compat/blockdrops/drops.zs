@@ -47,13 +47,8 @@ Dropt.list("lucky_clover")
     .matchBlocks([
         "minecraft:tallgrass:*",
         "minecraft:vine:*",
-        "pvj:short_grass:*",
         "biomesoplenty:plant_0:*",
         "biomesoplenty:plant_1:*",
-        "pvj:chickweed:*",
-        "pvj:clovers:*",
-        "pvj:crabgrass:*",
-        "pvj:silverleaf:*",
         "biomesoplenty:willow_vine:*",
         "xlfoodmod:grass:*",
         "minecraft:double_plant:*"

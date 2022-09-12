@@ -1,11 +1,14 @@
 {
 	title: "§b我来自黑暗深处",
 	icon: "twilightforest:miniature_structure",
-	x: -2.0d,
-	y: 8.5d,
+	x: -10.5d,
+	y: 10.0d,
 	description: "前往暮色森林维度",
 	text: [
 		""
+	],
+	dependencies: [
+		"132f819d"
 	],
 	tasks: [{
 		uid: "a0fd71fd",

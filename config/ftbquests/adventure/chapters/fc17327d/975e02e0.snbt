@@ -1,14 +1,13 @@
 {
 	title: "§b贪吃蛇大作战",
-	x: -2.0d,
-	y: 7.0d,
+	x: -12.0d,
+	y: 10.0d,
 	description: "击败娜迦",
 	text: [
 		""
 	],
 	dependencies: [
-		"bf410cf5",
-		"132f819d"
+		"bf410cf5"
 	],
 	tasks: [{
 		uid: "7b3c66a4",

@@ -1,6 +1,11 @@
 {
+	title: "§b抑影？",
 	x: 10.5d,
 	y: 1.5d,
+	description: "制作传送抑制方尖碑",
+	text: [
+		""
+	],
 	dependencies: [
 		"ba088ac9"
 	],
@@ -10,5 +15,10 @@
 		items: [{
 			item: "enderio:block_inhibitor_obelisk"
 		}]
+	}],
+	rewards: [{
+		uid: "5fce56ce",
+		type: "xp",
+		xp: 2000
 	}]
 }

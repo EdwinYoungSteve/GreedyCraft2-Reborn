@@ -1,0 +1,13 @@
+{
+	x: -2.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "e8dbb3df",
+		type: "item",
+		items: [{
+			item: "botania:dirtrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

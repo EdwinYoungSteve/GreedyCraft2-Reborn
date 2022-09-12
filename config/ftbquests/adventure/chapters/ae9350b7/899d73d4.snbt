@@ -28,10 +28,5 @@
 		uid: "111a9bdc",
 		type: "item",
 		item: "hooked:hook 1 1"
-	},
-	{
-		uid: "f6ee6f52",
-		type: "item",
-		item: "mcs:compressed_redstone_block 1 1"
 	}]
 }

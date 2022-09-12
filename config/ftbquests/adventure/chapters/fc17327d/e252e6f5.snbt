@@ -1,7 +1,7 @@
 {
 	title: "§b暮色盾牌",
 	icon: "additions:greedycraft-twilight_shield",
-	x: -5.0d,
+	x: -9.0d,
 	y: 8.5d,
 	description: "制作暮色之庇护，解锁下界阶段！",
 	text: [

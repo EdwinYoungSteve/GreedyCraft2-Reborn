@@ -1,6 +1,6 @@
 {
 	title: "§b你是一个巫师",
-	x: -9.5d,
+	x: -11.5d,
 	y: 8.5d,
 	description: "与秘界商人交易获得巫师之书，用于召唤BOSS",
 	text: [

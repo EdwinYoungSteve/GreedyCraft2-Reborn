@@ -16,5 +16,16 @@
 			item: "enderio:block_simple_alloy_smelter"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9466294c",
+		type: "item",
+		item: "minecraft:furnace",
+		count: 16
+	},
+	{
+		uid: "e821ff4d",
+		type: "xp",
+		xp: 2000
 	}]
 }

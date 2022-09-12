@@ -1,13 +1,10 @@
 {
 	title: "§b这玩意没水槽好用！",
-	x: 0.5d,
-	y: -0.5d,
+	x: 6.0d,
+	y: -12.5d,
 	description: "制作蓄水器",
 	text: [
 		""
-	],
-	dependencies: [
-		"a7d0748a"
 	],
 	tasks: [{
 		uid: "fbc72e29",

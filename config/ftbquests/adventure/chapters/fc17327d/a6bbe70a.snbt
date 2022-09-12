@@ -1,13 +1,14 @@
 {
 	title: "§b熟悉而又陌生的地方",
-	x: -6.5d,
-	y: 7.0d,
+	x: -7.0d,
+	y: 8.5d,
+	shape: "gear",
 	description: "进入下界",
 	text: [
 		"§e未使用暮色之庇护时，你将无法进入下界！"
 	],
 	dependencies: [
-		"c71f5dca"
+		"e252e6f5"
 	],
 	tasks: [{
 		uid: "e59c60cc",

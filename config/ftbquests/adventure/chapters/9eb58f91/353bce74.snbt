@@ -1,6 +1,11 @@
 {
+	title: "§b诱引方尖碑",
 	x: 10.5d,
 	y: 0.0d,
+	description: "制作诱引方尖碑",
+	text: [
+		""
+	],
 	dependencies: [
 		"ba088ac9"
 	],
@@ -10,5 +15,10 @@
 		items: [{
 			item: "enderio:block_attractor_obelisk"
 		}]
+	}],
+	rewards: [{
+		uid: "4bf8bcd9",
+		type: "xp",
+		xp: 2000
 	}]
 }

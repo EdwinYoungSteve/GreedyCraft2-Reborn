@@ -1,6 +1,6 @@
 {
 	title: "§b天然暗黑色",
-	x: 10.0d,
+	x: 13.5d,
 	y: 0.0d,
 	description: "在漆黑世界挖掘暗影矿石，获得暗影锭",
 	text: [
@@ -15,5 +15,16 @@
 		items: [{
 			item: "additions:shadowium_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "5a151596",
+		type: "item",
+		item: "additions:shadowium_ingot",
+		count: 4
+	},
+	{
+		uid: "dce8382b",
+		type: "xp",
+		xp: 2000
 	}]
 }

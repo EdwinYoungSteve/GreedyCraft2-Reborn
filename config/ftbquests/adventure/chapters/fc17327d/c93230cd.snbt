@@ -1,13 +1,13 @@
 {
 	title: "§b世界底端",
-	x: -3.5d,
-	y: 2.5d,
+	x: -16.5d,
+	y: 10.0d,
 	description: "到达世界底层",
 	text: [
 		""
 	],
 	dependencies: [
-		"8636a008"
+		"c30665c8"
 	],
 	tasks: [{
 		uid: "d774b0c6",

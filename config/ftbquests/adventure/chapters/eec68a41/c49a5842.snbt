@@ -1,7 +1,7 @@
 {
 	title: "§b转化次元！",
-	x: 2.5d,
-	y: -4.5d,
+	x: 1.0d,
+	y: -5.5d,
 	description: "制作次元催化器，用于转化物品",
 	text: [
 		""
@@ -15,5 +15,16 @@
 		items: [{
 			item: "extrabotany:dimensioncatalyst"
 		}]
+	}],
+	rewards: [{
+		uid: "3980368a",
+		type: "item",
+		item: "extrabotany:nightmarefuel",
+		count: 4
+	},
+	{
+		uid: "fffc6a68",
+		type: "xp",
+		xp: 2000
 	}]
 }

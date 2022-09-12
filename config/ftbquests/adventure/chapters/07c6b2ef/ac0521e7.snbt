@@ -1,0 +1,29 @@
+{
+	title: "§b节约肥料",
+	x: -1.0d,
+	y: -5.0d,
+	description: "制作升级：土壤肥力恢复",
+	text: [
+		"概率不消耗堆肥，数量越多概率越大！"
+	],
+	dependencies: [
+		"26355b4d"
+	],
+	tasks: [{
+		uid: "dab6405d",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 320"
+		}]
+	}],
+	rewards: [{
+		uid: "c722fff3",
+		type: "choice",
+		table: 0
+	},
+	{
+		uid: "1f53e7b0",
+		type: "xp",
+		xp: 1000
+	}]
+}

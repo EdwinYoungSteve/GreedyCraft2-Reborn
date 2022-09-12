@@ -1,6 +1,11 @@
 {
+	title: "§b能量升级",
 	x: -6.5d,
 	y: -3.5d,
+	description: "制作一个能量升级",
+	text: [
+		"一个机器最多放8个，可以相应节省耗能"
+	],
 	dependencies: [
 		"9b34a8ff"
 	],

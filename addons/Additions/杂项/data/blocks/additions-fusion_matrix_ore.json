@@ -1,0 +1,10 @@
+{
+  "item_block": {
+    "name": "聚合矩阵矿石",
+    "ore_dict": "oreFusionMatrix",
+    "type": "additions:block_simple"
+  },
+  "name": "聚合矩阵矿石",
+  "material": "minecraft:stone",
+  "type": "additions:simple"
+}

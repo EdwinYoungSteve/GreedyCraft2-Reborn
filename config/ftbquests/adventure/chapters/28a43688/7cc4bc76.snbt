@@ -1,6 +1,11 @@
 {
+	title: "§b最大的工作台",
 	x: -9.5d,
 	y: 4.0d,
+	description: "合成终极工作台",
+	text: [
+		""
+	],
 	dependencies: [
 		"5c3e551a",
 		"ae295542"

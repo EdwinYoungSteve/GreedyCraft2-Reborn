@@ -1,13 +1,13 @@
 {
 	title: "§b还在跳动！",
-	x: -11.0d,
+	x: -12.5d,
 	y: 14.0d,
 	description: "合成木乃伊诱饵",
 	text: [
 		""
 	],
 	dependencies: [
-		"355fce12"
+		"7b44eac4"
 	],
 	tasks: [{
 		uid: "ff43e994",

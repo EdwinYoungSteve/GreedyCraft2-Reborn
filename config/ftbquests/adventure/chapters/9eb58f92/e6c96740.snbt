@@ -1,6 +1,11 @@
 {
+	title: "§b四倍产矿",
 	x: -5.0d,
 	y: -2.0d,
+	description: "制作一个化学压射室",
+	text: [
+		""
+	],
 	dependencies: [
 		"3851128c"
 	],

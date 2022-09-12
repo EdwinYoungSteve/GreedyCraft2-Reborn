@@ -20,12 +20,6 @@
 		count: 32
 	},
 	{
-		uid: "b5886fba",
-		type: "item",
-		item: "nyx:fallen_star",
-		count: 4
-	},
-	{
 		uid: "4b6f23c1",
 		type: "random",
 		table: 1

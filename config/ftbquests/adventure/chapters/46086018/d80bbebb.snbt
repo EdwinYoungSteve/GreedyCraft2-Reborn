@@ -1,15 +1,14 @@
 {
 	title: "§b敲响神圣RPG之门",
 	x: -1.5d,
-	y: 3.0d,
+	y: 1.5d,
 	description: "制作神秘之钟，用于召唤远古之力",
 	text: [
 		""
 	],
 	dependencies: [
 		"860f8e50",
-		"feae1cad",
-		"5e25f9ae"
+		"feae1cad"
 	],
 	tasks: [{
 		uid: "de559575",

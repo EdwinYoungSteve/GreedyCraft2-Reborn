@@ -1,0 +1,31 @@
+{
+	x: 2.0d,
+	y: 12.5d,
+	dependencies: [
+		"735f928e"
+	],
+	tasks: [{
+		uid: "562990f5",
+		type: "item",
+		items: [{
+			item: "evilcraft:vengeance_ring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05d70162",
+		type: "item",
+		item: "evilcraft:vengeance_ring"
+	},
+	{
+		uid: "e3af0140",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "fdbd5b8c",
+		type: "random",
+		table: 1
+	}]
+}

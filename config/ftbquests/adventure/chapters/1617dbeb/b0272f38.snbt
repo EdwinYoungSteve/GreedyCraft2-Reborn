@@ -1,0 +1,11 @@
+{
+	x: -5.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "249893f8",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:plasmarite_seeds"
+		}]
+	}]
+}

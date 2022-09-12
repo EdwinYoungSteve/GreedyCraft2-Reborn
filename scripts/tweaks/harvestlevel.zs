@@ -26,3 +26,70 @@
 <item:astralsorcery:blockcustomore:1>.asBlock().definition.hardness = 12.0f;
 <item:astralsorcery:blockcustomore:1>.asBlock().definition.setHarvestLevel("pickaxe", 4);
 
+<item:divinerpg:netherite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 4);
+
+<item:journey:storonore>.asBlock().definition.setHarvestLevel("pickaxe", 8);
+
+<item:journey:luniumore>.asBlock().definition.setHarvestLevel("pickaxe", 5);
+
+<item:journey:shadiumore>.asBlock().definition.setHarvestLevel("pickaxe", 5);
+
+<item:divinerpg:realmite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 4);
+
+<item:divinerpg:arlemite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 4);
+
+<item:divinerpg:rupee_ore>.asBlock().definition.setHarvestLevel("pickaxe", 4);
+
+<item:divinerpg:eden_ore>.asBlock().definition.setHarvestLevel("pickaxe", 6);
+
+<item:divinerpg:wildwood_ore>.asBlock().definition.setHarvestLevel("pickaxe", 6);
+
+<item:divinerpg:apalachia_ore>.asBlock().definition.setHarvestLevel("pickaxe", 6);
+
+<item:divinerpg:skythern_ore>.asBlock().definition.setHarvestLevel("pickaxe", 7);
+
+<item:divinerpg:mortum_ore>.asBlock().definition.setHarvestLevel("pickaxe", 7);
+
+<item:theaurorian:moonstoneore>.asBlock().definition.setHarvestLevel("pickaxe", 6);
+
+<item:theaurorian:ceruleanore>.asBlock().definition.setHarvestLevel("pickaxe", 7);
+
+<item:theaurorian:geodeore>.asBlock().definition.setHarvestLevel("pickaxe", 7);
+
+<item:journey:celestiumore>.asBlock().definition.setHarvestLevel("pickaxe", 8);
+
+<item:journey:mekyumore>.asBlock().definition.setHarvestLevel("pickaxe", 8);
+
+<item:journey:koriteore>.asBlock().definition.setHarvestLevel("pickaxe", 8);
+
+<item:journey:flairiumore>.asBlock().definition.setHarvestLevel("pickaxe", 8);
+
+<item:journey:gorbiteore>.asBlock().definition.setHarvestLevel("pickaxe", 8);
+
+<item:journey:orbaditeore>.asBlock().definition.setHarvestLevel("pickaxe", 8);
+
+<item:mist:niobium_ore>.asBlock().definition.setHarvestLevel("pickaxe", 8);
+
+<item:journey:desore>.asBlock().definition.setHarvestLevel("pickaxe", 9);
+
+<item:thebetweenlands:syrmorite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 9);
+
+<item:thebetweenlands:valonite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 9);
+
+<item:thebetweenlands:octine_ore>.asBlock().definition.setHarvestLevel("pickaxe", 9);
+
+<item:thebetweenlands:sulfur_ore>.asBlock().definition.setHarvestLevel("pickaxe", 5);
+
+<item:blue_skies:falsite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+
+<item:blue_skies:ventium_ore>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+
+<item:blue_skies:horizonite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+
+<item:tiths:ore_altairium>.asBlock().definition.setHarvestLevel("pickaxe", 11);
+
+<item:tiths:ore_polarium>.asBlock().definition.setHarvestLevel("pickaxe", 11);
+
+<item:tiths:ore_hothium>.asBlock().definition.setHarvestLevel("pickaxe", 11);
+
+<item:tiths:ore_halleium>.asBlock().definition.setHarvestLevel("pickaxe", 11);

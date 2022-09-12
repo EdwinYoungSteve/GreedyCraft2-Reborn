@@ -1,6 +1,11 @@
 {
+	title: "§bmek的基础！",
 	x: -9.5d,
 	y: -0.5d,
+	description: "挖掘一个锇矿石",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "e2add549",
 		type: "item",

@@ -1,0 +1,25 @@
+{
+	title: "§b风暴残余",
+	x: -5.0d,
+	y: 7.0d,
+	description: "击败凋零风暴，获得风暴碎片",
+	text: [
+		""
+	],
+	dependencies: [
+		"0b8258e7"
+	],
+	tasks: [{
+		uid: "57b4340f",
+		type: "item",
+		items: [{
+			item: "gct_ores:stormy_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "e950eb7b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "storm_breaker"
+	}]
+}

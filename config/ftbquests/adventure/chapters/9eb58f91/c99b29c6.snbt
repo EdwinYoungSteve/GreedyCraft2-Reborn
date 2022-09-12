@@ -1,6 +1,11 @@
 {
+	title: "§b灵魂绑定器",
 	x: 9.0d,
 	y: -1.5d,
+	description: "制作灵魂绑定器",
+	text: [
+		""
+	],
 	dependencies: [
 		"ba088ac9"
 	],
@@ -10,5 +15,10 @@
 		items: [{
 			item: "enderio:block_soul_binder"
 		}]
+	}],
+	rewards: [{
+		uid: "ab4a3b9e",
+		type: "xp",
+		xp: 2000
 	}]
 }

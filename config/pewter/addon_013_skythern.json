@@ -64,16 +64,14 @@
   },
   "smeltingItems": {
     "ingot": [
-      "divinerpg:skythern_fragments"
+      "additions:greedycraft-skythern_ingot"
     ],
     "block": [
-      "divinerpg:skythern_block"
     ],
     "nugget": [
       "hammermetals:skythern_nugget"
     ],
     "ore": [
-      "divinerpg:skythern_ore"
     ],
     "dust": [
       "hammermetals:skythern_dust"

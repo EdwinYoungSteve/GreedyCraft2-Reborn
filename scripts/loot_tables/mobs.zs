@@ -79,6 +79,7 @@ LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main")
 LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addItemEntry(<thermalfoundation:material:160>, 1, 1, [Functions.setCount(4, 16)], []);
 LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addItemEntry(<minecraft:iron_ingot>, 1, 1, [Functions.setCount(32, 64)], []);
 LootTweaker.getTable("mowziesmobs:entities/ferrous_wroughtnaut").getPool("main").addLootTableEntry("minecraft:chests/simple_dungeon", 1, 1, [Conditions.killedByPlayer()]);
+LootTweaker.getTable("ageofminecraft:entities/ghasther").getPool("main").addItemEntry(<additions:greedycraft-lavarite_ingot>, 1, 1, [Functions.setCount(1, 2)], []);
 
 LootTweaker.getTable("aether_legacy:entities/bosses/slider").getPool("main").addItemEntry(<additions:greedycraft-soul_of_slider>, 1, 1, [Functions.setCount(2, 8)], []);
 LootTweaker.getTable("aether_legacy:entities/bosses/valkyrie_queen").getPool("main").addItemEntry(<additions:greedycraft-gem_of_valkyrie>, 1, 1, [Functions.setCount(2, 8)], []);
@@ -88,6 +89,8 @@ LootTweaker.getTable("journey:mobs/boss/nether_beast").getPool("main").addItemEn
 LootTweaker.getTable("journey:mobs/boss/withering_beast").getPool("main").addItemEntry(<additions:greedycraft-hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
 LootTweaker.getTable("journey:mobs/boss/calcia").getPool("main").addItemEntry(<additions:greedycraft-hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
 LootTweaker.getTable("journey:mobs/boss/soul_watcher").getPool("main").addItemEntry(<additions:greedycraft-hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
+
+LootTweaker.getTable("ageofminecraft:entities/wither_storm").getPool("main").addItemEntry(<gct_ores:stormy_fragment_large>, 1, 1, [Functions.setCount(5, 5)], []);
 
 if (CalendarUtil.isChristmas()) {
     for mob in mobList {

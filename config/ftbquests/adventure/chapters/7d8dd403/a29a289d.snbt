@@ -1,7 +1,8 @@
 {
 	title: "§b结束了？还早着呢……",
 	x: 2.5d,
-	y: 4.0d,
+	y: 5.5d,
+	shape: "gear",
 	description: "击杀末影龙",
 	text: [
 		"困难模式，新的挑战"

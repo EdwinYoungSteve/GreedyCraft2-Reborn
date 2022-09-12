@@ -1,0 +1,11 @@
+{
+	x: -11.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "54d1400a",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:freezite_seeds"
+		}]
+	}]
+}

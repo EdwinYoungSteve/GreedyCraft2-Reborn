@@ -1,6 +1,11 @@
 {
+	title: "§b五倍产矿",
 	x: -3.5d,
 	y: 2.5d,
+	description: "制作一个化学溶解室",
+	text: [
+		""
+	],
 	dependencies: [
 		"ce2114e7"
 	],

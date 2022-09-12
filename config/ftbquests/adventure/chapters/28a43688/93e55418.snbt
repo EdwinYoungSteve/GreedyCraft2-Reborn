@@ -1,6 +1,11 @@
 {
+	title: "§b它的密度有多大？！",
 	x: -14.0d,
 	y: 4.0d,
+	description: "合成中子素锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"2103bcb6"
 	],

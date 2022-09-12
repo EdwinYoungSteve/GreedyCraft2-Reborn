@@ -1,0 +1,13 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "6dc57436",
+		type: "item",
+		items: [{
+			item: "botania:obediencestick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

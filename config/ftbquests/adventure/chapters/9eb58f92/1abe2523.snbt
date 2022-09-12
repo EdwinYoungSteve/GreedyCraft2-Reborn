@@ -1,6 +1,11 @@
 {
+	title: "§b氧化反应",
 	x: -6.5d,
 	y: 1.0d,
+	description: "制作一个化学氧化机",
+	text: [
+		""
+	],
 	dependencies: [
 		"ac4dcc2a"
 	],

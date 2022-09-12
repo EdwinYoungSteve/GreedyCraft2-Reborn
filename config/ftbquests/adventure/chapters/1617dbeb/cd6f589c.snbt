@@ -1,0 +1,11 @@
+{
+	x: -8.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: "7b641959",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:oceanium_seeds"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: -2.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: "0a433076",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:snowingium_seeds"
+		}]
+	}]
+}

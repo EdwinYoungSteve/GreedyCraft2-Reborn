@@ -1,13 +1,10 @@
 {
 	title: "§b压力山大",
-	x: 6.5d,
+	x: -1.0d,
 	y: 1.0d,
 	description: "制作压缩机",
 	text: [
 		""
-	],
-	dependencies: [
-		"56ae2c57"
 	],
 	tasks: [{
 		uid: "31ca7cd6",

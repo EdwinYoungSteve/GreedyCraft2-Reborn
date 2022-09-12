@@ -1,13 +1,13 @@
 {
 	title: "§b紫色凝聚板",
-	x: 2.5d,
-	y: 0.0d,
+	x: 6.5d,
+	y: -2.5d,
 	description: "制作盖亚凝聚板，更强大的凝聚装置",
 	text: [
 		""
 	],
 	dependencies: [
-		"20897b55"
+		"f5b9401b"
 	],
 	tasks: [{
 		uid: "469703b0",

@@ -1,6 +1,11 @@
 {
+	title: "§b多倍矿的基础",
 	x: -8.0d,
 	y: -2.0d,
+	description: "制作一个富集仓",
+	text: [
+		"AE的高纯水晶貌似能用这玩意儿做？"
+	],
 	dependencies: [
 		"f432f2f5"
 	],

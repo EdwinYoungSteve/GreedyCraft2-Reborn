@@ -1,0 +1,11 @@
+{
+	x: 3.0d,
+	y: 12.0d,
+	tasks: [{
+		uid: "68009b7f",
+		type: "item",
+		items: [{
+			item: "additions:asgardium_ingot"
+		}]
+	}]
+}

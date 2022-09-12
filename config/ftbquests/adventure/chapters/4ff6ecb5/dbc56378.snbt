@@ -1,9 +1,9 @@
 {
 	title: "注魔失败？不如增加一下周期增益",
-	x: -6.5d,
-	y: -2.0d,
+	x: -2.5d,
+	y: 4.0d,
 	dependencies: [
-		"d5f049de"
+		"c11fbfe1"
 	],
 	tasks: [{
 		uid: "ed85dc4b",

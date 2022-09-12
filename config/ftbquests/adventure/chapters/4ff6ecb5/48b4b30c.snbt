@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 4.0d,
+	dependencies: [
+		"aaa91c72"
+	],
+	tasks: [{
+		uid: "fe7d2c51",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:fracture_locator"
+		}]
+	}]
+}

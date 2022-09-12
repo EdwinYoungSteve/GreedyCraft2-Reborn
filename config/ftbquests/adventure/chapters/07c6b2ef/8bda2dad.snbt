@@ -1,7 +1,7 @@
 {
 	title: "§b清洁能源III",
-	x: -4.0d,
-	y: -0.5d,
+	x: 6.5d,
+	y: -6.5d,
 	description: "制作指定的太阳能电池板",
 	text: [
 		""
@@ -19,6 +19,7 @@
 	rewards: [{
 		uid: "6d5d61dc",
 		type: "item",
+		team_reward: true,
 		item: "solarflux:solar_panel_3"
 	},
 	{

@@ -1,0 +1,30 @@
+{
+	title: "药学的准备工作",
+	x: -15.5d,
+	y: 12.5d,
+	text: [
+		"镰刀用来收集材料",
+		"网用来抓壁虎测试要素"
+	],
+	dependencies: [
+		"437f33f1"
+	],
+	tasks: [{
+		uid: "7895d5d4",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sickle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "95c2bfe5",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:net"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

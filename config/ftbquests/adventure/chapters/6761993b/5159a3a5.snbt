@@ -1,6 +1,6 @@
 {
-	x: 2.0d,
-	y: 0.0d,
+	x: -2.5d,
+	y: 2.5d,
 	dependencies: [
 		"1011a4ec"
 	],
@@ -10,5 +10,21 @@
 		items: [{
 			item: "bloodarsenal:base_item 1 4"
 		}]
+	}],
+	rewards: [{
+		uid: "8b8305e4",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "595d05b7",
+		type: "item",
+		item: "bloodarsenal:base_item 1 4",
+		count: 3
+	},
+	{
+		uid: "f073cfa3",
+		type: "xp",
+		xp: 1250
 	}]
 }

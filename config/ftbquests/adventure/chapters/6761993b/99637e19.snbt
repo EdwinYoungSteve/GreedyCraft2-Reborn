@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 7.5d,
+	dependencies: [
+		"70853567"
+	],
+	tasks: [{
+		uid: "23c46664",
+		type: "item",
+		items: [{
+			item: "evilcraft:bowl_of_promises 1 2"
+		}]
+	}]
+}

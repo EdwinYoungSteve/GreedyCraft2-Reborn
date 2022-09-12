@@ -1,13 +1,13 @@
 {
 	title: "§b这是物品还是方块？",
-	x: 3.5d,
-	y: -0.5d,
+	x: -5.5d,
+	y: -6.5d,
 	description: "制作机器框架，热力机器的基础材料！",
 	text: [
 		""
 	],
 	dependencies: [
-		"a7d0748a"
+		"244b3be7"
 	],
 	tasks: [{
 		uid: "c1f5d454",

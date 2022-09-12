@@ -1,13 +1,13 @@
 {
 	title: "§b暮色的精华，凝聚于此",
-	x: -3.5d,
-	y: 8.5d,
+	x: -9.0d,
+	y: 10.0d,
 	description: "合成强化暮光宝石",
 	text: [
 		""
 	],
 	dependencies: [
-		"132f819d"
+		"e252e6f5"
 	],
 	tasks: [{
 		uid: "632a2490",

@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"aabc0db4"
+	],
+	tasks: [{
+		uid: "55a331fe",
+		type: "item",
+		items: [{
+			item: "divinerpg:infernal_flame"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

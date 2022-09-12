@@ -1,6 +1,11 @@
 {
+	title: "§b反应堆的核心！",
 	x: 1.0d,
 	y: 1.0d,
+	description: "制作反应控制器",
+	text: [
+		""
+	],
 	dependencies: [
 		"97cdb294"
 	],

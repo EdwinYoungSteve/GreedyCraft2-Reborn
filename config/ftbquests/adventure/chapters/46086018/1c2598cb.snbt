@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: 10.5d,
+	tasks: [{
+		uid: "2aee0188",
+		type: "item",
+		items: [{
+			item: "additions:aeroite_ingot"
+		}]
+	}]
+}

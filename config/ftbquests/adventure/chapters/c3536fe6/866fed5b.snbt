@@ -42,5 +42,11 @@
 		uid: "7167cae3",
 		type: "xp",
 		xp: 30000
+	},
+	{
+		uid: "9fd4b050",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "gatekeeper"
 	}]
 }

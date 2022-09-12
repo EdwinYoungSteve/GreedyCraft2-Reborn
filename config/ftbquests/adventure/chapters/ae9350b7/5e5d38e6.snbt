@@ -1,10 +1,13 @@
 {
 	title: "§b我要毁灭一切",
-	x: 0.0d,
+	x: 1.5d,
 	y: 4.5d,
 	description: "使用招魂石召唤并击杀毁灭者，获得毁灭精华",
 	text: [
 		""
+	],
+	dependencies: [
+		"ef0524d0"
 	],
 	tasks: [{
 		uid: "67806b93",

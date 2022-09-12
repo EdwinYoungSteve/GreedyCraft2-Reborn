@@ -1,9 +1,9 @@
 {
 	title: "看清万物本源",
-	x: -7.0d,
-	y: -1.0d,
+	x: -0.5d,
+	y: 0.0d,
 	dependencies: [
-		"2b2f5f2a"
+		"e82bcb02"
 	],
 	tasks: [{
 		uid: "b3e01288",

@@ -1,13 +1,14 @@
 {
 	title: "§b无上荣耀",
-	x: 4.5d,
-	y: 4.5d,
+	x: 0.0d,
+	y: 13.5d,
+	shape: "gear",
 	description: "召唤并击杀凋灵，获得下界之星！",
 	text: [
 		"提示：建议试试硬化玻璃，真的很有效"
 	],
 	dependencies: [
-		"9dfeab9a"
+		"6124dc63"
 	],
 	tasks: [{
 		uid: "27c00b22",

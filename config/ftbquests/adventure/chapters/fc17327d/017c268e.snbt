@@ -1,11 +1,12 @@
 {
 	title: "§b深水区",
-	x: -6.5d,
-	y: 5.5d,
+	x: -10.5d,
+	y: 5.0d,
 	description: "挖掘一块锰矿石",
 	text: [
 		""
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"8636a008"
 	],

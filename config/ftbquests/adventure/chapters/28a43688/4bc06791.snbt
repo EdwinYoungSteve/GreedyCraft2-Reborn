@@ -1,0 +1,19 @@
+{
+	title: "§b漆黑一团",
+	x: -12.5d,
+	y: 5.5d,
+	description: "合成暗物质",
+	text: [
+		""
+	],
+	dependencies: [
+		"f2916152"
+	],
+	tasks: [{
+		uid: "9afdad1e",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter"
+		}]
+	}]
+}

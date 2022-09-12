@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: 12.0d,
+	tasks: [{
+		uid: "a66773e6",
+		type: "item",
+		items: [{
+			item: "additions:aqualite_ingot"
+		}]
+	}]
+}

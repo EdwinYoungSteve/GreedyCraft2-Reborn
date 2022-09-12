@@ -1,7 +1,7 @@
 {
 	title: "§b大地守护者I",
-	x: 7.0d,
-	y: -3.0d,
+	x: 8.0d,
+	y: -1.5d,
 	description: "击败盖亚守护者I",
 	text: [
 		""

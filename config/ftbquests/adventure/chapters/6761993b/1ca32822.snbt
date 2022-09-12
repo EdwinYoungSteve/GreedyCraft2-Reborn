@@ -10,5 +10,21 @@
 		items: [{
 			item: "bloodmagic:blood_rune"
 		}]
+	}],
+	rewards: [{
+		uid: "b5a38254",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "bb2e2e80",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "da5103a4",
+		type: "item",
+		item: "bloodmagic:blood_rune",
+		count: 16
 	}]
 }

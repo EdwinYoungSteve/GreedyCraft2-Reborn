@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x696e5f,
+    "langs": {
+        "material": {
+            "en": "Ethaxium",
+            "zh": "伊桑斯"
+        }
+    }
+}

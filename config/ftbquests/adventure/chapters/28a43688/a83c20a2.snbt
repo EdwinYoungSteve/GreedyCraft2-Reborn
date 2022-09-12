@@ -1,6 +1,11 @@
 {
+	title: "§b水晶矩阵",
 	x: -12.5d,
 	y: 2.5d,
+	description: "合成水晶矩阵锭，无尽贪婪的开始",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "1a14ff71",
 		type: "item",

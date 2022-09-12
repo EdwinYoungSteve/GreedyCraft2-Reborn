@@ -6,6 +6,9 @@
 	text: [
 		"纯粹看脸的世界，真的"
 	],
+	dependencies: [
+		"fd2c4a49"
+	],
 	tasks: [{
 		uid: "514dcea8",
 		type: "item",

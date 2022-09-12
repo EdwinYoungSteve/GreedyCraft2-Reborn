@@ -1,0 +1,11 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "db3b13e4",
+		type: "item",
+		items: [{
+			item: "botanianeedsit:mana_charger"
+		}]
+	}]
+}

@@ -6,6 +6,7 @@
 	text: [
 		"灵魂树在交错次元中还算常见……"
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"92b01be6"
 	],

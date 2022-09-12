@@ -421,21 +421,6 @@ orichalcos.addBowMaterialStats(getDrawSpeed(1.4) as float, 1.3, 13.0);
 orichalcos.addProjectileMaterialStats();
 orichalcos.register();
 
-val yellorium = MaterialBuilder.create("yellorium");
-yellorium.color = Color.fromHex("eeff41").getIntColor(); 
-yellorium.craftable = false;
-yellorium.castable = true;
-yellorium.representativeItem = <item:bigreactors:ingotyellorium>;
-yellorium.liquid = <liquid:yellorium>;
-yellorium.addItem(<ore:ingotYellorium>);
-yellorium.localizedName = game.localize("greedycraft.tconstruct.material.yellorium.name");
-yellorium.addHeadMaterialStats(200, 8.6, 9.2, 4);
-yellorium.addHandleMaterialStats(1.1, 300);
-yellorium.addExtraMaterialStats(240);
-yellorium.addBowMaterialStats(getDrawSpeed(1.5) as float, 1.2, 3.0);
-yellorium.addProjectileMaterialStats();
-yellorium.register();
-
 val chocolate = MaterialBuilder.create("chocolate");
 chocolate.color = Color.fromHex("795548").getIntColor(); 
 chocolate.craftable = true;
@@ -1054,6 +1039,19 @@ poop.addBowMaterialStats(getDrawSpeed(1.1) as float, 4.5, 1.4);
 poop.addProjectileMaterialStats();
 poop.register();
 
+val hellstone = mods.contenttweaker.tconstruct.MaterialBuilder.create("bloodcrust");//材料id
+hellstone.color = Color.fromHex("b71e14").getIntColor();//颜色 
+hellstone.craftable = false;//部件加工台
+hellstone.castable = true;//浇筑
+hellstone.representativeItem = <item:journey:hellstoneingot>;//显示的材料
+hellstone.addItem(<item:journey:hellstoneingot>);//需要的材料
+hellstone.liquid = <liquid:bloodcrust>;
+hellstone.localizedName = game.localize("greedycraft.tconstruct.material.bloodcrust.name");
+hellstone.addHeadMaterialStats(1220, 9.5, 8, 4);//头部
+hellstone.addHandleMaterialStats(1.3, 500);//手柄
+hellstone.addExtraMaterialStats(250);//额外
+hellstone.register();
+
 val hellcrust = mods.contenttweaker.tconstruct.MaterialBuilder.create("hellcrust");//材料id
 hellcrust.color = Color.fromHex("505050").getIntColor();//颜色 
 hellcrust.craftable = false;//部件加工台
@@ -1105,6 +1103,18 @@ aurorianite.addHeadMaterialStats(950, 6.15, 7.5, 4);//头部
 aurorianite.addHandleMaterialStats(1.5, 0);//手柄
 aurorianite.addExtraMaterialStats(250);//额外
 aurorianite.register();
+
+val eucalyptus = mods.contenttweaker.tconstruct.MaterialBuilder.create("eucalyptus");//材料id
+eucalyptus.color = Color.fromHex("4b443e").getIntColor();//颜色 
+eucalyptus.craftable = true;//部件加工台
+eucalyptus.castable = false;//浇筑
+eucalyptus.representativeItem = <item:journey:eucagoldlog>;//显示的材料
+eucalyptus.addItem(<item:journey:eucagoldlog>);//需要的材料
+eucalyptus.localizedName = game.localize("greedycraft.tconstruct.material.eucalyptus.name");
+eucalyptus.addHeadMaterialStats(50, 2.5, 3, 1);//头部
+eucalyptus.addHandleMaterialStats(1.2, 30);//手柄
+eucalyptus.addExtraMaterialStats(25);//额外
+eucalyptus.register();
 
 val depthslight = mods.contenttweaker.tconstruct.MaterialBuilder.create("depthslight");//材料id
 depthslight.color = Color.fromHex("2168ad").getIntColor();//颜色 
@@ -1274,7 +1284,7 @@ mekyum.register();
 
 val celestium = mods.contenttweaker.tconstruct.MaterialBuilder.create("celestium");//材料id
 celestium.color = Color.fromHex("51947b").getIntColor();//颜色 
-celestium.craftable = false;//部件加工台image.png
+celestium.craftable = false;//部件加工台
 celestium.castable = true;//浇筑
 celestium.representativeItem = <item:journey:celestiumingot>;//显示的材料
 celestium.addItem(<item:journey:celestiumingot>);//需要的材料

@@ -1,0 +1,28 @@
+{
+	x: 11.5d,
+	y: 4.0d,
+	text: [
+		"将元动模块安装至护手后靠近裂隙便可对裂隙进行汲取"
+	],
+	dependencies: [
+		"83c1f24c",
+		"cfa8abb3"
+	],
+	tasks: [{
+		uid: "de8124b9",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:augment_caster_rift_energy_storage",
+			ForgeCaps: {
+				Parent: {
+					augment: {},
+					energy: {
+						energy: 0L
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

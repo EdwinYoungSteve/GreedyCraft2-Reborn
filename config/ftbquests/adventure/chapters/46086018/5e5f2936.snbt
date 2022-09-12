@@ -1,7 +1,7 @@
 {
 	title: "§b这是我的领域",
 	x: -3.0d,
-	y: 1.5d,
+	y: 0.0d,
 	description: "挖掘一块诺米特矿石",
 	text: [
 		""

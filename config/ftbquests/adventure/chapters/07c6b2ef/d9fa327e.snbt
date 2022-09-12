@@ -1,13 +1,10 @@
 {
 	title: "§b它的温度究竟是多少？！！",
-	x: 5.0d,
-	y: -2.0d,
+	x: -4.0d,
+	y: -3.5d,
 	description: "制作熔岩炉",
 	text: [
 		""
-	],
-	dependencies: [
-		"56ae2c57"
 	],
 	tasks: [{
 		uid: "b86a6120",

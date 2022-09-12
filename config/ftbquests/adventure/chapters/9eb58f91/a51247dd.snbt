@@ -1,6 +1,11 @@
 {
+	title: "§b支配黑洞！",
 	x: 9.0d,
 	y: -3.0d,
+	description: "制作一个黑洞合金锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"533ded67",
 		"92f1fcda"
@@ -11,5 +16,16 @@
 		items: [{
 			item: "additions:eioaddon-blackhole_alloy_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "0a54dbbb",
+		type: "item",
+		item: "additions:eioaddon-blackhole_alloy_ingot",
+		count: 5
+	},
+	{
+		uid: "d4c55c6a",
+		type: "xp",
+		xp: 3000
 	}]
 }

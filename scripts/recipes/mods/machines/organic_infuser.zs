@@ -131,7 +131,6 @@ val crops as IItemStack[][] = [
     [<mysticalagriculture:draconium_seeds>, <mysticalagriculture:draconium_essence>],
     [<mysticalagriculture:wither_skeleton_seeds>, <mysticalagriculture:wither_skeleton_essence>],
     [<mysticalagriculture:iridium_seeds>, <mysticalagriculture:iridium_essence>],
-    [<mysticalagriculture:yellorium_seeds>, <mysticalagriculture:yellorium_essence>],
     [<mysticalagriculture:manyullyn_seeds>, <mysticalagriculture:manyullyn_essence>],
     [<mysticalagriculture:ender_amethyst_seeds>, <mysticalagriculture:ender_amethyst_essence>],
     [<mysticalagriculture:emerald_seeds>, <mysticalagriculture:emerald_essence>],

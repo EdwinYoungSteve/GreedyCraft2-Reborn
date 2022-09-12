@@ -2,7 +2,7 @@
 	title: "§b疼吗",
 	x: 4.5d,
 	y: 15.0d,
-	description: "累计摔落高度达到10000格",
+	description: "累计摔落高度达到50000格",
 	text: [
 		""
 	],
@@ -11,7 +11,7 @@
 		type: "stat",
 		icon: "thermalfoundation:armor.boots_copper",
 		stat: "stat.fallOneCm",
-		value: 10000
+		value: 80000
 	}],
 	rewards: [{
 		uid: "4d7326bb",

@@ -1,6 +1,11 @@
 {
+	title: "§b贵重金属",
 	x: -9.5d,
 	y: -2.0d,
+	description: "挖掘一个铂矿石",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "3043a263",
 		type: "item",

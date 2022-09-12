@@ -233,6 +233,10 @@ greedycraft.tconstruct.armor_trait.strongVaccineTrait.name=强效疫苗
 greedycraft.tconstruct.armor_trait.strongVaccineTrait.desc=§o第二针疫苗！§r\n§f使你免疫珊瑚和恐惧瘟疫。
 greedycraft.tconstruct.armor_trait.warpDrainTrait.name=扭曲汲取
 greedycraft.tconstruct.armor_trait.warpDrainTrait.desc=§o扭曲拜拜！§r\n§f偶尔会吸收你的扭曲值并将其转化为正面Buff。（非暂时的扭曲较难汲取，永久扭曲无法汲取）
+//gt 2
+greedycraft.tconstruct.armor_trait.foglightTrait.name=雾照
+greedycraft.tconstruct.armor_trait.foglightTrait.desc=§o雾真的很大！§r\n§f在海拔低于100时，你的肾上腺素开始自然飙升？
+//
 greedycraft.tconstruct.material.adaminite.name=铿金
 greedycraft.tconstruct.material.aeonsteel.name=恒钢
 greedycraft.tconstruct.material.aeroite.name=云浮
@@ -267,7 +271,7 @@ greedycraft.tconstruct.material.heart_crystal.name=水晶之心
 greedycraft.tconstruct.material.hephaestite.name=赫菲斯辛
 greedycraft.tconstruct.material.infernium.name=永燃
 greedycraft.tconstruct.material.insanium.name=究极精华
-greedycraft.tconstruct.material.manganese.name=锰铁
+greedycraft.tconstruct.material.manganese.name=锰
 greedycraft.tconstruct.material.manganese_steel.name=锰钢
 greedycraft.tconstruct.material.meteor.name=陨星
 greedycraft.tconstruct.material.mithminite.name=秘金
@@ -299,9 +303,31 @@ greedycraft.tconstruct.material.stellar_alloy.name=恒星合金
 greedycraft.tconstruct.material.strong_tofu_gem.name=强化豆腐宝石
 greedycraft.tconstruct.material.terra_alloy.name=大地合金
 greedycraft.tconstruct.material.terrestrial.name=天地宝晶
-greedycraft.tconstruct.material.titanium.name=钛金
+greedycraft.tconstruct.material.titanium.name=钛
 greedycraft.tconstruct.material.tofu_gem.name=豆腐宝石
 greedycraft.tconstruct.material.yellorium.name=黄铀
+//gt 2
+greedycraft.tconstruct.material.bloodcrust.name=狱石
+greedycraft.tconstruct.material.hellcrust.name=焦岩
+greedycraft.tconstruct.material.umbra.name=本影
+greedycraft.tconstruct.material.crystalline.name=月凝晶
+greedycraft.tconstruct.material.aurorianite.name=极光
+greedycraft.tconstruct.material.eucalyptus.name=桉树木
+greedycraft.tconstruct.material.depthslight.name=暗萤石
+greedycraft.tconstruct.material.corbalog.name=腐杉木
+greedycraft.tconstruct.material.niobium.name=铌
+greedycraft.tconstruct.material.flairium.name=暗金
+greedycraft.tconstruct.material.des.name=靛钢
+greedycraft.tconstruct.material.orbadite.name=磷铁
+greedycraft.tconstruct.material.storon.name=天金
+greedycraft.tconstruct.material.korite.name=蓝耀
+greedycraft.tconstruct.material.hardfoggystone.name=硬雾石
+greedycraft.tconstruct.material.horizonite.name=炙铁
+greedycraft.tconstruct.material.falsite.name=缪铁
+greedycraft.tconstruct.material.ventium.name=镰鼬铁
+greedycraft.tconstruct.material.mekyum.name=紫云母
+greedycraft.tconstruct.material.celestium.name=天青
+
 greedycraft.tconstruct.tool_trait.bloodlustTrait.desc=§o你变弱了，我变强了！ §r\n§f根据目标失去的生命值比率造成额外的伤害。
 greedycraft.tconstruct.tool_trait.bloodlustTrait.name=嗜血
 greedycraft.tconstruct.tool_trait.cotlifestealTrait.desc=§o偷走你的生命！§r\n§f攻击敌人时有概率恢复少量生命值，对亡灵生物无效。
@@ -367,9 +393,12 @@ greedycraft.tconstruct.tool_trait.madnessTrait.desc=§o究竟是人性的扭曲�
 greedycraft.tool_trait.tooltip.damage_increase=§9武器伤害加成：%s%%
 //gt 2
 greedycraft.tconstruct.tool_trait.strongmoonTrait.name=强月
-greedycraft.tconstruct.tool_trait.strongmoonTrait.desc=§o好大好圆....的月亮§r\n夜晚奋起反击，白天畏畏缩缩。
+greedycraft.tconstruct.tool_trait.strongmoonTrait.desc=§o好大好圆....的月亮§r\n§f夜晚奋起反击，白天畏畏缩缩。
 greedycraft.tconstruct.tool_trait.aurorapowerTrait.name=极光之力
-greedycraft.tconstruct.tool_trait.aurorapowerTrait.desc=维度内x2，维度外看月亮脸色，最高约3.5倍
+greedycraft.tconstruct.tool_trait.aurorapowerTrait.desc=§o将xxx的力量借给我吧§r\n§f维度内x2，维度外看月亮脸色，最高约3.5倍
+greedycraft.tconstruct.tool_trait.foglightTrait.name=雾照
+greedycraft.tconstruct.tool_trait.foglightTrait.desc=§o雾大，记得打开雾灯哟§r\n§f在海拔低于80时，你感觉到急迫感？
+//
 greedycraft.tooltip.abyssalcraft.gatewaykeydl.1=§c只有无畏之人才能进入恐惧之门。
 greedycraft.tooltip.abyssalcraft.gatewaykeyjzh.1=§c只有击败了巨龙的人才有资格进入奥穆索。
 greedycraft.tooltip.additions.greedycraft-aeroite_ore.1=§e请用铲子挖掘
@@ -1652,12 +1681,13 @@ greedycraft.tips.142=如果背景音乐长时间停止播放，请按Alt+小键�
 greedycraft.tips.143=你可以将各种稀奇古怪的石头放进固体离心机里，有可能得到十分稀有的物品！
 
 greedycraft.menu.modlist=模组列表
-greedycraft.menu.official_site=前往官网
+greedycraft.menu.official_site=前往官网（整合包暂无官网）
 greedycraft.menu.refresh=§b刷新主菜单界面
 greedycraft.menu.sponsor=§d请作者喝杯咖啡！ §5点击以前往作者的爱发电
 greedycraft.menu.github=§9GitHub§7项目地址
-greedycraft.menu.discord=§7加入我们的 §9Discord §7频道！
 greedycraft.menu.folder=§7打开§e整合包目录§7文件夹
+greedycraft.menu.account=§a点击这里切换游戏账号！
+greedycraft.menu.gameversion=§7§nMinecraft
 
 greedycraft.advancement.book.title=埃拉西亚记录手册
 greedycraft.advancement.book.desc=可以在地牢或百科全书中找到，拿在手上以完成成就。

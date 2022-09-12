@@ -1,6 +1,6 @@
 {
-	x: -1.0d,
-	y: -3.0d,
+	x: -7.0d,
+	y: 1.0d,
 	dependencies: [
 		"1c5509e5"
 	],
@@ -11,5 +11,15 @@
 			item: "bloodmagic:monster_soul"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bf13f9d4",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "50e87587",
+		type: "xp",
+		xp: 500
 	}]
 }

@@ -1,6 +1,6 @@
 {
 	title: "§b矩阵聚合",
-	x: 4.0d,
+	x: 2.5d,
 	y: 4.0d,
 	description: "获得聚合矩阵",
 	text: [

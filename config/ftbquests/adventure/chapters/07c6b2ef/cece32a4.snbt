@@ -1,13 +1,10 @@
 {
 	title: "§b空岛生存！",
-	x: 6.5d,
-	y: -2.0d,
+	x: -2.5d,
+	y: -3.5d,
 	description: "制作造石机",
 	text: [
 		""
-	],
-	dependencies: [
-		"56ae2c57"
 	],
 	tasks: [{
 		uid: "28fdb465",

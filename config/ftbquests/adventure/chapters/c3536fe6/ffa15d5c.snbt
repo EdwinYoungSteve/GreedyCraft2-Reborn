@@ -1,0 +1,14 @@
+{
+	x: -14.0d,
+	y: 12.5d,
+	dependencies: [
+		"f1b9975e"
+	],
+	tasks: [{
+		uid: "3d5892a3",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:tarminion"
+		}]
+	}]
+}

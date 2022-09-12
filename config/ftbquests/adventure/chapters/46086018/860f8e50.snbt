@@ -1,13 +1,12 @@
 {
 	title: "§b阴暗藏于深处",
-	x: -1.5d,
+	x: -3.0d,
 	y: 1.5d,
 	description: "获得阴影锭，卢比和诺米特的合金",
 	text: [
 		""
 	],
 	dependencies: [
-		"2384505d",
 		"5e5f2936"
 	],
 	tasks: [{

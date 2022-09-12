@@ -1,9 +1,10 @@
 {
 	title: "检查检查脑子？",
-	x: -8.5d,
-	y: -2.0d,
+	x: -6.5d,
+	y: -4.0d,
+	hide_dependency_lines: true,
 	dependencies: [
-		"d5f049de"
+		"2b2f5f2a"
 	],
 	tasks: [{
 		uid: "f88c0da0",

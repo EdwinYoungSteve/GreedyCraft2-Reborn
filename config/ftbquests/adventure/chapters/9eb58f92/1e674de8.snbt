@@ -1,6 +1,11 @@
 {
+	title: "§b基础升级",
 	x: -6.5d,
 	y: -0.5d,
+	description: "制作一个基础工厂安装器",
+	text: [
+		"右键mek基础机器使它升级成基础 工厂！"
+	],
 	dependencies: [
 		"e6c96740",
 		"c6790672",

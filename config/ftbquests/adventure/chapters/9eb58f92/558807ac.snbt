@@ -1,6 +1,11 @@
 {
+	title: "§b锂——氚？",
 	x: -0.5d,
 	y: 1.0d,
+	description: "制作太阳能中子活化器",
+	text: [
+		""
+	],
 	dependencies: [
 		"4ea7f1d7"
 	],

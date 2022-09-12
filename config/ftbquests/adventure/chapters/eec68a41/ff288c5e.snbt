@@ -1,7 +1,7 @@
 {
 	title: "§b自然催化器",
-	x: 1.0d,
-	y: -4.5d,
+	x: -0.5d,
+	y: -5.5d,
 	description: "制作泰拉催化器",
 	text: [
 		""
@@ -15,5 +15,16 @@
 		items: [{
 			item: "botanicadds:terra_catalyst"
 		}]
+	}],
+	rewards: [{
+		uid: "88937ce6",
+		type: "item",
+		item: "botania:manaresource 1 5",
+		count: 4
+	},
+	{
+		uid: "8d166686",
+		type: "xp",
+		xp: 500
 	}]
 }

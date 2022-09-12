@@ -1,0 +1,7 @@
+{
+	title: "【休闲·贰】神秘农业",
+	icon: "mysticalagriculture:crafting 1 33",
+	always_invisible: false,
+	group: 787295678,
+	default_quest_shape: ""
+}

@@ -14,7 +14,7 @@
 		uid: "74328403",
 		type: "item",
 		items: [{
-			id: "extracells:terminal.gas.wireless",
+			id: "aeadditions:terminal.gas.wireless",
 			tag: {}
 		}],
 		ignore_damage: true,

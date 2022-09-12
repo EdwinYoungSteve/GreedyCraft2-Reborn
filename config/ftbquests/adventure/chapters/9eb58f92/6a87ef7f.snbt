@@ -1,6 +1,11 @@
 {
+	title: "§b稀有金属，当然可以用来跳阶段",
 	x: -9.5d,
 	y: 1.0d,
+	description: "挖掘一个铱矿石",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "be13e7ff",
 		type: "item",

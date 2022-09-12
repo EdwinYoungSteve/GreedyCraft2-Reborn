@@ -1,0 +1,39 @@
+{
+	x: 2.0d,
+	y: 11.0d,
+	dependencies: [
+		"00fcf1c7"
+	],
+	tasks: [{
+		uid: "124702f3",
+		type: "item",
+		items: [{
+			id: "evilcraft:dark_tank",
+			tag: {
+				capacity: 16000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "068ceaaf",
+		type: "item",
+		item: {
+			id: "evilcraft:dark_tank",
+			tag: {
+				capacity: 64000
+			}
+		}
+	},
+	{
+		uid: "facb2946",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "b26dd56c",
+		type: "random",
+		table: 1
+	}]
+}

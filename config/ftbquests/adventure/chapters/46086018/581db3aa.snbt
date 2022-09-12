@@ -1,14 +1,15 @@
 {
 	title: "§b我有大勇气",
-	x: 6.0d,
+	x: 4.5d,
 	y: 4.5d,
 	description: "制作勇气之证！",
 	text: [
 		""
 	],
 	dependencies: [
+		"52fb328b",
 		"654ddba3",
-		"313fdb8d"
+		"44c0d397"
 	],
 	tasks: [{
 		uid: "ebd0acf2",

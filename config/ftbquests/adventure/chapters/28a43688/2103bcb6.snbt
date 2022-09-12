@@ -1,6 +1,11 @@
 {
+	title: "§b收集尘埃",
 	x: -14.0d,
 	y: 2.5d,
+	description: "制作中子素收集器，用于收集中子素尘埃",
+	text: [
+		""
+	],
 	dependencies: [
 		"a83c20a2"
 	],

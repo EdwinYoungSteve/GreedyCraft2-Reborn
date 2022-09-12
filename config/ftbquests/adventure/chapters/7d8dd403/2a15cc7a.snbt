@@ -1,7 +1,7 @@
 {
 	title: "§b击穿黑金",
-	x: 7.0d,
-	y: 11.5d,
+	x: 5.5d,
+	y: 13.0d,
 	description: "使用五种水晶召唤击杀黑金世界的6个BOSS",
 	text: [
 		""

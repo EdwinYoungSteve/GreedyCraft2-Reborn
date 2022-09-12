@@ -66,6 +66,9 @@ GameStagesUtil.stageHardmode.addOreReplacement(<gct_ores:reditrite_block:*>, <mi
 GameStagesUtil.stageHardmode.addOreReplacement(<additions:greedycraft-snowingium_ore:*>, <minecraft:snow>, false);
 GameStagesUtil.stageHardmode.addOreReplacement(<additions:greedycraft-oceanium_ore:*>, <quark:elder_prismarine>, false);
 GameStagesUtil.stageHardmode.addOreReplacement(<additions:greedycraft-adeninite_ore:*>, <abyssalcraft:stone:3>, false);
+GameStagesUtil.stageHardmode.addOreReplacement(<gct_ores:witherium_ore_overworld:*>, <minecraft:stone>, false);
+GameStagesUtil.stageHardmode.addOreReplacement(<gct_ores:witherium_ore_nether:*>, <minecraft:netherrack>, false);
+GameStagesUtil.stageHardmode.addOreReplacement(<gct_ores:witherium_ore_end:*>, <minecraft:end_stone>, false);
 
 GameStagesUtil.stageNether.addOreReplacement(<minecraft:anvil:*>, <additions:greedycraft-unknown_block>, false);
 GameStagesUtil.stageNether.addOreReplacement(<minecraft:beacon:*>, <additions:greedycraft-unknown_block>, false);
@@ -75,7 +78,6 @@ GameStagesUtil.stageNether.addOreReplacement(<netherendingores:ore_other_1>, <mi
 GameStagesUtil.stageNether.addOreReplacement(<ore:oreAeroite>, <aether_legacy:aercloud>, false);
 GameStagesUtil.stageNether.addOreReplacement(<ore:oreAqualite>, <minecraft:prismarine>, false);
 GameStagesUtil.stageNether.addOreReplacement(<thaumcraft:ore_quartz>, <minecraft:stone>, false);
-GameStagesUtil.stageNether.addOreReplacement(<embers:ore_quartz>, <minecraft:stone>, false);
 GameStagesUtil.stageNether.addOreReplacement(<divinerpg:rupee_ore>, <minecraft:stone>, false);
 GameStagesUtil.stageNether.addOreReplacement(<divinerpg:arlemite_ore>, <minecraft:stone>, false);
 GameStagesUtil.stageNether.addOreReplacement(<divinerpg:realmite_ore>, <minecraft:stone>, false);
@@ -86,7 +88,6 @@ GameStagesUtil.stageNoviceEngineer.addOreReplacement(<enderio:block_simple_furna
 GameStagesUtil.stageNoviceEngineer.addOreReplacement(<enderio:block_simple_sag_mill>, <additions:greedycraft-unknown_block>, false);
 GameStagesUtil.stageNoviceEngineer.addOreReplacement(<enderio:block_simple_stirling_generator>, <additions:greedycraft-unknown_block>, false);
 
-GameStagesUtil.stageSkilledEngineer.addOreReplacement(<bigreactors:oreyellorite>, <minecraft:stone>, false);
 GameStagesUtil.stageSkilledEngineer.addOreReplacement(<mekanism:oreblock>, <minecraft:stone>, false);
 GameStagesUtil.stageSkilledEngineer.addOreReplacement(<netherendingores:ore_end_modded_1:11>, <minecraft:end_stone>, false);
 GameStagesUtil.stageSkilledEngineer.addOreReplacement(<netherendingores:ore_end_modded_1:13>, <minecraft:end_stone>, false);
@@ -98,3 +99,9 @@ GameStagesUtil.stageSkilledEngineer.addOreReplacement(<netherendingores:ore_neth
 GameStagesUtil.stageSkilledEngineer.addOreReplacement(<netherendingores:ore_nether_modded_1:6>, <minecraft:netherrack>, false);
 GameStagesUtil.stageSkilledEngineer.addOreReplacement(<thermalfoundation:ore:6>, <minecraft:stone>, false);
 GameStagesUtil.stageSkilledEngineer.addOreReplacement(<thermalfoundation:ore:7>, <minecraft:stone>, false);
+
+GameStagesUtil.stageWitherSlayer.addOreReplacement(<journey:hellstoneore>, <minecraft:netherrack>, false);
+
+GameStagesUtil.stageChaotic.addOreReplacement(<additions:taigaddon-harcadium_ore>, <minecraft:stone>, false);
+GameStagesUtil.stageChaotic.addOreReplacement(<additions:taigaddon-nether_harcadium_ore>, <minecraft:stone>, false);
+GameStagesUtil.stageChaotic.addOreReplacement(<additions:taigaddon-end_harcadium_ore>, <minecraft:stone>, false);

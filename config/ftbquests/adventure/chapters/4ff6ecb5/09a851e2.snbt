@@ -1,7 +1,7 @@
 {
 	title: "最好的冶炼厂",
-	x: 10.5d,
-	y: -2.5d,
+	x: 9.5d,
+	y: -2.0d,
 	dependencies: [
 		"8e7755f7",
 		"b675e82f"

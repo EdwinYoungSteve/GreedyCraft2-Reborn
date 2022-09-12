@@ -1,6 +1,11 @@
 {
+	title: "§b更好的升级",
 	x: -5.0d,
 	y: -0.5d,
+	description: "制作一个高级工厂安装器",
+	text: [
+		"右键基础 工厂，将它升级成高级 工厂！"
+	],
 	dependencies: [
 		"1e674de8"
 	],

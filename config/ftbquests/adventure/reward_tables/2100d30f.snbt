@@ -235,7 +235,8 @@
 				upgrades: {},
 				config: {},
 				fuzzyMode: "IGNORE_ALL"
-			}
+			},
+			Count: 1b
 		}
 	},
 	{
@@ -246,7 +247,8 @@
 				upgrades: {},
 				config: {},
 				fuzzyMode: "IGNORE_ALL"
-			}
+			},
+			Count: 1b
 		}
 	},
 	{

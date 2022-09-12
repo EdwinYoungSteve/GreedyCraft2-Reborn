@@ -1,5 +1,5 @@
 {
-    "registryname": "builder_advanced",
+    "registryname": "builder_3",
     "localizedname": "进阶装配室",
     "requires-blueprint": true,
     "failure-action": "still",

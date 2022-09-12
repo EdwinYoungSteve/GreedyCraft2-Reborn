@@ -64,16 +64,14 @@
   },
   "smeltingItems": {
     "ingot": [
-      "divinerpg:apalachia_fragments"
+      "additions:greedycraft-apalachia_ingot"
     ],
     "block": [
-      "divinerpg:apalachia_block"
     ],
     "nugget": [
       "hammermetals:apalachia_nugget"
     ],
     "ore": [
-      "divinerpg:apalachia_ore"
     ],
     "dust": [
       "hammermetals:apalachia_dust"

@@ -1,6 +1,11 @@
 {
+	title: "§b激光传导",
 	x: -0.5d,
 	y: -0.5d,
+	description: "制作激光聚焦矩阵",
+	text: [
+		""
+	],
 	dependencies: [
 		"97cdb294"
 	],

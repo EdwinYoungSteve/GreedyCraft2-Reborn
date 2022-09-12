@@ -1,11 +1,12 @@
 {
 	title: "§bC₅H₅N₅",
-	x: 5.5d,
+	x: 2.0d,
 	y: 2.5d,
 	description: "在恐惧之地挖掘腺嘌呤晶",
 	text: [
 		""
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"9329a5dd"
 	],

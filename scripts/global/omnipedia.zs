@@ -399,15 +399,6 @@ global omnipedia as IItemStack = <akashictome:tome>.withTag({
 				"akashictome:definedMod": "forestry"
 			},
 			Damage: 0 as short
-		},
-		bigreactors: {
-			id: "patchouli:guide_book", 
-			Count: 1 as byte, 
-			tag: {
-				"akashictome:definedMod": "bigreactors", 
-				"patchouli:book": "bigreactors:erguide"
-			}, 
-			Damage: 0 as short
 		}
 	}
 }) as IItemStack;

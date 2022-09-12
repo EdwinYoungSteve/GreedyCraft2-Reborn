@@ -1,0 +1,28 @@
+{
+	title: "邪恶工艺的起源",
+	x: -8.0d,
+	y: 11.0d,
+	tasks: [{
+		uid: "ac1bbb4c",
+		type: "item",
+		items: [{
+			item: "evilcraft:dark_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "79b12f4c",
+		type: "item",
+		item: "evilcraft:dark_ore",
+		count: 4
+	},
+	{
+		uid: "8a79112d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "1904fc8d",
+		type: "random",
+		table: 0
+	}]
+}

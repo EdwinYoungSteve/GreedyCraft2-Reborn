@@ -1,8 +1,8 @@
 {
-	x: 0.5d,
-	y: -1.5d,
+	x: -8.5d,
+	y: 2.5d,
 	dependencies: [
-		"0cb8bba2"
+		"3f924e0c"
 	],
 	tasks: [{
 		uid: "e369b157",
@@ -12,5 +12,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b3b87da",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a6b34c24",
+		type: "xp",
+		xp: 500
 	}]
 }

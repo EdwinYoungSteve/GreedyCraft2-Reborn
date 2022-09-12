@@ -16,5 +16,10 @@
 			item: "enderio:block_simple_wired_charger"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f6bf40e4",
+		type: "xp",
+		xp: 2000
 	}]
 }

@@ -1,6 +1,6 @@
 {
 	title: "§b通天锁链",
-	x: 0.0d,
+	x: -3.0d,
 	y: 7.5d,
 	description: "挖掘通天锁链上的珊瑚石",
 	text: [

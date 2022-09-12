@@ -1,0 +1,11 @@
+{
+	x: -10.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "bbfdebcc",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:blitz_seeds"
+		}]
+	}]
+}

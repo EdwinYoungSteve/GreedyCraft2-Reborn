@@ -8,7 +8,7 @@
 	],
 	dependencies: [
 		"7b441dcf",
-		"148cc14b"
+		"b9bba5a4"
 	],
 	tasks: [{
 		uid: "cf53a138",
@@ -17,5 +17,16 @@
 			item: "enderio:block_enhanced_sag_mill"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ecab3f20",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 16
+	},
+	{
+		uid: "00d4d67c",
+		type: "xp",
+		xp: 4000
 	}]
 }

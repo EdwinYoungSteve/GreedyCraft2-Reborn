@@ -1,0 +1,19 @@
+{
+	title: "§b暂时结束了",
+	x: -8.0d,
+	y: 5.5d,
+	description: "合成粉物质",
+	text: [
+		""
+	],
+	dependencies: [
+		"4cc9df88"
+	],
+	tasks: [{
+		uid: "9fcd55c0",
+		type: "item",
+		items: [{
+			item: "projectex:matter 1 1"
+		}]
+	}]
+}

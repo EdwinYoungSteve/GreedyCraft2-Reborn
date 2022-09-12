@@ -1,0 +1,14 @@
+{
+	x: -0.5d,
+	y: 2.5d,
+	tasks: [{
+		uid: "f71ee674",
+		type: "item",
+		items: [{
+			id: "botania:exchangerod",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

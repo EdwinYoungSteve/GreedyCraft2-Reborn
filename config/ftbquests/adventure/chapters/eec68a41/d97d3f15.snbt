@@ -1,7 +1,7 @@
 {
 	title: "§b我仿佛来自世界尽头",
-	x: 13.0d,
-	y: 0.0d,
+	x: 17.0d,
+	y: -1.5d,
 	description: "制作来自虚空的呼唤",
 	text: [
 		""
@@ -15,5 +15,10 @@
 		items: [{
 			item: "extrabotany:material 1 9"
 		}]
+	}],
+	rewards: [{
+		uid: "b385f611",
+		type: "xp",
+		xp: 2000
 	}]
 }

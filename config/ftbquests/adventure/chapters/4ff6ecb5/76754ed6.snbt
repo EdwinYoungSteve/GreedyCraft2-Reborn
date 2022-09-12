@@ -1,9 +1,9 @@
 {
 	title: "真正的冶炼！",
-	x: 0.5d,
-	y: -2.5d,
+	x: 1.5d,
+	y: -4.0d,
 	dependencies: [
-		"dcf9393e"
+		"2e83a821"
 	],
 	tasks: [{
 		uid: "5e68fadd",

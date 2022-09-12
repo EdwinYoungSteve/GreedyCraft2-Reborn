@@ -1,0 +1,32 @@
+{
+	title: "§b平凡无奇一石砖",
+	x: -18.0d,
+	y: -6.0d,
+	description: "合成石砖",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "4e8ad9cb",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick"
+		}]
+	}],
+	rewards: [{
+		uid: "568b2a8d",
+		type: "item",
+		item: "minecraft:stonebrick",
+		count: 256
+	},
+	{
+		uid: "c54a76d2",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "1b5efeab",
+		type: "loot",
+		table: 0
+	}]
+}

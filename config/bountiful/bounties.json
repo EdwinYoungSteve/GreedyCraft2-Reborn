@@ -198,15 +198,6 @@
         "weight": 100
     },
     {
-        "content": "bigreactors:ingotgraphite",
-        "amount": {
-            "min": 2,
-            "max": 16
-        },
-        "unitWorth": 100,
-        "weight": 100
-    },
-    {
         "content": "minecraft:wheat",
         "amount": {
             "min": 1,

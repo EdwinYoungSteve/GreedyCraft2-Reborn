@@ -1,7 +1,7 @@
 {
 	title: "§b最快传输",
-	x: -0.5d,
-	y: 3.0d,
+	x: 8.0d,
+	y: -0.5d,
 	description: "合成盖亚魔力发射器",
 	text: [
 		""

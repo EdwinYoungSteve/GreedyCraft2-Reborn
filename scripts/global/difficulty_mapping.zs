@@ -21,6 +21,11 @@ global stageMap as int[string] = {
     "awakened" : 900,
     "chaotic_dominator" : 1200,
     "chaotic" : 1400,
-    "wielder_of_infinity" : 1600,
-    "super_hardmode" : 1600
+    "storm_breaker" : 2000,
+    "stormy" : 2400,
+    "cosmic" : 3000,
+    "balanced_matrix" : 3600,
+    "order" : 4000,
+    "wielder_of_infinity" : 4000,
+    "super_hardmode" : 4000
 } as int[string];

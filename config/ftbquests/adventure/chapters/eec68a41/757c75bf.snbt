@@ -1,7 +1,7 @@
 {
 	title: "§b你会爱上它的！",
-	x: -0.5d,
-	y: -3.0d,
+	x: -2.0d,
+	y: -2.5d,
 	description: "制作魔力池",
 	text: [
 		""

@@ -1,8 +1,8 @@
 {
 	title: "§b刻在DNA里的记忆",
 	icon: "minecraft:log",
-	x: -6.5d,
-	y: 1.0d,
+	x: -19.5d,
+	y: 7.5d,
 	description: "获得你的第一块原木！",
 	text: [
 		""

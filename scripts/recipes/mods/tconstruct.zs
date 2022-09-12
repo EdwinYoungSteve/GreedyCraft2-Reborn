@@ -78,6 +78,7 @@ Alloy.addRecipe(<liquid:shadow_bar>, [<liquid:rupee>, <liquid:realmite>]);
 Alloy.addRecipe(<liquid:glowing_signalum> * 144, [<liquid:signalum> * 144, <liquid:glowstone> * 1000]);
 Alloy.addRecipe(<liquid:twilight_crystal>, [<liquid:eden>, <liquid:wildwood>, <liquid:apalachia>, <liquid:skythern>, <liquid:mortum>]);
 Alloy.addRecipe(<liquid:daynight>, [<liquid:falsite>, <liquid:ventium>, <liquid:horizonite>]);
+Alloy.addRecipe(<liquid:cthulhurite> * 2, [<liquid:moltenabyssalnite>, <liquid:moltenrefinedcoralium>, <liquid:moltendreadium>, <liquid:ethaxium>, <liquid:sanite>]);
 
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);
@@ -97,7 +98,6 @@ Casting.addBasinRecipe(<additions:greedycraft-protonium_block>, null, <liquid:pr
 Casting.addBasinRecipe(<additions:greedycraft-stainless_steel_block>, null, <liquid:stainless_steel>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<additions:greedycraft-terra_alloy_block>, null, <liquid:terra_alloy>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<additions:greedycraft-manganese_steel_block>, null, <liquid:manganese_steel>, VOLUME_BLOCK, false, 300);
-Casting.addBasinRecipe(<bigreactors:blockyellorium>, null, <liquid:yellorium>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<candymod:chocolate_block>, null, <liquid:liquid_chocolate>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<extrabotany:blockorichalcos>, null, <liquid:orichalcos>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<nyx:meteor_block>, null, <liquid:meteor>, VOLUME_BLOCK, false, 300);
@@ -132,7 +132,6 @@ Casting.addTableRecipe(<additions:protonium_ingot>, <tconstruct:cast_custom>, <l
 Casting.addTableRecipe(<additions:stainless_steel_ingot>, <tconstruct:cast_custom>, <liquid:stainless_steel>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<additions:terra_alloy_ingot>, <tconstruct:cast_custom>, <liquid:terra_alloy>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<additions:manganese_steel_ingot>, <tconstruct:cast_custom>, <liquid:manganese_steel>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<bigreactors:ingotyellorium>, <tconstruct:cast_custom>, <liquid:yellorium>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<botania:manaresource:14>, <tconstruct:cast_custom>, <liquid:gaia>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<candymod:chocolate_bar>, <tconstruct:cast_custom>, <liquid:cosmilite>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<defiledlands:ravaging_ingot>, <tconstruct:cast_custom>, <liquid:ravaging>, VOLUME_INGOT, false, 200);
@@ -236,8 +235,6 @@ Melting.addRecipe(<liquid:stainless_steel> * VOLUME_BLOCK, <ore:blockStainlessSt
 Melting.addRecipe(<liquid:stainless_steel> * VOLUME_INGOT, <ore:ingotStainlessSteel>, 1200);
 Melting.addRecipe(<liquid:terra_alloy> * VOLUME_BLOCK, <ore:blockTerraAlloy>, 1500);
 Melting.addRecipe(<liquid:terra_alloy> * VOLUME_INGOT, <ore:ingotTerraAlloy>, 1500);
-Melting.addRecipe(<liquid:yellorium> * VOLUME_BLOCK, <ore:blockYellorium>, 1400);
-Melting.addRecipe(<liquid:yellorium> * VOLUME_INGOT, <ore:ingotYellorium>, 1400);
 Melting.addRecipe(<liquid:iron> * (VOLUME_INGOT * 2), <sakura:iron_sand>, 534);
 Melting.addRecipe(<liquid:manganese_steel> * VOLUME_INGOT, <ore:ingotManganeseSteel>, 734);
 Melting.addRecipe(<liquid:manganese_steel> * VOLUME_BLOCK, <ore:blockManganeseSteel>, 734);

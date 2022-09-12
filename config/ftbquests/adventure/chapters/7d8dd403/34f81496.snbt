@@ -1,11 +1,12 @@
 {
 	title: "§bC₅H₆N₂O₂",
-	x: 2.5d,
-	y: 1.0d,
+	x: 4.0d,
+	y: 2.5d,
 	description: "在下界的灰烬中挖掘胸腺嘧",
 	text: [
 		""
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"9329a5dd"
 	],

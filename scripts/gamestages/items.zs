@@ -112,11 +112,35 @@ GameStagesUtil.stageFusionMatrix.addIngredients([
     <ore:blockDraconium>,
     <ore:ingotElectronium>,
     <ore:blockElectronium>,
-    <mysticalcreations:fusion_matrix_essence>
+    <mysticalcreations:fusion_matrix_essence>,
+    <gct_ores:fallen_core>,
+    <ore:oreWitherium>,
+    <ore:dustWitherium>,
+    <tiths:ingot_witherium>,
+    <tiths:block_witherium>,
+    <gct_ores:witherium_dust>,
+    <gct_ores:witherium_ore_overworld>,
+    <gct_ores:witherium_ore_nether>,
+    <gct_ores:witherium_ore_end>,
+    <hammermetals:witherium_nugget>,
+    <gct_ores:witheric_core>,
+    <divinerpg:nightmare_bed>,
+    <gct_ores:relifed_witherium_ingot>,
+    <gct_ores:relifed_witherium_block>,
+    <gct_ores:relifed_witherium_dust>,
+    <gct_ores:relifed_witherium_nugget>
 ], true);
 
 GameStagesUtil.stageVetheaBreaker.addIngredients([
-    <additions:greedycraft-beast_hand>
+    <additions:greedycraft-beast_hand>,
+    <additions:greedycraft-thunder_eye>,
+    <additions:greedycraft-weather_breathe>,
+    <additions:greedycraft-blood_tears>,
+    <journey:eucaportalframe>,
+    <journey:depthsportalframe>,
+    <journey:corbaportalframe>,
+    <journey:darkgem>,
+    <journey:demoniceye>
 ], true);
 
 GameStagesUtil.stageWyvern.addIngredients([
@@ -124,14 +148,27 @@ GameStagesUtil.stageWyvern.addIngredients([
     <ore:blockWyvernMetal>,
     <ore:nuggetWyvernMetal>,
     <ore:dustWyvernMetal>,
+    <gct_ores:relifed_core>,
+    <gct_ores:fallen_metal_ingot>,
+    <gct_ores:fallen_metal_nugget>,
+    <gct_ores:fallen_metal_block>,
+    <gct_ores:fallen_metal_dust>,
     <additions:greedycraft-solarium_star>,
     <additions:greedycraft-sun_totem>,
     <additions:greedycraft-solar_seed>,
-    <additions:greedycraft-broken_solarium_star>
+    <additions:greedycraft-broken_solarium_star>,
+    <journey:terraniaportalframe>,
+    <journey:cloudiaportalframe>,
+    <journey:senterianportalframe>,
+    <journey:sentryeye>
 ], true);
 
 GameStagesUtil.stageAwakened.addIngredients([
     <tconstruct:materials:50>,
+    <gct_ores:relifed_metal_ingot>,
+    <gct_ores:relifed_metal_block>,
+    <gct_ores:relifed_metal_nugget>,
+    <gct_ores:relifed_metal_dust>,
     <ore:ingotDraconicMetal>,
     <ore:blockDraconicMetal>,
     <ore:nuggetDraconicMetal>,
@@ -359,6 +396,17 @@ GameStagesUtil.stageNether.addIngredients([
     <ore:nitor>
 ], false);
 
+GameStagesUtil.stageCosmic.addIngredients([
+    <gct_ores:ruled_draconium_ingot>,
+    <gct_ores:ruled_draconium_block>,
+    <gct_ores:ruled_draconium_dust>,
+    <gct_ores:ruled_draconium_nugget>,
+    <gct_ores:equipment_witherium_ingot>,
+    <gct_ores:equipment_witherium_block>,
+    <gct_ores:equipment_witherium_dust>,
+    <gct_ores:equipment_witherium_nugget>
+], false);
+
 GameStagesUtil.stageChaotic.addIngredients([
     <ore:ingotChaoticMetal>,
     <ore:blockChaoticMetal>,
@@ -376,7 +424,42 @@ GameStagesUtil.stageChaotic.addIngredients([
     <gct_ores:chaotic_draconium_block>,
     <gct_ores:chaotic_draconium_dust>,
     <gct_ores:chaotic_draconium_nugget>,
-    <ageofminecraft:withered_nether_star>
+    <gct_ores:stormy_witherium_ingot>,
+    <gct_ores:stormy_witherium_block>,
+    <gct_ores:stormy_witherium_dust>,
+    <gct_ores:stormy_witherium_nugget>,
+    <ageofminecraft:withered_nether_star>,
+    <gct_ores:creepy_wither_doll>,
+    <ore:ingotHarcadium>,
+    <ore:blockHarcadium>,
+    <ore:nuggetHarcadium>,
+    <ore:dustHarcadium>,
+    <ore:oreHarcadium>,
+    <ore:gemVoidEssence>,
+    <ore:nuggetVoidEssence>,
+    <ore:blockVoidEssence>,
+    <ore:oreVoidEssence>,
+    <ore:dustVoidEssence>,
+    <ore:ingotAdamantium>,
+    <ore:nuggetAdamantium>,
+    <ore:blockAdamantium>,
+    <ore:oreAdamantium>,
+    <ore:dustAdamantium>,
+    <gct_ores:command_core>,
+    <minecraft:command_block>,
+    <gct_ores:creepy_witherstorm_doll>,
+    <gct_ores:stormy_shard>
+], true);
+
+GameStagesUtil.stageStormBreaker.addIngredients([
+    <gct_ores:stormy_core>
+], true);
+
+GameStagesUtil.stageStormy.addIngredients([
+    <gct_ores:stormy_metal_ingot>,
+    <gct_ores:stormy_metal_block>,
+    <gct_ores:stormy_metal_nugget>,
+    <gct_ores:stormy_metal_dust>    
 ], true);
 
 GameStagesUtil.stageNoviceEngineer.addIngredients([
@@ -548,7 +631,12 @@ GameStagesUtil.stageHardmode.addIngredients([
     <divinerpg:vamacheron_crystal>,
     <divinerpg:base_spawn_crystal>,
     <divinerpg:eden_sparkles>,
-
+    <additions:greedycraft-twilight_crystal_ingot>,
+    <divinerpg:twilight_clock>,
+    <divinerpg:divine_rock>,
+    <gct_mobs:apocalypse_ruin>,
+    <gct_mobs:apocalypsium_ingot>,
+    <gct_mobs:apocalypsium_block>,
     <minecraft:elytra>.withTag({Unbreakable: 1, HideFlags: 63, display: {Lore: ["Sewn in India with ordinary cotton string, but sewn VERY well."], Name: "Glider"}})
 ], true);
 
@@ -642,7 +730,16 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
     <abyssalcraft:soulreaper>,
     <additions:greedycraft-soul_of_slider>,
     <additions:greedycraft-gem_of_valkyrie>,
-    <additions:greedycraft-sun_crystal>
+    <additions:greedycraft-sun_crystal>,
+    <journey:flamecoin>,
+    <additions:greedycraft-chillinium_ingot>,
+    <additions:greedycraft-chillinium_ore>,
+    <journey:boilingportalframe>,
+    <journey:frozenportalframe>,
+    <journey:hellstoneore>,
+    <journey:hellstoneingot>,
+    <journey:summoningtable>,
+    <additions:greedycraft-hellite_ingot>
 ], true);
 
 GameStagesUtil.stageNoviceWizard.addIngredients([
@@ -764,9 +861,6 @@ GameStagesUtil.stageSkilledEngineer.addIngredients([
     <randomthings:spectrecoil_normal>,
     <randomthings:spectrecoil_redstone>,
     <randomthings:spectrecoil_ender>,
-    <ore:oreYellorium>,
-    <ore:ingotYellorium>,
-    <ore:dustYellorium>,
     <ore:ingotEnderium>,
     <ore:blockEnderium>,
     <ore:nuggetEnderium>,
@@ -777,10 +871,6 @@ GameStagesUtil.stageSkilledEngineer.addIngredients([
     <ore:blockGelidEnderium>,
     <ore:ingotGelidEnderium>,
     <ore:nuggetGelidEnderium>,
-    <bigreactors:orebenitoite>,
-    <bigreactors:oreanglesite>,
-    <ore:ingotCyanite>,
-    <ore:blockCyanite>
 ], true);
 
 GameStagesUtil.stageMasterEngineer.addIngredients([
@@ -861,10 +951,13 @@ GameStagesUtil.stageFearlessMan.addIngredients([
 ], true);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators"]);
-GameStagesUtil.stageHardmode.addModId(["avaritia", "draconicevolution", "extrabotany", "projecte", "projectex", "taiga"]);
+GameStagesUtil.stageHardmode.addModId(["avaritia", "draconicevolution", "extrabotany", "projecte", "projectex", "taiga", "theaurorian"]);
 GameStagesUtil.stageNether.addModId(["aether_legacy", "cyclicmagic", "touhou_little_maid", "aeble"]);
 GameStagesUtil.stageNoviceWizard.addModId(["bloodmagic", "bloodarsenal", "animus"]);
 GameStagesUtil.stageNoviceEngineer.addModId(["enderio"]);
-GameStagesUtil.stageDisabled.addModId(["embers", "naturesaura", "industrialforegoing"]);
+GameStagesUtil.stageWyvern.addModId(["blue_skies"]);
+GameStagesUtil.stageDescendantOfTheSun.addModId(["thebetweenlands"]);
+GameStagesUtil.stageChaoticDominator.addModId(["extendedcrafting"]);
+GameStagesUtil.stageGatekeeper.addModId(["gct_aby"]);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");

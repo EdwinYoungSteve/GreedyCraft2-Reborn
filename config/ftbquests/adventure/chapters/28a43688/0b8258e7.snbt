@@ -1,0 +1,19 @@
+{
+	title: "§b这玩意儿还能合成？！",
+	x: -6.5d,
+	y: 5.5d,
+	description: "合成命令方块，迎战凋零风暴！",
+	text: [
+		""
+	],
+	dependencies: [
+		"7d2d0cd5"
+	],
+	tasks: [{
+		uid: "81a59d65",
+		type: "item",
+		items: [{
+			item: "minecraft:command_block"
+		}]
+	}]
+}

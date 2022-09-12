@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "2541a72c",
+		type: "item",
+		items: [{
+			id: "botania:tornadorod",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,6 +1,11 @@
 {
+	title: "§b过滤升级",
 	x: -5.0d,
 	y: -3.5d,
+	description: "制作一个过滤升级",
+	text: [
+		"可以让电动泵抽重水，只能安装一个"
+	],
 	dependencies: [
 		"9b34a8ff"
 	],

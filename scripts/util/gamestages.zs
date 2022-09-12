@@ -50,6 +50,11 @@ static stageExpert as Stage = ZenStager.initStage("expert");
 static stageDescendantOfTheSun as Stage = ZenStager.initStage("descendant_of_the_sun");
 static stageGraduated as Stage = ZenStager.initStage("graduated");
 static stageVetheaBreaker as Stage = ZenStager.initStage("vethea_breaker");
+static stageStormBreaker as Stage = ZenStager.initStage("storm_breaker");
+static stageStormy as Stage = ZenStager.initStage("stormy");
+static stageGatekeeper as Stage = ZenStager.initStage("gatekeeper");
+static stageGaiaDeleter as Stage = ZenStager.initStage("gaia_deleter");
+static stageCosmic as Stage = ZenStager.initStage("cosmic");
 
 static zenStageMap as Stage[string] = ZenStager.getStageMap();
 

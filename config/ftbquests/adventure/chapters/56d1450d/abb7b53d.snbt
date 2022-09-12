@@ -1,0 +1,45 @@
+{
+	title: "§b中型电子板",
+	x: -16.5d,
+	y: -4.5d,
+	description: "获得中型电子板",
+	text: [
+		""
+	],
+	dependencies: [
+		"e4e83c3f"
+	],
+	tasks: [{
+		uid: "69b3308d",
+		type: "item",
+		items: [{
+			id: "forestry:chipsets",
+			Damage: 1s,
+			tag: {
+				T: 1s
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "22fae367",
+		type: "item",
+		item: "thermalfoundation:material 1 163",
+		count: 16
+	},
+	{
+		uid: "58540a7c",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 64
+	},
+	{
+		uid: "e2955354",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "53e842ee",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "§b怪恶心的……",
-	x: 8.5d,
-	y: -3.0d,
+	x: 12.5d,
+	y: -4.5d,
 	description: "通过魔力池将煤炭转化为梦魇燃料",
 	text: [
 		""
@@ -15,5 +15,16 @@
 		items: [{
 			item: "extrabotany:nightmarefuel"
 		}]
+	}],
+	rewards: [{
+		uid: "d49e1d31",
+		type: "item",
+		item: "extrabotany:nightmarefuel",
+		count: 4
+	},
+	{
+		uid: "2cb5c53d",
+		type: "xp",
+		xp: 500
 	}]
 }

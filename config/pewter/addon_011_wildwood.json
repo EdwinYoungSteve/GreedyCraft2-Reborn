@@ -64,16 +64,14 @@
   },
   "smeltingItems": {
     "ingot": [
-      "divinerpg:wildwood_fragments"
+      "additions:greedycraft-wildwood_ingot"
     ],
     "block": [
-      "divinerpg:wildwood_block"
     ],
     "nugget": [
       "hammermetals:wildwood_nugget"
     ],
     "ore": [
-      "divinerpg:wildwood_ore"
     ],
     "dust": [
       "hammermetals:wildwood_dust"

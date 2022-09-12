@@ -1,6 +1,6 @@
 {
 	title: "§b金黄的",
-	x: 10.0d,
+	x: 12.5d,
 	y: -3.0d,
 	description: "获得精神碎片",
 	text: [
@@ -15,5 +15,16 @@
 		items: [{
 			item: "extrabotany:material"
 		}]
+	}],
+	rewards: [{
+		uid: "5e91ff34",
+		type: "item",
+		item: "extrabotany:spiritfuel",
+		count: 4
+	},
+	{
+		uid: "ca3bab92",
+		type: "xp",
+		xp: 500
 	}]
 }

@@ -1,9 +1,9 @@
 {
 	title: "注魔的开端",
 	x: -2.5d,
-	y: 1.5d,
+	y: 2.0d,
 	dependencies: [
-		"2b2f5f2a"
+		"55a56909"
 	],
 	tasks: [{
 		uid: "9073625a",

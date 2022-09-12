@@ -1,14 +1,13 @@
 {
 	title: "§b燃烧殆尽",
-	x: -5.0d,
-	y: 4.0d,
+	x: -5.5d,
+	y: 5.5d,
 	description: "使用召唤台合成诅咒：燃烧",
 	text: [
 		""
 	],
 	dependencies: [
-		"35619de1",
-		"21145802"
+		"35619de1"
 	],
 	tasks: [{
 		uid: "6c2da600",

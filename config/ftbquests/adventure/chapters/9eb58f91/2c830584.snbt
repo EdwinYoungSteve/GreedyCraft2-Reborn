@@ -14,7 +14,7 @@
 		uid: "8b0277ad",
 		type: "item",
 		items: [{
-			item: "extracells:part.base 1 15"
+			item: "aeadditions:part.base 1 6"
 		}]
 	}],
 	rewards: [{

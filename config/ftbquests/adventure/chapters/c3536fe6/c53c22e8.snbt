@@ -1,0 +1,11 @@
+{
+	x: -17.0d,
+	y: 9.5d,
+	tasks: [{
+		uid: "37b9dd1c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:empty_amate_map"
+		}]
+	}]
+}

@@ -1,11 +1,12 @@
 {
 	title: "§b这玩意很稀有，不是吗？",
-	x: -6.5d,
-	y: 4.0d,
+	x: -9.0d,
+	y: 5.0d,
 	description: "挖掘一块铬矿石",
 	text: [
 		""
 	],
+	hide_dependency_lines: true,
 	dependencies: [
 		"8636a008"
 	],

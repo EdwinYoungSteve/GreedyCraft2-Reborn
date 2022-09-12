@@ -1,7 +1,7 @@
 {
 	title: "§b你感到一阵剧痛",
-	x: -3.5d,
-	y: -1.5d,
+	x: -8.5d,
+	y: 0.0d,
 	description: "在地下采集任意源质水晶碎片",
 	text: [
 		""
@@ -17,16 +17,56 @@
 					amount: 1
 				}]
 			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "ignis",
+					amount: 1
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "aqua",
+					amount: 1
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "ordo",
+					amount: 1
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "perditio",
+					amount: 1
+				}]
+			}
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "terra",
+					amount: 1
+				}]
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "10986ed8",
-		type: "item",
-		item: "thaumcraft:curio 1 1"
-	},
-	{
 		uid: "b423e018",
 		type: "random",
 		table: 0
@@ -35,5 +75,31 @@
 		uid: "ee6d649b",
 		type: "xp",
 		xp: 30
+	},
+	{
+		uid: "d047f219",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "sol",
+					amount: 1
+				}]
+			}
+		}
+	},
+	{
+		uid: "160de88e",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "tempus",
+					amount: 1
+				}]
+			}
+		}
 	}]
 }

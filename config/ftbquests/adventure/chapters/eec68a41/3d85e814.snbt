@@ -1,7 +1,7 @@
 {
 	title: "§b胸怀大志",
-	x: 11.5d,
-	y: 0.0d,
+	x: 14.0d,
+	y: -1.5d,
 	description: "合成挑战券",
 	text: [
 		""
@@ -16,5 +16,15 @@
 		items: [{
 			item: "extrabotany:material 1 6"
 		}]
+	}],
+	rewards: [{
+		uid: "73713314",
+		type: "item",
+		item: "extrabotany:material 1 6"
+	},
+	{
+		uid: "36252ffa",
+		type: "xp",
+		xp: 2000
 	}]
 }

@@ -15,6 +15,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import scripts.util.oredict as OredictUtil;
 
+//gt 2
 <ore:ingotNetherite>.remove(<divinerpg:netherite_ingot>);
 <ore:blockNetherite>.remove(<divinerpg:netherite_block>);
 <ore:oreNetherite>.remove(<divinerpg:netherite_ore>);
@@ -24,21 +25,27 @@ import scripts.util.oredict as OredictUtil;
 <ore:gemSapphire>.remove(<journey:sapphire>);
 <ore:oreSapphire>.remove(<journey:sapphireore>);
 <ore:blockSapphire>.remove(<journey:sapphireblock>);
-<ore:ingotBlackIron>.remove(<extendedcrafting:material>);
-<ore:nuggetBlackIron>.remove(<extendedcrafting:material:1>);
-<ore:blockBlackIron>.remove(<extendedcrafting:storage>);
+<ore:ingotcthulhurite>.remove(<gct_mobs:cthulhurite_ingot>);
+<ore:blockEden>.remove(<divinerpg:eden_block>);
+<ore:blockWildwood>.remove(<divinerpg:wildwood_block>);
+<ore:blockApalachia>.remove(<divinerpg:apalachia_block>);
+<ore:blockSkythern>.remove(<divinerpg:skythern_block>);
+<ore:blockMortum>.remove(<divinerpg:mortum_block>);
+<ore:oreEden>.remove(<divinerpg:eden_ore>);
+<ore:oreWildwood>.remove(<divinerpg:wildwood_ore>);
+<ore:oreApalachia>.remove(<divinerpg:apalachia_ore>);
+<ore:oreSkythern>.remove(<divinerpg:skythern_ore>);
+<ore:oreMortum>.remove(<divinerpg:mortum_ore>);
 
+<ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
+<ore:starlight>.add(<journey:sapphire>);
+<ore:ingotLox>.add(<taiga:iox_ingot>);
 var oredictMap as IIngredient[][IOreDictEntry] = {
-    <ore:ingotBlackiron> : [<extendedcrafting:material>],
-    <ore:blockBlackiron> : [<extendedcrafting:storage>],
-    <ore:nuggetBlackiron> : [<extendedcrafting:storage>],
-    <ore:ingotFalsite> : [<blue_skies:falsite_ingot>],
-    <ore:oreFalsite> : [<blue_skies:falsite_ore>],
-    <ore:ingotVentium> : [<blue_skies:ventium_ingot>],
-    <ore:oreVentium> : [<blue_skies:ventium_ore>],
-    <ore:ingotHorizonite> : [<blue_skies:horizonite_ingot>],
-    <ore:blockHorizonite> : [<blue_skies:horizonite_block>],
-    <ore:oreHorizonite> : [<blue_skies:horizonite_ore>],
+    <ore:stoneDarkDense> : [<gct_aby:densedarkstone>],
+    <ore:oreDreadium> : [<gct_aby:dreadiumore>],
+    <ore:oreEthaxium> : [<gct_aby:ethauxiumore>],
+    <ore:oreSanite> : [<gct_aby:saniteore>],
+    <ore:nuclearShadow> : [<gct_aby:shadownuclear>],
     <ore:ingotBloodcrust> : [<journey:hellstoneingot>],
     <ore:blockBloodcrust> : [<journey:hellstoneblock>],
     <ore:oreBloodcrust> : [<journey:hellstoneore>],
@@ -47,16 +54,13 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:gemCarminite> : [<twilightforest:carminite>],
     <ore:blockCarminite> : [<twilightforest:block_storage:4>],
     <ore:slimeball> : [<defiledlands:foul_slime>, <thermalfoundation:material:833>],
-    <ore:stoneMarble> : [<pvj:marble>],
     <ore:workbench> : [<ore:craftingTableWood>, <randomthings:customworkbench:*>],
     <ore:plantFibre> : [<hooked:microcrafting>],
     <ore:string> : [<hooked:microcrafting:1>],
     <ore:dirt> : [<biomesoplenty:dirt:*>],
-    <ore:plantCattail> : [<pvj:cattail:*>],
     <ore:ingotFusionMatrix> : [<tconevo:material>],
     <ore:ingotCoalescenceMatrix> : [<tconevo:material>],
     <ore:blockCoalescenceMatrix> : [<ore:blockFusionMatrix>],
-    <ore:blockBasalt> : [<pvj:basalt>],
     <ore:blockBasalt> : [<netherex:basalt>],
     <ore:blockBasalt> : [<ore:stoneBasalt>],
     <ore:stoneBasalt> : [<taiga:basalt_block>],
@@ -417,11 +421,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:rodBlazeAquatic> : [<divinerpg:aquatic_blaze_rod>],
     <ore:eyeWatching> : [<divinerpg:watching_eye>],
     <ore:scaleKraken> : [<divinerpg:kraken_scale>],
-    <ore:ingotEden> : [<divinerpg:eden_fragments>],
-    <ore:ingotWildwood> : [<divinerpg:wildwood_fragments>],
-    <ore:ingotApalachia> : [<divinerpg:apalachia_fragments>],
-    <ore:ingotSkythern> : [<divinerpg:skythern_fragments>],
-    <ore:ingotMortum> : [<divinerpg:mortum_fragments>],
     <ore:ballAqua> : [<divinerpg:aqua_ball>],
     <ore:gemHealing> : [<divinerpg:healing_stone>],
     <ore:gemCinnabar> : [<tiths:mercury_sulfide>],

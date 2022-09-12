@@ -559,11 +559,6 @@ val seedRecipes as IIngredient[][][IItemStack] = {
         [essence[3], base[3], essence[3]], 
         [<ore:ingotBrass>, essence[3], <ore:ingotBrass>]
     ],
-    <mysticalagriculture:yellorium_seeds> : [
-        [<ore:ingotYellorium>, essence[5], <ore:ingotYellorium>], 
-        [essence[5], base[5], essence[5]], 
-        [<ore:ingotYellorium>, essence[5], <ore:ingotYellorium>]
-    ],
     <mysticalagriculture:enderium_seeds> : [
         [<ore:ingotEnderium>, essence[5], <ore:ingotEnderium>], 
         [essence[5], base[5], essence[5]], 

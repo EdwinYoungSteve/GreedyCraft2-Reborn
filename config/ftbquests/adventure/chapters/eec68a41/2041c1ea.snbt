@@ -1,7 +1,7 @@
 {
 	title: "§bR G B",
-	x: 5.5d,
-	y: 1.5d,
+	x: 4.0d,
+	y: 2.5d,
 	description: "制作神话魔力池，可以储存1,000,000mana",
 	text: [
 		""

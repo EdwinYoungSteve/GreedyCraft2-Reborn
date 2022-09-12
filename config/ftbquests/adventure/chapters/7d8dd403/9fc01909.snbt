@@ -7,7 +7,9 @@
 		""
 	],
 	dependencies: [
-		"9329a5dd"
+		"5a26917f",
+		"1c50552b",
+		"11df9bdc"
 	],
 	tasks: [{
 		uid: "718f827c",

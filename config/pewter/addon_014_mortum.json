@@ -64,16 +64,14 @@
   },
   "smeltingItems": {
     "ingot": [
-      "divinerpg:mortum_fragments"
+      "additions:greedycraft-mortum_ingot"
     ],
     "block": [
-      "divinerpg:mortum_block"
     ],
     "nugget": [
       "hammermetals:mortum_nugget"
     ],
     "ore": [
-      "divinerpg:mortum_ore"
     ],
     "dust": [
       "hammermetals:mortum_dust"

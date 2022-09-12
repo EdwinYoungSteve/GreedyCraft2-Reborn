@@ -1,7 +1,7 @@
 {
 	title: "§b大 火 杆",
-	x: 1.5d,
-	y: 3.0d,
+	x: 0.0d,
+	y: 0.0d,
 	description: "获得烈焰棒",
 	text: [
 		""

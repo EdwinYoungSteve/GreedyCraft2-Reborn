@@ -1,0 +1,19 @@
+{
+	title: "§b套娃物质MK2",
+	x: -11.0d,
+	y: 5.5d,
+	description: "合成红物质",
+	text: [
+		""
+	],
+	dependencies: [
+		"4bc06791"
+	],
+	tasks: [{
+		uid: "4ddfa106",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter 1 1"
+		}]
+	}]
+}

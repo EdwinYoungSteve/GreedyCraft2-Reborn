@@ -120,7 +120,6 @@ val removedRecipes as IIngredient[] = [
     <cfm:item_log>,
     <projecte:item.pe_swrg>,
     <actuallyadditions:item_wings_of_the_bats>,
-    <extracells:terminal.universal.wireless>,
     <danknull:dank_null_panel_0>,
     <danknull:dank_null_panel_1>,
     <danknull:dank_null_panel_2>,
@@ -141,10 +140,6 @@ val removedRecipes as IIngredient[] = [
     <appliedenergistics2:material:36>,
     <appliedenergistics2:material:37>,
     <appliedenergistics2:material:38>,
-    <extracells:storage.component>,
-    <extracells:storage.component:1>,
-    <extracells:storage.component:2>,
-    <extracells:storage.component:3>,
     <projectex:energy_link>,
     <tconevo:material>,
     <cyclicmagic:sleeping_mat>,
@@ -158,7 +153,6 @@ val removedRecipes as IIngredient[] = [
     <hooked:hook>,
     <botania:enderhand>,
     <twilightforest:magic_map_focus>,
-    <mekanism:transmitter:*>,
     <extrabitmanipulation:bodypart_template>,
     <cyclicmagic:block_miner>,
     <cyclicmagic:slingshot_weapon>,
@@ -472,7 +466,8 @@ val removedRecipes as IIngredient[] = [
     <ageofminecraft:fusionshadowbeast>,
     <ageofminecraft:fusiongskeleton>,
     <buildinggadgets:exchangertool>,
-    <divinerpg:shadow_bar>
+    <divinerpg:shadow_bar>,
+    <bountifulbaubles:reforger>
 ];
 
 val removedRecipeNames as string[] = [
@@ -507,7 +502,8 @@ val removedRecipeNames as string[] = [
     "extendedcrafting:crafting_component_advanced",
     "extendedcrafting:crafting_component_elite",
     "extendedcrafting:crafting_component_ultimate",
-    "extendedcrafting:crafting_component_crystaltine"
+    "extendedcrafting:crafting_component_crystaltine",
+    "tiths:withering_essence_2_witherium"
 ];
 
 for ingredient in removedRecipes {

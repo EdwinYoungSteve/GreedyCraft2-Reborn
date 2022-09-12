@@ -1,8 +1,8 @@
 {
 	title: "§b新的开始",
 	icon: "minecraft:grass",
-	x: -9.5d,
-	y: -0.5d,
+	x: -23.0d,
+	y: 9.0d,
 	description: "&a欢迎来到&e贪婪整合包II &aby TCreopargh & mc_Edwin！",
 	text: [
 		""

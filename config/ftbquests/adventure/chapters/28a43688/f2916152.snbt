@@ -1,0 +1,22 @@
+{
+	title: "§b炼金术士的第一步",
+	x: -14.0d,
+	y: 5.5d,
+	description: "合成贤者之石",
+	text: [
+		""
+	],
+	dependencies: [
+		"487a6021"
+	],
+	tasks: [{
+		uid: "606e72f8",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

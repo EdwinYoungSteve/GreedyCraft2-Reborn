@@ -1,0 +1,19 @@
+{
+	title: "常用物品",
+	x: -11.0d,
+	y: 9.5d,
+	text: [
+		"通过开箱子或者杀死阴魂获得",
+		"可以给生命水晶充能"
+	],
+	dependencies: [
+		"92b01be6"
+	],
+	tasks: [{
+		uid: "41330a5b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:wight_heart"
+		}]
+	}]
+}

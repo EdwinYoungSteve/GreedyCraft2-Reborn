@@ -18,9 +18,14 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "cd4e8d1e",
-		type: "gamestage",
-		auto: "no_toast",
-		stage: "skilled_engineer"
+		uid: "fa56da3a",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "fa21c46d",
+		type: "item",
+		item: "enderio:item_material 1 73",
+		count: 4
 	}]
 }

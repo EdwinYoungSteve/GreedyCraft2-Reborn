@@ -1,7 +1,7 @@
 {
 	title: "开始套娃了？",
-	x: 4.5d,
-	y: -2.5d,
+	x: 3.5d,
+	y: -2.0d,
 	dependencies: [
 		"32da997a",
 		"d1d09aad"

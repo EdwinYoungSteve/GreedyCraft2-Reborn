@@ -1,0 +1,19 @@
+{
+	title: "§b风暴之力，化为一锭",
+	x: -5.0d,
+	y: 8.5d,
+	description: "合成风暴金属锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"33f1b759"
+	],
+	tasks: [{
+		uid: "9e6b3ac7",
+		type: "item",
+		items: [{
+			item: "gct_ores:stormy_metal_ingot"
+		}]
+	}]
+}

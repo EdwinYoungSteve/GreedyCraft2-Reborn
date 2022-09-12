@@ -1,0 +1,15 @@
+{
+    "registryname": "builder_5",
+    "localizedname": "终极装配室（未实现）",
+    "requires-blueprint": true,
+    "failure-action": "still",
+    "color": "000000",
+    "parts": [{
+    "x": 0,
+    "y": 1,
+    "z": 0,
+    "elements": [
+               "casings_all"
+           ]
+       }]
+   }

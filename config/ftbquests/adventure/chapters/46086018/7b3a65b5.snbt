@@ -1,13 +1,13 @@
 {
 	title: "§b神力之石",
-	x: 4.5d,
-	y: 10.5d,
+	x: 3.0d,
+	y: 0.0d,
 	description: "获得重力晶",
 	text: [
 		""
 	],
 	dependencies: [
-		"2ed5c6ee"
+		"879b4bb7"
 	],
 	tasks: [{
 		uid: "8f8f3a75",

@@ -1,6 +1,11 @@
 {
+	title: "§b沙雕机？",
 	x: 1.0d,
 	y: -0.5d,
+	description: "制作激光",
+	text: [
+		"可以对生物造成极高伤害"
+	],
 	dependencies: [
 		"9b34a8ff"
 	],

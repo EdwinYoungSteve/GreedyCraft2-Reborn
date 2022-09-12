@@ -1,13 +1,13 @@
 {
 	title: "§b撕碎世界",
-	x: -4.5d,
-	y: 7.5d,
+	x: -3.0d,
+	y: 6.0d,
 	description: "合成撕裂法杖！",
 	text: [
 		""
 	],
 	dependencies: [
-		"1480d879"
+		"2cfae3d2"
 	],
 	tasks: [{
 		uid: "fee1c78d",

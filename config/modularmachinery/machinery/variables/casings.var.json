@@ -10,8 +10,6 @@
         "gugu-utils:environmenthatch",
         "gugu-utils:energyoutputport",
         "gugu-utils:sparkmanahatch",
-        "gugu-utils:emberinputhatch",
-        "gugu-utils:aurainputhatch",
         "gugu-utils:aspecthatch"
     ],
     "casings_decorative": [

@@ -1,8 +1,7 @@
 {
-	title: "§b饰品重锻站",
+	title: "精灵王指环",
 	x: 1.5d,
 	y: 3.0d,
-	description: "制作饰品重锻站",
 	text: [
 		""
 	],
@@ -10,7 +9,7 @@
 		uid: "5725b57e",
 		type: "item",
 		items: [{
-			item: "bountifulbaubles:reforger"
+			item: "extrabotany:elvenking"
 		}]
 	}],
 	rewards: [{

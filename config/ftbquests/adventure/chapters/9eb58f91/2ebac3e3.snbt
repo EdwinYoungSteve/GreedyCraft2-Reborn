@@ -16,5 +16,16 @@
 			item: "enderio:block_simple_stirling_generator"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "34c6c87d",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "e12eb21b",
+		type: "item",
+		item: "enderio:item_material 1 11",
+		count: 16
 	}]
 }

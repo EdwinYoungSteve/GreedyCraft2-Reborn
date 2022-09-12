@@ -1,0 +1,29 @@
+{
+	title: "§b高效转化",
+	x: -2.5d,
+	y: -0.5d,
+	description: "制作升级：原油回流蒸馏",
+	text: [
+		"提高化石燃料转化效率"
+	],
+	dependencies: [
+		"f1ed4344"
+	],
+	tasks: [{
+		uid: "5cf5635d",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 368"
+		}]
+	}],
+	rewards: [{
+		uid: "990261d8",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "1e6864d0",
+		type: "xp",
+		xp: 1000
+	}]
+}

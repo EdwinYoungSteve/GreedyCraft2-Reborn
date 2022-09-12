@@ -1,7 +1,8 @@
 {
 	title: "§b神奇的机器",
-	x: 6.5d,
-	y: -0.5d,
+	x: -2.5d,
+	y: -6.5d,
+	shape: "gear",
 	description: "制作感应炉",
 	text: [
 		""

@@ -64,16 +64,14 @@
     },
     "smeltingItems": {
       "ingot": [
-        "divinerpg:eden_fragments"
+        "additions:greedycraft-eden_ingot"
       ],
       "block": [
-        "divinerpg:eden_block"
       ],
       "nugget": [
         "hammermetals:eden_nugget"
       ],
       "ore": [
-        "divinerpg:eden_ore"
       ],
       "dust": [
         "hammermetals:eden_dust"

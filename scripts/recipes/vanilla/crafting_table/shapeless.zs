@@ -99,9 +99,6 @@ RecipeUtil.addShapeless("auto_gen_1647035237", <thermalfoundation:material:133>,
 RecipeUtil.addShapeless("auto_gen_104947165", <thermalfoundation:material:134>,
     [<projecte:item.pe_philosophers_stone>.transformReplace(<projecte:item.pe_philosophers_stone>), <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
 );
-RecipeUtil.addShapeless("auto_gen_695668416", <minecraft:tallgrass:1>,
-    [<pvj:short_grass>]
-);
 RecipeUtil.addShapeless("auto_gen_1862248730", <minecraft:potion>.withTag({Potion: "minecraft:luck"}),
     [<minecraft:glass_bottle>, <additions:greedycraft-lucky_clover>]
 );
@@ -225,9 +222,6 @@ RecipeUtil.addShapeless("auto_gen_-1317989727", <astralsorcery:blockmarble:6> * 
 RecipeUtil.addShapeless("auto_gen_1877622542", <astralsorcery:blockmarble>,
     [<ore:stoneMarble>]
 );
-RecipeUtil.addShapeless("auto_gen_-1801128435", <astralsorcery:blockmarble>,
-    [<pvj:marble>]
-);
 RecipeUtil.addShapeless("auto_gen_303589427", <quark:marble>,
     [<ore:stoneMarble>]
 );
@@ -275,18 +269,6 @@ RecipeUtil.addShapeless("auto_gen_-1168410344", <appliedenergistics2:material:37
 );
 RecipeUtil.addShapeless("auto_gen_-1308565577", <appliedenergistics2:material:38>,
     [<appliedenergistics2:material:37>, <appliedenergistics2:material:37>, <appliedenergistics2:material:37>, <appliedenergistics2:material:37>]
-);
-RecipeUtil.addShapeless("auto_gen_-326012325", <extracells:storage.component>,
-    [<appliedenergistics2:material:38>, <appliedenergistics2:material:38>, <appliedenergistics2:material:38>, <appliedenergistics2:material:38>]
-);
-RecipeUtil.addShapeless("auto_gen_159103536", <extracells:storage.component:1>,
-    [<extracells:storage.component>, <extracells:storage.component>, <extracells:storage.component>, <extracells:storage.component>]
-);
-RecipeUtil.addShapeless("auto_gen_-981757333", <extracells:storage.component:2>,
-    [<extracells:storage.component:1>, <extracells:storage.component:1>, <extracells:storage.component:1>, <extracells:storage.component:1>]
-);
-RecipeUtil.addShapeless("auto_gen_1276343630", <extracells:storage.component:3>,
-    [<extracells:storage.component:2>, <extracells:storage.component:2>, <extracells:storage.component:2>, <extracells:storage.component:2>]
 );
 RecipeUtil.addShapeless("auto_gen_462958864", <projectex:energy_link>,
     [<additions:greedycraft-matter_block>, <rftools:machine_frame>, <ore:ingotProtonium>, <ore:ingotElectronium>]
@@ -342,17 +324,11 @@ RecipeUtil.addShapeless("auto_gen_-689226972", <additions:greedycraft-crude_hatc
 RecipeUtil.addShapeless("auto_gen_-1342866062", <twilightforest:magic_map_focus>,
     [<twilightforest:raven_feather>, <twilightforest:torchberries>]
 );
-RecipeUtil.addShapeless("clam", <pvj:clam>,
-    [<pvj:seashells>]
-);
 RecipeUtil.addShapeless("rose_gold_dust", <mca:rose_gold_dust> * 3,
     [<ore:dustGold>, <ore:dustCopper>, <ore:dustSilver>]
 );
 RecipeUtil.addShapeless("sand_to_glass", <minecraft:glass>,
     [<ore:sand>, <additions:greedycraft-fake_philosopher_stone>.transformReplace(<additions:greedycraft-fake_philosopher_stone>)]
-);
-RecipeUtil.addShapeless("pinecone", <additions:greedycraft-pinecone>,
-    [<pvj:pinecones>]
 );
 RecipeUtil.addShapeless("stick", <minecraft:stick>,
     [<ore:twigs>]
@@ -362,15 +338,6 @@ RecipeUtil.addShapeless("earth_talisman", <mowziesmobs:earth_talisman>,
 );
 RecipeUtil.addShapeless("auto_gen_-518845405", <additions:cryonium_ingot> * 9,
     [<ore:blockCryonium>]
-);
-RecipeUtil.addShapeless("shroom1", <biomesoplenty:shroompowder>,
-    [<pvj:bracket_fungus>]
-);
-RecipeUtil.addShapeless("shroom2", <biomesoplenty:shroompowder>,
-    [<pvj:flouropore>]
-);
-RecipeUtil.addShapeless("sea_oat1", <harvestcraft:oatsitem>,
-    [<pvj:sea_oats>]
 );
 RecipeUtil.addShapeless("sea_oat2", <harvestcraft:oatsitem>,
     [<biomesoplenty:double_plant:3>]

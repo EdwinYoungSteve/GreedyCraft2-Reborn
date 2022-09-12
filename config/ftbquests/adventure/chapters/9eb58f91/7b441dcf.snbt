@@ -16,5 +16,16 @@
 			item: "enderio:block_sag_mill"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3c1fcba4",
+		type: "item",
+		item: "minecraft:piston",
+		count: 16
+	},
+	{
+		uid: "9ac71b89",
+		type: "xp",
+		xp: 3000
 	}]
 }

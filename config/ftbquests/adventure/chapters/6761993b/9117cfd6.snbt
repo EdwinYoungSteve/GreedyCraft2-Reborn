@@ -1,8 +1,8 @@
 {
-	x: 8.0d,
-	y: 3.0d,
+	x: 2.0d,
+	y: 1.5d,
 	dependencies: [
-		"1d91742e"
+		"98499983"
 	],
 	tasks: [{
 		uid: "08c420e6",
@@ -10,5 +10,15 @@
 		items: [{
 			item: "bloodarsenal:base_item 1 8"
 		}]
+	}],
+	rewards: [{
+		uid: "2f602a4f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "131b7ca4",
+		type: "xp",
+		xp: 1500
 	}]
 }

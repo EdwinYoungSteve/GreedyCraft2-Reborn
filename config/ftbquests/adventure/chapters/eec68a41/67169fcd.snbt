@@ -1,7 +1,7 @@
 {
 	title: "§b进阶泰拉钢",
-	x: 7.0d,
-	y: 0.0d,
+	x: 6.5d,
+	y: -3.5d,
 	description: "获得精灵钢锭，泰拉钢锭的升级版",
 	text: [
 		""
@@ -15,5 +15,16 @@
 		items: [{
 			item: "additions:botaniaddon-elfsteel_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "ede8c3ca",
+		type: "item",
+		item: "additions:botaniaddon-elfsteel_ingot",
+		count: 3
+	},
+	{
+		uid: "4eaaa888",
+		type: "xp",
+		xp: 2000
 	}]
 }

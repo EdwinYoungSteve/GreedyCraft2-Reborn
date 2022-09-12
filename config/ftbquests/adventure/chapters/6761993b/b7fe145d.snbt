@@ -1,0 +1,29 @@
+{
+	x: 6.0d,
+	y: 11.0d,
+	dependencies: [
+		"86be776a"
+	],
+	tasks: [{
+		uid: "05200d93",
+		type: "item",
+		items: [{
+			id: "evilcraft:entangled_chalice",
+			tag: {
+				tankID: "creativeTank0"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d48fe21c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "88391b05",
+		type: "xp",
+		xp: 700
+	}]
+}

@@ -1,13 +1,13 @@
 {
 	title: "§b高炉炼铁，焦炭的作用？",
-	x: -2.0d,
-	y: 4.0d,
+	x: -13.5d,
+	y: 6.5d,
 	description: "制作高炉控制器",
 	text: [
 		""
 	],
 	dependencies: [
-		"b8ac3827"
+		"5d0a6239"
 	],
 	tasks: [{
 		uid: "2ea43bfd",

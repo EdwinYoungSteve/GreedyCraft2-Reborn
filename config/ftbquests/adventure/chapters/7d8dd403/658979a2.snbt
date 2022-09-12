@@ -1,7 +1,7 @@
 {
 	title: "§b黑色之芯",
-	x: -0.5d,
-	y: 1.0d,
+	x: -1.0d,
+	y: 7.0d,
 	description: "合成凋灵芯",
 	text: [
 		""

@@ -1,7 +1,7 @@
 {
 	title: "§b热力学高峰",
-	x: 0.0d,
-	y: 1.5d,
+	x: -1.5d,
+	y: 0.0d,
 	description: "获得熔岩锭",
 	text: [
 		""

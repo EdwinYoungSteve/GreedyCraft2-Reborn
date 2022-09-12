@@ -1,0 +1,11 @@
+{
+	x: -2.5d,
+	y: 5.0d,
+	tasks: [{
+		uid: "8ad883f2",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:titanium_seeds"
+		}]
+	}]
+}

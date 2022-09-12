@@ -1,0 +1,31 @@
+{
+	title: "汲取咒波！",
+	x: 11.5d,
+	y: 2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"75992ca5"
+	],
+	tasks: [{
+		uid: "7d295fb9",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:rift_seed",
+			Damage: 1s,
+			tag: {
+				flux: 100
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "85431fee",
+		type: "item",
+		item: {
+			id: "thaumicaugmentation:rift_seed",
+			tag: {
+				riftSize: 10
+			}
+		}
+	}]
+}

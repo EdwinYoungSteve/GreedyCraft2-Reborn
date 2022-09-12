@@ -1,13 +1,13 @@
 {
 	title: "§b金黄岩石",
-	x: 5.5d,
-	y: 4.0d,
+	x: 4.0d,
+	y: 5.5d,
 	description: "合成神圣岩石",
 	text: [
 		""
 	],
 	dependencies: [
-		"9329a5dd"
+		"a29a289d"
 	],
 	tasks: [{
 		uid: "68f37702",

@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x820202,
+    "langs": {
+        "material": {
+            "en": "Dreadium",
+            "zh": "惧质"
+        }
+    }
+}

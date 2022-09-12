@@ -21,12 +21,6 @@
 		value: 20L
 	}],
 	rewards: [{
-		uid: "7ac5a298",
-		type: "item",
-		item: "abyssalcraft:statue",
-		count: 8
-	},
-	{
 		uid: "2060e10b",
 		type: "random",
 		table: 1
