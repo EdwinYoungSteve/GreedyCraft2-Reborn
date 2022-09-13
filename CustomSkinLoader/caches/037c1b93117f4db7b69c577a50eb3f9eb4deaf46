@@ -1,0 +1,8 @@
+{
+  "id" : "b0ae7e9a2a6d46a1bfe8820ef43a5cce",
+  "name" : "JSHT_XY",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjg5MjM5NTgyMywKICAicHJvZmlsZUlkIiA6ICJiMGFlN2U5YTJhNmQ0NmExYmZlODgyMGVmNDNhNWNjZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJKU0hUX1hZIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc3MGRhYjk1YTNlYzNlOGI5MmFkMzcwNTBkYTExNjkyNjE0NWVkODljMjExZmE3MWRmZGZjZGQ0NGZhODViMzciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+  } ]
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "37e5b94a4888481eaf3489bb4035ff64",
+  "name" : "DonaldTrump",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjk0NzM3NTAyNywKICAicHJvZmlsZUlkIiA6ICIzN2U1Yjk0YTQ4ODg0ODFlYWYzNDg5YmI0MDM1ZmY2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJEb25hbGRUcnVtcCIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZjZhNGExNmE5ZTU4MjY1ZDYyMjk5YWM3ODVhMGY0ZDA0YWE5MmNkNDUwYmNjZmRlY2M4MzlhYjI1NjRlZjVjIgogICAgfQogIH0KfQ=="
+  } ]
+}

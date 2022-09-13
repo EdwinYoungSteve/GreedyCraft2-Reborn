@@ -1,0 +1,8 @@
+{
+  "id" : "63d9303e7ec3478280ca02489b387c0f",
+  "name" : "Callahan",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjk0MDQwODY4MCwKICAicHJvZmlsZUlkIiA6ICI2M2Q5MzAzZTdlYzM0NzgyODBjYTAyNDg5YjM4N2MwZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYWxsYWhhbiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYTJiMjQwMzM0Y2YzMjk2YTliZTQwODRiZjg2MjAzOTAzNzFhYjZmZTQ3OTgwNzI2NDI4MTlhMGRjNjIwNTM4IgogICAgfQogIH0KfQ=="
+  } ]
+}

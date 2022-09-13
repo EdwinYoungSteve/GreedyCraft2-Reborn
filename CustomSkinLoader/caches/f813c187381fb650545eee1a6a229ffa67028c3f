@@ -1,0 +1,8 @@
+{
+  "id" : "eb8ef7b931994a5099e876a48baa6fdf",
+  "name" : "glasspelican",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjk1MjM3MDU3NiwKICAicHJvZmlsZUlkIiA6ICJlYjhlZjdiOTMxOTk0YTUwOTllODc2YTQ4YmFhNmZkZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJnbGFzc3BlbGljYW4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk4ODI5MjMwMGNiMGEzZDQ3OGUwZGQ3OTE4M2JiY2E0MmI1NmVhMzdlODI0MzNiMDM2ZWMxYTdmOTk3N2ZjNSIKICAgIH0KICB9Cn0="
+  } ]
+}

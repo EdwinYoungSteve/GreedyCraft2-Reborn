@@ -1,0 +1,8 @@
+{
+  "id" : "0a28b1829fb34d6ebd96fabd2fe6648a",
+  "name" : "Antfrost",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjc4MDc1ODUxMywKICAicHJvZmlsZUlkIiA6ICIwYTI4YjE4MjlmYjM0ZDZlYmQ5NmZhYmQyZmU2NjQ4YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbnRmcm9zdCIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zNmRkZjk5ZDRjNDM1YzY1YTI5MTk1ZDQ0ZjE1NWRkZmZhNmJhZjI0YzE1ZjhiNzk4MTFiNjI1MTBlMDViMDQiCiAgICB9CiAgfQp9"
+  } ]
+}

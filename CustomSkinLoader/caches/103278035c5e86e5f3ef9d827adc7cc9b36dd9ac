@@ -1,0 +1,8 @@
+{
+  "id" : "022db270754741c0afc596e1e1362274",
+  "name" : "powercrystals",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjk0NzI0NDIwMiwKICAicHJvZmlsZUlkIiA6ICIwMjJkYjI3MDc1NDc0MWMwYWZjNTk2ZTFlMTM2MjI3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJwb3dlcmNyeXN0YWxzIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q4YjkwMDI1YmZjOTgwMTYzY2I4MGU1YWY4MWUxMTc3M2Q0OGViZjYyODFmYmQ5M2M1YmViYzUzYmYxOTU3MTIiCiAgICB9CiAgfQp9"
+  } ]
+}

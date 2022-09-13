@@ -158,3 +158,21 @@ airabyss.setNeedBucket(true);
 airabyss.setNeedFluid(false);
 airabyss.setIcon("blocks/gas_clear");
 airabyss.register();
+
+var bromine = GasFactory.createGas("bromine");
+bromine.setUnlocalizedName("bromine");
+bromine.setColorize(true);
+bromine.setColor(0xa52a2a);
+bromine.setNeedBucket(true);
+bromine.setNeedFluid(false);
+bromine.setIcon("blocks/gas_clear");
+bromine.register();
+
+var iodine = GasFactory.createGas("iodine");
+iodine.setUnlocalizedName("iodine");
+iodine.setColorize(true);
+iodine.setColor(0xe066ff);
+iodine.setNeedBucket(true);
+iodine.setNeedFluid(false);
+iodine.setIcon("blocks/gas_clear");
+iodine.register();

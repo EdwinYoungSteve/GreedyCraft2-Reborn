@@ -1,0 +1,8 @@
+{
+  "id" : "b5b9cb8967c0402885412e27fb7e96e8",
+  "name" : "hotrodricky",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2MjkwMzkxMjU2MywKICAicHJvZmlsZUlkIiA6ICJiNWI5Y2I4OTY3YzA0MDI4ODU0MTJlMjdmYjdlOTZlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJob3Ryb2RyaWNreSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMmQxZTRmOTM4MmM5MTlkZmRlOWI5NGZhNTZjNjhhZmEwYTUxY2U5ZDJmNGU5NWZjODUwMmE1Mzc3ZTg5ZGJjIgogICAgfQogIH0KfQ=="
+  } ]
+}

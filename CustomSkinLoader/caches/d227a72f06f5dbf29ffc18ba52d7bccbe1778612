@@ -1,0 +1,8 @@
+{
+  "id" : "2fbb92a5af94476db46b6afc8620dcde",
+  "name" : "EagleEyes",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjg5NDY5NDk4NiwKICAicHJvZmlsZUlkIiA6ICIyZmJiOTJhNWFmOTQ0NzZkYjQ2YjZhZmM4NjIwZGNkZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFYWdsZUV5ZXMiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY4YzMwNTNlMjdmZDBjOWFhNzIxZTQxZDBiNGM1YTAyMmY4NGEyY2NhNDk3YWY1ZmE1ZWFjMTJmZjVmOTE3MCIKICAgIH0KICB9Cn0="
+  } ]
+}

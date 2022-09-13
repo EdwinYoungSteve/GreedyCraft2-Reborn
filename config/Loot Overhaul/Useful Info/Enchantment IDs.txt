@@ -320,18 +320,18 @@ endercore:xpboost
    - Max Level: 3
 
 
-enderio:soulbound
+enderio:shimmer
    - Id: 39
    - Rarity: VERY_RARE
-   - Treasure: false
+   - Treasure: true
    - Min Level: 1
    - Max Level: 1
 
 
-enderio:shimmer
+enderio:soulbound
    - Id: 40
    - Rarity: VERY_RARE
-   - Treasure: true
+   - Treasure: false
    - Min Level: 1
    - Max Level: 1
 
@@ -424,16 +424,24 @@ minecraft:infinity
    - Max Level: 1
 
 
-blue_skies:uncivilized
+divinerpg:aftershock
    - Id: 52
-   - Rarity: COMMON
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 5
+   - Max Level: 2
+
+
+divinerpg:rive
+   - Id: 53
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
 
 
 defiledlands:sharpshooter
-   - Id: 53
+   - Id: 54
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
@@ -441,7 +449,7 @@ defiledlands:sharpshooter
 
 
 defiledlands:economical
-   - Id: 54
+   - Id: 55
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -449,7 +457,7 @@ defiledlands:economical
 
 
 defiledlands:destructive
-   - Id: 55
+   - Id: 56
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
@@ -457,7 +465,7 @@ defiledlands:destructive
 
 
 defiledlands:safeguard
-   - Id: 56
+   - Id: 57
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
@@ -465,33 +473,25 @@ defiledlands:safeguard
 
 
 defiledlands:blazing
-   - Id: 57
+   - Id: 58
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
 
 
-divinerpg:rive
-   - Id: 58
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-divinerpg:aftershock
+oeintegration:oreexcavation
    - Id: 59
    - Rarity: VERY_RARE
-   - Treasure: false
+   - Treasure: true
    - Min Level: 1
-   - Max Level: 2
+   - Max Level: 5
 
 
-endreborn:ender_core
+variegated:manabound
    - Id: 60
-   - Rarity: RARE
-   - Treasure: false
+   - Rarity: VERY_RARE
+   - Treasure: true
    - Min Level: 1
    - Max Level: 1
 
@@ -512,39 +512,39 @@ minecraft:lure
    - Max Level: 3
 
 
-endreborn:ender_killer
+abyssalcraft:coralium
    - Id: 63
    - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 2
-
-
-endreborn:shulker_core
-   - Id: 64
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-evilcraft:unusing
-   - Id: 65
-   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
 
 
-evilcraft:breaking
-   - Id: 66
+abyssalcraft:dread
+   - Id: 64
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+abyssalcraft:light_pierce
+   - Id: 65
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
-   - Max Level: 3
+   - Max Level: 5
 
 
-evilcraft:life_stealing
+abyssalcraft:iron_wall
+   - Id: 66
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+abyssalcraft:sapping
    - Id: 67
    - Rarity: UNCOMMON
    - Treasure: false
@@ -552,20 +552,20 @@ evilcraft:life_stealing
    - Max Level: 3
 
 
-evilcraft:poison_tip
+abyssalcraft:multi_rend
    - Id: 68
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 3
+   - Max Level: 1
 
 
-evilcraft:vengeance
+cofhcore:holding
    - Id: 69
-   - Rarity: COMMON
+   - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
-   - Max Level: 3
+   - Max Level: 4
 
 
 minecraft:mending
@@ -584,104 +584,8 @@ minecraft:vanishing_curse
    - Max Level: 1
 
 
-journey:hot touch
-   - Id: 72
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-oeintegration:oreexcavation
-   - Id: 73
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 5
-
-
-theaurorian:lightning
-   - Id: 74
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
-theaurorian:lightningresistance
-   - Id: 75
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-variegated:manabound
-   - Id: 76
-   - Rarity: VERY_RARE
-   - Treasure: true
-   - Min Level: 1
-   - Max Level: 1
-
-
-abyssalcraft:coralium
-   - Id: 77
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-abyssalcraft:dread
-   - Id: 78
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-abyssalcraft:light_pierce
-   - Id: 79
-   - Rarity: COMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 5
-
-
-abyssalcraft:iron_wall
-   - Id: 80
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-abyssalcraft:sapping
-   - Id: 81
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 3
-
-
-abyssalcraft:multi_rend
-   - Id: 82
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-cofhcore:holding
-   - Id: 83
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 4
-
-
 cofhcore:insight
-   - Id: 84
+   - Id: 72
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -689,7 +593,7 @@ cofhcore:insight
 
 
 cofhcore:leech
-   - Id: 85
+   - Id: 73
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -697,7 +601,7 @@ cofhcore:leech
 
 
 cofhcore:multishot
-   - Id: 86
+   - Id: 74
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -705,7 +609,7 @@ cofhcore:multishot
 
 
 cofhcore:smashing
-   - Id: 87
+   - Id: 75
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
@@ -713,7 +617,7 @@ cofhcore:smashing
 
 
 cofhcore:smelting
-   - Id: 88
+   - Id: 76
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
@@ -721,7 +625,7 @@ cofhcore:smelting
 
 
 cofhcore:soulbound
-   - Id: 89
+   - Id: 77
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
@@ -729,7 +633,7 @@ cofhcore:soulbound
 
 
 cofhcore:vorpal
-   - Id: 90
+   - Id: 78
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
@@ -737,7 +641,7 @@ cofhcore:vorpal
 
 
 cyclicmagic:enchantment.autosmelt
-   - Id: 91
+   - Id: 79
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
@@ -745,7 +649,7 @@ cyclicmagic:enchantment.autosmelt
 
 
 cyclicmagic:enchantment.beheading
-   - Id: 92
+   - Id: 80
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -753,7 +657,7 @@ cyclicmagic:enchantment.beheading
 
 
 cyclicmagic:enchantment.excavation
-   - Id: 93
+   - Id: 81
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -761,7 +665,7 @@ cyclicmagic:enchantment.excavation
 
 
 cyclicmagic:enchantment.launch
-   - Id: 94
+   - Id: 82
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
@@ -769,7 +673,7 @@ cyclicmagic:enchantment.launch
 
 
 cyclicmagic:enchantment.magnet
-   - Id: 95
+   - Id: 83
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -777,7 +681,7 @@ cyclicmagic:enchantment.magnet
 
 
 cyclicmagic:enchantment.multishot
-   - Id: 96
+   - Id: 84
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -785,7 +689,7 @@ cyclicmagic:enchantment.multishot
 
 
 cyclicmagic:enchantment.quickdraw
-   - Id: 97
+   - Id: 85
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -793,7 +697,7 @@ cyclicmagic:enchantment.quickdraw
 
 
 cyclicmagic:enchantment.reach
-   - Id: 98
+   - Id: 86
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -801,7 +705,7 @@ cyclicmagic:enchantment.reach
 
 
 cyclicmagic:enchantment.venom
-   - Id: 99
+   - Id: 87
    - Rarity: COMMON
    - Treasure: false
    - Min Level: 1
@@ -809,7 +713,7 @@ cyclicmagic:enchantment.venom
 
 
 cyclicmagic:enchantment.waterwalking
-   - Id: 100
+   - Id: 88
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -817,7 +721,7 @@ cyclicmagic:enchantment.waterwalking
 
 
 cyclicmagic:enchantment.expboost
-   - Id: 101
+   - Id: 89
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -825,7 +729,7 @@ cyclicmagic:enchantment.expboost
 
 
 astralsorcery:enchantment.as.nightvision
-   - Id: 102
+   - Id: 90
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -833,7 +737,7 @@ astralsorcery:enchantment.as.nightvision
 
 
 astralsorcery:enchantment.as.smelting
-   - Id: 103
+   - Id: 91
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -841,7 +745,7 @@ astralsorcery:enchantment.as.smelting
 
 
 charm:curse_break
-   - Id: 104
+   - Id: 92
    - Rarity: RARE
    - Treasure: true
    - Min Level: 1
@@ -849,7 +753,7 @@ charm:curse_break
 
 
 charm:rusting_curse
-   - Id: 105
+   - Id: 93
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
@@ -857,7 +761,7 @@ charm:rusting_curse
 
 
 charm:clumsiness_curse
-   - Id: 106
+   - Id: 94
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
@@ -865,7 +769,7 @@ charm:clumsiness_curse
 
 
 charm:haunting_curse
-   - Id: 107
+   - Id: 95
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
@@ -873,7 +777,7 @@ charm:haunting_curse
 
 
 charm:harming_curse
-   - Id: 108
+   - Id: 96
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
@@ -881,7 +785,7 @@ charm:harming_curse
 
 
 charm:homing
-   - Id: 109
+   - Id: 97
    - Rarity: RARE
    - Treasure: true
    - Min Level: 1
@@ -889,10 +793,106 @@ charm:homing
 
 
 charm:magnetic
-   - Id: 110
+   - Id: 98
    - Rarity: RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
+
+
+theaurorian:lightningresistance
+   - Id: 99
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+theaurorian:lightning
+   - Id: 100
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 4
+
+
+endreborn:shulker_core
+   - Id: 101
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+journey:hot touch
+   - Id: 102
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+blue_skies:uncivilized
+   - Id: 103
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+endreborn:ender_core
+   - Id: 104
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+endreborn:ender_killer
+   - Id: 105
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
+
+
+evilcraft:vengeance
+   - Id: 106
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+evilcraft:unusing
+   - Id: 107
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+evilcraft:breaking
+   - Id: 108
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+evilcraft:poison_tip
+   - Id: 109
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+evilcraft:life_stealing
+   - Id: 110
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
 
 

@@ -41,6 +41,19 @@ liquidfusionfuel                                  ([no block])                  
 liquidlithium                                     ([no block])                                                                     = ÀäÄıï®ÕôÆø
 heavywater                                        ([no block])                                                                     = ÖØË®
 steam                                             ([no block])                                                                     = ÕôÆû
+glowstone_fluid                                   (extraplanets:glowstone)                                                         = Ó«Ê¯Ë®
+magma_fluid                                       (extraplanets:magma)                                                             = ÑÒ½¬Ë®
+nitrogen_fluid                                    (extraplanets:nitrogen)                                                          = Òºµª
+frozen_water_fluid                                (extraplanets:frozen_water)                                                      = ±ùË®
+salt_fluid                                        (extraplanets:salt)                                                              = ÑÎË®
+radioactive_water_fluid                           (extraplanets:radioactive_water)                                                 = ·ÅÉäĞÔË®
+clean_water_fluid                                 (extraplanets:clean_water)                                                       = ÇåË®
+infected_water_fluid                              (extraplanets:infected_water)                                                    = ±»¸ĞÈ¾µÄË®
+methane_fluid                                     (extraplanets:methane)                                                           = ÒºÌ¬¼×Íé
+nitrogen_ice_fluid                                (extraplanets:nitrogen_ice)                                                      = Òºµª±ù
+liquid_hydrocarbon_fluid                          (extraplanets:liquid_hydrocarbon)                                                = ÒºÌ¬Ìş
+liquid_chocolate_fluid                            (extraplanets:liquid_chocolate)                                                  = ÒºÌ¬ÇÉ¿ËÁ¦
+liquid_caramel_fluid                              (extraplanets:liquid_caramel)                                                    = ÒºÌ¬½¹ÌÇ
 densite                                           (gct_ores:densite)                                                               = ÈÛÈÚÃÜ¶ÈºÏ½ğ
 reditrite                                         (gct_ores:reditrite)                                                             = ÈÛÈÚºì°ßÔÉÌú
 aetherium                                         (gct_ores:aetherium)                                                             = ÈÛÈÚÒÔÌ«
@@ -797,7 +810,6 @@ yrdeen_fluid                                      (taiga:molten_yrdeen_fluid)   
 iox_fluid                                         (taiga:molten_iox_fluid)                                                         = ÈÛÈÚÀë½ğ
 meteorite_fluid                                   (taiga:molten_meteorite_fluid)                                                   = ÈÛÈÚÔÉÌú
 obsidiorite_fluid                                 (taiga:molten_obsidiorite_fluid)                                                 = ÈÛÈÚºÚÔÉÌú
-magma_fluid                                       (taiga:molten_magma_fluid)                                                       = ÈÛÈÚÑÒ½¬
 nitronite_fluid                                   (taiga:molten_nitronite_fluid)                                                   = ÈÛÈÚÏõ»¯ºÏ½ğ
 dilithium_fluid                                   (taiga:molten_dilithium_fluid)                                                   = ÈÛÈÚË«ï®
 mist.acid                                         (mist:acid_block)                                                                = ËáÒº
@@ -977,6 +989,7 @@ aqualite                                          (jaopca:fluid_moltenaqualite) 
 asgardium                                         (jaopca:fluid_moltenasgardium)                                                   = ÈÛÈÚÉñ½ğ
 breakium                                          (jaopca:fluid_moltenbreakium)                                                    = ÈÛÈÚ¶Ï½ğ
 caesium                                           (jaopca:fluid_moltencaesium)                                                     = ÈÛÈÚï¤
+carbon                                            (jaopca:fluid_moltencarbon)                                                      = ÈÛÈÚÌ¼
 cerulean                                          (jaopca:fluid_moltencerulean)                                                    = ÈÛÈÚCerulean
 chillinium                                        (jaopca:fluid_moltenchillinium)                                                  = ÈÛÈÚº®ĞÄÌú
 circlium                                          (jaopca:fluid_moltencirclium)                                                    = ÈÛÈÚ»·½ğ
@@ -984,6 +997,7 @@ cloudite                                          (jaopca:fluid_moltencloudite) 
 cryonium                                          (jaopca:fluid_moltencryonium)                                                    = ÈÛÈÚ¼«º®
 cthulhurite                                       (jaopca:fluid_moltencthulhurite)                                                 = ÈÛÈÚ¿ËËÕÂ³
 cytosinite                                        (jaopca:fluid_moltencytosinite)                                                  = ÈÛÈÚ°ûà×
+dark_iron                                         (jaopca:fluid_moltendarkiron)                                                    = ÈÛÈÚĞşÌú
 dawnium                                           (jaopca:fluid_moltendawnium)                                                     = ÈÛÈÚÔÉÁé½ğ
 daynight                                          (jaopca:fluid_moltendaynight)                                                    = ÈÛÈÚDaynight
 dilithium                                         (jaopca:fluid_moltendilithium)                                                   = ÈÛÈÚË«ï®
@@ -1246,6 +1260,7 @@ ec.internal.slurrycleanbreakium                   ([no block])                  
 ec.internal.slurrycleanbronze                     ([no block])                                                                     = ´¿¾»µÄÇàÍ­½¬Òº
 ec.internal.slurrycleancaesium                    ([no block])                                                                     = ´¿¾»µÄï¤½¬Òº
 ec.internal.slurrycleancanopium                   ([no block])                                                                     = ´¿¾»µÄ²Ôñ·½¬Òº
+ec.internal.slurrycleancarbon                     ([no block])                                                                     = ´¿¾»µÄÌ¼½¬Òº
 ec.internal.slurrycleancerulean                   ([no block])                                                                     = ´¿¾»µÄCerulean½¬Òº
 ec.internal.slurrycleanchillinium                 ([no block])                                                                     = ´¿¾»µÄº®ĞÄÌú½¬Òº
 ec.internal.slurrycleanchromasteel                ([no block])                                                                     = ´¿¾»µÄìÅ¸Ö½¬Òº
@@ -1257,9 +1272,11 @@ ec.internal.slurrycleanconductiveiron             ([no block])                  
 ec.internal.slurrycleancosmilite                  ([no block])                                                                     = ´¿¾»µÄå¾Óî½¬Òº
 ec.internal.slurrycleancrimsonite                 ([no block])                                                                     = ´¿¾»µÄĞÉºì½¬Òº
 ec.internal.slurrycleancryonium                   ([no block])                                                                     = ´¿¾»µÄ¼«º®½¬Òº
+ec.internal.slurrycleancrystal                    ([no block])                                                                     = ´¿¾»µÄCrystal½¬Òº
 ec.internal.slurrycleancrystalline                ([no block])                                                                     = ´¿¾»µÄÔÂÄı¾§½¬Òº
 ec.internal.slurrycleancthulhurite                ([no block])                                                                     = ´¿¾»µÄ¿ËËÕÂ³½¬Òº
 ec.internal.slurrycleancytosinite                 ([no block])                                                                     = ´¿¾»µÄ°ûà×½¬Òº
+ec.internal.slurrycleandarkiron                   ([no block])                                                                     = ´¿¾»µÄĞşÌú½¬Òº
 ec.internal.slurrycleandawnium                    ([no block])                                                                     = ´¿¾»µÄÔÉÁé½ğ½¬Òº
 ec.internal.slurrycleandaynight                   ([no block])                                                                     = ´¿¾»µÄDaynight½¬Òº
 ec.internal.slurrycleandesh                       ([no block])                                                                     = ´¿¾»µÄ´÷Ë¹½¬Òº
@@ -1306,6 +1323,7 @@ ec.internal.slurrycleanmanasteel                  ([no block])                  
 ec.internal.slurrycleanmanganese                  ([no block])                                                                     = ´¿¾»µÄÃÌ½¬Òº
 ec.internal.slurrycleanmangisite                  ([no block])                                                                     = ´¿¾»µÄÂüÇĞË¹ÌØ½¬Òº
 ec.internal.slurrycleanmanyullyn                  ([no block])                                                                     = ´¿¾»µÄÂêÓñÁé½¬Òº
+ec.internal.slurrycleanmercury                    ([no block])                                                                     = ´¿¾»µÄ¹¯½¬Òº
 ec.internal.slurrycleanmeteor                     ([no block])                                                                     = ´¿¾»µÄÔÉĞÇ½¬Òº
 ec.internal.slurrycleanmeteoriciron               ([no block])                                                                     = ´¿¾»µÄÔÉÌú½¬Òº
 ec.internal.slurrycleanmirion                     ([no block])                                                                     = ´¿¾»µÄÔÌÄ§½á¾§½¬Òº
@@ -1388,6 +1406,7 @@ ec.internal.slurrybreakium                        ([no block])                  
 ec.internal.slurrybronze                          ([no block])                                                                     = ÇàÍ­½¬Òº
 ec.internal.slurrycaesium                         ([no block])                                                                     = ï¤½¬Òº
 ec.internal.slurrycanopium                        ([no block])                                                                     = ²Ôñ·½¬Òº
+ec.internal.slurrycarbon                          ([no block])                                                                     = Ì¼½¬Òº
 ec.internal.slurrycerulean                        ([no block])                                                                     = Cerulean½¬Òº
 ec.internal.slurrychillinium                      ([no block])                                                                     = º®ĞÄÌú½¬Òº
 ec.internal.slurrychromasteel                     ([no block])                                                                     = ìÅ¸Ö½¬Òº
@@ -1399,9 +1418,11 @@ ec.internal.slurryconductiveiron                  ([no block])                  
 ec.internal.slurrycosmilite                       ([no block])                                                                     = å¾Óî½¬Òº
 ec.internal.slurrycrimsonite                      ([no block])                                                                     = ĞÉºì½¬Òº
 ec.internal.slurrycryonium                        ([no block])                                                                     = ¼«º®½¬Òº
+ec.internal.slurrycrystal                         ([no block])                                                                     = Crystal½¬Òº
 ec.internal.slurrycrystalline                     ([no block])                                                                     = ÔÂÄı¾§½¬Òº
 ec.internal.slurrycthulhurite                     ([no block])                                                                     = ¿ËËÕÂ³½¬Òº
 ec.internal.slurrycytosinite                      ([no block])                                                                     = °ûà×½¬Òº
+ec.internal.slurrydarkiron                        ([no block])                                                                     = ĞşÌú½¬Òº
 ec.internal.slurrydawnium                         ([no block])                                                                     = ÔÉÁé½ğ½¬Òº
 ec.internal.slurrydaynight                        ([no block])                                                                     = Daynight½¬Òº
 ec.internal.slurrydesh                            ([no block])                                                                     = ´÷Ë¹½¬Òº
@@ -1448,6 +1469,7 @@ ec.internal.slurrymanasteel                       ([no block])                  
 ec.internal.slurrymanganese                       ([no block])                                                                     = ÃÌ½¬Òº
 ec.internal.slurrymangisite                       ([no block])                                                                     = ÂüÇĞË¹ÌØ½¬Òº
 ec.internal.slurrymanyullyn                       ([no block])                                                                     = ÂêÓñÁé½¬Òº
+ec.internal.slurrymercury                         ([no block])                                                                     = ¹¯½¬Òº
 ec.internal.slurrymeteor                          ([no block])                                                                     = ÔÉĞÇ½¬Òº
 ec.internal.slurrymeteoriciron                    ([no block])                                                                     = ÔÉÌú½¬Òº
 ec.internal.slurrymirion                          ([no block])                                                                     = ÔÌÄ§½á¾§½¬Òº

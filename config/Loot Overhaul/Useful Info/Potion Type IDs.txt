@@ -296,6 +296,21 @@ tiths:hard_ice
        tiths:hard_ice - 3600 - 0 - false - true
 
 
+enderio:floating
+   - Effects: 
+       minecraft:levitation - 140 - 0 - false - true
+
+
+enderio:strong_floating
+   - Effects: 
+       minecraft:levitation - 140 - 2 - false - true
+
+
+enderio:long_floating
+   - Effects: 
+       minecraft:levitation - 560 - 0 - false - true
+
+
 enderio:confusion
    - Effects: 
        minecraft:nausea - 900 - 0 - false - true
@@ -316,19 +331,19 @@ enderio:long_withering
        minecraft:wither - 2400 - 0 - false - true
 
 
-enderio:floating
+quark:resilience
    - Effects: 
-       minecraft:levitation - 140 - 0 - false - true
+       quark:resilience - 3600 - 0 - false - true
 
 
-enderio:strong_floating
+quark:long_resilience
    - Effects: 
-       minecraft:levitation - 140 - 2 - false - true
+       quark:resilience - 9600 - 0 - false - true
 
 
-enderio:long_floating
+quark:strong_resilience
    - Effects: 
-       minecraft:levitation - 560 - 0 - false - true
+       quark:resilience - 1800 - 1 - false - true
 
 
 quark:haste
@@ -384,21 +399,6 @@ quark:danger_sight
 quark:long_danger_sight
    - Effects: 
        quark:danger_sight - 9600 - 0 - false - true
-
-
-quark:resilience
-   - Effects: 
-       quark:resilience - 3600 - 0 - false - true
-
-
-quark:long_resilience
-   - Effects: 
-       quark:resilience - 9600 - 0 - false - true
-
-
-quark:strong_resilience
-   - Effects: 
-       quark:resilience - 1800 - 1 - false - true
 
 
 potioncore:saturation
@@ -1061,341 +1061,6 @@ potioncore:long_archery
        potioncore:archery - 9600 - 0 - false - true
 
 
-extraalchemy:fuse_normal
-   - Effects: 
-       extraalchemy:effect.fuse - 400 - 0 - false - true
-
-
-extraalchemy:fuse_strong
-   - Effects: 
-       extraalchemy:effect.fuse - 600 - 1 - false - true
-
-
-extraalchemy:fuse_quick
-   - Effects: 
-       extraalchemy:effect.fuse - 200 - 0 - false - true
-
-
-extraalchemy:recall_normal
-   - Effects: 
-       extraalchemy:effect.recall - 800 - 0 - false - true
-
-
-extraalchemy:recall_strong
-   - Effects: 
-       extraalchemy:effect.recall - 600 - 1 - false - true
-
-
-extraalchemy:recall_long
-   - Effects: 
-       extraalchemy:effect.recall - 1600 - 0 - false - true
-
-
-extraalchemy:sinking_normal
-   - Effects: 
-       extraalchemy:effect.sinking - 600 - 0 - false - true
-
-
-extraalchemy:sinking_strong
-   - Effects: 
-       extraalchemy:effect.sinking - 300 - 1 - false - true
-
-
-extraalchemy:sinking_long
-   - Effects: 
-       extraalchemy:effect.sinking - 800 - 0 - false - true
-
-
-extraalchemy:freezing
-   - Effects: 
-       extraalchemy:effect.freezing - 0 - 0 - false - true
-
-
-extraalchemy:dislocation_normal
-   - Effects: 
-       extraalchemy:effect.dislocation - 300 - 0 - false - true
-
-
-extraalchemy:dislocation_strong
-   - Effects: 
-       extraalchemy:effect.dislocation - 200 - 1 - false - true
-
-
-extraalchemy:dislocation_long
-   - Effects: 
-       extraalchemy:effect.dislocation - 600 - 0 - false - true
-
-
-extraalchemy:magnetism_normal
-   - Effects: 
-       extraalchemy:effect.magnetism - 3600 - 0 - false - true
-
-
-extraalchemy:magnetism_strong
-   - Effects: 
-       extraalchemy:effect.magnetism - 2400 - 1 - false - true
-
-
-extraalchemy:magnetism_long
-   - Effects: 
-       extraalchemy:effect.magnetism - 4800 - 0 - false - true
-
-
-extraalchemy:pyper_normal
-   - Effects: 
-       extraalchemy:effect.piper - 2400 - 0 - false - true
-
-
-extraalchemy:pyper_strong
-   - Effects: 
-       extraalchemy:effect.piper - 2000 - 1 - false - true
-
-
-extraalchemy:pyper_long
-   - Effects: 
-       extraalchemy:effect.piper - 4800 - 0 - false - true
-
-
-extraalchemy:pacifism_normal
-   - Effects: 
-       extraalchemy:effect.pacifism - 500 - 0 - false - true
-
-
-extraalchemy:pacifism_strong
-   - Effects: 
-       extraalchemy:effect.pacifism - 300 - 1 - false - true
-
-
-extraalchemy:pacifism_long
-   - Effects: 
-       extraalchemy:effect.pacifism - 800 - 0 - false - true
-
-
-extraalchemy:crumbling_normal
-   - Effects: 
-       extraalchemy:effect.crumbling - 1200 - 0 - false - true
-
-
-extraalchemy:crumbling_strong
-   - Effects: 
-       extraalchemy:effect.crumbling - 800 - 1 - false - true
-
-
-extraalchemy:crumbling_long
-   - Effects: 
-       extraalchemy:effect.crumbling - 2000 - 0 - false - true
-
-
-extraalchemy:concentration_normal
-   - Effects: 
-       extraalchemy:effect.concentration - 0 - 0 - false - true
-
-
-extraalchemy:return_normal
-   - Effects: 
-       extraalchemy:effect.return - 0 - 0 - false - true
-
-
-extraalchemy:photosynthesis_normal
-   - Effects: 
-       extraalchemy:effect.photosynthesis - 1600 - 0 - false - true
-
-
-extraalchemy:photosynthesis_strong
-   - Effects: 
-       extraalchemy:effect.photosynthesis - 1200 - 1 - false - true
-
-
-extraalchemy:photosynthesis_long
-   - Effects: 
-       extraalchemy:effect.photosynthesis - 2000 - 0 - false - true
-
-
-extraalchemy:hurry_normal
-   - Effects: 
-       extraalchemy:effect.hurry - 800 - 0 - false - true
-
-
-extraalchemy:hurry_strong
-   - Effects: 
-       extraalchemy:effect.hurry - 600 - 1 - false - true
-
-
-extraalchemy:hurry_long
-   - Effects: 
-       extraalchemy:effect.hurry - 1200 - 0 - false - true
-
-
-extraalchemy:cheat_death_normal
-   - Effects: 
-       extraalchemy:effect.cheatdeath_quiescent - 8400 - 0 - false - true
-
-
-extraalchemy:charged_normal
-   - Effects: 
-       extraalchemy:effect.charged - 0 - 0 - false - true
-
-
-extraalchemy:charged2_normal
-   - Effects: 
-       extraalchemy:effect.charged2 - 0 - 0 - false - true
-
-
-extraalchemy:reincarnation_normal
-   - Effects: 
-       extraalchemy:effect.reincarnation - 9600 - 0 - false - true
-
-
-extraalchemy:reincarnation_strong
-   - Effects: 
-       extraalchemy:effect.reincarnation - 6000 - 1 - false - true
-
-
-extraalchemy:reincarnation_long
-   - Effects: 
-       extraalchemy:effect.reincarnation - 12000 - 0 - false - true
-
-
-extraalchemy:combustion_normal
-   - Effects: 
-       extraalchemy:effect.combustion - 600 - 0 - false - true
-
-
-extraalchemy:combustion_strong
-   - Effects: 
-       extraalchemy:effect.combustion - 400 - 1 - false - true
-
-
-extraalchemy:combustion_long
-   - Effects: 
-       extraalchemy:effect.combustion - 1000 - 0 - false - true
-
-
-extraalchemy:learning_normal
-   - Effects: 
-       extraalchemy:effect.learning - 4800 - 0 - false - true
-
-
-extraalchemy:learning_strong
-   - Effects: 
-       extraalchemy:effect.learning - 2400 - 1 - false - true
-
-
-extraalchemy:learning_long
-   - Effects: 
-       extraalchemy:effect.learning - 7200 - 0 - false - true
-
-
-extraalchemy:gravity_normal
-   - Effects: 
-       extraalchemy:effect.gravity - 1200 - 0 - false - true
-
-
-extraalchemy:gravity_long
-   - Effects: 
-       extraalchemy:effect.gravity - 2400 - 0 - false - true
-
-
-extraalchemy:gravity_strong
-   - Effects: 
-       extraalchemy:effect.gravity - 600 - 1 - false - true
-
-
-extraalchemy:leech_normal
-   - Effects: 
-       extraalchemy:effect.leech - 900 - 0 - false - true
-
-
-extraalchemy:leech_long
-   - Effects: 
-       extraalchemy:effect.leech - 1200 - 0 - false - true
-
-
-extraalchemy:leech_strong
-   - Effects: 
-       extraalchemy:effect.leech - 400 - 1 - false - true
-
-
-extraalchemy:sails_normal
-   - Effects: 
-       extraalchemy:effect.sails - 2400 - 0 - false - true
-
-
-extraalchemy:sails_long
-   - Effects: 
-       extraalchemy:effect.sails - 4800 - 0 - false - true
-
-
-extraalchemy:sails_strong
-   - Effects: 
-       extraalchemy:effect.sails - 1000 - 1 - false - true
-
-
-extraalchemy:beheading_normal
-   - Effects: 
-       extraalchemy:effect.beheading - 160 - 0 - false - true
-
-
-extraalchemy:beheading_long
-   - Effects: 
-       extraalchemy:effect.beheading - 240 - 0 - false - true
-
-
-extraalchemy:beheading_strong
-   - Effects: 
-       extraalchemy:effect.beheading - 80 - 1 - false - true
-
-
-extraalchemy:dispel_normal
-   - Effects: 
-       extraalchemy:effect.dispel - 0 - 0 - false - true
-
-
-extraalchemy:pain_normal
-   - Effects: 
-       extraalchemy:effect.pain - 3000 - 0 - false - true
-
-
-extraalchemy:pain_long
-   - Effects: 
-       extraalchemy:effect.pain - 6000 - 0 - false - true
-
-
-extraalchemy:pain_strong
-   - Effects: 
-       extraalchemy:effect.pain - 2400 - 1 - false - true
-
-
-extraalchemy:push_normal
-   - Effects: 
-       extraalchemy:effect.push - 1200 - 0 - false - true
-
-
-extraalchemy:push_long
-   - Effects: 
-       extraalchemy:effect.push - 2400 - 0 - false - true
-
-
-extraalchemy:push_strong
-   - Effects: 
-       extraalchemy:effect.push - 600 - 1 - false - true
-
-
-extraalchemy:pull_normal
-   - Effects: 
-       extraalchemy:effect.pull - 1200 - 0 - false - true
-
-
-extraalchemy:pull_long
-   - Effects: 
-       extraalchemy:effect.pull - 2400 - 0 - false - true
-
-
-extraalchemy:pull_strong
-   - Effects: 
-       extraalchemy:effect.pull - 600 - 1 - false - true
-
-
 mowziesmobs:poison_resist
    - Effects: 
        mowziesmobs:poison_resist - 3600 - 0 - false - true
@@ -1424,6 +1089,36 @@ netherex:dispersal
 netherex:sorrow
    - Effects: 
        netherex:crying - 600 - 0 - false - true
+
+
+blue_skies:unluck
+   - Effects: 
+       minecraft:unluck - 6000 - 0 - false - true
+
+
+gct_aby:abyssplague
+   - Effects: 
+       gct_aby:abyssplague - 3600 - 0 - false - true
+
+
+extraalchemy:beheading_normal
+   - Effects: 
+       extraalchemy:effect.beheading - 160 - 0 - false - true
+
+
+extraalchemy:reincarnation_strong
+   - Effects: 
+       extraalchemy:effect.reincarnation - 6000 - 1 - false - true
+
+
+extraalchemy:dislocation_normal
+   - Effects: 
+       extraalchemy:effect.dislocation - 300 - 0 - false - true
+
+
+extraalchemy:push_long
+   - Effects: 
+       extraalchemy:effect.push - 2400 - 0 - false - true
 
 
 variegated:boon
@@ -1921,11 +1616,6 @@ cyclicmagic:hunger
        minecraft:hunger - 3600 - 0 - false - true
 
 
-blue_skies:unluck
-   - Effects: 
-       minecraft:unluck - 6000 - 0 - false - true
-
-
 charm:coffee
    - Effects: 
        minecraft:speed - 200 - 0 - false - true
@@ -1943,11 +1633,6 @@ charm:ender_sight
        charm:ender_sight - 200 - 0 - false - true
 
 
-gct_aby:abyssplague
-   - Effects: 
-       gct_aby:abyssplague - 3600 - 0 - false - true
-
-
 gct_mobs:curse_of_twilight
    - Effects: 
        gct_mobs:curse_of_twilight - 3600 - 0 - false - true
@@ -1961,16 +1646,6 @@ gct_mobs:channeling
 gct_mobs:blue_screen
    - Effects: 
        gct_mobs:blue_screen - 3600 - 0 - false - true
-
-
-gct_mobs:anti_anyposion
-   - Effects: 
-       gct_mobs:anti_anyposion - 3600 - 0 - false - true
-
-
-gct_mobs:world_end
-   - Effects: 
-       gct_mobs:world_end - 3600 - 0 - false - true
 
 
 extrautils2:xu2.doom
@@ -2020,5 +1695,330 @@ extrautils2:xu2.love
 extrautils2:xu2.purging
    - Effects: 
        extrautils2:effect.xu2.purging - 0 - 0 - false - true
+
+
+gct_mobs:world_end
+   - Effects: 
+       gct_mobs:world_end - 3600 - 0 - false - true
+
+
+gct_mobs:anti_anyposion
+   - Effects: 
+       gct_mobs:anti_anyposion - 3600 - 0 - false - true
+
+
+extraalchemy:learning_strong
+   - Effects: 
+       extraalchemy:effect.learning - 2400 - 1 - false - true
+
+
+extraalchemy:magnetism_normal
+   - Effects: 
+       extraalchemy:effect.magnetism - 3600 - 0 - false - true
+
+
+extraalchemy:beheading_long
+   - Effects: 
+       extraalchemy:effect.beheading - 240 - 0 - false - true
+
+
+extraalchemy:cheat_death_normal
+   - Effects: 
+       extraalchemy:effect.cheatdeath_quiescent - 8400 - 0 - false - true
+
+
+extraalchemy:recall_normal
+   - Effects: 
+       extraalchemy:effect.recall - 800 - 0 - false - true
+
+
+extraalchemy:learning_long
+   - Effects: 
+       extraalchemy:effect.learning - 7200 - 0 - false - true
+
+
+extraalchemy:sinking_normal
+   - Effects: 
+       extraalchemy:effect.sinking - 600 - 0 - false - true
+
+
+extraalchemy:push_normal
+   - Effects: 
+       extraalchemy:effect.push - 1200 - 0 - false - true
+
+
+extraalchemy:crumbling_long
+   - Effects: 
+       extraalchemy:effect.crumbling - 2000 - 0 - false - true
+
+
+extraalchemy:charged2_normal
+   - Effects: 
+       extraalchemy:effect.charged2 - 0 - 0 - false - true
+
+
+extraalchemy:dislocation_strong
+   - Effects: 
+       extraalchemy:effect.dislocation - 200 - 1 - false - true
+
+
+extraalchemy:photosynthesis_normal
+   - Effects: 
+       extraalchemy:effect.photosynthesis - 1600 - 0 - false - true
+
+
+extraalchemy:photosynthesis_strong
+   - Effects: 
+       extraalchemy:effect.photosynthesis - 1200 - 1 - false - true
+
+
+extraalchemy:dislocation_long
+   - Effects: 
+       extraalchemy:effect.dislocation - 600 - 0 - false - true
+
+
+extraalchemy:charged_normal
+   - Effects: 
+       extraalchemy:effect.charged - 0 - 0 - false - true
+
+
+extraalchemy:sinking_strong
+   - Effects: 
+       extraalchemy:effect.sinking - 300 - 1 - false - true
+
+
+extraalchemy:freezing
+   - Effects: 
+       extraalchemy:effect.freezing - 0 - 0 - false - true
+
+
+extraalchemy:pacifism_long
+   - Effects: 
+       extraalchemy:effect.pacifism - 800 - 0 - false - true
+
+
+extraalchemy:fuse_quick
+   - Effects: 
+       extraalchemy:effect.fuse - 200 - 0 - false - true
+
+
+extraalchemy:pacifism_normal
+   - Effects: 
+       extraalchemy:effect.pacifism - 500 - 0 - false - true
+
+
+extraalchemy:hurry_long
+   - Effects: 
+       extraalchemy:effect.hurry - 1200 - 0 - false - true
+
+
+extraalchemy:dispel_normal
+   - Effects: 
+       extraalchemy:effect.dispel - 0 - 0 - false - true
+
+
+extraalchemy:push_strong
+   - Effects: 
+       extraalchemy:effect.push - 600 - 1 - false - true
+
+
+extraalchemy:pull_normal
+   - Effects: 
+       extraalchemy:effect.pull - 1200 - 0 - false - true
+
+
+extraalchemy:pain_normal
+   - Effects: 
+       extraalchemy:effect.pain - 3000 - 0 - false - true
+
+
+extraalchemy:pain_long
+   - Effects: 
+       extraalchemy:effect.pain - 6000 - 0 - false - true
+
+
+extraalchemy:gravity_long
+   - Effects: 
+       extraalchemy:effect.gravity - 2400 - 0 - false - true
+
+
+extraalchemy:leech_normal
+   - Effects: 
+       extraalchemy:effect.leech - 900 - 0 - false - true
+
+
+extraalchemy:sails_long
+   - Effects: 
+       extraalchemy:effect.sails - 4800 - 0 - false - true
+
+
+extraalchemy:leech_strong
+   - Effects: 
+       extraalchemy:effect.leech - 400 - 1 - false - true
+
+
+extraalchemy:sinking_long
+   - Effects: 
+       extraalchemy:effect.sinking - 800 - 0 - false - true
+
+
+extraalchemy:hurry_strong
+   - Effects: 
+       extraalchemy:effect.hurry - 600 - 1 - false - true
+
+
+extraalchemy:sails_normal
+   - Effects: 
+       extraalchemy:effect.sails - 2400 - 0 - false - true
+
+
+extraalchemy:pull_strong
+   - Effects: 
+       extraalchemy:effect.pull - 600 - 1 - false - true
+
+
+extraalchemy:pacifism_strong
+   - Effects: 
+       extraalchemy:effect.pacifism - 300 - 1 - false - true
+
+
+extraalchemy:pain_strong
+   - Effects: 
+       extraalchemy:effect.pain - 2400 - 1 - false - true
+
+
+extraalchemy:concentration_normal
+   - Effects: 
+       extraalchemy:effect.concentration - 0 - 0 - false - true
+
+
+extraalchemy:pyper_long
+   - Effects: 
+       extraalchemy:effect.piper - 4800 - 0 - false - true
+
+
+extraalchemy:combustion_long
+   - Effects: 
+       extraalchemy:effect.combustion - 1000 - 0 - false - true
+
+
+extraalchemy:magnetism_long
+   - Effects: 
+       extraalchemy:effect.magnetism - 4800 - 0 - false - true
+
+
+extraalchemy:return_normal
+   - Effects: 
+       extraalchemy:effect.return - 0 - 0 - false - true
+
+
+extraalchemy:pull_long
+   - Effects: 
+       extraalchemy:effect.pull - 2400 - 0 - false - true
+
+
+extraalchemy:beheading_strong
+   - Effects: 
+       extraalchemy:effect.beheading - 80 - 1 - false - true
+
+
+extraalchemy:recall_long
+   - Effects: 
+       extraalchemy:effect.recall - 1600 - 0 - false - true
+
+
+extraalchemy:hurry_normal
+   - Effects: 
+       extraalchemy:effect.hurry - 800 - 0 - false - true
+
+
+extraalchemy:learning_normal
+   - Effects: 
+       extraalchemy:effect.learning - 4800 - 0 - false - true
+
+
+extraalchemy:magnetism_strong
+   - Effects: 
+       extraalchemy:effect.magnetism - 2400 - 1 - false - true
+
+
+extraalchemy:sails_strong
+   - Effects: 
+       extraalchemy:effect.sails - 1000 - 1 - false - true
+
+
+extraalchemy:reincarnation_normal
+   - Effects: 
+       extraalchemy:effect.reincarnation - 9600 - 0 - false - true
+
+
+extraalchemy:recall_strong
+   - Effects: 
+       extraalchemy:effect.recall - 600 - 1 - false - true
+
+
+extraalchemy:pyper_strong
+   - Effects: 
+       extraalchemy:effect.piper - 2000 - 1 - false - true
+
+
+extraalchemy:fuse_strong
+   - Effects: 
+       extraalchemy:effect.fuse - 600 - 1 - false - true
+
+
+extraalchemy:pyper_normal
+   - Effects: 
+       extraalchemy:effect.piper - 2400 - 0 - false - true
+
+
+extraalchemy:fuse_normal
+   - Effects: 
+       extraalchemy:effect.fuse - 400 - 0 - false - true
+
+
+extraalchemy:reincarnation_long
+   - Effects: 
+       extraalchemy:effect.reincarnation - 12000 - 0 - false - true
+
+
+extraalchemy:crumbling_strong
+   - Effects: 
+       extraalchemy:effect.crumbling - 800 - 1 - false - true
+
+
+extraalchemy:crumbling_normal
+   - Effects: 
+       extraalchemy:effect.crumbling - 1200 - 0 - false - true
+
+
+extraalchemy:photosynthesis_long
+   - Effects: 
+       extraalchemy:effect.photosynthesis - 2000 - 0 - false - true
+
+
+extraalchemy:gravity_normal
+   - Effects: 
+       extraalchemy:effect.gravity - 1200 - 0 - false - true
+
+
+extraalchemy:gravity_strong
+   - Effects: 
+       extraalchemy:effect.gravity - 600 - 1 - false - true
+
+
+extraalchemy:combustion_strong
+   - Effects: 
+       extraalchemy:effect.combustion - 400 - 1 - false - true
+
+
+extraalchemy:leech_long
+   - Effects: 
+       extraalchemy:effect.leech - 1200 - 0 - false - true
+
+
+extraalchemy:combustion_normal
+   - Effects: 
+       extraalchemy:effect.combustion - 600 - 0 - false - true
 
 

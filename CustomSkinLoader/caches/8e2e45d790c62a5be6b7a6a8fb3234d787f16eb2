@@ -1,0 +1,8 @@
+{
+  "id" : "ec70bcaf702f4bb8b48d276fa52a780c",
+  "name" : "Dream",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjc4MDc2MjE4OCwKICAicHJvZmlsZUlkIiA6ICJlYzcwYmNhZjcwMmY0YmI4YjQ4ZDI3NmZhNTJhNzgwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcmVhbSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMzNmMjQwY2JlZWI2ZDE2NWQzYTExODI4NDhhM2QwNzg1OWZlNjUwNzM0ZTdhNTY4ZWYwOWEzNmZmZmUwZWZjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+  } ]
+}

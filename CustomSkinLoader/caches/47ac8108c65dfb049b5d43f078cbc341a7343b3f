@@ -1,0 +1,8 @@
+{
+  "id" : "4777615aa8394b8fa8fbe57996b1e3d9",
+  "name" : "awesamdude",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2MjkwMjM2OTY4NiwKICAicHJvZmlsZUlkIiA6ICI0Nzc3NjE1YWE4Mzk0YjhmYThmYmU1Nzk5NmIxZTNkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJhd2VzYW1kdWRlIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZlYjhhYzI3MDVlZWQ3MTY2OTMyYmY5ZTAxYzNiNmJjYjU2MWQ0YzQwZTRhMjY5MmZjZTAyMjk2ZGViNzc0MzciCiAgICB9CiAgfQp9"
+  } ]
+}

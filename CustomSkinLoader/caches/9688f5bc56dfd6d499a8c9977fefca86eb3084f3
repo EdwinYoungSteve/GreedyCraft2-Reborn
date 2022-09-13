@@ -1,0 +1,8 @@
+{
+  "id" : "a6700be467a94659ac44d24623dddb4d",
+  "name" : "FyberOptic",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjk1MjQ2NDU5OSwKICAicHJvZmlsZUlkIiA6ICJhNjcwMGJlNDY3YTk0NjU5YWM0NGQyNDYyM2RkZGI0ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGeWJlck9wdGljIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzllZjBiMDYwMDIxYjU5ZjcyYjkwZmFhOThkYzNkMDlhZWY5ZmI2NDMyMWViOTRjNWY0MWM5NzJlYzFkZWM1MmQiCiAgICB9CiAgfQp9"
+  } ]
+}

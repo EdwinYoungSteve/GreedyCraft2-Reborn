@@ -13,6 +13,7 @@ import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.data.IData;
 import crafttweaker.damage.IDamageSource;
 import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.entity.IEntityDefinition;
 import crafttweaker.player.IPlayer;
 import crafttweaker.util.Position3f;
 import crafttweaker.block.IBlock;
@@ -29,6 +30,9 @@ import mods.ctutils.world.IGameRules;
 
 import scripts.util.patreons as PatreonUtil;
 import scripts.util.lang as LangUtil;
+
+<entity:journey:guardianofdestruction>.addDrop(<gct_ores:senterian_key>);
+<entity:journey:sentryheart>.addDrop(<additions:greedycraft-dullium_ingot> * 24);
 
 events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
     if (event.entityLivingBase instanceof IPlayer) {
