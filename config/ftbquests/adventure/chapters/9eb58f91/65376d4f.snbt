@@ -1,6 +1,6 @@
 {
 	title: "§b燃烧吧，基岩！",
-	x: 1.5d,
+	x: 3.0d,
 	y: 0.0d,
 	description: "在基岩上点火，获得基岩粉",
 	text: [

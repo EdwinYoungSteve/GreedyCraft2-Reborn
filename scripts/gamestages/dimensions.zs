@@ -8,7 +8,6 @@
 -1 下界
 0 主世界
 1 末地
-4 天境
 7 暮色森林
 20 交错次元
 23 糖果世界
@@ -21,13 +20,15 @@
 54 深暗领域
 56 豆腐世界
 69 朦胧世界
-76 恒晓之地
-77 永夜之地
+76 永昼之地
+77 恒晓之地
+78 深空之域
 100 虚空之地
 101 无名之地
 102 秩序之地
 111 失落的城市
 144 压缩空间内部
+173 天境
 420 伊甸
 421 原始
 422 阿帕拉契亚
@@ -77,14 +78,18 @@ GameStagesUtil.stageHardmode.addDimension(421);
 GameStagesUtil.stageHardmode.addDimension(422);
 GameStagesUtil.stageHardmode.addDimension(423);
 GameStagesUtil.stageHardmode.addDimension(424);
+GameStagesUtil.stageFusionMatrix.addDimension(76);
+GameStagesUtil.stageFusionMatrix.addDimension(77);
 GameStagesUtil.stageFusionMatrix.addDimension(820);
 GameStagesUtil.stageFusionMatrix.addDimension(821);
 GameStagesUtil.stageFusionMatrix.addDimension(824);
 GameStagesUtil.stageFusionMatrix.addDimension(69);
-GameStagesUtil.stageWyvern.addDimension(20);
 GameStagesUtil.stageWyvern.addDimension(827);
 GameStagesUtil.stageWyvern.addDimension(826);
 GameStagesUtil.stageWyvern.addDimension(829);
+GameStagesUtil.stageChaotic.addDimension(78);
 GameStagesUtil.stageChaotic.addDimension(100);
 GameStagesUtil.stageChaotic.addDimension(101);
+GameStagesUtil.stageChaotic.addDimension(324987);
 
+GameStagesUtil.stageCosmic.addDimension(20);

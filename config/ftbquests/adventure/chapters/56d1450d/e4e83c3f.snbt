@@ -1,14 +1,13 @@
 {
 	title: "§b大型农场",
-	x: -18.0d,
+	x: -15.0d,
 	y: -4.5d,
 	description: "获得农场方块",
 	text: [
 		""
 	],
 	dependencies: [
-		"7ed55479",
-		"f728cafe"
+		"7ed55479"
 	],
 	tasks: [{
 		uid: "bef62d55",

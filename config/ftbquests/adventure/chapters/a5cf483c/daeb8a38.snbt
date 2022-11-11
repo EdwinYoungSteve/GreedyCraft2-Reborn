@@ -1,7 +1,7 @@
 {
 	title: "§b洁白无瑕",
-	x: -3.5d,
-	y: -1.5d,
+	x: -2.5d,
+	y: -9.0d,
 	description: "{greedycraft.quest.daeb8a38.desc}",
 	text: [
 		""

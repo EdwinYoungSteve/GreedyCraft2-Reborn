@@ -31,9 +31,6 @@ import mods.ctutils.world.IGameRules;
 import scripts.util.patreons as PatreonUtil;
 import scripts.util.lang as LangUtil;
 
-<entity:journey:guardianofdestruction>.addDrop(<gct_ores:senterian_key>);
-<entity:journey:sentryheart>.addDrop(<additions:greedycraft-dullium_ingot> * 24);
-
 events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
     if (event.entityLivingBase instanceof IPlayer) {
         var player as IPlayer = event.entityLivingBase;

@@ -1,7 +1,7 @@
 {
 	title: "§b浸染一切",
-	x: 5.5d,
-	y: 8.0d,
+	x: -10.5d,
+	y: 3.0d,
 	description: "合成诅咒：腐蚀",
 	text: [
 		""

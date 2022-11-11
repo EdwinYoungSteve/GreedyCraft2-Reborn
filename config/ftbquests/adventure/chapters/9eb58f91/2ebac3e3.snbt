@@ -1,6 +1,6 @@
 {
 	title: "§b会漏电的",
-	x: 1.5d,
+	x: 3.0d,
 	y: -1.5d,
 	description: "合成简易斯特林发电机",
 	text: [

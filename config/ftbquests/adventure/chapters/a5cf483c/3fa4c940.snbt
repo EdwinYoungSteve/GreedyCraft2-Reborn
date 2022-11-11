@@ -1,7 +1,7 @@
 {
 	title: "§b此木只应天上有",
-	x: -0.5d,
-	y: -3.0d,
+	x: 1.5d,
+	y: -5.0d,
 	description: "{greedycraft.quest.3fa4c940.desc}",
 	text: [
 		""

@@ -1,14 +1,15 @@
 {
 	title: "§b奥法能源",
 	icon: "additions:greedycraft-arcane_crystal_ball",
-	x: 2.5d,
-	y: 3.0d,
+	x: -0.5d,
+	y: 7.0d,
+	shape: "gear",
 	description: "制作奥术水晶球",
 	text: [
 		""
 	],
 	dependencies: [
-		"470b67b1"
+		"d933b90a"
 	],
 	tasks: [{
 		uid: "9fe5fca1",
@@ -30,6 +31,6 @@
 	{
 		uid: "8ab8b969",
 		type: "xp",
-		xp: 8000
+		xp: 9999
 	}]
 }

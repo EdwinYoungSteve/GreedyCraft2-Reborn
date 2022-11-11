@@ -19,7 +19,16 @@ Dropt.list("bedrock")
           .mainHand("WHITELIST", [], "pickaxe;10;-1")
     )
     .addDrop(Dropt.drop().items([<minecraft:bedrock>])));
-    
+
+Dropt.list("witherium_ore")
+    .add(Dropt.rule()
+    .matchBlocks(["gct_ores:witherium_ore_overworld:*", "gct_ores:witherium_ore_nether:*", "gct_ores:witherium_ore_end:*"])
+    .replaceStrategy("ADD")
+    .matchHarvester(Dropt.harvester()
+          .type("PLAYER")
+          .mainHand("WHITELIST", [], "pickaxe;8;-1")
+    )
+    .addDrop(Dropt.drop().items([<gct_ores:witherium_dust> * 3])));    
 Dropt.list("end_portal_frame")
     .add(Dropt.rule()
     .matchBlocks(["minecraft:end_portal_frame:*"])

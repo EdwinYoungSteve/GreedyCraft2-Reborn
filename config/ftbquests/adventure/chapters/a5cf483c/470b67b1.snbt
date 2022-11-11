@@ -1,13 +1,14 @@
 {
 	title: "§b这看上去一点都不五彩",
-	x: 2.5d,
-	y: 1.5d,
+	x: -0.5d,
+	y: 3.0d,
 	description: "{greedycraft.quest.470b67b1.desc}",
 	text: [
 		""
 	],
 	dependencies: [
-		"7ba94111"
+		"7ba94111",
+		"3ee1ac1a"
 	],
 	tasks: [{
 		uid: "b4098c6e",

@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xfff886,
+    "langs": {
+        "material": {
+            "en": "Porpezite",
+            "zh": "钯金"
+        }
+    }
+}

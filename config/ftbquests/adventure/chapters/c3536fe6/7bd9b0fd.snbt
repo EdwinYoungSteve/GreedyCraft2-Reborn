@@ -1,7 +1,7 @@
 {
 	title: "§b迷失沼泽",
-	x: 5.5d,
-	y: 6.5d,
+	x: -9.0d,
+	y: 4.5d,
 	description: "进入尘泥沼泽",
 	text: [
 		""

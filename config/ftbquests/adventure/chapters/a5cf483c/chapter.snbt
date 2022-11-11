@@ -5,8 +5,8 @@
 	group: -277029338,
 	default_quest_shape: "",
 	images: [{
-		x: 5.0d,
-		y: -5.0d,
+		x: -8.5d,
+		y: 0.0d,
 		width: 10.5d,
 		height: 5.0d,
 		rotation: 0.0d,

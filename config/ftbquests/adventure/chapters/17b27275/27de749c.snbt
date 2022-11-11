@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	tasks: [{
+		uid: "0d89e631",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_ore"
+		}]
+	},
+	{
+		uid: "59c52f8c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_ore"
+		}]
+	},
+	{
+		uid: "b1bec075",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 19"
+		}]
+	}]
+}

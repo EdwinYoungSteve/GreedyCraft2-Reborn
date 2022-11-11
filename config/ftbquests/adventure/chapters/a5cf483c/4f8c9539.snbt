@@ -1,7 +1,7 @@
 {
 	title: "{greedycraft.quest.4f8c9539.title}",
-	x: -2.0d,
-	y: 0.0d,
+	x: -2.5d,
+	y: -7.0d,
 	description: "{greedycraft.quest.4f8c9539.desc}",
 	dependencies: [
 		"daeb8a38",

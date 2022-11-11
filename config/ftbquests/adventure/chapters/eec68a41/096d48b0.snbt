@@ -1,6 +1,6 @@
 {
 	title: "§b精灵之水晶",
-	x: 4.0d,
+	x: 3.5d,
 	y: -2.5d,
 	description: "合成自然水晶",
 	text: [

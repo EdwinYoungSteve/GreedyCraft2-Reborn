@@ -1,12 +1,13 @@
 {
 	title: "§b凝聚大地之力",
-	x: 1.0d,
+	x: 0.5d,
 	y: -1.5d,
 	description: "制作泰拉凝聚板",
 	text: [
 		""
 	],
 	dependencies: [
+		"1ea09821",
 		"bb25425b"
 	],
 	tasks: [{

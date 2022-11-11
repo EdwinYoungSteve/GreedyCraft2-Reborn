@@ -1,7 +1,7 @@
 {
 	title: "§b给个刺激",
-	x: -3.0d,
-	y: 6.0d,
+	x: -6.0d,
+	y: 7.0d,
 	description: "获得电刺激器",
 	text: [
 		""

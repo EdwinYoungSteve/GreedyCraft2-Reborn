@@ -840,22 +840,6 @@ blue_skies:uncivilized
    - Max Level: 5
 
 
-endreborn:ender_core
-   - Id: 104
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-endreborn:ender_killer
-   - Id: 105
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 2
-
-
 evilcraft:vengeance
    - Id: 106
    - Rarity: COMMON
@@ -894,5 +878,21 @@ evilcraft:life_stealing
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
+
+
+endreborn:ender_core
+   - Id: 111
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+endreborn:ender_killer
+   - Id: 112
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
 
 

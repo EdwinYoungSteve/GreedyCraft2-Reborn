@@ -1,13 +1,13 @@
 {
 	title: "§b凝聚星辰",
-	x: -2.0d,
-	y: 1.5d,
+	x: -2.5d,
+	y: -1.0d,
 	description: "{greedycraft.quest.019a77ed.desc}",
 	text: [
 		""
 	],
 	dependencies: [
-		"5cc3003c"
+		"20d93dfc"
 	],
 	tasks: [{
 		uid: "e85b17bc",

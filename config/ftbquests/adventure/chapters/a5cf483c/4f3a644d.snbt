@@ -1,9 +1,11 @@
 {
 	title: "{greedycraft.quest.4f3a644d.title}",
 	x: -0.5d,
-	y: 1.5d,
+	y: -1.0d,
+	shape: "gear",
 	description: "{greedycraft.quest.4f3a644d.desc}",
 	dependencies: [
+		"20d93dfc",
 		"019a77ed"
 	],
 	tasks: [{

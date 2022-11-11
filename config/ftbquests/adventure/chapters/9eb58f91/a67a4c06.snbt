@@ -1,13 +1,13 @@
 {
 	title: "§b处理自动化",
-	x: -4.5d,
-	y: 4.5d,
+	x: -10.5d,
+	y: 1.5d,
 	description: "制作ME样板终端",
 	text: [
 		""
 	],
 	dependencies: [
-		"9ad09ce0"
+		"567bbf2e"
 	],
 	tasks: [{
 		uid: "8e7c1bbb",

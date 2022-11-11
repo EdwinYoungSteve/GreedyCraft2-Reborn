@@ -33,7 +33,12 @@ GameStagesUtil.stageDescendantOfTheSun.addIngredients([
     <gct_ores:plasmarite_nugget>,
     <additions:greedycraft-freezite_ore>,
     <additions:greedycraft-freezite_ingot>,
-    <gct_ores:freezite_nugget>
+    <gct_ores:freezite_nugget>,
+    <additions:greedycraft-dullium_ingot>,
+    <hammermetals:dullium_dust>,
+    <hammermetals:dullium_nugget>,
+    <hammermetals:dullium_block>,
+    <gct_ores:relifed_core>
 ], true);
 
 GameStagesUtil.stageExpert.addIngredients([
@@ -148,7 +153,6 @@ GameStagesUtil.stageWyvern.addIngredients([
     <ore:blockWyvernMetal>,
     <ore:nuggetWyvernMetal>,
     <ore:dustWyvernMetal>,
-    <gct_ores:relifed_core>,
     <gct_ores:fallen_metal_ingot>,
     <gct_ores:fallen_metal_nugget>,
     <gct_ores:fallen_metal_block>,
@@ -157,14 +161,26 @@ GameStagesUtil.stageWyvern.addIngredients([
     <additions:greedycraft-sun_totem>,
     <additions:greedycraft-solar_seed>,
     <additions:greedycraft-broken_solarium_star>,
+    <additions:greedycraft-ice_star>,
+    <additions:greedycraft-end_star>,
+    <additions:greedycraft-canopy_star>,
+    <additions:greedycraft-ice_seed>,
+    <additions:greedycraft-end_seed>,
+    <additions:greedycraft-canopy_seed>,
+    <additions:greedycraft-broken_ice_star>,
+    <additions:greedycraft-broken_end_star>,
+    <additions:greedycraft-broken_canopy_star>,
+    <additions:greedycraft-ice_totem>,
+    <additions:greedycraft-end_totem>,
+    <additions:greedycraft-canopy_totem>,
     <journey:terraniaportalframe>,
     <journey:cloudiaportalframe>,
     <journey:senterianportalframe>,
-    <journey:sentryeye>
+    <journey:sentryeye>,
+    <additions:greedycraft-quardstate_star>
 ], true);
 
 GameStagesUtil.stageAwakened.addIngredients([
-    <tconstruct:materials:50>,
     <gct_ores:relifed_metal_ingot>,
     <gct_ores:relifed_metal_block>,
     <gct_ores:relifed_metal_nugget>,
@@ -180,7 +196,6 @@ GameStagesUtil.stageAwakened.addIngredients([
     <ore:blockTitanium>,
     <extrautils2:chickenring>,
     <extrautils2:angelring:*>,
-    <inventorypets:cloud_pet>,
     <cyclicmagic:glowing_chorus>,
     <toolprogression:magic_mushroom>,
     <ore:blockTerraAlloy>,
@@ -212,7 +227,9 @@ GameStagesUtil.stageAwakened.addIngredients([
     <gct_ores:everite_ingot>,
     <gct_ores:everite_block>,
     <gct_ores:everite_nugget>,
-    <gct_ores:everite_dust>
+    <gct_ores:everite_dust>,
+    <utilityworlds:portal_garden>,
+    <utilityworlds:portal_void>
 ], true);
 
 GameStagesUtil.stageNether.addIngredients([
@@ -269,7 +286,6 @@ GameStagesUtil.stageNether.addIngredients([
     <minecraft:anvil:*>,
     <enderio:item_dark_steel_sword>.withTag({RepairCost: 0}),
     <minecraft:enchanting_table>,
-    <inventorypets:nether_portal_pet>,
     <ore:ingotDemonicMetal>,
     <additions:greedycraft-awakened_eye>,
     <ore:blockDemonicMetal>,
@@ -310,7 +326,6 @@ GameStagesUtil.stageNether.addIngredients([
     <ore:dustAqualite>,
     <ore:oreAqualite>,
     <ore:blockAqualite>,
-    <inventorypets:squid_pet>,
     <minecraft:ghast_tear>,
     <ore:boneWithered>,
     <netherex:wither_bone>,
@@ -959,5 +974,6 @@ GameStagesUtil.stageWyvern.addModId(["blue_skies"]);
 GameStagesUtil.stageDescendantOfTheSun.addModId(["thebetweenlands"]);
 GameStagesUtil.stageChaoticDominator.addModId(["extendedcrafting"]);
 GameStagesUtil.stageGatekeeper.addModId(["gct_aby"]);
+GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft"]);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");

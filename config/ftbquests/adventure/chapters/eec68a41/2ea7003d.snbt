@@ -9,6 +9,7 @@
 	dependencies: [
 		"3d85e814"
 	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "a3315563",
 		type: "item",

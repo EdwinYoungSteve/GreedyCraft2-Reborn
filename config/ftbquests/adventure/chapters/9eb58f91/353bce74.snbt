@@ -1,13 +1,13 @@
 {
 	title: "§b诱引方尖碑",
-	x: 10.5d,
-	y: 0.0d,
+	x: 12.0d,
+	y: -3.0d,
 	description: "制作诱引方尖碑",
 	text: [
 		""
 	],
 	dependencies: [
-		"ba088ac9"
+		"c99b29c6"
 	],
 	tasks: [{
 		uid: "9141ff3e",

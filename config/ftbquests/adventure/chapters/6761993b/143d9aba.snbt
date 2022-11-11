@@ -1,6 +1,10 @@
 {
 	x: 3.5d,
-	y: 3.5d,
+	y: 2.5d,
+	description: "未完成",
+	text: [
+		""
+	],
 	dependencies: [
 		"cb767f8b"
 	],

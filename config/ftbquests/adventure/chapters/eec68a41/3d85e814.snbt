@@ -2,7 +2,7 @@
 	title: "§b胸怀大志",
 	x: 14.0d,
 	y: -1.5d,
-	description: "合成挑战券",
+	description: "合成挑战券或自然蕴息宝珠，召唤盖亚3",
 	text: [
 		""
 	],
@@ -15,6 +15,10 @@
 		type: "item",
 		items: [{
 			item: "extrabotany:material 1 6"
+		},
+		{
+			id: "extrabotany:natureorb",
+			tag: {}
 		}]
 	}],
 	rewards: [{

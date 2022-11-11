@@ -1,13 +1,12 @@
 {
 	title: "§b加强合金制作",
-	x: 6.0d,
-	y: -1.5d,
+	x: 7.5d,
+	y: 1.5d,
 	description: "合成强化合金炉",
 	text: [
 		""
 	],
 	dependencies: [
-		"8f5896e2",
 		"b9bba5a4"
 	],
 	tasks: [{

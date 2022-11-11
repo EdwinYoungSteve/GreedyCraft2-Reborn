@@ -89,6 +89,32 @@ global serverTranslations as string[string][string] = {
         "greedycraft.zensummoning.ghasther.fail.5": "§c你只能在下界召唤三面恶魂！",
         "greedycraft.zensummoning.ghasther.success": "§4三面恶魂 §5§o已苏醒！",
 
+        "greedycraft.zensummoning.end.fail.1": "§c召唤失败。周围的地形不够开阔。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§c高草等可以穿过的方块同样也会影响召唤。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。",
+        "greedycraft.zensummoning.end.fail.2": "§c召唤失败。周围的地板不够平整。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§cc这条消息表明祭坛上方有足够的空气，但是祭坛所处的平台大小不够或有缺口。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。",
+        "greedycraft.zensummoning.end.fail.5": "§c你只能在末地召唤巴克莱！",
+        "greedycraft.zensummoning.end.success": "§5末地术士巴克莱 §5§o已苏醒！",
+
+        "greedycraft.zensummoning.kraken.fail.1": "§c召唤失败。周围的地形不够开阔。\n§c你需要周围有至少15*15格的水域空间。",
+        "greedycraft.zensummoning.kraken.fail.2": "§c召唤失败。周围的地板不够平整。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§cc这条消息表明祭坛上方有足够的空气，但是祭坛所处的平台大小不够或有缺口。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。",
+        "greedycraft.zensummoning.kraken.fail.3": "§c克拉肯无法回应你的召唤，这里太浅了，至少要在海平面下方15格才能召唤克拉肯！",
+        "greedycraft.zensummoning.kraken.fail.5": "§c你只能在主世界召唤克拉肯！",
+        "greedycraft.zensummoning.kraken.success": "§1克拉肯 §5§o已苏醒！",
+
+        "greedycraft.zensummoning.ironslime.fail.1": "§c召唤失败。周围的地形不够开阔。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§c高草等可以穿过的方块同样也会影响召唤。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。",
+        "greedycraft.zensummoning.ironslime.fail.2": "§c召唤失败。周围的地板不够平整。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§cc这条消息表明祭坛上方有足够的空气，但是祭坛所处的平台大小不够或有缺口。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。",
+        "greedycraft.zensummoning.ironslime.fail.5": "§c你只能在末地召唤钢铁史莱姆王！",
+        "greedycraft.zensummoning.ironslime.success": "§b钢铁史莱姆王 §5§o已苏醒！",
+
+        "greedycraft.zensummoning.alchemist.fail.1": "§c召唤失败。周围的地形不够开阔。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§c高草等可以穿过的方块同样也会影响召唤。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。",
+        "greedycraft.zensummoning.alchemist.fail.2": "§c召唤失败。周围的地板不够平整。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§cc这条消息表明祭坛上方有足够的空气，但是祭坛所处的平台大小不够或有缺口。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。",
+        "greedycraft.zensummoning.alchemist.fail.5": "§c你只能在恒晓之地召唤炼金术士！",
+        "greedycraft.zensummoning.alchemist.success": "§c炼金术士 §5§o已苏醒！",
+
+        "greedycraft.zensummoning.summoner.fail.1": "§c召唤失败。周围的地形不够开阔。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§c高草等可以穿过的方块同样也会影响召唤。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。",
+        "greedycraft.zensummoning.summoner.fail.2": "§c召唤失败。周围的地板不够平整。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§cc这条消息表明祭坛上方有足够的空气，但是祭坛所处的平台大小不够或有缺口。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。",
+        "greedycraft.zensummoning.summoner.fail.5": "§c你只能在永昼之地召唤召唤术士！",
+        "greedycraft.zensummoning.summoner.success": "§c召唤术士 §5§o已苏醒！",
+
         "greedycraft.zensummoning.tcreopargh.fail.1": "§c你只能在下界召唤§c§kTCreopargh§r§c。",
         "greedycraft.zensummoning.tcreopargh.fail.2": "§c无法召唤§c§kTCreopargh§r§c。周围的地形不够开阔。",
         "greedycraft.zensummoning.tcreopargh.fail.3": "§c无法召唤§c§kTCreopargh§r§c。周围的地形不够平坦。",

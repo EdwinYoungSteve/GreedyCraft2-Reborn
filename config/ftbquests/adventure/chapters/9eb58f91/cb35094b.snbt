@@ -1,13 +1,14 @@
 {
 	title: "§b开 始 了！",
-	x: -4.5d,
-	y: 3.0d,
+	x: -6.0d,
+	y: 1.5d,
 	description: "制作ME控制器，它的每个面可以传出8个频道！",
 	text: [
 		""
 	],
 	dependencies: [
-		"bb69a736"
+		"bb69a736",
+		"4e195942"
 	],
 	tasks: [{
 		uid: "8a0607ae",

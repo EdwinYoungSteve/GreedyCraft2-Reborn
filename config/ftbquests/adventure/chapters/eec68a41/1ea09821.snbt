@@ -1,6 +1,6 @@
 {
 	title: "§b注魔铁锭",
-	x: -0.5d,
+	x: -1.0d,
 	y: -0.5d,
 	description: "制作魔力钢锭",
 	text: [

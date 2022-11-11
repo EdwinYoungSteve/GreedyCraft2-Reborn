@@ -232,6 +232,17 @@ global gameStagesLore as string[][string][string][string] = {
                 "量子采石场"
             ]
         },
+        epic_engineer: {
+            alias: ["工业专家"],
+            lore: [
+                "你开始探索物质间的奥秘。"
+            ],
+            unlocks: [
+                "核电工艺，量子块动力学",
+                "更高级的太阳能板",
+                "六倍矿，七倍矿"
+            ]
+        },
         novice_wizard: {
             alias: ["初级法师"],
             lore: [

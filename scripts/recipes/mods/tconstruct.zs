@@ -68,10 +68,10 @@ Alloy.addRecipe(<liquid:clearite> * 3, [<liquid:indium> * 2, <liquid:sissidium> 
 Alloy.addRecipe(<liquid:wefenium> * 2, [<liquid:lovaquite> * 3, <liquid:ttwo> * 2, <liquid:tierite>]);
 Alloy.addRecipe(<liquid:errorite> * 3, [<liquid:antimony> * 2, <liquid:circlium> * 3, <liquid:rangolarite> * 4]);
 Alloy.addRecipe(<liquid:numbereum> * 2, [<liquid:rapesesium> * 2, <liquid:wefenium> * 3]);
-Alloy.addRecipe(<liquid:babyrite> * 3, [<liquid:gold> * 7, <liquid:rubidium> * 2, <liquid:clearite>]);
+Alloy.addRecipe(<liquid:babyrite> * 3, [<liquid:gold> * 7, <liquid:rubium> * 2, <liquid:clearite>]);
 Alloy.addRecipe(<liquid:leadite> * 3, [<liquid:circlium> * 2, <liquid:technetium> * 1, <liquid:fallenium> * 6]);
-Alloy.addRecipe(<liquid:martisite> * 3, [<liquid:caesium> * 4, <liquid:leadite> * 3, <liquid:numbereum> * 3]);
-Alloy.addRecipe(<liquid:flashite> * 3, [<liquid:francium> * 2, <liquid:babyrite> * 2, <liquid:errorite> * 2]);
+Alloy.addRecipe(<liquid:martisite> * 3, [<liquid:cestium> * 4, <liquid:leadite> * 3, <liquid:numbereum> * 3]);
+Alloy.addRecipe(<liquid:flashite> * 3, [<liquid:fraxinium> * 2, <liquid:babyrite> * 2, <liquid:errorite> * 2]);
 Alloy.addRecipe(<liquid:overlaite>, [<liquid:martisite>, <liquid:clearite>]);
 Alloy.addRecipe(<liquid:balancite> * 2, [<liquid:aqualite>, <liquid:aeroite>, <liquid:asgardium>, <liquid:meteor>]);
 Alloy.addRecipe(<liquid:shadow_bar>, [<liquid:rupee>, <liquid:realmite>]);
@@ -79,6 +79,11 @@ Alloy.addRecipe(<liquid:glowing_signalum> * 144, [<liquid:signalum> * 144, <liqu
 Alloy.addRecipe(<liquid:twilight_crystal>, [<liquid:eden>, <liquid:wildwood>, <liquid:apalachia>, <liquid:skythern>, <liquid:mortum>]);
 Alloy.addRecipe(<liquid:daynight>, [<liquid:falsite>, <liquid:ventium>, <liquid:horizonite>]);
 Alloy.addRecipe(<liquid:cthulhurite> * 2, [<liquid:moltenabyssalnite>, <liquid:moltenrefinedcoralium>, <liquid:moltendreadium>, <liquid:ethaxium>, <liquid:sanite>]);
+Alloy.addRecipe(<liquid:steamium> * 2, [<liquid:steel> * 4, <liquid:tanatonium> * 3, <liquid:liquid_air> * 1]);
+Alloy.addRecipe(<liquid:astronicium> * 2, [<liquid:oraclium>, <liquid:halleium>, <liquid:hothium>, <liquid:tonium>]);
+Alloy.addRecipe(<liquid:raisium> * 3, [<liquid:steamium> * 3, <liquid:magiga> * 8, <liquid:imitatium> * 2]);
+Alloy.addRecipe(<liquid:compressite> * 2, [<liquid:astronicium> * 2, <liquid:raisium> * 2, <liquid:stellarium>]);
+Alloy.addRecipe(<liquid:porpezite> * 2, [<liquid:ruthenium>, <liquid:rhodium>, <liquid:palladium_fluid> * 3]);
 
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);
@@ -112,9 +117,6 @@ Casting.addBasinRecipe(<gct_ores:chaotic_draconium_block>, null, <liquid:chaotic
 Casting.addBasinRecipe(<gct_ores:genite_machine_frame>, <thermalexpansion:frame>, <liquid:genite>, 576, false, 100);
 Casting.addBasinRecipe(<gct_ores:everite_machine_frame>, <thermalexpansion:frame>, <liquid:everite>, 576, false, 100);
 Casting.addBasinRecipe(<gct_ores:balanced_matrix_block>, null, <liquid:balanced_matrix>, VOLUME_BLOCK, false, 300);
-Casting.addBasinRecipe(<abyssalcraft:solidlava>, <minecraft:glass>, <liquid:lava>, 1000, true, 100);
-Casting.addBasinRecipe(<gct_tcon:solidpyrotheumblock>, <minecraft:glass>, <liquid:pyrotheum>, 1000, true, 100);
-Casting.addBasinRecipe(<gct_tcon:solidnitriteblock>, <minecraft:glass>, <liquid:nitronite_fluid>, 1000, true, 100);
 
 Casting.addTableRecipe(<abyssalcraft:ethaxiumingot>, <tconstruct:cast_custom>, <liquid:ethaxium>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<additions:astral_metal_ingot>, <tconstruct:cast_custom>, <liquid:astral_metal>, VOLUME_INGOT, false, 200);

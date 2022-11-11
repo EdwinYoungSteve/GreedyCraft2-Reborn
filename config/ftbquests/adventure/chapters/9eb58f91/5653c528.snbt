@@ -1,13 +1,13 @@
 {
 	title: "§b自动种植！",
-	x: 10.5d,
-	y: -1.5d,
+	x: 12.0d,
+	y: 0.0d,
 	description: "制作种植站",
 	text: [
 		""
 	],
 	dependencies: [
-		"ba088ac9"
+		"cda8846f"
 	],
 	tasks: [{
 		uid: "01d6fe29",

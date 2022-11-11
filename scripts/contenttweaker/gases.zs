@@ -176,3 +176,30 @@ iodine.setNeedBucket(true);
 iodine.setNeedFluid(false);
 iodine.setIcon("blocks/gas_clear");
 iodine.register();
+
+var phosphine = GasFactory.createGas("phosphine");
+phosphine.setUnlocalizedName("phosphine");
+phosphine.setColorize(true);
+phosphine.setColor(0x9f5343);
+phosphine.setNeedBucket(true);
+phosphine.setNeedFluid(false);
+phosphine.setIcon("blocks/gas_clear");
+phosphine.register();
+
+var ozone = GasFactory.createGas("ozone");
+ozone.setUnlocalizedName("ozone");
+ozone.setColorize(true);
+ozone.setColor(0x006fff);
+ozone.setNeedBucket(true);
+ozone.setNeedFluid(false);
+ozone.setIcon("blocks/gas_clear");
+ozone.register();
+
+var fluorine = GasFactory.createGas("fluorine");
+fluorine.setUnlocalizedName("fluorine");
+fluorine.setColorize(true);
+fluorine.setColor(0xfefb5d);
+fluorine.setNeedBucket(true);
+fluorine.setNeedFluid(false);
+fluorine.setIcon("blocks/gas_clear");
+fluorine.register();

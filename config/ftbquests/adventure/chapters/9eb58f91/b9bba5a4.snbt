@@ -1,6 +1,6 @@
 {
 	title: "§b黝黑框架",
-	x: 6.0d,
+	x: 7.5d,
 	y: 0.0d,
 	shape: "gear",
 	description: "获得强化机器框架",
@@ -8,6 +8,9 @@
 		""
 	],
 	dependencies: [
+		"2c574f3f",
+		"8f5896e2",
+		"7b441dcf",
 		"736f80c3"
 	],
 	tasks: [{

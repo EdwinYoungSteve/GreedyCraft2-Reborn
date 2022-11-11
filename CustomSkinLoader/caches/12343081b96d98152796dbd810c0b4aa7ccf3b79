@@ -1,8 +1,0 @@
-{
-  "id" : "58d47419ca7a418c9875af97dd1d7003",
-  "name" : "mxx_dreamband",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2MjgxNzczMDExNSwKICAicHJvZmlsZUlkIiA6ICI1OGQ0NzQxOWNhN2E0MThjOTg3NWFmOTdkZDFkNzAwMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJteHhfZHJlYW1iYW5kIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNiNjBhMWY2ZDU2MmY1MmFhZWJiZjE0MzRmMWRlMTQ3OTMzYTNhZmZlMGU3NjRmYTQ5ZWEwNTc1MzY2MjNjZDMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
-  } ]
-}

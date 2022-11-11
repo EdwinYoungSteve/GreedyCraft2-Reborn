@@ -18,20 +18,19 @@ import mods.jei.JEI;
 
 import scripts.util.machines as MMUtil;
 
-MMUtil.addForgeRecipe("cosmic_forge", <additions:cosmilite_ingot> * COSMILITE_OUTPUT_COUNT, (72000 * FORGE_COST_MULTIPLIER) as int, (1000000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
-    <additions:chromasteel_ingot> * 1,
+MMUtil.addForgeRecipe("cosmic_forge", <additions:cosmilite_ingot> * 8, (72000 * FORGE_COST_MULTIPLIER) as int, (1000000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
+    <additions:chromasteel_ingot>,
+    <additions:taigaddon-compressite_ingot>,
     <tconevo:metal:10>,
-    <abyssalcraft:ethaxiumingot>,
-    <mysticalagradditions:insanium:2>,
-    <avaritia:resource:4>,
-    <additions:protonium_ingot>,
-    <additions:electronium_ingot>,
-    <plustic:osgloglasingot>,
-    <additions:shadowium_ingot>,
+    <gct_ores:stormy_metal_ingot>,
+    <thaumadditions:adaminite_ingot>,
+    <additions:eioaddon-blackhole_alloy_ingot>,
+    <additions:mekaddon-porpezite_ingot>,
+    <extrabotany:material:1>,
+    <gct_mobs:cthulhurite_ingot>,
+    <additions:crimsonite_ingot>,
     <additions:astral_metal_ingot>,
-    <botania:manaresource:14>,
-    <thaumadditions:mithminite_ingot>,
-    <additions:netherite_ingot>
+    <gct_ores:hermaphroditic_artifact>
 ] as IItemStack[], {
     <additions:greedycraft-catalyst_star> : {
         speed: 0.25,

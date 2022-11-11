@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x0a3b06,
+    "langs": {
+        "material": {
+            "en": "Tonium",
+            "zh": "钝金"
+        }
+    }
+}

@@ -30,6 +30,15 @@ recipes.addShaped(<gct_ores:stormy_shard_block> * 1, [[<gct_ores:stormy_shard>, 
 recipes.remove(<gct_ores:stormy_shard>);
 recipes.addShaped(<gct_ores:stormy_shard> * 9, [[<gct_ores:stormy_shard_block>, null, null], [null, null, null],[null, null, null]]);
 
+RecipeUtil.addShapeless("star_1", <additions:greedycraft-canopy_star>, 
+    [<additions:greedycraft-broken_canopy_star>, <additions:greedycraft-canopy_seed>]
+);
+RecipeUtil.addShapeless("star_2", <additions:greedycraft-end_star>, 
+    [<additions:greedycraft-broken_end_star>, <additions:greedycraft-end_seed>]
+);
+RecipeUtil.addShapeless("star_3", <additions:greedycraft-ice_star>, 
+    [<additions:greedycraft-broken_ice_star>, <additions:greedycraft-ice_seed>]
+);
 RecipeUtil.addShapeless("vethea_crafting_table", <minecraft:crafting_table> * 1,
     [<ore:logWoodVethea>]
 );
@@ -512,9 +521,6 @@ RecipeUtil.addShapeless("essence_super_3", <mysticalagriculture:storage:4>,
 );
 RecipeUtil.addShapeless("essence_super_4", <mysticalagradditions:storage>,
     [<mysticalagriculture:master_infusion_crystal>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:4>]
-);
-RecipeUtil.addShapeless("pet_reroll", <inventorypets:meta_pet>,
-    [<ore:petDisabled>]
 );
 RecipeUtil.addShapelessOf("rock_crystal_compress", <astralsorcery:blockcustomore:0>,
     <astralsorcery:itemrockcrystalsimple>, 9

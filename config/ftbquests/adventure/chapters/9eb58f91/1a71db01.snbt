@@ -1,13 +1,13 @@
 {
 	title: "§b小的完全不够！",
-	x: 0.0d,
-	y: 3.0d,
+	x: -4.5d,
+	y: -3.0d,
 	description: "制作大型分子装配室控制器",
 	text: [
 		""
 	],
 	dependencies: [
-		"663562f7"
+		"dc267738"
 	],
 	tasks: [{
 		uid: "6143d453",

@@ -1,6 +1,6 @@
 {
 	title: "§b充电桩",
-	x: 1.5d,
+	x: 3.0d,
 	y: 1.5d,
 	description: "合成简易有线充能器",
 	text: [

@@ -180,9 +180,6 @@
 		item: "tinymobfarm:inferno_farm"
 	},
 	{
-		item: "tinymobfarm:ultimate_farm"
-	},
-	{
 		item: "extrautils2:compressedcobblestone 1 7",
 		random_bonus: 1
 	},

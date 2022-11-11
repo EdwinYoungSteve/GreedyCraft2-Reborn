@@ -16,7 +16,7 @@
 	rewards: [{
 		uid: "a7ceeb42",
 		type: "item",
-		item: "bigreactors:ingotgraphite",
+		item: "nuclearcraft:ingot 1 8",
 		count: 16
 	},
 	{

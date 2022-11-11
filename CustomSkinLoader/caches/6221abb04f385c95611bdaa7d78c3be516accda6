@@ -1,8 +1,0 @@
-{
-  "id" : "7091bc144f244ee29736009cd10b9e59",
-  "name" : "LiCloudDragon",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjk1MjQ1NTQwMiwKICAicHJvZmlsZUlkIiA6ICI3MDkxYmMxNDRmMjQ0ZWUyOTczNjAwOWNkMTBiOWU1OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaUNsb3VkRHJhZ29uIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc1ZDdmMDEwMDUzMWQ4MmMwODJkYjhmMmU5NjM2NTFjYmY5N2RkYzk1Mzk4ZmI2MjkzNTNjMDk0YWUzM2I4ZjQiCiAgICB9CiAgfQp9"
-  } ]
-}

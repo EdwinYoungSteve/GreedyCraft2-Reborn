@@ -169,7 +169,6 @@
             "x": 0,
             "y": -1,
             "z": 0,
-            "nbt": {"id":"divinerpg:te_infusion_table","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"Items":[{"Slot":"0b","id":"minecraft:air","Count":"2b","Damage":"15s"},{"Slot":"1b","id":"minecraft:air","Count":"2b","Damage":"15s"},{"Slot":"2b","id":"minecraft:air","Count":"2b","Damage":"15s"}]},
             "elements": [
                 "divinerpg:infusion_table@0"
             ]
@@ -250,7 +249,6 @@
             "x": -1,
             "y": -1,
             "z": 0,
-            "nbt": {"id":"divinerpg:te_infusion_table","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"Items":[{"Slot":"0b","id":"minecraft:air","Count":"2b","Damage":"15s"},{"Slot":"1b","id":"minecraft:air","Count":"2b","Damage":"15s"},{"Slot":"2b","id":"minecraft:air","Count":"2b","Damage":"15s"}]},
             "elements": [
                 "divinerpg:infusion_table@0"
             ]
@@ -931,7 +929,6 @@
             "x": -1,
             "y": -1,
             "z": 1,
-            "nbt": {"id":"divinerpg:te_infusion_table","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"Items":[{"Slot":"0b","id":"minecraft:air","Count":"2b","Damage":"15s"},{"Slot":"1b","id":"minecraft:air","Count":"2b","Damage":"15s"},{"Slot":"2b","id":"minecraft:air","Count":"2b","Damage":"15s"}]},
             "elements": [
                 "divinerpg:infusion_table@0"
             ]
@@ -948,7 +945,6 @@
             "x": 0,
             "y": -1,
             "z": 1,
-            "nbt": {"id":"divinerpg:te_infusion_table","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"Items":[{"Slot":"0b","id":"minecraft:air","Count":"2b","Damage":"15s"},{"Slot":"1b","id":"minecraft:air","Count":"2b","Damage":"15s"},{"Slot":"2b","id":"minecraft:air","Count":"2b","Damage":"15s"}]},
             "elements": [
                 "divinerpg:infusion_table@0"
             ]

@@ -10,5 +10,10 @@
 		items: [{
 			item: "thaumicwonders:flux_capacitor"
 		}]
+	}],
+	rewards: [{
+		uid: "bf11457f",
+		type: "item",
+		item: "thaumicwonders:flux_capacitor"
 	}]
 }

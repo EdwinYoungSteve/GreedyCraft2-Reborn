@@ -1,8 +1,0 @@
-{
-  "id" : "e28850e025ab47ff9317bc73bbbc98e1",
-  "name" : "Vaygrim",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjk1MjM1MDc0NSwKICAicHJvZmlsZUlkIiA6ICJlMjg4NTBlMDI1YWI0N2ZmOTMxN2JjNzNiYmJjOThlMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJWYXlncmltIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQwNGJjNzg0MjNjZDkxNDgyOGJjOTVjNDdmN2ExZDkxNzkxMjEzNjJiZTU0ZThlY2E1OTZjNjhiOTcyMmQ4YjUiCiAgICB9CiAgfQp9"
-  } ]
-}

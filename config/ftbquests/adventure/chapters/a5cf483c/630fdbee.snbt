@@ -1,7 +1,7 @@
 {
 	title: "§b珍贵水晶",
-	x: -2.0d,
-	y: -1.5d,
+	x: -2.5d,
+	y: -5.0d,
 	description: "{greedycraft.quest.630fdbee.desc}",
 	text: [
 		""

@@ -1,8 +1,0 @@
-{
-  "id" : "7ef08b4e5f3d40a793d426a19fe0efe2",
-  "name" : "neptunepink",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2MjgwNjM1NzgwNCwKICAicHJvZmlsZUlkIiA6ICI3ZWYwOGI0ZTVmM2Q0MGE3OTNkNDI2YTE5ZmUwZWZlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJuZXB0dW5lcGluayIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZTI2ZWI0YmY1NDRjZGZiOGJmMjI5N2I2MWJkZDU5OWJhMzM5NWJkMWNkOTMwOWZlZjljMGM3ODJjZGZkNWU3IgogICAgfQogIH0KfQ=="
-  } ]
-}

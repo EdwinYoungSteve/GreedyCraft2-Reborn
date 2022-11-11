@@ -1,14 +1,13 @@
 {
 	title: "§b列文虎克",
-	x: 1.0d,
-	y: -1.5d,
+	x: 3.5d,
+	y: -5.0d,
 	description: "{greedycraft.quest.e8404979.desc}",
 	text: [
 		""
 	],
 	dependencies: [
-		"3fa4c940",
-		"3ee1ac1a"
+		"3fa4c940"
 	],
 	tasks: [{
 		uid: "b7efee2a",

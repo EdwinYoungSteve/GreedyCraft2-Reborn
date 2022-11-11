@@ -1,8 +1,0 @@
-{
-  "id" : "bf4133f80a074d1bbaf9cdc46b993e89",
-  "name" : "yu_ze_fish",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2MjgwNjcyNzgxMiwKICAicHJvZmlsZUlkIiA6ICJiZjQxMzNmODBhMDc0ZDFiYmFmOWNkYzQ2Yjk5M2U4OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5dV96ZV9maXNoIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NmMDQ2NmRkMDBkYjc3ZGM1ZGQ2OTJkMTMyYjliYzliOTgyYzY3MTMxM2Q2N2Q1NjEzMGFmZWMwYWJiMDRjM2MiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
-  } ]
-}

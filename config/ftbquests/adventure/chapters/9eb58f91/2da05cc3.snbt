@@ -1,13 +1,13 @@
 {
 	title: "§b自动聚合",
-	x: -1.5d,
+	x: -6.0d,
 	y: -1.5d,
 	description: "制作福鲁伊克斯聚合器",
 	text: [
 		""
 	],
 	dependencies: [
-		"1b2f4905"
+		"bb69a736"
 	],
 	tasks: [{
 		uid: "407021a7",

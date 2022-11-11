@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xcacaca,
+    "langs": {
+        "material": {
+            "en": "Imitatium",
+            "zh": "拟素"
+        }
+    }
+}

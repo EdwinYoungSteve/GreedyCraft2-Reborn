@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xd9d2e6,
+    "langs": {
+        "material": {
+            "en": "Magiga",
+            "zh": "伽钢"
+        }
+    }
+}

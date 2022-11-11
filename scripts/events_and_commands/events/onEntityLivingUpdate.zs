@@ -22,9 +22,11 @@ import crafttweaker.potions.IPotionEffect;
 import crafttweaker.world.IFacing;
 import crafttweaker.command.ICommandSender;
 import crafttweaker.event.EntityLivingUpdateEvent;
+import crafttweaker.item.IItemStack;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
+
 
 events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
     var entity as IEntityLivingBase = event.entityLivingBase;

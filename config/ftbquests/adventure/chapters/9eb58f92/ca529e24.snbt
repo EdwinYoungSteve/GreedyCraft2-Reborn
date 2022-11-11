@@ -1,7 +1,7 @@
 {
 	title: "§b化学结晶",
 	x: -2.0d,
-	y: 1.0d,
+	y: -2.0d,
 	description: "制作一个化学结晶器",
 	text: [
 		""

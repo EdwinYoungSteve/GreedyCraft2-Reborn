@@ -467,7 +467,9 @@ val removedRecipes as IIngredient[] = [
     <ageofminecraft:fusiongskeleton>,
     <buildinggadgets:exchangertool>,
     <divinerpg:shadow_bar>,
-    <bountifulbaubles:reforger>
+    <bountifulbaubles:reforger>,
+    <projecte:item.pe_hyperkinetic_lens>,
+    <projecte:item.pe_destruction_catalyst>
 ];
 
 val removedRecipeNames as string[] = [

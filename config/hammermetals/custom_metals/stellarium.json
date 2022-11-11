@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xee7364,
+    "langs": {
+        "material": {
+            "en": "Stellarium",
+            "zh": "恒星金属"
+        }
+    }
+}

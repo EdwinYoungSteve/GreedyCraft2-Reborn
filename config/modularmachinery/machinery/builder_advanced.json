@@ -6,672 +6,512 @@
     "color": "ffff00",
     "parts": [
         {
+            "x": 2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ingotblock@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "hammermetals:crystalline_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "hammermetals:crystalline_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ingotblock@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
             "x": -1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "betternether:cincinnasite_stairs@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "betternether:cincinnasite_stairs@1"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "hammermetals:constantan_casing@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "hammermetals:manyullyn_casing@0"
-            ]
-        },
-        {
-            "x": 4,
             "y": -1,
-            "z": 0,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "hammermetals:constantan_casing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "hammermetals:manyullyn_casing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 0,
+            "z": 1,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": -1,
-            "y": -5,
-            "z": -2,
+            "y": 6,
+            "z": 4,
             "elements": [
-                "hammermetals:constantan_casing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "hammermetals:manyullyn_casing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "hammermetals:constantan_casing@0"
+                "theaurorian:moonstoneblock@0"
             ]
         },
         {
             "x": -1,
             "y": -1,
-            "z": 0,
+            "z": 2,
             "elements": [
                 "casings_all"
             ]
         },
         {
-            "x": -4,
-            "y": -5,
-            "z": -2,
+            "x": 3,
+            "y": 4,
+            "z": 0,
             "elements": [
-                "betternether:cincinnasite_block@0"
+                "betternether:cincinnasite_slab_half@0"
             ]
         },
         {
-            "x": -2,
+            "x": -1,
             "y": -1,
-            "z": 0,
+            "z": 3,
             "elements": [
                 "casings_all"
             ]
         },
         {
-            "x": -4,
-            "y": -3,
-            "z": -1,
+            "x": -1,
+            "y": 6,
+            "z": 3,
             "elements": [
-                "casings_all"
+                "tiths:block_witherium@0"
             ]
         },
         {
-            "x": -3,
+            "x": -1,
             "y": -1,
-            "z": 0,
+            "z": 4,
             "elements": [
-                "casings_all"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
-            "x": -4,
+            "x": -1,
             "y": -1,
-            "z": 0,
+            "z": 5,
             "elements": [
-                "betternether:cincinnasite_block@0"
+                "betternether:cincinnasite_slab_half@1"
             ]
         },
         {
-            "x": 4,
-            "y": -4,
-            "z": -1,
+            "x": 3,
+            "y": 4,
+            "z": 4,
             "elements": [
-                "casings_all"
+                "betternether:cincinnasite_slab_half@0"
             ]
         },
         {
-            "x": 4,
-            "y": -2,
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
             "z": 0,
+            "elements": [
+                "betternether:cincinnasite_forged@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 1,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": 0,
-            "y": -2,
-            "z": 0,
+            "y": 7,
+            "z": 2,
             "elements": [
-                "minecraft:sticky_piston@0"
+                "quark:lit_lamp@0"
             ]
         },
         {
-            "x": -4,
-            "y": -4,
-            "z": -1,
+            "x": 0,
+            "y": 7,
+            "z": 3,
             "elements": [
                 "casings_all"
             ]
         },
         {
-            "x": -4,
-            "y": -2,
+            "x": -1,
+            "y": 6,
             "z": 0,
             "elements": [
-                "casings_all"
+                "theaurorian:moonstoneblock@0"
             ]
         },
         {
-            "x": 4,
-            "y": -5,
-            "z": -1,
+            "x": 0,
+            "y": 7,
+            "z": 4,
             "elements": [
-                "betternether:cincinnasite_block@0"
+                "betternether:cincinnasite_forged@0"
             ]
         },
         {
             "x": 3,
-            "y": -5,
+            "y": 4,
             "z": -1,
             "elements": [
-                "hammermetals:manyullyn_casing@0"
+                "betternether:cincinnasite_slab_half@1"
             ]
         },
         {
-            "x": 4,
-            "y": -3,
+            "x": -1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "tiths:block_witherium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
             "z": 0,
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
         },
         {
-            "x": 2,
-            "y": -5,
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "tiths:block_witherium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "tiths:block_witherium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "theaurorian:moonstoneblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
             "z": -1,
             "elements": [
-                "hammermetals:constantan_casing@0"
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "hammermetals:umbra_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "theaurorian:moonstoneblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "hammermetals:umbra_block@0"
             ]
         },
         {
             "x": 3,
-            "y": -3,
-            "z": 0,
+            "y": 5,
+            "z": 5,
             "elements": [
-                "minecraft:iron_bars@0"
+                "betternether:cincinnasite_forged@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_forged@0"
             ]
         },
         {
             "x": 1,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "hammermetals:manyullyn_casing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
+            "y": 1,
             "z": 0,
             "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "hammermetals:constantan_casing@0"
+                "enderio:block_reinforced_obsidian@0"
             ]
         },
         {
             "x": 1,
-            "y": -3,
-            "z": 0,
+            "y": 1,
+            "z": 4,
             "elements": [
-                "minecraft:sticky_piston@4"
+                "enderio:block_reinforced_obsidian@0"
             ]
         },
         {
-            "x": -1,
-            "y": -5,
-            "z": -1,
+            "x": 1,
+            "y": 1,
+            "z": 3,
             "elements": [
-                "hammermetals:manyullyn_casing@0"
+                "taiga:duranite_block@0"
             ]
         },
         {
-            "x": 0,
-            "y": -3,
-            "z": 0,
+            "x": 1,
+            "y": 1,
+            "z": 1,
             "elements": [
-                "taiga:vibranium_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "hammermetals:constantan_casing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "minecraft:sticky_piston@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "hammermetals:manyullyn_casing@0"
+                "taiga:duranite_block@0"
             ]
         },
         {
             "x": -2,
-            "y": -3,
-            "z": 0,
+            "y": 5,
+            "z": 1,
             "elements": [
-                "minecraft:iron_bars@0"
+                "extrautils2:decorativesolidwood@2"
             ]
         },
         {
-            "x": -4,
-            "y": -5,
-            "z": -1,
+            "x": -2,
+            "y": 5,
+            "z": 0,
             "elements": [
-                "betternether:cincinnasite_block@0"
+                "theaurorian:auroriansteelblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "casings_all"
             ]
         },
         {
             "x": -3,
-            "y": -3,
-            "z": 0,
+            "y": 3,
+            "z": 3,
             "elements": [
-                "minecraft:iron_bars@0"
+                "betternether:cincinnasite_slab_half@0"
             ]
         },
         {
-            "x": -4,
-            "y": -3,
-            "z": 0,
+            "x": 1,
+            "y": 7,
+            "z": 2,
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
         },
         {
-            "x": 4,
-            "y": -4,
-            "z": 0,
+            "x": -3,
+            "y": 3,
+            "z": 4,
             "elements": [
-                "casings_all"
+                "betternether:cincinnasite_slab_half@0"
             ]
         },
         {
-            "x": 0,
-            "y": -4,
-            "z": 0,
+            "x": -3,
+            "y": 3,
+            "z": 5,
             "elements": [
-                "minecraft:sticky_piston@1"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "hammermetals:constantan_casing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "hammermetals:manyullyn_casing@0"
+                "betternether:cincinnasite_forged@0"
             ]
         },
         {
             "x": 1,
-            "y": -5,
+            "y": 7,
             "z": 0,
             "elements": [
-                "hammermetals:constantan_casing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "hammermetals:manyullyn_casing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "hammermetals:constantan_casing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "hammermetals:manyullyn_casing@0"
+                "betternether:cincinnasite_forged@0"
             ]
         },
         {
             "x": -3,
-            "y": -5,
-            "z": 0,
+            "y": 3,
+            "z": -1,
             "elements": [
-                "hammermetals:constantan_casing@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "tiths:block_witherium@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
+                "betternether:cincinnasite_forged@0"
             ]
         },
         {
             "x": -2,
-            "y": -5,
-            "z": 3,
+            "y": -1,
+            "z": 4,
             "elements": [
-                "betternether:cincinnasite_block@0"
+                "theaurorian:auroriansteelblock@0"
             ]
         },
         {
-            "x": -1,
-            "y": -5,
-            "z": 3,
+            "x": -3,
+            "y": 3,
+            "z": 0,
             "elements": [
-                "betternether:cincinnasite_block@0"
+                "betternether:cincinnasite_slab_half@0"
             ]
         },
         {
-            "x": 0,
-            "y": -5,
-            "z": 3,
+            "x": -2,
+            "y": 5,
+            "z": 4,
             "elements": [
-                "betternether:cincinnasite_block@0"
+                "theaurorian:auroriansteelblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_stairs@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
             ]
         },
         {
             "x": 1,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "tiths:block_witherium@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
+            "y": 7,
             "z": 3,
             "elements": [
                 "casings_all"
@@ -679,1514 +519,1667 @@
         },
         {
             "x": -3,
-            "y": -5,
+            "y": 3,
             "z": 2,
             "elements": [
-                "hammermetals:constantan_casing@0"
+                "betternether:cincinnasite_slab_half@0"
             ]
         },
         {
             "x": -2,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "hammermetals:manyullyn_casing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "hammermetals:constantan_casing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
+            "y": -1,
             "z": 3,
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
         },
         {
-            "x": 0,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "hammermetals:manyullyn_casing@0"
-            ]
-        },
-        {
             "x": 1,
-            "y": -3,
-            "z": 3,
+            "y": 7,
+            "z": 4,
             "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "hammermetals:constantan_casing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "hammermetals:manyullyn_casing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "hammermetals:constantan_casing@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
+                "betternether:cincinnasite_forged@0"
             ]
         },
         {
             "x": -2,
-            "y": -2,
-            "z": 3,
+            "y": -1,
+            "z": 0,
             "elements": [
-                "casings_all"
+                "theaurorian:auroriansteelblock@0"
             ]
         },
         {
-            "x": -1,
-            "y": -2,
-            "z": 3,
+            "x": -2,
+            "y": -1,
+            "z": 1,
             "elements": [
-                "casings_all"
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_stairs@2"
             ]
         },
         {
             "x": 0,
-            "y": -2,
-            "z": 3,
+            "y": 8,
+            "z": 4,
             "elements": [
-                "casings_all"
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
             ]
         },
         {
             "x": 1,
-            "y": -2,
-            "z": 3,
+            "y": 0,
+            "z": 4,
             "elements": [
-                "casings_all"
+                "enderio:block_reinforced_obsidian@0"
             ]
         },
         {
-            "x": 2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
+            "x": 1,
+            "y": 0,
             "z": 3,
             "elements": [
                 "tiths:block_witherium@0"
             ]
         },
         {
-            "x": -4,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "hammermetals:manyullyn_casing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "hammermetals:constantan_casing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "hammermetals:manyullyn_casing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
             "x": 1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
+            "y": 0,
             "z": 1,
-            "elements": [
-                "hammermetals:constantan_casing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "hammermetals:manyullyn_casing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "hammermetals:constantan_casing@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 3,
             "elements": [
                 "tiths:block_witherium@0"
             ]
         },
         {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
             "x": 3,
-            "y": -5,
-            "z": 1,
+            "y": -1,
+            "z": 5,
             "elements": [
-                "hammermetals:manyullyn_casing@0"
+                "betternether:cincinnasite_stairs@3"
             ]
         },
         {
-            "x": 4,
-            "y": -3,
-            "z": 2,
+            "x": 3,
+            "y": -1,
+            "z": 3,
             "elements": [
-                "casings_all"
+                "betternether:cincinnasite_slab_half@1"
             ]
         },
         {
-            "x": 4,
-            "y": -5,
-            "z": 1,
+            "x": -2,
+            "y": 6,
+            "z": 4,
             "elements": [
-                "betternether:cincinnasite_block@0"
+                "theaurorian:moonstoneblock@0"
             ]
         },
         {
-            "x": -4,
-            "y": -2,
-            "z": 2,
+            "x": -2,
+            "y": 6,
+            "z": 3,
             "elements": [
-                "casings_all"
+                "hammermetals:umbra_block@0"
             ]
         },
         {
-            "x": -4,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": -5,
+            "x": 3,
+            "y": -1,
+            "z": 4,
             "elements": [
                 "betternether:cincinnasite_stairs@1"
             ]
         },
         {
             "x": 3,
-            "y": -5,
-            "z": -5,
+            "y": -1,
+            "z": 1,
             "elements": [
-                "betternether:cincinnasite_forged@0"
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_stairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "betternether:cincinnasite_stairs@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "hammermetals:crystalline_block@0"
             ]
         },
         {
             "x": 2,
-            "y": -5,
-            "z": -5,
+            "y": 8,
+            "z": 4,
             "elements": [
-                "betternether:cincinnasite_forged@0"
+                "betternether:cincinnasite_slab_half@1"
             ]
         },
         {
-            "x": 4,
-            "y": -1,
-            "z": -3,
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "taiga:duranite_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:ingotblock@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "hammermetals:crystalline_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "hammermetals:crystalline_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:ingotblock@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "theaurorian:auroriansteelblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "betternether:cincinnasite_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "theaurorian:auroriansteelblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "taiga:duranite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "hammermetals:crystalline_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "betternether:cincinnasite_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "theaurorian:moonstoneblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "hammermetals:crystalline_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
             "elements": [
                 "tiths:block_witherium@0"
             ]
         },
         {
             "x": 1,
-            "y": -5,
-            "z": -5,
+            "y": 6,
+            "z": 0,
             "elements": [
-                "betternether:cincinnasite_forged@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "betternether:cincinnasite_forged@0"
+                "theaurorian:moonstoneblock@0"
             ]
         },
         {
             "x": 2,
-            "y": -1,
-            "z": -3,
+            "y": 2,
+            "z": 1,
             "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "betternether:cincinnasite_forged@0"
+                "enderio:block_reinforced_obsidian@0"
             ]
         },
         {
             "x": 1,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
+            "y": 6,
             "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "betternether:cincinnasite_forged@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "betternether:cincinnasite_forged@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "betternether:cincinnasite_forged@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 1,
-            "elements": [
-                "minecraft:sticky_piston@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": -3,
             "elements": [
                 "tiths:block_witherium@0"
             ]
         },
         {
             "x": 2,
-            "y": -1,
+            "y": 2,
             "z": 2,
             "elements": [
-                "casings_all"
+                "draconicevolution:draconium_block@1"
             ]
         },
         {
-            "x": 3,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
+            "x": -1,
+            "y": 5,
             "z": 1,
             "elements": [
-                "casings_all"
+                "taiga:duranite_block@0"
             ]
         },
         {
-            "x": 4,
-            "y": -2,
-            "z": -3,
+            "x": -1,
+            "y": 5,
+            "z": 0,
             "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
+                "theaurorian:auroriansteelblock@0"
             ]
         },
         {
             "x": 2,
-            "y": -2,
-            "z": -3,
+            "y": 2,
+            "z": 3,
             "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "betternether:cincinnasite_stairs@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "betternether:cincinnasite_stairs@2"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "casings_all"
+                "enderio:block_reinforced_obsidian@0"
             ]
         },
         {
             "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "hammermetals:crystalline_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "theaurorian:auroriansteelblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_stairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "theaurorian:auroriansteelblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "tiths:block_witherium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "theaurorian:moonstoneblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "tiths:block_witherium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "hammermetals:umbra_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "theaurorian:auroriansteelblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "taiga:duranite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "taiga:duranite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "theaurorian:auroriansteelblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "taiga:duranite_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "betternether:cincinnasite_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "betternether:cincinnasite_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "theaurorian:moonstoneblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "hammermetals:umbra_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "hammermetals:umbra_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "theaurorian:auroriansteelblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "theaurorian:moonstoneblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "hammermetals:crystalline_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "taiga:duranite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "taiga:duranite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "hammermetals:crystalline_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "betternether:cincinnasite_forged@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "betternether:cincinnasite_forged@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "betternether:cincinnasite_forged@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "betternether:cincinnasite_forged@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "betternether:cincinnasite_forged@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconic_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativesolid@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativesolid@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "theaurorian:moonstoneblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "tiths:block_witherium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "hammermetals:crystalline_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "betternether:cincinnasite_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
             "y": 0,
             "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "hammermetals:crystalline_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "theaurorian:moonstoneblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "betternether:cincinnasite_pillar@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "tiths:block_witherium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_forged@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "taiga:duranite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "tiths:block_witherium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "betternether:cincinnasite_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "taiga:duranite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "tiths:block_witherium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "theaurorian:moonstoneblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "betternether:cincinnasite_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "draconicevolution:draconium_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "theaurorian:moonstoneblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_forged@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "draconicevolution:draconium_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "betternether:cincinnasite_forged@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_slab_half@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "betternether:cincinnasite_forged@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "tiths:block_witherium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "tiths:block_witherium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "theaurorian:moonstoneblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "hammermetals:umbra_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "hammermetals:umbra_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "theaurorian:moonstoneblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_forged@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "betternether:cincinnasite_slab_half@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "betternether:cincinnasite_stairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
             "elements": [
                 "betternether:cincinnasite_stairs@0"
             ]
         },
         {
-            "x": 0,
-            "y": -2,
-            "z": -3,
+            "x": -3,
+            "y": -1,
+            "z": 1,
             "elements": [
-                "minecraft:stained_glass_pane@4"
+                "betternether:cincinnasite_slab_half@1"
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "betternether:cincinnasite_stairs@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
+            "x": -3,
+            "y": -1,
             "z": 2,
             "elements": [
-                "betternether:cincinnasite_stairs@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "betternether:cincinnasite_stairs@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "betternether:cincinnasite_stairs@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "betternether:cincinnasite_stairs@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "betternether:cincinnasite_stairs@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "betternether:cincinnasite_stairs@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "betternether:cincinnasite_stairs@3"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "betternether:cincinnasite_stairs@2"
+                "betternether:cincinnasite_slab_half@1"
             ]
         },
         {
             "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "betternether:cincinnasite_stairs@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "betternether:cincinnasite_stairs@3"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
+            "y": 7,
             "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "betternether:cincinnasite_stairs@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "betternether:cincinnasite_forged@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "betternether:cincinnasite_forged@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": -4,
             "elements": [
                 "betternether:cincinnasite_forged@0"
             ]
         },
         {
             "x": 2,
-            "y": -3,
-            "z": -3,
+            "y": 7,
+            "z": 0,
             "elements": [
-                "minecraft:stained_glass_pane@4"
+                "betternether:cincinnasite_forged@0"
             ]
         },
         {
             "x": 3,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "betternether:cincinnasite_forged@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "betternether:cincinnasite_forged@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "betternether:cincinnasite_forged@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "betternether:cincinnasite_forged@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": -4,
+            "y": 3,
+            "z": 5,
             "elements": [
                 "betternether:cincinnasite_forged@0"
             ]
         },
         {
             "x": -3,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": -2,
             "y": -1,
-            "z": -2,
+            "z": 3,
             "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
+                "betternether:cincinnasite_slab_half@1"
             ]
         },
         {
             "x": 3,
-            "y": -1,
-            "z": 1,
+            "y": 3,
+            "z": 3,
             "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "betternether:cincinnasite_stairs@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "casings_all"
+                "betternether:cincinnasite_slab_half@0"
             ]
         },
         {
             "x": -3,
-            "y": 0,
-            "z": 1,
+            "y": -1,
+            "z": 4,
             "elements": [
                 "betternether:cincinnasite_stairs@0"
             ]
         },
         {
-            "x": -1,
-            "y": -4,
-            "z": -3,
+            "x": 3,
+            "y": 3,
+            "z": 4,
             "elements": [
-                "minecraft:stained_glass_pane@4"
+                "betternether:cincinnasite_slab_half@0"
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": -1,
+            "x": 2,
+            "y": 7,
+            "z": 4,
             "elements": [
-                "casings_all"
+                "betternether:cincinnasite_forged@0"
             ]
         },
         {
-            "x": -2,
-            "y": 0,
+            "x": 3,
+            "y": 3,
             "z": 1,
             "elements": [
-                "casings_all"
+                "betternether:cincinnasite_slab_half@0"
             ]
         },
         {
-            "x": -2,
-            "y": -4,
-            "z": -3,
+            "x": 2,
+            "y": 7,
+            "z": 3,
             "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
+                "betternether:cincinnasite_forged@0"
             ]
         },
         {
             "x": -3,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "draconicevolution:draconium_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": -1,
+            "y": -1,
+            "z": 5,
             "elements": [
                 "betternether:cincinnasite_stairs@0"
             ]
         },
         {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
             "x": 3,
-            "y": 0,
-            "z": 1,
+            "y": 3,
+            "z": 2,
             "elements": [
-                "betternether:cincinnasite_stairs@1"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "tiths:block_witherium@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": -2,
-            "elements": [
-                "casings_all"
+                "betternether:cincinnasite_slab_half@0"
             ]
         },
         {
             "x": 2,
-            "y": -5,
-            "z": -3,
+            "y": 7,
+            "z": 2,
             "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "tiths:block_witherium@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "betternether:cincinnasite_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": -1,
-            "elements": [
-                "casings_all"
+                "betternether:cincinnasite_forged@0"
             ]
         }
-    ]}
+    ]
+}

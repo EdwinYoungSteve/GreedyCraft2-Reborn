@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x7807bf,
+    "langs": {
+        "material": {
+            "en": "Tanatonium",
+            "zh": "塔拉特妮姆"
+        }
+    }
+}

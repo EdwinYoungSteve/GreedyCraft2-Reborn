@@ -6,91 +6,59 @@
     "color": "ff0000",
     "parts": [
         {
-            "x": -2,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
+            "x": 2,
+            "y": 3,
             "z": -1,
             "elements": [
-                "hammermetals:horizonite_casing@0"
+                "gct_ores:rainboquartz_slab@0"
             ]
         },
         {
-            "x": 1,
-            "y": -5,
+            "x": 2,
+            "y": 3,
             "z": 0,
             "elements": [
-                "hammermetals:falsite_casing@0"
+                "gct_mobs:sanite_block@0"
             ]
         },
         {
-            "x": 1,
-            "y": -5,
+            "x": 2,
+            "y": 3,
             "z": 1,
             "elements": [
-                "hammermetals:horizonite_casing@0"
+                "additions:greedycraft-snowingium_block@0"
             ]
         },
         {
-            "x": -2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
+            "x": 2,
+            "y": 3,
             "z": 2,
             "elements": [
-                "hammermetals:falsite_casing@0"
+                "hammermetals:daynight_block@0"
             ]
         },
         {
-            "x": 1,
-            "y": -5,
-            "z": -5,
+            "x": 2,
+            "y": 3,
+            "z": 3,
             "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
+                "additions:greedycraft-snowingium_block@0"
             ]
         },
         {
-            "x": 1,
-            "y": -5,
-            "z": -4,
+            "x": 2,
+            "y": 3,
+            "z": 4,
             "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
+                "gct_mobs:sanite_block@0"
             ]
         },
         {
-            "x": 1,
-            "y": -5,
-            "z": -3,
+            "x": 2,
+            "y": 3,
+            "z": 5,
             "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "hammermetals:falsite_casing@0"
+                "gct_ores:rainboquartz_slab@0"
             ]
         },
         {
@@ -103,10 +71,26 @@
         },
         {
             "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": -1,
             "y": -1,
             "z": 2,
             "elements": [
                 "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
             ]
         },
         {
@@ -114,1604 +98,60 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -2,
-            "elements": [
                 "casings_all"
             ]
         },
         {
             "x": -1,
-            "y": -1,
-            "z": -1,
+            "y": 6,
+            "z": 3,
             "elements": [
-                "casings_all"
+                "gct_ores:relifed_witherium_block@0"
             ]
         },
         {
             "x": -1,
             "y": -1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "additions:greedycraft-terra_alloy_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "gct_ores:rainboquartz_stair@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "gct_ores:rainboquartz_stair@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "additions:greedycraft-terra_alloy_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "gct_ores:rainboquartz_stair@2"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "gct_ores:rainboquartz_stair@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "hammermetals:horizonite_casing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "gct_ores:rainboquartz_stair@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "hammermetals:horizonite_casing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "gct_ores:rainboquartz_stair@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "gct_ores:rainboquartz_stair@2"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "minecraft:sticky_piston@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "hammermetals:horizonite_casing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "hammermetals:horizonite_casing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "hammermetals:horizonite_casing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "hammermetals:horizonite_casing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "hammermetals:horizonite_casing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "minecraft:sticky_piston@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "gct_ores:rainboquartz_stair@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 3,
+            "z": 4,
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": -1,
-            "y": -4,
-            "z": -3,
+            "y": -1,
+            "z": 5,
             "elements": [
-                "minecraft:stained_glass_pane@1"
+                "gct_ores:rainboquartz_slab@1"
             ]
         },
         {
-            "x": -4,
-            "y": -1,
-            "z": -2,
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 0,
             "elements": [
                 "gct_ores:rainboquartz_block@0"
             ]
         },
         {
             "x": 0,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "additions:greedycraft-terra_alloy_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "additions:greedycraft-chromasteel_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 1,
-            "elements": [
-                "minecraft:sticky_piston@2"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "additions:greedycraft-terra_alloy_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "gct_ores:rainboquartz_stair@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "gct_ores:rainboquartz_stair@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "gct_ores:rainboquartz_stair@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "gct_ores:rainboquartz_stair@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "hammermetals:horizonite_casing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "hammermetals:horizonite_casing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "gct_ores:rainboquartz_stair@1"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "additions:greedycraft-terra_alloy_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "gct_ores:rainboquartz_stair@1"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "additions:greedycraft-terra_alloy_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "gct_ores:rainboquartz_stair@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "gct_ores:rainboquartz_stair@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "draconicevolution:draconic_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "hammermetals:horizonite_casing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
+            "y": 7,
             "z": 1,
             "elements": [
                 "casings_all"
@@ -1719,6 +159,62 @@
         },
         {
             "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "quark:lit_lamp@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "gct_ores:relifed_witherium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -1,
             "y": -1,
             "z": 0,
             "elements": [
@@ -1727,432 +223,1880 @@
         },
         {
             "x": 0,
-            "y": -1,
-            "z": 3,
+            "y": 0,
+            "z": 4,
             "elements": [
-                "gct_ores:rainboquartz_block@0"
+                "hammermetals:daynight_block@0"
             ]
         },
         {
             "x": 0,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "hammermetals:horizonite_casing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "hammermetals:horizonite_casing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "minecraft:sticky_piston@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
-            ]
-        },
-        {
-            "x": -1,
             "y": 0,
             "z": 2,
+            "elements": [
+                "additions:greedycraft-protonium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "gct_ores:relifed_witherium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "gct_ores:relifed_witherium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-lavarite_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-lavarite_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-fusion_matrix_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-fusion_matrix_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
             "elements": [
                 "gct_ores:rainboquartz_stair@3"
             ]
         },
         {
-            "x": -1,
-            "y": 0,
+            "x": -3,
+            "y": 3,
             "z": 1,
             "elements": [
-                "casings_all"
+                "gct_ores:rainboquartz_slab@0"
             ]
         },
         {
-            "x": -1,
-            "y": 0,
-            "z": 0,
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 3,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": -3,
-            "y": -4,
-            "z": -3,
+            "y": 3,
+            "z": 2,
             "elements": [
-                "minecraft:stained_glass_pane@1"
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_stair@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "gct_ores:relifed_witherium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "gct_ores:relifed_witherium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
             ]
         },
         {
             "x": 3,
-            "y": 0,
-            "z": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_stair@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-lavarite_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
             "elements": [
                 "gct_ores:rainboquartz_stair@1"
             ]
         },
         {
             "x": 3,
-            "y": 0,
-            "z": -1,
+            "y": -1,
+            "z": 1,
             "elements": [
-                "gct_ores:rainboquartz_stair@1"
+                "gct_ores:rainboquartz_slab@1"
             ]
         },
         {
             "x": 3,
-            "y": 0,
+            "y": -1,
             "z": 2,
             "elements": [
-                "gct_ores:rainboquartz_stair@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
+                "gct_ores:rainboquartz_slab@1"
             ]
         },
         {
             "x": 3,
-            "y": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_stair@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
             "z": 0,
             "elements": [
                 "gct_ores:rainboquartz_stair@1"
             ]
         },
         {
-            "x": 3,
-            "y": 0,
-            "z": 1,
+            "x": -2,
+            "y": 3,
+            "z": 3,
             "elements": [
-                "gct_ores:rainboquartz_stair@1"
+                "additions:greedycraft-snowingium_block@0"
             ]
         },
         {
-            "x": 3,
-            "y": -3,
-            "z": -3,
+            "x": 2,
+            "y": 8,
+            "z": 4,
             "elements": [
-                "minecraft:stained_glass_pane@1"
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "hammermetals:daynight_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-fusion_matrix_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "gct_mobs:sanite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-snowingium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-snowingium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "gct_mobs:sanite_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "hammermetals:daynight_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-fusion_matrix_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-snowingium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-snowingium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "gct_ores:relifed_witherium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "gct_ores:relifed_witherium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "hammermetals:daynight_block@0"
             ]
         },
         {
             "x": -1,
-            "y": -3,
-            "z": -3,
+            "y": 5,
+            "z": 1,
             "elements": [
-                "minecraft:stained_glass_pane@1"
+                "additions:greedycraft-fusion_matrix_block@0"
             ]
         },
         {
             "x": -1,
-            "y": -3,
+            "y": 5,
             "z": 0,
             "elements": [
-                "minecraft:sticky_piston@5"
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-snowingium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_stair@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_stair@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "gct_ores:everite_block@0"
             ]
         },
         {
             "x": -1,
-            "y": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "gct_ores:relifed_witherium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "gct_ores:relifed_witherium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-lavarite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "hammermetals:daynight_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "gct_ores:chaotic_draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-fusion_matrix_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "hammermetals:daynight_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-fusion_matrix_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-fusion_matrix_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "hammermetals:daynight_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-lavarite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-lavarite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-snowingium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-fusion_matrix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-fusion_matrix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-snowingium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
             "z": 3,
             "elements": [
                 "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "hammermetals:daynight_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "gct_ores:chaotic_draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "hammermetals:daynight_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
             ]
         },
         {
             "x": 3,
-            "y": -3,
-            "z": 3,
+            "y": 2,
+            "z": -1,
             "elements": [
-                "casings_all"
+                "gct_ores:rainboquartz_slab@0"
             ]
         },
         {
             "x": 3,
-            "y": -3,
-            "z": 0,
+            "y": 2,
+            "z": 5,
             "elements": [
-                "minecraft:iron_bars@0"
+                "gct_ores:rainboquartz_slab@0"
             ]
         },
         {
-            "x": 4,
-            "y": -4,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
+            "x": 0,
+            "y": 5,
             "z": 2,
             "elements": [
-                "hammermetals:horizonite_casing@0"
+                "gct_ores:chaotic_draconium_block@0"
             ]
         },
         {
-            "x": 4,
-            "y": -4,
-            "z": -3,
+            "x": 0,
+            "y": 5,
+            "z": 4,
             "elements": [
-                "draconicevolution:draconic_block@0"
+                "extrautils2:decorativesolid@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativesolid@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "gct_ores:relifed_witherium_block@0"
             ]
         },
         {
             "x": -2,
-            "y": -5,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-snowingium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "hammermetals:daynight_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "hammermetals:daynight_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-snowingium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
             "z": 3,
             "elements": [
-                "gct_ores:rainboquartz_block@0"
+                "enderio:block_reinforced_obsidian@0"
             ]
         },
         {
-            "x": -2,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "hammermetals:horizonite_casing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "hammermetals:horizonite_casing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "hammermetals:falsite_casing@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -3,
+            "x": 2,
+            "y": 0,
+            "z": 4,
             "elements": [
                 "gct_ores:rainboquartz_block@0"
             ]
         },
         {
-            "x": 4,
-            "y": -4,
+            "x": 2,
+            "y": 0,
             "z": 3,
             "elements": [
-                "draconicevolution:draconic_block@0"
+                "enderio:block_reinforced_obsidian@0"
             ]
         },
         {
-            "x": -2,
-            "y": -5,
-            "z": -5,
+            "x": 1,
+            "y": 4,
+            "z": 3,
             "elements": [
-                "gct_ores:rainboquartz_block_chiseled@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "casings_all"
+                "gct_ores:relifed_witherium_block@0"
             ]
         },
         {
             "x": -3,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "additions:greedycraft-terra_alloy_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
+            "y": 5,
             "z": -1,
             "elements": [
                 "gct_ores:rainboquartz_block@0"
             ]
         },
         {
-            "x": 4,
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-fusion_matrix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "gct_ores:relifed_witherium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-fusion_matrix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "gct_ores:relifed_witherium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "hammermetals:daynight_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "hammermetals:daynight_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "hammermetals:daynight_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
             "y": -1,
             "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-protonium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "gct_ores:relifed_witherium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "gct_ores:relifed_witherium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-lavarite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "additions:greedycraft-lavarite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-cryonium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "gct_ores:rainboquartz_stair@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_stair@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
             "elements": [
                 "gct_ores:rainboquartz_block@0"
             ]
@@ -2162,31 +2106,79 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "gct_ores:rainboquartz_block@0"
+                "gct_ores:rainboquartz_slab@1"
             ]
         },
         {
-            "x": 4,
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": -3,
             "y": -1,
-            "z": 1,
+            "z": 4,
+            "elements": [
+                "gct_ores:rainboquartz_stair@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 4,
             "elements": [
                 "gct_ores:rainboquartz_block@0"
             ]
         },
         {
-            "x": 4,
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "gct_ores:rainboquartz_block@0"
+            ]
+        },
+        {
+            "x": -3,
             "y": -1,
+            "z": 5,
+            "elements": [
+                "gct_ores:rainboquartz_stair@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "gct_ores:rainboquartz_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
             "z": 2,
             "elements": [
                 "gct_ores:rainboquartz_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "additions:greedycraft-terra_alloy_block@0"
             ]
         }
     ]

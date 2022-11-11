@@ -1,13 +1,13 @@
 {
 	title: "§b嗡嗡蜂群",
-	x: -4.5d,
-	y: 0.0d,
+	x: -9.0d,
+	y: 1.5d,
 	description: "获得蜜蜂蜂窝",
 	text: [
 		""
 	],
 	dependencies: [
-		"26bd081f"
+		"bebee385"
 	],
 	tasks: [{
 		uid: "c90fcc0c",

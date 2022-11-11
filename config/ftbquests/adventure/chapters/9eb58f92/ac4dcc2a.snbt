@@ -1,13 +1,13 @@
 {
 	title: "§b液化？汽化？",
 	x: -6.5d,
-	y: 2.5d,
+	y: 1.0d,
 	description: "制作一个回旋式气液转换机",
 	text: [
 		""
 	],
 	dependencies: [
-		"18ab59d7"
+		"3851128c"
 	],
 	tasks: [{
 		uid: "6ebac8f4",

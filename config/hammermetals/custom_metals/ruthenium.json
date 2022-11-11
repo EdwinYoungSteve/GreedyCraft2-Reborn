@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x454545,
+    "langs": {
+        "material": {
+            "en": "Ruthenium",
+            "zh": "钌"
+        }
+    }
+}

@@ -1,6 +1,6 @@
 {
-	x: -9.5d,
-	y: 2.0d,
+	x: -10.5d,
+	y: -4.5d,
 	tasks: [{
 		uid: "a2218b44",
 		type: "gamestage",

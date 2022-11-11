@@ -105,7 +105,6 @@ LootUtil.addItem(<additions:greedycraft-blueprint_laser_gun>, 1, 1, 1, 1);
 LootUtil.addItem(<actuallyadditions:block_treasure_chest>, 9, 1, 1, 1);
 LootUtil.addItem(<additions:greedycraft-skill_reset_scroll>, 1, 1, 1, 1);
 LootUtil.addItem(<additions:greedycraft-plate_of_honor>, 1, 1, 1, 1);
-LootUtil.addItem(<inventorypets:meta_pet>, 3, 1, 1, 1);
 LootUtil.addItem(<additions:greedycraft-purifying_dust>, 3, 1, 10, 40);
 LootUtil.addItem(<additions:perfectly_generic_item>, 2, 1, 1, 1);
 LootUtil.addItem(<additions:greedycraft-respawn_anchor>, 1, 1, 1, 1);

@@ -23,6 +23,7 @@ import crafttweaker.world.IFacing;
 import crafttweaker.world.IWorld;
 import crafttweaker.command.ICommandSender;
 import crafttweaker.event.BlockHarvestDropsEvent;
+import crafttweaker.event.BlockBreakEvent;
 import crafttweaker.world.IBiome;
 import crafttweaker.world.IBiomeType;
 

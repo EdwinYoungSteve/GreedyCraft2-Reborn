@@ -1,8 +1,0 @@
-{
-  "id" : "5d55879f1b21448e988ecda9cdaebc72",
-  "name" : "Wu_xu",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjk0NzUyODg0NiwKICAicHJvZmlsZUlkIiA6ICI1ZDU1ODc5ZjFiMjE0NDhlOTg4ZWNkYTljZGFlYmM3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJXdV94dSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZDc2NTMyMzhhY2MyM2IzOTNlN2QwOTEzYTBiYTk1OGExNWY0Y2YxZmZkNGE2YTUzOWM4YmJjNjI3NDUxODFmIgogICAgfQogIH0KfQ=="
-  } ]
-}

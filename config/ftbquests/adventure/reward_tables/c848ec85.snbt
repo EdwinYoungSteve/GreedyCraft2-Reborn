@@ -378,16 +378,6 @@
 		random_bonus: 4
 	},
 	{
-		item: "inventorypets:double_chest_pet"
-	},
-	{
-		item: "inventorypets:meta_pet",
-		weight: 2
-	},
-	{
-		item: "inventorypets:start_button"
-	},
-	{
 		item: "additions:greedycraft-medkit_small",
 		random_bonus: 3
 	},

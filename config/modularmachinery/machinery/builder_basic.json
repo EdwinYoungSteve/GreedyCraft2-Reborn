@@ -7,187 +7,221 @@
     "controller": {
         "fullBlock": true,
         "alphaEnabled": true,
-        "name": "controller_builder_basic",
-        "translationKey": "tile.modularcontroller.controller_builder_basic.name",
+        "name": "controller_builder_1",
+        "translationKey": "tile.modularcontroller.controller_builder_1.name",
         "lightValue": 0
     },
     "parts": [
         {
+            "x": 2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "tconstruct:metal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_crystal@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_crystal@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "tconstruct:metal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
             "x": -1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcontroller@2"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "minecraft:stone_brick_stairs@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "minecraft:stone_brick_stairs@1"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": -2,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": -2,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 4,
             "y": -1,
-            "z": 0,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": -2,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -2,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 0,
+            "z": 1,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": -1,
-            "y": -5,
-            "z": -2,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
+            "y": 6,
+            "z": 4,
             "elements": [
-                "tconstruct:seared@3"
+                "enderio:block_alloy@6"
             ]
         },
         {
-            "x": 1,
+            "x": -1,
             "y": -1,
-            "z": 0,
+            "z": 2,
             "elements": [
                 "casings_all"
             ]
         },
         {
-            "x": -2,
-            "y": -5,
-            "z": -2,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
+            "x": 3,
+            "y": 4,
+            "z": 0,
             "elements": [
-                "tconstruct:seared@3"
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
             ]
         },
         {
             "x": 0,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:lit_redstone_lamp@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": -1,
             "y": -1,
             "z": 0,
             "elements": [
@@ -195,519 +229,288 @@
             ]
         },
         {
-            "x": -3,
-            "y": -5,
-            "z": -2,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
+            "x": 0,
+            "y": 0,
+            "z": 4,
             "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "casings_all"
+                "minecraft:iron_block@0"
             ]
         },
         {
             "x": 0,
-            "y": -2,
-            "z": 0,
+            "y": 0,
+            "z": 2,
             "elements": [
-                "minecraft:sticky_piston@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": -1,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": -1,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:redstone_block@0"
             ]
         },
         {
             "x": 1,
-            "y": -5,
-            "z": -1,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
+            "y": 2,
+            "z": 4,
             "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -1,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
+                "enderio:block_reinforced_obsidian@0"
             ]
         },
         {
             "x": 1,
-            "y": -3,
-            "z": 0,
+            "y": 2,
+            "z": 3,
             "elements": [
-                "minecraft:sticky_piston@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": -1,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:storage_alloy@0"
+                "minecraft:gold_block@0"
             ]
         },
         {
             "x": -2,
-            "y": -5,
-            "z": -1,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
+            "y": 4,
+            "z": 5,
             "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "minecraft:sticky_piston@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": -1,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcasing@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "minecraft:sticky_piston@1"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": 0,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 0,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
+                "botania:quartzslabsunnyhalf@8"
             ]
         },
         {
             "x": 1,
-            "y": -5,
-            "z": 0,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
+            "y": 2,
+            "z": 1,
             "elements": [
-                "tconstruct:seared@3"
+                "minecraft:gold_block@0"
             ]
         },
         {
-            "x": 0,
-            "y": -5,
+            "x": 1,
+            "y": 2,
             "z": 0,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
             "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 0,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
+                "enderio:block_reinforced_obsidian@0"
             ]
         },
         {
             "x": -2,
-            "y": -5,
+            "y": 4,
             "z": 0,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
             "elements": [
-                "tconstruct:seared@3"
+                "enderio:block_alloy@6"
             ]
         },
         {
-            "x": -3,
-            "y": -5,
-            "z": 0,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
+            "x": -2,
+            "y": 4,
+            "z": -1,
             "elements": [
-                "tconstruct:seared@3"
+                "botania:quartzslabsunnyhalf@8"
             ]
         },
         {
-            "x": -4,
-            "y": -5,
-            "z": 0,
+            "x": -2,
+            "y": 4,
+            "z": 2,
             "elements": [
-                "minecraft:stonebrick@0"
+                "extrautils2:decorativesolidwood@2"
             ]
         },
         {
-            "x": -4,
-            "y": -5,
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
             "z": 3,
             "elements": [
                 "thermalfoundation:storage_alloy@2"
             ]
         },
         {
-            "x": -3,
-            "y": -5,
-            "z": 3,
+            "x": 3,
+            "y": 5,
+            "z": 5,
             "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "minecraft:stonebrick@0"
+                "botania:quartztypesunny@0"
             ]
         },
         {
             "x": 3,
-            "y": -5,
-            "z": 3,
+            "y": 5,
+            "z": -1,
             "elements": [
-                "minecraft:stonebrick@0"
+                "botania:quartztypesunny@0"
             ]
         },
         {
-            "x": 4,
-            "y": -5,
-            "z": 3,
+            "x": 1,
+            "y": 1,
+            "z": 0,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "enderio:block_reinforced_obsidian@0"
             ]
         },
         {
-            "x": -4,
-            "y": -4,
-            "z": 3,
+            "x": 1,
+            "y": 1,
+            "z": 4,
             "elements": [
-                "minecraft:coal_block@0"
+                "enderio:block_reinforced_obsidian@0"
             ]
         },
         {
-            "x": -3,
-            "y": -4,
+            "x": 1,
+            "y": 1,
             "z": 3,
             "elements": [
-                "casings_all"
+                "thermalfoundation:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@2"
             ]
         },
         {
             "x": -2,
-            "y": -4,
-            "z": 3,
+            "y": 5,
+            "z": 1,
             "elements": [
-                "casings_all"
+                "extrautils2:decorativesolidwood@2"
             ]
         },
         {
-            "x": -1,
-            "y": -4,
-            "z": 3,
+            "x": -2,
+            "y": 5,
+            "z": 0,
             "elements": [
-                "casings_all"
+                "enderio:block_alloy_endergy@0"
             ]
         },
         {
-            "x": 0,
-            "y": -4,
+            "x": -2,
+            "y": 5,
             "z": 3,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 1,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": 1,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "minecraft:coal_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "minecraft:coal_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
+            "y": 7,
             "z": 2,
             "elements": [
-                "minecraft:stonebrick@0"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": -3,
-            "y": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "botania:quartztypesunny@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "botania:quartztypesunny@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:quartzstairssunny@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
             "z": 3,
             "elements": [
                 "casings_all"
@@ -715,342 +518,122 @@
         },
         {
             "x": -3,
-            "y": -5,
-            "z": 2,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
+            "y": 3,
+            "z": 1,
             "elements": [
-                "tconstruct:seared@3"
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:quartz_block@0"
             ]
         },
         {
             "x": -2,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": 2,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 2,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
+            "y": -1,
             "z": 3,
             "elements": [
                 "modularmachinery:blockcasing@4"
             ]
         },
         {
-            "x": 0,
-            "y": -5,
-            "z": 2,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": 2,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 2,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": 2,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "minecraft:coal_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "minecraft:coal_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
             "x": -2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "minecraft:coal_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
             "y": -1,
-            "z": 3,
+            "z": 0,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "minecraft:stonebrick@0"
+                "enderio:block_alloy_endergy@0"
             ]
         },
         {
             "x": -2,
             "y": -1,
-            "z": 3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
             "z": 1,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
             "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "minecraft:stonebrick@0"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
             "x": -2,
-            "y": -5,
-            "z": 1,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 0,
             "y": -1,
-            "z": 3,
+            "z": -1,
             "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 1,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
+                "botania:quartzstairssunny@2"
             ]
         },
         {
             "x": 0,
-            "y": -3,
-            "z": 2,
+            "y": 8,
+            "z": 4,
             "elements": [
-                "minecraft:iron_bars@0"
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
             ]
         },
         {
             "x": 1,
-            "y": -1,
-            "z": 3,
+            "y": 0,
+            "z": 4,
             "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": 1,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "minecraft:stonebrick@0"
+                "enderio:block_reinforced_obsidian@0"
             ]
         },
         {
             "x": 1,
-            "y": -5,
-            "z": 1,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
+            "y": 0,
+            "z": 3,
             "elements": [
-                "tconstruct:seared@3"
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:quartzstairssunny@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy@6"
             ]
         },
         {
@@ -1058,21 +641,20 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "minecraft:stonebrick@0"
+                "botania:quartzslabsunnyhalf@0"
             ]
         },
         {
-            "x": 2,
-            "y": -5,
-            "z": 1,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 4,
+            "x": 3,
             "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:quartzstairssunny@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
             "z": 3,
             "elements": [
                 "thermalfoundation:storage_alloy@2"
@@ -1080,1131 +662,1394 @@
         },
         {
             "x": 3,
-            "y": -5,
-            "z": 1,
-            "nbt": {"id":"minecraft:tconstruct.smeltery_component","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[],"isRunning":"0b"}},"hasMaster":"0b"},
-            "elements": [
-                "tconstruct:seared@3"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
+            "y": -1,
             "z": 1,
             "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "minecraft:stone_brick_stairs@1"
+                "botania:quartzslabsunnyhalf@0"
             ]
         },
         {
             "x": 3,
-            "y": -5,
-            "z": -5,
+            "y": -1,
+            "z": 2,
             "elements": [
-                "minecraft:stonebrick@3"
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:quartzstairssunny@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:quartzstairssunny@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_crystal@1"
             ]
         },
         {
             "x": 2,
-            "y": -5,
-            "z": -5,
+            "y": 8,
+            "z": 4,
             "elements": [
-                "minecraft:stonebrick@3"
+                "botania:quartzslabsunnyhalf@0"
             ]
         },
         {
-            "x": 4,
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "tconstruct:metal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_crystal@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_crystal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "tconstruct:metal@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypesunny@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "botania:quartztypesunny@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_crystal@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": 2,
             "y": -1,
-            "z": -3,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:quartzstairssunny@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:quartzstairssunny@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
             "elements": [
                 "thermalfoundation:storage_alloy@2"
             ]
         },
         {
-            "x": 1,
-            "y": -5,
-            "z": -5,
+            "x": 0,
+            "y": 1,
+            "z": 0,
             "elements": [
-                "minecraft:stonebrick@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:iron_block@0"
             ]
         },
         {
             "x": 0,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "minecraft:stonebrick@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
+            "y": 1,
             "z": 2,
             "elements": [
-                "minecraft:stonebrick@0"
+                "actuallyadditions:block_crystal@0"
             ]
         },
         {
             "x": -1,
-            "y": -5,
-            "z": -5,
+            "y": 5,
+            "z": 4,
             "elements": [
-                "minecraft:stonebrick@3"
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage@2"
             ]
         },
         {
             "x": 1,
-            "y": -1,
-            "z": -3,
+            "y": 5,
+            "z": 3,
             "elements": [
-                "minecraft:stonebrick@0"
+                "thermalfoundation:storage@2"
             ]
         },
         {
-            "x": -4,
-            "y": -3,
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
             "z": 1,
             "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
+                "thermalfoundation:storage@2"
             ]
         },
         {
             "x": -2,
-            "y": -5,
-            "z": -5,
+            "y": 8,
+            "z": 0,
             "elements": [
-                "minecraft:stonebrick@3"
+                "botania:quartzslabsunnyhalf@0"
             ]
         },
         {
             "x": 0,
-            "y": -1,
-            "z": -3,
+            "y": 4,
+            "z": 0,
             "elements": [
-                "minecraft:stonebrick@0"
+                "additions:greedycraft-stainless_steel_block@0"
             ]
         },
         {
             "x": -2,
-            "y": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "botania:quartztypesunny@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
             "z": 2,
             "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "minecraft:stonebrick@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "minecraft:stonebrick@3"
+                "botania:pylon@0"
             ]
         },
         {
             "x": -2,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
+            "y": 1,
             "z": 2,
             "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 1,
-            "elements": [
-                "minecraft:sticky_piston@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:coal_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "minecraft:stone_brick_stairs@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "minecraft:stone_brick_stairs@2"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "minecraft:stone_brick_stairs@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "minecraft:stone_brick_stairs@2"
+                "minecraft:iron_block@0"
             ]
         },
         {
             "x": -2,
-            "y": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "botania:quartztypesunny@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
             "z": 2,
             "elements": [
-                "minecraft:stone_brick_stairs@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "minecraft:stone_brick_stairs@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "minecraft:stone_brick_stairs@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "minecraft:stone_brick_stairs@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "minecraft:stone_brick_stairs@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "minecraft:stone_brick_stairs@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "minecraft:stone_brick_stairs@3"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "minecraft:coal_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "minecraft:stone_brick_stairs@2"
+                "botania:quartzslabsunnyhalf@0"
             ]
         },
         {
             "x": 2,
-            "y": 0,
-            "z": 2,
+            "y": 6,
+            "z": 0,
             "elements": [
-                "minecraft:stone_brick_stairs@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "minecraft:stone_brick_stairs@3"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "minecraft:stone_brick_stairs@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "minecraft:stonebrick@3"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:coal_block@0"
+                "enderio:block_alloy@6"
             ]
         },
         {
             "x": 2,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "minecraft:stonebrick@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "minecraft:stonebrick@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "minecraft:stonebrick@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
+            "y": 6,
             "z": 1,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "minecraft:stonebrick@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "minecraft:stonebrick@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "minecraft:stonebrick@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "minecraft:stonebrick@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "minecraft:coal_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:coal_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "minecraft:stone_brick_stairs@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "minecraft:stone_brick_stairs@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:stained_glass_pane@15"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "minecraft:coal_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "minecraft:stone_brick_stairs@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "minecraft:stone_brick_stairs@1"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -3,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "minecraft:stonebrick@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -5,
-            "z": -3,
             "elements": [
                 "thermalfoundation:storage_alloy@2"
             ]
         },
         {
             "x": -2,
-            "y": -1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_crystal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
             "z": -1,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
             "elements": [
                 "casings_all"
             ]
         },
         {
-            "x": -4,
-            "y": -3,
-            "z": -2,
+            "x": 1,
+            "y": -1,
+            "z": 1,
             "elements": [
                 "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "extrautils2:decorativesolid@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativesolid@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "botania:quartztypesunny@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_crystal@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "botania:quartztypesunny@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "botania:quartztypesunny@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "botania:quartztypesunny@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "botania:quartztypesunny@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "botania:pylon@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "botania:quartztypesunny@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "minecraft:redstone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "additions:greedycraft-stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:gold_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "extrautils2:decorativesolidwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage_alloy@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "botania:quartztypesunny@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
             ]
         },
         {
@@ -2212,31 +2057,135 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "casings_all"
+                "botania:quartzstairssunny@2"
             ]
         },
         {
-            "x": -4,
+            "x": -3,
             "y": -1,
-            "z": -1,
+            "z": 0,
             "elements": [
-                "minecraft:stonebrick@0"
+                "botania:quartzstairssunny@0"
             ]
         },
         {
-            "x": 4,
-            "y": -4,
-            "z": -2,
+            "x": -3,
+            "y": -1,
+            "z": 1,
             "elements": [
-                "casings_all"
+                "botania:quartzslabsunnyhalf@0"
             ]
         },
         {
-            "x": 4,
-            "y": -2,
-            "z": -1,
+            "x": -3,
+            "y": -1,
+            "z": 2,
             "elements": [
-                "casings_all"
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "botania:quartztypesunny@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "botania:quartzslabsunnyhalf@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "botania:quartzstairssunny@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "botania:quartzstairssunny@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "botania:quartzslabsunnyhalf@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@0"
             ]
         }
     ]}

@@ -77,7 +77,7 @@ SummoningDirector.addSummonInfo(
             } else if (!world.raining) {
                 attempt.success = false;
                 attempt.message = LangUtil.translate("greedycraft.zensummoning.zethur.fail.4");
-            } else if (attempt.world.getProvider().getDimensionID() != 4) {
+            } else if (attempt.world.getProvider().getDimensionID() != 173) {
                 attempt.success = false;
                 attempt.message = LangUtil.translate("greedycraft.zensummoning.zethur.fail.5");
             } else {

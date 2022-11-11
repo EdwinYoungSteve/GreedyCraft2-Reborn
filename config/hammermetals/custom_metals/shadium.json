@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x2c5be2,
+    "langs": {
+        "material": {
+            "en": "Shadium",
+            "zh": "阴祟"
+        }
+    }
+}

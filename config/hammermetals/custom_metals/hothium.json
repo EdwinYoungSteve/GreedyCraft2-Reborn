@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x42657d,
+    "langs": {
+        "material": {
+            "en": "Hothium",
+            "zh": "霍斯"
+        }
+    }
+}

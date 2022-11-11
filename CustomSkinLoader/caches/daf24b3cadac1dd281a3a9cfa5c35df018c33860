@@ -1,8 +1,0 @@
-{
-  "id" : "4a87a24372924abda4bf8b9e43244d53",
-  "name" : "iCode02",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjg5MjM5NjU2MiwKICAicHJvZmlsZUlkIiA6ICI0YTg3YTI0MzcyOTI0YWJkYTRiZjhiOWU0MzI0NGQ1MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJpQ29kZTAyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhNGFmNzE4NDU1ZDRhYWI1MjhlN2E2MWY4NmZhMjVlNmEzNjlkMTc2OGRjYjEzZjdkZjMxOWE3MTNlYjgxMGIiCiAgICB9CiAgfQp9"
-  } ]
-}

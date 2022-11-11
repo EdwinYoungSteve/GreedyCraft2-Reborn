@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xc76c61,
+    "langs": {
+        "material": {
+            "en": "Rhodium",
+            "zh": "铑"
+        }
+    }
+}

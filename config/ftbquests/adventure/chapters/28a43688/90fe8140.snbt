@@ -1,6 +1,11 @@
 {
-	x: -5.0d,
-	y: 10.0d,
+	title: "§b手握星辰",
+	x: -9.5d,
+	y: -3.5d,
+	description: "获得寰宇锭！",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "6eab84b4",
 		type: "item",
@@ -13,5 +18,36 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "cosmic"
+	},
+	{
+		uid: "06576ce3",
+		type: "item",
+		item: "additions:cosmilite_ingot",
+		count: 2
+	},
+	{
+		uid: "6014a448",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "d189bde6",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "039dddcd",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "7d619539",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "c46485b4",
+		type: "xp",
+		xp: 100000
 	}]
 }

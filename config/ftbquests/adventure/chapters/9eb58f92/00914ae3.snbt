@@ -1,13 +1,14 @@
 {
 	title: "§b五倍产矿",
-	x: -3.5d,
-	y: 2.5d,
+	x: -2.0d,
+	y: -0.5d,
 	description: "制作一个化学溶解室",
 	text: [
 		""
 	],
 	dependencies: [
-		"ce2114e7"
+		"e6c96740",
+		"ca529e24"
 	],
 	tasks: [{
 		uid: "7454136b",

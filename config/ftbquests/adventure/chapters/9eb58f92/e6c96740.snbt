@@ -1,13 +1,15 @@
 {
 	title: "§b四倍产矿",
-	x: -5.0d,
-	y: -2.0d,
+	x: -3.5d,
+	y: -0.5d,
+	shape: "gear",
 	description: "制作一个化学压射室",
 	text: [
 		""
 	],
 	dependencies: [
-		"3851128c"
+		"ce2114e7",
+		"d115dc4e"
 	],
 	tasks: [{
 		uid: "2d3a3a16",

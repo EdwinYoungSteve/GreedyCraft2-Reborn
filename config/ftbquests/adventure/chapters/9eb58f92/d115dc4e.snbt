@@ -1,13 +1,13 @@
 {
 	title: "§b盐塔核心",
-	x: -2.0d,
-	y: -2.0d,
+	x: -5.0d,
+	y: -0.5d,
 	description: "制作热力蒸馏控制器",
 	text: [
 		""
 	],
 	dependencies: [
-		"e99ec5ac"
+		"3851128c"
 	],
 	tasks: [{
 		uid: "c520cebd",

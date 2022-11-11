@@ -167,7 +167,6 @@ val tooltipMap as string[][IIngredient] = {
     <thaumadditions:vis_scribing_tools:*> : [game.localize("greedycraft.tooltip.thaumadditions.vis_scribing_tools.1")],
     <torchmaster:feral_flare_lantern> : [game.localize("greedycraft.tooltip.torchmaster.feral_flare_lantern.1"), game.localize("greedycraft.tooltip.torchmaster.feral_flare_lantern.2")],
     <snad:snad:*> : [game.localize("greedycraft.tooltip.snad.snad.1")],
-    <inventorypets:cloud_pet> : [game.localize("greedycraft.tooltip.inventorypets.cloud_pet.1")],
     <gravestone:death_info> : [game.localize("greedycraft.tooltip.gravestone.death_info.1"), game.localize("greedycraft.tooltip.gravestone.death_info.2"), game.localize("greedycraft.tooltip.gravestone.death_info.3")],
     <defiledlands:conjuring_altar> : [game.localize("greedycraft.tooltip.defiledlands.conjuring_altar.1")],
     <simplybackpacks:commonbackpack> : [dont_put_into_ae],
@@ -215,7 +214,9 @@ val tooltipMap as string[][IIngredient] = {
     <divinerpg:arksiane_lump> : [game.localize("greedycraft.tooltip.lumps")],
     <additions:botaniaddon-manadiamond> : [odch],
     <additions:botaniaddon-mana_lapis> : [odch],
-    <additions:botaniaddon-mana_quartz> : [odch]
+    <additions:botaniaddon-mana_quartz> : [odch],
+    <utilityworlds:portal_void> : [game.localize("greedycraft.tooltip.utilityworld.warnings")],
+    <utilityworlds:portal_garden> : [game.localize("greedycraft.tooltip.utilityworld.warnings")]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

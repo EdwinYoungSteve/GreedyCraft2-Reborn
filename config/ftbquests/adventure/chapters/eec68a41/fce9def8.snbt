@@ -1,7 +1,7 @@
 {
 	title: "§b深入黑暗",
-	x: 13.5d,
-	y: 1.5d,
+	x: 12.5d,
+	y: 0.0d,
 	description: "进入漆黑世界",
 	text: [
 		""
@@ -9,7 +9,7 @@
 	tasks: [{
 		uid: "c81cca88",
 		type: "dimension",
-		icon: "journey:blackblock",
+		icon: "extrautils2:teleporter 1 1",
 		dim: -11325
 	}],
 	rewards: [{

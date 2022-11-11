@@ -590,20 +590,13 @@ val plasmafusionTrait = TraitBuilder.create("plasmafusion");
 plasmafusionTrait.color = Color.fromHex("ffffff").getIntColor(); 
 plasmafusionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.plasmafusionTrait.name");
 plasmafusionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.plasmafusionTrait.desc");
-plasmafusionTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
-    if (owner instanceof IEntityLivingBase) {
-        var ownerBase as IEntityLivingBase = owner;
-        if (isSelected) {
-            ownerBase.addPotionEffect(<potion:gct_tcon:plasmafusion>.makePotionEffect(20, 0, false, false));
-        } 
-        /*
-        else {
-            if (!isNull(ownerBase.getActivePotionEffect(<potion:gct_tcon:plasmafusion>)) && (!(ownerBase.getActivePotionEffect(<potion:gct_tcon:plasmafusion>).duration > 250)) && (!ownerBase.getActivePotionEffect(<potion:gct_tcon:plasmafusion>).isAmbient) && (!ownerBase.getActivePotionEffect(<potion:gct_tcon:plasmafusion>).doesShowParticles)) {
-                ownerBase.removePotionEffect(<potion:gct_tcon:plasmafusion>);
-            }
+plasmafusionTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        val player as IPlayer = attacker;
+        if (Math.random() < 0.1) {
+            mods.contenttweaker.Commands.call("give @p gct_tcon:tinyplasmariumdust 1 0", player, player.world, false, true);
         }
-        */
-    }
+    }   
 };
 plasmafusionTrait.register();
 
@@ -611,13 +604,12 @@ val abysscallingTrait = TraitBuilder.create("abysscalling");
 abysscallingTrait.color = Color.fromHex("ffffff").getIntColor(); 
 abysscallingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.abysscallingTrait.name");
 abysscallingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.abysscallingTrait.desc");
-abysscallingTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
-    if (owner instanceof IEntityLivingBase) {
-        var ownerBase as IEntityLivingBase = owner;
-        if (isSelected) {
-            ownerBase.addPotionEffect(<potion:gct_tcon:abysscalling>.makePotionEffect(20, 0, false, false));
-        } 
+abysscallingTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    val player as IPlayer = attacker;
+    if (player.getDimension() < 56 && player.getDimension() > 49) {
+        return newDamage * 1.5f;
     }
+    return newDamage;
 };
 abysscallingTrait.register();
 
@@ -625,12 +617,71 @@ val elementfriendlyTrait = TraitBuilder.create("elementfriendly");
 elementfriendlyTrait.color = Color.fromHex("ffffff").getIntColor(); 
 elementfriendlyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.elementfriendlyTrait.name");
 elementfriendlyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.elementfriendlyTrait.desc");
-elementfriendlyTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
-    if (owner instanceof IEntityLivingBase) {
-        var ownerBase as IEntityLivingBase = owner;
-        if (isSelected) {
-            ownerBase.addPotionEffect(<potion:gct_tcon:elementfriendly>.makePotionEffect(20, 0, false, false));
-        } 
+elementfriendlyTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    val player as IPlayer = attacker;
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:speed>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:haste>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:jump_boost>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:potioncore:diamond_skin>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:absorption>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:strong_healing>.makePotionEffect(1, 4, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:potioncore:long_purity>.makePotionEffect(100, 2, false, false));
+    }
+    return newDamage;
+};
+elementfriendlyTrait.onBlockHarvestDrops = function(trait, tool, event) {
+    var player as IPlayer = event.player;
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:speed>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:haste>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:jump_boost>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:potioncore:diamond_skin>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:absorption>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(100, 2, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:minecraft:strong_healing>.makePotionEffect(1, 4, false, false));
+    }
+    if (Math.random() <= 0.005) {
+        player.addPotionEffect(<potion:potioncore:long_purity>.makePotionEffect(100, 2, false, false));
     }
 };
 elementfriendlyTrait.register();
@@ -813,3 +864,245 @@ foglightTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelecte
       }
 };
 foglightTrait.register();
+
+val soul_absorbTrait = TraitBuilder.create("soul_absorb");
+soul_absorbTrait.color = Color.fromHex("76ff03").getIntColor(); 
+soul_absorbTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.soul_absorbTrait.name");
+soul_absorbTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.soul_absorbTrait.desc");
+soul_absorbTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+        val player as IPlayer = attacker;
+          if(!player.world.remote && Math.random() < 0.5){
+            player.xp -= 1;
+            return newDamage * 2.5f;
+          }
+    return newDamage;
+};
+soul_absorbTrait.register();
+
+val time_turnTrait = TraitBuilder.create("time_turn");
+time_turnTrait.color = Color.fromHex("76ff03").getIntColor(); 
+time_turnTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.time_turnTrait.name");
+time_turnTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.time_turnTrait.desc");
+time_turnTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+        val player as IPlayer = attacker;
+        if(Math.random()< 0.02){
+            mods.contenttweaker.Commands.call("time add 12000",player,player.world,false,true);
+        }
+    return newDamage;
+};
+time_turnTrait.register();
+
+val ignitingTrait = TraitBuilder.create("igniting");
+ignitingTrait.color = Color.fromHex("76ff03").getIntColor(); 
+ignitingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ignitingTrait.name");
+ignitingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ignitingTrait.desc");
+ignitingTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+        var entity as IEntityLivingBase = target;
+        if(entity.isBurning){
+            entity.setFire(15);
+            return newDamage * 1.2f;
+        }
+    return newDamage;
+};
+ignitingTrait.register();
+
+val freezedTrait = TraitBuilder.create("freezed");
+freezedTrait.color = Color.fromHex("76ff03").getIntColor(); 
+freezedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.freezedTrait.name");
+freezedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.freezedTrait.desc");
+freezedTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    val entity as IEntityLivingBase = target;
+        entity.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(60, 3, false, false));
+    return newDamage;
+};
+freezedTrait.register();
+
+val demon_hunterTrait = TraitBuilder.create("demon_hunter");
+demon_hunterTrait.color = Color.fromHex("76ff03").getIntColor(); 
+demon_hunterTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.demon_hunterTrait.name");
+demon_hunterTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.demon_hunterTrait.desc");
+demon_hunterTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+        val player as IEntityLivingBase=target;
+        if(player.isBoss){
+            player.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(60, 2, false, false));
+            return newDamage *1.5;
+        }
+    return newDamage;
+};
+demon_hunterTrait.register();
+
+val self_poisonTrait = TraitBuilder.create("self_poison");
+self_poisonTrait.color = Color.fromHex("76ff03").getIntColor(); 
+self_poisonTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.self_poisonTrait.name");
+self_poisonTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.self_poisonTrait.desc");
+self_poisonTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    val entity as IEntityLivingBase = target;
+    val player as IPlayer = attacker;
+    if(Math.random() < 0.1){
+        entity.addPotionEffect(<potion:minecraft:wither>.makePotionEffect(200, 1, false, false));
+    }
+    if(Math.random() < 0.04){
+        player.addPotionEffect(<potion:minecraft:wither>.makePotionEffect(100, 1, false, false));
+    }
+    return newDamage;
+};
+self_poisonTrait.register();
+
+val babTrait = TraitBuilder.create("battle_and_braver");
+babTrait.color = Color.fromHex("ffffff").getIntColor(); 
+babTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.battle_and_braverTrait.name");
+babTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.battle_and_braverTrait.desc");
+babTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        val player as IPlayer = attacker;
+        var level = 1.0 as double;
+        if (player.isPotionActive(<potion:minecraft:strength>)) {
+            level += (player.getActivePotionEffect(<potion:minecraft:strength>).amplifier) + 1;
+        }
+        if (Math.random() < (1.0 / level)) {
+            player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(60, level - 1, false, false));
+        }
+    }
+};
+babTrait.register();
+
+val alkalinityTrait = TraitBuilder.create("alkalinity");
+alkalinityTrait.color = Color.fromHex("ffffff").getIntColor(); 
+alkalinityTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.alkalinityTrait.name");
+alkalinityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.alkalinityTrait.desc");
+alkalinityTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (Math.random() < 0.2) {
+        target.addPotionEffect(<potion:gct_tcon:alkalinity>.makePotionEffect(200, 0, false, false));
+    }
+};
+alkalinityTrait.register();
+
+val acidityTrait = TraitBuilder.create("acidity");
+acidityTrait.color = Color.fromHex("ffffff").getIntColor(); 
+acidityTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.acidityTrait.name");
+acidityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.acidityTrait.desc");
+acidityTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (Math.random() < 0.2) {
+        target.addPotionEffect(<potion:gct_tcon:acidity>.makePotionEffect(200, 0, false, false));
+    }
+};
+acidityTrait.register();
+
+val packlightTrait = TraitBuilder.create("pack_light");
+packlightTrait.color = Color.fromHex("ffffff").getIntColor(); 
+packlightTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.packlightTrait.name");
+packlightTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.packlightTrait.desc");
+packlightTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        val player as IPlayer = attacker;
+        if (player.totalArmorValue <= 20) {
+            return newDamage * 1.8f;
+        }
+        if (player.totalArmorValue >= 180) {
+            return newDamage * 0.2f;
+        }
+        return newDamage * (1.0f + ((100.0f - player.totalArmorValue) / 100.0f));
+    }
+    return newDamage;
+};
+packlightTrait.register();
+
+val luxuryTrait = TraitBuilder.create("luxury");
+luxuryTrait.color = Color.fromHex("ffffff").getIntColor(); 
+luxuryTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.luxuryTrait.name");
+luxuryTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.luxuryTrait.desc");
+luxuryTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        val player as IPlayer = attacker;
+        if (Math.random() < 0.03) {
+            mods.contenttweaker.Commands.call("give @p minecraft:gold_ingot 1 0", player, player.world, false, true);
+        }
+    }
+};
+luxuryTrait.onBlockHarvestDrops = function(trait, tool, event) {
+    val player as IPlayer = event.player;
+    if (Math.random() < 0.001) {
+        mods.contenttweaker.Commands.call("give @p minecraft:gold_ingot 1 0", player, player.world, false, true);
+    }
+};
+luxuryTrait.register();
+
+val spsTrait = TraitBuilder.create("superposition_state");
+spsTrait.color = Color.fromHex("ffffff").getIntColor(); 
+spsTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.superposition_stateTrait.name");
+spsTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.superposition_stateTrait.desc");
+spsTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        val player as IPlayer = attacker;
+        if (player.isPotionActive(<potion:gct_tcon:superposition>)) {
+            if (player.getActivePotionEffect(<potion:gct_tcon:superposition>).amplifier <= 3) {
+                var level = player.getActivePotionEffect(<potion:gct_tcon:superposition>).amplifier;
+                player.addPotionEffect(<potion:gct_tcon:superposition>.makePotionEffect(40, level + 1, false, false));
+                return newDamage * (0.7f + 0.2f * level);
+            } else if (player.getActivePotionEffect(<potion:gct_tcon:superposition>).amplifier >= 4) {
+                player.addPotionEffect(<potion:gct_tcon:superposition>.makePotionEffect(40, 4, false, false));
+                return newDamage * 1.5f;
+            }
+            return newDamage;
+        } else {
+            player.addPotionEffect(<potion:gct_tcon:superposition>.makePotionEffect(40, 0, false, false));
+            return newDamage * 0.5f;
+        }
+        return newDamage;
+    }
+    return newDamage;
+};
+spsTrait.register();
+
+val strong_shockTrait = TraitBuilder.create("strong_shock");
+strong_shockTrait.color = Color.fromHex("ffffff").getIntColor(); 
+strong_shockTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.strong_shockTrait.name");
+strong_shockTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.strong_shockTrait.desc");
+strong_shockTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected){
+    if (owner instanceof IEntityLivingBase) {
+        val player as IPlayer = owner;
+        if (isSelected) {
+            if (!(player.isPotionActive(<potion:gct_tcon:shock>))) {
+                if (Math.random() < 0.003) {
+                    player.addPotionEffect(<potion:gct_tcon:shock>.makePotionEffect(200, 0, false, false));
+                }
+            } else {
+                player.addPotionEffect(<potion:gct_tcon:shock>.makePotionEffect(200, 0, false, false));
+            }
+        }
+    }
+};
+strong_shockTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        val player as IPlayer = attacker;
+        if (player.isPotionActive(<potion:gct_tcon:shock>)) {
+            player.removePotionEffect(<potion:gct_tcon:shock>);
+            return newDamage * 4.0f;
+        }
+        return newDamage;
+    }
+    return newDamage;
+};
+strong_shockTrait.onBlockHarvestDrops = function(trait, tool, event) {
+    val player as IPlayer = event.player;
+    if (player.isPotionActive(<potion:gct_tcon:shock>)) {
+        player.removePotionEffect(<potion:gct_tcon:shock>);
+        player.addPotionEffect(<potion:minecraft:haste>.makePotionEffect(100, 4, false, false));
+    }
+};
+strong_shockTrait.register();
+
+for i in 2 to 11 {
+    TraitBuilder.create("lighting" + i).color = Color.fromHex("ffffff").getIntColor(); 
+    TraitBuilder.create("lighting" + i).localizedName = game.localize("greedycraft.tconstruct.tool_trait.lightingTrait" + i + ".name");
+    TraitBuilder.create("lighting" + i).localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.lightingTrait.desc");
+    TraitBuilder.create("lighting" + i).calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+        val player as IPlayer = attacker;
+        if (player.getDimension() < 830 && player.getDimension() > 819) {
+            var amp = (1 + 2 * (Math.log(i) / Math.log(10))) as float;
+            return newDamage * amp;
+        }
+        return newDamage;
+    };
+    TraitBuilder.create("lighting" + i).register();
+}

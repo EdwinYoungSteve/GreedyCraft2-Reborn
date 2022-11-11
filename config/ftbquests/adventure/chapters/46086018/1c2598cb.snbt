@@ -1,11 +1,17 @@
 {
-	x: 1.5d,
-	y: 10.5d,
+	x: 3.5d,
+	y: 14.5d,
 	tasks: [{
 		uid: "2aee0188",
 		type: "item",
 		items: [{
 			item: "additions:aeroite_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "47113050",
+		type: "item",
+		item: "additions:aeroite_ingot",
+		count: 16
 	}]
 }

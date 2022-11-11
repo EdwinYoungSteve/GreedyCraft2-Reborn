@@ -1,8 +1,0 @@
-{
-  "id" : "38d5474836ab4c4c8671cae97a03072c",
-  "name" : "Jarrenitis",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjg5MzMyNjMxMywKICAicHJvZmlsZUlkIiA6ICIzOGQ1NDc0ODM2YWI0YzRjODY3MWNhZTk3YTAzMDcyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJKYXJyZW5pdGlzIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZkYjg2NGNjNDhkNjI0NDIwMWIxMGNmMmU2YjkxNDg0M2VlNzI4NDllODc1NDZlOTg2NzcxYmZlNDU2YmQwMmEiCiAgICB9CiAgfQp9"
-  } ]
-}

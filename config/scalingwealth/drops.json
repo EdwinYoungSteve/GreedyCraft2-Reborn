@@ -1,14 +1,14 @@
 {
     "entities": {
         "minecraft:zombie": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.0015,
                     "item": "additions:greedycraft-reward_ticket_common"
                 }
             ],
-            "[128, 32767]": [
+            "[128, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -30,7 +30,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[256, 32767]": [
+            "[256, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -52,7 +52,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[384, 32767]": [
+            "[384, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -84,7 +84,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[500, 32767]": [
+            "[500, 2147483647]": [
                 {
                     "amount": "[2,4]",
                     "chance": 1.0,
@@ -111,7 +111,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[750, 32767]": [
+            "[750, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -143,7 +143,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1000, 32767]": [
+            "[1000, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -175,7 +175,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1250, 32767]": [
+            "[1250, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -202,7 +202,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1500, 32767]": [
+            "[1500, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -226,14 +226,14 @@
             ]
         },
         "minecraft:skeleton": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.0015,
                     "item": "additions:greedycraft-reward_ticket_common"
                 }
             ],
-            "[128, 32767]": [
+            "[128, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -255,7 +255,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[256, 32767]": [
+            "[256, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -277,7 +277,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[384, 32767]": [
+            "[384, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -309,7 +309,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[500, 32767]": [
+            "[500, 2147483647]": [
                 {
                     "amount": "[2,6]",
                     "chance": 1.0,
@@ -336,7 +336,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[750, 32767]": [
+            "[750, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -363,7 +363,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1000, 32767]": [
+            "[1000, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -395,7 +395,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1250, 32767]": [
+            "[1250, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -412,7 +412,7 @@
                     "item": "additions:greedycraft-reward_ticket_epic"
                 }
             ],
-            "[1500, 32767]": [
+            "[1500, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -436,14 +436,14 @@
             ]
         },
         "pvj:pvj_skeletal_knight": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.0015,
                     "item": "additions:greedycraft-reward_ticket_common"
                 }
             ],
-            "[128, 32767]": [
+            "[128, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -465,7 +465,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[256, 32767]": [
+            "[256, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -487,7 +487,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[384, 32767]": [
+            "[384, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -519,7 +519,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[500, 32767]": [
+            "[500, 2147483647]": [
                 {
                     "amount": "[2,6]",
                     "chance": 1.0,
@@ -546,7 +546,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[750, 32767]": [
+            "[750, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -573,7 +573,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1000, 32767]": [
+            "[1000, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -600,7 +600,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1250, 32767]": [
+            "[1250, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -622,7 +622,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1500, 32767]": [
+            "[1500, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -646,14 +646,14 @@
             ]
         },
         "minecraft:spider": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.0015,
                     "item": "additions:greedycraft-reward_ticket_common"
                 }
             ],
-            "[128, 32767]": [
+            "[128, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -675,7 +675,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[256, 32767]": [
+            "[256, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -697,7 +697,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[384, 32767]": [
+            "[384, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -729,7 +729,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[500, 32767]": [
+            "[500, 2147483647]": [
                 {
                     "amount": "[2,6]",
                     "chance": 1.0,
@@ -756,7 +756,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[750, 32767]": [
+            "[750, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -788,7 +788,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1000, 32767]": [
+            "[1000, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -820,7 +820,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1250, 32767]": [
+            "[1250, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -842,7 +842,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1500, 32767]": [
+            "[1500, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -866,14 +866,14 @@
             ]
         },
         "minecraft:zombie_pigman": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.0015,
                     "item": "additions:greedycraft-reward_ticket_common"
                 }
             ],
-            "[128, 32767]": [
+            "[128, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -895,7 +895,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[256, 32767]": [
+            "[256, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -917,7 +917,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[384, 32767]": [
+            "[384, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -949,7 +949,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[500, 32767]": [
+            "[500, 2147483647]": [
                 {
                     "amount": "[2,4]",
                     "chance": 1.0,
@@ -976,7 +976,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[750, 32767]": [
+            "[750, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -1008,7 +1008,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1000, 32767]": [
+            "[1000, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -1040,7 +1040,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1250, 32767]": [
+            "[1250, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -1062,7 +1062,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1500, 32767]": [
+            "[1500, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -1086,14 +1086,14 @@
             ]
         },
         "minecraft:enderman": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.0015,
                     "item": "additions:greedycraft-reward_ticket_common"
                 }
             ],
-            "[128, 32767]": [
+            "[128, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -1115,7 +1115,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[256, 32767]": [
+            "[256, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -1137,7 +1137,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[384, 32767]": [
+            "[384, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -1169,7 +1169,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[500, 32767]": [
+            "[500, 2147483647]": [
                 {
                     "amount": "[2,6]",
                     "chance": 1.0,
@@ -1196,7 +1196,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[750, 32767]": [
+            "[750, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -1228,7 +1228,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1000, 32767]": [
+            "[1000, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -1260,7 +1260,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1250, 32767]": [
+            "[1250, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -1282,7 +1282,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1500, 32767]": [
+            "[1500, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -1306,14 +1306,14 @@
             ]
         },
         "minecraft:creeper": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.0015,
                     "item": "additions:greedycraft-reward_ticket_common"
                 }
             ],
-            "[128, 32767]": [
+            "[128, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -1335,7 +1335,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[256, 32767]": [
+            "[256, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -1357,7 +1357,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[384, 32767]": [
+            "[384, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -1389,7 +1389,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[500, 32767]": [
+            "[500, 2147483647]": [
                 {
                     "amount": "[2,6]",
                     "chance": 1.0,
@@ -1416,7 +1416,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[750, 32767]": [
+            "[750, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -1448,7 +1448,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1000, 32767]": [
+            "[1000, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -1480,7 +1480,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1250, 32767]": [
+            "[1250, 2147483647]": [
                 {
                     "amount": "[4,5]",
                     "chance": 1.0,
@@ -1502,7 +1502,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1500, 32767]": [
+            "[1500, 2147483647]": [
                 {
                     "amount": "[4,5]",
                     "chance": 1.0,
@@ -1526,14 +1526,14 @@
             ]
         },
         "bouncy_creepers:bouncy_creeper": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.0015,
                     "item": "additions:greedycraft-reward_ticket_common"
                 }
             ],
-            "[128, 32767]": [
+            "[128, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -1555,7 +1555,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[256, 32767]": [
+            "[256, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -1577,7 +1577,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[384, 32767]": [
+            "[384, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -1609,7 +1609,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[500, 32767]": [
+            "[500, 2147483647]": [
                 {
                     "amount": "[2,6]",
                     "chance": 1.0,
@@ -1636,7 +1636,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[750, 32767]": [
+            "[750, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -1668,7 +1668,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1000, 32767]": [
+            "[1000, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -1700,7 +1700,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1250, 32767]": [
+            "[1250, 2147483647]": [
                 {
                     "amount": "[4,5]",
                     "chance": 1.0,
@@ -1722,7 +1722,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1500, 32767]": [
+            "[1500, 2147483647]": [
                 {
                     "amount": "[4,5]",
                     "chance": 1.0,
@@ -1746,14 +1746,14 @@
             ]
         },
         "minecraft:wither": {
-            "[110, 32767]": [
+            "[110, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 1.0,
                     "item": "minecraft:nether_star"
                 }
             ],
-            "[128, 32767]": [
+            "[128, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -1775,7 +1775,7 @@
                     "item": "botania:manaresource:5"
                 }
             ],
-            "[256, 32767]": [
+            "[256, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -1807,7 +1807,7 @@
                     "item": "botania:manaresource:5"
                 }
             ],
-            "[384, 32767]": [
+            "[384, 2147483647]": [
                 {
                     "amount": "[4,6]",
                     "chance": 1.0,
@@ -1834,7 +1834,7 @@
                     "item": "botania:manaresource:5"
                 }
             ],
-            "[500, 32767]": [
+            "[500, 2147483647]": [
                 {
                     "amount": "[2,4]",
                     "chance": 1.0,
@@ -1866,7 +1866,7 @@
                     "item": "botania:manaresource:5"
                 }
             ],
-            "[650, 32767]": [
+            "[650, 2147483647]": [
                 {
                     "amount": "[8,14]",
                     "chance": 1.0,
@@ -1893,7 +1893,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[800, 32767]": [
+            "[800, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -1915,7 +1915,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[900, 32767]": [
+            "[900, 2147483647]": [
                 {
                     "amount": "[3,5]",
                     "chance": 1.0,
@@ -1937,7 +1937,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1100, 32767]": [
+            "[1100, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -1959,7 +1959,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1250, 32767]": [
+            "[1250, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -1981,7 +1981,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1400, 32767]": [
+            "[1400, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -2003,7 +2003,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1550, 32767]": [
+            "[1550, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -2032,14 +2032,14 @@
             ]
         },
         "minecraft:ender_dragon": {
-            "[128, 32767]": [
+            "[128, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.2,
                     "item": "additions:greedycraft-reward_ticket_rare"
                 }
             ],
-            "[256, 32767]": [
+            "[256, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.3,
@@ -2056,7 +2056,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[384, 32767]": [
+            "[384, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.2,
@@ -2073,7 +2073,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[500, 32767]": [
+            "[500, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.5,
@@ -2095,7 +2095,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[650, 32767]": [
+            "[650, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 1.0,
@@ -2122,7 +2122,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[800, 32767]": [
+            "[800, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 1.0,
@@ -2149,7 +2149,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[900, 32767]": [
+            "[900, 2147483647]": [
                 {
                     "amount": "[3,6]",
                     "chance": 1.0,
@@ -2176,7 +2176,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1100, 32767]": [
+            "[1100, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -2203,7 +2203,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1250, 32767]": [
+            "[1250, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -2230,7 +2230,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1400, 32767]": [
+            "[1400, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -2257,7 +2257,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1550, 32767]": [
+            "[1550, 2147483647]": [
                 {
                     "amount": "[1,5]",
                     "chance": 1.0,
@@ -2291,7 +2291,7 @@
             ]
         },
         "headcrumbs:human": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.0015,
@@ -2308,7 +2308,7 @@
                     "item": "additions:greedycraft-city_defender_medal"
                 }
             ],
-            "[128, 32767]": [
+            "[128, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -2335,7 +2335,7 @@
                     "item": "additions:greedycraft-city_defender_medal"
                 }
             ],
-            "[256, 32767]": [
+            "[256, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -2362,7 +2362,7 @@
                     "item": "additions:greedycraft-city_defender_medal"
                 }
             ],
-            "[384, 32767]": [
+            "[384, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -2399,7 +2399,7 @@
                     "item": "additions:greedycraft-city_defender_medal"
                 }
             ],
-            "[500, 32767]": [
+            "[500, 2147483647]": [
                 {
                     "amount": "[2,4]",
                     "chance": 1.0,
@@ -2431,7 +2431,7 @@
                     "item": "additions:greedycraft-city_defender_medal"
                 }
             ],
-            "[750, 32767]": [
+            "[750, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -2463,7 +2463,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1000, 32767]": [
+            "[1000, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -2495,7 +2495,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1250, 32767]": [
+            "[1250, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -2522,7 +2522,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1500, 32767]": [
+            "[1500, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -2546,7 +2546,7 @@
             ]
         },
         "minecraft:witch": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.0015,
@@ -2558,7 +2558,7 @@
                     "item": "minecraft:sugar"
                 }
             ],
-            "[128, 32767]": [
+            "[128, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -2580,7 +2580,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[256, 32767]": [
+            "[256, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -2602,7 +2602,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[384, 32767]": [
+            "[384, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -2634,7 +2634,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[500, 32767]": [
+            "[500, 2147483647]": [
                 {
                     "amount": "[2,4]",
                     "chance": 1.0,
@@ -2661,7 +2661,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[750, 32767]": [
+            "[750, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -2693,7 +2693,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1000, 32767]": [
+            "[1000, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -2725,7 +2725,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1250, 32767]": [
+            "[1250, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -2752,7 +2752,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1500, 32767]": [
+            "[1500, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -2776,7 +2776,7 @@
             ]
         },
         "battletowers:golem": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 1.0,
@@ -2785,7 +2785,7 @@
             ]
         },
         "mowziesmobs:barako": {
-            "[690, 32767]": [
+            "[690, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 1.0,
@@ -2802,7 +2802,7 @@
                     "item": "botania:manaresource:5"
                 }
             ],
-            "[790, 32767]": [
+            "[790, 2147483647]": [
                 {
                     "amount": "[4,12]",
                     "chance": 1.0,
@@ -2814,7 +2814,7 @@
                     "item": "botania:manaresource:5"
                 }
             ],
-            "[890, 32767]": [
+            "[890, 2147483647]": [
                 {
                     "amount": "[8,24]",
                     "chance": 1.0,
@@ -2826,7 +2826,7 @@
                     "item": "botania:manaresource:5"
                 }
             ],
-            "[990, 32767]": [
+            "[990, 2147483647]": [
                 {
                     "amount": "[4,12]",
                     "chance": 1.0,
@@ -2839,15 +2839,180 @@
                 }
             ]
         },
+        "endreborn:endlord": {
+            "[690, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-broken_end_star"
+                },
+                {
+                    "amount": "[3,8]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-plasmarite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[790, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-plasmarite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[890, 2147483647]": [
+                {
+                    "amount": "[8,24]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-plasmarite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[990, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-plasmarite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ]
+        },
+        "dungeonsmod:ironslime": {
+            "[690, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-broken_canopy_star"
+                },
+                {
+                    "amount": "[3,8]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-canopium_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[790, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-canopium_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[890, 2147483647]": [
+                {
+                    "amount": "[8,24]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-canopium_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[990, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-canopium_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ]
+        },
+        "dungeonsmod:kraken": {
+            "[690, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-broken_ice_star"
+                },
+                {
+                    "amount": "[3,8]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-freezite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[790, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-freezite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[890, 2147483647]": [
+                {
+                    "amount": "[8,24]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-freezite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[990, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-freezite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ]
+        },
         "mowziesmobs:frostmaw": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 1.0,
                     "item": "mowziesmobs:ice_crystal"
                 }
             ],
-            "[590, 32767]": [
+            "[590, 2147483647]": [
                 {
                     "amount": "[3,5]",
                     "chance": 1.0,
@@ -2859,7 +3024,7 @@
                     "item": "botania:manaresource:5"
                 }
             ],
-            "[690, 32767]": [
+            "[690, 2147483647]": [
                 {
                     "amount": "[2,4]",
                     "chance": 1.0,
@@ -2871,7 +3036,7 @@
                     "item": "botania:manaresource:5"
                 }
             ],
-            "[790, 32767]": [
+            "[790, 2147483647]": [
                 {
                     "amount": "[4,5]",
                     "chance": 1.0,
@@ -2883,7 +3048,7 @@
                     "item": "botania:manaresource:5"
                 }
             ],
-            "[890, 32767]": [
+            "[890, 2147483647]": [
                 {
                     "amount": "[10,14]",
                     "chance": 1.0,
@@ -2896,8 +3061,26 @@
                 }
             ]
         },
+        "blue_skies:alchemist_illager": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[16,16]",
+                    "chance": 1.0,
+                    "item": "additions:taigaddon-heaven_gem_shard1"
+                }
+            ]
+        },
+        "blue_skies:summoner_illager": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[16,16]",
+                    "chance": 1.0,
+                    "item": "additions:taigaddon-heaven_gem_shard2"
+                }
+            ]
+        },
         "touhou_little_maid:entity.monster.rinnosuke": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.0015,
@@ -2914,7 +3097,7 @@
                     "item": "additions:greedycraft-loli_lolipop"
                 }
             ],
-            "[128, 32767]": [
+            "[128, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -2941,7 +3124,7 @@
                     "item": "additions:greedycraft-loli_lolipop"
                 }
             ],
-            "[256, 32767]": [
+            "[256, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -2968,7 +3151,7 @@
                     "item": "additions:greedycraft-loli_lolipop"
                 }
             ],
-            "[384, 32767]": [
+            "[384, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -3005,7 +3188,7 @@
                     "item": "additions:greedycraft-loli_lolipop"
                 }
             ],
-            "[500, 32767]": [
+            "[500, 2147483647]": [
                 {
                     "amount": "[2,4]",
                     "chance": 1.0,
@@ -3037,7 +3220,7 @@
                     "item": "additions:greedycraft-loli_lolipop"
                 }
             ],
-            "[750, 32767]": [
+            "[750, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -3069,7 +3252,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1000, 32767]": [
+            "[1000, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -3101,7 +3284,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1250, 32767]": [
+            "[1250, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -3128,7 +3311,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1500, 32767]": [
+            "[1500, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -3152,7 +3335,7 @@
             ]
         },
         "touhou_little_maid:entity.monster.fairy": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 0.0015,
@@ -3169,7 +3352,7 @@
                     "item": "additions:greedycraft-loli_lolipop"
                 }
             ],
-            "[128, 32767]": [
+            "[128, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -3196,7 +3379,7 @@
                     "item": "additions:greedycraft-loli_lolipop"
                 }
             ],
-            "[256, 32767]": [
+            "[256, 2147483647]": [
                 {
                     "amount": "[1,2]",
                     "chance": 1.0,
@@ -3223,7 +3406,7 @@
                     "item": "additions:greedycraft-loli_lolipop"
                 }
             ],
-            "[384, 32767]": [
+            "[384, 2147483647]": [
                 {
                     "amount": "[1,3]",
                     "chance": 1.0,
@@ -3260,7 +3443,7 @@
                     "item": "additions:greedycraft-loli_lolipop"
                 }
             ],
-            "[500, 32767]": [
+            "[500, 2147483647]": [
                 {
                     "amount": "[2,4]",
                     "chance": 1.0,
@@ -3292,7 +3475,7 @@
                     "item": "additions:greedycraft-loli_lolipop"
                 }
             ],
-            "[750, 32767]": [
+            "[750, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -3324,7 +3507,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1000, 32767]": [
+            "[1000, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -3356,7 +3539,7 @@
                     "item": "scalinghealth:crystalshard"
                 }
             ],
-            "[1250, 32767]": [
+            "[1250, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -3383,7 +3566,7 @@
                     "item": "additions:greedycraft-ancient_tome_fragment"
                 }
             ],
-            "[1500, 32767]": [
+            "[1500, 2147483647]": [
                 {
                     "amount": "[2,5]",
                     "chance": 1.0,
@@ -3407,7 +3590,7 @@
             ]
         },
         "abyssalcraft:jzahar": {
-            "[0, 32767]": [
+            "[0, 2147483647]": [
                 {
                     "amount": "[1,1]",
                     "chance": 1.0,

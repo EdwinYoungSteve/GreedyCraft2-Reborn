@@ -105,3 +105,11 @@ GameStagesUtil.stageWitherSlayer.addOreReplacement(<journey:hellstoneore>, <mine
 GameStagesUtil.stageChaotic.addOreReplacement(<additions:taigaddon-harcadium_ore>, <minecraft:stone>, false);
 GameStagesUtil.stageChaotic.addOreReplacement(<additions:taigaddon-nether_harcadium_ore>, <minecraft:stone>, false);
 GameStagesUtil.stageChaotic.addOreReplacement(<additions:taigaddon-end_harcadium_ore>, <minecraft:stone>, false);
+
+GameStagesUtil.stageEpicEngineer.addOreReplacement(<nuclearcraft:ore:3>, <minecraft:stone>, false);
+GameStagesUtil.stageEpicEngineer.addOreReplacement(<nuclearcraft:ore:4>, <minecraft:stone>, false);
+GameStagesUtil.stageEpicEngineer.addOreReplacement(<nuclearcraft:ore:5>, <minecraft:stone>, false);
+GameStagesUtil.stageEpicEngineer.addOreReplacement(<netherendingores:ore_end_modded_1:12>, <minecraft:end_stone>, false);
+GameStagesUtil.stageEpicEngineer.addOreReplacement(<netherendingores:ore_end_modded_1:13>, <minecraft:end_stone>, false);
+GameStagesUtil.stageEpicEngineer.addOreReplacement(<netherendingores:ore_nether_modded_1:12>, <minecraft:netherrack>, false);
+GameStagesUtil.stageEpicEngineer.addOreReplacement(<netherendingores:ore_nether_modded_1:13>, <minecraft:netherrack>, false);

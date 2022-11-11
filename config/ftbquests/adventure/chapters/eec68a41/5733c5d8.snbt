@@ -16,13 +16,6 @@
 		items: [{
 			item: "extrabotany:material 1 8"
 		}]
-	},
-	{
-		uid: "7f2d9270",
-		type: "item",
-		items: [{
-			item: "extrabotany:material 1 5"
-		}]
 	}],
 	rewards: [{
 		uid: "2c5d91d1",

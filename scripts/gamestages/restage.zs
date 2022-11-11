@@ -39,7 +39,19 @@ GameStagesUtil.removeItemStages([
     <extrabotany:bottledstar>,
     <extrabotany:bottledpixie>,
     <extrabotany:rewardbag:*>,
-    <mekanism:basicblock:3>
+    <mekanism:basicblock:3>,
+    <nuclearcraft:ingot_block:7>,
+    <nuclearcraft:ore:7>,
+    <nuclearcraft:ingot:7>,
+    <nuclearcraft:ingot_block:8>,
+    <nuclearcraft:ingot:8>,
+    <nuclearcraft:dust:8>,
+    <nuclearcraft:gem:6>,
+    <nuclearcraft:dust:11>,
+    <extendedcrafting:material:129>,
+    <extendedcrafting:material:128>,
+    <extendedcrafting:material:140>,
+    <nuclearcraft:gem_dust:2>
 ] as IIngredient[]);
 
 GameStagesUtil.restageItems("wielder_of_infinity", [

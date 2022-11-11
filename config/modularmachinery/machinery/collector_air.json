@@ -192,7 +192,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@1"
+                "casings_all"
             ]
         },
         {

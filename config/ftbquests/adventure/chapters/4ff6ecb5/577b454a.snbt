@@ -1,4 +1,5 @@
 {
+	title: "给注魔加buff？",
 	x: -0.5d,
 	y: 2.0d,
 	dependencies: [
@@ -9,12 +10,8 @@
 		type: "item",
 		items: [{
 			item: "thaumcraft:matrix_cost"
-		}]
-	},
-	{
-		uid: "3348d116",
-		type: "item",
-		items: [{
+		},
+		{
 			item: "thaumcraft:matrix_speed"
 		}]
 	}],

@@ -1,13 +1,13 @@
 {
 	title: "§b化学清洗",
 	x: -3.5d,
-	y: 1.0d,
+	y: -2.0d,
 	description: "制作一个化学清洗机",
 	text: [
 		""
 	],
 	dependencies: [
-		"00914ae3"
+		"1abe2523"
 	],
 	tasks: [{
 		uid: "3d1c6cfa",

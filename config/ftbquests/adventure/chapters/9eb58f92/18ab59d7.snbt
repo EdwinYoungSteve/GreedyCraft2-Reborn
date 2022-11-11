@@ -1,13 +1,13 @@
 {
 	title: "§b新型的压缩机！",
 	x: -8.0d,
-	y: 2.5d,
+	y: -2.0d,
 	description: "制作一个锇压缩机，可以制作强化黑曜石锭和萤石锭！",
 	text: [
 		""
 	],
 	dependencies: [
-		"c6790672"
+		"f432f2f5"
 	],
 	tasks: [{
 		uid: "492d5a19",

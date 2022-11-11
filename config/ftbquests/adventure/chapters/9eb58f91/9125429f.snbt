@@ -1,13 +1,13 @@
 {
 	title: "§b排除异己",
-	x: 9.0d,
-	y: 1.5d,
+	x: 10.5d,
+	y: 0.0d,
 	description: "制作排除方尖碑",
 	text: [
 		""
 	],
 	dependencies: [
-		"ba088ac9"
+		"cda8846f"
 	],
 	tasks: [{
 		uid: "03c17684",

@@ -1,14 +1,13 @@
 {
 	title: "§b压印成型……",
-	x: -3.0d,
-	y: 1.5d,
+	x: -4.5d,
+	y: 0.0d,
 	description: "制作压印器，用来制作硅板和电路板",
 	text: [
 		""
 	],
 	dependencies: [
-		"d272199b",
-		"4e195942"
+		"d272199b"
 	],
 	tasks: [{
 		uid: "8ccf877c",

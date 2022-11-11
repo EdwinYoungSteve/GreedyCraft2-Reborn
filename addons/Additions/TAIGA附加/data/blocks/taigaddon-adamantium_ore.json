@@ -8,7 +8,7 @@
   "material": "minecraft:stone",
   "hardness": 100.0,
   "resistance": 1600000.0,
-  "harvest_level": 12,
+  "harvest_level": 11,
   "harvest_tool": "pickaxe",
   "can_pistons_push": false,
   "type": "additions:simple"

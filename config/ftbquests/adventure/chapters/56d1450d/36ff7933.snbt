@@ -1,7 +1,7 @@
 {
 	title: "§bLight in the sky",
-	x: -6.0d,
-	y: 6.0d,
+	x: -9.0d,
+	y: 7.0d,
 	description: "获得空中照明",
 	text: [
 		""

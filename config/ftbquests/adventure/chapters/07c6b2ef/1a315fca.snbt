@@ -17,13 +17,13 @@
 		}]
 	}],
 	rewards: [{
-		uid: "f248f8ff",
-		type: "choice",
-		table: 0
-	},
-	{
 		uid: "b40d9eb7",
 		type: "xp",
 		xp: 1000
+	},
+	{
+		uid: "125638f2",
+		type: "random",
+		table: 0
 	}]
 }

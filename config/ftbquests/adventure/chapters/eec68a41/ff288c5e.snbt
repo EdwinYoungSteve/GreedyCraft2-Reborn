@@ -1,13 +1,13 @@
 {
 	title: "§b自然催化器",
-	x: -0.5d,
-	y: -5.5d,
+	x: 2.0d,
+	y: 0.0d,
 	description: "制作泰拉催化器",
 	text: [
 		""
 	],
 	dependencies: [
-		"afe9840b"
+		"510e562b"
 	],
 	tasks: [{
 		uid: "5faf799d",

@@ -1,7 +1,7 @@
 {
 	title: "§b漫天星辰",
-	x: 2.5d,
-	y: 0.0d,
+	x: -0.5d,
+	y: 5.0d,
 	description: "{greedycraft.quest.d933b90a.desc}",
 	text: [
 		""
@@ -19,13 +19,13 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "0f60ff37",
-		type: "loot",
-		table: 2
-	},
-	{
 		uid: "916f31da",
 		type: "xp",
-		xp: 5200
+		xp: 6666
+	},
+	{
+		uid: "9142fd01",
+		type: "random",
+		table: 3
 	}]
 }

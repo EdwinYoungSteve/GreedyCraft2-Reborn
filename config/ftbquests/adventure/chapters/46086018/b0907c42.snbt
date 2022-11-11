@@ -27,7 +27,7 @@
 				}
 			}
 		},
-		count: 5
+		count: 2
 	},
 	{
 		uid: "e63ad76c",
@@ -40,13 +40,13 @@
 				}
 			}
 		},
-		count: 5
+		count: 2
 	},
 	{
 		uid: "cbae4362",
 		type: "item",
 		item: "minecraft:blaze_powder",
-		count: 128
+		count: 16
 	},
 	{
 		uid: "8cd437b4",

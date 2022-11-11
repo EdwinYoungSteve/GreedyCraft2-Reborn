@@ -1,5 +1,6 @@
 //灌注液
 infuse.osgloglas=锇荧黑曜合金
+infuse.porpezite=钯金
 
 //单质
 gas.nitrogen=氮气
@@ -15,6 +16,7 @@ gas.iodine=碘蒸气
 gas.potassium=钾浆液
 gas.rubidium=铷浆液
 gas.caesium=铯浆液
+gas.ozone=臭氧
 
 //氧化物
 gas.nitrogenoxide=一氧化氮
@@ -47,6 +49,7 @@ gas.potassiumhydroxide=氢氧化钾
 gas.rubidiumhydroxide=氢氧化铷
 gas.caesiumhydroxide=氢氧化铯
 gas.ammonia=氨气
+gas.phosphine=膦
 
 //有机物
 gas.methane=甲烷

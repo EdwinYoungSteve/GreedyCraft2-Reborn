@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xadb1b2,
+    "langs": {
+        "material": {
+            "en": "Raisium",
+            "zh": "扬升合金"
+        }
+    }
+}

@@ -1,7 +1,7 @@
 {
 	title: "{greedycraft.quest.5cc3003c.title}",
-	x: -3.5d,
-	y: 0.0d,
+	x: -4.5d,
+	y: -7.0d,
 	description: "{greedycraft.quest.5cc3003c.desc}",
 	tasks: [{
 		uid: "7644b80f",

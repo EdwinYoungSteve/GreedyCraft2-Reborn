@@ -1,13 +1,13 @@
 {
 	title: "§b诶嘿嘿，下界之星",
-	x: -4.5d,
-	y: -1.5d,
+	x: -3.0d,
+	y: 0.0d,
 	description: "获得凋灵蜂后",
 	text: [
 		""
 	],
 	dependencies: [
-		"26bd081f"
+		"37bcf40f"
 	],
 	tasks: [{
 		uid: "381a649e",

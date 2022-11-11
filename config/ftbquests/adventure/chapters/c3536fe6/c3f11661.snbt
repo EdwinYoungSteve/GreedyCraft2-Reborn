@@ -1,13 +1,13 @@
 {
 	title: "§b聚合！",
-	x: -8.0d,
-	y: 12.5d,
+	x: -15.0d,
+	y: -1.5d,
 	description: "制作觉醒龙块",
 	text: [
 		""
 	],
 	dependencies: [
-		"1f5117c0"
+		"8efccf0c"
 	],
 	tasks: [{
 		uid: "2dbbe7a6",

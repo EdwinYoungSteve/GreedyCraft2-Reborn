@@ -309,7 +309,7 @@
             "biome": "all",
             "dimension": {
                 "restriction": "whitelist",
-                "value": [4]
+                "value": [173]
             }
         },
         "organic_fluid": {

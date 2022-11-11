@@ -12,5 +12,21 @@
 		items: [{
 			item: "avaritia:resource 1 1"
 		}]
+	}],
+	rewards: [{
+		uid: "5f542815",
+		type: "item",
+		item: "avaritia:resource 1 1",
+		count: 16
+	},
+	{
+		uid: "0bf58747",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "1d6729e8",
+		type: "xp",
+		xp: 2000
 	}]
 }

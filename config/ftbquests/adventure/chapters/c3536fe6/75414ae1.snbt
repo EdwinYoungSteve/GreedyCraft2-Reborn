@@ -1,8 +1,8 @@
 {
 	title: "§b极寒与永昼",
-	x: -0.5d,
-	y: 9.5d,
-	description: "访问恒晓之地",
+	x: -3.0d,
+	y: 7.5d,
+	description: "访问永昼之地",
 	text: [
 		""
 	],

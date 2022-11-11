@@ -1,13 +1,13 @@
 {
 	title: "§b信号发射器",
-	x: -6.0d,
-	y: 0.0d,
+	x: -7.5d,
+	y: -4.5d,
 	description: "制作ME无线访问点",
 	text: [
 		""
 	],
 	dependencies: [
-		"6d99bc62"
+		"98840b2a"
 	],
 	tasks: [{
 		uid: "c9ba7868",

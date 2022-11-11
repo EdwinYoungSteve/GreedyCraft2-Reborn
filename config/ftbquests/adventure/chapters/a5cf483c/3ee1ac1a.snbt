@@ -1,15 +1,13 @@
 {
 	title: "§b更好看的水晶",
-	x: -0.5d,
-	y: 0.0d,
+	x: -2.5d,
+	y: 1.0d,
 	description: "{greedycraft.quest.3ee1ac1a.desc}",
 	text: [
 		""
 	],
 	dependencies: [
-		"64609cf0",
-		"019a77ed",
-		"4f3a644d"
+		"019a77ed"
 	],
 	tasks: [{
 		uid: "ac292f70",

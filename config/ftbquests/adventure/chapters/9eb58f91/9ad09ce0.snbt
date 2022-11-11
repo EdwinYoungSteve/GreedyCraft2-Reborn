@@ -1,7 +1,7 @@
 {
 	title: "§b透明面板！",
-	x: -6.0d,
-	y: 1.5d,
+	x: -7.5d,
+	y: 0.0d,
 	description: "制作ME终端",
 	text: [
 		""

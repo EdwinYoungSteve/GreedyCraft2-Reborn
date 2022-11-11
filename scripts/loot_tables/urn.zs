@@ -65,6 +65,5 @@ addItem(<thermalfoundation:material:199>, 8, 1, 2, 8);
 addItem(<additions:greedycraft-food_bag>, 2, 1, 1, 1);
 addItem(<additions:greedycraft-furniture_crate>, 2, 1, 1, 1);
 addItem(<sakura:sakura_diamond>, 2, 1, 3, 8);
-addItem(<inventorypets:meta_pet>, 2, 1, 1, 1);
 addItem(<additions:greedycraft-purifying_dust>, 3, 1, 10, 40);
 addItem(<additions:perfectly_generic_item>, 2, 1, 1, 1);

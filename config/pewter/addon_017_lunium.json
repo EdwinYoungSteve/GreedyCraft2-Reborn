@@ -108,35 +108,43 @@
   "specificTraits": {
     "EXTRA": [
       "heavy",
-      "momentum"
+      "momentum",
+      "lighting2"
     ],
     "HEAD": [
       "heavy",
-      "momentum"
+      "momentum",
+      "lighting2"
     ],
     "HANDLE": [
       "heavy",
-      "momentum"
+      "momentum",
+      "lighting2"
     ],
     "BOW": [
       "heavy",
-      "momentum"
+      "momentum",
+      "lighting2"
     ],
     "PROJECTILE": [
       "heavy",
-      "momentum"
+      "momentum",
+      "lighting2"
     ],
     "CORE": [
       "steady_armor",
-      "heavy_armor"
+      "heavy_armor",
+      "lighting2_armor"
     ],
     "PLATES": [
       "steady_armor",
-      "heavy_armor"
+      "heavy_armor",
+      "lighting2_armor"
     ],
     "TRIM": [
       "steady_armor",
-      "heavy_armor"
+      "heavy_armor",
+      "lighting2_armor"
     ]
   }
 }

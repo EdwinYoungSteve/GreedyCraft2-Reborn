@@ -54,6 +54,15 @@ beside_void
 	- Terrain Scale: 1.0
 
 
+everheaven
+	- Id: 78
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
 the_void
 	- Id: 100
 	- Height: 256
@@ -123,6 +132,15 @@ Tofu World
 	- Has Sky? true
 	- Cloud Height: 128.0
 	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+Atlantis
+	- Id: 324987
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
 
@@ -333,15 +351,6 @@ AetherI
 	- Terrain Scale: 1.0
 
 
-Arche
-	- Id: 25
-	- Height: 256
-	- Has Sky? false
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
 everbright
 	- Id: 76
 	- Height: 256
@@ -393,6 +402,33 @@ misty_world
 	- Has Sky? true
 	- Cloud Height: 192.0
 	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+The Void
+	- Id: -2
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+???
+	- Id: -3
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+Dal Quor
+	- Id: -4
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
 

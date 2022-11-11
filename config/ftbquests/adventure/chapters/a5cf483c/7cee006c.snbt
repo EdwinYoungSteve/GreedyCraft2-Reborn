@@ -1,7 +1,7 @@
 {
 	title: "§b折射",
-	x: 1.0d,
-	y: 1.5d,
+	x: 1.5d,
+	y: 1.0d,
 	description: "获得棱镜",
 	text: [
 		""

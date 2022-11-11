@@ -93,3 +93,7 @@
 <item:tiths:ore_hothium>.asBlock().definition.setHarvestLevel("pickaxe", 11);
 
 <item:tiths:ore_halleium>.asBlock().definition.setHarvestLevel("pickaxe", 11);
+
+<item:tiths:ore_stellarium>.asBlock().definition.setHarvestLevel("pickaxe", 11);
+
+<item:tiths:ore_tonium>.asBlock().definition.setHarvestLevel("pickaxe", 11);

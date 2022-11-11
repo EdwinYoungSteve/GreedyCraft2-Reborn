@@ -22,8 +22,8 @@
 		xp: 1000
 	},
 	{
-		uid: "203525e7",
-		type: "choice",
+		uid: "f497ee4b",
+		type: "random",
 		table: 0
 	}]
 }

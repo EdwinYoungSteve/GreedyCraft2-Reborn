@@ -2,6 +2,7 @@
 	title: "§b真的……现代化……",
 	x: -10.5d,
 	y: 6.5d,
+	shape: "pentagon",
 	description: "制作一块不锈钢",
 	text: [
 		""

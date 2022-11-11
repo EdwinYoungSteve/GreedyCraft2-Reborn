@@ -797,10 +797,6 @@
 		random_bonus: 8
 	},
 	{
-		item: "inventorypets:meta_pet",
-		weight: 3
-	},
-	{
 		item: "additions:greedycraft-medkit_small",
 		count: 3,
 		random_bonus: 6

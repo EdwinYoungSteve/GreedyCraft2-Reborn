@@ -1,7 +1,7 @@
 {
 	title: "§b可移动磁盘？",
-	x: -4.5d,
-	y: 0.0d,
+	x: -7.5d,
+	y: -1.5d,
 	description: "制作ME控制器",
 	text: [
 		""

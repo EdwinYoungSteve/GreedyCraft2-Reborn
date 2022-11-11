@@ -108,35 +108,43 @@
   "specificTraits": {
     "EXTRA": [
       "bane_of_night",
-      "eroding"
+      "eroding",
+      "lighting2"
     ],
     "HEAD": [
       "bane_of_night",
-      "eroding"
+      "eroding",
+      "lighting2"
     ],
     "HANDLE": [
       "bane_of_night",
-      "eroding"
+      "eroding",
+      "lighting2"
     ],
     "BOW": [
       "bane_of_night",
-      "eroding"
+      "eroding",
+      "lighting2"
     ],
     "PROJECTILE": [
       "bane_of_night",
-      "eroding"
+      "eroding",
+      "lighting2"
     ],
     "CORE": [
       "lingering_armor",
-      "motion_armor"
+      "motion_armor",
+      "lighting2_armor"
     ],
     "PLATES": [
       "lingering_armor",
-      "motion_armor"
+      "motion_armor",
+      "lighting2_armor"
     ],
     "TRIM": [
       "lingering_armor",
-      "motion_armor"
+      "motion_armor",
+      "lighting2_armor"
     ]
   }
 }

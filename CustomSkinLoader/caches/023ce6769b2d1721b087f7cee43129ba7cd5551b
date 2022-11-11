@@ -1,8 +1,0 @@
-{
-  "id" : "2007e6b6ec9e4275a3dfaedfb54f9fa2",
-  "name" : "48r",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2MjgxNjgyNzE1MywKICAicHJvZmlsZUlkIiA6ICIyMDA3ZTZiNmVjOWU0Mjc1YTNkZmFlZGZiNTRmOWZhMiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0OHIiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQxMTZlMWYzOGNhMThkZGJmZmZkNTY0NjgwZTM3YWUxMWVkOTRjNGZkYTFjMGZiNzk5YzUzMzBhMDdiZDdjZCIKICAgIH0KICB9Cn0="
-  } ]
-}

@@ -1,7 +1,7 @@
 {
 	title: "§b星辉之力",
-	x: -3.5d,
-	y: -3.0d,
+	x: -0.5d,
+	y: -7.0d,
 	description: "{greedycraft.quest.98407c40.desc}",
 	text: [
 		""

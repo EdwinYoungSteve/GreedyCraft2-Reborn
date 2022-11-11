@@ -1,13 +1,12 @@
 {
 	title: "§b星能聚合",
-	x: 1.0d,
-	y: 0.0d,
+	x: -0.5d,
+	y: 1.0d,
 	description: "{greedycraft.quest.7ba94111.desc}",
 	text: [
 		""
 	],
 	dependencies: [
-		"e8404979",
 		"4f3a644d"
 	],
 	tasks: [{

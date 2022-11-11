@@ -2,6 +2,7 @@
 	title: "§b我有大勇气",
 	x: 4.5d,
 	y: 4.5d,
+	shape: "gear",
 	description: "制作勇气之证！",
 	text: [
 		""

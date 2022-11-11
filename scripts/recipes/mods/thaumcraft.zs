@@ -44,3 +44,7 @@ for removedItem in removedRecipes {
     Infusion.removeRecipe(removedItem);
     ArcaneWorkbench.removeRecipe(removedItem);
 }
+
+mods.thaumcraft.Infusion.registerRecipe("quardstate", "", <additions:greedycraft-quardstate_star>, 15, 
+[<aspect:aversio>*500, <aspect:motus>*500, <aspect:vinculum>*500, <aspect:machina>*500], 
+<additions:greedycraft-arcane_crystal_ball>, [<additions:greedycraft-end_star>, <additions:greedycraft-ice_star>, <additions:greedycraft-canopy_star>, <additions:greedycraft-solarium_star>]);

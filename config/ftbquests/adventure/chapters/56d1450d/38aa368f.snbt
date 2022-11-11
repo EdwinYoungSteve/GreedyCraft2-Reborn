@@ -1,6 +1,6 @@
 {
 	title: "§b抽水吧！",
-	x: -16.5d,
+	x: -15.0d,
 	y: -6.0d,
 	description: "获得农场水阀",
 	text: [

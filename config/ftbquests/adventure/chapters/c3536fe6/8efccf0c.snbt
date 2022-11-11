@@ -1,7 +1,8 @@
 {
 	title: "§b飞龙之力",
-	x: -11.0d,
-	y: 5.0d,
+	x: -13.5d,
+	y: -3.0d,
+	shape: "gear",
 	description: "制作飞龙核心以及堕落核心！",
 	text: [
 		""

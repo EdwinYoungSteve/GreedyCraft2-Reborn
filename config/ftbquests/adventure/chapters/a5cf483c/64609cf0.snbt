@@ -1,10 +1,10 @@
 {
 	title: "{greedycraft.quest.64609cf0.title}",
 	x: -0.5d,
-	y: -1.5d,
+	y: -5.0d,
 	description: "{greedycraft.quest.64609cf0.desc}",
 	dependencies: [
-		"4f8c9539",
+		"98407c40",
 		"630fdbee"
 	],
 	tasks: [{

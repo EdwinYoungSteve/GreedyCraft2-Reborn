@@ -2048,20 +2048,20 @@ gct_mobs:anti_anyposion
 	- Is Beneficial: false
 
 
-gct_tcon:plasmafusion
+gct_tcon:superposition
    - Id: 255
-   - Color: -6750004
+   - Color: -1
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: true
 
 
-gct_tcon:abysscalling
+gct_tcon:alkalinity
    - Id: 256
-   - Color: -10066330
+   - Color: -16724737
    - Is Instant: false
    - Is Bad: false
-	- Is Beneficial: true
+	- Is Beneficial: false
 
 
 gct_mobs:overrestrain
@@ -2072,9 +2072,9 @@ gct_mobs:overrestrain
 	- Is Beneficial: true
 
 
-gct_tcon:dnabroken
+gct_tcon:acidity
    - Id: 258
-   - Color: -52480
+   - Color: -52378
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: false
@@ -2088,9 +2088,9 @@ thebetweenlands:effect_weakbow
 	- Is Beneficial: false
 
 
-gct_tcon:elementkind
+gct_tcon:shock
    - Id: 260
-   - Color: -10027213
+   - Color: -1
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: true
@@ -2102,14 +2102,6 @@ thebetweenlands:effect_weakness
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: false
-
-
-gct_tcon:elementfriendly
-   - Id: 262
-   - Color: -10027213
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
 
 
 thebetweenlands:effect_catseyes
@@ -2157,22 +2149,6 @@ thebetweenlands:effect_slugarm
    - Color: 0
    - Is Instant: false
    - Is Bad: false
-	- Is Beneficial: false
-
-
-beyondtheveil:folly
-   - Id: 269
-   - Color: 0
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-beyondtheveil:terror
-   - Id: 270
-   - Color: 1316095
-   - Is Instant: false
-   - Is Bad: true
 	- Is Beneficial: false
 
 
@@ -2328,17 +2304,9 @@ thebetweenlands:effect_poisonsting
 	- Is Beneficial: false
 
 
-asmodeuscore:radiation
+moretcon:coldflames
    - Id: 290
-   - Color: -4502242
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-beyondtheveil:heartbreak
-   - Id: 291
-   - Color: -4508877
+   - Color: -1
    - Is Instant: false
    - Is Bad: true
 	- Is Beneficial: false
@@ -2440,60 +2408,68 @@ thebetweenlands:effect_basilisk
 	- Is Beneficial: false
 
 
-asmodeuscore:hypothermia
+moretcon:bleeding
+   - Id: 304
+   - Color: 16711680
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+moretcon:bloodgodsblessing
    - Id: 305
-   - Color: -31551233
+   - Color: 15372172
    - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
+   - Is Bad: false
+	- Is Beneficial: true
 
 
-asmodeuscore:overheat
+voidcraft:potionsheathelit
    - Id: 306
-   - Color: -23703552
+   - Color: 0
    - Is Instant: false
-   - Is Bad: true
+   - Is Bad: false
 	- Is Beneficial: false
 
 
-moreplanets:infected_spore
+voidcraft:voidimmunity
    - Id: 307
-   - Color: 13456690
+   - Color: 0
    - Is Instant: false
-   - Is Bad: true
+   - Is Bad: false
 	- Is Beneficial: false
 
 
-moreplanets:infected_purlonite
+voidcraft:potionsheathevoid
    - Id: 308
-   - Color: 8937937
+   - Color: 0
    - Is Instant: false
-   - Is Bad: true
+   - Is Bad: false
 	- Is Beneficial: false
 
 
-moreplanets:dark_energy
+voidcraft:potionsheatheacid
    - Id: 309
-   - Color: 1315860
+   - Color: 0
    - Is Instant: false
-   - Is Bad: true
+   - Is Bad: false
 	- Is Beneficial: false
 
 
-moreplanets:infected_spore_protection
+voidcraft:voidicinfusionimmunity
    - Id: 310
-   - Color: 13158600
+   - Color: 7799039
    - Is Instant: false
    - Is Bad: false
-	- Is Beneficial: true
+	- Is Beneficial: false
 
 
-moreplanets:dark_energy_protection
+voidcraft:potionsheathefire
    - Id: 311
-   - Color: 13158600
+   - Color: 0
    - Is Instant: false
    - Is Bad: false
-	- Is Beneficial: true
+	- Is Beneficial: false
 
 
 evilcraft:paling
@@ -2513,234 +2489,26 @@ totaltinkers:hemorrhage
 
 
 gct_aby:abyssplague
-   - Id: 314
+   - Id: 343
    - Color: -16777216
    - Is Instant: false
    - Is Bad: true
 	- Is Beneficial: false
 
 
-extraalchemy:effect.recall
-   - Id: 315
-   - Color: 16773632
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.leech
-   - Id: 316
-   - Color: 4079166
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.hurry
-   - Id: 317
-   - Color: 9291327
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.magnetism
-   - Id: 318
-   - Color: 13092807
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.pacifism
-   - Id: 319
-   - Color: 16711655
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.push
-   - Id: 320
-   - Color: 2348745
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-extraalchemy:effect.dislocation
-   - Id: 321
-   - Color: 9658805
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.cheatdeath_active
-   - Id: 322
+voidcraft:potionsheathefrost
+   - Id: 351
    - Color: 0
    - Is Instant: false
-   - Is Bad: true
+   - Is Bad: false
 	- Is Beneficial: false
 
 
-extraalchemy:effect.learning
-   - Id: 323
-   - Color: 14024505
+voidcraft:voidicinfusion
+   - Id: 352
+   - Color: 7799039
    - Is Instant: false
    - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.sails
-   - Id: 324
-   - Color: 10213631
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.pain
-   - Id: 325
-   - Color: 5063187
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-extraalchemy:effect.piper
-   - Id: 326
-   - Color: 16768927
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.return
-   - Id: 327
-   - Color: 13653381
-   - Is Instant: true
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.fuse
-   - Id: 328
-   - Color: 16711680
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-extraalchemy:effect.crumbling
-   - Id: 329
-   - Color: 10587992
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.concentration
-   - Id: 330
-   - Color: 13157861
-   - Is Instant: true
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.freezing
-   - Id: 331
-   - Color: 12640752
-   - Is Instant: true
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-extraalchemy:effect.reincarnation
-   - Id: 332
-   - Color: 13893582
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.pull
-   - Id: 333
-   - Color: 2348656
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-extraalchemy:effect.charged
-   - Id: 334
-   - Color: 7667860
-   - Is Instant: true
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.dispel
-   - Id: 335
-   - Color: 1071445
-   - Is Instant: true
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-extraalchemy:effect.charged2
-   - Id: 336
-   - Color: 16711899
-   - Is Instant: true
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.gravity
-   - Id: 337
-   - Color: 8477961
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-extraalchemy:effect.sinking
-   - Id: 338
-   - Color: 49061
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-extraalchemy:effect.photosynthesis
-   - Id: 339
-   - Color: 47872
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.beheading
-   - Id: 340
-   - Color: 9264903
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-extraalchemy:effect.cheatdeath_quiescent
-   - Id: 341
-   - Color: 16051799
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-extraalchemy:effect.combustion
-   - Id: 342
-   - Color: 16344321
-   - Is Instant: false
-   - Is Bad: true
 	- Is Beneficial: false
 
 

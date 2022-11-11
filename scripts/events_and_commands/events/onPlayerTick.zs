@@ -25,6 +25,9 @@ import crafttweaker.text.ITextComponent;
 import crafttweaker.world.IBiome;
 import crafttweaker.world.IBiomeType;
 import crafttweaker.world.IWorld;
+import crafttweaker.item.IIngredient;
+import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.item.IMutableItemStack;
 
 import mods.ctintegration.advancement.AdvancementHelper;
 import mods.ctintegration.advancement.IAdvancement;
@@ -172,5 +175,11 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
                 player.sendRichTextStatusMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.deep_sea.warning", color: "red"}, {"text": " "}, {translate: "greedycraft.event.deep_sea.message", color: "yellow"}]), true);
             }
         }
+    }
+
+    //删除梦魇世界物品
+    if (<ore:vetheaDisabled> in player.currentItem && player.getDimension() == 427) {
+            player.currentItem.mutable().shrink(64);
+            player.sendStatusMessage("此物品已经在梦魇世界被禁用！");
     }
 });

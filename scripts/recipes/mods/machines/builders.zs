@@ -233,6 +233,22 @@ for i in 4 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:miner_hardened"})) 
         .build();
 }
+//极光矿机
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("controller_miner_aurorian" + i, "builder_" + i, 3600) 
+        .addFluidInput(<liquid:redstone> * 10000)
+        .addItemInput(<theaurorian:auroriansteelpickaxe>)
+        .addItemInput(<ore:plateAurorianite>, 8)
+        .addItemInput(<ore:plateCrystalline>, 8)
+        .addItemInput(<ore:plateUmbra>, 8)
+        .addItemInput(<ore:plateCerulean>, 16)
+        .addItemInput(<ore:plateMoonstone>, 24)
+        .addItemInput(<ore:plateAeonsteel>, 4)
+        .addEnergyPerTickInput(40)
+        .addItemOutput(<modularcontroller:miner_aurorian_controller>) 
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:miner_aurorian"})) 
+        .build();
+}
 //机械高炉
 for i in 2 to 7 {
     RecipeBuilder.newBuilder("controller_mechanical_blast_furnace" + i, "builder_" + i, 1200)
@@ -361,5 +377,31 @@ for i in 3 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aurorian_alloyer"})) 
         .build();
 }
-
-
+//冷凝液化机
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("controller_condensation_liquefactor" + i, "builder_" + i, 4000)
+        .addFluidInput(<liquid:redstone> * 6000)
+        .addItemInput(<ore:gearCryonium>, 16)
+        .addItemInput(<ore:gearOsmium>, 16)
+        .addItemInput(<ore:gearPlatinum>, 16)
+        .addItemInput(<ore:gearIridium>, 12)
+        .addEnergyPerTickInput(600)
+        .addItemOutput(<modularcontroller:condensation_liquefactor_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:condensation_liquefactor"})) 
+        .build();
+}
+//空气收集器
+for i in 2 to 7 {
+    RecipeBuilder.newBuilder("controller_air_collector" + i, "builder_" + i, 4000)
+        .addFluidInput(<liquid:redstone> * 2000)
+        .addItemInput(<ore:plateOsmium>, 32)
+        .addItemInput(<ore:plateIridium>, 20)
+        .addItemInput(<ore:platePlatinum>, 20)
+        .addItemInput(<ore:plateOsgloglas>, 16)
+        .addItemInput(<ore:plateSentientMetal>, 8)
+        .addItemInput(<minecraft:bucket> * 16)
+        .addEnergyPerTickInput(400)
+        .addItemOutput(<modularcontroller:air_collector_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:air_collector"})) 
+        .build();
+}

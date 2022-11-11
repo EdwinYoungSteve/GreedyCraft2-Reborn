@@ -23,12 +23,11 @@ MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromastee
     <gct_ores:everite_ingot>,
     <tconevo:metal:5>,
     <gct_ores:relifed_metal_ingot>,
-    <thebetweenlands:items_misc:11>,
     <additions:greedycraft-daynight_ingot>,
     <tconevo:metal:20>,
     <plustic:osgloglasingot>,
-    <journey:orbaditeingot>,
-    <additions:botaniaddon-elfsteel_ingot>,
+    <additions:greedycraft-dullium_ingot>,
+    <additions:botaniaddon-mythsteel_ingot>,
     <biomesoplenty:terrestrial_artifact>
 ] as IItemStack[], {
     <additions:astral_metal_ingot> : {

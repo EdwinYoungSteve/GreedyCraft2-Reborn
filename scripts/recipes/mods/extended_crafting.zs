@@ -223,3 +223,73 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <journey:heartult>, [
 ]);
 //霓虹石英（无序合成）
 mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_ores:rainboquartz> * 48, [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:nuggetChromasteel>]);
+//虚空世界传送门
+mods.extendedcrafting.TableCrafting.addShaped(0, <utilityworlds:portal_void>, [
+	[null, null, null, null, null], 
+	[null, <ore:coreAwakened>, null, <ore:coreAwakened>, null], 
+	[<ore:blockRedstone>, <ore:blockRedstone>, <minecraft:enchanting_table>, <ore:blockRedstone>, <ore:blockRedstone>], 
+	[<ore:obsidian>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:obsidian>], 
+	[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>]
+]);
+//花园世界传送门
+mods.extendedcrafting.TableCrafting.addShaped(0, <utilityworlds:portal_garden>, [
+	[null, null, null, null, null], 
+	[null, <ore:coreAwakened>, null, <ore:coreAwakened>, null], 
+	[<ore:blockEmerald>, <ore:blockEmerald>, <minecraft:enchanting_table>, <ore:blockEmerald>, <ore:blockEmerald>], 
+	[<ore:obsidian>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:obsidian>], 
+	[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>]
+]);
+//第二颗心
+mods.extendedcrafting.TableCrafting.addShaped(0, <journey:heartsen>, [
+	[null, null, <ore:ingotDullium>, null, null], 
+	[null, <ore:ingotDullium>, <ore:ingotDullium>, <ore:ingotDullium>, null], 
+	[<ore:ingotDullium>, <ore:ingotDullium>, <journey:heartult>, <ore:ingotDullium>, <ore:ingotDullium>], 
+	[null, <ore:ingotDullium>, <ore:ingotDullium>, <ore:ingotDullium>, null], 
+	[null, null, <ore:ingotDullium>, null, null]
+]);
+//翠绿纹石
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:taigaddon-ameralite>, [
+	[<blue_skies:turquoise_stonebrick>, <blue_skies:turquoise_stonebrick>, <blue_skies:turquoise_stonebrick>], 
+	[<blue_skies:turquoise_stonebrick>, <ore:shardHeavengem2>, <blue_skies:turquoise_stonebrick>], 
+	[<blue_skies:turquoise_stonebrick>, <blue_skies:turquoise_stonebrick>, <blue_skies:turquoise_stonebrick>]
+]);
+//暗红纹石
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:taigaddon-lerdite>, [
+	[<blue_skies:lunar_stonebrick>, <blue_skies:lunar_stonebrick>, <blue_skies:lunar_stonebrick>], 
+	[<blue_skies:lunar_stonebrick>, <ore:shardHeavengem1>, <blue_skies:lunar_stonebrick>], 
+	[<blue_skies:lunar_stonebrick>, <blue_skies:lunar_stonebrick>, <blue_skies:lunar_stonebrick>]
+]);
+//深空宝石
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:taigaddon-heaven_gem>, [
+	[null, null, <ore:shardHeavengem1>, null, null], 
+	[null, null, <ore:ingotDaynight>, null, null], 
+	[null, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotDaynight>, null], 
+	[null, null, <ore:ingotDaynight>, null, null], 
+	[null, null, <ore:shardHeavengem2>, null, null]
+]);
+//永昼之地宝石
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:greedycraft-everbright_gem>, [
+	[null, null, <blue_skies:diopside_block>, null, null], 
+	[null, <blue_skies:turquoise_stone>, <blue_skies:moonstone>, <blue_skies:turquoise_stone>, null], 
+	[<blue_skies:turquoise_block>, <blue_skies:moonstone>, <extendedcrafting:material:40>, <blue_skies:moonstone>, <blue_skies:pyrope_block>], 
+	[null, <blue_skies:turquoise_stone>, <blue_skies:moonstone>, <blue_skies:turquoise_stone>, null], 
+	[null, null, <blue_skies:charoite_block>, null, null]
+]);
+//恒晓之地宝石
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:greedycraft-everdawn_gem>, [
+	[null, null, <blue_skies:diopside_block>, null, null], 
+	[null, <blue_skies:lunar_stone>, <blue_skies:moonstone>, <blue_skies:lunar_stone>, null], 
+	[<blue_skies:turquoise_block>, <blue_skies:moonstone>, <extendedcrafting:material:40>, <blue_skies:moonstone>, <blue_skies:pyrope_block>], 
+	[null, <blue_skies:lunar_stone>, <blue_skies:moonstone>, <blue_skies:lunar_stone>, null], 
+	[null, null, <blue_skies:charoite_block>, null, null]
+]);
+//深空核心
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:everheaven>, [
+	[null, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, null], 
+	[<extendedcrafting:material:48>, <ore:ingotCrystaltine>, <ore:ingotUmbrium>, <ore:ingotUmbrium>, <ore:ingotUmbrium>, <ore:ingotCrystaltine>, <extendedcrafting:material:48>], 
+	[<extendedcrafting:material:48>, <ore:ingotUmbrium>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotUmbrium>, <extendedcrafting:material:48>], 
+	[<extendedcrafting:material:48>, <ore:ingotUmbrium>, <ore:ingotDaynight>, <ore:gemHeaven>, <ore:ingotDaynight>, <ore:ingotUmbrium>, <extendedcrafting:material:48>], 
+	[<extendedcrafting:material:48>, <ore:ingotUmbrium>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotUmbrium>, <extendedcrafting:material:48>], 
+	[<extendedcrafting:material:48>, <ore:ingotCrystaltine>, <ore:ingotUmbrium>, <ore:ingotUmbrium>, <ore:ingotUmbrium>, <ore:ingotCrystaltine>, <extendedcrafting:material:48>], 
+	[null, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, null]
+]);

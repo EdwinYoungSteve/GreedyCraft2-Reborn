@@ -1,8 +1,8 @@
 {
 	title: "§b黑夜弥漫",
-	x: -2.0d,
-	y: 9.5d,
-	description: "访问永夜之地",
+	x: -3.0d,
+	y: 4.5d,
+	description: "访问恒晓之地",
 	text: [
 		""
 	],

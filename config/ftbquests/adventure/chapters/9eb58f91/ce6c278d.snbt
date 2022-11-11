@@ -1,13 +1,12 @@
 {
 	title: "§b最强粉碎机",
-	x: 6.0d,
-	y: 1.5d,
+	x: 9.0d,
+	y: 0.0d,
 	description: "制作强化SAG磨粉机",
 	text: [
 		""
 	],
 	dependencies: [
-		"7b441dcf",
 		"b9bba5a4"
 	],
 	tasks: [{

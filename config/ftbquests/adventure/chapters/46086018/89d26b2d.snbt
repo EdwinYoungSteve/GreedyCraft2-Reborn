@@ -17,19 +17,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "73c6947c",
-		type: "item",
-		item: {
-			id: "openblocks:tank",
-			tag: {
-				tank: {
-					FluidName: "purpleslime",
-					Amount: 16000
-				}
-			}
-		}
-	},
-	{
 		uid: "3c35ec79",
 		type: "item",
 		item: "tconstruct:metal 1 3"

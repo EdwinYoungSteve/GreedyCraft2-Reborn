@@ -33,16 +33,6 @@ FusionCrafting.add(<projecte:item.pe_transmutation_tablet>, <projecte:transmutat
     <ore:coreSuperior>,
     <ore:coreSuperior>
 ]);
-FusionCrafting.add(<additions:greedycraft-creative_soul>, <draconicevolution:chaotic_core>, 3, 68719476736, [ 
-    <additions:greedycraft-creative_shard>,
-    <additions:greedycraft-creative_shard>,
-    <additions:greedycraft-creative_shard>,
-    <additions:greedycraft-creative_shard>,
-    <additions:greedycraft-creative_shard>,
-    <additions:greedycraft-creative_shard>,
-    <additions:greedycraft-creative_shard>,
-    <additions:greedycraft-creative_shard>
-]);
 FusionCrafting.add(<draconicevolution:draconic_staff_of_power>, <avaritia:resource:5>, 2, 17179869184, [ 
     <tconevo:metal_block:1>,
     <tconevo:metal_block:1>,

@@ -1,10 +1,10 @@
 {
   "item_block": {
-    "name": "魔金矿石",
+    "name": "蓝焰金属矿石",
     "ore_dict": "oreManarium",
     "type": "additions:block_simple"
   },
-  "name": "魔金矿石",
+  "name": "蓝焰金属矿石",
   "material": "minecraft:stone",
   "hardness": 30.0,
   "resistance": 4000.0,

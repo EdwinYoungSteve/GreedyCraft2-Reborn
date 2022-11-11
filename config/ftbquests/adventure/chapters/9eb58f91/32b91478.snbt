@@ -1,7 +1,7 @@
 {
 	title: "§b自动化的开始",
-	x: 0.0d,
-	y: 4.5d,
+	x: -9.0d,
+	y: 3.0d,
 	description: "制作空白样板",
 	text: [
 		""

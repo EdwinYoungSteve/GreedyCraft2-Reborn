@@ -26,3 +26,13 @@ Altar.addConstellationAltarRecipe("shining_star", <additions:greedycraft-shining
             <ore:fallenStar>, <ore:fallenStar>,
             <ore:fallenStar>, <ore:fallenStar>,
             <ore:fallenStar>, <ore:fallenStar>]);
+
+Altar.addTraitAltarRecipe("heavite", <gct_mobs:heavite> * 14, 4000, 100, [
+            <ore:stoneLerdite>, <ore:stoneAmeralite>, <ore:stoneLerdite>,
+            <ore:stoneAmeralite>, <ore:blockDaynight>, <ore:stoneAmeralite>,
+            <ore:stoneLerdite>, <ore:stoneAmeralite>, <ore:stoneLerdite>,
+            <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>,
+            <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, 
+            <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, 
+            <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>,
+            <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>], "astralsorcery.constellation.mineralis");

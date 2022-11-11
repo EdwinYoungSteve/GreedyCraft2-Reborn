@@ -1,8 +1,0 @@
-{
-  "id" : "26bdff37fec848f1980f66bf69ee751c",
-  "name" : "BadBoyHalo",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY2Mjc4MDc1OTc5MSwKICAicHJvZmlsZUlkIiA6ICIyNmJkZmYzN2ZlYzg0OGYxOTgwZjY2YmY2OWVlNzUxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCYWRCb3lIYWxvIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU5NWRiOGQ4MDU0YTUxMTRhMGNhYjg1NmNlMDk3NjNjMWM1OWVlODlhOGNiNGU5ZDkxZGQ3Y2FkOGJiM2I5NmUiCiAgICB9CiAgfQp9"
-  } ]
-}

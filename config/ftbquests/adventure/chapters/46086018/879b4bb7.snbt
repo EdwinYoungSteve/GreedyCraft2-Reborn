@@ -6,11 +6,15 @@
 	text: [
 		""
 	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"4c400631"
+	],
 	tasks: [{
 		uid: "e156437a",
 		type: "dimension",
 		icon: "minecraft:glowstone",
-		dim: 4
+		dim: 173
 	}],
 	rewards: [{
 		uid: "ae4e3aee",
