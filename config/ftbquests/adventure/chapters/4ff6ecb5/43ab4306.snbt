@@ -1,0 +1,30 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"5df0146b"
+	],
+	tasks: [{
+		uid: "7da30efe",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "cad1455d",
+		type: "item",
+		item: "thaumadditions:adaminite_ingot",
+		count: 2
+	},
+	{
+		uid: "3d142a1d",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "7c2ff52e",
+		type: "loot",
+		table: 2
+	}]
+}

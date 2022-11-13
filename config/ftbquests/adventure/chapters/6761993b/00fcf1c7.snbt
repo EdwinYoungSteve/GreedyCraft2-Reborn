@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 13.5d,
+	dependencies: [
+		"e5aa5d75"
+	],
+	tasks: [{
+		uid: "dc032d30",
+		type: "item",
+		items: [{
+			item: "evilcraft:blood_infusion_core"
+		}]
+	}],
+	rewards: [{
+		uid: "51967cab",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "6abe8526",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: 2.5d,
+	dependencies: [
+		"4c9da309"
+	],
+	tasks: [{
+		uid: "c2be2a5d",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 30"
+		}]
+	}],
+	rewards: [{
+		uid: "379ded36",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "4df66c0a",
+		type: "item",
+		item: "tconevo:metal 1 30",
+		count: 5
+	}]
+}

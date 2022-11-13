@@ -1,0 +1,10 @@
+{
+	x: 3.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "2eac2a52",
+		type: "gamestage",
+		title: "在【科技·肆】处取得进展",
+		stage: "godlike_engineer"
+	}]
+}

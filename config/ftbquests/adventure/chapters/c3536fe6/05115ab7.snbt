@@ -1,0 +1,21 @@
+{
+	title: "§b太空食品",
+	x: -15.0d,
+	y: -7.5d,
+	description: "获得玻璃储罐，可以在佩戴口罩时进食",
+	text: [
+		""
+	],
+	dependencies: [
+		"6a34845d"
+	],
+	tasks: [{
+		uid: "963f2549",
+		type: "item",
+		items: [{
+			item: "mist:glass_container"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

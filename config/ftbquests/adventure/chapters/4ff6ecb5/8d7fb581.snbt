@@ -1,0 +1,16 @@
+{
+	title: "是时候了",
+	x: 11.5d,
+	y: 4.0d,
+	text: [
+		"打开维度裂隙，进入虚域"
+	],
+	dependencies: [
+		"2b12b14d"
+	],
+	tasks: [{
+		uid: "6437f829",
+		type: "checkmark",
+		title: "虚域"
+	}]
+}

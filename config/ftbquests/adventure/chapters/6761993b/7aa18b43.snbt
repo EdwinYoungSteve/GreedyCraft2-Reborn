@@ -1,0 +1,31 @@
+{
+	x: 6.5d,
+	y: 1.5d,
+	dependencies: [
+		"df589660",
+		"c5f4a913"
+	],
+	tasks: [{
+		uid: "57191092",
+		type: "item",
+		items: [{
+			item: "additions:crimsonite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "9235aa2b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "b91baa82",
+		type: "item",
+		item: "additions:crimsonite_ingot",
+		count: 3
+	},
+	{
+		uid: "0b8e55cc",
+		type: "xp",
+		xp: 3000
+	}]
+}

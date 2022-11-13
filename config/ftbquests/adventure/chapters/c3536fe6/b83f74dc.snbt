@@ -1,0 +1,41 @@
+{
+	title: "§b消逝之心",
+	x: -13.5d,
+	y: 3.0d,
+	description: "击杀哨兵之心，获得沉黯锭",
+	text: [
+		"使用追踪器右键黑岩圣坛可召唤掉落“破损机械碎片”的怪物，",
+		"而后合成黑岩实验室建造者。",
+		"使用黑岩实验室建造者激活黑岩实验塔，",
+		"在副塔击杀灭世守护者，获得钥匙并且开启副塔的黑岩锁，获得对应卸载面板，",
+		"在主塔顶端使用卸载面板拆除改造装置，再用毁灭扳手破坏改造装置，",
+		"而后哨兵之心会生成，击杀其掉落沉黯锭。"
+	],
+	dependencies: [
+		"9e36de53"
+	],
+	tasks: [{
+		uid: "5f48b099",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-dullium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "8134afb3",
+		type: "item",
+		item: "additions:greedycraft-dullium_ingot",
+		count: 16,
+		random_bonus: 8
+	},
+	{
+		uid: "3c6d6437",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "a1fce3d1",
+		type: "xp",
+		xp: 10000
+	}]
+}

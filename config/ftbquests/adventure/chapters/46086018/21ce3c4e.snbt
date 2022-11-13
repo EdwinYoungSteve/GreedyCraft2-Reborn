@@ -1,0 +1,38 @@
+{
+	title: "§b黄金地牢",
+	x: 7.5d,
+	y: 0.0d,
+	description: "击杀烈阳巨灵，获得日轮祭坛",
+	text: [
+		"此任务为可重复任务，每次提交一个日轮祭坛都可以获得一些烈阳神晶"
+	],
+	can_repeat: true,
+	dependencies: [
+		"fe753cdf"
+	],
+	tasks: [{
+		uid: "ffe05ea4",
+		type: "item",
+		items: [{
+			item: "aether_legacy:sun_altar"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "292f43f6",
+		type: "item",
+		item: "additions:greedycraft-sun_crystal",
+		count: 12,
+		random_bonus: 28
+	},
+	{
+		uid: "76af3aa5",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "25105bc1",
+		type: "xp",
+		xp: 1000
+	}]
+}

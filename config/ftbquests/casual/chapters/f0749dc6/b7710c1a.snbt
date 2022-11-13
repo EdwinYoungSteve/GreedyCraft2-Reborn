@@ -1,0 +1,61 @@
+{
+	title: "§4怪物猎人VI",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "abyssalcraft:asword"
+	},
+	x: -3.0d,
+	y: 7.0d,
+	description: "击杀指定数量的生物",
+	text: [
+		""
+	],
+	dependencies: [
+		"7e366dae"
+	],
+	tasks: [{
+		uid: "c68d249f",
+		type: "stat",
+		stat: "stat.mobKills",
+		value: 50000
+	}],
+	rewards: [{
+		uid: "ae79e0b9",
+		type: "xp",
+		xp: 6245000
+	},
+	{
+		uid: "571364f6",
+		type: "item",
+		item: "tinymobfarm:ultimate_farm",
+		count: 3
+	},
+	{
+		uid: "f1106572",
+		type: "item",
+		item: "tconstruct:materials 1 50",
+		count: 5
+	},
+	{
+		uid: "d31659b2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "additions:greedycraft-one_punch"
+		}
+	},
+	{
+		uid: "7939e449",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "215425c4",
+		type: "random",
+		table: 2
+	}]
+}

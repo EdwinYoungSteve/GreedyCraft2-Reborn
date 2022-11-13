@@ -1,0 +1,42 @@
+{
+	title: "§b这只是个门钥匙",
+	x: 0.0d,
+	y: 6.0d,
+	description: "制作雪花球",
+	text: [
+		""
+	],
+	dependencies: [
+		"792ea1ae"
+	],
+	tasks: [{
+		uid: "457de3c2",
+		type: "item",
+		items: [{
+			item: "divinerpg:snow_globe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ad9c050d",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "3396ba10",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "fde25953",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_fire_resistance"
+			}
+		},
+		count: 8
+	}]
+}

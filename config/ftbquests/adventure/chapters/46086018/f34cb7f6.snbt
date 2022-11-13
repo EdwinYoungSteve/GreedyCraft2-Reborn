@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: 1.5d,
+	dependencies: [
+		"fe753cdf"
+	],
+	tasks: [{
+		uid: "91c19d05",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-sun_crystal"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: 11.5d,
+	dependencies: [
+		"35dbd306"
+	],
+	tasks: [{
+		uid: "685fc43c",
+		type: "item",
+		items: [{
+			item: "evilcraft:promise 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6c767202",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "d1444a92",
+		type: "random",
+		table: 1
+	}]
+}

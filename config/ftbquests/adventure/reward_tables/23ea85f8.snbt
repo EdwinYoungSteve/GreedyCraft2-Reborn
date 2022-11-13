@@ -1,0 +1,44 @@
+{
+	title: "随机奖励 §f[梦魇]",
+	loot_size: 1,
+	rewards: [{
+		item: "divinerpg:teaker_lump",
+		count: 8
+	},
+	{
+		item: "divinerpg:darven_lump",
+		count: 6
+	},
+	{
+		item: "divinerpg:amthirmis_lump",
+		count: 7
+	},
+	{
+		item: "divinerpg:cermile_lump",
+		count: 4
+	},
+	{
+		item: "thaumcraft:ingot 1 2",
+		count: 4
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 4",
+		count: 4
+	},
+	{
+		item: "minecraft:clay_ball",
+		count: 8
+	},
+	{
+		item: "divinerpg:hyrewood_log",
+		count: 16
+	},
+	{
+		item: "divinerpg:fire_crystal",
+		count: 16
+	},
+	{
+		item: "divinerpg:dream_stone",
+		count: 16
+	}]
+}

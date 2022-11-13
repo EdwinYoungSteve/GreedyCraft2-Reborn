@@ -1,0 +1,33 @@
+{
+	title: "§b黄金与白银",
+	x: -6.0d,
+	y: 4.5d,
+	description: "获得桉域结界石",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"1b8da535",
+		"fcc46f35",
+		"c575a24e",
+		"02debd79"
+	],
+	tasks: [{
+		uid: "30768ba7",
+		type: "item",
+		items: [{
+			item: "journey:eucaportalframe"
+		}]
+	}],
+	rewards: [{
+		uid: "d444b0ad",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "32462d65",
+		type: "xp",
+		xp: 1000
+	}]
+}

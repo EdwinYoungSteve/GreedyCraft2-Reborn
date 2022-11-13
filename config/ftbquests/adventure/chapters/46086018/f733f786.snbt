@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: 13.5d,
+	tasks: [{
+		uid: "a66773e6",
+		type: "item",
+		items: [{
+			item: "additions:aqualite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "6ba920ac",
+		type: "item",
+		item: "additions:aqualite_ingot",
+		count: 16
+	}]
+}

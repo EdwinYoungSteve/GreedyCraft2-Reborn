@@ -1,0 +1,24 @@
+{
+	title: "§b经验方尖碑",
+	x: 9.0d,
+	y: -4.5d,
+	description: "制作经验方尖碑",
+	text: [
+		""
+	],
+	dependencies: [
+		"ba088ac9"
+	],
+	tasks: [{
+		uid: "2927ace9",
+		type: "item",
+		items: [{
+			item: "enderio:block_experience_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "224b40c6",
+		type: "xp",
+		xp: 2000
+	}]
+}

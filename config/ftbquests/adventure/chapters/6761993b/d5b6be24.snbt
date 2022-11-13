@@ -1,0 +1,26 @@
+{
+	x: 10.0d,
+	y: 11.5d,
+	dependencies: [
+		"41c37117"
+	],
+	tasks: [{
+		uid: "52cad64b",
+		type: "item",
+		items: [{
+			item: "evilcraft:spectral_glasses"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d6e153e2",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "1d0fa84b",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	x: 3.5d,
+	y: 2.5d,
+	description: "未完成",
+	text: [
+		""
+	],
+	dependencies: [
+		"cb767f8b"
+	],
+	tasks: [{
+		uid: "74ef892b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_extras 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "81973390",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "92b521ea",
+		type: "xp",
+		xp: 1000
+	}]
+}

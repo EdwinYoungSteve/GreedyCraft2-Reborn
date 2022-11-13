@@ -1,0 +1,46 @@
+{
+	title: "§7CAOS CAOS I wanna CAOS",
+	x: 14.0d,
+	y: 4.0d,
+	description: "将觉醒龙块二次进化为混沌龙块",
+	text: [
+		""
+	],
+	dependencies: [
+		"f136f4b7"
+	],
+	tasks: [{
+		uid: "8d842fc0",
+		type: "item",
+		items: [{
+			item: "gct_ores:chaotic_draconium_block"
+		}]
+	}],
+	rewards: [{
+		uid: "cc88ad0b",
+		type: "choice",
+		table: 3
+	},
+	{
+		uid: "58d71377",
+		type: "item",
+		item: "gct_ores:chaotic_draconium_block",
+		count: 3
+	},
+	{
+		uid: "182fb547",
+		type: "item",
+		item: "minecraft:end_crystal",
+		count: 16
+	},
+	{
+		uid: "69e2ef13",
+		type: "item",
+		item: "draconicevolution:chaotic_core"
+	},
+	{
+		uid: "04019c40",
+		type: "xp",
+		xp: 92500
+	}]
+}

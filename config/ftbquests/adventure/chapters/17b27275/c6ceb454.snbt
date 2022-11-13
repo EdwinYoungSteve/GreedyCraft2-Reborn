@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	tasks: [{
+		uid: "05024a26",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:swamp_reed_item"
+		}]
+	}]
+}

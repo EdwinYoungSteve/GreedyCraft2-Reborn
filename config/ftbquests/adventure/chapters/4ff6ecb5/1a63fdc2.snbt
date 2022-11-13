@@ -1,0 +1,28 @@
+{
+	x: -8.5d,
+	y: -1.0d,
+	text: [
+		"可以去魔法森林找地精获取，也可以通过血魔法获取"
+	],
+	dependencies: [
+		"d5f049de"
+	],
+	tasks: [{
+		uid: "98ad22a8",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curio 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "0650b9ac",
+		type: "item",
+		item: "thaumcraft:curio 1 4",
+		count: 5
+	},
+	{
+		uid: "cbca540f",
+		type: "xp",
+		xp: 100
+	}]
+}

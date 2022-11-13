@@ -1,0 +1,39 @@
+{
+	title: "§b极度炽热",
+	x: -2.0d,
+	y: 5.5d,
+	description: "召唤并击杀死目魔像、下界凶兽、守魂人和凋灵狱长，获得炼狱金属锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"3574b268",
+		"cc26ef32",
+		"9503c2be",
+		"4874faf2"
+	],
+	tasks: [{
+		uid: "4fae80aa",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-hellite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "019eb707",
+		type: "item",
+		item: "additions:greedycraft-hellite_ingot",
+		count: 12,
+		random_bonus: 8
+	},
+	{
+		uid: "7a538a21",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "ce2d65cb",
+		type: "random",
+		table: 3
+	}]
+}

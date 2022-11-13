@@ -1,0 +1,11 @@
+{
+	x: 7.0d,
+	y: 10.0d,
+	dependencies: [
+		"c9804403"
+	],
+	tasks: [{
+		uid: "cc45f90d",
+		type: "checkmark"
+	}]
+}

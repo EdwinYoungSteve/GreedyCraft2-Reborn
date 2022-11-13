@@ -1,0 +1,28 @@
+{
+	x: -7.5d,
+	y: -1.0d,
+	text: [
+		"挖琥珀矿有概率掉落"
+	],
+	dependencies: [
+		"d5f049de"
+	],
+	tasks: [{
+		uid: "7b616b1c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curio 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7917f763",
+		type: "item",
+		item: "thaumcraft:curio 1 1",
+		count: 5
+	},
+	{
+		uid: "2ebbdfa0",
+		type: "xp",
+		xp: 100
+	}]
+}

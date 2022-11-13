@@ -1,0 +1,11 @@
+{
+	x: -3.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "653b1f4e",
+		type: "item",
+		items: [{
+			item: "additions:mekaddon-rhodium_ore"
+		}]
+	}]
+}

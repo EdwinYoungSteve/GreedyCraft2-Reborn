@@ -1,0 +1,29 @@
+{
+	title: "§b召唤显形",
+	x: 7.0d,
+	y: 13.0d,
+	description: "合成召唤水晶，用于召唤黑金BOSS",
+	text: [
+		""
+	],
+	dependencies: [
+		"9ee6815f"
+	],
+	tasks: [{
+		uid: "08c5222e",
+		type: "item",
+		items: [{
+			item: "divinerpg:base_spawn_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "e5d56549",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "70fab86e",
+		type: "xp",
+		xp: 1000
+	}]
+}

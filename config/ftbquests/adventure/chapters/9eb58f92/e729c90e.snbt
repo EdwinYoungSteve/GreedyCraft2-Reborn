@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: 4.0d,
+	dependencies: [
+		"a9fb61df",
+		"1f2d7a78"
+	],
+	tasks: [{
+		uid: "132351fe",
+		type: "item",
+		items: [{
+			item: "additions:mekaddon-arcane_control_circuit"
+		}]
+	}]
+}

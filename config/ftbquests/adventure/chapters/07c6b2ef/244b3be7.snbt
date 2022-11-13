@@ -1,0 +1,13 @@
+{
+	title: "§b开始你的工业之旅吧！",
+	x: -7.0d,
+	y: -9.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5650e16f",
+		type: "checkmark",
+		title: "开启你的工业之旅吧"
+	}]
+}

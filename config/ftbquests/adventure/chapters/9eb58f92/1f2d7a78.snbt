@@ -1,0 +1,15 @@
+{
+	x: -3.5d,
+	y: 4.0d,
+	dependencies: [
+		"237e7dcc",
+		"67776410"
+	],
+	tasks: [{
+		uid: "9cfeb923",
+		type: "item",
+		items: [{
+			item: "additions:mekaddon-final_control_circuit"
+		}]
+	}]
+}

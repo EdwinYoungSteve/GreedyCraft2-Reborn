@@ -1,0 +1,41 @@
+{
+	x: -7.5d,
+	y: 2.0d,
+	text: [
+		"仅作为邪术尖塔的战利品出现，及其稀有",
+		"请在虚域寻找邪术尖塔并获得该珍品（未完成）"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d7fb581"
+	],
+	tasks: [{
+		uid: "f80d99d8",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curio 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "8a08c82f",
+		type: "item",
+		title: "我知道你已经不缺这点了",
+		item: "thaumcraft:curio 1 2",
+		count: 15
+	},
+	{
+		uid: "057789c3",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "44780947",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "45d66ad2",
+		type: "xp",
+		xp: 2500
+	}]
+}

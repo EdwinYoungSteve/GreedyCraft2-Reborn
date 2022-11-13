@@ -1,0 +1,59 @@
+{
+	title: "{greedycraft.quest.b01be720.title}",
+	x: 4.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.b01be720.desc}",
+	text: [
+		"§c你需要完成“暮光之庇护”任务才能进入下界",
+		"§6否则无论在传送门里待多长时间都不会传送"
+	],
+	dependencies: [
+		"8e49ae34"
+	],
+	tasks: [{
+		uid: "932534c9",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "4f30d2b3",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 32
+	},
+	{
+		uid: "58ca42dc",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "385ec5fc",
+		type: "item",
+		item: "bountifulbaubles:potionrecall",
+		count: 16
+	},
+	{
+		uid: "05dd2034",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "0aff2ebd",
+		type: "item",
+		item: "minecraft:reeds",
+		count: 32
+	},
+	{
+		uid: "daabf2a1",
+		type: "item",
+		item: "bountifulbaubles:potionwormhole",
+		count: 16
+	},
+	{
+		uid: "7e3bb6b6",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "nether"
+	}]
+}

@@ -1,0 +1,75 @@
+{
+	title: "§4坚持不懈VI",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "abyssalcraft:ahelmet"
+	},
+	x: -5.5d,
+	y: 7.0d,
+	description: "达成指定的游戏时间",
+	text: [
+		""
+	],
+	dependencies: [
+		"f947820f"
+	],
+	tasks: [{
+		uid: "24db5a19",
+		type: "stat",
+		stat: "stat.playOneMinute",
+		value: 50000000
+	}],
+	rewards: [{
+		uid: "f1f140be",
+		type: "xp_levels",
+		xp_levels: 6245000
+	},
+	{
+		uid: "a572ff8d",
+		type: "item",
+		item: "additions:greedycraft-sand_of_time",
+		count: 5
+	},
+	{
+		uid: "1f00b4c7",
+		type: "item",
+		item: "denseneutroncollectors:compressed_neutron_collector",
+		count: 5
+	},
+	{
+		uid: "6c9f0bd6",
+		type: "item",
+		item: "tconstruct:materials 1 50",
+		count: 5
+	},
+	{
+		uid: "f1eb0c78",
+		type: "item",
+		item: "additions:protonium_ingot",
+		count: 5
+	},
+	{
+		uid: "f6daeffa",
+		type: "item",
+		item: "additions:electronium_ingot",
+		count: 5
+	},
+	{
+		uid: "fe45e91e",
+		type: "item",
+		item: "avaritia:resource 1 4",
+		count: 5
+	},
+	{
+		uid: "d077e020",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "2b23023b",
+		type: "random",
+		table: 2
+	}]
+}

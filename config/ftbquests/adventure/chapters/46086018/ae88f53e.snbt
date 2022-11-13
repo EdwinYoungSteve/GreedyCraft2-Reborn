@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: 15.5d,
+	tasks: [{
+		uid: "68009b7f",
+		type: "item",
+		items: [{
+			item: "additions:asgardium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "b31b85bd",
+		type: "item",
+		item: "additions:asgardium_ingot",
+		count: 16
+	}]
+}

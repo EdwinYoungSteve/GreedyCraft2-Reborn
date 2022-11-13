@@ -1,0 +1,39 @@
+{
+	x: -7.5d,
+	y: 1.0d,
+	text: [
+		"来自扭曲生物的稀有掉落"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"75992ca5"
+	],
+	tasks: [{
+		uid: "a94835b3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curio 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "73334edc",
+		type: "item",
+		item: "thaumcraft:curio 1 5",
+		count: 5
+	},
+	{
+		uid: "9f7aa051",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "1713d382",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "45df263e",
+		type: "xp",
+		xp: 1000
+	}]
+}

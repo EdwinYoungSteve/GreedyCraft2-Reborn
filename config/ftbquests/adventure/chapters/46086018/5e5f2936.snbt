@@ -1,0 +1,35 @@
+{
+	title: "§b这是我的领域",
+	x: -3.0d,
+	y: 0.0d,
+	description: "挖掘一块诺米特矿石",
+	text: [
+		""
+	],
+	dependencies: [
+		"4c400631"
+	],
+	tasks: [{
+		uid: "f0d788ad",
+		type: "item",
+		items: [{
+			item: "divinerpg:realmite_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "2a4f8d8e",
+		type: "item",
+		item: "divinerpg:realmite_ore",
+		count: 8
+	},
+	{
+		uid: "762e9936",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "6a3521d0",
+		type: "random",
+		table: 1
+	}]
+}

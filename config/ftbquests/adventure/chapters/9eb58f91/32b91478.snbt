@@ -1,0 +1,35 @@
+{
+	title: "§b自动化的开始",
+	x: -9.0d,
+	y: 3.0d,
+	description: "制作空白样板",
+	text: [
+		""
+	],
+	dependencies: [
+		"663562f7"
+	],
+	tasks: [{
+		uid: "b1ef2bba",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 52"
+		}]
+	}],
+	rewards: [{
+		uid: "5efa79c5",
+		type: "item",
+		item: "appliedenergistics2:material 1 52",
+		count: 8
+	},
+	{
+		uid: "9184e9bf",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "ea26056c",
+		type: "random",
+		table: 1
+	}]
+}

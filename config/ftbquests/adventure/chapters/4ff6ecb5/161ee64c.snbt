@@ -1,0 +1,24 @@
+{
+	x: 7.5d,
+	y: 2.0d,
+	dependencies: [
+		"c3a9949d"
+	],
+	tasks: [{
+		uid: "97b87930",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:coalescence_matrix_precursor"
+		}]
+	}],
+	rewards: [{
+		uid: "a48c10a9",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "7aa0f5b1",
+		type: "random",
+		table: 3
+	}]
+}

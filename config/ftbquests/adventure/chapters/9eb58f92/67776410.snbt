@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 2.5d,
+	dependencies: [
+		"2178c34e"
+	],
+	tasks: [{
+		uid: "d8406cc4",
+		type: "item",
+		items: [{
+			item: "additions:mekaddon-imaginative_alloy"
+		}]
+	}]
+}

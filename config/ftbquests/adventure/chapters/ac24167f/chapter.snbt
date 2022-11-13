@@ -1,0 +1,7 @@
+{
+	title: "【魔法·伍】余烬之灵",
+	icon: "embers:ingot_dawnstone",
+	always_invisible: false,
+	group: -277029338,
+	default_quest_shape: ""
+}

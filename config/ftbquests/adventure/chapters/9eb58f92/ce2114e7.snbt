@@ -1,0 +1,30 @@
+{
+	title: "§b2H2O===2H2↑+O2↑",
+	x: -2.0d,
+	y: -2.0d,
+	description: "制作电解分离器，可以电解水和盐水",
+	text: [
+		""
+	],
+	dependencies: [
+		"cd7aa078"
+	],
+	tasks: [{
+		uid: "c3411398",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b9758bce",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "c680b45c",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b一箭永恒",
+	x: 10.0d,
+	y: 10.0d,
+	description: "使用阿帕拉契亚宝石在阿帕拉契亚祭坛上召唤并击杀永恒射手",
+	text: [
+		""
+	],
+	dependencies: [
+		"a5f9e2a3"
+	],
+	tasks: [{
+		uid: "e8e1476d",
+		type: "item",
+		items: [{
+			item: "divinerpg:eternal_archer_statue"
+		}]
+	}],
+	rewards: [{
+		uid: "432f989a",
+		type: "item",
+		item: "divinerpg:apalachia_block",
+		count: 2
+	},
+	{
+		uid: "0b6ef4aa",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "d311e5db",
+		type: "random",
+		table: 2
+	}]
+}
