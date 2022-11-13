@@ -328,7 +328,6 @@ val removedRecipes as IIngredient[] = [
     <extrautils2:quarryproxy>,
     <thaumadditions:thaumic_lectern>,
     <cyclicmagic:tool_push>,
-    <mekanismgenerators:generator:10>,
     <twilightforest:charm_of_keeping_2>,
     <twilightforest:charm_of_keeping_3>,
     <bloodmagic:altar>,
@@ -505,7 +504,8 @@ val removedRecipeNames as string[] = [
     "extendedcrafting:crafting_component_elite",
     "extendedcrafting:crafting_component_ultimate",
     "extendedcrafting:crafting_component_crystaltine",
-    "tiths:withering_essence_2_witherium"
+    "tiths:withering_essence_2_witherium",
+    "ageofminecraft:command_block"
 ];
 
 for ingredient in removedRecipes {

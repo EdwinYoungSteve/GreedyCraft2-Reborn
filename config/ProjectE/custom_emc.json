@@ -611,6 +611,26 @@
     {
       "item": "extendedcrafting:singularity_custom|18",
       "emc": 0
+    },
+    {
+      "item": "thermalfoundation:material|135",
+      "emc": 16384
+    },
+    {
+      "item": "additions:mekaddon-ruthenium_ingot|0",
+      "emc": 65536
+    },
+    {
+      "item": "additions:mekaddon-rhodium_ingot|0",
+      "emc": 262144
+    },
+    {
+      "item": "mekanism:ingot|3",
+      "emc": 384
+    },
+    {
+      "item": "mekanism:ingot|0",
+      "emc": 16
     }
   ]
 }

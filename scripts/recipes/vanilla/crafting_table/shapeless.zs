@@ -42,6 +42,9 @@ RecipeUtil.addShapeless("star_3", <additions:greedycraft-ice_star>,
 RecipeUtil.addShapeless("vethea_crafting_table", <minecraft:crafting_table> * 1,
     [<ore:logWoodVethea>]
 );
+RecipeUtil.addShapeless("aquamarine_gold", <atlantis:chiseled_golden_aquamarine> * 1,
+    [<atlantis:chiseled_golden_block>, <ore:gemAquamarine>]
+);
 RecipeUtil.addShapeless("web_to_string", <minecraft:string> * 2,
     [<minecraft:web>]
 );

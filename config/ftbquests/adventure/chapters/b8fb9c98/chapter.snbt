@@ -1,7 +1,0 @@
-{
-	title: "进阶挑战",
-	icon: "additions:tcsponsors-death_sickle",
-	always_invisible: false,
-	group: -1366077257,
-	default_quest_shape: ""
-}

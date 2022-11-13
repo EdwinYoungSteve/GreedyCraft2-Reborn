@@ -17,8 +17,10 @@ import mods.mekanism.purification;
 infuser.removeRecipe(<mekanism:otherdust:1>);
 
 infuser.addRecipe("OSGLOGLAS", 10, <mekanism:atomicalloy>, <additions:mekaddon-imaginative_alloy>);
+infuser.addRecipe("PORPEZITE", 10, <additions:mekaddon-imaginative_alloy>, <additions:mekaddon-shadowing_alloy>);
 
 enrichment.addRecipe(<hammermetals:osgloglas_dust>, <additions:mekaddon-compressed_osgloglas>);
+enrichment.addRecipe(<hammermetals:porpezite_dust>, <additions:mekaddon-compressed_porpezite>);
 
 purification.addRecipe(<thermalfoundation:material>, <gas:oxygen>, <additions:mekaddon-iron_oxide_dust>);
 
@@ -30,4 +32,5 @@ mods.mekanism.chemical.oxidizer.addRecipe(<thermalfoundation:material:802>, <gas
 mods.mekanism.chemical.oxidizer.addRecipe(<thermalfoundation:storage_resource:1>, <gas:carbonoxide> * 720);
 
 mods.mekanism.chemical.infuser.addRecipe(<gas:oxygen>, <gas:carbonoxide> * 2, <gas:carbondioxide> * 2);
-mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogenchloride> * 500, <gas:water>, <gas:hydrochloricacid> * 500);
+mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogenchloride> * 1, <gas:water> * 2, <gas:hydrochloricacid> * 2);
+mods.mekanism.chemical.infuser.addRecipe(<gas:nitrogenoxide> * 2, <gas:oxygen> * 1, <gas:nitrogendioxide> * 2);

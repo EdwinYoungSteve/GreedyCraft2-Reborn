@@ -41,7 +41,6 @@ import scripts.util.oredict as OredictUtil;
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
-<ore:ingotLox>.add(<taiga:iox_ingot>);
 var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:vetheaDisabled> : [
         <waystones:warp_stone>,
@@ -675,7 +674,14 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:oreTourmaline> : [<tiths:ore_tourmaline>],
     <ore:oreRoot> : [<tiths:ore_tree_root>],
     <ore:oreUlun> : [<tiths:ore_ulun>],
-    <ore:oreVibratingCrystal> : [<tiths:ore_vibrating_crystal>]
+    <ore:oreVibratingCrystal> : [<tiths:ore_vibrating_crystal>],
+    <ore:gemAquamarine> : [
+        <divinerpg:aquamarine>,
+        <atlantis:ingot_aquamarine>
+    ],
+    <ore:blockAquamarine> : [<atlantis:block_of_aquamarine>],
+    <ore:oreAquamarine> : [<atlantis:aquamarine_ore>],
+    <ore:blockGold> : [<atlantis:chiseled_golden_block>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

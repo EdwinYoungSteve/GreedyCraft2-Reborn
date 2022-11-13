@@ -233,6 +233,21 @@ for i in 4 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:miner_hardened"})) 
         .build();
 }
+//下界矿机
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("controller_miner_nether" + i, "builder_" + i, 3600)
+        .addFluidInput(<liquid:redstone> * 10000)
+        .addItemInput(<minecraft:diamond_pickaxe> * 3)
+        .addItemInput(<ore:plateCobalt>, 24)
+        .addItemInput(<ore:plateArdite>, 24)
+        .addItemInput(<ore:plateLavaSolid>, 16)
+        .addItemInput(<ore:plateBloodcrust>, 16)
+        .addItemInput(<ore:plateMithril>, 8)
+        .addEnergyPerTickInput(40)
+        .addItemOutput(<modularcontroller:miner_nether_controller>) 
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:miner_nether"})) 
+        .build();        
+}
 //极光矿机
 for i in 3 to 7 {
     RecipeBuilder.newBuilder("controller_miner_aurorian" + i, "builder_" + i, 3600) 

@@ -906,6 +906,26 @@
                 "restriction": "blacklist",
                 "value": [1, -1]
             }
+        },
+        "sanite": {
+            "enabled":"true",
+            "distribution":"uniform",
+            "generator":{
+                "block":[{
+                    "name":"additions:greedycraft-sanite_ore",
+                    "weight":100
+                }],
+                "material":"gct_aby:densedarkstone",
+                "cluster-size":2
+            },
+            "max-height":128,
+            "min-height":0,
+            "cluster-count":1,
+            "retrogen":"true",
+            "dimension":{
+                "restriction":"whitelist",
+                "value":[44]
+            }
         }
     }
 }

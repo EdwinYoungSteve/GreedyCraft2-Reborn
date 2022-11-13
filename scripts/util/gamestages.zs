@@ -56,6 +56,7 @@ static stageGatekeeper as Stage = ZenStager.initStage("gatekeeper");
 static stageGaiaDeleter as Stage = ZenStager.initStage("gaia_deleter");
 static stageCosmic as Stage = ZenStager.initStage("cosmic");
 static stageEpicEngineer as Stage = ZenStager.initStage("epic_engineer");
+static stageTinkeringBlueprint as Stage = ZenStager.initStage("tinkering_blueprint");
 
 static zenStageMap as Stage[string] = ZenStager.getStageMap();
 

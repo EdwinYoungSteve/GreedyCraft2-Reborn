@@ -105,6 +105,15 @@ GameStagesUtil.stageWitherSlayer.addOreReplacement(<journey:hellstoneore>, <mine
 GameStagesUtil.stageChaotic.addOreReplacement(<additions:taigaddon-harcadium_ore>, <minecraft:stone>, false);
 GameStagesUtil.stageChaotic.addOreReplacement(<additions:taigaddon-nether_harcadium_ore>, <minecraft:stone>, false);
 GameStagesUtil.stageChaotic.addOreReplacement(<additions:taigaddon-end_harcadium_ore>, <minecraft:stone>, false);
+GameStagesUtil.stageChaotic.addOreReplacement(<tiths:ore_redins>, <minecraft:stone>, false);
+GameStagesUtil.stageChaotic.addOreReplacement(<tiths:ore_corundum>, <minecraft:stone>, false);
+GameStagesUtil.stageChaotic.addOreReplacement(<tiths:ore_pyrophyllite>, <minecraft:stone>, false);
+GameStagesUtil.stageChaotic.addOreReplacement(<tiths:ore_lizanite>, <minecraft:netherrack>, false);
+GameStagesUtil.stageChaotic.addOreReplacement(<tiths:ore_spinel>, <minecraft:stone>, false);
+GameStagesUtil.stageChaotic.addOreReplacement(<tiths:ore_tourmaline>, <minecraft:stone>, false);
+GameStagesUtil.stageChaotic.addOreReplacement(<tiths:ore_opal>, <minecraft:stone>, false);
+GameStagesUtil.stageChaotic.addOreReplacement(<tiths:ore_cordierite>, <minecraft:stone>, false);
+GameStagesUtil.stageChaotic.addOreReplacement(<tiths:ore_prehnite>, <minecraft:stone>, false);
 
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<nuclearcraft:ore:3>, <minecraft:stone>, false);
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<nuclearcraft:ore:4>, <minecraft:stone>, false);

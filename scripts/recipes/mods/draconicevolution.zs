@@ -45,7 +45,7 @@ FusionCrafting.add(<gct_ores:command_core>, <mekanism:controlcircuit:3>, 2, 2147
     <ore:blockDraconiumChaotic>,
     <ore:ingotChromasteel>,
     <ore:ingotCrimsonite>,
-    <ore:ingotMithminite>
+    <ore:ingotAdaminite>
 ]);
 
 FusionCrafting.add(<gct_ores:creepy_wither_doll>, <additions:taigaddon-harcadium_block>, 2, 3355443200, [
@@ -213,29 +213,29 @@ FusionCrafting.add(<minecraft:barrier> * 4, <minecraft:glass> * 4, 3, 500000000,
 ]);
 
 FusionCrafting.add(<extendedcrafting:material:14>, <extendedcrafting:material:2>, 0, 128000, [
-    <ore:ingotIron>,
-    <ore:ingotIron>,
+    <ore:ingotVibranium>,
+    <ore:ingotVibranium>,
     <extendedcrafting:material:7>,
     <extendedcrafting:material:7>
 ]);
 
 FusionCrafting.add(<extendedcrafting:material:15>, <extendedcrafting:material:2>, 1, 2560000, [
-    <ore:ingotGold>,
-    <ore:ingotGold>,
+    <ore:ingotFusionMatrix>,
+    <ore:ingotFusionMatrix>,
     <extendedcrafting:material:7>,
     <extendedcrafting:material:7>
 ]);
 
 FusionCrafting.add(<extendedcrafting:material:16>, <extendedcrafting:material:2>, 2, 51200000, [
-    <ore:gemDiamond>,
-    <ore:gemDiamond>,
+    <ore:ingotBalancedMatrix>,
+    <ore:ingotBalancedMatrix>,
     <extendedcrafting:material:7>,
     <extendedcrafting:material:7>
 ]);
 
 FusionCrafting.add(<extendedcrafting:material:17>, <extendedcrafting:material:2>, 3, 1024000000, [
-    <ore:gemEmerald>,
-    <ore:gemEmerald>,
+    <ore:ingotRadiationMatrix>,
+    <ore:ingotRadiationMatrix>,
     <extendedcrafting:material:7>,
     <extendedcrafting:material:7>
 ]);

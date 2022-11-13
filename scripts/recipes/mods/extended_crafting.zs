@@ -82,15 +82,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <cyclicmagic:tool_mount_inverse
 	[null, null, <ore:itemLeather>, <ore:itemLeather>, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:primordial_stone> * 48, [
-	[<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>], 
-	[<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>], 
-	[<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>], 
-	[<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:primordial_pearl>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>], 
-	[<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>], 
-	[<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>], 
-	[<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>]
-]);
+mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_mobs:primordial_stone> * 24, [<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <ore:nuggetPrimordial>]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:primordial_vis_receiver>, [
 	[null, null, <ore:ingotAdaminite>, null, null], 
@@ -173,13 +165,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <twilightforest:giant_leaves>, 
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:essenceofdarkerrealm>, [
-	[null, null, <gct_aby:densedarkstone>, <gct_aby:densedarkstone>, <gct_aby:densedarkstone>, null, null], 
-	[null, <gct_aby:densedarkstone>, <ore:ingotSanite>, <gct_aby:shoggothtancale>, <ore:ingotSanite>, <gct_aby:densedarkstone>, null], 
-	[<gct_aby:densedarkstone>, <ore:ingotSanite>, <gct_aby:shoggothtancale>, <gct_aby:shadownuclear>, <gct_aby:shoggothtancale>, <ore:ingotSanite>, <gct_aby:densedarkstone>], 
-	[<gct_aby:densedarkstone>, <gct_aby:shoggothtancale>, <gct_aby:shadownuclear>, <gct_aby:densedarkstone>, <gct_aby:shadownuclear>, <gct_aby:shoggothtancale>, <gct_aby:densedarkstone>], 
-	[<gct_aby:densedarkstone>, <ore:ingotSanite>, <gct_aby:shoggothtancale>, <gct_aby:shadownuclear>, <gct_aby:shoggothtancale>, <ore:ingotSanite>, <gct_aby:densedarkstone>], 
-	[null, <gct_aby:densedarkstone>, <ore:ingotSanite>, <gct_aby:shoggothtancale>, <ore:ingotSanite>, <gct_aby:densedarkstone>, null], 
-	[null, null, <gct_aby:densedarkstone>, <gct_aby:densedarkstone>, <gct_aby:densedarkstone>, null, null]
+	[null, <ore:ingotSanite>, <gct_aby:shoggothtancale>, <ore:ingotSanite>, null], 
+	[<ore:ingotSanite>, <gct_aby:shoggothtancale>, <ore:nuclearShadow>, <gct_aby:shoggothtancale>, <ore:ingotSanite>], 
+	[<gct_aby:shoggothtancale>, <ore:nuclearShadow>, <ore:stoneDarkDense>, <ore:nuclearShadow>, <gct_aby:shoggothtancale>], 
+	[<ore:ingotSanite>, <gct_aby:shoggothtancale>, <ore:nuclearShadow>, <gct_aby:shoggothtancale>, <ore:ingotSanite>], 
+	[null, <ore:ingotSanite>, <gct_aby:shoggothtancale>, <ore:ingotSanite>, null]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:keyofdark>, [
@@ -222,8 +212,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <journey:heartult>, [
 	[null, null, <cyclicmagic:heart_food>, null, null]
 ]);
 //霓虹石英（无序合成）
-mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_ores:rainboquartz> * 48, [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:nuggetChromasteel>]);
-//虚空世界传送门
+mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_ores:rainboquartz> * 24, [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:nuggetChromasteel>]);//虚空世界传送门
 mods.extendedcrafting.TableCrafting.addShaped(0, <utilityworlds:portal_void>, [
 	[null, null, null, null, null], 
 	[null, <ore:coreAwakened>, null, <ore:coreAwakened>, null], 
@@ -285,11 +274,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:greedycraft-everdawn
 ]);
 //深空核心
 mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:everheaven>, [
-	[null, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, null], 
-	[<extendedcrafting:material:48>, <ore:ingotCrystaltine>, <ore:ingotUmbrium>, <ore:ingotUmbrium>, <ore:ingotUmbrium>, <ore:ingotCrystaltine>, <extendedcrafting:material:48>], 
-	[<extendedcrafting:material:48>, <ore:ingotUmbrium>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotUmbrium>, <extendedcrafting:material:48>], 
-	[<extendedcrafting:material:48>, <ore:ingotUmbrium>, <ore:ingotDaynight>, <ore:gemHeaven>, <ore:ingotDaynight>, <ore:ingotUmbrium>, <extendedcrafting:material:48>], 
-	[<extendedcrafting:material:48>, <ore:ingotUmbrium>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotUmbrium>, <extendedcrafting:material:48>], 
-	[<extendedcrafting:material:48>, <ore:ingotCrystaltine>, <ore:ingotUmbrium>, <ore:ingotUmbrium>, <ore:ingotUmbrium>, <ore:ingotCrystaltine>, <extendedcrafting:material:48>], 
-	[null, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, <extendedcrafting:material:48>, null]
+	[<extendedcrafting:material:48>, <ore:ingotUmbrium>, <extendedcrafting:material:48>, <ore:ingotUmbrium>, <extendedcrafting:material:48>], 
+	[<ore:ingotUmbrium>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotUmbrium>], 
+	[<extendedcrafting:material:48>, <ore:ingotDaynight>, <ore:gemHeaven>, <ore:ingotDaynight>, <extendedcrafting:material:48>], 
+	[<ore:ingotUmbrium>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotUmbrium>], 
+	[<extendedcrafting:material:48>, <ore:ingotUmbrium>, <extendedcrafting:material:48>, <ore:ingotUmbrium>, <extendedcrafting:material:48>]
 ]);

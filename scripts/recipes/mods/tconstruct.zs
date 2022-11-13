@@ -88,8 +88,11 @@ Alloy.addRecipe(<liquid:porpezite> * 2, [<liquid:ruthenium>, <liquid:rhodium>, <
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block>);
+Casting.removeBasinRecipe(<tiths:block_titanium>);
 
 Casting.removeTableRecipe(<tcomplement:materials:1>);
+Casting.removeTableRecipe(<tiths:ingot_titanium>);
+Casting.removeTableRecipe(<tiths:nugget_titanium>);
 
 Casting.addBasinRecipe(<additions:greedycraft-astral_metal_block>, null, <liquid:astral_metal>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<additions:greedycraft-compressed_experience_block>, <ore:blockExperience>, <liquid:experience>, 10368, true, 300);
@@ -117,6 +120,7 @@ Casting.addBasinRecipe(<gct_ores:chaotic_draconium_block>, null, <liquid:chaotic
 Casting.addBasinRecipe(<gct_ores:genite_machine_frame>, <thermalexpansion:frame>, <liquid:genite>, 576, false, 100);
 Casting.addBasinRecipe(<gct_ores:everite_machine_frame>, <thermalexpansion:frame>, <liquid:everite>, 576, false, 100);
 Casting.addBasinRecipe(<gct_ores:balanced_matrix_block>, null, <liquid:balanced_matrix>, VOLUME_BLOCK, false, 300);
+Casting.addBasinRecipe(<additions:greedycraft-titanium_block>, null, <liquid:titanium>, VOLUME_BLOCK, false, 300);
 
 Casting.addTableRecipe(<abyssalcraft:ethaxiumingot>, <tconstruct:cast_custom>, <liquid:ethaxium>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<additions:astral_metal_ingot>, <tconstruct:cast_custom>, <liquid:astral_metal>, VOLUME_INGOT, false, 200);
@@ -156,6 +160,8 @@ Casting.addTableRecipe(<botanicadds:gaiasteel_ingot>, <tconstruct:cast_custom>, 
 Casting.addTableRecipe(<draconicevolution:draconic_ingot>, <tconstruct:cast_custom>, <liquid:awakened_draconium>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<gct_ores:chaotic_draconium_ingot>, <tconstruct:cast_custom>, <liquid:chaotic_draconium>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<gct_ores:balanced_matrix_ingot>, <tconstruct:cast_custom>, <liquid:balanced_matrix>, VOLUME_INGOT, false, 200);
+Casting.addTableRecipe(<additions:titanium_ingot>, <tconstruct:cast_custom>, <liquid:titanium>, VOLUME_INGOT, false, 200);
+Casting.addTableRecipe(<additions:greedycraft-titanium_nugget>, <tconstruct:cast_custom:1>, <liquid:titanium>, VOLUME_INGOT, false, 20);
 
 Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
 Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);

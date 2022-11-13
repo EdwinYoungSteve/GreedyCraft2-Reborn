@@ -96,6 +96,10 @@ val toolTypeStages as string[string] = {
     "plustic:laser_gun": "laser_gun_blueprint",
     "tconstruct:cleaver": "tactic_blueprint",
     "tconstruct:shuriken": "shuriken_blueprint",
+    "totaltinkers:battleaxe": "tinkering_blueprint",
+    "totaltinkers:cutlass": "tinkering_blueprint",
+    "totaltinkers:explosive_bow": "tinkering_blueprint",
+    "totaltinkers:scimitar": "tinkering_blueprint",
     "totaltinkers:greatblade": "graduated"
 } as string[string];
 

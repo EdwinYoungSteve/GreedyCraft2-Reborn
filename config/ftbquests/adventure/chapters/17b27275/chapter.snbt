@@ -1,7 +1,0 @@
-{
-	title: "【冒险·陆】终焉呼唤",
-	icon: "gct_ores:finallium_ingot",
-	always_invisible: false,
-	group: 689139086,
-	default_quest_shape: ""
-}

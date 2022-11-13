@@ -463,7 +463,35 @@ GameStagesUtil.stageChaotic.addIngredients([
     <gct_ores:command_core>,
     <minecraft:command_block>,
     <gct_ores:creepy_witherstorm_doll>,
-    <gct_ores:stormy_shard>
+    <gct_ores:stormy_shard>,
+    <tiths:redins>,
+    <tiths:corundum>,
+    <tiths:pyrophyllite>,
+    <tiths:lizanite>,
+    <tiths:spinel>,
+    <tiths:tourmaline>,
+    <tiths:opal>,
+    <tiths:cordierite>,
+    <tiths:prehnite>,
+    <tiths:ore_redins>,
+    <tiths:ore_corundum>,
+    <tiths:ore_pyrophyllite>,
+    <tiths:ore_lizanite>,
+    <tiths:ore_spinel>,
+    <tiths:ore_tourmaline>,
+    <tiths:ore_opal>,
+    <tiths:ore_cordierite>,
+    <tiths:ore_prehnite>,
+    <tiths:block_redins>,
+    <tiths:block_corundum>,
+    <tiths:block_pyrophyllite>,
+    <tiths:block_lizanite>,
+    <tiths:block_spinel>,
+    <tiths:block_tourmaline>,
+    <tiths:block_opal>,
+    <tiths:block_cordierite>,
+    <tiths:block_prehnite>,
+    <gct_ores:hermaphroditic_artifact>
 ], true);
 
 GameStagesUtil.stageStormBreaker.addIngredients([
@@ -963,6 +991,10 @@ GameStagesUtil.stageFearlessMan.addIngredients([
     <abyssalcraft:gatewaykeydl>,
     <abyssalcraft:dreadshard>,
     <ore:ingotDreadium>
+], true);
+
+GameStagesUtil.stageGatekeeper.addIngredients([
+    <additions:greedycraft-sanite_ore>
 ], true);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators"]);

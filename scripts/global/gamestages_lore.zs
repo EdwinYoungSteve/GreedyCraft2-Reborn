@@ -59,14 +59,14 @@ global gameStagesLore as string[][string][string][string] = {
             ]
         },
         wither_slayer: {
-            alias: ["凋零杀手"],
+            alias: ["凋灵杀手"],
             lore: [
-                "邪恶的灵魂已被击败，世界终于从凋零的命运中逃脱...",
+                "邪恶的灵魂已被击败，世界终于从凋灵的命运中逃脱...",
                 "终末之地的巨龙正在凝视着你的一举一动。"
             ],
             unlocks: [
                 "使用下界之星制作的物品",
-                "可以制作防凋零方块",
+                "可以制作防凋灵方块",
                 "可以制作末影护符"
             ]
         },
@@ -238,8 +238,9 @@ global gameStagesLore as string[][string][string][string] = {
                 "你开始探索物质间的奥秘。"
             ],
             unlocks: [
-                "核电工艺，量子块动力学",
-                "更高级的太阳能板",
+                "核电工艺，工业先锋！",
+                "更高级的发电装置",
+                "你开始受到核辐射！",
                 "六倍矿，七倍矿"
             ]
         },
@@ -281,10 +282,10 @@ global gameStagesLore as string[][string][string][string] = {
         descendant_of_the_sun: {
             alias: ["太阳的后裔"],
             lore: [
-                "你击败了太阳酋长，下界已经生成了一种新的炎热的金属。"
+                "你打破了挡在混沌守卫面前的最后一道屏障！全新的金属生成在了四个世界。"
             ],
             unlocks: [
-                "可以挖掘永燃矿"
+                "可以挖掘永燃、封晶、苍穹、等离子矿"
             ]
         },
         wand_blueprint: {
@@ -306,21 +307,33 @@ global gameStagesLore as string[][string][string][string] = {
             ]
         },
         laser_gun_blueprint: {
-            alias: ["悠悠球蓝图"],
+            alias: ["镭射枪蓝图"],
             lore: [
-                "解锁了悠悠球的制作配方。"
+                "解锁了镭射枪的制作配方。"
             ],
             unlocks: [
-                "可以制作并使用匠魂悠悠球"
+                "可以制作并使用匠魂镭射枪"
+            ]
+        },
+        tinkering_blueprint: {
+            alias: ["匠艺蓝图"],
+            lore: [
+                "解锁了一部分匠魂武器的制作配方。"
+            ],
+            unlocks: [
+                "可以制作战斧",
+                "可以制作海盗短弯刀",
+                "可以制作东方短弯刀",
+                "可以制作爆炸弓"
             ]
         },
         tactic_blueprint: {
             alias: ["战术蓝图"],
             lore: [
-                "解锁了大量匠魂武器的制作配方。"
+                "解锁了一部分匠魂武器的制作配方。"
             ],
             unlocks: [
-                "可以制作并使用匠魂劈刀",
+                "可以制作劈刀",
                 "可以制作长剑",
                 "可以制作武士刀",
                 "可以制作西洋剑"

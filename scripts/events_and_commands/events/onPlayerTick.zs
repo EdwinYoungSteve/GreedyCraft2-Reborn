@@ -34,6 +34,7 @@ import mods.ctintegration.advancement.IAdvancement;
 import mods.ctintegration.advancement.IAdvancementProgress;
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
+import mods.nuclearcraft.RadiationScrubber;
 
 val advancementMap as string[string] = {
     twilight_forest: "greedycraft:elysia/log1",
@@ -177,9 +178,14 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         }
     }
 
-    //删除梦魇世界物品
+    // Remove disabled items in vethea
     if (<ore:vetheaDisabled> in player.currentItem && player.getDimension() == 427) {
-            player.currentItem.mutable().shrink(64);
-            player.sendStatusMessage("此物品已经在梦魇世界被禁用！");
+        player.currentItem.mutable().shrink(64);
+        player.sendStatusMessage("此物品已经在梦魇世界被禁用！");
+    }
+
+    // Remove radiation if the stage is locked
+    if (!(player.hasGameStage("epic_engineer"))) {
+        player.setRadiation(0.0d);
     }
 });
