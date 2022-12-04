@@ -1,13 +1,13 @@
 {
 	title: "§b极光月之金属",
-	x: 2.5d,
-	y: 10.0d,
+	x: 7.0d,
+	y: 8.5d,
 	description: "获得皎月石锭",
 	text: [
 		""
 	],
 	dependencies: [
-		"0519d9cb"
+		"b25ef338"
 	],
 	tasks: [{
 		uid: "3abe5142",

@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xb4bb4e,
+    "langs": {
+        "material": {
+            "en": "Eugardite",
+            "zh": "神光合金"
+        }
+    }
+}

@@ -1,6 +1,6 @@
 {
 	title: "§b红色血锭",
-	x: -1.5d,
+	x: 0.0d,
 	y: 15.0d,
 	description: "获得惧质锭",
 	text: [

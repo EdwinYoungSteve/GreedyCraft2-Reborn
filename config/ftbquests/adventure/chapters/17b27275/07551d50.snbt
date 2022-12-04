@@ -1,0 +1,11 @@
+{
+	x: -4.5d,
+	y: 10.5d,
+	tasks: [{
+		uid: "4e1762d9",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:forbidden_fig"
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -4.5d,
+	y: 4.5d,
+	dependencies: [
+		"27de749c"
+	],
+	tasks: [{
+		uid: "42640e87",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b6a2d5d5",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 60"
+		}]
+	}]
+}

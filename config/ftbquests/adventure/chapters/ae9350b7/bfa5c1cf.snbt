@@ -19,6 +19,12 @@
 		xp: 100
 	},
 	{
+		uid: "4d2ccf2e",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 32
+	},
+	{
 		uid: "f374881c",
 		type: "item",
 		item: "minecraft:anvil"

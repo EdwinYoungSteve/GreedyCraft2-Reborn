@@ -117,8 +117,39 @@ GameStagesUtil.stageChaotic.addOreReplacement(<tiths:ore_prehnite>, <minecraft:s
 
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<nuclearcraft:ore:3>, <minecraft:stone>, false);
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<nuclearcraft:ore:4>, <minecraft:stone>, false);
-GameStagesUtil.stageEpicEngineer.addOreReplacement(<nuclearcraft:ore:5>, <minecraft:stone>, false);
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<netherendingores:ore_end_modded_1:12>, <minecraft:end_stone>, false);
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<netherendingores:ore_end_modded_1:13>, <minecraft:end_stone>, false);
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<netherendingores:ore_nether_modded_1:12>, <minecraft:netherrack>, false);
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<netherendingores:ore_nether_modded_1:13>, <minecraft:netherrack>, false);
+
+GameStagesUtil.stageMasterEngineer.addOreReplacement(<nuclearcraft:ore:5>, <minecraft:stone>, false);
+GameStagesUtil.stageMasterEngineer.addOreReplacement(<nuclearcraft:ore:6>, <minecraft:stone>, false);
+
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-fraxinium_ore>, <minecraft:stone>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-rubium_ore>, <minecraft:stone>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-cestium_ore>, <minecraft:stone>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-vanadium_ore>, <minecraft:stone>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-indium_ore>, <minecraft:stone>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-swinium_ore>, <minecraft:stone>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-gallium_ore>, <minecraft:packed_ice>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-xenidium_ore>, <minecraft:netherrack>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-lighteum_ore>, <minecraft:netherrack>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-rapesesium_ore>, <minecraft:netherrack>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-mangisite_ore>, <biomesoplenty:flesh>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-manarium_ore>, <minecraft:end_stone>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-breakium_ore>, <minecraft:end_stone>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-fenzium_ore>, <minecraft:end_stone>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-sissidium_ore>, <minecraft:end_stone>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-technetium_ore>, <minecraft:end_stone>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-soilium_ore>, <stygian:endobsidian>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-stripium_ore>, <abyssalcraft:stone:1>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-togrium_ore>, <abyssalcraft:stone:2>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-antimony_ore>, <abyssalcraft:stone:3>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-dimesium_ore>, <abyssalcraft:stone:6>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-yoggleseum_ore>, <abyssalcraft:stone:6>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-cloudite_ore>, <aether_legacy:holystone>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-molybdenum_ore>, <aether_legacy:holystone>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-dawnium_ore>, <gct_ores:reditrite_block>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-losessium_ore>, <gct_mobs:bloodyrock>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-oneo_ore>, <minecraft:bedrock>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:taigaddon-ttwo_ore>, <minecraft:bedrock>, false);

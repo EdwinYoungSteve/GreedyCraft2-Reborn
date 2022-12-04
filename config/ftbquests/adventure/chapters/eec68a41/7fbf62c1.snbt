@@ -1,0 +1,11 @@
+{
+	x: 17.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "d72401c2",
+		type: "item",
+		items: [{
+			item: "gct_mobs:orichalcos_dreamwood"
+		}]
+	}]
+}

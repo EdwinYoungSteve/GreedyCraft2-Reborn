@@ -99,6 +99,12 @@ FusionCrafting.add(<additions:greedycraft-blueprint_tactic>, <additions:greedycr
     <draconicevolution:draconium_ingot>,
     <draconicevolution:draconium_ingot>
 ]);
+FusionCrafting.add(<additions:greedycraft-blueprint_tinkering>, <additions:greedycraft-blueprint>, 0, 4000000, [ 
+    <ore:ingotWitherium>,
+    <ore:ingotWitherium>,
+    <ore:ingotWitherium>,
+    <ore:ingotWitherium>
+]);
 FusionCrafting.add(<draconicevolution:chaotic_core>, <draconicevolution:chaos_shard>, 2, 3145728000, [ 
     <tconevo:metal>,
     <tconevo:metal>,
@@ -168,12 +174,6 @@ FusionCrafting.add(<additions:greedycraft-creative_shard>, <draconicevolution:ch
     <additions:greedycraft-sand_of_time>,
     <additions:greedycraft-ancient_tome_page>,
     <additions:greedycraft-ancient_tome_page>
-]);
-FusionCrafting.add(<thaumcraft:primordial_pearl>, <thaumcraft:void_seed>, 0, 2048000, [
-    <biomesoplenty:terrestrial_artifact>,
-    <biomesoplenty:terrestrial_artifact>,
-    <thaumcraft:ingot>,
-    <thaumcraft:ingot:1>
 ]);
 FusionCrafting.add(<gct_ores:relifed_core>, <minecraft:nether_star>, 1, 393216000, [ 
     <ore:coreExcellent>,

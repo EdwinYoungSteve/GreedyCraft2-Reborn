@@ -98,6 +98,17 @@ InfusionRitual.addRitual("ancient_mud", 4, 53, 50000, true, <gct_aby:ancientmud>
     <gct_aby:shoggothtancale>
 ] as IIngredient[], false); 
 
+CreationRitual.addRitual("key_portal", 4, -1, 100010, false, <thebetweenlands:swamp_talisman>, [
+    <thebetweenlands:swamp_talisman:1>,
+    <gct_ores:door_key_empty>,
+    <thebetweenlands:swamp_talisman:2>,
+    <gct_ores:door_key_empty>,
+    <thebetweenlands:swamp_talisman:3>,
+    <gct_ores:door_key_empty>,
+    <thebetweenlands:swamp_talisman:4>,
+    <gct_ores:door_key_empty>
+], true);
+
 InfusionRitual.removeRitual(<ageofminecraft:fusionasorah>);
 InfusionRitual.removeRitual(<ageofminecraft:fusionchagaroth>);
 InfusionRitual.removeRitual(<ageofminecraft:fusionjzahar>);

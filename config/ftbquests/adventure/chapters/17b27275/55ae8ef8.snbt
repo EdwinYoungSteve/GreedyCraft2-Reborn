@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: 9.0d,
+	dependencies: [
+		"1df79aa4"
+	],
+	tasks: [{
+		uid: "114f1968",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:purified_swamp_dirt"
+		}]
+	}]
+}

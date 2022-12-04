@@ -1,0 +1,13 @@
+{
+	x: 1.5d,
+	y: 10.5d,
+	tasks: [{
+		uid: "43472f91",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:dentrothyst_shield_green"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "§b白银之心",
-	x: -6.0d,
-	y: 7.5d,
+	x: 6.0d,
+	y: -3.0d,
 	description: "合成奇怪的机械宝石",
 	text: [
 		""

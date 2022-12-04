@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xffc02d,
+    "langs": {
+        "material": {
+            "en": "Legendite",
+            "zh": "荣耀合金"
+        }
+    }
+}

@@ -1,13 +1,13 @@
 {
 	title: "§b拆除一切",
-	x: -13.5d,
-	y: 4.5d,
+	x: 30.0d,
+	y: 0.0d,
 	description: "获得毁灭扳手",
 	text: [
 		"材料可以在黑岩世界的箱子中找到"
 	],
 	dependencies: [
-		"c82e8f85"
+		"d7ea5b92"
 	],
 	tasks: [{
 		uid: "76ccf1ce",

@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: 4.5d,
+	dependencies: [
+		"27de749c"
+	],
+	tasks: [{
+		uid: "c53d756f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sickle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

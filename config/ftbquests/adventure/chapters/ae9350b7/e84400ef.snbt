@@ -7,10 +7,10 @@
 		""
 	],
 	tasks: [{
-		uid: "9d26ec54",
+		uid: "4da17c19",
 		type: "item",
 		items: [{
-			item: "demagnetize:demagnetizer"
+			item: "draconicevolution:item_dislocation_inhibitor"
 		}]
 	}],
 	rewards: [{

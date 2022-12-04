@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x2f57a1,
+    "langs": {
+        "material": {
+            "en": "Numbereum",
+            "zh": "数字合金"
+        }
+    }
+}

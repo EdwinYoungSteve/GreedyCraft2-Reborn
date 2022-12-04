@@ -1,0 +1,16 @@
+{
+	title: "§b为时未晚",
+	x: 0.0d,
+	y: 15.0d,
+	description: "合成终焉锭！",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d7b2d84b",
+		type: "item",
+		items: [{
+			item: "gct_ores:finallium_ingot"
+		}]
+	}]
+}

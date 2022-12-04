@@ -6,13 +6,6 @@
 	text: [
 		""
 	],
-	hide_dependency_lines: true,
-	dependencies: [
-		"f733f786",
-		"6f5dfb48",
-		"1c2598cb",
-		"ae88f53e"
-	],
 	tasks: [{
 		uid: "8cbced76",
 		type: "item",

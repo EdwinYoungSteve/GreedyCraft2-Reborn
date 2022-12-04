@@ -196,9 +196,4 @@ FusionCrafting.add(<additions:greedycraft-creative_shard>, <draconicevolution:ch
     <additions:greedycraft-ancient_tome_page>
 ]);
 
-FusionCrafting.add(<thaumcraft:primordial_pearl>, <thaumcraft:void_seed>, 0, 8192000, [
-    <biomesoplenty:terrestrial_artifact>,
-    <biomesoplenty:terrestrial_artifact>,
-    <thaumcraft:ingot>,
-    <thaumcraft:ingot:1>
-]);
+

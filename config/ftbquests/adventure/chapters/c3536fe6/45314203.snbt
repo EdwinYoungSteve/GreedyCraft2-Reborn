@@ -1,7 +1,7 @@
 {
 	title: "§b走到了这一步，就不能再回头",
-	x: -15.0d,
-	y: 3.0d,
+	x: 30.0d,
+	y: -3.0d,
 	shape: "pentagon",
 	description: "制作炫钢锭！",
 	text: [

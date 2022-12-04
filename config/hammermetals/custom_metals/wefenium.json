@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xf86cad,
+    "langs": {
+        "material": {
+            "en": "Wefenium",
+            "zh": "尖晶"
+        }
+    }
+}

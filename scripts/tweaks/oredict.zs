@@ -675,13 +675,15 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:oreRoot> : [<tiths:ore_tree_root>],
     <ore:oreUlun> : [<tiths:ore_ulun>],
     <ore:oreVibratingCrystal> : [<tiths:ore_vibrating_crystal>],
-    <ore:gemAquamarine> : [
-        <divinerpg:aquamarine>,
-        <atlantis:ingot_aquamarine>
-    ],
-    <ore:blockAquamarine> : [<atlantis:block_of_aquamarine>],
-    <ore:oreAquamarine> : [<atlantis:aquamarine_ore>],
-    <ore:blockGold> : [<atlantis:chiseled_golden_block>]
+    <ore:gemAquamarine> : [<divinerpg:aquamarine>],
+    <ore:ingotNeutronium> : [<avaritia:resource:4>],
+    <ore:blockNeutronium> : [<avaritia:block_resource>],
+    <ore:nuggetNeutronium> : [<avaritia:resource:3>],
+    <ore:blockPhotonium> : [<extrabotany:blockphotonium>],
+    <ore:blockGaia> : [<avaritiatweaks:gaia_block>],
+    <ore:treeSaplingLiving> : [<treetweaker:livingwood>],
+    <ore:treeSaplingDream> : [<treetweaker:dreamwood>],
+    <ore:treeSapling> : [<treetweaker:evileye>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

@@ -4,7 +4,7 @@ ofMipmapType:0
 ofOcclusionFancy:false
 ofSmoothFps:true
 ofSmoothWorld:true
-ofAoLevel:1.0
+ofAoLevel:0.5070422
 ofClouds:3
 ofCloudsHeight:0.0
 ofTrees:4
@@ -15,9 +15,9 @@ ofAnimatedLava:2
 ofAnimatedFire:true
 ofAnimatedPortal:true
 ofAnimatedRedstone:false
-ofAnimatedExplosion:true
-ofAnimatedFlame:true
-ofAnimatedSmoke:true
+ofAnimatedExplosion:false
+ofAnimatedFlame:false
+ofAnimatedSmoke:false
 ofVoidParticles:false
 ofWaterParticles:false
 ofPortalParticles:false

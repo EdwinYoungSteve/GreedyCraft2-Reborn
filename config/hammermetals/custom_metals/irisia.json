@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xf7e5b7,
+    "langs": {
+        "material": {
+            "en": "Irisia",
+            "zh": "艾瑞西亚"
+        }
+    }
+}

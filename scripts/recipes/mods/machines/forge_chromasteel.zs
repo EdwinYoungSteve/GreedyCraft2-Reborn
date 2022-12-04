@@ -34,6 +34,10 @@ MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromastee
         speed: 0.15,
         energy: 0.2
     },
+    <tconevo:metal:25> : {
+        speed: 0.1,
+        energy: 0.2
+    }, 
     <additions:greedycraft-catalyst_star> : {
         speed: 0.5,
         energy: 0.5
@@ -62,7 +66,7 @@ MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromastee
         speed: 0.1,
         energy: 0.1
     }, 
-    <thaumadditions:mithminite_ingot> : {
+    <thaumadditions:mithrillium_ingot> : {
         speed: 0.2,
         energy: 0.2
     }, 

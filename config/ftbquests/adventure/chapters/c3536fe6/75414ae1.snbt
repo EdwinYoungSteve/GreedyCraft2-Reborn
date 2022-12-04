@@ -1,13 +1,13 @@
 {
 	title: "§b极寒与永昼",
-	x: -3.0d,
-	y: 7.5d,
+	x: 6.0d,
+	y: -7.5d,
 	description: "访问永昼之地",
 	text: [
 		""
 	],
 	dependencies: [
-		"c18cb969"
+		"8d4e1699"
 	],
 	tasks: [{
 		uid: "4f921978",

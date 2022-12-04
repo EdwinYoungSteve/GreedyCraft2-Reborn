@@ -1,7 +1,7 @@
 {
     "registryname": "mek_changer",
     "localizedname": "MEK气液转换机",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "color": "584841",
     "failure-action": "still",
     "parts": [

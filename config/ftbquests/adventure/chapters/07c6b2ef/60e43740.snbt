@@ -4,7 +4,6 @@
 	tasks: [{
 		uid: "2eac2a52",
 		type: "gamestage",
-		title: "在【科技·肆】处取得进展",
-		stage: "godlike_engineer"
+		stage: "epic_engineer"
 	}]
 }

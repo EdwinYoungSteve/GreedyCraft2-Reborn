@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x7ced6f,
+    "langs": {
+        "material": {
+            "en": "Chloroplast",
+            "zh": "叶绿"
+        }
+    }
+}

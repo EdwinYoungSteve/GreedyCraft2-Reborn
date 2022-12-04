@@ -22,6 +22,15 @@ ElvenTrade.addRecipe([<defiledlands:scarlite>], [<ore:slimeballBlood>, <ore:gemE
 ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<ore:gemQuartz>, <ore:coal>]);
 ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<ore:gemQuartz>, <ore:charcoal>]);
 ElvenTrade.addRecipe([<minecraft:gold_block>], [<ore:shardTime>]);
+ElvenTrade.addRecipe([<gct_mobs:alfheim>], [<botania:twigwand>, <extrabotany:cosmetic:8>]);
+ElvenTrade.addRecipe([<gct_mobs:dreamwood_log>], [<ore:logWoodLiving>]);
+ElvenTrade.addRecipe([<gct_mobs:dreamwood_leaves>], [<ore:treeLeavesLiving>]);
+ElvenTrade.addRecipe([<gct_mobs:alf_stone>], [<ore:stoneMana>]);
+ElvenTrade.addRecipe([<gct_mobs:alf_cobble_stone>], [<ore:cobblestoneMana>]);
+ElvenTrade.addRecipe([<gct_mobs:alf_dirt>], [<ore:dirtMana>]);
+ElvenTrade.addRecipe([<gct_mobs:alf_grass>], [<ore:grassMana>]);
+ElvenTrade.addRecipe([<gct_mobs:elementium_ore>], [<ore:oreManasteel>, <ore:oreManasteel>]);
+ElvenTrade.addRecipe([<treetweaker:dreamwood>], [<treetweaker:livingwood>]);
 
 Apothecary.addRecipe(<additions:greedycraft-bag_of_dyes>, [<ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>, <ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>]);
 
@@ -45,6 +54,7 @@ RuneAltar.addRecipe(<additions:botaniaddon-haniel_rune> * 2, [<botania:rune:10>,
 RuneAltar.addRecipe(<additions:botaniaddon-raphael_rune> * 2, [<botania:rune:15>, <botania:rune:9>, <botania:rune:10>, <ore:ingotOrichalcos>, <ore:ingotAeroite>, <aether_legacy:ambrosium_shard>], 50000);
 RuneAltar.addRecipe(<additions:botaniaddon-gabriel_rune> * 2, [<botania:rune:13>, <botania:rune:14>, <botania:rune:12>, <ore:ingotOrichalcos>, <ore:ingotAurorianSteel>, <ore:ingotManyullyn>], 50000);
 RuneAltar.addRecipe(<additions:botaniaddon-sandalphon_rune> * 2, [<botania:rune:11>, <botania:rune:10>, <botania:rune:14>, <ore:ingotOrichalcos>, <ore:ingotEezo>, <ore:ingotTerrax>], 50000);
+RuneAltar.addRecipe(<gct_mobs:orichalcos_dreamwood>, [<botania:dreamwood:5>, <ore:ingotOrichalcos>, <ore:ingotEugardite>, <ore:nuggetCosmilite>], 100000);
 
 RuneAltar.removeRecipe(<extrabotany:material:5>);
 
@@ -65,6 +75,7 @@ ManaInfusion.addInfusion(<gct_mobs:mana_cobble_stone>, <ore:cobblestone>, 1000);
 ManaInfusion.addInfusion(<gct_mobs:mana_dirt>, <ore:dirt>, 1000);
 ManaInfusion.addInfusion(<gct_mobs:mana_grass>, <ore:grass>, 1000);
 ManaInfusion.addInfusion(<botania:livingwood>, <gct_mobs:livingwood_log>, 0);
+ManaInfusion.addInfusion(<botania:dreamwood>, <gct_mobs:dreamwood_log>, 0);
 ManaInfusion.addInfusion(<additions:botaniaddon-manasteel_ore>, <ore:oreIron>, 8000);
 ManaInfusion.addInfusion(<additions:botaniaddon-manadiamond_ore>, <ore:oreDiamond>, 20000);
 ManaInfusion.addInfusion(<additions:botaniaddon-manaquartz_ore>, <ore:oreQuartz>, 500);

@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x000079,
+    "langs": {
+        "material": {
+            "en": "Rainite",
+            "zh": "暴雨合金"
+        }
+    }
+}

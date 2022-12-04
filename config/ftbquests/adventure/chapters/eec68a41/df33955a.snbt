@@ -4,7 +4,6 @@
 	tasks: [{
 		uid: "35a8d2a0",
 		type: "gamestage",
-		title: "在【冒险·叁】处取得进展",
 		stage: "hardmode"
 	}]
 }

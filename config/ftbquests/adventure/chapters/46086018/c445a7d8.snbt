@@ -1,13 +1,15 @@
 {
 	title: "§b变变变！",
-	x: -3.0d,
-	y: 4.5d,
+	x: -12.0d,
+	y: 10.5d,
 	description: "合成嬗变宝石",
 	text: [
 		""
 	],
 	dependencies: [
-		"2cfae3d2"
+		"5315ce19",
+		"822ac88f",
+		"245e74f5"
 	],
 	tasks: [{
 		uid: "564557df",

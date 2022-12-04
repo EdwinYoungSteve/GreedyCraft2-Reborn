@@ -203,3 +203,30 @@ fluorine.setNeedBucket(true);
 fluorine.setNeedFluid(false);
 fluorine.setIcon("blocks/gas_clear");
 fluorine.register();
+
+var hydrogenfluoride = GasFactory.createGas("hydrogenfluoride");
+hydrogenfluoride.setUnlocalizedName("hydrogenfluoride");
+hydrogenfluoride.setColorize(true);
+hydrogenfluoride.setColor(0x8abec0);
+hydrogenfluoride.setNeedBucket(true);
+hydrogenfluoride.setNeedFluid(false);
+hydrogenfluoride.setIcon("blocks/gas_clear");
+hydrogenfluoride.register();
+
+var ammonia = GasFactory.createGas("ammonia");
+ammonia.setUnlocalizedName("ammonia");
+ammonia.setColorize(true);
+ammonia.setColor(0x728f81);
+ammonia.setNeedBucket(true);
+ammonia.setNeedFluid(false);
+ammonia.setIcon("blocks/gas_clear");
+ammonia.register();
+
+var sodiumhydroxide = GasFactory.createGas("sodiumhydroxide");
+sodiumhydroxide.setUnlocalizedName("sodiumhydroxide");
+sodiumhydroxide.setColorize(true);
+sodiumhydroxide.setColor(0xa49a9e);
+sodiumhydroxide.setNeedBucket(true);
+sodiumhydroxide.setNeedFluid(false);
+sodiumhydroxide.setIcon("blocks/gas_clear");
+sodiumhydroxide.register();

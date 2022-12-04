@@ -1,0 +1,21 @@
+{
+	x: -10.5d,
+	y: 6.0d,
+	dependencies: [
+		"bc81a549"
+	],
+	tasks: [{
+		uid: "2c823774",
+		type: "item",
+		items: [{
+			item: "additions:taigaddon-overlaite_ingot"
+		}]
+	},
+	{
+		uid: "02db1c76",
+		type: "item",
+		items: [{
+			item: "additions:taigaddon-flashite_ingot"
+		}]
+	}]
+}

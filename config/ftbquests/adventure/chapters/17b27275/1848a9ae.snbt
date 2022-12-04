@@ -1,0 +1,56 @@
+{
+	x: -4.5d,
+	y: 9.0d,
+	dependencies: [
+		"00327d8a"
+	],
+	tasks: [{
+		uid: "ecc275a2",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 55"
+		}]
+	},
+	{
+		uid: "da792a40",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 57"
+		}]
+	},
+	{
+		uid: "9a78190c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 52"
+		}]
+	},
+	{
+		uid: "7e506415",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 53"
+		}]
+	},
+	{
+		uid: "fcc641ee",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 54"
+		}]
+	},
+	{
+		uid: "e28b9927",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:anadia_meat_raw"
+		}]
+	},
+	{
+		uid: "1818db82",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 56"
+		}]
+	}]
+}

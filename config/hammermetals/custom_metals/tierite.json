@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x6296ad,
+    "langs": {
+        "material": {
+            "en": "Tierite",
+            "zh": "缠绕合金"
+        }
+    }
+}

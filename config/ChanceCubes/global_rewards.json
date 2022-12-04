@@ -165,7 +165,7 @@
     "chancecubes:chunk_flip": true,
     "chancecubes:ore_sphere": true,
     "chancecubes:raining_potions": true,
-    "chancecubes:fluid_sphere": true,
+    "chancecubes:fluid_sphere": false,
     "chancecubes:mixed_fluid_sphere": false,
     "chancecubes:firework_show": true,
     "chancecubes:sphere_snake": true,

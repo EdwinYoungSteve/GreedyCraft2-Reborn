@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x14d489,
+    "langs": {
+        "material": {
+            "en": "Celestium",
+            "zh": "天青"
+        }
+    }
+}

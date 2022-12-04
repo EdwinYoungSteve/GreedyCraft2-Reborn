@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x48385f,
+    "langs": {
+        "material": {
+            "en": "Ghostite",
+            "zh": "鬼金"
+        }
+    }
+}

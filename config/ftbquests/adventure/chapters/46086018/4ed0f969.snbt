@@ -1,7 +1,7 @@
 {
 	title: "§b冰雪飘零卷轴",
-	x: 0.0d,
-	y: 10.5d,
+	x: -1.5d,
+	y: 7.5d,
 	description: "合成冰纹卷轴",
 	text: [
 		""

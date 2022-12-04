@@ -1,7 +1,7 @@
 {
 	title: "§b混沌分裂者",
-	x: -15.0d,
-	y: 1.5d,
+	x: 28.0d,
+	y: -3.0d,
 	shape: "gear",
 	description: "击杀混沌守卫，获得混沌碎片",
 	text: [

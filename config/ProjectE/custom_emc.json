@@ -631,6 +631,10 @@
     {
       "item": "mekanism:ingot|0",
       "emc": 16
+    },
+    {
+      "item": "additions:protonium_ingot|0",
+      "emc": 4200000
     }
   ]
 }

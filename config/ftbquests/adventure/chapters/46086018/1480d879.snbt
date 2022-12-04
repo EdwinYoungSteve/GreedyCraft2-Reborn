@@ -1,13 +1,13 @@
 {
 	title: "§b神奇之物",
-	x: -1.5d,
-	y: 4.5d,
+	x: -9.0d,
+	y: 10.5d,
 	description: "制作湮灭媒介",
 	text: [
 		""
 	],
 	dependencies: [
-		"c445a7d8"
+		"2cfae3d2"
 	],
 	tasks: [{
 		uid: "24d0b522",

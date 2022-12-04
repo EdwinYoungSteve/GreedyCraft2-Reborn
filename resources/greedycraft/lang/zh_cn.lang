@@ -1,4 +1,22 @@
 #PARSE_ESCAPES
+
+item.jaopca.radiation.name=%s放射物
+item.jaopca.pured.name=%s纯净物
+item.jaopca.compound.name=%s化合物
+
+tile.gct_mac.atomic_viberator.name=原子振荡机
+tile.gct_mac.atomic_decayer.name=原子衰变机
+tile.gct_mac.atomic_acider.name=原子酸腐机
+gct_mac.atomic_viberator.description=单方块机器
+gct_mac.atomic_decayer.description=单方块机器
+gct_mac.atomic_acider.description=单方块机器
+multiblocked.recipe_map.ore_to_radiation=中子灌注诱导
+multiblocked.recipe_map.radiation_to_pured=电子衰变增速
+multiblocked.recipe_map.pured_to_compound=质子络合酸蚀
+atomic_viberator.name=原子振荡机
+atomic_decayer.name=原子衰变机
+atomic_acider.name=原子酸腐机
+
 greedycraft.language=zh_cn
 
 greedycraft.armor_trait.tooltip.damage_reduction=§9伤害减免：%s%%
@@ -346,7 +364,7 @@ greedycraft.tconstruct.tool_trait.halloweenTrait.desc=§o不给糖就让你好�
 greedycraft.tconstruct.tool_trait.halloweenTrait.name=万圣节
 greedycraft.tconstruct.tool_trait.holdGroundTrait.desc=§o我们已经无路可退！§r\n§f手持该工具潜行时提高造成的伤害且在格挡时获得力量效果！
 greedycraft.tconstruct.tool_trait.holdGroundTrait.name=坚守阵地
-greedycraft.tconstruct.tool_trait.knowledgefulTrait.desc=§o知识就是力量！§r\n§f根据攻击者的经验等级提升伤害。最高300级！
+greedycraft.tconstruct.tool_trait.knowledgefulTrait.desc=§o知识就是力量！§r\n§f根据攻击者的经验等级提升伤害。最高1000级！
 greedycraft.tconstruct.tool_trait.knowledgefulTrait.name=知识之力
 greedycraft.tconstruct.tool_trait.levelingdamageTrait.desc=§o我要变得更强！§r\n§f随着工具等级的提升获得越来越高的攻击力。
 greedycraft.tconstruct.tool_trait.levelingdamageTrait.name=等级伤害
@@ -1679,6 +1697,9 @@ greedycraft.tips.140=地下可以发现藏着宝藏的瓦瓮，但是小心有�
 greedycraft.tips.141=射击时请瞄准怪物的头部，爆头可以造成更多伤害！当然，怪物也能爆头你。好的头盔可以减少或完全免除爆头的额外伤害。
 greedycraft.tips.142=如果背景音乐长时间停止播放，请按Alt+小键盘上的-键来重载动态音乐。
 greedycraft.tips.143=你可以将各种稀奇古怪的石头放进固体离心机里，有可能得到十分稀有的物品！
+greedycraft.tips.144=mc_Edwin：这是我写的第一个tip哦！
+greedycraft.tips.145=当你未解锁epic_engineer阶段时，你不会受到辐射。
+greedycraft.tips.146=作者很喜欢化学元素，所以在游戏里做了元素周期表。
 
 greedycraft.menu.modlist=模组列表
 greedycraft.menu.official_site=前往官网（整合包暂无官网）

@@ -1,13 +1,13 @@
 {
 	title: "§bLocater！",
-	x: 1.0d,
+	x: 8.5d,
 	y: 8.5d,
 	description: "获得地牢定位器，用于定位极光幽境地牢",
 	text: [
 		""
 	],
 	dependencies: [
-		"0519d9cb"
+		"12771dfa"
 	],
 	tasks: [{
 		uid: "9d63906b",

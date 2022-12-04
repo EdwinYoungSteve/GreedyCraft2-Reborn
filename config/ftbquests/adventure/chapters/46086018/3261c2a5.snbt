@@ -1,13 +1,14 @@
 {
 	title: "§b这只是个门钥匙",
 	x: 0.0d,
-	y: 6.0d,
+	y: 4.5d,
 	description: "制作雪花球",
 	text: [
 		""
 	],
 	dependencies: [
-		"792ea1ae"
+		"792ea1ae",
+		"3bc23766"
 	],
 	tasks: [{
 		uid: "457de3c2",

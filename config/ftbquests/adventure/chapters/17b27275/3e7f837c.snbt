@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 6.0d,
+	dependencies: [
+		"527a574f"
+	],
+	tasks: [{
+		uid: "7a224868",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mortar"
+		}]
+	}]
+}

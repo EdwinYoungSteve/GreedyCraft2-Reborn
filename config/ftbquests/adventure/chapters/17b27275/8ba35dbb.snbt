@@ -1,0 +1,11 @@
+{
+	x: 8.5d,
+	y: 12.0d,
+	tasks: [{
+		uid: "14a3f934",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:spirit_fruit"
+		}]
+	}]
+}

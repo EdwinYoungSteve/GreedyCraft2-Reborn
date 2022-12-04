@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x94a25d,
+    "langs": {
+        "material": {
+            "en": "Orbadite",
+            "zh": "磷铁"
+        }
+    }
+}

@@ -1,7 +1,7 @@
 {
 	title: "§b吞噬灵魂",
-	x: -7.5d,
-	y: 9.0d,
+	x: 12.0d,
+	y: -1.5d,
 	description: "合成诅咒：噬魂",
 	text: [
 		""

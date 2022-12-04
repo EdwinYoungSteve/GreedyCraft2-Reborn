@@ -1,6 +1,6 @@
 {
 	title: "§b飞龙之力",
-	x: -13.5d,
+	x: 19.5d,
 	y: -3.0d,
 	shape: "gear",
 	description: "制作飞龙核心以及堕落核心！",
@@ -8,7 +8,7 @@
 		""
 	],
 	dependencies: [
-		"4cfe187d"
+		"6b11e765"
 	],
 	tasks: [{
 		uid: "9cb4d285",

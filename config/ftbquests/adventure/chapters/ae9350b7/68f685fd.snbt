@@ -22,5 +22,11 @@
 		uid: "46cfa0ab",
 		type: "random",
 		table: 2
+	},
+	{
+		uid: "70e477e4",
+		type: "item",
+		item: "storagedrawers:upgrade_creative",
+		count: 4
 	}]
 }

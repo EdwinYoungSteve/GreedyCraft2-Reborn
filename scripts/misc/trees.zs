@@ -48,3 +48,15 @@ livingwood.setBaseBlock("gct_mobs:mana_grass");
 livingwood.setDimWhitelist(0);
 livingwood.addSapling();
 livingwood.register();
+
+var dreamwood = TreeFactory.createTree("dreamwood");
+dreamwood.setTreeType("OAK");
+dreamwood.setLog("gct_mobs:dreamwood_log");
+dreamwood.setLeaf("gct_mobs:dreamwood_leaves");
+dreamwood.setMinHeight(4);
+dreamwood.setExtraHeight(1);
+dreamwood.setGenFrequency(1);
+dreamwood.setGenAttempts(2);
+dreamwood.extraThick = false;
+dreamwood.addSapling();
+dreamwood.register();

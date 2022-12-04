@@ -2,12 +2,13 @@
 	title: "§b关于我转生成……",
 	icon: "additions:greedycraft-slime_crown",
 	x: 1.5d,
-	y: 4.5d,
+	y: 3.0d,
 	description: "使用史莱姆皇冠召唤并击杀史莱姆之神",
 	text: [
 		""
 	],
 	dependencies: [
+		"bf9fcb24",
 		"89d26b2d"
 	],
 	tasks: [{

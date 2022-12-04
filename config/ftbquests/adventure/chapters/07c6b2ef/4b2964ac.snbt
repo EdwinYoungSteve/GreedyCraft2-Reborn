@@ -4,7 +4,6 @@
 	tasks: [{
 		uid: "1de83d6d",
 		type: "gamestage",
-		title: "在【科技·叁】处取得进展",
 		stage: "master_engineer"
 	}]
 }

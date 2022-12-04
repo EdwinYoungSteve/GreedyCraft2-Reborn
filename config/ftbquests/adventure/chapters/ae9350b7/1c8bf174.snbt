@@ -20,6 +20,11 @@
 		count: 16
 	},
 	{
+		uid: "5509b0a6",
+		type: "item",
+		item: "cookingforblockheads:sink"
+	},
+	{
 		uid: "b144a506",
 		type: "random",
 		table: 1

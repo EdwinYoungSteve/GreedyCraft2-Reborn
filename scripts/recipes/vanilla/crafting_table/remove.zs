@@ -13,6 +13,7 @@ import crafttweaker.item.IIngredient;
 import scripts.util.recipes as RecipeUtil;
 
 val removedRecipes as IIngredient[] = [
+    <extendedcrafting:compressor>,
     <oeintegration:excavatemodifier>,
     <projecte:item.pe_philosophers_stone>,
     <projecte:transmutation_table>,
@@ -468,7 +469,11 @@ val removedRecipes as IIngredient[] = [
     <divinerpg:shadow_bar>,
     <bountifulbaubles:reforger>,
     <projecte:item.pe_hyperkinetic_lens>,
-    <projecte:item.pe_destruction_catalyst>
+    <projecte:item.pe_destruction_catalyst>,
+    <thebetweenlands:bl_bucket_plant_tonic>,
+    <thebetweenlands:amulet>,
+    <thebetweenlands:purifier>,
+    <thebetweenlands:bl_bucket_plant_tonic:1>
 ];
 
 val removedRecipeNames as string[] = [
@@ -505,7 +510,15 @@ val removedRecipeNames as string[] = [
     "extendedcrafting:crafting_component_ultimate",
     "extendedcrafting:crafting_component_crystaltine",
     "tiths:withering_essence_2_witherium",
-    "ageofminecraft:command_block"
+    "ageofminecraft:command_block",
+    "evilcraft:primed_pendant",
+    "thebetweenlands:purifier",
+    "thebetweenlands:recipe_mummy_bait",
+    "thebetweenlands:recipe_plant_tonic_syrmorite",
+    "thebetweenlands:recipe_plant_tonic_weedwood",
+    "thebetweenlands:amate_map_green",
+    "thebetweenlands:amate_map_aqua",
+    "thebetweenlands:amate_map_crimson"
 ];
 
 for ingredient in removedRecipes {

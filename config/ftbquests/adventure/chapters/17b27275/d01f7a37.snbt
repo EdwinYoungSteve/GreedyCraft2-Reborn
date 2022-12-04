@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: 10.5d,
+	dependencies: [
+		"7f253db5",
+		"3ffe3291"
+	],
+	tasks: [{
+		uid: "1a5eb852",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:bl_bucket_plant_tonic",
+			tag: {
+				usages: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

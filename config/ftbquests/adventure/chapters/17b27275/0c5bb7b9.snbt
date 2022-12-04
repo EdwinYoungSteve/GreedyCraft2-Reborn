@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: 7.5d,
+	dependencies: [
+		"1446efde",
+		"6961c4f8",
+		"393e51bc",
+		"3e7f837c"
+	],
+	tasks: [{
+		uid: "71d85593",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:manual_hl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

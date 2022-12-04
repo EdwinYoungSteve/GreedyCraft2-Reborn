@@ -30,6 +30,9 @@ recipes.addShaped(<gct_ores:stormy_shard_block> * 1, [[<gct_ores:stormy_shard>, 
 recipes.remove(<gct_ores:stormy_shard>);
 recipes.addShaped(<gct_ores:stormy_shard> * 9, [[<gct_ores:stormy_shard_block>, null, null], [null, null, null],[null, null, null]]);
 
+recipes.addShapeless(<mist:portal_base:2>,[<additions:greedycraft-aeonsteel_block>,<minecraft:mossy_cobblestone>]);
+recipes.addShapeless(<mist:portal_base:3>,[<additions:greedycraft-aeonsteel_block>,<astralsorcery:blockmarble>]);
+
 RecipeUtil.addShapeless("star_1", <additions:greedycraft-canopy_star>, 
     [<additions:greedycraft-broken_canopy_star>, <additions:greedycraft-canopy_seed>]
 );
@@ -41,9 +44,6 @@ RecipeUtil.addShapeless("star_3", <additions:greedycraft-ice_star>,
 );
 RecipeUtil.addShapeless("vethea_crafting_table", <minecraft:crafting_table> * 1,
     [<ore:logWoodVethea>]
-);
-RecipeUtil.addShapeless("aquamarine_gold", <atlantis:chiseled_golden_aquamarine> * 1,
-    [<atlantis:chiseled_golden_block>, <ore:gemAquamarine>]
 );
 RecipeUtil.addShapeless("web_to_string", <minecraft:string> * 2,
     [<minecraft:web>]

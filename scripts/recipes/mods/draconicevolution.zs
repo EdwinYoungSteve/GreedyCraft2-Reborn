@@ -246,3 +246,9 @@ FusionCrafting.add(<extendedcrafting:material:18>, <extendedcrafting:material:2>
     <extendedcrafting:material:7>,
     <extendedcrafting:material:7>
 ]);
+
+/*
+FusionCrafting.add(<moretcon:repitemferroherb> * 4, <>, 1, 10240000, [
+
+]);
+*/

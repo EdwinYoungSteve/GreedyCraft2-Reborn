@@ -1,13 +1,13 @@
 {
 	title: "§b狡兔三窟",
-	x: 1.0d,
-	y: 13.0d,
+	x: 13.0d,
+	y: 8.5d,
 	description: "进入月宫，击杀皎月女王",
 	text: [
 		""
 	],
 	dependencies: [
-		"699b6d00"
+		"f594be35"
 	],
 	tasks: [{
 		uid: "9089a102",

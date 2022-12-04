@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x141414,
+    "langs": {
+        "material": {
+            "en": "Errorite",
+            "zh": "错误合金"
+        }
+    }
+}

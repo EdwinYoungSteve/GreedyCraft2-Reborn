@@ -1,7 +1,7 @@
 {
 	title: "§b黑暗将至",
-	x: -6.0d,
-	y: 10.5d,
+	x: 9.0d,
+	y: -3.0d,
 	description: "合成噬渊结界石，使用阴暗宝石激活传送门",
 	text: [
 		""
@@ -16,6 +16,14 @@
 		items: [{
 			item: "journey:depthsportalframe"
 		}]
+	},
+	{
+		uid: "2a4a177e",
+		type: "item",
+		items: [{
+			item: "journey:darkgem"
+		}],
+		count: 12L
 	}],
 	rewards: [{
 		uid: "23d60791",

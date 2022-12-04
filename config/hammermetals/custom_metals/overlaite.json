@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x480c13,
+    "langs": {
+        "material": {
+            "en": "Overlaite",
+            "zh": "叠金"
+        }
+    }
+}

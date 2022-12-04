@@ -1,13 +1,13 @@
 {
 	title: "§b闹眼睛的世界？",
-	x: -1.5d,
+	x: 0.0d,
 	y: 13.5d,
 	description: "使用阿索拉的恐惧之门钥匙，进入恐惧之地",
 	text: [
 		"你需要制作出勇气之证，方能前往恐惧之地"
 	],
 	dependencies: [
-		"bcc4a97a"
+		"313fdb8d"
 	],
 	tasks: [{
 		uid: "258dd736",

@@ -1,0 +1,16 @@
+{
+	x: -1.5d,
+	y: 9.0d,
+	dependencies: [
+		"a50d8053"
+	],
+	tasks: [{
+		uid: "a15aed8d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mire_snail_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

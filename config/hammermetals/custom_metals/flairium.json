@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x897156,
+    "langs": {
+        "material": {
+            "en": "Flairium",
+            "zh": "暗金"
+        }
+    }
+}

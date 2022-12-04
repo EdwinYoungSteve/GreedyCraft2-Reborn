@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: 7.5d,
+	dependencies: [
+		"37b7277d"
+	],
+	tasks: [{
+		uid: "ec531bee",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:critter",
+			tag: {
+				Entity: {
+					id: "thebetweenlands:gecko"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 9.0d,
+	dependencies: [
+		"a50d8053"
+	],
+	tasks: [{
+		uid: "41453021",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:olm_egg_raw"
+		}]
+	}]
+}

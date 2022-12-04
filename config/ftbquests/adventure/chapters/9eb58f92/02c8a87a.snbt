@@ -1,0 +1,14 @@
+{
+	x: -15.5d,
+	y: -5.0d,
+	dependencies: [
+		"79d68516"
+	],
+	tasks: [{
+		uid: "27a47fc8",
+		type: "item",
+		items: [{
+			item: "modularcontroller:air_collector_controller"
+		}]
+	}]
+}

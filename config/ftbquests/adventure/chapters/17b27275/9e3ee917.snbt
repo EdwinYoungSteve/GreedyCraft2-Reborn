@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: 9.0d,
+	dependencies: [
+		"00327d8a"
+	],
+	tasks: [{
+		uid: "396f6df3",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:rock_snot_pearl"
+		}]
+	}]
+}

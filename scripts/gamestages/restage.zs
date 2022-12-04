@@ -122,7 +122,10 @@ GameStagesUtil.restageItems("wyvern", [
     <ore:blockCosmicNeutronium>
 ] as IIngredient[]);
 GameStagesUtil.restageItem("awakened", <avaritia:neutronium_compressor>);
-GameStagesUtil.restageItem("hardmode", <cyclicmagic:block_disenchanter>);
+GameStagesUtil.restageItems("hardmode", [
+    <cyclicmagic:block_disenchanter>,
+    <extendedcrafting:storage:2>
+]);
 GameStagesUtil.restageItem("fusion_matrix", <cyclicmagic:ender_lightning>);
 GameStagesUtil.restageItems("graduated", [
     <cyclicmagic:battery_infinite>,
@@ -131,7 +134,45 @@ GameStagesUtil.restageItems("graduated", [
     <projectex:final_star>,
     <draconicevolution:creative_exchanger>
 ]);
-GameStagesUtil.restageItem("skilled_engineer", <cyclicmagic:harvester_block>);
+GameStagesUtil.restageItems("master_engineer", [
+    <cyclicmagic:harvester_block>,
+    <nuclearcraft:centrifuge>,
+    <nuclearcraft:manufactory>,
+    <nuclearcraft:infuser>,
+    <nuclearcraft:melter>,
+    <nuclearcraft:supercooler>,
+    <nuclearcraft:electrolyzer>,
+    <nuclearcraft:pressurizer>,
+    <nuclearcraft:chemical_reactor>,
+    <nuclearcraft:salt_mixer>,
+    <nuclearcraft:crystallizer>,
+    <nuclearcraft:enricher>,
+    <nuclearcraft:compound:5>,
+    <nuclearcraft:part:10>,
+    <nuclearcraft:part:8>,
+    <nuclearcraft:part:4>,
+    <nuclearcraft:part:1>,
+    <nuclearcraft:part>,
+    <nuclearcraft:alloy:1>,
+    <nuclearcraft:ingot:6>,
+    <nuclearcraft:alloy:6>,
+    <nuclearcraft:ingot:5>,
+    <nuclearcraft:part:7>,
+    <nuclearcraft:alloy:3>,
+    <nuclearcraft:part:9>,
+    <nuclearcraft:alloy:2>,
+    <ore:ingotLithium>,
+    <ore:oreLithium>,
+    <ore:blockLithium>,
+    <ore:dustLithium>,
+    <ore:ingotBoron>,
+    <ore:oreBoron>,
+    <ore:blockBoron>,
+    <ore:dustBoron>,
+    <ore:ingotFerroboron>,
+    <ore:ingotTough>,
+    <ore:ingotHardCarbon>
+] as IIngredient[]);
 GameStagesUtil.restageItems("energy_matter_core", [
     <projectex:stone_table>,
     <projectex:arcane_tablet>,
@@ -141,4 +182,11 @@ GameStagesUtil.restageItems("energy_matter_core", [
     <projectex:matter:*>,
     <projecte:condenser_mk1>,
     <projecte:condenser_mk2>
+] as IIngredient[]);
+GameStagesUtil.restageItems("epic_engineer", [
+    <mekanismgenerators:generator:10>,
+    <mekanismgenerators:generator:11>,
+    <mekanismgenerators:generator:12>,
+    <mekanismgenerators:generator:7>,
+    <mekanismgenerators:turbineblade>
 ] as IIngredient[]);

@@ -1,13 +1,13 @@
 {
 	title: "§b我乃极光",
-	x: 2.5d,
-	y: 11.5d,
+	x: 16.0d,
+	y: 8.5d,
 	description: "制作极光钢锭，极光幽境的终极合金",
 	text: [
 		""
 	],
 	dependencies: [
-		"12771dfa"
+		"d39ab3f7"
 	],
 	tasks: [{
 		uid: "b89df92d",

@@ -1,6 +1,6 @@
 {
 	title: "§b炽热之光",
-	x: -13.5d,
+	x: 21.5d,
 	y: -1.5d,
 	description: "合成太阳图腾，用于召唤太阳酋长",
 	text: [
@@ -26,11 +26,6 @@
 		uid: "246e6a5c",
 		type: "item",
 		item: "minecraft:totem_of_undying"
-	},
-	{
-		uid: "c15d93ae",
-		type: "item",
-		item: "taiga:solarium_block"
 	},
 	{
 		uid: "5205beef",

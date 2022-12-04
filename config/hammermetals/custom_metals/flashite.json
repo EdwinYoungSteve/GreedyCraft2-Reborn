@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x71716d,
+    "langs": {
+        "material": {
+            "en": "Flashite",
+            "zh": "闪金"
+        }
+    }
+}

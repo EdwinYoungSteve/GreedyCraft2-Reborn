@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xcb8cff,
+    "langs": {
+        "material": {
+            "en": "Twilit",
+            "zh": "暮晶"
+        }
+    }
+}

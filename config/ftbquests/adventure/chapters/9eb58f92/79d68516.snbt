@@ -1,0 +1,14 @@
+{
+	x: -15.5d,
+	y: -6.5d,
+	dependencies: [
+		"d4b04b65"
+	],
+	tasks: [{
+		uid: "d76faaf5",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:nitrogen_collector"
+		}]
+	}]
+}

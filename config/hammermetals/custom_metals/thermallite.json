@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xace7f7,
+    "langs": {
+        "material": {
+            "en": "Thermallite",
+            "zh": "热极金属"
+        }
+    }
+}

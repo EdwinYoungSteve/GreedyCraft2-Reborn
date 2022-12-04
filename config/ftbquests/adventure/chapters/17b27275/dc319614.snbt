@@ -1,0 +1,14 @@
+{
+	x: -9.0d,
+	y: 4.5d,
+	dependencies: [
+		"bc81a549"
+	],
+	tasks: [{
+		uid: "58e19804",
+		type: "item",
+		items: [{
+			item: "modularcontroller:matrix_balancer_controller"
+		}]
+	}]
+}

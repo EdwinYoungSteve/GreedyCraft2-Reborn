@@ -1,14 +1,13 @@
 {
 	title: "§b聚变反应堆",
-	x: -6.5d,
-	y: 5.5d,
+	x: -14.0d,
+	y: -8.0d,
 	description: "制作反应堆端口，组成聚变反应堆",
 	text: [
 		""
 	],
 	dependencies: [
-		"34ac5158",
-		"237e7dcc"
+		"34ac5158"
 	],
 	tasks: [{
 		uid: "8cfe1c2d",

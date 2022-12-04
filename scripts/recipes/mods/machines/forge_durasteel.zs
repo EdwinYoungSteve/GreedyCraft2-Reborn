@@ -35,11 +35,7 @@ MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_in
     <additions:netherite_ingot> : {
         speed: 0.5,
         energy: 0.5
-    }, 
-    <additions:crimsonite_ingot> : {
-        speed: 0.35,
-        energy: 0.35
-    }, 
+    },  
     <botanicadds:gaiasteel_ingot> : {
         speed: 0.35,
         energy: 0.35

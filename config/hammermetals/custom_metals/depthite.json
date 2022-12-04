@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x004f00,
+    "langs": {
+        "material": {
+            "en": "Depthite",
+            "zh": "深邃合金"
+        }
+    }
+}

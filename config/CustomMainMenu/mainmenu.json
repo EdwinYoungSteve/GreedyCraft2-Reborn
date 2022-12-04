@@ -3,7 +3,7 @@
         "title": {
             "image": "greedycraft:mainmenu/banner.png",
             "posX": -125,
-            "posY": 15,
+            "posY": 25,
             "width": 252,
             "height": 86,
             "alignment": "top_center"
@@ -45,7 +45,7 @@
         "mods": {
             "text": "greedycraft.menu.modlist",
             "posX": -100,
-            "posY": 118,
+            "posY": 106,
             "width": 98,
             "height": 20,
             "hoverTextColor": 65484,
@@ -59,9 +59,9 @@
             }
         },
         "official_site": {
-            "text": "greedycraft.menu.official_site",
+            "text": "MCBBS",
             "posX": 2,
-            "posY": 118,
+            "posY": 106,
             "width": 98,
             "height": 20,
             "hoverTextColor": 65484,
@@ -71,13 +71,13 @@
             "texture": "greedycraft:mainmenu/shortbuttonhd.png",
             "action": {
                 "type": "openLink",
-                "link": "about:blank"
+                "link": "https://www.mcbbs.net/forum.php?mod=viewthread&tid=1369059&page=1#pid26780407"
             }
         },
         "options": {
             "text": "menu.options",
             "posX": -100,
-            "posY": 142,
+            "posY": 130,
             "width": 98,
             "height": 20,
             "hoverTextColor": 65484,
@@ -93,7 +93,7 @@
         "quit": {
             "text": "menu.quit",
             "posX": 2,
-            "posY": 142,
+            "posY": 130,
             "width": 98,
             "height": 20,
             "hoverTextColor": 65484,
@@ -166,7 +166,7 @@
             "tooltip": "greedycraft.menu.github",
             "action": {
                 "type": "openLink",
-                "link": "https://github.com/TCreopargh/GreedyCraft"
+                "link": "https://github.com/EdwinYoungSteve/GreedyCraft2-Reborn"
             }
         },
         "open_folder": {
@@ -189,8 +189,8 @@
     },
     "labels": {
         "mojang": {
-            "text": "Copyright Mojang AB. Do not distribute!",
-            "hoverText": "Minecraft 1.12.2",
+            "text": "\u00a7eMojang AB \u7248\u6743\u6240\u6709",
+            "hoverText": "\u00a7eMinecraft 1.12.2",
             "color": -1,
             "alignment": "bottom_right",
             "posX": -2,
@@ -202,8 +202,8 @@
             }
         },
         "minecraft_version": {
-			"text": "Minecraft #mcversion#",
-			"hoverText": "Minecraft Coder Pack #mcpversion#",
+			"text": "\u00a7b\u00a7lMinecraft \u00a7c\u00a7l#mcversion#",
+			"hoverText": "\u00a7a\u00a7lMinecraft Coder Pack \u00a7d\u00a7l#mcpversion#",
             "color": -1,
             "posX": 2,
             "posY": -52,
@@ -211,34 +211,35 @@
         },
         "modinfo": {
             "alignment": "bottom_left",
-			"text": "Forge: #forgeversion#  #modsloaded#Mods Loaded",
-			"hoverText": "FML: #fmlversion#  #modsactive#Mods Active",
+			"text": "\u00a7bMinecraft Forge \u00a7c\u00a7l#forgeversion#  \u00a7e\u00a7l#modsloaded#\u00a7b\u4e2a\u6a21\u7ec4\u5df2\u52a0\u8f7d\uff01",
+			"hoverText": "\u00a7aForge Mod Loader \u00a7d\u00a7l#fmlversion#  \u00a7e\u00a7l#modsactive#\u00a7a\u4e2a\u6a21\u7ec4\u5df2\u542f\u7528\uff01",
             "color": -1,
             "posX": 2,
             "posY": -32
         },
         "packinfo": {
             "alignment": "bottom_left",
-			"text": "Greedycraft2-Reborn by mc_Edwin",
-			"hoverText": "Greedycraft Original by TCreopargh",
+			"text": "\u00a7b\u00a7l\u8d2a\u5a6a\u6574\u5408\u5305II\uff1a\u91cd\u751f \u00a7cby \u00a7c\u00a7lGreediest\u5de5\u4f5c\u5ba4",
+			"hoverText": "\u00a7a\u00a7l\u8d2a\u5a6a\u6574\u5408\u5305 \u00a7d\u539f\u4f5c \u00a7d\u00a7lTCreopargh",
             "action": {
                 "type": "openLink",
-                "link": "https://greedycraft.com/"
+                "link": "https://www.mcmod.cn/modpack/484/"
             },
             "color": -1,
             "posX": 2,
             "posY": -42
         },
         "time": {
-			"text": "You are #username# Time: #time#",
-			"hoverText": "Time: #date# #time#",
+			"text": "\u00a7b\u4f60\u597d\uff0c\u00a7c\u00a7l#username#\u00a7b\uff01 \u00a7b\u65f6\u95f4\uff1a\u00a7c\u00a7l#time#",
+			"hoverText": "\u00a7b\u5f53\u524d\u65f6\u95f4\uff1a\u00a7c\u00a7l#date# #time#",
             "posX": 2,
             "posY": 12,
             "color": -1,
             "alignment": "top_left"
         },
         "announcements": {
-            "text": "web:http://json.tcreopargh.xyz/greedycraft-announcements.txt",
+            "text": "\u00a7b\u8bbf\u95ee \u00a7e\u00a7lMCBBS \u00a7b\u7f51\u5740\uff01",
+            "hoverText": "\u00a7c\u8d2a\u5a6a\u6574\u5408\u5305II\u7f51\u7ad9\u7b79\u5efa\u4e2d\uff01",
             "action": {
                 "type": "openLink",
                 "link": "https://www.mcbbs.net/thread-1369059-1-1.html"
@@ -252,7 +253,7 @@
     "other": {
         "splash-text": {
             "posX": 105,
-            "posY": 105,
+            "posY": 95,
             "color": -256,
             "alignment": "top_center",
             "texts": "file:greedycraft:mainmenu/splashes.txt"
@@ -311,7 +312,12 @@
                     "greedycraft:backgrounds/47.png",
                     "greedycraft:backgrounds/48.png",
                     "greedycraft:backgrounds/49.png",
-                    "greedycraft:backgrounds/50.png"
+                    "greedycraft:backgrounds/50.png",
+                    "greedycraft:backgrounds/51.png",
+                    "greedycraft:backgrounds/52.png",
+                    "greedycraft:backgrounds/53.png",
+                    "greedycraft:backgrounds/54.png",
+                    "greedycraft:backgrounds/55.png"
                 ],
                 "shuffle": true,
                 "displayDuration": 90,

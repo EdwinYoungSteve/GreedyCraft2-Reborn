@@ -124,7 +124,7 @@ for i in 4 to 7 {
         .addItemInput(<ore:ingotModularium>, 1024)
         .addItemInput(<ore:plateChromasteel>, 12)
         .addItemInput(<ore:plateCrimsonite>, 16)
-        .addItemInput(<ore:plateMithminite>, 8)
+        .addItemInput(<ore:plateAdaminite>, 8)
         .addItemInput(<ore:plateHarcadium>, 32)
         .addItemInput(<ore:plateVoidEssence>, 32)
         .addItemInput(<ore:circuitAdvanced>, 12)
@@ -164,12 +164,23 @@ for i in 1 to 7 {
         .addFluidInput(<liquid:sand> * 1000)
         .addFluidInput(<liquid:blood> * 1000)
         .addFluidInput(<liquid:crude_oil> * 1000)
-        .addFluidInput(<liquid:liquidcoralium> * 1000)
-        .addFluidInput(<liquid:liquidantimatter> * 1000)
         .addItemInput(<ore:gearElectrum>, 16)
         .addEnergyPerTickInput(40)
         .addItemOutput(<modularcontroller:liquid_centrifuge_controller>)
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:liquid_centrifuge"}))
+        .build();
+}
+//气体离心机
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("controller_gas_centrifuge" + i, "builder_" + i, 4800)
+        .addFluidInput(<liquid:redstone> * 4000)
+        .addGasInput("oxygen", 4000)
+        .addGasInput("chlorine", 4000)
+        .addGasInput("hydrogen", 4000)
+        .addItemInput(<ore:gearGelidEnderium>, 8)
+        .addEnergyPerTickInput(40)
+        .addItemOutput(<modularcontroller:gas_centrifuge_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:gas_centrifuge"}))
         .build();
 }
 //基础矿机
@@ -418,5 +429,25 @@ for i in 2 to 7 {
         .addEnergyPerTickInput(400)
         .addItemOutput(<modularcontroller:air_collector_controller>)
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:air_collector"})) 
+        .build();
+}
+//矩阵稳定机
+for i in 4 to 7 {
+    RecipeBuilder.newBuilder("controller_matrix_balancer" + i, "builder_" + i, 8000)
+        .addFluidInput(<liquid:redstone> * 40000)
+        .addItemInput(<ore:gearFusionMatrix>, 8)
+        .addItemInput(<ore:gearElectronium>, 8)
+        .addItemInput(<ore:gearProtonium>, 8)
+        .addItemInput(<ore:gearCosmilite>, 1)
+        .addItemInput(<ore:plateRuthenium>, 16)
+        .addItemInput(<ore:plateRhodium>, 16)
+        .addItemInput(<ore:platePalladium>, 16)
+        .addItemInput(<ore:plateOsmium>, 16)
+        .addItemInput(<ore:plateIridium>, 16)
+        .addItemInput(<ore:platePlatinum>, 16)
+        .addItemInput(<ore:itemPurpleMatter>, 4)
+        .addEnergyPerTickInput(2000)
+        .addItemOutput(<modularcontroller:matrix_balancer_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:matrix_balancer"})) 
         .build();
 }

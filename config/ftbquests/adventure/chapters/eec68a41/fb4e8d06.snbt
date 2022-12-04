@@ -1,0 +1,16 @@
+{
+	x: 18.5d,
+	y: -3.0d,
+	dependencies: [
+		"76e34a47"
+	],
+	tasks: [{
+		uid: "b2223409",
+		type: "item",
+		items: [{
+			item: "gct_mobs:alfheim"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

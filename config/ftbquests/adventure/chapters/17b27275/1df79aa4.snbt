@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: 7.5d,
+	dependencies: [
+		"eab18a2c"
+	],
+	tasks: [{
+		uid: "5cb4ffe7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:crab_pot"
+		}]
+	}]
+}

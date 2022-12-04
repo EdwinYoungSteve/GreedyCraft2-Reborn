@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 9.0d,
+	dependencies: [
+		"0c5bb7b9"
+	],
+	tasks: [{
+		uid: "9e05910a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:alembic"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 13.5d,
+	tasks: [{
+		uid: "7d007f15",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:rune_door_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7be9e965",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:ancient_battle_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

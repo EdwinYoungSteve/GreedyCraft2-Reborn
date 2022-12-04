@@ -22,3 +22,10 @@ RecipeBuilder.newBuilder("liquefaction_air", "condensation_liquefactor", 20)
     .addEnergyPerTickInput(200)
     .addFluidOutput(<liquid:liquid_air> * 1)
     .build();
+
+RecipeBuilder.newBuilder("liquefaction_naoh", "condensation_liquefactor", 20)
+    .addGasInput("sodiumhydroxide", 320)
+    .addEnergyPerTickInput(200)
+    .addFluidOutput(<liquid:sodium_hydroxide_solution> * 1)
+    .build();
+

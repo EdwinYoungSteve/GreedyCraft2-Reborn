@@ -1,0 +1,29 @@
+{
+	title: "§b天蓝",
+	x: 6.0d,
+	y: -6.0d,
+	description: "合成天蓝石砖",
+	text: [
+		""
+	],
+	dependencies: [
+		"c18cb969"
+	],
+	tasks: [{
+		uid: "b1ba3664",
+		type: "item",
+		items: [{
+			item: "blue_skies:turquoise_stonebrick"
+		}]
+	}],
+	rewards: [{
+		uid: "ac365588",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "3e35e288",
+		type: "xp",
+		xp: 2500
+	}]
+}

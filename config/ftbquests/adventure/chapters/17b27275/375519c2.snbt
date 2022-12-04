@@ -1,0 +1,15 @@
+{
+	x: -9.0d,
+	y: 6.0d,
+	dependencies: [
+		"dc319614",
+		"c73ef5d0"
+	],
+	tasks: [{
+		uid: "ce356c99",
+		type: "item",
+		items: [{
+			item: "gct_ores:balanced_matrix_ingot"
+		}]
+	}]
+}

@@ -1,0 +1,152 @@
+{
+  "consumeCatalyst": false,
+  "location": "gct_mac:atomic_viberator",
+  "traits": {
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 43,
+        "y": 91,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 61,
+        "y": 91,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 79,
+        "y": 91,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 97,
+        "y": 91,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 115,
+        "y": 91,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 43,
+        "y": 121,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 61,
+        "y": 121,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 79,
+        "y": 121,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 97,
+        "y": 121,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 115,
+        "y": 121,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 79,
+        "y": 149,
+        "autoIO": false,
+        "tC": 100000
+      }
+    ],
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 6,
+      "y": 52,
+      "width": 163,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "capacity": 10000000,
+      "maxReceive": 500000,
+      "maxExtract": 500000
+    }
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "gct_mac:modelatomicviberator",
+      "meta": 2
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "gct_mac:atomic_viberator",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  },
+  "recipeMap": "ore_to_radiation"
+}

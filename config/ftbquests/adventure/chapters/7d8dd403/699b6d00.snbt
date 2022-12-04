@@ -1,13 +1,13 @@
 {
 	title: "§b蜘蛛巢穴",
-	x: 1.0d,
-	y: 11.5d,
+	x: 10.0d,
+	y: 8.5d,
 	description: "进入暗石地牢，击杀蛛母",
 	text: [
 		""
 	],
 	dependencies: [
-		"b25ef338"
+		"e3cb54b0"
 	],
 	tasks: [{
 		uid: "25994a20",

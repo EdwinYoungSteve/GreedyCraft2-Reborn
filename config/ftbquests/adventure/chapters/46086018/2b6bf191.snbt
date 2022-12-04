@@ -1,13 +1,13 @@
 {
 	title: "§b查伽洛斯I",
-	x: -3.0d,
-	y: 16.5d,
+	x: -1.5d,
+	y: 15.0d,
 	description: "制作查伽洛斯祭坛（底部）",
 	text: [
 		""
 	],
 	dependencies: [
-		"fe1392a6"
+		"95cbc791"
 	],
 	tasks: [{
 		uid: "840a6d66",

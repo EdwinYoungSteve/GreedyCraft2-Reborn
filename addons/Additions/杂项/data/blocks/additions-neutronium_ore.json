@@ -1,0 +1,13 @@
+{
+  "item_block": {
+    "name": "中子素矿石",
+    "ore_dict": [
+      "oreCosmicNeutronium",
+      "oreNeutronium"
+    ],
+    "type": "additions:block_simple"
+  },
+  "name": "中子素矿石",
+  "material": "minecraft:stone",
+  "type": "additions:simple"
+}

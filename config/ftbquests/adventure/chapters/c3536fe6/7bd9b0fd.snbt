@@ -1,8 +1,8 @@
 {
 	title: "§b迷失沼泽",
-	x: -9.0d,
-	y: 4.5d,
-	description: "进入尘泥沼泽",
+	x: 16.5d,
+	y: -3.0d,
+	description: "使用恶魔之眼激活传送门，进入尘泥沼泽",
 	text: [
 		""
 	],

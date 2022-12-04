@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x8fe4dc,
+    "langs": {
+        "material": {
+            "en": "Decurrium",
+            "zh": "深流钢"
+        }
+    }
+}

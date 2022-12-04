@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x00ffff,
+    "langs": {
+        "material": {
+            "en": "Heavenite",
+            "zh": "穹金"
+        }
+    }
+}

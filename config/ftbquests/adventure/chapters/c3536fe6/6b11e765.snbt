@@ -1,0 +1,19 @@
+{
+	title: "§b并非磷和铁",
+	x: 18.0d,
+	y: -3.0d,
+	description: "获得磷铁锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"7bd9b0fd"
+	],
+	tasks: [{
+		uid: "d71d91b5",
+		type: "item",
+		items: [{
+			item: "journey:orbaditeingot"
+		}]
+	}]
+}

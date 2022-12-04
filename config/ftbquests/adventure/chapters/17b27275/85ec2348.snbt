@@ -1,0 +1,32 @@
+{
+	x: 3.0d,
+	y: 10.5d,
+	dependencies: [
+		"cb75c573",
+		"d9db7475",
+		"197f800c"
+	],
+	tasks: [{
+		uid: "99012d6e",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:aspect_vial",
+			Damage: 1s,
+			tag: {
+				blHerbloreAspects: {
+					container: [{
+						aspect: {
+							type: "Byrginaz"
+						},
+						storage: {
+							dynamic: 1000,
+							storedStatic: 0,
+							hasStoredStatic: 0b
+						}
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

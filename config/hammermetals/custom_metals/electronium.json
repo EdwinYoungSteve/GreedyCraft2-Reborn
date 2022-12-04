@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x536dfe,
+    "langs": {
+        "material": {
+            "en": "Electronium",
+            "zh": "电子"
+        }
+    }
+}

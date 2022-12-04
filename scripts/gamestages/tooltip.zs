@@ -40,6 +40,11 @@ tieredtooltips.colorStage("stormy", "b5000000", "f0e2e3cb", "f0444444");
 tieredtooltips.colorStage("cosmic", "b5000000", "f0ff9277", "f0b18df1");
 tieredtooltips.colorStage("gatekeeper", "b5000000", "f013424a", "f037898d");
 tieredtooltips.colorStage("gaia_deleter", "b5000000", "f0780043", "f0228200");
+tieredtooltips.colorStage("final", "b5000000", "f0ffffff", "f0000000");
+tieredtooltips.colorStage("balanced_matrix", "b5000000", "f0ffffff", "f0eeeeee");
+tieredtooltips.colorStage("order", "b5000000", "f0414141", "f0d8d8d8");
+tieredtooltips.colorStage("betweenland_traveller", "b5000000", "f0007d3d", "f00f1e2d");
+tieredtooltips.colorStage("abyss_guardian", "b5000000", "f01d359b", "f00d585c");
 
 tieredtooltips.colorStage("challenger_a", "b5000000", "f0ff8008", "f0ffc837");
 tieredtooltips.colorStage("challenger_b", "b5000000", "f0ff8008", "f0ffc837");

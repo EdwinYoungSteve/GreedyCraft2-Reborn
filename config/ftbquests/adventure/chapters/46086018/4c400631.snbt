@@ -4,6 +4,7 @@
 	tasks: [{
 		uid: "6441843f",
 		type: "gamestage",
+		title: "在【冒险·壹】处取得进展",
 		stage: "nether"
 	}]
 }

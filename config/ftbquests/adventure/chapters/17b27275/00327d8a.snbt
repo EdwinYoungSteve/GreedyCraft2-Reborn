@@ -1,0 +1,14 @@
+{
+	x: -4.5d,
+	y: 7.5d,
+	dependencies: [
+		"b9f4450b"
+	],
+	tasks: [{
+		uid: "e60016a7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:fish_trimming_table"
+		}]
+	}]
+}

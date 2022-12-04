@@ -24,7 +24,15 @@ val converterRecipes as ILiquidStack[][] = [
     [<liquid:honey> * 100, /*divide*/ <liquid:for.honey> * 100],
     [<liquid:milk_chocolate> * 100, /*divide*/ <liquid:liquid_chocolate> * 100],
     [<liquid:resin> * 100, /*divide*/ <liquid:binnie.resin> * 100],
-    [<liquid:seed_oil> * 100, /*divide*/ <liquid:seed.oil> * 100]
+    [<liquid:seed_oil> * 100, /*divide*/ <liquid:seed.oil> * 100],
+    [<liquid:hydrogen> * 100, <liquid:liquidhydrogen> * 100],
+    [<liquid:deuterium> * 100, <liquid:liquiddeuterium> * 100],
+    [<liquid:tritium> * 100, <liquid:liquidtritium> * 100],
+    [<liquid:oxygen> * 100, <liquid:liquidoxygen> * 100],
+    [<liquid:ethene> * 100, <liquid:liquidethene> * 100],
+    [<liquid:sulfur_dioxide> * 100, <liquid:liquidsulfurdioxide> * 100],
+    [<liquid:sulfur_trioxide> * 100, <liquid:liquidsulfurtrioxide> * 100],
+    [<liquid:sulfuric_acid> * 100, <liquid:sulfuricacid> * 100]
 ];
 
 for row in converterRecipes {

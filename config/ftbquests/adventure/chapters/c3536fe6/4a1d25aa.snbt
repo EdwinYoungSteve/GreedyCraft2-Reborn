@@ -1,7 +1,7 @@
 {
 	title: "§b迷雾丛林！",
-	x: -12.0d,
-	y: 1.5d,
+	x: 18.0d,
+	y: 3.0d,
 	description: "进入迷雾丛林维度",
 	text: [
 		""

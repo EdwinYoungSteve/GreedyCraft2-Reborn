@@ -43,12 +43,12 @@ gas.hydrosulfuricacid=氢硫酸（气）
 gas.perchloricacid=高氯酸（气）
 
 //碱
-gas.lithiumhydroxide=氢氧化锂（气）
-gas.sodiumhydroxide=氢氧化钠（气）
-gas.potassiumhydroxide=氢氧化钾（气）
-gas.rubidiumhydroxide=氢氧化铷（气）
-gas.caesiumhydroxide=氢氧化铯（气）
-gas.ammonia=氨气（气）
+gas.lithiumhydroxide=氢氧化锂溶液（气）
+gas.sodiumhydroxide=氢氧化钠溶液（气）
+gas.potassiumhydroxide=氢氧化钾溶液（气）
+gas.rubidiumhydroxide=氢氧化铷溶液（气）
+gas.caesiumhydroxide=氢氧化铯溶液（气）
+gas.ammonia=氨（气）
 gas.phosphine=膦（气）
 
 //有机物

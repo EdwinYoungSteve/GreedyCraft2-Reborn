@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:1.0
 gamma:1.0
 saturation:0.0
-renderDistance:8
+renderDistance:5
 guiScale:4
 particles:1
 bobView:true
@@ -39,7 +39,7 @@ chatHeightFocused:1.0
 chatHeightUnfocused:0.62676054
 chatScale:0.9577465
 chatWidth:0.6619718
-mipmapLevels:3
+mipmapLevels:2
 forceUnicodeFont:true
 reducedDebugInfo:false
 useNativeTransport:true
@@ -94,6 +94,9 @@ key_key.configurator_mode.desc:0
 key_key.configurator_filter.desc:0
 key_key.configurator_path.desc:0
 key_keybind.baublesinventory:18:ALT
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:184
+key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -112,9 +115,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.lockBuilding:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:184
 key_quark.keybind.toggleAutojump:0
 key_pe.key.armor_toggle:49:CONTROL
 key_pe.key.charge:47:ALT
@@ -141,12 +141,6 @@ key_arcanearchives.gui.keybinds.manifest:0
 key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
-key_[GC] 星图:50
-key_[GC] 打开飞船舱:33
-key_[GC] 切换传感器护目镜模式:37
-key_闪避:56
-key_使用/管理饰品:44
-key_使用/选择深潜之力:19
 key_keybind.hammercorerenderstack:77
 key_ChatFlow:68
 key_key.toggleFoVChanges:51:SHIFT
@@ -157,7 +151,6 @@ key_key.next_item.desc:0
 key_key.previous_item.desc:0
 key_key.open_danknull.desc:40
 key_key.togglehud.desc:0
-key_Toggle Magnetism Suppressor:49
 key_key.xu2.searchforitems:0
 key_key.findme.search:21
 key_key.ftbutilities.nbt:49:ALT
@@ -193,6 +186,8 @@ key_key.pickup.item:0
 key_key.dismount:42
 key_key.narrator:0
 key_smoothfont.key.guiOpen:67
+key_key.quit.fastQuit:0
+key_key.quit.bossKey:48
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -291,7 +286,6 @@ key_key.craftingtweaks.refill_last_stack:15
 key_key.overload:0
 key_key.chaosInjection:34:SHIFT
 key_key.projectex.focusSearchBar:15
-key_key.clipboardPaste:210
 key_开关排气模式:25
 key_打开华丽的合成台:0
 key_keybinding.extrabitmanipulation.design:75:ALT
@@ -310,12 +304,15 @@ key_key.inventoryhud.openconfig:23:CONTROL
 key_key.inventoryhud.togglepot:64
 key_key.inventoryhud.togglearm:-1
 key_key.inventoryhud.toggleall:-1
-key_key.categories.naming:49:ALT
 key_invtweaks.key.sort:19
 key_key.itemzoom.toggle:44:SHIFT
 key_key.itemzoom.hold:0
 key_key.itemzoom.zoom.in:0
 key_key.itemzoom.zoom.out:0
+key_key.jeiutilities.displayRecipe:29
+key_key.jeiutilities.pickBookmark:-98
+key_key.jeiutilities.transferRecipe:17:CONTROL
+key_key.jeiutilities.transferRecipeMax:20:CONTROL
 key_Open Journey Stats:25
 key_jecalculation.key.gui_craft:0:ALT
 key_jecalculation.key.gui_math:47:ALT
@@ -344,9 +341,6 @@ key_key.simplybackpacks.backpackpickup.desc:81
 key_key.simplybackpacks.backpackopen.desc:23
 key_key.carpet_forward:17
 key_key.carpet_backward:31
-key_key.trashslot.toggle:0
-key_key.trashslot.delete:211
-key_key.trashslot.deleteAll:211:SHIFT
 key_variegated.keybinds.offhand:0
 key_gui.xaero_switch_waypoint_set:0
 key_gui.xaero_instant_waypoint:48:CONTROL
@@ -371,8 +365,8 @@ key_gui.xaero_open_settings:0
 key_gui.xaero_map_zoom_in:13
 key_gui.xaero_map_zoom_out:12
 key_gui.xaero_quick_confirm:54
-key_Profile GUI:210
 key_打开背包:21
+key_Profile GUI:210
 key_oeshapeselector.key:41:ALT
 key_enderio.keybind.inventory:0
 key_enderio.keybind.dsu:0
@@ -395,10 +389,10 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-soundCategory_master:0.6500001
-soundCategory_music:1.0
+soundCategory_master:0.45000005
+soundCategory_music:0.35211268
 soundCategory_record:1.0
-soundCategory_weather:0.70422536
+soundCategory_weather:0.5070422
 soundCategory_block:0.90140843
 soundCategory_hostile:0.40140846
 soundCategory_neutral:0.70422536

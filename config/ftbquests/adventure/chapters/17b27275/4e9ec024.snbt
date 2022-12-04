@@ -1,0 +1,15 @@
+{
+	x: -6.0d,
+	y: 10.5d,
+	dependencies: [
+		"e785869d",
+		"9e3ee917"
+	],
+	tasks: [{
+		uid: "b1b71f9d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:pearled_pear"
+		}]
+	}]
+}

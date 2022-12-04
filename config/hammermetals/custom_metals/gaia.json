@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xff80ab,
+    "langs": {
+        "material": {
+            "en": "Gaia",
+            "zh": "盖亚魂"
+        }
+    }
+}

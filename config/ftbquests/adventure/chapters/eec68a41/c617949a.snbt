@@ -1,7 +1,7 @@
 {
 	title: "§b我要画个圆",
-	x: 0.5d,
-	y: 1.5d,
+	x: 1.0d,
+	y: 2.5d,
 	description: "制作盖世六分仪",
 	text: [
 		""

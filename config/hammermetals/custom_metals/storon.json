@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xd6c35a,
+    "langs": {
+        "material": {
+            "en": "Storon",
+            "zh": "天金"
+        }
+    }
+}

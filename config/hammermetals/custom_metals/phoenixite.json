@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xf26522,
+    "langs": {
+        "material": {
+            "en": "Phoenixite",
+            "zh": "凤凰合金"
+        }
+    }
+}

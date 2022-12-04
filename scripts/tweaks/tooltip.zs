@@ -216,7 +216,9 @@ val tooltipMap as string[][IIngredient] = {
     <additions:botaniaddon-mana_lapis> : [odch],
     <additions:botaniaddon-mana_quartz> : [odch],
     <utilityworlds:portal_void> : [game.localize("greedycraft.tooltip.utilityworld.warnings")],
-    <utilityworlds:portal_garden> : [game.localize("greedycraft.tooltip.utilityworld.warnings")]
+    <utilityworlds:portal_garden> : [game.localize("greedycraft.tooltip.utilityworld.warnings")],
+    <modularcontroller:mek_changer_controller> : [game.localize("greedycraft.tooltip.modularcontroller.not_need_blueprints")],
+    <modularcontroller:vethea_enchanter_controller> : [game.localize("greedycraft.tooltip.modularcontroller.not_need_blueprints")]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

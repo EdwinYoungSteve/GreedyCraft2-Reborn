@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 6.0d,
+	dependencies: [
+		"bcde6ec3"
+	],
+	tasks: [{
+		uid: "a6d7317e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:smoking_rack"
+		}]
+	}]
+}

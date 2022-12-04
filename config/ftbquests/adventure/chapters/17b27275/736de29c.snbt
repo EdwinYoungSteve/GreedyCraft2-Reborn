@@ -1,0 +1,21 @@
+{
+	x: -1.5d,
+	y: 7.5d,
+	description: "击杀泥炭木乃伊以获取或合成闪光石",
+	text: [
+		""
+	],
+	dependencies: [
+		"d3832f3e"
+	],
+	tasks: [{
+		uid: "1918a8e3",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:shimmer_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

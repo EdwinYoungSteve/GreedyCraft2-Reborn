@@ -1,13 +1,13 @@
 {
 	title: "§b眼之觉醒",
 	x: 0.0d,
-	y: 12.0d,
+	y: 9.0d,
 	description: "制作觉醒之眼，解锁深渊征服者阶段",
 	text: [
 		""
 	],
 	dependencies: [
-		"4ed0f969",
+		"f4a1f1b8",
 		"bcc4a97a"
 	],
 	tasks: [{

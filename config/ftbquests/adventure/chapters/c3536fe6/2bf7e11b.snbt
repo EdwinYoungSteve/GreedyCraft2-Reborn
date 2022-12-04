@@ -1,12 +1,11 @@
 {
 	title: "§b末地？末影。",
-	x: -10.5d,
-	y: -1.5d,
+	x: 21.5d,
+	y: 0.0d,
 	description: "合成末影图腾，用于召唤末地术士巴克莱",
 	text: [
 		""
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"8efccf0c"
 	],
@@ -27,11 +26,6 @@
 		uid: "8c6b56b5",
 		type: "item",
 		item: "minecraft:totem_of_undying"
-	},
-	{
-		uid: "4b7fdb18",
-		type: "item",
-		item: "taiga:nihilite_block"
 	},
 	{
 		uid: "050493c6",

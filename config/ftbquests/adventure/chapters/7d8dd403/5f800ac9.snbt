@@ -1,7 +1,7 @@
 {
 	title: "§b步入冰刺",
-	x: 10.0d,
-	y: 11.5d,
+	x: 11.5d,
+	y: 4.0d,
 	description: "进入冰刺之地维度",
 	text: [
 		""

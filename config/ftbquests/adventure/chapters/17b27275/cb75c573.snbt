@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 9.0d,
+	dependencies: [
+		"0c5bb7b9"
+	],
+	tasks: [{
+		uid: "f7f450a8",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:infuser"
+		}]
+	}]
+}

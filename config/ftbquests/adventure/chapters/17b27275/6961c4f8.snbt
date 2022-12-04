@@ -1,0 +1,26 @@
+{
+	x: 3.0d,
+	y: 6.0d,
+	dependencies: [
+		"527a574f"
+	],
+	tasks: [{
+		uid: "002d8159",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:gecko_cage"
+		}]
+	}],
+	rewards: [{
+		uid: "4315e469",
+		type: "item",
+		item: {
+			id: "thebetweenlands:critter",
+			tag: {
+				Entity: {
+					id: "thebetweenlands:gecko"
+				}
+			}
+		}
+	}]
+}

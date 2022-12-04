@@ -138,6 +138,13 @@ recipes.addShaped(<gct_ores:senterian_wrench> * 1, [[null, <journey:senterian_so
 recipes.remove(<utilityworlds:portal_void>);
 recipes.remove(<utilityworlds:portal_garden>);
 
+recipes.remove(<avaritia:neutron_collector>);
+recipes.addShaped(<avaritia:neutron_collector> * 1, [
+    [<minecraft:quartz_block:0>, <minecraft:hopper>, <minecraft:quartz_block:0>], 
+    [<minecraft:iron_block>, <avaritia:resource:1>, <minecraft:iron_block>],
+    [<minecraft:quartz_block:0>, <minecraft:redstone_block>, <minecraft:quartz_block:0>]
+]);
+
 RecipeUtil.addShaped("senterian_builder", <gct_ores:senterian_builder_lab>, [
     [<additions:greedycraft-broken_engine_shard>, <journey:sentry_disk>, <additions:greedycraft-broken_engine_shard>],
     [<journey:sentry_disk>, <additions:greedycraft-broken_engine_shard>, <journey:sentry_disk>],
@@ -1217,9 +1224,9 @@ RecipeUtil.addShaped("protonium_block", <additions:greedycraft-protonium_block>,
     [<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:ingotProtonium>]
 ]);
 RecipeUtil.addShaped("protonium_ingot", <additions:protonium_ingot>, [
-    [<ore:nuggetCosmicNeutronium>, <projectex:matter:2>, <ore:nuggetCosmicNeutronium>],
-    [<projectex:matter:2>, <additions:greedycraft-energy_matter_core>.transformReplace(<additions:greedycraft-energy_matter_core>), <projectex:matter:2>],
-    [<ore:nuggetCosmicNeutronium>, <projectex:matter:2>, <ore:nuggetCosmicNeutronium>]
+    [<ore:nuggetCosmicNeutronium>, <projectex:matter>, <ore:nuggetCosmicNeutronium>],
+    [<projectex:matter>, <additions:greedycraft-energy_matter_core>.transformReplace(<additions:greedycraft-energy_matter_core>), <projectex:matter>],
+    [<ore:nuggetCosmicNeutronium>, <projectex:matter>, <ore:nuggetCosmicNeutronium>]
 ]);
 RecipeUtil.addShaped("electronium_block", <additions:greedycraft-electronium_block>, [
     [<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:ingotElectronium>],

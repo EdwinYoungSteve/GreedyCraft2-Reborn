@@ -1,0 +1,13 @@
+{
+	x: -6.0d,
+	y: 12.0d,
+	tasks: [{
+		uid: "f7ad2e42",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:chirobarb_erupter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

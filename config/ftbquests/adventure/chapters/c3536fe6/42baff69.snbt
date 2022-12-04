@@ -1,10 +1,10 @@
 {
 	title: "§b绚烂的世界",
-	x: -6.0d,
-	y: 6.0d,
+	x: 4.5d,
+	y: -3.0d,
 	description: "进入桉域",
 	text: [
-		"使用火焰铸币激活传送门"
+		""
 	],
 	dependencies: [
 		"5f5121b2"

@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: 12.0d,
+	dependencies: [
+		"d01f7a37"
+	],
+	tasks: [{
+		uid: "b77f4dcb",
+		type: "item",
+		items: [{
+			item: "moretcon:nuggetrotiron"
+		}]
+	}]
+}

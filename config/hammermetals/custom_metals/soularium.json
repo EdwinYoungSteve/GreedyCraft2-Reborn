@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x52391e,
+    "langs": {
+        "material": {
+            "en": "Soularium",
+            "zh": "魂金"
+        }
+    }
+}

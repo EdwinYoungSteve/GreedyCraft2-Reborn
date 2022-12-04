@@ -41,6 +41,14 @@ Pulverizer.addRecipe(<additions:greedycraft-purifying_dust> * 8, <botania:specia
 InductionSmelter.addRecipe(<additions:greedycraft-glowing_signalum_ingot>, <additions:greedycraft-glowing_signalum_dust>, <minecraft:sand>, 4000);
 
 Transposer.addFillRecipe(<additions:greedycraft-glowing_signalum_dust>, <thermalfoundation:material:101>, <fluid:glowstone> * 1000, 4000);
+Transposer.addFillRecipe(<additions:mekaddon-thermallite_core_1>, <additions:mekaddon-balance_core>, <liquid:pyrotheum> * 10000, 256000);
+Transposer.addFillRecipe(<additions:mekaddon-thermallite_core_2>, <additions:mekaddon-thermallite_core_1>, <liquid:cryotheum> * 10000, 256000);
+Transposer.addFillRecipe(<additions:mekaddon-thermallite_core_3>, <additions:mekaddon-thermallite_core_2>, <liquid:aerotheum> * 10000, 256000);
+Transposer.addFillRecipe(<additions:mekaddon-thermallite_core_4>, <additions:mekaddon-thermallite_core_3>, <liquid:petrotheum> * 10000, 256000);
+Transposer.addFillRecipe(<additions:mekaddon-thermallite_core_5>, <additions:mekaddon-thermallite_core_4>, <liquid:lumixeium> * 10000, 256000);
+Transposer.addFillRecipe(<additions:mekaddon-thermallite_core_6>, <additions:mekaddon-thermallite_core_5>, <liquid:noxexeum> * 10000, 256000);
+Transposer.addFillRecipe(<additions:mekaddon-thermallite_core_7>, <additions:mekaddon-thermallite_core_6>, <liquid:tonitruium> * 10000, 256000);
+Transposer.addFillRecipe(<additions:mekaddon-thermallite_ingot>, <additions:mekaddon-thermallite_core_7>, <liquid:naturaeum> * 10000, 256000);
 
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:1>, 200000);
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:2>, 400000);
