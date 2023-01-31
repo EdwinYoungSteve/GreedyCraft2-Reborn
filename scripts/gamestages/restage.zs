@@ -51,7 +51,11 @@ GameStagesUtil.removeItemStages([
     <extendedcrafting:material:129>,
     <extendedcrafting:material:128>,
     <extendedcrafting:material:140>,
-    <nuclearcraft:gem_dust:2>
+    <nuclearcraft:gem_dust:2>,
+    <nuclearcraft:ingot_block:11>,
+    <extendedcrafting:material:36>,
+    <extendedcrafting:material:37>,
+    <extendedcrafting:storage:5>
 ] as IIngredient[]);
 
 GameStagesUtil.restageItems("wielder_of_infinity", [

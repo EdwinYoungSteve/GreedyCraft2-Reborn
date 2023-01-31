@@ -86,7 +86,6 @@ for i in 1 to 7 {
 for i in 2 to 7 {
     RecipeBuilder.newBuilder("controller_aeonsteel_forge" + i, "builder_" + i, 6000)
         .addFluidInput(<liquid:redstone> * 10000)
-        .addItemInput(<modularcontroller:durasteel_forge_controller> * 1)
         .addItemInput(<ore:ingotModularium>, 128)
         .addItemInput(<ore:plateDurasteel>, 16)
         .addItemInput(<ore:plateElectrumFlux>, 16)
@@ -103,7 +102,6 @@ for i in 2 to 7 {
 for i in 3 to 7 {
     RecipeBuilder.newBuilder("controller_chromasteel_forge" + i, "builder_" + i, 6000)
         .addFluidInput(<liquid:redstone> * 40000)
-        .addItemInput(<modularcontroller:aeonsteel_forge_controller> * 1)
         .addItemInput(<ore:ingotModularium>, 512)
         .addItemInput(<ore:plateAeonsteel>, 12)
         .addItemInput(<ore:plateEverite>, 16)
@@ -120,11 +118,10 @@ for i in 3 to 7 {
 for i in 4 to 7 {
     RecipeBuilder.newBuilder("controller_cosmic_forge" + i, "builder_" + i, 8000)
         .addFluidInput(<liquid:redstone> * 100000)
-        .addItemInput(<modularcontroller:chromasteel_forge_controller> * 1)
         .addItemInput(<ore:ingotModularium>, 1024)
         .addItemInput(<ore:plateChromasteel>, 12)
         .addItemInput(<ore:plateCrimsonite>, 16)
-        .addItemInput(<ore:plateAdaminite>, 8)
+        .addItemInput(<ore:plateAdaminite>, 2)
         .addItemInput(<ore:plateHarcadium>, 32)
         .addItemInput(<ore:plateVoidEssence>, 32)
         .addItemInput(<ore:circuitAdvanced>, 12)
@@ -161,9 +158,6 @@ for i in 1 to 7 {
         .addFluidInput(<liquid:water> * 1000)
         .addFluidInput(<liquid:lava> * 1000)
         .addFluidInput(<liquid:organic_fluid> * 1000)
-        .addFluidInput(<liquid:sand> * 1000)
-        .addFluidInput(<liquid:blood> * 1000)
-        .addFluidInput(<liquid:crude_oil> * 1000)
         .addItemInput(<ore:gearElectrum>, 16)
         .addEnergyPerTickInput(40)
         .addItemOutput(<modularcontroller:liquid_centrifuge_controller>)
@@ -410,10 +404,49 @@ for i in 3 to 7 {
         .addItemInput(<ore:gearCryonium>, 16)
         .addItemInput(<ore:gearOsmium>, 16)
         .addItemInput(<ore:gearPlatinum>, 16)
-        .addItemInput(<ore:gearIridium>, 12)
+        .addItemInput(<ore:gearIridium>, 16)
         .addEnergyPerTickInput(600)
         .addItemOutput(<modularcontroller:condensation_liquefactor_controller>)
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:condensation_liquefactor"})) 
+        .build();
+}
+//冷凝固化机
+for i in 4 to 7 {
+    RecipeBuilder.newBuilder("controller_condensation_solidificator" + i, "builder_" + i, 6000)
+        .addFluidInput(<liquid:redstone> * 10000)
+        .addItemInput(<ore:gearIceAlloy>, 16)
+        .addItemInput(<ore:gearRuthenium>, 16)
+        .addItemInput(<ore:gearRhodium>, 16)
+        .addItemInput(<ore:gearPalladium>, 16)
+        .addEnergyPerTickInput(800)
+        .addItemOutput(<modularcontroller:condensation_solidificator_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:condensation_solidificator"})) 
+        .build();
+}
+//魔力液化机
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("controller_mana_liquefactor" + i, "builder_" + i, 4200)
+        .addFluidInput(<liquid:redstone> * 5000)
+        .addItemInput(<ore:gearManasteel>, 8)
+        .addItemInput(<ore:gearTerrasteel>, 4)
+        .addItemInput(<ore:gearMirion>, 4)
+        .addItemInput(<ore:gearAeonsteel>, 1)
+        .addEnergyPerTickInput(120)
+        .addItemOutput(<modularcontroller:mana_liquefactor_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_liquefactor"})) 
+        .build();
+}
+//魔力释能机
+for i in 4 to 7 {
+    RecipeBuilder.newBuilder("controller_mana_powereducer" + i, "builder_" + i, 5000)
+        .addFluidInput(<liquid:redstone> * 10000)
+        .addItemInput(<ore:gearElementium>, 8)
+        .addItemInput(<ore:gearElfsteel>, 4)
+        .addItemInput(<ore:gearMirion>, 8)
+        .addItemInput(<ore:gearChromasteel>, 1)
+        .addEnergyPerTickInput(300)
+        .addItemOutput(<modularcontroller:mana_powereducer_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_powereducer"})) 
         .build();
 }
 //空气收集器
@@ -449,5 +482,62 @@ for i in 4 to 7 {
         .addEnergyPerTickInput(2000)
         .addItemOutput(<modularcontroller:matrix_balancer_controller>)
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:matrix_balancer"})) 
+        .build();
+}
+//血灵祭坛
+for i in 4 to 7 {
+    RecipeBuilder.newBuilder("controller_blood_altar_mk7" + i, "builder_" + i, 5000)
+        .addFluidInput(<liquid:redstone> * 10000)
+        .addFluidInput(<liquid:lifeessence> * 160000)
+        .addItemInput(<ore:plateCrimsonite>, 8)
+        .addItemInput(<ore:plateChromasteel>, 4)
+        .addItemInput(<ore:plateCthughate>, 12)
+        .addItemInput(<ore:plateMithrillium>, 2)
+        .addItemInput(<ore:plateAdaminite>, 1)
+        .addItemInput(<ore:gearSentientMetal>, 3)
+        .addItemInput(<ore:gearWigthium>, 2)
+        .addItemInput(<additions:bloody-slate_6> * 4)
+        .addEnergyPerTickInput(800)
+        .addItemOutput(<modularcontroller:blood_altar_mk7_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_altar_mk7"})) 
+        .build();
+}
+//血浴祭坛
+for i in 4 to 7 {
+    RecipeBuilder.newBuilder("controller_blood_altar_mk8" + i, "builder_" + i, 6000)
+        .addFluidInput(<liquid:redstone> * 15000)
+        .addFluidInput(<liquid:lifeessence> * 1280000)
+        .addItemInput(<ore:plateCrimsonite>, 8)
+        .addItemInput(<ore:plateCosmilite>, 2)
+        .addItemInput(<ore:plateDarkest>, 8)
+        .addItemInput(<ore:plateWigthium>, 8)
+        .addItemInput(<ore:gearGhostMetal>, 2)
+        .addItemInput(<ore:gearBoundMetal>, 4)
+        .addItemInput(<ore:gearSentientMetal>, 4)
+        .addItemInput(<additions:bloody-slate_7> * 4)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(<modularcontroller:blood_altar_mk8_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_altar_mk8"})) 
+        .build();
+}
+//秩序注入器
+for i in 4 to 7 {
+    RecipeBuilder.newBuilder("controller_order_fusioner" + i, "builder_" + i, 8000)
+        .addFluidInput(<liquid:redstone> * 144000)
+        .addItemInput(<ore:gearDraconiumRuled>, 8)
+        .addItemInput(<ore:gearWitheriumEquipment>, 8)
+        .addItemInput(<ore:gearDraconium>, 64)
+        .addItemInput(<ore:gearWitherium>, 64)
+        .addItemInput(<ore:plateBetwnite>, 2)
+        .addItemInput(<ore:plateAbyssine>, 2)
+        .addItemInput(<ore:plateEugardite>, 16)
+        .addItemInput(<ore:ingotBalancedMatrix>, 4)
+        .addItemInput(<ore:stoneOrdered>, 64)
+        .addItemInput(<ore:gemOrderCrystal>, 2)
+        .addItemInput(<ore:blockChaosShard>, 1)
+        .addItemInput(<ore:blockStormyShard>, 1)
+        .addEnergyPerTickInput(2000)
+        .addItemOutput(<modularcontroller:order_fusioner_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:order_fusioner"})) 
         .build();
 }

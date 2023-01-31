@@ -4,7 +4,7 @@
 	y: -4.5d,
 	description: "制作ME无线访问点",
 	text: [
-		""
+		"放在ME安全终端上即可绑定无线终端"
 	],
 	dependencies: [
 		"98840b2a"

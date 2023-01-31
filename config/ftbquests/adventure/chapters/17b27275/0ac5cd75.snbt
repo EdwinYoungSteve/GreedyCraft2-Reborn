@@ -1,0 +1,11 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "26a70992",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:nibblestick"
+		}]
+	}]
+}

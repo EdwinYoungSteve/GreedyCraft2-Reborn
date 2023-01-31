@@ -1,6 +1,10 @@
 {
+	title: "§b怪物杀手 III",
 	x: -5.0d,
 	y: 4.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"ad4540d0"
 	],

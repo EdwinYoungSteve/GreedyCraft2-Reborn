@@ -54,14 +54,10 @@ val slimeTables as string[] = [
 
 // LootTweaker.getTable("minecraft:entities/husk").getPool("bountifulbaubles_husk").removeEntry("bountifulbaubles:apple");
 
-<entity:journey:guardianofdestruction>.addDrop(<gct_ores:senterian_key>);
-<entity:journey:sentryheart>.addDrop(<additions:greedycraft-dullium_ingot> * 24);
 <entity:journey:minisentrywalker>.addDrop(<additions:greedycraft-broken_engine_shard>);
 <entity:journey:minisentrylord>.addDrop(<additions:greedycraft-broken_engine_shard>);
 <entity:journey:minisentrystalker>.addDrop(<additions:greedycraft-broken_engine_shard>);
 <entity:journey:sentrylord>.addDrop(<journey:sentry_observer>);
-<entity:dungeonsmod:ironslime>.addDrop(<additions:greedycraft-broken_canopy_star>);
-<entity:dungeonsmod:kraken>.addDrop(<additions:greedycraft-broken_ice_star>);
 
 LootTweaker.getTable("betterslimes:quazar").getPool("main").setRolls(1.0, 1.0);
 LootTweaker.getTable("betterslimes:quazar").getPool("main").setBonusRolls(0.0, 0.0);
@@ -98,8 +94,6 @@ LootTweaker.getTable("journey:mobs/boss/nether_beast").getPool("main").addItemEn
 LootTweaker.getTable("journey:mobs/boss/withering_beast").getPool("main").addItemEntry(<additions:greedycraft-hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
 LootTweaker.getTable("journey:mobs/boss/calcia").getPool("main").addItemEntry(<additions:greedycraft-hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
 LootTweaker.getTable("journey:mobs/boss/soul_watcher").getPool("main").addItemEntry(<additions:greedycraft-hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
-
-LootTweaker.getTable("ageofminecraft:entities/wither_storm").getPool("main").addItemEntry(<gct_ores:stormy_fragment_large>, 1, 1, [Functions.setCount(5, 5)], []);
 
 if (CalendarUtil.isChristmas()) {
     for mob in mobList {

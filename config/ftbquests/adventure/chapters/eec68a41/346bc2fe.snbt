@@ -28,5 +28,10 @@
 		uid: "ca3bab92",
 		type: "xp",
 		xp: 500
+	},
+	{
+		uid: "43824dfc",
+		type: "random",
+		table: 1
 	}]
 }

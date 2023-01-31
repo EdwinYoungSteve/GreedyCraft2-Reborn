@@ -1106,6 +1106,11 @@ gct_tcon:acidity
        gct_tcon:acidity - 3600 - 0 - false - true
 
 
+gct_aby:stop
+   - Effects: 
+       gct_aby:stop - 3600 - 0 - false - true
+
+
 variegated:boon
    - Effects: 
        variegated:fishermans_friend - 4800 - 0 - false - true

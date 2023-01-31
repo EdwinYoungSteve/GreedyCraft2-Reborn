@@ -1,0 +1,16 @@
+{
+	x: 11.5d,
+	y: 0.0d,
+	dependencies: [
+		"d2cc9351",
+		"03d4a389",
+		"b675e82f"
+	],
+	tasks: [{
+		uid: "6ea976cd",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-cursium_ingot"
+		}]
+	}]
+}

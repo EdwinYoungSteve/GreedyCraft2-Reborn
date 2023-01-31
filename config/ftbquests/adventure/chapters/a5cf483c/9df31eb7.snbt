@@ -1,0 +1,11 @@
+{
+	x: -0.5d,
+	y: 9.0d,
+	tasks: [{
+		uid: "c85777a6",
+		type: "item",
+		items: [{
+			item: "gct_mobs:astral_portal_core"
+		}]
+	}]
+}

@@ -32,7 +32,22 @@ recipes.addShaped(<gct_ores:stormy_shard> * 9, [[<gct_ores:stormy_shard_block>, 
 
 recipes.addShapeless(<mist:portal_base:2>,[<additions:greedycraft-aeonsteel_block>,<minecraft:mossy_cobblestone>]);
 recipes.addShapeless(<mist:portal_base:3>,[<additions:greedycraft-aeonsteel_block>,<astralsorcery:blockmarble>]);
+recipes.addShapeless(<botania:dreamwood:1> * 4, [<gct_mobs:dreamwood_log>]);
+recipes.addShapeless(<gct_mobs:reversed_dreamwood_plank> * 4, [<gct_mobs:reversed_dreamwood_log>]);
+recipes.addShapeless(<botania:manaresource:5> * 32, [<gct_mobs:gaia_heart>]);
 
+RecipeUtil.addShapeless("silicon_gem_1to4", <appliedenergistics2:material:5> * 4,
+    [<ore:ingotSilicon>]
+);
+RecipeUtil.addShapeless("silicon_ingot_4to1", <additions:greedycraft-silicon_ingot>,
+    [<ore:itemSilicon>, <ore:itemSilicon>, <ore:itemSilicon>, <ore:itemSilicon>]
+);
+RecipeUtil.addShapeless("carbon_ingot_4to1", <additions:greedycraft-carbon_ingot>, 
+    [<ore:dustGraphite>, <ore:dustGraphite>, <ore:dustGraphite>, <ore:dustGraphite>]
+);
+RecipeUtil.addShapeless("carbon_ingot_1to4", <nuclearcraft:dust:8> * 4,
+    [<ore:ingotCarbon>]
+);
 RecipeUtil.addShapeless("star_1", <additions:greedycraft-canopy_star>, 
     [<additions:greedycraft-broken_canopy_star>, <additions:greedycraft-canopy_seed>]
 );
@@ -416,9 +431,6 @@ RecipeUtil.addShapeless("stainless_steel_rev", <additions:stainless_steel_ingot>
 );
 RecipeUtil.addShapeless("terrestrial_artifact", <biomesoplenty:terrestrial_artifact>,
     [<ore:gemRuby>, <ore:gemTopaz>, <ore:gemAmber>, <ore:gemPeridot>, <ore:gemMalachite>, <ore:gemSapphire>, <ore:gemTanzanite>, <ore:gemAmethyst>, <ore:gemScarlite>]
-);
-RecipeUtil.addShapeless("primordial_pearl_fix", <thaumcraft:primordial_pearl>,
-    [<thaumcraft:primordial_pearl>.anyDamage(), <thaumcraft:void_seed>]
 );
 RecipeUtil.addShapeless("protonium_rev", <additions:protonium_ingot> * 9,
     [<ore:blockProtonium>]

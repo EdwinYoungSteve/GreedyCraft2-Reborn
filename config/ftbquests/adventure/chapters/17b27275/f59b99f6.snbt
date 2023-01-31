@@ -1,0 +1,15 @@
+{
+	x: -7.5d,
+	y: 0.0d,
+	dependencies: [
+		"02eb78b1"
+	],
+	tasks: [{
+		uid: "3a60e24c",
+		type: "observation",
+		icon: "gct_aby:seek_altar",
+		match_type: "block_id",
+		match: "gct_aby:seek_altar",
+		timer: 0L
+	}]
+}

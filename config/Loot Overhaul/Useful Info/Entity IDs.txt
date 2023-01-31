@@ -915,6 +915,15 @@ ageofminecraft:manaorb - 912
 cfm:mountable_block - 913
 cfm:mirror - 914
 gravestone:player_ghost - 915
+gct_mobs:reversed_elf - 916
+gct_mobs:elf - 917
+naturalpledge:sealarrow - 918
+gct_aby:blue_flame_beholder - 919
+gct_aby:remnant_wandering - 920
+gct_aby:zjarugoth - 921
+testdummy:dummy - 922
+testdummy:floating_number_dps - 923
+testdummy:floating_number - 924
 mca:entityvillagermca - 926
 mca:grimreapermca - 927
 rfp2:playerdummy - 928

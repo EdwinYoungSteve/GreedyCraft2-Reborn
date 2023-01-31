@@ -9,6 +9,9 @@
 	default_quest_disable_jei: false,
 	emergency_items: [{
 		item: "additions:greedycraft-emergency_button"
+	},
+	{
+		item: "additions:greedycraft-storm_kicker"
 	}],
 	emergency_items_cooldown: "1m",
 	drop_loot_crates: false,

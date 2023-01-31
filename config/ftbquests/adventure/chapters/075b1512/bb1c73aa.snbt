@@ -1,6 +1,10 @@
 {
+	title: "§b怪物杀手 V",
 	x: -5.0d,
 	y: 7.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"45fef71f"
 	],

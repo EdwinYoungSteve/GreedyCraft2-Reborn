@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	dependencies: [
+		"2094eeae"
+	],
+	tasks: [{
+		uid: "d81044f3",
+		type: "item",
+		items: [{
+			item: "gct_ores:order_crystal"
+		}]
+	}]
+}

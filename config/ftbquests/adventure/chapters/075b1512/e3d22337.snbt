@@ -1,6 +1,10 @@
 {
+	title: "§b旅行家 VIII",
 	x: -3.5d,
 	y: 11.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"ef47d21b"
 	],

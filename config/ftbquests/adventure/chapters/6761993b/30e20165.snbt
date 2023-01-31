@@ -1,6 +1,11 @@
 {
-	x: -6.0d,
+	title: "§b血魔法：真实开端",
+	x: -9.0d,
 	y: 1.5d,
+	description: "合成血之祭坛",
+	text: [
+		"请纵情享受——这鲜血之美。"
+	],
 	dependencies: [
 		"3f924e0c",
 		"e33ac341"

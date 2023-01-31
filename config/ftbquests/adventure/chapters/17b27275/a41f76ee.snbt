@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: 3.0d,
+	dependencies: [
+		"02eb78b1"
+	],
+	tasks: [{
+		uid: "c52ab018",
+		type: "item",
+		items: [{
+			item: "gct_aby:solid_pot_energy"
+		}]
+	}]
+}

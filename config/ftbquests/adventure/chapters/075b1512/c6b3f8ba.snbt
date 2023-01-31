@@ -1,6 +1,10 @@
 {
+	title: "§b旅行家 V",
 	x: -3.5d,
 	y: 7.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"bd557477"
 	],

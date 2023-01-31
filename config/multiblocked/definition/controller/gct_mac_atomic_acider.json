@@ -7,70 +7,70 @@
         "cIO": 0,
         "gIO": 2,
         "x": 43,
-        "y": 91,
+        "y": 72,
         "autoIO": false
       },
       {
         "cIO": 0,
         "gIO": 2,
         "x": 61,
-        "y": 91,
+        "y": 72,
         "autoIO": false
       },
       {
         "cIO": 0,
         "gIO": 2,
         "x": 79,
-        "y": 91,
+        "y": 72,
         "autoIO": false
       },
       {
         "cIO": 0,
         "gIO": 2,
         "x": 97,
-        "y": 91,
+        "y": 72,
         "autoIO": false
       },
       {
         "cIO": 0,
         "gIO": 2,
         "x": 115,
-        "y": 91,
+        "y": 72,
         "autoIO": false
       },
       {
         "cIO": 1,
         "gIO": 1,
         "x": 43,
-        "y": 121,
+        "y": 128,
         "autoIO": false
       },
       {
         "cIO": 1,
         "gIO": 1,
         "x": 61,
-        "y": 121,
+        "y": 128,
         "autoIO": false
       },
       {
         "cIO": 1,
         "gIO": 1,
         "x": 79,
-        "y": 121,
+        "y": 128,
         "autoIO": false
       },
       {
         "cIO": 1,
         "gIO": 1,
         "x": 97,
-        "y": 121,
+        "y": 128,
         "autoIO": false
       },
       {
         "cIO": 1,
         "gIO": 1,
         "x": 115,
-        "y": 121,
+        "y": 128,
         "autoIO": false
       }
     ],
@@ -78,16 +78,16 @@
       {
         "cIO": 0,
         "gIO": 2,
-        "x": 79,
-        "y": 134,
+        "x": 43,
+        "y": 101,
         "autoIO": false,
         "tC": 100000
       },
       {
         "cIO": 0,
         "gIO": 2,
-        "x": 79,
-        "y": 153,
+        "x": 25,
+        "y": 101,
         "autoIO": false,
         "tC": 100000
       }
@@ -103,7 +103,8 @@
       "capacity": 10000000,
       "maxReceive": 500000,
       "maxExtract": 500000
-    }
+    },
+    "background": "multiblocked:textures/atomic_acider.png"
   },
   "allowRotate": true,
   "showInJei": true,

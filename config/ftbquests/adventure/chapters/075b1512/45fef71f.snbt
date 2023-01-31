@@ -1,6 +1,10 @@
 {
+	title: "§b怪物杀手 IV",
 	x: -5.0d,
 	y: 5.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"fe181dca"
 	],

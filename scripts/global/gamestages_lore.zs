@@ -499,6 +499,29 @@ global gameStagesLore as string[][string][string][string] = {
                 "难度飙升"
             ]
         },
+        betweenland_traveller: {
+            alias: ["交错旅行家"],
+            lore: [
+                "你终于明白了那沼泽中祭坛的真正意义。"
+            ],
+            unlocks: [
+                "可以前往交错次元",
+                "可以挑战交错次元的BOSS",
+                "可以制作匠魂的交错系列装备",
+                "新的状态属性——残蚀值！"
+            ]
+        },
+        abyss_guardian: {
+            alias: ["深渊守护者"],
+            lore: [
+                "扭曲遗址，中层深渊最后的防线。"
+            ],
+            unlocks: [
+                "可以进入扭曲遗址",
+                "可以制作强大的外神金属",
+                "交错钢锭！"
+            ]
+        },
         order: {
             alias: ["遵守秩序"],
             lore: [

@@ -1,6 +1,10 @@
 {
+	title: "§b疯狂输出 VII",
 	x: -2.0d,
 	y: 10.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"ddd2edce"
 	],

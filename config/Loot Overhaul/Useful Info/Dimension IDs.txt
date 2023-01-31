@@ -37,8 +37,17 @@ the_end
 
 
 dimdarkerrealm
-	- Id: 55
+	- Id: 54
 	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+warped_ruin
+	- Id: 55
+	- Height: 256
 	- Has Sky? false
 	- Cloud Height: 128.0
 	- Can Respawn Here? false
@@ -74,6 +83,15 @@ alfheim
 
 atlantis
 	- Id: 324987
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+starland
+	- Id: 80
 	- Height: 256
 	- Has Sky? true
 	- Cloud Height: 128.0

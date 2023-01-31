@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x6f0059,
+    "langs": {
+        "material": {
+            "en": "Cursium",
+            "zh": "咒缚"
+        }
+    }
+}

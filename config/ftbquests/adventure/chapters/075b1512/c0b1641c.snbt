@@ -1,6 +1,10 @@
 {
+	title: "§b航天员 III",
 	x: 4.0d,
 	y: 4.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"1e10d4ae"
 	],

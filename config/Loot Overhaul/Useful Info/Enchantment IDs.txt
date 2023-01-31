@@ -840,6 +840,22 @@ blue_skies:uncivilized
    - Max Level: 5
 
 
+naturalpledge:heavy
+   - Id: 104
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+naturalpledge:light
+   - Id: 105
+   - Rarity: COMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
 evilcraft:vengeance
    - Id: 106
    - Rarity: COMMON

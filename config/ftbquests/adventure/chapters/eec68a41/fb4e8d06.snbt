@@ -1,6 +1,11 @@
 {
-	x: 18.5d,
-	y: -3.0d,
+	title: "§b空之律者：？？？",
+	x: 20.0d,
+	y: -1.5d,
+	description: "使用柠檬和森林法杖交易精灵法杖",
+	text: [
+		""
+	],
 	dependencies: [
 		"76e34a47"
 	],

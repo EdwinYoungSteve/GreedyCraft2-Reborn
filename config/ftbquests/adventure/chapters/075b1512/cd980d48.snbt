@@ -1,6 +1,10 @@
 {
+	title: "§b旅行家 II",
 	x: -3.5d,
 	y: 2.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"c78579dc"
 	],

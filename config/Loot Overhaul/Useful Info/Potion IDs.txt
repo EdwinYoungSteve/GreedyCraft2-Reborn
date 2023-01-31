@@ -2104,6 +2104,14 @@ thebetweenlands:effect_weakness
 	- Is Beneficial: false
 
 
+gct_tcon:cooperation_1
+   - Id: 262
+   - Color: -1
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
 thebetweenlands:effect_catseyes
    - Id: 263
    - Color: 0
@@ -2147,6 +2155,22 @@ thebetweenlands:effect_blindman
 thebetweenlands:effect_slugarm
    - Id: 268
    - Color: 0
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+gct_tcon:cooperation_2
+   - Id: 269
+   - Color: -1
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+gct_tcon:angry
+   - Id: 270
+   - Color: -3407770
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: false
@@ -2309,6 +2333,14 @@ moretcon:coldflames
    - Color: -1
    - Is Instant: false
    - Is Bad: true
+	- Is Beneficial: false
+
+
+gct_tcon:angry_accumulation
+   - Id: 291
+   - Color: -3407770
+   - Is Instant: false
+   - Is Bad: false
 	- Is Beneficial: false
 
 
@@ -2484,6 +2516,118 @@ totaltinkers:hemorrhage
    - Id: 313
    - Color: 16711680
    - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+gct_tcon:trapped
+   - Id: 314
+   - Color: -16751104
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+gct_tcon:anger
+   - Id: 315
+   - Color: -3407770
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+gct_tcon:anger_accumulation
+   - Id: 316
+   - Color: -3407770
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+naturalpledge:trap_seer
+   - Id: 317
+   - Color: 16757823
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+naturalpledge:everburn
+   - Id: 318
+   - Color: 14506015
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+naturalpledge:drab
+   - Id: 319
+   - Color: 8421504
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+naturalpledge:overcharged
+   - Id: 320
+   - Color: 58583
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+naturalpledge:featherweight
+   - Id: 321
+   - Color: 8900331
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+naturalpledge:faithlessness
+   - Id: 322
+   - Color: 9528420
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+naturalpledge:rooted
+   - Id: 323
+   - Color: 6507781
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+naturalpledge:immortality
+   - Id: 324
+   - Color: 14859542
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+gct_aby:stop
+   - Id: 325
+   - Color: -6710887
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+gct_aby:bluefire
+   - Id: 326
+   - Color: -16763956
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+gct_aby:zjarugoth_damage
+   - Id: 327
+   - Color: -1
+   - Is Instant: true
    - Is Bad: true
 	- Is Beneficial: false
 

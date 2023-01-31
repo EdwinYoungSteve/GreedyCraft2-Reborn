@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"b4fdc649"
+	],
+	tasks: [{
+		uid: "fcdcf6e1",
+		type: "item",
+		items: [{
+			item: "additions:bloody-balanced_slate"
+		}]
+	}]
+}

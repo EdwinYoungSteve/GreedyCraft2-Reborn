@@ -1,6 +1,10 @@
 {
+	title: "§b持之以恒 Ⅰ",
 	x: -6.5d,
 	y: 1.0d,
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "b7185534",
 		type: "stat",

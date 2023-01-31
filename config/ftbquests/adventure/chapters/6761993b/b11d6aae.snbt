@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	dependencies: [
+		"e418f863"
+	],
+	tasks: [{
+		uid: "56f1dcd6",
+		type: "item",
+		items: [{
+			item: "additions:bloody-ghost_metal"
+		}]
+	}]
+}

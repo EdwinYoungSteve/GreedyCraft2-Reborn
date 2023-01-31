@@ -1,8 +1,13 @@
 {
-	x: -1.0d,
+	title: "§b强化……别套了",
+	x: -6.0d,
 	y: 1.5d,
+	description: "使用二级血之祭坛制作强化石板",
+	text: [
+		""
+	],
 	dependencies: [
-		"1ca32822"
+		"4580a6aa"
 	],
 	tasks: [{
 		uid: "b44af8dd",

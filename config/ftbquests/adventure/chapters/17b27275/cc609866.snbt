@@ -1,0 +1,37 @@
+{
+	x: -9.0d,
+	y: 1.5d,
+	dependencies: [
+		"f59b99f6",
+		"e64e68e7",
+		"a41f76ee"
+	],
+	tasks: [{
+		uid: "0c2b9e04",
+		type: "item",
+		items: [{
+			item: "gct_mobs:azathothium_ingot"
+		}]
+	},
+	{
+		uid: "9d0e3eb0",
+		type: "item",
+		items: [{
+			item: "gct_mobs:nyarlathotepium_ingot"
+		}]
+	},
+	{
+		uid: "957b9a8d",
+		type: "item",
+		items: [{
+			item: "gct_mobs:yogsothothium_ingot"
+		}]
+	},
+	{
+		uid: "8d28a178",
+		type: "item",
+		items: [{
+			item: "gct_mobs:shubniggurathium_ingot"
+		}]
+	}]
+}

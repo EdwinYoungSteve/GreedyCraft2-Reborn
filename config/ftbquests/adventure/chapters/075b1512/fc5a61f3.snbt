@@ -1,6 +1,10 @@
 {
+	title: "§b血流成河 X",
 	x: 2.5d,
 	y: 14.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"34bef147"
 	],

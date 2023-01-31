@@ -1,6 +1,11 @@
 {
-	x: -2.0d,
-	y: -0.5d,
+	title: "§b这仅仅是折磨的开始...",
+	x: -6.5d,
+	y: 5.5d,
+	description: "制作钯金锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"f7337221",
 		"cc7103ba"
@@ -11,5 +16,21 @@
 		items: [{
 			item: "additions:mekaddon-porpezite_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "78c60fce",
+		type: "item",
+		item: "additions:mekaddon-porpezite_ingot",
+		count: 3
+	},
+	{
+		uid: "a66f73b3",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "070995c3",
+		type: "random",
+		table: 1
 	}]
 }

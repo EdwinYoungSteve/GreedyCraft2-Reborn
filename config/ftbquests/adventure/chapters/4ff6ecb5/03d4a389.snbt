@@ -1,0 +1,14 @@
+{
+	x: 13.5d,
+	y: 2.0d,
+	dependencies: [
+		"5286944a"
+	],
+	tasks: [{
+		uid: "0a536b3c",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-eldritch_steel_ingot"
+		}]
+	}]
+}

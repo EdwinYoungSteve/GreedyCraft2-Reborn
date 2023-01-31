@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: 2.0d,
+	dependencies: [
+		"29eb121f"
+	],
+	tasks: [{
+		uid: "52c53881",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-extended_primal_metal_ingot"
+		}]
+	}]
+}

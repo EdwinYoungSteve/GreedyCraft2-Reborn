@@ -1,0 +1,14 @@
+{
+	x: 11.5d,
+	y: 2.0d,
+	dependencies: [
+		"7d0affe4"
+	],
+	tasks: [{
+		uid: "3fffd78a",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-impetusite_ingot"
+		}]
+	}]
+}

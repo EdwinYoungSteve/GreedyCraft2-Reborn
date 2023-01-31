@@ -1,6 +1,10 @@
 {
+	title: "§b疯狂输出 IV",
 	x: -2.0d,
 	y: 5.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"0852cd25"
 	],

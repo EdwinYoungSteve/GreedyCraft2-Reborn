@@ -1,4 +1,6 @@
 {
+	title: "§b凋灵杀手 VI",
+	icon: "minecraft:skull 1 1",
 	x: -0.5d,
 	y: 8.5d,
 	dependencies: [

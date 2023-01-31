@@ -1294,3 +1294,692 @@ celestium.addHeadMaterialStats(700, 13, 11, 5);//头部
 celestium.addHandleMaterialStats(1.4, 500);//手柄
 celestium.addExtraMaterialStats(220);//额外
 celestium.register();
+
+val irisia = mods.contenttweaker.tconstruct.MaterialBuilder.create("irisia");
+irisia.color = Color.fromHex("f5dc9e").getIntColor();
+irisia.craftable = false;
+irisia.castable = true;
+irisia.representativeItem = <item:tiths:ingot_irisia>;
+irisia.addItem(<item:tiths:ingot_irisia>);
+irisia.liquid = <liquid:irisia>;
+irisia.localizedName = game.localize("greedycraft.tconstruct.material.irisia.name");
+irisia.addHeadMaterialStats(4000,7,10,4);
+irisia.addHandleMaterialStats(1.4,400);
+irisia.addExtraMaterialStats(500);
+irisia.register();
+
+val swinium = mods.contenttweaker.tconstruct.MaterialBuilder.create("swinium");//材料id
+swinium.color = Color.fromHex("a88f67").getIntColor();//颜色 
+swinium.craftable = false;//部件加工台
+swinium.castable = true;//浇筑
+swinium.representativeItem = <item:additions:swinium_ingot>;//显示的材料
+swinium.addItem(<item:additions:swinium_ingot>);//需要的材料
+swinium.liquid = <liquid:swinium>;
+swinium.localizedName = game.localize("greedycraft.tconstruct.material.swinium.name");
+swinium.addHeadMaterialStats(857, 3.75, 9.58, 6);//头部
+swinium.addHandleMaterialStats(1.1, 230);//手柄
+swinium.addExtraMaterialStats(245);//额外
+swinium.register();
+
+val manarium = mods.contenttweaker.tconstruct.MaterialBuilder.create("manarium");//材料id
+manarium.color = Color.fromHex("767fb5").getIntColor();//颜色 
+manarium.craftable = false;//部件加工台
+manarium.castable = true;//浇筑
+manarium.representativeItem = <item:additions:manarium_ingot>;//显示的材料
+manarium.addItem(<item:additions:manarium_ingot>);//需要的材料
+manarium.liquid = <liquid:manarium>;
+manarium.localizedName = game.localize("greedycraft.tconstruct.material.manarium.name");
+manarium.addHeadMaterialStats(1450, 0.5, 14.9, 6);//头部
+manarium.addHandleMaterialStats(0.85, 460);//手柄
+manarium.addExtraMaterialStats(521);//额外
+manarium.register();
+
+val lighteum = mods.contenttweaker.tconstruct.MaterialBuilder.create("lighteum");
+lighteum.color = Color.fromHex("ffff3d").getIntColor();
+lighteum.craftable = false;
+lighteum.castable = true;
+lighteum.representativeItem = <item:additions:lighteum_ingot>;
+lighteum.addItem(<item:additions:lighteum_ingot>);
+lighteum.liquid = <liquid:lighteum>;
+lighteum.localizedName = game.localize("greedycraft.tconstruct.material.lighteum.name");
+lighteum.addHeadMaterialStats(1190,8.95,12.7,6);
+lighteum.addHandleMaterialStats(1.6,0);
+lighteum.addExtraMaterialStats(55);
+lighteum.register();
+
+val stripium = mods.contenttweaker.tconstruct.MaterialBuilder.create("stripium");
+stripium.color = Color.fromHex("558bed").getIntColor();
+stripium.craftable = false;
+stripium.castable = true;
+stripium.representativeItem = <item:additions:stripium_ingot>;
+stripium.addItem(<item:additions:stripium_ingot>);
+stripium.liquid = <liquid:stripium>;
+stripium.localizedName = game.localize("greedycraft.tconstruct.material.stripium.name");
+stripium.addHeadMaterialStats(1208,11.7,11.65,6);
+stripium.addHandleMaterialStats(1.25,395);
+stripium.addExtraMaterialStats(412);
+stripium.register();
+//kunkun
+val heavenite = mods.contenttweaker.tconstruct.MaterialBuilder.create("heavenite");
+heavenite.color = Color.fromHex("00ffff").getIntColor();
+heavenite.craftable = false;
+heavenite.castable =  true;
+heavenite.representativeItem = <item:additions:heavenite_ingot>;
+heavenite.addItem(<item:additions:heavenite_ingot>);
+heavenite.liquid = <liquid:heavenite>;
+heavenite.localizedName = game.localize("greedycraft.tconstruct.material.heavenite.name");
+heavenite.addHeadMaterialStats(2008,7.67,14.25,6);
+heavenite.addHandleMaterialStats(0.3,555);
+heavenite.addExtraMaterialStats(404);
+heavenite.register();
+
+val ghostite = mods.contenttweaker.tconstruct.MaterialBuilder.create("ghostite");
+ghostite.color = Color.fromHex("503f67").getIntColor();
+ghostite.craftable = false;
+ghostite.castable =  true;
+ghostite.representativeItem = <item:additions:ghostite_ingot>;
+ghostite.addItem(<item:additions:ghostite_ingot>);
+ghostite.liquid = <liquid:ghostite>;
+ghostite.localizedName = game.localize("greedycraft.tconstruct.material.ghostite.name");
+ghostite.addHeadMaterialStats(904,32.2,6.3,6);
+ghostite.addHandleMaterialStats(2,250);
+ghostite.addExtraMaterialStats(120);
+ghostite.register();
+
+val waringlium = mods.contenttweaker.tconstruct.MaterialBuilder.create("waringlium");
+waringlium.color = Color.fromHex("233d61").getIntColor();
+waringlium.craftable = false;
+waringlium.castable =  true;
+waringlium.representativeItem = <item:additions:waringlium_ingot>;
+waringlium.addItem(<item:additions:waringlium_ingot>);
+waringlium.liquid = <liquid:waringlium>;
+waringlium.localizedName = game.localize("greedycraft.tconstruct.material.waringlium.name");
+waringlium.addHeadMaterialStats(1570,18,13.5,6);
+waringlium.addHandleMaterialStats(0.9,470);
+waringlium.addExtraMaterialStats(400);
+waringlium.register();
+
+val cloudite = mods.contenttweaker.tconstruct.MaterialBuilder.create("cloudite");
+cloudite.color = Color.fromHex("f6f7f7").getIntColor();
+cloudite.craftable = false;
+cloudite.castable =  true;
+cloudite.representativeItem = <item:additions:cloudite_ingot>;
+cloudite.addItem(<item:additions:cloudite_ingot>);
+cloudite.liquid = <liquid:cloudite>;
+cloudite.localizedName = game.localize("greedycraft.tconstruct.material.cloudite.name");
+cloudite.addHeadMaterialStats(2391,13.5,12.5,7);
+cloudite.addHandleMaterialStats(1.4,600);
+cloudite.addExtraMaterialStats(540);
+cloudite.register();
+
+val mangisite = mods.contenttweaker.tconstruct.MaterialBuilder.create("mangisite");
+mangisite.color = Color.fromHex("3b1849").getIntColor();
+mangisite.craftable = false;
+mangisite.castable =  true;
+mangisite.representativeItem = <item:additions:mangisite_ingot>;
+mangisite.addItem(<item:additions:mangisite_ingot>);
+mangisite.liquid = <liquid:mangisite>;
+mangisite.localizedName = game.localize("greedycraft.tconstruct.material.mangisite.name");
+mangisite.addHeadMaterialStats(1150,8.98,10.35,7);
+mangisite.addHandleMaterialStats(1.35,210);
+mangisite.addExtraMaterialStats(160);
+mangisite.register();
+
+val soilium = mods.contenttweaker.tconstruct.MaterialBuilder.create("soilium");
+soilium.color = Color.fromHex("b9b06a").getIntColor();
+soilium.craftable = false;
+soilium.castable =  true;
+soilium.representativeItem = <item:additions:soilium_ingot>;
+soilium.addItem(<item:additions:soilium_ingot>);
+soilium.liquid = <liquid:soilium>;
+soilium.localizedName = game.localize("greedycraft.tconstruct.material.soilium.name");
+soilium.addHeadMaterialStats(1260,6.32,3.14,7);
+soilium.addHandleMaterialStats(2,400);
+soilium.addExtraMaterialStats(340);
+soilium.register();
+
+val tierite = mods.contenttweaker.tconstruct.MaterialBuilder.create("tierite");
+tierite.color = Color.fromHex("8ed6e8").getIntColor();
+tierite.craftable = false;
+tierite.castable =  true;
+tierite.representativeItem = <item:additions:tierite_ingot>;
+tierite.addItem(<item:additions:tierite_ingot>);
+tierite.liquid = <liquid:tierite>;
+tierite.localizedName = game.localize("greedycraft.tconstruct.material.tierite.name");
+tierite.addHeadMaterialStats(1488,11.71,6.5,7);
+tierite.addHandleMaterialStats(1.3,400);
+tierite.addExtraMaterialStats(340);
+tierite.register();
+
+val cheatieum = mods.contenttweaker.tconstruct.MaterialBuilder.create("cheatieum");
+cheatieum.color = Color.fromHex("e2e2e2").getIntColor();
+cheatieum.craftable = false;
+cheatieum.castable =  true;
+cheatieum.representativeItem = <item:additions:cheatieum_ingot>;
+cheatieum.addItem(<item:additions:cheatieum_ingot>);
+cheatieum.liquid = <liquid:cheatieum>;
+cheatieum.localizedName = game.localize("greedycraft.tconstruct.material.cheatieum.name");
+cheatieum.addHeadMaterialStats(2105,2.25,16.6,7);
+cheatieum.addHandleMaterialStats(1.65,800);
+cheatieum.addExtraMaterialStats(620);
+cheatieum.register();
+
+val idiessite = mods.contenttweaker.tconstruct.MaterialBuilder.create("idiessite");
+idiessite.color = Color.fromHex("badffd").getIntColor();
+idiessite.craftable = false;
+idiessite.castable =  true;
+idiessite.representativeItem = <item:additions:idiessite_ingot>;
+idiessite.addItem(<item:additions:idiessite_ingot>);
+idiessite.liquid = <liquid:idiessite>;
+idiessite.localizedName = game.localize("greedycraft.tconstruct.material.idiessite.name");
+idiessite.addHeadMaterialStats(1090,12,7.2,7);
+idiessite.addHandleMaterialStats(1.8,205);
+idiessite.addExtraMaterialStats(125);
+idiessite.register();
+
+val moltenium = mods.contenttweaker.tconstruct.MaterialBuilder.create("moltenium");
+moltenium.color = Color.fromHex("d54d00").getIntColor();
+moltenium.craftable = false;
+moltenium.castable =  true;
+moltenium.representativeItem = <item:additions:moltenium_ingot>;
+moltenium.addItem(<item:additions:moltenium_ingot>);
+moltenium.liquid = <liquid:moltenium>;
+moltenium.localizedName = game.localize("greedycraft.tconstruct.material.moltenium.name");
+moltenium.addHeadMaterialStats(1000,0.50,18,7);
+moltenium.addHandleMaterialStats(1.50,400);
+moltenium.addExtraMaterialStats(400);
+moltenium.register();
+
+val ranglium = mods.contenttweaker.tconstruct.MaterialBuilder.create("ranglium");
+ranglium.color = Color.fromHex("7f7f7f").getIntColor();
+ranglium.craftable = false;
+ranglium.castable =  true;
+ranglium.representativeItem = <item:additions:ranglium_ingot>;
+ranglium.addItem(<item:additions:ranglium_ingot>);
+ranglium.liquid = <liquid:ranglium>;
+ranglium.localizedName = game.localize("greedycraft.tconstruct.material.ranglium.name");
+ranglium.addHeadMaterialStats(859,11.95,6.9,7);
+ranglium.addHandleMaterialStats(1.9,210);
+ranglium.addExtraMaterialStats(105);
+ranglium.register();
+
+val vanadium = mods.contenttweaker.tconstruct.MaterialBuilder.create("vanadium");
+vanadium.color = Color.fromHex("e5dfd8").getIntColor();
+vanadium.craftable = false;
+vanadium.castable =  true;
+vanadium.representativeItem = <item:additions:vanadium_ingot>;
+vanadium.addItem(<item:additions:vanadium_ingot>);
+vanadium.liquid = <liquid:vanadium>;
+vanadium.localizedName = game.localize("greedycraft.tconstruct.material.vanadium.name");
+vanadium.addHeadMaterialStats(1500,10.9,18.5,8);
+vanadium.addHandleMaterialStats(2.3,800);
+vanadium.addExtraMaterialStats(820);
+vanadium.register();
+
+val oneo = mods.contenttweaker.tconstruct.MaterialBuilder.create("oneo");
+oneo.color = Color.fromHex("aeaeae").getIntColor();
+oneo.craftable = false;
+oneo.castable =  true;
+oneo.representativeItem = <item:additions:oneo_ingot>;
+oneo.addItem(<item:additions:oneo_ingot>);
+oneo.liquid = <liquid:oneo>;
+oneo.localizedName = game.localize("greedycraft.tconstruct.material.oneo.name");
+oneo.addHeadMaterialStats(210,31.8,7.8,8);
+oneo.addHandleMaterialStats(0.2,20);
+oneo.addExtraMaterialStats(20);
+oneo.register();
+
+val togrium = mods.contenttweaker.tconstruct.MaterialBuilder.create("togrium");
+togrium.color = Color.fromHex("219e0b").getIntColor();
+togrium.craftable = false;
+togrium.castable =  true;
+togrium.representativeItem = <item:additions:togrium_ingot>;
+togrium.addItem(<item:additions:togrium_ingot>);
+togrium.liquid = <liquid:togrium>;
+togrium.localizedName = game.localize("greedycraft.tconstruct.material.togrium.name");
+togrium.addHeadMaterialStats(895,14.3,17.7,8);
+togrium.addHandleMaterialStats(2.4,217);
+togrium.addExtraMaterialStats(246);
+togrium.register();
+
+val yoggleseum = mods.contenttweaker.tconstruct.MaterialBuilder.create("yoggleseum");
+yoggleseum.color = Color.fromHex("ae9714").getIntColor();
+yoggleseum.craftable = false;
+yoggleseum.castable =  true;
+yoggleseum.representativeItem = <item:additions:yoggleseum_ingot>;
+yoggleseum.addItem(<item:additions:yoggleseum_ingot>);
+yoggleseum.liquid = <liquid:yoggleseum>;
+yoggleseum.localizedName = game.localize("greedycraft.tconstruct.material.yoggleseum.name");
+yoggleseum.addHeadMaterialStats(1655,10.25,8.85,8);
+yoggleseum.addHandleMaterialStats(1.1,720);
+yoggleseum.addExtraMaterialStats(700);
+yoggleseum.register();
+
+val breakium = mods.contenttweaker.tconstruct.MaterialBuilder.create("breakium");
+breakium.color = Color.fromHex("775f7a").getIntColor();
+breakium.craftable = false;
+breakium.castable =  true;
+breakium.representativeItem = <item:additions:breakium_ingot>;
+breakium.addItem(<item:additions:breakium_ingot>);
+breakium.liquid = <liquid:breakium>;
+breakium.localizedName = game.localize("greedycraft.tconstruct.material.breakium.name");
+breakium.addHeadMaterialStats(1008,9.7,15.5,8);
+breakium.addHandleMaterialStats(1.1,600);
+breakium.addExtraMaterialStats(540);
+breakium.register();
+
+val godiarite = mods.contenttweaker.tconstruct.MaterialBuilder.create("godiarite");
+godiarite.color = Color.fromHex("ffff9c").getIntColor();
+godiarite.craftable = false;
+godiarite.castable =  true;
+godiarite.representativeItem = <item:additions:godiarite_ingot>;
+godiarite.addItem(<item:additions:godiarite_ingot>);
+godiarite.liquid = <liquid:godiarite>;
+godiarite.localizedName = game.localize("greedycraft.tconstruct.material.godiarite.name");
+godiarite.addHeadMaterialStats(2614,4.3,10.25,8);
+godiarite.addHandleMaterialStats(0.3,1004);
+godiarite.addExtraMaterialStats(1158);
+godiarite.register();
+
+val rainite = mods.contenttweaker.tconstruct.MaterialBuilder.create("rainite");
+rainite.color = Color.fromHex("001db7").getIntColor();
+rainite.craftable = false;
+rainite.castable =  true;
+rainite.representativeItem = <item:additions:rainite_ingot>;
+rainite.addItem(<item:additions:rainite_ingot>);
+rainite.liquid = <liquid:rainite>;
+rainite.localizedName = game.localize("greedycraft.tconstruct.material.rainite.name");
+rainite.addHeadMaterialStats(1147,6.2,21,8);
+rainite.addHandleMaterialStats(2,585);
+rainite.addExtraMaterialStats(462);
+rainite.register();
+
+val panloeseum = mods.contenttweaker.tconstruct.MaterialBuilder.create("panloeseum");
+panloeseum.color = Color.fromHex("006845").getIntColor();
+panloeseum.craftable = false;
+panloeseum.castable =  true;
+panloeseum.representativeItem = <item:additions:panloeseum_ingot>;
+panloeseum.addItem(<item:additions:panloeseum_ingot>);
+panloeseum.liquid = <liquid:panloeseum>;
+panloeseum.localizedName = game.localize("greedycraft.tconstruct.material.panloeseum.name");
+panloeseum.addHeadMaterialStats(1587,11.85,10.75,8);
+panloeseum.addHandleMaterialStats(1.66,620);
+panloeseum.addExtraMaterialStats(640);
+panloeseum.register();
+
+val molybdenum = mods.contenttweaker.tconstruct.MaterialBuilder.create("molybdenum");
+molybdenum.color = Color.fromHex("98a8bf").getIntColor();
+molybdenum.craftable = false;
+molybdenum.castable =  true;
+molybdenum.representativeItem = <item:additions:molybdenum_ingot>;
+molybdenum.addItem(<item:additions:molybdenum_ingot>);
+molybdenum.liquid = <liquid:molybdenum>;
+molybdenum.localizedName = game.localize("greedycraft.tconstruct.material.molybdenum.name");
+molybdenum.addHeadMaterialStats(4096,8.92,30.5,9);
+molybdenum.addHandleMaterialStats(2,1285);
+molybdenum.addExtraMaterialStats(1300);
+molybdenum.register();
+
+val dawnium = mods.contenttweaker.tconstruct.MaterialBuilder.create("dawnium");
+dawnium.color = Color.fromHex("ce5222").getIntColor();
+dawnium.craftable = false;
+dawnium.castable =  true;
+dawnium.representativeItem = <item:additions:dawnium_ingot>;
+dawnium.addItem(<item:additions:dawnium_ingot>);
+dawnium.liquid = <liquid:dawnium>;
+dawnium.localizedName = game.localize("greedycraft.tconstruct.material.dawnium.name");
+dawnium.addHeadMaterialStats(1907,14.7,18.68,9);
+dawnium.addHandleMaterialStats(1.9,680);
+dawnium.addExtraMaterialStats(520);
+dawnium.register();
+
+val fenzium = mods.contenttweaker.tconstruct.MaterialBuilder.create("fenzium");
+fenzium.color = Color.fromHex("2c9eda").getIntColor();
+fenzium.craftable = false;
+fenzium.castable =  true;
+fenzium.representativeItem = <item:additions:fenzium_ingot>;
+fenzium.addItem(<item:additions:fenzium_ingot>);
+fenzium.liquid = <liquid:fenzium>;
+fenzium.localizedName = game.localize("greedycraft.tconstruct.material.fenzium.name");
+fenzium.addHeadMaterialStats(1842,18,9.42,9);
+fenzium.addHandleMaterialStats(2.3,490);
+fenzium.addExtraMaterialStats(420);
+fenzium.register();
+
+val xenidium = mods.contenttweaker.tconstruct.MaterialBuilder.create("xenidium");
+xenidium.color = Color.fromHex("c6c6d3").getIntColor();
+xenidium.craftable = false;
+xenidium.castable =  true;
+xenidium.representativeItem = <item:additions:xenidium_ingot>;
+xenidium.addItem(<item:additions:xenidium_ingot>);
+xenidium.liquid = <liquid:xenidium>;
+xenidium.localizedName = game.localize("greedycraft.tconstruct.material.xenidium.name");
+xenidium.addHeadMaterialStats(2515,16.25,11.8,9);
+xenidium.addHandleMaterialStats(1.25,720);
+xenidium.addExtraMaterialStats(658);
+xenidium.register();
+
+val fallenium = mods.contenttweaker.tconstruct.MaterialBuilder.create("fallenium");
+fallenium.color = Color.fromHex("de6f00").getIntColor();
+fallenium.craftable = false;
+fallenium.castable =  true;
+fallenium.representativeItem = <item:additions:fallenium_ingot>;
+fallenium.addItem(<item:additions:fallenium_ingot>);
+fallenium.liquid = <liquid:fallenium>;
+fallenium.localizedName = game.localize("greedycraft.tconstruct.material.fallenium.name");
+fallenium.addHeadMaterialStats(963,12.3,8.99,9);
+fallenium.addHandleMaterialStats(2.88,185);
+fallenium.addExtraMaterialStats(264);
+fallenium.register();
+
+val phoenixite = mods.contenttweaker.tconstruct.MaterialBuilder.create("phoenixite");
+phoenixite.color = Color.fromHex("d94f00").getIntColor();
+phoenixite.craftable = false;
+phoenixite.castable =  true;
+phoenixite.representativeItem = <item:additions:phoenixite_ingot>;
+phoenixite.addItem(<item:additions:phoenixite_ingot>);
+phoenixite.liquid = <liquid:phoenixite>;
+phoenixite.localizedName = game.localize("greedycraft.tconstruct.material.phoenixite.name");
+phoenixite.addHeadMaterialStats(1280,16.25,18,9);
+phoenixite.addHandleMaterialStats(2.1,420);
+phoenixite.addExtraMaterialStats(406);
+phoenixite.register();
+
+val depthite = mods.contenttweaker.tconstruct.MaterialBuilder.create("depthite");
+depthite.color = Color.fromHex("001500").getIntColor();
+depthite.craftable = false;
+depthite.castable =  true;
+depthite.representativeItem = <item:additions:depthite_ingot>;
+depthite.addItem(<item:additions:depthite_ingot>);
+depthite.liquid = <liquid:depthite>;
+depthite.localizedName = game.localize("greedycraft.tconstruct.material.depthite.name");
+depthite.addHeadMaterialStats(1570,10.9,18.65,9);
+depthite.addHandleMaterialStats(1.05,0);
+depthite.addExtraMaterialStats(600);
+depthite.register();
+
+val sissidium = mods.contenttweaker.tconstruct.MaterialBuilder.create("sissidium");
+sissidium.color = Color.fromHex("ca1800").getIntColor();
+sissidium.craftable = false;
+sissidium.castable =  true;
+sissidium.representativeItem = <item:additions:sissidium_ingot>;
+sissidium.addItem(<item:additions:sissidium_ingot>);
+sissidium.liquid = <liquid:sissidium>;
+sissidium.localizedName = game.localize("greedycraft.tconstruct.material.sissidium.name");
+sissidium.addHeadMaterialStats(2180,12.8,38.2,10);
+sissidium.addHandleMaterialStats(0.9,900);
+sissidium.addExtraMaterialStats(820);
+sissidium.register();
+
+val ttwo = mods.contenttweaker.tconstruct.MaterialBuilder.create("ttwo");
+ttwo.color = Color.fromHex("739275").getIntColor();
+ttwo.craftable = false;
+ttwo.castable =  true;
+ttwo.representativeItem = <item:additions:ttwo_ingot>;
+ttwo.addItem(<item:additions:ttwo_ingot>);
+ttwo.liquid = <liquid:ttwo>;
+ttwo.localizedName = game.localize("greedycraft.tconstruct.material.ttwo.name");
+ttwo.addHeadMaterialStats(1200,60.25,11.1,10);
+ttwo.addHandleMaterialStats(0.4,100);
+ttwo.addExtraMaterialStats(100);
+ttwo.register();
+
+val losessium = mods.contenttweaker.tconstruct.MaterialBuilder.create("losessium");
+losessium.color = Color.fromHex("7289e2").getIntColor();
+losessium.craftable = false;
+losessium.castable =  true;
+losessium.representativeItem = <item:additions:losessium_ingot>;
+losessium.addItem(<item:additions:losessium_ingot>);
+losessium.liquid = <liquid:losessium>;
+losessium.localizedName = game.localize("greedycraft.tconstruct.material.losessium.name");
+losessium.addHeadMaterialStats(8560,30.14,29.65,10);
+losessium.addHandleMaterialStats(4,3000);
+losessium.addExtraMaterialStats(2500);
+losessium.register();
+
+val indium = mods.contenttweaker.tconstruct.MaterialBuilder.create("indium");
+indium.color = Color.fromHex("26004b").getIntColor();
+indium.craftable = false;
+indium.castable =  true;
+indium.representativeItem = <item:additions:indium_ingot>;
+indium.addItem(<item:additions:indium_ingot>);
+indium.liquid = <liquid:indium>;
+indium.localizedName = game.localize("greedycraft.tconstruct.material.indium.name");
+indium.addHeadMaterialStats(1000,22.9,28.75,10);
+indium.addHandleMaterialStats(2.8,260);
+indium.addExtraMaterialStats(225);
+indium.register();
+
+val lovaquite = mods.contenttweaker.tconstruct.MaterialBuilder.create("lovaquite");
+lovaquite.color = Color.fromHex("d0df9a").getIntColor();
+lovaquite.craftable = false;
+lovaquite.castable =  true;
+lovaquite.representativeItem = <item:additions:lovaquite_ingot>;
+lovaquite.addItem(<item:additions:lovaquite_ingot>);
+lovaquite.liquid = <liquid:lovaquite>;
+lovaquite.localizedName = game.localize("greedycraft.tconstruct.material.lovaquite.name");
+lovaquite.addHeadMaterialStats(4113,11.75,23.2,10);
+lovaquite.addHandleMaterialStats(6.2,1800);
+lovaquite.addExtraMaterialStats(2000);
+lovaquite.register();
+
+val rangolarite = mods.contenttweaker.tconstruct.MaterialBuilder.create("rangolarite");
+rangolarite.color = Color.fromHex("ea0a0e").getIntColor();
+rangolarite.craftable = false;
+rangolarite.castable =  true;
+rangolarite.representativeItem = <item:additions:rangolarite_ingot>;
+rangolarite.addItem(<item:additions:rangolarite_ingot>);
+rangolarite.liquid = <liquid:rangolarite>;
+rangolarite.localizedName = game.localize("greedycraft.tconstruct.material.rangolarite.name");
+rangolarite.addHeadMaterialStats(6298,10.96,45.6,10);
+rangolarite.addHandleMaterialStats(3.8,2800);
+rangolarite.addExtraMaterialStats(2400);
+rangolarite.register();
+
+val clearite = mods.contenttweaker.tconstruct.MaterialBuilder.create("clearite");
+clearite.color = Color.fromHex("8affff").getIntColor();
+clearite.craftable = false;
+clearite.castable =  true;
+clearite.representativeItem = <item:additions:clearite_ingot>;
+clearite.addItem(<item:additions:clearite_ingot>);
+clearite.liquid = <liquid:clearite>;
+clearite.localizedName = game.localize("greedycraft.tconstruct.material.clearite.name");
+clearite.addHeadMaterialStats(3540,28,13.2,10);
+clearite.addHandleMaterialStats(2.15,1200);
+clearite.addExtraMaterialStats(1150);
+clearite.register();
+
+val wefenium = mods.contenttweaker.tconstruct.MaterialBuilder.create("wefenium");
+wefenium.color = Color.fromHex("f86cad").getIntColor();
+wefenium.craftable = false;
+wefenium.castable =  true;
+wefenium.representativeItem = <item:additions:wefenium_ingot>;
+wefenium.addItem(<item:additions:wefenium_ingot>);
+wefenium.liquid = <liquid:wefenium>;
+wefenium.localizedName = game.localize("greedycraft.tconstruct.material.wefenium.name");
+wefenium.addHeadMaterialStats(4929,17.75,29.9,10);
+wefenium.addHandleMaterialStats(4,3800);
+wefenium.addExtraMaterialStats(3260);
+wefenium.register();
+
+val technetium = mods.contenttweaker.tconstruct.MaterialBuilder.create("technetium");
+technetium.color = Color.fromHex("303047").getIntColor();
+technetium.craftable = false;
+technetium.castable =  true;
+technetium.representativeItem = <item:additions:technetium_ingot>;
+technetium.addItem(<item:additions:technetium_ingot>);
+technetium.liquid = <liquid:technetium>;
+technetium.localizedName = game.localize("greedycraft.tconstruct.material.technetium.name");
+technetium.addHeadMaterialStats(1600,29,39.6,11);
+technetium.addHandleMaterialStats(3.45,4500);
+technetium.addExtraMaterialStats(4000);
+technetium.register();
+
+val antimony = mods.contenttweaker.tconstruct.MaterialBuilder.create("antimony");
+antimony.color = Color.fromHex("c8ceaa").getIntColor();
+antimony.craftable = false;
+antimony.castable =  true;
+antimony.representativeItem = <item:additions:antimony_ingot>;
+antimony.addItem(<item:additions:antimony_ingot>);
+antimony.liquid = <liquid:antimony>;
+antimony.localizedName = game.localize("greedycraft.tconstruct.material.antimony.name");
+antimony.addHeadMaterialStats(8425,24.6,42.25,11);
+antimony.addHandleMaterialStats(4,2175);
+antimony.addExtraMaterialStats(2060);
+antimony.register();
+
+val rubium = mods.contenttweaker.tconstruct.MaterialBuilder.create("rubium");
+rubium.color = Color.fromHex("680000").getIntColor();
+rubium.craftable = false;
+rubium.castable =  true;
+rubium.representativeItem = <item:additions:rubium_ingot>;
+rubium.addItem(<item:additions:rubium_ingot>);
+rubium.liquid = <liquid:rubium>;
+rubium.localizedName = game.localize("greedycraft.tconstruct.material.rubium.name");
+rubium.addHeadMaterialStats(2180,32.7,51.25,11);
+rubium.addHandleMaterialStats(1.8,1320);
+rubium.addExtraMaterialStats(1260);
+rubium.register();
+
+val rapesesium = mods.contenttweaker.tconstruct.MaterialBuilder.create("rapesesium");
+rapesesium.color = Color.fromHex("5f44ed").getIntColor();
+rapesesium.craftable = false;
+rapesesium.castable =  true;
+rapesesium.representativeItem = <item:additions:rapesesium_ingot>;
+rapesesium.addItem(<item:additions:rapesesium_ingot>);
+rapesesium.liquid = <liquid:rapesesium>;
+rapesesium.localizedName = game.localize("greedycraft.tconstruct.material.rapesesium.name");
+rapesesium.addHeadMaterialStats(6820,30.05,47.8,11);
+rapesesium.addHandleMaterialStats(2.9,1600);
+rapesesium.addExtraMaterialStats(1425);
+rapesesium.register();
+
+val circlium = mods.contenttweaker.tconstruct.MaterialBuilder.create("circlium");
+circlium.color = Color.fromHex("ae0004").getIntColor();
+circlium.craftable = false;
+circlium.castable =  true;
+circlium.representativeItem = <item:additions:circlium_ingot>;
+circlium.addItem(<item:additions:circlium_ingot>);
+circlium.liquid = <liquid:circlium>;
+circlium.localizedName = game.localize("greedycraft.tconstruct.material.circlium.name");
+circlium.addHeadMaterialStats(10250,16.2,50.9,11);
+circlium.addHandleMaterialStats(4.2,3080);
+circlium.addExtraMaterialStats(3185);
+circlium.register();
+
+val errorite = mods.contenttweaker.tconstruct.MaterialBuilder.create("errorite");
+errorite.color = Color.fromHex("858585").getIntColor();
+errorite.craftable = false;
+errorite.castable =  true;
+errorite.representativeItem = <item:additions:errorite_ingot>;
+errorite.addItem(<item:additions:errorite_ingot>);
+errorite.liquid = <liquid:errorite>;
+errorite.localizedName = game.localize("greedycraft.tconstruct.material.errorite.name");
+errorite.addHeadMaterialStats(7320,46.5,69.6,11);
+errorite.addHandleMaterialStats(6,1200);
+errorite.addExtraMaterialStats(1200);
+errorite.register();
+
+val numbereum = mods.contenttweaker.tconstruct.MaterialBuilder.create("numbereum");
+numbereum.color = Color.fromHex("2f57a1").getIntColor();
+numbereum.craftable = false;
+numbereum.castable =  true;
+numbereum.representativeItem = <item:additions:numbereum_ingot>;
+numbereum.addItem(<item:additions:numbereum_ingot>);
+numbereum.liquid = <liquid:numbereum>;
+numbereum.localizedName = game.localize("greedycraft.tconstruct.material.numbereum.name");
+numbereum.addHeadMaterialStats(12345,12.34,45.67,11);
+numbereum.addHandleMaterialStats(3.21,3456);
+numbereum.addExtraMaterialStats(2345);
+numbereum.register();
+
+val treasurite = mods.contenttweaker.tconstruct.MaterialBuilder.create("treasurite");
+treasurite.color = Color.fromHex("ffd2c8").getIntColor();
+treasurite.craftable = false;
+treasurite.castable =  true;
+treasurite.representativeItem = <item:additions:babyrite_ingot>;
+treasurite.addItem(<item:additions:babyrite_ingot>);
+treasurite.liquid = <liquid:treasurite>;
+treasurite.localizedName = game.localize("greedycraft.tconstruct.material.treasurite.name");
+treasurite.addHeadMaterialStats(6180,36.8,46.2,11);
+treasurite.addHandleMaterialStats(3.5,970);
+treasurite.addExtraMaterialStats(860);
+treasurite.register();
+
+val leadite = mods.contenttweaker.tconstruct.MaterialBuilder.create("leadite");
+leadite.color = Color.fromHex("b1e2e2").getIntColor();
+leadite.craftable = false;
+leadite.castable =  true;
+leadite.representativeItem = <item:additions:leadite_ingot>;
+leadite.addItem(<item:additions:leadite_ingot>);
+leadite.liquid = <liquid:leadite>;
+leadite.localizedName = game.localize("greedycraft.tconstruct.material.leadite.name");
+leadite.addHeadMaterialStats(3271,31.07,48.5,11);
+leadite.addHandleMaterialStats(2.4,200);
+leadite.addExtraMaterialStats(180);
+leadite.register();
+
+val cestium = mods.contenttweaker.tconstruct.MaterialBuilder.create("cestium");
+cestium.color = Color.fromHex("ffff4e").getIntColor();
+cestium.craftable = false;
+cestium.castable =  true;
+cestium.representativeItem = <item:additions:cestium_ingot>;
+cestium.addItem(<item:additions:cestium_ingot>);
+cestium.liquid = <liquid:cestium>;
+cestium.localizedName = game.localize("greedycraft.tconstruct.material.cestium.name");
+cestium.addHeadMaterialStats(3820,36.5,92.5,12);
+cestium.addHandleMaterialStats(1.65,3570);
+cestium.addExtraMaterialStats(2530);
+cestium.register();
+
+val fraxinium = mods.contenttweaker.tconstruct.MaterialBuilder.create("fraxinium");
+fraxinium.color = Color.fromHex("c9ffd9").getIntColor();
+fraxinium.craftable = false;
+fraxinium.castable =  true;
+fraxinium.representativeItem = <item:additions:fraxinium_ingot>;
+fraxinium.addItem(<item:additions:fraxinium_ingot>);
+fraxinium.liquid = <liquid:fraxinium>;
+fraxinium.localizedName = game.localize("greedycraft.tconstruct.material.fraxinium.name");
+fraxinium.addHeadMaterialStats(4080,35.2,98.7,12);
+fraxinium.addHandleMaterialStats(1.6,2775);
+fraxinium.addExtraMaterialStats(2690);
+fraxinium.register();
+
+val martisite = mods.contenttweaker.tconstruct.MaterialBuilder.create("martisite");
+martisite.color = Color.fromHex("f998ff").getIntColor();
+martisite.craftable = false;
+martisite.castable =  true;
+martisite.representativeItem = <item:additions:martisite_ingot>;
+martisite.addItem(<item:additions:martisite_ingot>);
+martisite.liquid = <liquid:martisite>;
+martisite.localizedName = game.localize("greedycraft.tconstruct.material.martisite.name");
+martisite.addHeadMaterialStats(25800,11.7,130.5,12);
+martisite.addHandleMaterialStats(3.9,8000);
+martisite.addExtraMaterialStats(7000);
+martisite.register();
+
+val flashite = mods.contenttweaker.tconstruct.MaterialBuilder.create("flashite");
+flashite.color = Color.fromHex("ffdfff").getIntColor();
+flashite.craftable = false;
+flashite.castable =  true;
+flashite.representativeItem = <item:additions:flashite_ingot>;
+flashite.addItem(<item:additions:flashite_ingot>);
+flashite.liquid = <liquid:flashite>;
+flashite.localizedName = game.localize("greedycraft.tconstruct.material.flashite.name");
+flashite.addHeadMaterialStats(27900,40.2,93.15,12);
+flashite.addHandleMaterialStats(4,10000);
+flashite.addExtraMaterialStats(8055);
+flashite.register();
+
+val overlaite = mods.contenttweaker.tconstruct.MaterialBuilder.create("overlaite");
+overlaite.color = Color.fromHex("661147").getIntColor();
+overlaite.craftable = false;
+overlaite.castable =  true;
+overlaite.representativeItem = <item:additions:overlaite_ingot>;
+overlaite.addItem(<item:additions:overlaite_ingot>);
+overlaite.liquid = <liquid:overlaite>;
+overlaite.localizedName = game.localize("greedycraft.tconstruct.material.overlaite.name");
+overlaite.addHeadMaterialStats(30600,30,105.6,12);
+overlaite.addHandleMaterialStats(2.75,7130);
+overlaite.addExtraMaterialStats(6880);
+overlaite.register();

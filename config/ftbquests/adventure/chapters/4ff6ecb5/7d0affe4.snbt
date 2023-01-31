@@ -1,0 +1,15 @@
+{
+	x: 9.5d,
+	y: 2.0d,
+	dependencies: [
+		"5ddf9c2a",
+		"2b12b14d"
+	],
+	tasks: [{
+		uid: "e68b25fb",
+		type: "item",
+		items: [{
+			item: "gct_mac:impetus_forge"
+		}]
+	}]
+}

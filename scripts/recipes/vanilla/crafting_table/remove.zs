@@ -13,6 +13,10 @@ import crafttweaker.item.IIngredient;
 import scripts.util.recipes as RecipeUtil;
 
 val removedRecipes as IIngredient[] = [
+    <moretcon:spacetimedisruptionpowder>,
+    <journey:reinforcedcrystalingot>,
+    <naturalpledge:holy_symbol>,
+    <evilcraft:primed_pendant>,
     <extendedcrafting:compressor>,
     <oeintegration:excavatemodifier>,
     <projecte:item.pe_philosophers_stone>,
@@ -472,7 +476,6 @@ val removedRecipes as IIngredient[] = [
     <projecte:item.pe_destruction_catalyst>,
     <thebetweenlands:bl_bucket_plant_tonic>,
     <thebetweenlands:amulet>,
-    <thebetweenlands:purifier>,
     <thebetweenlands:bl_bucket_plant_tonic:1>
 ];
 
@@ -512,7 +515,6 @@ val removedRecipeNames as string[] = [
     "tiths:withering_essence_2_witherium",
     "ageofminecraft:command_block",
     "evilcraft:primed_pendant",
-    "thebetweenlands:purifier",
     "thebetweenlands:recipe_mummy_bait",
     "thebetweenlands:recipe_plant_tonic_syrmorite",
     "thebetweenlands:recipe_plant_tonic_weedwood",

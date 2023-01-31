@@ -1,6 +1,10 @@
 {
+	title: "§b航天员 I",
 	x: 4.0d,
 	y: 1.0d,
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "484199b6",
 		type: "stat",

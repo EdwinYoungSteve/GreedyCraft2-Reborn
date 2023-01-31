@@ -1,6 +1,11 @@
 {
-	x: -9.0d,
+	title: "§b来自鲜血的意志",
+	x: -12.0d,
 	y: 1.5d,
+	description: "合成原始投网",
+	text: [
+		""
+	],
 	dependencies: [
 		"b3ba1cde"
 	],

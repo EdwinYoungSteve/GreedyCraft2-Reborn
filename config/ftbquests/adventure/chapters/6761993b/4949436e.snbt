@@ -1,6 +1,11 @@
 {
-	x: -6.0d,
-	y: 0.5d,
+	title: "§b痛，太痛了！",
+	x: -10.5d,
+	y: 0.0d,
+	description: "合成献祭刀，用于血之祭坛的充能",
+	text: [
+		""
+	],
 	dependencies: [
 		"30e20165"
 	],

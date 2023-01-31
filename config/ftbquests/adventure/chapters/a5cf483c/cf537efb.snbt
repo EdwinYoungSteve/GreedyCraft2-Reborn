@@ -1,0 +1,15 @@
+{
+	x: 5.5d,
+	y: 7.0d,
+	dependencies: [
+		"2ccdf939",
+		"12163e6b"
+	],
+	tasks: [{
+		uid: "4d7f7486",
+		type: "item",
+		items: [{
+			item: "modularcontroller:bright_altar_controller"
+		}]
+	}]
+}

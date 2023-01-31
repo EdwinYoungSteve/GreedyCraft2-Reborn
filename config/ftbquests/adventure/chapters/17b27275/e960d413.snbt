@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: -3.0d,
+	dependencies: [
+		"5dd11f8c"
+	],
+	tasks: [{
+		uid: "eb402b9e",
+		type: "item",
+		items: [{
+			item: "gct_aby:soul_stealer_scroll"
+		}]
+	}]
+}

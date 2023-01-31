@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: -6.0d,
+	dependencies: [
+		"cf5df877",
+		"b820a4df"
+	],
+	tasks: [{
+		uid: "54805cb9",
+		type: "item",
+		items: [{
+			item: "gct_ores:ordered_core"
+		}]
+	}]
+}

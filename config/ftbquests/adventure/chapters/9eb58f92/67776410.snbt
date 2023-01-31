@@ -1,6 +1,11 @@
 {
-	x: -3.5d,
-	y: 1.0d,
+	title: "§b幻想乡？",
+	x: -8.0d,
+	y: 4.0d,
+	description: "制作幻想合金",
+	text: [
+		""
+	],
 	dependencies: [
 		"2178c34e"
 	],
@@ -10,5 +15,21 @@
 		items: [{
 			item: "additions:mekaddon-imaginative_alloy"
 		}]
+	}],
+	rewards: [{
+		uid: "bd37d29b",
+		type: "item",
+		item: "additions:mekaddon-imaginative_alloy",
+		count: 5
+	},
+	{
+		uid: "2abcfe73",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "d82f0021",
+		type: "random",
+		table: 1
 	}]
 }

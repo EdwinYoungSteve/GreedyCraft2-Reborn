@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "43927449",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-eugardite_ingot"
+		}]
+	}]
+}

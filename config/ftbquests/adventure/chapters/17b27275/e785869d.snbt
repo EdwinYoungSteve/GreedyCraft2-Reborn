@@ -1,11 +1,23 @@
 {
-	x: -7.5d,
-	y: 10.5d,
+	title: "大树",
+	x: -3.0d,
+	y: 3.0d,
+	description: "在一棵巨大的杂草树附近获得白梨种子",
+	text: [
+		"巨型杂草树上会生成带有白梨种子的藤蔓"
+	],
 	tasks: [{
 		uid: "7da9d236",
 		type: "item",
 		items: [{
 			item: "thebetweenlands:middle_fruit_bush_seeds"
+		}]
+	},
+	{
+		uid: "301d932e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:pyrad_flame"
 		}]
 	}]
 }

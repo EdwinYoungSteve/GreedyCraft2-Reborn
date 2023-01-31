@@ -1,6 +1,10 @@
 {
+	title: "§b旅行家 III",
 	x: -3.5d,
 	y: 4.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"cd980d48"
 	],

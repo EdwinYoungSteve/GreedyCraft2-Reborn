@@ -1,4 +1,6 @@
 {
+	title: "§b巨龙杀手 X",
+	icon: "minecraft:skull 1 5",
 	x: 1.0d,
 	y: 14.5d,
 	dependencies: [

@@ -1,6 +1,10 @@
 {
+	title: "§b自由落体 VII",
 	x: 5.5d,
 	y: 10.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"fff3f85b"
 	],

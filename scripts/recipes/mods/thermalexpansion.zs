@@ -14,8 +14,12 @@ import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.Infuser;
 import mods.thermalexpansion.Coolant;
 import mods.thermalexpansion.Enchanter;
+import mods.thermalexpansion.Crucible;
 
 Transposer.addFillRecipe(<thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:0>, <liquid:resin> * 200, 20);
+
+Crucible.removeRecipe(<divinerpg:hellstone_ingot>);
+Crucible.addRecipe(<liquid:hellstone> * 144, <divinerpg:hellstone_ingot>, 50);
 
 Compactor.removeStorageRecipe(<thaumadditions:adaminite_ingot>);
 Compactor.removeStorageRecipe(<thaumadditions:mithrillium_ingot>);
@@ -49,6 +53,7 @@ Transposer.addFillRecipe(<additions:mekaddon-thermallite_core_5>, <additions:mek
 Transposer.addFillRecipe(<additions:mekaddon-thermallite_core_6>, <additions:mekaddon-thermallite_core_5>, <liquid:noxexeum> * 10000, 256000);
 Transposer.addFillRecipe(<additions:mekaddon-thermallite_core_7>, <additions:mekaddon-thermallite_core_6>, <liquid:tonitruium> * 10000, 256000);
 Transposer.addFillRecipe(<additions:mekaddon-thermallite_ingot>, <additions:mekaddon-thermallite_core_7>, <liquid:naturaeum> * 10000, 256000);
+Transposer.addFillRecipe(<hammermetals:husturite_dust>, <hammermetals:cthulhurite_dust>, <liquid:aerotheum> * 6400, 400000);
 
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:1>, 200000);
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:2>, 400000);

@@ -1,6 +1,10 @@
 {
+	title: "§b航天员 IX",
 	x: 4.0d,
 	y: 13.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"b5ff65cc"
 	],

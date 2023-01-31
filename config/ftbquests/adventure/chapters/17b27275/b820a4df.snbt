@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: -4.5d,
+	dependencies: [
+		"37208d1b"
+	],
+	tasks: [{
+		uid: "1d7460b1",
+		type: "item",
+		items: [{
+			item: "gct_ores:ordered_fusion_core"
+		}]
+	}]
+}

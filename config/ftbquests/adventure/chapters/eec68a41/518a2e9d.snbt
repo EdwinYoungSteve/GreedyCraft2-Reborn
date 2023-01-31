@@ -26,5 +26,10 @@
 		uid: "dce8382b",
 		type: "xp",
 		xp: 2000
+	},
+	{
+		uid: "1b98502e",
+		type: "random",
+		table: 2
 	}]
 }

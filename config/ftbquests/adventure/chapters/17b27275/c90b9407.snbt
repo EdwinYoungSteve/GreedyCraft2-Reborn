@@ -1,0 +1,11 @@
+{
+	x: 3.0d,
+	y: 16.0d,
+	tasks: [{
+		uid: "878fd24b",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-gemundyingember"
+		}]
+	}]
+}

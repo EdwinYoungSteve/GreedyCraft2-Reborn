@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x4f27a2,
+    "langs": {
+        "material": {
+            "en": "Abyssine",
+            "zh": "渊晶"
+        }
+    }
+}

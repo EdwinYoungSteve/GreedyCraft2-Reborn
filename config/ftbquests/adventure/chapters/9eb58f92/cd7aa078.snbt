@@ -1,13 +1,13 @@
 {
 	title: "§bH2+Cl2=2HCl",
-	x: -3.5d,
+	x: -5.0d,
 	y: -0.5d,
 	description: "制作化学灌注器",
 	text: [
 		""
 	],
 	dependencies: [
-		"ac4dcc2a"
+		"ce2114e7"
 	],
 	tasks: [{
 		uid: "5df51525",

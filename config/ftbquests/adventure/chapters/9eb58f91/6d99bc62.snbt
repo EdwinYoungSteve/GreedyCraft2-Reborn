@@ -2,7 +2,7 @@
 	title: "§b可移动磁盘？",
 	x: -7.5d,
 	y: -1.5d,
-	description: "制作ME控制器",
+	description: "制作ME驱动器",
 	text: [
 		""
 	],

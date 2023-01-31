@@ -1,13 +1,13 @@
 {
 	title: "§b其实并不是那么方便",
-	x: -10.5d,
-	y: 0.0d,
+	x: -9.0d,
+	y: -1.5d,
 	description: "制作奥术合成终端",
 	text: [
 		""
 	],
 	dependencies: [
-		"567bbf2e"
+		"9ad09ce0"
 	],
 	tasks: [{
 		uid: "44bfa5ec",

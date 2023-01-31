@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: 1.5d,
+	dependencies: [
+		"8ba35dbb",
+		"86a424f2"
+	],
+	tasks: [{
+		uid: "558250f5",
+		type: "item",
+		items: [{
+			item: "gct_aby:key_of_warped_active"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

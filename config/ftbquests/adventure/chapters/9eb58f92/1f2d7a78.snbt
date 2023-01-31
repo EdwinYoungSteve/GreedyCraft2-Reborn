@@ -1,6 +1,11 @@
 {
-	x: -3.5d,
-	y: 2.5d,
+	title: "§b原谅绿电路板",
+	x: -9.5d,
+	y: 5.5d,
+	description: "制作究极控制电路",
+	text: [
+		""
+	],
 	dependencies: [
 		"237e7dcc",
 		"67776410"
@@ -11,5 +16,20 @@
 		items: [{
 			item: "additions:mekaddon-final_control_circuit"
 		}]
+	}],
+	rewards: [{
+		uid: "2224644e",
+		type: "item",
+		item: "additions:mekaddon-final_control_circuit"
+	},
+	{
+		uid: "7ce016d0",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "bc612989",
+		type: "random",
+		table: 1
 	}]
 }

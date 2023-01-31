@@ -21,6 +21,9 @@ for item in <ore:string>.items {
 
 TartaricForge.removeRecipe([<bloodmagic:soul_gem>, <tconevo:material>]);
 TartaricForge.addRecipe(<tconevo:metal:30>, [<bloodmagic:soul_gem>, <additions:stainless_steel_ingot>], 2.0, 2.0);
+TartaricForge.addRecipe(<additions:bloody-darkest_ingot> * 2, [<additions:bloody-darkest_core>, <evilcraft:promise:2>, <tconevo:metal:25>, <tconevo:metal:25>], 6400.0, 1600.0);
+TartaricForge.addRecipe(<additions:bloody-reagent_ghost>, [<jaopca:item_dustwigthium>, <jaopca:item_dustdarkest>, <tconevo:metal:32>, <minecraft:gunpowder>], 4000.0, 1000.0);
+TartaricForge.addRecipe(<additions:bloody-balanced_slate> * 2, [<additions:bloody-slate_7>, <gct_ores:balanced_matrix_ingot>], 7200.0, 1800.0);
 
 BloodAltar.removeRecipe(<minecraft:redstone_block>);
 BloodAltar.removeRecipe(<minecraft:diamond>);
@@ -40,6 +43,7 @@ BloodAltar.addRecipe(<thaumcraft:curio:3>, <abyssalcraft:shadowgem>, 5, 80000, 1
 BloodAltar.addRecipe(<thaumcraft:curio:4>, <aether_legacy:ambrosium_shard>, 5, 80000, 150, 150);
 BloodAltar.addRecipe(<additions:greedycraft-pearl_of_knowledge>, <botania:manaresource:1>, 5, 250000, 250, 250);
 BloodAltar.addRecipe(<additions:greedycraft-creative_shard>, <additions:greedycraft-cosmilite_block>, 5, 850000, 700, 700);
+BloodAltar.addRecipe(<additions:bloody-slate_6>, <bloodmagic:slate:4>, 5, 200000, 400, 400);
 
 AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:iron_helmet>);
 AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:iron_chestplate>);
@@ -54,3 +58,4 @@ AlchemyArray.removeRecipe(<bloodmagic:component:8>, <animus:kama_bound>);
 
 AlchemyArray.addRecipe(<bloodarsenal:blood_diamond:3>, <bloodmagic:component:8>, <bloodarsenal:blood_diamond:2>, "bloodmagic:textures/models/AlchemyArrays/bindingarray.png");
 AlchemyArray.addRecipe(<bloodmagic:blood_shard:1>, <bloodmagic:slate:3>, <bloodmagic:blood_shard>, "bloodmagic:textures/models/AlchemyArrays/bindingarray.png");
+AlchemyArray.addRecipe(<additions:bloody-infused_diamond_ghost>, <additions:bloody-reagent_ghost>, <bloodarsenal:blood_diamond:3>, "bloodmagic:textures/models/AlchemyArrays/bindingarray.png");

@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 5.0d,
+	dependencies: [
+		"3dc895e1"
+	],
+	tasks: [{
+		uid: "2c9c4bd1",
+		type: "item",
+		items: [{
+			item: "arcanearchives:shaped_quartz"
+		}]
+	}]
+}

@@ -1,6 +1,11 @@
 {
-	x: -5.0d,
-	y: 1.0d,
+	title: "§b原子？合金？",
+	x: -8.0d,
+	y: 2.5d,
+	description: "制作原子合金",
+	text: [
+		""
+	],
 	dependencies: [
 		"4529fb20"
 	],
@@ -10,5 +15,21 @@
 		items: [{
 			item: "mekanism:atomicalloy"
 		}]
+	}],
+	rewards: [{
+		uid: "9dbbc357",
+		type: "item",
+		item: "mekanism:atomicalloy",
+		count: 5
+	},
+	{
+		uid: "9f524db2",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "5d101dc3",
+		type: "random",
+		table: 0
 	}]
 }

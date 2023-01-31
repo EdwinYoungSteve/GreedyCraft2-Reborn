@@ -1,6 +1,11 @@
 {
-	x: -7.5d,
-	y: 2.5d,
+	title: "§b这玩意很坑",
+	x: -10.5d,
+	y: 3.0d,
+	description: "合成牺牲匕首，可以消耗自身生命值以充能血之祭坛",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "9daf97b8",
 		type: "item",

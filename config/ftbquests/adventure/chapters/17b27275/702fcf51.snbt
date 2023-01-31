@@ -1,0 +1,14 @@
+{
+	x: -10.5d,
+	y: 1.5d,
+	dependencies: [
+		"cc609866"
+	],
+	tasks: [{
+		uid: "683c80c4",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-abyssine_ingot"
+		}]
+	}]
+}

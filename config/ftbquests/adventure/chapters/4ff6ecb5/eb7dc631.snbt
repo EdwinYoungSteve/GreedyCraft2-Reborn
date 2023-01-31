@@ -1,6 +1,6 @@
 {
 	title: "妈妈再也不担心我污染高了",
-	x: -0.5d,
+	x: -2.5d,
 	y: 6.0d,
 	dependencies: [
 		"898c1c9c"

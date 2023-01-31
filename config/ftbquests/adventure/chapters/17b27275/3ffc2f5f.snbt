@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	dependencies: [
+		"375519c2",
+		"e6d9657e"
+	],
+	tasks: [{
+		uid: "8c63f1c3",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-betweenland_rune"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

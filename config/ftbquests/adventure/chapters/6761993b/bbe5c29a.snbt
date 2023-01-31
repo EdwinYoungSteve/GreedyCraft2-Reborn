@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 4.5d,
+	dependencies: [
+		"ad0c9b2e"
+	],
+	tasks: [{
+		uid: "c56eb561",
+		type: "item",
+		items: [{
+			item: "additions:bloody-darkest_ingot"
+		}]
+	}]
+}

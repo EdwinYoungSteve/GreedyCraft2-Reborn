@@ -1,6 +1,11 @@
 {
+	title: "§b更方便的自动化",
 	x: -6.0d,
 	y: -3.0d,
+	description: "制作脉冲离心机",
+	text: [
+		"这将大大方便你的合成"
+	],
 	dependencies: [
 		"2da05cc3",
 		"74908c7f"

@@ -1,0 +1,19 @@
+{
+	title: "§b大自然的馈赠",
+	x: 21.5d,
+	y: -3.0d,
+	description: "合成植物魂锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"e7f9cd83"
+	],
+	tasks: [{
+		uid: "efd6f9eb",
+		type: "item",
+		items: [{
+			item: "gct_mobs:botanical_ingot"
+		}]
+	}]
+}

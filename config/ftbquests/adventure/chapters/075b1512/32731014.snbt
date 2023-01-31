@@ -1,6 +1,10 @@
 {
+	title: "§b持之以恒 X",
 	x: -6.5d,
 	y: 14.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"94074998"
 	],

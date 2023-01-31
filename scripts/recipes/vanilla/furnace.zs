@@ -12,7 +12,8 @@ import crafttweaker.item.IIngredient;
 
 val removedRecipes as IItemStack[] = [
     <tconstruct:materials>,
-    <extrabotany:material:5>
+    <extrabotany:material:5>,
+    <nuclearcraft:dust:11>
 ] as IItemStack[];
 
 for input in removedRecipes {

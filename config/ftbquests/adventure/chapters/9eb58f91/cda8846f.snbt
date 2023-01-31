@@ -1,6 +1,11 @@
 {
+	title: "§b改造头颅？",
 	x: 10.5d,
 	y: -1.5d,
+	description: "制作头颅装配机",
+	text: [
+		""
+	],
 	dependencies: [
 		"ba088ac9"
 	],

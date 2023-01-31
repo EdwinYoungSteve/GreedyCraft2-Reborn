@@ -20,5 +20,5 @@ import scripts.util.machines as MMUtil;
 RecipeBuilder.newBuilder("liquidedmana", "mana_liquefactor", 1)
     .addManaInput(1000)
     .addEnergyPerTickInput(1000)
-    .addFluidOutput(<liquid:fluidedmana> * 1)
+    .addFluidOutput(<liquid:mana> * 1)
     .build();

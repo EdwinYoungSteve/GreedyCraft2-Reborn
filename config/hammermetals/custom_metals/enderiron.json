@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x1b7b6b,
+    "langs": {
+        "material": {
+            "en": "Enderiron",
+            "zh": "末影镀层铁"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	dependencies: [
+		"bbe5c29a"
+	],
+	tasks: [{
+		uid: "7d92c8e9",
+		type: "item",
+		items: [{
+			item: "additions:bloody-darkest_stonebrick_large"
+		}]
+	}]
+}

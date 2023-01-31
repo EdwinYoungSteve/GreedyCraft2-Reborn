@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 18.0d,
+	tasks: [{
+		uid: "cc6ee480",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-betwnite_ingot"
+		}]
+	}]
+}

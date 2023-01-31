@@ -1,4 +1,6 @@
 {
+	title: "§b凋灵杀手 VII",
+	icon: "minecraft:skull 1 1",
 	x: -0.5d,
 	y: 10.0d,
 	dependencies: [

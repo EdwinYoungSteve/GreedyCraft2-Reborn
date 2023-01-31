@@ -14,6 +14,11 @@ import mods.nuclearcraft.Melter;
 import mods.nuclearcraft.ChemicalReactor;
 import mods.nuclearcraft.Supercooler;
 import mods.nuclearcraft.Electrolyzer;
+import mods.nuclearcraft.Pressurizer;
+
+Pressurizer.removeRecipeWithOutput(<thaumadditions:mithrillium_plate>);
+Pressurizer.removeRecipeWithOutput(<thaumadditions:adaminite_plate>);
+Pressurizer.removeRecipeWithOutput(<thaumadditions:mithminite_plate>);
 
 Melter.addRecipe(<ore:dustSulfur>, <liquid:burningsulfurflow> * 144, 1.0, 1.0, 0.0);
 Melter.addRecipe(<ore:ingotSulfur>, <liquid:burningsulfurflow> * 144, 1.0, 1.0, 0.0);

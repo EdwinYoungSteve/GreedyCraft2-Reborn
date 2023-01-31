@@ -1,6 +1,11 @@
 {
+	title: "§b巨龙杀手 VI",
+	icon: "minecraft:skull 1 5",
 	x: 1.0d,
 	y: 8.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"c757bfb1"
 	],

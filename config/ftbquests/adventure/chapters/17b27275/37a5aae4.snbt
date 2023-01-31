@@ -1,6 +1,6 @@
 {
-	x: -6.0d,
-	y: 12.0d,
+	x: -9.0d,
+	y: 10.5d,
 	tasks: [{
 		uid: "f7ad2e42",
 		type: "item",
@@ -9,5 +9,12 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "f79c0481",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:chiromaw_barb"
+		}]
 	}]
 }

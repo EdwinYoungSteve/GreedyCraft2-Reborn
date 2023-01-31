@@ -1,0 +1,19 @@
+{
+	title: "§b再战大地",
+	x: 24.0d,
+	y: -1.0d,
+	description: "在2000难度以上击杀盖亚守护者III，获得盖亚之心",
+	text: [
+		""
+	],
+	dependencies: [
+		"08459437"
+	],
+	tasks: [{
+		uid: "b70eb132",
+		type: "item",
+		items: [{
+			item: "gct_mobs:gaia_heart"
+		}]
+	}]
+}

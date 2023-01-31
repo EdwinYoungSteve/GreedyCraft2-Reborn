@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	dependencies: [
+		"0208662b"
+	],
+	tasks: [{
+		uid: "0db39de5",
+		type: "item",
+		items: [{
+			item: "additions:bloody-slate_9"
+		}]
+	}]
+}

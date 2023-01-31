@@ -1,6 +1,10 @@
 {
+	title: "§b疯狂输出 III",
 	x: -2.0d,
 	y: 4.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"b611e462"
 	],

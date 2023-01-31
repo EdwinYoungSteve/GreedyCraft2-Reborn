@@ -1,6 +1,11 @@
 {
-	x: -4.5d,
-	y: 2.5d,
+	title: "§b血刻",
+	x: -9.0d,
+	y: 3.0d,
+	description: "使用鲜血灌注木头得到注血木",
+	text: [
+		""
+	],
 	dependencies: [
 		"30e20165"
 	],

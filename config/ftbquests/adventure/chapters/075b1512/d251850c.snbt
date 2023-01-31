@@ -1,6 +1,10 @@
 {
+	title: "§b疯狂输出 I",
 	x: -2.0d,
 	y: 1.0d,
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "142109bc",
 		type: "stat",

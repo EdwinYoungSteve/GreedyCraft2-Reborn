@@ -13,26 +13,76 @@ Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/enchantment_amulet_
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/enchantment_amulet_reroll");
 
 Altar.addDiscoveryAltarRecipe("shinydust", <astralsorcery:itemusabledust> * 16, 100, 100, [
-            null, <ore:dustGlowstone>, null,
-            <ore:dustGlowstone>, <ore:fallenStar>, <ore:dustGlowstone>,
-            null, <ore:dustGlowstone>, null]);
+    null, <ore:dustGlowstone>, null,
+    <ore:dustGlowstone>, <ore:fallenStar>, <ore:dustGlowstone>,
+    null, <ore:dustGlowstone>, null
+]);
             
 Altar.addConstellationAltarRecipe("shining_star", <additions:greedycraft-shining_star>, 1000, 200, [
-            <astralsorcery:itemusabledust>, <ore:dustAstralStarmetal>, <astralsorcery:itemusabledust>,
-            <ore:dustAstralStarmetal>, <ore:blockGold>, <ore:dustAstralStarmetal>,
-            <astralsorcery:itemusabledust>, <ore:dustAstralStarmetal>, <astralsorcery:itemusabledust>,
-            <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>,
-            <ore:fallenStar>, <ore:fallenStar>,
-            <ore:fallenStar>, <ore:fallenStar>,
-            <ore:fallenStar>, <ore:fallenStar>,
-            <ore:fallenStar>, <ore:fallenStar>]);
+    <astralsorcery:itemusabledust>, <ore:dustAstralStarmetal>, <astralsorcery:itemusabledust>,
+    <ore:dustAstralStarmetal>, <ore:blockGold>, <ore:dustAstralStarmetal>,
+    <astralsorcery:itemusabledust>, <ore:dustAstralStarmetal>, <astralsorcery:itemusabledust>,
+    <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>,
+    <ore:fallenStar>, <ore:fallenStar>,
+    <ore:fallenStar>, <ore:fallenStar>,
+    <ore:fallenStar>, <ore:fallenStar>,
+    <ore:fallenStar>, <ore:fallenStar>
+]);
 
 Altar.addTraitAltarRecipe("heavite", <gct_mobs:heavite> * 14, 4000, 100, [
-            <ore:stoneLerdite>, <ore:stoneAmeralite>, <ore:stoneLerdite>,
-            <ore:stoneAmeralite>, <ore:blockDaynight>, <ore:stoneAmeralite>,
-            <ore:stoneLerdite>, <ore:stoneAmeralite>, <ore:stoneLerdite>,
-            <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>,
-            <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, 
-            <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, 
-            <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>,
-            <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>], "astralsorcery.constellation.mineralis");
+    <ore:stoneLerdite>, <ore:stoneAmeralite>, <ore:stoneLerdite>,
+    <ore:stoneAmeralite>, <ore:blockDaynight>, <ore:stoneAmeralite>,
+    <ore:stoneLerdite>, <ore:stoneAmeralite>, <ore:stoneLerdite>,
+    <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>,
+    <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, 
+    <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, 
+    <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>,
+    <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>
+], "astralsorcery.constellation.mineralis");
+
+Altar.addTraitAltarRecipe("controller_altar", <modularcontroller:bright_altar_controller>, 8000, 2000, [
+    <ore:blockAstralMetal>, <ore:blockLunarine>, <ore:blockAstralMetal>,
+    <ore:blockNasalum>, <ore:ingotCosmilite>, <ore:blockNasalum>,
+    <ore:blockAstralMetal>, <ore:blockLunarine>, <ore:blockAstralMetal>,
+    <additions:astral-astral_gem_01>, <additions:astral-astral_gem_02>, <additions:astral-astral_gem_03>,
+    <additions:astral-astral_gem_04>, <additions:astral-astral_gem_05>, <additions:astral-astral_gem_06>,
+    <additions:astral-astral_gem_07>, <additions:astral-astral_gem_08>, <additions:astral-astral_gem_09>,
+    <additions:astral-astral_gem_10>, <additions:astral-astral_gem_11>, <additions:astral-astral_gem_12>,
+    <ore:ingotEugardite>, <ore:ingotEugardite>, <ore:ingotEugardite>, <ore:ingotEugardite>,
+    <additions:greedycraft-shining_star>, <additions:greedycraft-shining_star>,
+    <additions:greedycraft-shining_star>, <additions:greedycraft-shining_star>
+], "astralsorcery.constellation.fornax");
+
+Altar.addTraitAltarRecipe("astral_crystal", <additions:astral-astral_gem_00>, 6500, 100, [
+    <ore:dustEverite>, <ore:dustAstralStarmetal>, <ore:dustDraconiumChaotic>,
+    <ore:dustAstralStarmetal>, <ore:gemGlistenQuartzProcessed>, <ore:dustAstralStarmetal>,
+    <ore:dustDraconiumChaotic>, <ore:dustAstralStarmetal>, <ore:dustEverite>,
+    null, <ore:dustDraconiumChaotic>, <ore:dustDraconiumChaotic>, null,
+    null, <ore:dustDraconiumChaotic>, null, <ore:dustDraconiumChaotic>,
+    <ore:dustDraconiumChaotic>, null, <ore:dustDraconiumChaotic>, null,
+    <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>,
+    <ore:ingotAstralMetal>, <ore:ingotAstralMetal>
+], "astralsorcery.constellation.octans");
+
+Altar.addTraitAltarRecipe("controller_collector", <modularcontroller:astral_collector_controller> * 3, 7000, 140, [
+    <ore:ingotChromasteel>, <ore:ingotNasalum>, <ore:ingotChromasteel>,
+    <ore:ingotNasalum>, <modularmachinery:blockcontroller>, <ore:ingotNasalum>,
+    <ore:ingotChromasteel>, <ore:ingotNasalum>, <ore:ingotChromasteel>,
+    <astralsorcery:itemtunedcelestialcrystal>,
+    <astralsorcery:itemtunedcelestialcrystal>,
+    <astralsorcery:itemtunedcelestialcrystal>,
+    <astralsorcery:itemtunedcelestialcrystal>,
+    <astralsorcery:itemtunedcelestialcrystal>,
+    <astralsorcery:itemtunedcelestialcrystal>,
+    <astralsorcery:itemtunedcelestialcrystal>,
+    <astralsorcery:itemtunedcelestialcrystal>,
+    <astralsorcery:itemtunedcelestialcrystal>,
+    <astralsorcery:itemtunedcelestialcrystal>,
+    <astralsorcery:itemtunedcelestialcrystal>,
+    <astralsorcery:itemtunedcelestialcrystal>,
+    <ore:ingotLunarine>, <ore:ingotLunarine>, <ore:ingotLunarine>, <ore:ingotLunarine>,
+    <astralsorcery:itemcraftingcomponent:4>, <ore:dustAstralMetal>,
+    <astralsorcery:itemcraftingcomponent:4>, <ore:dustAstralMetal>,
+    <astralsorcery:itemcraftingcomponent:4>, <ore:dustAstralMetal>
+], "astralsorcery.constellation.lucerna");
+

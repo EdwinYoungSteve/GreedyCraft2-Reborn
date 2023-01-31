@@ -1,6 +1,10 @@
 {
+	title: "§b疯狂输出 X",
 	x: -2.0d,
 	y: 14.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"9cc09c67"
 	],

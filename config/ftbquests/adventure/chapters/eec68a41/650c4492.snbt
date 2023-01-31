@@ -1,0 +1,20 @@
+{
+	title: "§b精灵机器",
+	x: 20.0d,
+	y: -3.0d,
+	description: "在反相森林的反物质精灵要塞中找到反·反相嬗变仪",
+	text: [
+		""
+	],
+	dependencies: [
+		"cdb6d00e"
+	],
+	tasks: [{
+		uid: "25374cfc",
+		type: "observation",
+		icon: "gct_mobs:reserved_reserver",
+		match_type: "block_id",
+		match: "gct_mobs:reserved_reserver",
+		timer: 0L
+	}]
+}

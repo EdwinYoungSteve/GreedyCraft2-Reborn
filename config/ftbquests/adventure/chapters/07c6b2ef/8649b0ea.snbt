@@ -4,7 +4,7 @@
 	y: -12.5d,
 	description: "制作谐振升级套件",
 	text: [
-		""
+		"在信素机器上使用可以升级为谐振"
 	],
 	dependencies: [
 		"937ba3ca"

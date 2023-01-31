@@ -1,6 +1,10 @@
 {
+	title: "§b航天员 X",
 	x: 4.0d,
 	y: 14.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"41f86c5f"
 	],

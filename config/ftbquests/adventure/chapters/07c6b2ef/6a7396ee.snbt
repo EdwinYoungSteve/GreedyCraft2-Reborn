@@ -4,7 +4,7 @@
 	y: -12.5d,
 	description: "制作硬化升级套件",
 	text: [
-		""
+		"在基础机器上使用可以将其升级为硬化"
 	],
 	dependencies: [
 		"1088c62f"

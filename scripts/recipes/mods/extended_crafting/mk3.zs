@@ -107,3 +107,83 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:kabalah_builder_block
 	[<botania:livingrock:4>, <ore:blockGaia>, <ore:ingotOrichalcos>, <ore:ingotOrichalcos>, <ore:ingotOrichalcos>, <ore:blockGaia>, <botania:livingrock:4>], 
 	[<botania:livingrock:4>, <botania:livingrock:4>, <botania:livingrock:4>, <ore:logWoodDream>, <botania:livingrock:4>, <botania:livingrock:4>, <botania:livingrock:4>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:orichalcos_fusionplate>, [
+	[null, null, null, <ore:nuggetFusionMatrix>, null, null, null], 
+	[null, null, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, null, null], 
+	[null, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, null], 
+	[<ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:ingotOrichalcos>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>], 
+	[null, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, null], 
+	[null, null, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, null, null], 
+	[null, null, null, <ore:nuggetFusionMatrix>, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:elementium_fusionplate>, [
+	[null, null, null, <ore:nuggetFusionMatrix>, null, null, null], 
+	[null, null, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, null, null], 
+	[null, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, null], 
+	[<ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:ingotElementium>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>], 
+	[null, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, null], 
+	[null, null, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, null, null], 
+	[null, null, null, <ore:nuggetFusionMatrix>, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:manasteel_fusionplate>, [
+	[null, null, null, <ore:nuggetFusionMatrix>, null, null, null], 
+	[null, null, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, null, null], 
+	[null, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, null], 
+	[<ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:ingotManasteel>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>], 
+	[null, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, null], 
+	[null, null, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, null, null], 
+	[null, null, null, <ore:nuggetFusionMatrix>, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:greedycraft-betweenland_rune>, [
+	[null, null, null, null, <ore:ingotOrichalcos>, <ore:ingotBalancedMatrix>, null], 
+	[<ore:ingotBalancedMatrix>, <ore:blockEugardite>, <ore:ingotOrichalcos>, <ore:ingotOrichalcos>, <ore:blockEugardite>, <ore:blockEugardite>, null], 
+	[<ore:ingotOrichalcos>, <ore:blockEugardite>, <ore:blockCorbite>, <ore:blockEucite>, <ore:blockCorbite>, <ore:ingotOrichalcos>, null], 
+	[null, <ore:ingotOrichalcos>, <ore:blockEucite>, <ore:blockCosmilite>, <ore:blockEucite>, <ore:ingotOrichalcos>, null], 
+	[null, <ore:ingotOrichalcos>, <ore:blockCorbite>, <ore:blockEucite>, <ore:blockCorbite>, <ore:blockEugardite>, <ore:ingotOrichalcos>], 
+	[null, <ore:blockEugardite>, <ore:blockEugardite>, <ore:ingotOrichalcos>, <ore:ingotOrichalcos>, <ore:blockEugardite>, <ore:ingotBalancedMatrix>], 
+	[null, <ore:ingotBalancedMatrix>, <ore:ingotOrichalcos>, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <naturalpledge:spell_focus>, [
+	[null, null, <ore:blockMana>, <ore:blockTerrasteel>, <ore:blockMana>, null, null], 
+	[null, <ore:blockMana>, <ore:ingotBotanicalAwakened>, <ore:ingotBotanicalAwakened>, <ore:ingotBotanicalAwakened>, <ore:blockMana>, null], 
+	[null, <ore:blockTerrasteel>, <ore:ingotBotanicalAwakened>, <ore:ingotBotanicalAwakened>, <ore:ingotBotanicalAwakened>, <ore:blockTerrasteel>, null], 
+	[null, <ore:blockMana>, <ore:ingotBotanicalAwakened>, <ore:ingotBotanicalAwakened>, <ore:ingotBotanicalAwakened>, <ore:blockMana>, null], 
+	[null, null, <ore:blockMana>, <ore:blockTerrasteel>, <ore:blockMana>, null, null], 
+	[null, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, null], 
+	[null, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:bloody-gloomy_passport>, [
+	[null, null, <ore:ingotDullium>, <ore:ingotDullium>, <ore:ingotDullium>, null, null], 
+	[<ore:ingotDullium>, <ore:ingotDullium>, <ore:ingotWigthium>, <ore:dustDark>, <ore:dustDark>, <ore:ingotDullium>, <ore:ingotDullium>], 
+	[<ore:ingotDullium>, <ore:dustDark>, <ore:ingotWigthium>, <ore:ingotWigthium>, <ore:ingotCrimsonite>, <ore:dustDark>, <ore:ingotDullium>], 
+	[<ore:ingotDullium>, <ore:dustDark>, <ore:ingotWigthium>, <additions:bloody-slate_7>, <ore:ingotWigthium>, <ore:dustDark>, <ore:ingotDullium>], 
+	[null, <ore:ingotDullium>, <ore:ingotCrimsonite>, <ore:ingotWigthium>, <ore:ingotWigthium>, <ore:ingotDullium>, null], 
+	[null, <ore:ingotDullium>, <ore:ingotDullium>, <ore:dustDark>, <ore:ingotWigthium>, <ore:ingotDullium>, null], 
+	[null, null, null, <ore:ingotDullium>, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mac:impetus_forge>, [
+	[<ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>], 
+	[<ore:plateVoid>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:plateVoid>], 
+	[<ore:plateVoid>, <ore:ingotInfernium>, <thaumicaugmentation:material:3>, <thaumicaugmentation:material:5>, <thaumicaugmentation:material:3>, <ore:ingotInfernium>, <ore:plateVoid>], 
+	[<ore:plateVoid>, <ore:ingotCosmilite>, <thaumicaugmentation:material:5>, <ore:ingotPrimordialExtended>, <thaumicaugmentation:material:5>, <ore:ingotCosmilite>, <ore:plateVoid>], 
+	[<ore:plateVoid>, <ore:ingotInfernium>, <thaumicaugmentation:material:3>, <thaumicaugmentation:material:5>, <thaumicaugmentation:material:3>, <ore:ingotInfernium>, <ore:plateVoid>], 
+	[<ore:plateVoid>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:plateVoid>], 
+	[<ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:soul_stealer_scroll>, [
+	[null, null, null, null, null, null, null], 
+	[<ore:ingotSanite>, null, null, null, null, null, <ore:ingotSanite>], 
+	[<ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>], 
+	[<ore:ingotAbyssalnite>, <ore:ingotCthulhurite>, <ore:gemValonite>, <gct_aby:essence_of_warped_ruin>, <ore:gemValonite>, <ore:ingotCthulhurite>, <ore:ingotAbyssalnite>], 
+	[<ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>], 
+	[<ore:ingotSanite>, null, null, null, null, null, <ore:ingotSanite>], 
+	[null, null, null, null, null, null, null]
+]);

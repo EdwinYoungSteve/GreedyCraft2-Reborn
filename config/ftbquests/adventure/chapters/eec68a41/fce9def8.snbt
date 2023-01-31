@@ -22,5 +22,10 @@
 		uid: "fea9ba23",
 		type: "xp",
 		xp: 2000
+	},
+	{
+		uid: "b6470b55",
+		type: "random",
+		table: 2
 	}]
 }

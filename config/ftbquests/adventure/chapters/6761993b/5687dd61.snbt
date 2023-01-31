@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	dependencies: [
+		"10ef16ac"
+	],
+	tasks: [{
+		uid: "9ac62bf1",
+		type: "item",
+		items: [{
+			item: "modularcontroller:blood_altar_mk8_controller"
+		}]
+	}]
+}

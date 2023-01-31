@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xffa301,
+    "langs": {
+        "material": {
+            "en": "Chrysanthemium",
+            "zh": "金雏菊"
+        }
+    }
+}

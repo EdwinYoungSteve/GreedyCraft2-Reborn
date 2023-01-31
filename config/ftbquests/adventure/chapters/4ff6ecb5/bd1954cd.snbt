@@ -1,0 +1,15 @@
+{
+	x: 11.5d,
+	y: 6.0d,
+	dependencies: [
+		"5673aa32"
+	],
+	tasks: [{
+		uid: "663f2f7d",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:eldritch_lock_key 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

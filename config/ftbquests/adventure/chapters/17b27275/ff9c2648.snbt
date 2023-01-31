@@ -1,0 +1,21 @@
+{
+	x: -4.5d,
+	y: -3.0d,
+	dependencies: [
+		"cca49b19"
+	],
+	tasks: [{
+		uid: "79b4ace6",
+		type: "item",
+		items: [{
+			item: "gct_ores:ruled_draconium_block"
+		}]
+	},
+	{
+		uid: "570e1c30",
+		type: "item",
+		items: [{
+			item: "gct_ores:equipment_witherium_block"
+		}]
+	}]
+}

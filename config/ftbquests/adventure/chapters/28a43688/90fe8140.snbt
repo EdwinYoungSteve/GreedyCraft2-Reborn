@@ -1,14 +1,14 @@
 {
 	title: "§b手握星辰",
 	x: -9.5d,
-	y: -2.0d,
+	y: -3.5d,
 	description: "获得寰宇锭！",
 	text: [
 		""
 	],
 	dependencies: [
+		"d4d739b6",
 		"3ebc9d76",
-		"297c4e23",
 		"1c50c9e3"
 	],
 	tasks: [{

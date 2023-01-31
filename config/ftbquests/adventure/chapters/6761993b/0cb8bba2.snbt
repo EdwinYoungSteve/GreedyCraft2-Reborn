@@ -1,6 +1,11 @@
 {
-	x: -4.5d,
-	y: 0.5d,
+	title: "§b气血存储？",
+	x: -7.5d,
+	y: 3.0d,
+	description: "获得[虚弱]气血宝珠",
+	text: [
+		""
+	],
 	dependencies: [
 		"30e20165"
 	],

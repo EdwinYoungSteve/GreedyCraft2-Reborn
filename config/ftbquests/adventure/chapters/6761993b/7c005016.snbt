@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	dependencies: [
+		"8cab50b3"
+	],
+	tasks: [{
+		uid: "cb5b4239",
+		type: "item",
+		items: [{
+			item: "additions:bloody-gloomy_passport"
+		}]
+	}]
+}

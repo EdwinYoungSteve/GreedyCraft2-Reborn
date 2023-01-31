@@ -1,6 +1,10 @@
 {
+	title: "§b旅行家 IV",
 	x: -3.5d,
 	y: 5.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"e750f23b"
 	],

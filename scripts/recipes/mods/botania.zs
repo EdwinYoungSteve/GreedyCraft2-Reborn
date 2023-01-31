@@ -17,6 +17,14 @@ import mods.botania.RuneAltar;
 import mods.botania.ManaInfusion;
 import mods.botanicadds.GaiaPlate;
 import mods.botaniatweaks.Agglomeration;
+import mods.jei.JEI;
+
+Apothecary.removeRecipe("entropinnyum");
+Apothecary.addRecipe(<botania:specialflower>.withTag({type: "entropinnyum"}), [<ore:petalRed>, <ore:petalRed>, <ore:petalGray>, <ore:petalGray>, <ore:petalWhite>, <ore:petalWhite>, <ore:runeWrathB>, <ore:runeChamaelB>]);
+Apothecary.removeRecipe("reikarlily");
+Apothecary.addRecipe(<botania:specialflower>.withTag({type: "reikarlily"}), [<ore:ingotGaia>, <ore:ingotGaia>, <ore:runeEnvyB>, <ore:runeHanielB>, <ore:runeRaphaelB>, <ore:petalBlue>, <ore:petalCyan>, <ore:petalCyan>, <ore:petalLightBlue>, <ore:petalLightBlue>]);
+Apothecary.removeRecipe("orechid");
+Apothecary.addRecipe(<botania:specialflower>.withTag({type: "orechid"}), [<ore:petalGray>, <ore:petalGray>, <ore:petalRed>, <ore:petalYellow>, <ore:petalGreen>, <ore:redstoneRoot>, <ore:elvenPixieDust>, <ore:runeGreedB>, <ore:runeMetatronB>, <ore:runeSandalphonB>]);
 
 ElvenTrade.addRecipe([<defiledlands:scarlite>], [<ore:slimeballBlood>, <ore:gemEmerald>, <ore:gemEmerald>]);
 ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<ore:gemQuartz>, <ore:coal>]);
@@ -88,3 +96,33 @@ for input in pureDaisyTransmutations {
     var output as IItemStack = pureDaisyTransmutations[input];
     PureDaisy.addRecipe(input, output);
 }
+
+JEI.addDescription(<gct_mobs:kabalah_ring_aur>,
+    "§f使用§c生命树构建器§f合成：",
+    "§b需求能量环：§e无",
+    "§b王冠位：§e激活的王冠符文",
+    "§b智慧位：§e激活的智慧符文",
+    "§b理解位：§e激活的理解符文",
+    "§b慈悲位：§e激活的慈悲符文",
+    "§b严格位：§e激活的严格符文",
+    "§b美丽位：§e激活的美丽符文",
+    "§b胜利位：§e激活的胜利符文",
+    "§b光辉位：§e激活的光辉符文",
+    "§b基础位：§e激活的基础符文",
+    "§b王国位：§e激活的王国符文"
+);
+JEI.addDescription(<gct_mobs:elf_passes>,
+    "§f使用§c生命树构建器§f合成：",
+    "§b需求能量环：§eAur",
+    "§b王冠位：§e源质钢聚合板",
+    "§b智慧位：§e源质钢聚合板",
+    "§b理解位：§e源质钢聚合板",
+    "§b慈悲位：§e源质钢聚合板",
+    "§b严格位：§e源质钢聚合板",
+    "§b美丽位：§e奥利哈刚聚合板",
+    "§b胜利位：§e源质钢聚合板",
+    "§b光辉位：§e源质钢聚合板",
+    "§b基础位：§e源质钢聚合板",
+    "§b王国位：§e空"
+);
+JEI.addDescription(<additions:greedycraft-twilit_ingot>, "§f合成方式请查询§c暮晶块");

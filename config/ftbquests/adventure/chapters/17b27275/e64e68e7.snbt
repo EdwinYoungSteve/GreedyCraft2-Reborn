@@ -1,0 +1,35 @@
+{
+	x: -7.5d,
+	y: 1.5d,
+	dependencies: [
+		"02eb78b1"
+	],
+	tasks: [{
+		uid: "ec7af3a3",
+		type: "item",
+		items: [{
+			item: "gct_aby:azathothium_ore_complex"
+		}]
+	},
+	{
+		uid: "f7d282e9",
+		type: "item",
+		items: [{
+			item: "gct_aby:nyralathotepium_ore_complex"
+		}]
+	},
+	{
+		uid: "c3d68ffb",
+		type: "item",
+		items: [{
+			item: "gct_aby:yogsothothium_ore_complex"
+		}]
+	},
+	{
+		uid: "2bd22ac8",
+		type: "item",
+		items: [{
+			item: "gct_aby:shubniggurathium_ore_complex"
+		}]
+	}]
+}

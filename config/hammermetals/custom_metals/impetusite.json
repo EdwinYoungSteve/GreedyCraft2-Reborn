@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xf3f3f3,
+    "langs": {
+        "material": {
+            "en": "Impetusite",
+            "zh": "元动金属"
+        }
+    }
+}

@@ -88,7 +88,7 @@ FusionCrafting.add(<minecraft:command_block>, <gct_ores:command_core>, 3, 524288
 FusionCrafting.add(<gct_ores:creepy_witherstorm_doll>, <gct_ores:creepy_wither_doll>, 3, 12345678900, [
     <ore:coreEpic>,
     <ore:coreEpic>,
-    <ore:singularityIron>,
+    <ore:blockInsaniumEssence>,
     <minecraft:command_block>
 ]);
 
@@ -247,8 +247,21 @@ FusionCrafting.add(<extendedcrafting:material:18>, <extendedcrafting:material:2>
     <extendedcrafting:material:7>
 ]);
 
-/*
-FusionCrafting.add(<moretcon:repitemferroherb> * 4, <>, 1, 10240000, [
-
+FusionCrafting.add(<gct_mac:mythsteel_plate>, <botanicadds:gaia_plate>, 3, 24000000000, [
+    <ore:ingotMythsteel>,
+    <ore:ingotMythsteel>,
+    <ore:ingotMythsteel>,
+    <ore:ingotMythsteel>,
+    <ore:ingotCosmilite>,
+    <ore:ingotCosmilite>,
+    <ore:ingotCosmilite>,
+    <ore:ingotCosmilite>,
+    <ore:ingotBotanical>,
+    <ore:ingotBotanical>,
+    <ore:ingotOrichalcosReversed>,
+    <ore:ingotOrichalcosReversed>,
+    <ore:ingotOrichalcosReversed>,
+    <ore:ingotOrichalcosReversed>,
+    <ore:blockMana>,
+    <ore:blockMana>
 ]);
-*/

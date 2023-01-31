@@ -27,5 +27,10 @@
 		uid: "cca006a6",
 		type: "xp",
 		xp: 2000
+	},
+	{
+		uid: "f4a9db72",
+		type: "random",
+		table: 2
 	}]
 }

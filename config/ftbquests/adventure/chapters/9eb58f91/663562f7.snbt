@@ -4,7 +4,7 @@
 	y: 3.0d,
 	description: "制作分子装配室",
 	text: [
-		""
+		"与ME接口交叉放效果更佳"
 	],
 	dependencies: [
 		"9994710c"

@@ -4,7 +4,7 @@
 	y: -12.5d,
 	description: "制作信素升级套件",
 	text: [
-		""
+		"在强化机器上使用可以升级为信素"
 	],
 	dependencies: [
 		"34df0402"

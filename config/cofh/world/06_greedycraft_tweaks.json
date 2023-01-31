@@ -379,6 +379,26 @@
                 "value": [1, -1, 0]
             }
         },
+        "flamium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:greedycraft-flamium_ore",
+                    "weight": 100
+                }],
+                "material": "journey:ashblock",
+                "cluster-size": 3
+            },
+            "max-height": 36,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1, 0]
+            }
+        },
         "iceika_shards_ore": {
             "enabled": "true",
             "distribution": "uniform",
@@ -642,8 +662,8 @@
                 "material": "minecraft:sandstone",
                 "cluster-size": 2
             },
-            "max-height": 96,
-            "min-height": 32,
+            "max-height": 64,
+            "min-height": 1,
             "cluster-count": 3,
             "retrogen": "true",
             "dimension": {
@@ -662,8 +682,8 @@
                 "material": "minecraft:sandstone",
                 "cluster-size": 2
             },
-            "max-height": 128,
-            "min-height": 64,
+            "max-height": 64,
+            "min-height": 1,
             "cluster-count": 3,
             "retrogen": "true",
             "dimension": {
@@ -924,7 +944,7 @@
             "retrogen":"true",
             "dimension":{
                 "restriction":"whitelist",
-                "value":[55]
+                "value":[54]
             }
         },
         "chloroplast": {
@@ -1505,6 +1525,146 @@
             "dimension": {
                 "restriction": "whitelist",
                 "value": [52]
+            }
+        },
+        "botanical_soul": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "gct_mobs:botanical_stone",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:alf_stone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 1,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [42]
+            }
+        },
+        "astral_aquamarine": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "gct_mobs:botanical_stone",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:alf_stone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 1,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [42]
+            }
+        },
+        "astral_astral_starmetal": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:greedycraft-star_metal_ore",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:polarisite",
+                "cluster-size": 16
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 7,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [80]
+            }
+        },
+        "astral_astralmetal": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:greedycraft-astralmetal_ore",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:polarisite",
+                "cluster-size": 2
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [80]
+            }
+        },
+        "lunarine": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:greedycraft-lunarine_ore",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:polarisite",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 4,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [80]
+            }
+        },
+        "nasalum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:greedycraft-nasalum_ore",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:polarisite",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 4,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [80]
+            }
+        },
+        "order_crystal": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "gct_ores:order_crystal_ore",
+                    "weight": 100
+                }],
+                "material": "gct_ores:order_stone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [100,101,102,103]
             }
         }
     }

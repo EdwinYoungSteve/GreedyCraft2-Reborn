@@ -55,6 +55,7 @@
       "gct_mobs:sanite_ingot"
     ],
     "block": [
+      "gct_mobs:sanite_block"
     ],
     "nugget": [
     ],
@@ -112,17 +113,17 @@
       "abysscalling"
     ],
     "CORE": [
-      "soul_absorb_armor",
+      "soul_absource_armor",
       "strong_vaccine_armor",
       "vision_armor"
     ],
     "PLATES": [
-      "soul_absorb_armor",
+      "soul_absource_armor",
       "strong_vaccine_armor",
       "vision_armor"
     ],
     "TRIM": [
-      "soul_absorb_armor",
+      "soul_absource_armor",
       "strong_vaccine_armor",
       "vision_armor"
     ]

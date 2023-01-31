@@ -28,6 +28,6 @@
 	rewards: [{
 		uid: "bb34d696",
 		type: "random",
-		table: 7
+		table: 5
 	}]
 }

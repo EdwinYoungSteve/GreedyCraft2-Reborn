@@ -1,0 +1,15 @@
+{
+	x: 5.5d,
+	y: 3.0d,
+	dependencies: [
+		"1e42800c",
+		"63ebed9c"
+	],
+	tasks: [{
+		uid: "7852e9d9",
+		type: "item",
+		items: [{
+			item: "modularcontroller:astral_collector_controller"
+		}]
+	}]
+}

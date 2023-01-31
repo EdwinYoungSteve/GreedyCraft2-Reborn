@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: -7.5d,
+	dependencies: [
+		"b197945d"
+	],
+	tasks: [{
+		uid: "9bc0db4b",
+		type: "item",
+		items: [{
+			item: "gct_ores:ordered_metal_ingot"
+		}]
+	}]
+}

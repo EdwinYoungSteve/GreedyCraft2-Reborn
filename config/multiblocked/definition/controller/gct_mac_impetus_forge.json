@@ -1,0 +1,233 @@
+{
+  "consumeCatalyst": false,
+  "location": "gct_mac:impetus_forge",
+  "traits": {
+    "background": "multiblocked:textures/impetus_forge.png",
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "x": 79,
+        "y": 66,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "x": 79,
+        "y": 111,
+        "autoIO": false
+      }
+    ],
+    "ta_impetus": {
+      "cIO": 0,
+      "gIO": 2,
+      "x": 38,
+      "y": 139,
+      "width": 100,
+      "height": 4,
+      "texture": "multiblocked:textures/impetus.png",
+      "capacity": 10000,
+      "maxReceive": 1000,
+      "maxExtract": 1000,
+      "maxInputs": 1,
+      "maxOutputs": 1,
+      "beamEndpointXOffset": 0.5,
+      "beamEndpointYOffset": 0.5,
+      "beamEndpointZOffset": 0.5
+    }
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "state": {
+      "id": "thaumcraft:metal_void",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "formedRenderer": {
+    "state": {
+      "id": "additions:additions-impetus_forge_completed",
+      "meta": 0
+    },
+    "type": "blockstate"
+  },
+  "isOpaqueCube": true,
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABA",
+        "ABA",
+        " B "
+      ],
+      [
+        "BDB",
+        "B B",
+        "BDB"
+      ],
+      [
+        "DDD",
+        "@FG",
+        "DHD"
+      ],
+      [
+        "BDB",
+        "B B",
+        "BDB"
+      ],
+      [
+        "ABA",
+        "ABA",
+        " B "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "thaumicaugmentation:fortified_glass_pane",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "gct_mac:impetus_forge",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "thaumcraft:stone_arcane",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "thaumcraft:slab_arcane_stone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "gct_mobs:primordial_stone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "thaumcraft:slab_arcane_stone",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "minecraft:netherrack",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "thaumcraft:metal_void",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "minecraft:fire",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  },
+  "recipeMap": "impetus_forge"
+}

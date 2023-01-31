@@ -133,7 +133,15 @@ recipes.addShaped(<blue_skies:turquoise_stonebrick> * 14, [[<abyssalcraft:shadow
 recipes.addShaped(<journey:mysteriousdisk> * 1, [[<journey:fluffyfeather>, <journey:golemchunk>, <journey:fluffyfeather>], [<journey:golemchunk>, <journey:cloudiaorb>, <journey:golemchunk>],[<journey:fluffyfeather>, <journey:golemchunk>, <journey:fluffyfeather>]]);
 recipes.addShaped(<journey:sentryeye> * 6, [[null, <journey:ancient_stone>, <journey:ancient_stone>], [<journey:ancient_stone>, <journey:ancient_stone>, null],[<minecraft:ender_eye>, <journey:ancient_stone>, null]]);
 
+recipes.addShaped(<mist:portal_base:2>, [[<minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>],[<twilightforest:deadrock:2>, <minecraft:gold_block>, <twilightforest:deadrock:2>], [<twilightforest:deadrock:2>, <twilightforest:deadrock:2>, <twilightforest:deadrock:2>]]);
+recipes.addShaped(<mist:portal_base:3>, [[<twilightforest:deadrock:2>, <twilightforest:deadrock:2>, <twilightforest:deadrock:2>],[<twilightforest:deadrock:2>, <minecraft:gold_block>, <twilightforest:deadrock:2>], [<minecraft:gold_block>, <minecraft:gold_block>, <minecraft:gold_block>]]);
+
 recipes.addShaped(<gct_ores:senterian_wrench> * 1, [[null, <journey:senterian_soul>, <journey:sentry_disk>], [<journey:senterian_soul>, <journey:sentry_disk>, <journey:senterian_soul>],[<journey:sentry_disk>, <journey:senterian_soul>, null]]);
+
+recipes.addShaped(<gct_mobs:reversed_dreamwood_fence> * 3, [[null, null, null],[<gct_mobs:reversed_dreamwood_plank>, <ore:stickWood>, <gct_mobs:reversed_dreamwood_plank>], [<gct_mobs:reversed_dreamwood_plank>, <ore:stickWood>, <gct_mobs:reversed_dreamwood_plank>]]);
+recipes.addShaped(<gct_mobs:reversed_dreamwood_slab> * 6, [[null, null, null],[null, null, null], [<gct_mobs:reversed_dreamwood_plank>, <gct_mobs:reversed_dreamwood_plank>, <gct_mobs:reversed_dreamwood_plank>]]);
+recipes.addShaped(<gct_mobs:reversed_dreamwood_stairs> * 8, [[<gct_mobs:reversed_dreamwood_plank>, null, null],[<gct_mobs:reversed_dreamwood_plank>, <gct_mobs:reversed_dreamwood_plank>, null], [<gct_mobs:reversed_dreamwood_plank>, <gct_mobs:reversed_dreamwood_plank>, <gct_mobs:reversed_dreamwood_plank>]]);
+recipes.addShaped(<gct_mobs:botanical_ingot>, [[null, <ore:soulBotanical>, null],[<ore:soulBotanical>, <ore:ingotMythsteel>, <ore:soulBotanical>], [null, <ore:soulBotanical>, null]]);
 
 recipes.remove(<utilityworlds:portal_void>);
 recipes.remove(<utilityworlds:portal_garden>);
@@ -144,7 +152,25 @@ recipes.addShaped(<avaritia:neutron_collector> * 1, [
     [<minecraft:iron_block>, <avaritia:resource:1>, <minecraft:iron_block>],
     [<minecraft:quartz_block:0>, <minecraft:redstone_block>, <minecraft:quartz_block:0>]
 ]);
+recipes.addShaped(<journey:reinforcedcrystalingot>,
+[[<journey:lunitechunk>,<journey:purplegem>,<journey:frostgem>],
+[<journey:greengem>,<journey:desingot>,<journey:bluegem>],
+[<journey:magic_dust>,<journey:yellowgem>,<journey:cavecrystal>]]);
+recipes.addShaped(<journey:frostgem>,
+[[null,<journey:crystalflake>,null],
+[<journey:crystalflake>,<journey:frostflake>,<journey:crystalflake>],
+[null,<journey:crystalflake>,null]]);
 
+RecipeUtil.addShaped("withered_nether_star", <ageofminecraft:withered_nether_star> * 2, [
+    [<additions:greedycraft-withered_nether_star_shard>, <additions:greedycraft-withered_nether_star_shard>, <additions:greedycraft-withered_nether_star_shard>],
+    [<additions:greedycraft-withered_nether_star_shard>, <ageofminecraft:withered_nether_star>, <additions:greedycraft-withered_nether_star_shard>],
+    [<additions:greedycraft-withered_nether_star_shard>, <additions:greedycraft-withered_nether_star_shard>, <additions:greedycraft-withered_nether_star_shard>]
+]);
+RecipeUtil.addShaped("catalyst_star", <additions:greedycraft-catalyst_star> * 2, [
+    [<additions:greedycraft-catalyst_star_shard>, <additions:greedycraft-catalyst_star_shard>, <additions:greedycraft-catalyst_star_shard>],
+    [<additions:greedycraft-catalyst_star_shard>, <additions:greedycraft-catalyst_star>, <additions:greedycraft-catalyst_star_shard>],
+    [<additions:greedycraft-catalyst_star_shard>, <additions:greedycraft-catalyst_star_shard>, <additions:greedycraft-catalyst_star_shard>]
+]);
 RecipeUtil.addShaped("senterian_builder", <gct_ores:senterian_builder_lab>, [
     [<additions:greedycraft-broken_engine_shard>, <journey:sentry_disk>, <additions:greedycraft-broken_engine_shard>],
     [<journey:sentry_disk>, <additions:greedycraft-broken_engine_shard>, <journey:sentry_disk>],
@@ -1341,11 +1367,6 @@ RecipeUtil.addShaped("valkyrie_belt", <aeble:valkyrie_belt>, [
     [<ore:ingotValkyrie>, <ore:ingotAsgardium>, <ore:ingotValkyrie>],
     [<ore:ingotAsgardium>, null, <ore:ingotAsgardium>],
     [<ore:ingotValkyrie>, <ore:ingotAsgardium>, <ore:ingotValkyrie>]
-]);
-RecipeUtil.addShaped("lucky_belt", <aeble:luck_belt>, [
-    [<additions:greedycraft-lucky_clover>, <ore:ingotAsgardium>, <additions:greedycraft-lucky_clover>],
-    [<ore:ingotAsgardium>, null, <ore:ingotAsgardium>],
-    [<additions:greedycraft-lucky_clover>, <ore:ingotAsgardium>, <additions:greedycraft-lucky_clover>]
 ]);
 RecipeUtil.addShaped("repulsion_belt", <aeble:repulsion_belt>, [
     [<ore:pearlEnderEye>, <ore:ingotAsgardium>, <ore:pearlEnderEye>],

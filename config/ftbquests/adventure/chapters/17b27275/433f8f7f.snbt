@@ -5,9 +5,10 @@
 		"4090ae84"
 	],
 	tasks: [{
-		uid: "33fd0447",
-		type: "kill",
-		entity: "thebetweenlands:dreadful_mummy",
-		value: 1L
+		uid: "b9784e82",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-bone_shard"
+		}]
 	}]
 }

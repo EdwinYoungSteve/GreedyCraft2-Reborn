@@ -1,0 +1,21 @@
+{
+	title: "§b一级能量环",
+	x: 18.5d,
+	y: -6.0d,
+	description: "使用生命树构建器合成生命树能量环-Aur",
+	text: [
+		""
+	],
+	dependencies: [
+		"e72c1a2d"
+	],
+	tasks: [{
+		uid: "fe1bcab4",
+		type: "item",
+		items: [{
+			item: "gct_mobs:kabalah_ring_aur"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

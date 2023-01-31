@@ -1,6 +1,10 @@
 {
+	title: "§b怪物杀手 IX",
 	x: -5.0d,
 	y: 13.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"06bb0eb0"
 	],

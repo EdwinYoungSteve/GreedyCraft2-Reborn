@@ -1,6 +1,10 @@
 {
+	title: "§b怪物杀手 VII",
 	x: -5.0d,
 	y: 10.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"3bf800df"
 	],

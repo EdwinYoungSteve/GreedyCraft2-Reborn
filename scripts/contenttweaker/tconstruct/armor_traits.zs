@@ -34,6 +34,7 @@ import mods.contenttweaker.conarm.ArmorTrait;
 import mods.contenttweaker.conarm.ArmorTraitDataRepresentation;
 import mods.conarm.utils.IArmorModifications;
 import mods.zenutils.I18n;
+import mods.nuclearcraft.RadiationScrubber;
 
 // Calculates what the effect of one piece of armor should be
 // Many traits are implemented to bethe effect of 4 pieces of armor stacked together; This turns them into what the effect of a single armor piece should be.
@@ -696,9 +697,9 @@ soul_absourceTrait.color = Color.fromHex("ff5722").getIntColor();
 soul_absourceTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.soul_absourceTrait.name");
 soul_absourceTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.soul_absourceTrait.desc");
 soul_absourceTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
-    if(!player.world.remote && Math.random() < 0.5){
+    if(!player.world.remote && Math.random() < 0.5 && player.xp >= 30){
             player.xp -= 1;
-            return newDamage * 0.4f;
+            return newDamage * 0.6f;
     }
     return newDamage;
 };
@@ -775,6 +776,17 @@ old_ones_barrierTrait.onAbility = function(trait, level, world, player) {
 };
 old_ones_barrierTrait.register();
 
+val old_ones_barrier2Trait = ArmorTraitBuilder.create("old_ones_barrier2");
+old_ones_barrier2Trait.color = Color.fromHex("ffeb3b").getIntColor();
+old_ones_barrier2Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.old_ones_barrierTrait2.name");
+old_ones_barrier2Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.old_ones_barrierTrait.desc");
+old_ones_barrier2Trait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        player.addPotionEffect(<potion:potioncore:diamond_skin>.makePotionEffect(20, 11, false, false));
+    }
+};
+old_ones_barrier2Trait.register();
+
 val permanent_antibodyTrait = ArmorTraitBuilder.create("permanent_antibody");
 permanent_antibodyTrait.color = Color.fromHex("ffeb3b").getIntColor();
 permanent_antibodyTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.permanent_antibodyTrait.name");
@@ -826,3 +838,427 @@ for i in 2 to 11 {
     };
     ArmorTraitBuilder.create("lighting" + i).register();
 }
+
+val unstableTrait = ArmorTraitBuilder.create("unstable");
+unstableTrait.color = Color.fromHex("ffeb3b").getIntColor();
+unstableTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.unstableTrait.name");
+unstableTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.unstableTrait.desc");
+unstableTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (Math.random() <= 0.02) {
+            mods.contenttweaker.Commands.call("summon minecraft:tnt",player,player.world,false,true);
+        }
+    }
+    return newDamage;
+};
+unstableTrait.register();
+
+val IAmetalTrait = ArmorTraitBuilder.create("ia_metals");
+IAmetalTrait.color = Color.fromHex("ffeb3b").getIntColor();
+IAmetalTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.IAmetalTrait.name");
+IAmetalTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.IAmetalTrait.desc");
+IAmetalTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
+        var attacker as IEntityLivingBase = source.getTrueSource();
+        if (attacker.isInWater) {
+            if (player.isInWater) {
+                return newDamage * 1.2f;
+            } else {
+                return newDamage * 0.4f;
+            }
+            return newDamage;
+        }
+        return newDamage;
+    }
+    return newDamage;
+};
+IAmetalTrait.register();
+
+val IAmetal2Trait = ArmorTraitBuilder.create("ia_metals2");
+IAmetal2Trait.color = Color.fromHex("ffeb3b").getIntColor();
+IAmetal2Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.IAmetalTrait2.name");
+IAmetal2Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.IAmetalTrait.desc");
+IAmetal2Trait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
+        var attacker as IEntityLivingBase = source.getTrueSource();
+        if (attacker.isInWater) {
+            if (player.isInWater) {
+                return newDamage * 1.4f;
+            } else {
+                return newDamage * 0.2f;
+            }
+            return newDamage;
+        }
+        return newDamage;
+    }
+    return newDamage;
+};
+IAmetal2Trait.register();
+
+for i in 1 to 7 {
+    ArmorTraitBuilder.create("active_source" + i).color = Color.fromHex("ffffff").getIntColor(); 
+    ArmorTraitBuilder.create("active_source" + i).localizedName = "放射源";
+    ArmorTraitBuilder.create("active_source" + i).localizedDescription = "§o有辐同享！\n§r这件盔甲拥有放射性！";
+    ArmorTraitBuilder.create("active_source" + i).onAbility = function(trait, level, world, player) {
+        if (!isNull(player)) {
+            player.addRadiation(0.00000006d * pow(20, i - 1), true);
+        }
+    };
+    ArmorTraitBuilder.create("active_source" + i).register();
+}
+
+val changeableTrait = ArmorTraitBuilder.create("changeable");
+changeableTrait.color = Color.fromHex("ffeb3b").getIntColor();
+changeableTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.changeableTrait.name");
+changeableTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.changeableTrait.desc");
+changeableTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        return newDamage * (Math.random() + 0.5f);
+    }
+    return newDamage;
+};
+changeableTrait.register();
+
+val specific_immunityTrait = ArmorTraitBuilder.create("specific_immunity");
+specific_immunityTrait.color = Color.fromHex("ffeb3b").getIntColor();
+specific_immunityTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.specific_immunityTrait.name");
+specific_immunityTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.specific_immunityTrait.desc");
+specific_immunityTrait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        player.removePotionEffect(<potion:champions:plague>);
+        player.removePotionEffect(<potion:abyssalcraft:cplague>);
+        player.removePotionEffect(<potion:abyssalcraft:dplague_long>);
+        player.removePotionEffect(<potion:gct_aby:abyssplague>);
+    }
+};
+specific_immunityTrait.register();
+
+val timedefenceTrait = ArmorTraitBuilder.create("time_defence");
+timedefenceTrait.color = Color.fromHex("ffeb3b").getIntColor();
+timedefenceTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.timedefenceTrait.name");
+timedefenceTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.timedefenceTrait.desc");
+timedefenceTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var mtp = (1.2 - (player.world.getWorldTime() % 240000) * 0.001 * 0.003);
+        return newDamage * mtp;
+    }
+    return newDamage;
+};
+timedefenceTrait.register();
+
+val bellyfulTrait = ArmorTraitBuilder.create("bellyful");
+bellyfulTrait.color = Color.fromHex("ffeb3b").getIntColor();
+bellyfulTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.bellyfulTrait.name");
+bellyfulTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.bellyfulTrait.desc");
+bellyfulTrait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        player.addPotionEffect(<potion:cyclicmagic:saturation>.makePotionEffect(20, 0, false, false));
+    }
+};
+bellyfulTrait.register();
+
+val healthshieldTrait = ArmorTraitBuilder.create("health_shield");
+healthshieldTrait.color = Color.fromHex("ffffff").getIntColor();
+healthshieldTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.healthshieldTrait.name");
+healthshieldTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.healthshieldTrait.desc");
+healthshieldTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (player.soulNetwork.currentEssence >= (damage * 1000)) {
+            player.soulNetwork.currentEssence -= (damage * 1000);
+            return newDamage * ((Math.random() * 0.3f) + 0.4f);
+        } else {
+            return newDamage * 1.1f;
+        }
+    }
+    return newDamage;
+};
+healthshieldTrait.register();
+
+val soul_ascendTrait = ArmorTraitBuilder.create("soul_ascend");
+soul_ascendTrait.color = Color.fromHex("ffeb3b").getIntColor();
+soul_ascendTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.soul_ascendTrait.name");
+soul_ascendTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.soul_ascendTrait.desc");
+soul_ascendTrait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        if (player.isPotionActive(<potion:biomesoplenty:curse>)) {
+            player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(100, 2, false, false));
+        }
+    }
+};
+soul_ascendTrait.register();
+
+val pyrophoricTrait = ArmorTraitBuilder.create("pyrophoric");
+pyrophoricTrait.color = Color.fromHex("00ffcc").getIntColor(); 
+pyrophoricTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.pyrophoricTrait.name");
+pyrophoricTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.pyrophoricTrait.desc");
+pyrophoricTrait.onArmorTick = function(trait, armor, world, player) {
+    if(Math.random() < 0.02){
+        player.setFire(Math.random()*8+2);
+    }
+};
+pyrophoricTrait.register();
+
+val stripeTrait = ArmorTraitBuilder.create("stripe");
+stripeTrait.color = Color.fromHex("00ffcc").getIntColor(); 
+stripeTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.stripeTrait.name");
+stripeTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.stripeTrait.desc");
+stripeTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    player.addPotionEffect(<potion:minecraft:instant_damage>.makePotionEffect(1, 1, false, false));
+    return newDamage * 0.5f;
+};
+stripeTrait.register();
+
+val heaven_guardTrait = ArmorTraitBuilder.create("heaven_guard");
+heaven_guardTrait.color = Color.fromHex("00ffcc").getIntColor(); 
+heaven_guardTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.heaven_guardTrait.name");
+heaven_guardTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.heaven_guardTrait.desc");
+heaven_guardTrait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(25, 1, false, false));
+        player.addPotionEffect(<potion:minecraft:health_boost>.makePotionEffect(25, 1, false, false));
+        player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(25, 1, false, false));
+    }
+};
+heaven_guardTrait.register();
+
+val give_spirit_backTrait = ArmorTraitBuilder.create("give_spirit_back");
+give_spirit_backTrait.color = Color.fromHex("00ffcc").getIntColor(); 
+give_spirit_backTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.give_spirit_backTrait.name");
+give_spirit_backTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.give_spirit_backTrait.desc");
+give_spirit_backTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
+    if(Math.random() < 0.02){
+        mods.contenttweaker.Commands.call("summon twilightforest:wraith ~ ~1 ~ {CanPickUpLoot:1b}", player, player.world, false, true);
+        mods.contenttweaker.Commands.call("summon twilightforest:wraith ~ ~1 ~ {CanPickUpLoot:1b}", player, player.world, false, true);
+        return newDamage * 0.2f; 
+    }
+    return newDamage;
+};
+give_spirit_backTrait.register();
+
+val ghostmovingTrait = ArmorTraitBuilder.create("ghostmoving");
+ghostmovingTrait.color = Color.fromHex("00ffcc").getIntColor(); 
+ghostmovingTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.ghostmovingTrait.name");
+ghostmovingTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.ghostmovingTrait.desc");
+ghostmovingTrait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        player.addPotionEffect(<potion:minecraft:speed>.makePotionEffect(25, 0, false, false));
+    }
+};
+ghostmovingTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
+    if(Math.random() < 0.03){
+        evt.cancel();
+        return 0.0f; 
+    }
+    return newDamage;
+};
+ghostmovingTrait.register();
+
+val cooperationTrait = ArmorTraitBuilder.create("cooperation");
+cooperationTrait.color = Color.fromHex("00ffcc").getIntColor(); 
+cooperationTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.cooperationTrait.name");
+cooperationTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.cooperationTrait.desc");
+cooperationTrait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        player.addPotionEffect(<potion:gct_tcon:cooperation_2>.makePotionEffect(20, 0, false, false));
+    }
+};
+cooperationTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (player.isPotionActive(<potion:gct_tcon:cooperation_1>) && player.isPotionActive(<potion:gct_tcon:cooperation_2>)) {
+            return newDamage * 0.65f;
+        }
+        return newDamage;
+    }
+    return newDamage;
+};
+cooperationTrait.register();
+
+val tieringTrait = ArmorTraitBuilder.create("tiering");
+tieringTrait.color = Color.fromHex("00ffcc").getIntColor(); 
+tieringTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.tieringTrait.name");
+tieringTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.tieringTrait.desc");
+tieringTrait.onAbility = function(trait, level, world, player) {
+    player.addPotionEffect(<potion:minecraft:weakness>.makePotionEffect(100, 0, false, false));
+};
+tieringTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
+    return newDamage *0.9f;
+};
+tieringTrait.register();
+
+val climbTrait = ArmorTraitBuilder.create("climb");
+climbTrait.color = Color.fromHex("00ffcc").getIntColor(); 
+climbTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.climbTrait.name");
+climbTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.climbTrait.desc");
+climbTrait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        player.addPotionEffect(<potion:potioncore:climb>.makePotionEffect(25, 0, false, false));
+    }
+};
+climbTrait.register();
+
+val light_markTrait = ArmorTraitBuilder.create("light_mark");
+light_markTrait.color = Color.fromHex("00ffcc").getIntColor(); 
+light_markTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.light_markTrait.name");
+light_markTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.light_markTrait.desc");
+light_markTrait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        player.addPotionEffect(<potion:minecraft:glowing>.makePotionEffect(25, 0, false, false));
+    }
+};
+light_markTrait.register();
+
+val rushingTrait = ArmorTraitBuilder.create("rushing");
+rushingTrait.color = Color.fromHex("ffeb3b").getIntColor();
+rushingTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.rushingTrait.name");
+rushingTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.rushingTrait.desc");
+rushingTrait.onAbility = function(trait, level, world, player) {
+for entity in world.getEntitiesInArea(crafttweaker.util.Position3f.create(((player.x)- 5),((player.y)- 5),((player.z)- 5)),crafttweaker.util.Position3f.create(((player.x)+ 5),((player.y)+ 5),((player.z)+ 5))){
+    if(entity instanceof IEntityLivingBase && !entity instanceof IPlayer){
+        val en as IEntityLivingBase = entity;
+        if(!en.isPotionActive(<potion:minecraft:weakness>)){
+        en.addPotionEffect(<potion:minecraft:weakness>.makePotionEffect(60, 4, false, false));
+        }
+        }
+    }
+};
+rushingTrait.register();
+
+val dangerousTrait = ArmorTraitBuilder.create("dangerous");
+dangerousTrait.color = Color.fromHex("ffeb3b").getIntColor();
+dangerousTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.dangerousTrait.name");
+dangerousTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.dangerousTrait.desc");
+dangerousTrait.onAbility = function(trait, level, world, player) {
+    val x = player.maxHealth * 0.25f;
+    val y = player.maxHealth * 0.1f;
+    if(player.health < x && player.health > y){
+        player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(60, 1, false, false));
+    }else if(player.health < y){
+        player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(60, 2, false, false));
+    }
+};
+dangerousTrait.register();
+
+val againstTrait = ArmorTraitBuilder.create("against");
+againstTrait.color = Color.fromHex("ffeb3b").getIntColor();
+againstTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.againstTrait.name");
+againstTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.againstTrait.desc");
+againstTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
+    val x = player.health * 0.4f;
+    if(damage > x){
+        player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(80, 2, false, false));
+        player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(80, 5, false, false));
+    }
+    return newDamage;
+};
+againstTrait.register();
+
+val meteor_fallTrait = ArmorTraitBuilder.create("meteor_fall");
+meteor_fallTrait.color = Color.fromHex("ffeb3b").getIntColor();
+meteor_fallTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.meteor_fallTrait.name");
+meteor_fallTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.meteor_fallTrait.desc");
+meteor_fallTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
+    if(Math.random() < 0.04){
+        player.give(itemUtils.getItem("nyx:fallen_star"));
+    }
+    return newDamage;
+};
+meteor_fallTrait.register();
+
+val antiwaterTrait = ArmorTraitBuilder.create("antiwater");
+antiwaterTrait.color = Color.fromHex("ffeb3b").getIntColor();
+antiwaterTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.antiwaterTrait.name");
+antiwaterTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.antiwaterTrait.desc");
+antiwaterTrait.onAbility = function(trait, level, world, player) {
+    if(player.isInWater){
+        player.addPotionEffect(<potion:abyssalcraft:antimatter>.makePotionEffect(80, 0, false, false));
+    }
+};
+antiwaterTrait.register();
+
+val promiseTrait = ArmorTraitBuilder.create("promise");
+promiseTrait.color = Color.fromHex("ffeb3b").getIntColor();
+promiseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.promiseTrait.name");
+promiseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.promiseTrait.desc");
+promiseTrait.onAbility = function(trait, level, world, player) {
+    if (!(player.isPotionActive(<potion:minecraft:absorption>))) {
+        player.addPotionEffect(<potion:minecraft:absorption>.makePotionEffect(200, 9, false, false));
+    }
+};
+promiseTrait.register();
+
+val inserveTrait = ArmorTraitBuilder.create("inserve");
+inserveTrait.color = Color.fromHex("ffeb3b").getIntColor();
+inserveTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.inserveTrait.name");
+inserveTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.inserveTrait.desc");
+inserveTrait.onAbility = function(trait, level, world, player) {
+    if(Math.random() < 0.0001){
+        player.addPotionEffect(<potion:potioncore:invert>.makePotionEffect(20, 0, false, false));
+    }
+};
+inserveTrait.register();
+
+val strongdefenseTrait = ArmorTraitBuilder.create("strongdefense");
+strongdefenseTrait.color = Color.fromHex("ffeb3b").getIntColor();
+strongdefenseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.strongdefenseTrait.name");
+strongdefenseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.strongdefenseTrait.desc");
+strongdefenseTrait.onAbility = function(trait, level, world, player) {
+        player.addPotionEffect(<potion:potioncore:iron_skin>.makePotionEffect(80, 3, false, false));
+};
+strongdefenseTrait.register();
+
+val magic_fusionTrait = ArmorTraitBuilder.create("magic_fusion");
+magic_fusionTrait.color = Color.fromHex("ffeb3b").getIntColor();
+magic_fusionTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.magic_fusionTrait.name");
+magic_fusionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.magic_fusionTrait.desc");
+magic_fusionTrait.onAbility = function(trait, level, world, player) {
+        player.addPotionEffect(<potion:potioncore:magic_focus>.makePotionEffect(80, 0, false, false));
+};
+magic_fusionTrait.register();
+
+val helpful_radiationTrait = ArmorTraitBuilder.create("helpful_radiation");
+helpful_radiationTrait.color = Color.fromHex("ffeb3b").getIntColor();
+helpful_radiationTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.helpful_radiationTrait.name");
+helpful_radiationTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.helpful_radiationTrait.desc");
+helpful_radiationTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
+    if(Math.random() < 0.6){
+        if(Math.random() < 0.20){
+        player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(100, 1, false, false));
+        }else if(Math.random() < 0.20){
+        player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(100, 1, false, false));
+        }else if(Math.random() < 0.20){
+        player.addPotionEffect(<potion:minecraft:absorption>.makePotionEffect(100, 3, false, false));
+        }else if(Math.random() < 0.20){
+        player.addPotionEffect(<potion:minecraft:jump_boost>.makePotionEffect(100, 2, false, false));
+        }else {
+        player.addPotionEffect(<potion:minecraft:speed>.makePotionEffect(100, 2, false, false));
+        }
+    }
+    return newDamage;
+};
+helpful_radiationTrait.register();
+
+val true_limitingTrait = ArmorTraitBuilder.create("true_limiting");
+true_limitingTrait.color = Color.fromHex("00ffcc").getIntColor(); 
+true_limitingTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.true_limitingTrait.name");
+true_limitingTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.true_limitingTrait.desc");
+true_limitingTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
+    val x = player.health * 0.3f;
+    if(damage > x){
+        player.health -= x;
+        evt.cancel();
+        return 0.0f;
+    }
+    return newDamage;
+};
+true_limitingTrait.register();
+
+val barrierTrait = ArmorTraitBuilder.create("barrier");
+barrierTrait.color = Color.fromHex("ffeb3b").getIntColor();
+barrierTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.barrierTrait.name");
+barrierTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.barrierTrait.desc");
+barrierTrait.onAbility = function(trait, level, world, player) {
+    if (Math.random() < 0.005) {
+        player.addPotionEffect(<potion:potioncore:burst>.makePotionEffect(1, 0, false, false));
+    }
+};
+barrierTrait.register();

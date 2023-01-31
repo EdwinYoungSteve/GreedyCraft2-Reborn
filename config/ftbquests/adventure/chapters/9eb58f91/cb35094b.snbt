@@ -2,9 +2,9 @@
 	title: "§b开 始 了！",
 	x: -6.0d,
 	y: 1.5d,
-	description: "制作ME控制器，它的每个面可以传出8个频道！",
+	description: "制作ME控制器，它的每个面可以传出32个频道！",
 	text: [
-		""
+		"AE网络的核心"
 	],
 	dependencies: [
 		"bb69a736",

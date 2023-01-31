@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xffddfa,
+    "langs": {
+        "material": {
+            "en": "Carnationium",
+            "zh": "康乃馨"
+        }
+    }
+}

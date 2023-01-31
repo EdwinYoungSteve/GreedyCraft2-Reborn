@@ -1,6 +1,11 @@
 {
-	x: -2.5d,
-	y: 2.5d,
+	title: "§b鲜血注入金属",
+	x: -9.0d,
+	y: 4.5d,
+	description: "获得血炼铁锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"1011a4ec"
 	],

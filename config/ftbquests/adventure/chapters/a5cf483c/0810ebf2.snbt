@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 9.0d,
+	dependencies: [
+		"9df31eb7",
+		"1fb8340d"
+	],
+	tasks: [{
+		uid: "f5d355f8",
+		type: "dimension",
+		icon: "additions:greedycraft-astral_projector_2",
+		dim: 80
+	}]
+}

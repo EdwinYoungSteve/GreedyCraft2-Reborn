@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xff2a47,
+    "langs": {
+        "material": {
+            "en": "Rosium",
+            "zh": "血玫瑰"
+        }
+    }
+}

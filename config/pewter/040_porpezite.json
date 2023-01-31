@@ -2,7 +2,7 @@
   "name": "porpezite",
   "tool": {
     "head": {
-      "attackDamage": 69,
+      "attackDamage": 68,
       "speed": 13.5,
       "durability": 2000,
       "harvestLevel": 9

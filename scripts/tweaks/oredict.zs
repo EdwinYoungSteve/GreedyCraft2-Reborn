@@ -38,6 +38,11 @@ import scripts.util.oredict as OredictUtil;
 <ore:ingotTitanium>.remove(<tiths:ingot_titanium>);
 <ore:nuggetTitanium>.remove(<tiths:nugget_titanium>);
 <ore:ingotManganese>.remove(<nuclearcraft:ingot:11>);
+<ore:cinnabar>.remove(<tiths:cinnabar>);
+<ore:mercury>.remove(<tiths:cinnabar>);
+<ore:ingotBlackIron>.remove(<extendedcrafting:material>);
+<ore:blockBlackIron>.remove(<extendedcrafting:storage>);
+<ore:nuggetBlackIron>.remove(<extendedcrafting:material:1>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
@@ -74,8 +79,20 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <thermalfoundation:material:163>,
         <thermalfoundation:material:128>,
         <tcomplement:cast_clay>,
-        <tconstruct:clay_cast>
+        <tconstruct:clay_cast>,
+        <minecraft:ender_chest>,
+        <minecraft:ender_eye>,
+        <minecraft:blaze_powder>,
+        <minecraft:ender_pearl>,
+        <enderstorage:ender_storage>,
+        <minecraft:ender_chest>,
+        <prefab:item_advanced_warehouse>
     ],
+    
+    <ore:vetheaDisabled> : [<ore:ingotBrass>],
+    <ore:ingotBlackiron> : [<extendedcrafting:material>],
+    <ore:blockBlackiron> : [<extendedcrafting:storage>],
+    <ore:nuggetBlackiron> : [<extendedcrafting:material:1>],
     <ore:stoneDarkDense> : [<gct_aby:densedarkstone>],
     <ore:oreDreadium> : [<gct_aby:dreadiumore>],
     <ore:oreEthaxium> : [<gct_aby:ethauxiumore>],
@@ -682,8 +699,48 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:blockPhotonium> : [<extrabotany:blockphotonium>],
     <ore:blockGaia> : [<avaritiatweaks:gaia_block>],
     <ore:treeSaplingLiving> : [<treetweaker:livingwood>],
-    <ore:treeSaplingDream> : [<treetweaker:dreamwood>],
-    <ore:treeSapling> : [<treetweaker:evileye>]
+    <ore:treeSaplingDream> : [<treetweaker:dreamwood>, <treetweaker:redreamwood>],
+    <ore:treeSapling> : [<treetweaker:evileye>],
+    <ore:gemMercury> : [<thaumcraft:quicksilver>, <tiths:cinnabar>],
+    <ore:gemQuicksilver> : [<thaumcraft:quicksilver>, <tiths:cinnabar>],
+    <ore:nuggetMercury> : [<thaumcraft:nugget:5>],
+    <ore:ingotQuicksilver> : [<hammermetals:mercury_ingot>],
+    <ore:blockMercury> : [<tiths:block_cinnabar>],
+    <ore:blockQuicksilver> : [<tiths:block_cinnabar>],
+    <ore:scrapNaturalline> : [<gct_mobs:naturalline_scrap>],
+    <ore:gemNaturalline> : [<gct_mobs:naturalline>],
+    <ore:gemGlistenQuartz> : [<arcanearchives:raw_quartz>],
+    <ore:gemGlistenQuartzProcessed> : [<arcanearchives:shaped_quartz>],
+    <ore:blockGlistenQuartz> : [<arcanearchives:storage_raw_quartz>],
+    <ore:blockGlistenQuartzProcessed> : [<arcanearchives:storage_shaped_quartz>],
+    <ore:armorAurorianite> : [
+        <theaurorian:aurorianitepickaxe>,
+        <theaurorian:aurorianiteaxe>,
+        <theaurorian:aurorianitesword>
+    ],
+    <ore:armorCrystalline> : [
+        <theaurorian:crystallinepickaxe>,
+        <theaurorian:crystallinesword>,
+        <theaurorian:crystallineshield>
+    ],
+    <ore:armorUmbra> : [
+        <theaurorian:umbrapickaxe>,
+        <theaurorian:umbrasword>,
+        <theaurorian:umbrashield>
+    ],
+    <ore:ingotEnderiron> : [<extendedcrafting:material:36>],
+    <ore:nuggetEnderiron> : [<extendedcrafting:material:37>],
+    <ore:blockEnderiron> : [<extendedcrafting:storage:5>],
+    <ore:ingotEnderironex> : [<extendedcrafting:material:48>],
+    <ore:nuggetEnderironex> : [<extendedcrafting:material:49>],
+    <ore:blockEnderironex> : [<extendedcrafting:storage:7>],
+    <ore:heartGaia> : [<gct_mobs:gaia_heart>],
+    <ore:ingotRosium> : [<gct_mobs:rosium_ingot>],
+    <ore:ingotChrysanthemium> : [<gct_mobs:chrysanthemium_ingot>],
+    <ore:ingotDandelionium> : [<gct_mobs:dandelionium_ingot>],
+    <ore:ingotMyosotisium> : [<gct_mobs:myosotisium_ingot>],
+    <ore:ingotBegonium> : [<gct_mobs:begonium_ingot>],
+    <ore:ingotCarnationium> : [<gct_mobs:carnationium_ingot>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

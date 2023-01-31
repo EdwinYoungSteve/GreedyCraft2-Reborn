@@ -2,7 +2,7 @@
   "name": "hermaphroditic",
   "tool": {
     "head": {
-      "attackDamage": 108,
+      "attackDamage": 68,
       "speed": 36,
       "durability": 8400,
       "harvestLevel": 11

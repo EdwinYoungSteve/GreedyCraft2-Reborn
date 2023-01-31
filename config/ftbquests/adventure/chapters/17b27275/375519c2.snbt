@@ -1,6 +1,6 @@
 {
-	x: -9.0d,
-	y: 6.0d,
+	x: 3.0d,
+	y: 1.5d,
 	dependencies: [
 		"dc319614",
 		"c73ef5d0"
@@ -11,5 +11,11 @@
 		items: [{
 			item: "gct_ores:balanced_matrix_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "7e0c769f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "balanced_matrix"
 	}]
 }

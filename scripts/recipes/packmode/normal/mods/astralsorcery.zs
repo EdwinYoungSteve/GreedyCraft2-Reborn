@@ -40,3 +40,4 @@ null, null, null, null, null, null, null, null,
 <ore:ingotMeteor>, <ore:ingotMeteor>, <ore:ingotMeteor>, <ore:ingotMeteor>,
 <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>
 ], "astralsorcery.constellation.aevitas");
+

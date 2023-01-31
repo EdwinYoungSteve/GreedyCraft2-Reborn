@@ -10,7 +10,7 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.modularmachinery.RecipeBuilder;
 import mods.ctutils.utils.Math;
 
-val speed = 100;
+val speed = 250;
 val energy = 100;
 
 RecipeBuilder.newBuilder("miner_advanced", "miner_advanced", speed, 0)

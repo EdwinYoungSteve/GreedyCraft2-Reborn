@@ -1,6 +1,11 @@
 {
-	x: -2.5d,
-	y: 1.5d,
+	title: "§b基础结构",
+	x: -7.5d,
+	y: 0.0d,
+	description: "合成空白符文，用于搭建血之祭坛结构",
+	text: [
+		""
+	],
 	dependencies: [
 		"4580a6aa"
 	],

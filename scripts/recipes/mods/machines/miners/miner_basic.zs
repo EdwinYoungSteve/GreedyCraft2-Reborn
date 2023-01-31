@@ -10,7 +10,7 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.modularmachinery.RecipeBuilder;
 import mods.ctutils.utils.Math;
 
-val speed = 100;
+val speed = 250;
 val energy = 100;
 
 RecipeBuilder.newBuilder("miner_basic", "miner_basic", speed, 0)//这两个"miner_basic"是机器的ID与配方ID，保持相同即可

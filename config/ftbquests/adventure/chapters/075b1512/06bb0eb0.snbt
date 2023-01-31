@@ -1,6 +1,10 @@
 {
+	title: "§b怪物杀手 VIII",
 	x: -5.0d,
 	y: 11.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"57f16a47"
 	],

@@ -93,23 +93,19 @@
   "specificTraits": {
     "HEAD": [
       "executioner",
-      "magnetic2",
-      "giantslayer"
+      "magnetic2"
     ],
     "HANDLE": [
-      "executioner",
       "magnetic2",
       "giantslayer"
     ],
     "EXTRA": [
-      "executioner",
       "magnetic2",
       "giantslayer"
     ],
     "BOW": [
       "executioner",
-      "magnetic2",
-      "giantslayer"
+      "magnetic2"
     ],
     "CORE": [
       "hold_ground_armor",

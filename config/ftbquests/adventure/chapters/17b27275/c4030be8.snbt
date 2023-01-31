@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: 13.5d,
+	dependencies: [
+		"4c6291da"
+	],
+	tasks: [{
+		uid: "f41d9826",
+		type: "item",
+		items: [{
+			item: "moretcon:ingotswampsteel"
+		}]
+	}]
+}

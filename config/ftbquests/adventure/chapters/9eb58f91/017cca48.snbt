@@ -1,6 +1,11 @@
 {
+	title: "§b华而不实",
 	x: 12.0d,
 	y: -1.5d,
+	description: "制作不死图腾电容",
+	text: [
+		""
+	],
 	dependencies: [
 		"cda8846f"
 	],

@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0xc2003d,
+    "langs": {
+        "material": {
+            "en": "Cthughate",
+            "zh": "克图格亚"
+        }
+    }
+}

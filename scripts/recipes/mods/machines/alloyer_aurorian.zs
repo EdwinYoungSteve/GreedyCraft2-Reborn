@@ -23,5 +23,5 @@ RecipeBuilder.newBuilder("aurorian_steel", "aurorian_alloyer", 80)
     .addItemInput(<ore:ingotCrystalline>, 2)
     .addItemInput(<theaurorian:crystal> * 1)
     .addEnergyPerTickInput(100)
-    .addItemOutput(<theaurorian:auroriansteel> * 6)
+    .addItemOutput(<theaurorian:auroriansteel> * 12)
     .build();

@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	dependencies: [
+		"cf69ca7e"
+	],
+	tasks: [{
+		uid: "d15badd2",
+		type: "item",
+		items: [{
+			item: "additions:bloody-infused_diamond_ghost"
+		}]
+	}]
+}

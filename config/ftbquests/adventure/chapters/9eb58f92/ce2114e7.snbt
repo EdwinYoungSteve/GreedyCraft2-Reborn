@@ -1,13 +1,13 @@
 {
 	title: "§b2H2O===2H2↑+O2↑",
-	x: -2.0d,
-	y: -2.0d,
+	x: -6.5d,
+	y: -0.5d,
 	description: "制作电解分离器，可以电解水和盐水",
 	text: [
 		""
 	],
 	dependencies: [
-		"cd7aa078"
+		"3851128c"
 	],
 	tasks: [{
 		uid: "c3411398",

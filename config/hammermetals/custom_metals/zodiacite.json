@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x3cffff,
+    "langs": {
+        "material": {
+            "en": "Zodiacite",
+            "zh": "星灵"
+        }
+    }
+}

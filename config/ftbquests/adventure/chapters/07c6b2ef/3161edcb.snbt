@@ -4,7 +4,7 @@
 	y: -9.5d,
 	description: "合成极寒末影锭！",
 	text: [
-		""
+		"做装备或许不错？"
 	],
 	dependencies: [
 		"937ba3ca"

@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 7.0d,
+	dependencies: [
+		"d933b90a"
+	],
+	tasks: [{
+		uid: "df6105ca",
+		type: "item",
+		items: [{
+			item: "gct_mac:astral_portal"
+		}]
+	}]
+}

@@ -1,6 +1,10 @@
 {
+	title: "§b疯狂输出 II",
 	x: -2.0d,
 	y: 2.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"d251850c"
 	],

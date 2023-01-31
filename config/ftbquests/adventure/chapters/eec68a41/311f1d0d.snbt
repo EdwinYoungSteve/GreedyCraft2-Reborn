@@ -1,0 +1,56 @@
+{
+	title: "§b浸人心脾",
+	x: 25.5d,
+	y: -2.5d,
+	description: "在神灵凝聚板上制作六种植物金属",
+	text: [
+		""
+	],
+	dependencies: [
+		"5c82b156",
+		"a0c98d20",
+		"f0cd19d6"
+	],
+	tasks: [{
+		uid: "7411289f",
+		type: "item",
+		items: [{
+			item: "gct_mobs:begonium_ingot"
+		}]
+	},
+	{
+		uid: "f6af3091",
+		type: "item",
+		items: [{
+			item: "gct_mobs:chrysanthemium_ingot"
+		}]
+	},
+	{
+		uid: "ac0b0546",
+		type: "item",
+		items: [{
+			item: "gct_mobs:rosium_ingot"
+		}]
+	},
+	{
+		uid: "3f71aab6",
+		type: "item",
+		items: [{
+			item: "gct_mobs:dandelionium_ingot"
+		}]
+	},
+	{
+		uid: "b77be9d1",
+		type: "item",
+		items: [{
+			item: "gct_mobs:myosotisium_ingot"
+		}]
+	},
+	{
+		uid: "374bba1d",
+		type: "item",
+		items: [{
+			item: "gct_mobs:carnationium_ingot"
+		}]
+	}]
+}

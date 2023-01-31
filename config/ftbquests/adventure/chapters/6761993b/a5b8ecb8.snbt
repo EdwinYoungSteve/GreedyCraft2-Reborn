@@ -1,6 +1,11 @@
 {
-	x: -6.0d,
-	y: 2.5d,
+	title: "§b另一种……祭坛？",
+	x: -9.0d,
+	y: 0.0d,
+	description: "合成熏香祭坛",
+	text: [
+		""
+	],
 	dependencies: [
 		"30e20165"
 	],

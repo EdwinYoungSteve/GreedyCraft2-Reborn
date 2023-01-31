@@ -1,6 +1,11 @@
 {
-	x: -4.5d,
+	title: "§b这看起来不太像石板？",
+	x: -7.5d,
 	y: 1.5d,
+	description: "使用一级血之祭坛制作空白石板",
+	text: [
+		""
+	],
 	dependencies: [
 		"30e20165"
 	],

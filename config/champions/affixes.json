@@ -71,7 +71,7 @@
   },
   {
     "identifier": "adaptable",
-    "enabled": true,
+    "enabled": false,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
     "tier": 2

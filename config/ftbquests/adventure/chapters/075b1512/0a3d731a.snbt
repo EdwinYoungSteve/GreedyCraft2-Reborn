@@ -1,6 +1,10 @@
 {
+	title: "§b疯狂输出 V",
 	x: -2.0d,
 	y: 7.0d,
+	text: [
+		""
+	],
 	dependencies: [
 		"203fa314"
 	],

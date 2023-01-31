@@ -1,0 +1,10 @@
+{
+  "item_block": {
+    "name": "邪术钢矿石",
+    "ore_dict": "oreEldritchSteel",
+    "type": "additions:block_simple"
+  },
+  "name": "邪术钢矿石",
+  "material": "minecraft:stone",
+  "type": "additions:simple"
+}

@@ -80,5 +80,9 @@ global furnaceRecipes as IItemStack[IIngredient] = {
     <taiga:dyonite_dust> : <taiga:dyonite_ingot>,
     <taiga:nucleum_dust> : <taiga:nucleum_ingot>,
     <taiga:lumix_dust> : <taiga:lumix_ingot>,
-    <ore:dustShadowium> : <additions:shadowium_ingot>
+    <ore:dustShadowium> : <additions:shadowium_ingot>,
+    <ore:armorAurorianite> : <theaurorian:aurorianiteingot>,
+    <ore:armorCrystalline> : <theaurorian:crystallineingot>,
+    <ore:armorUmbra> : <theaurorian:umbraingot>,
+    <ore:dustManganese> : <additions:manganese_ingot>
 } as IItemStack[IIngredient];

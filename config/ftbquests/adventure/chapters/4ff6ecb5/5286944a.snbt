@@ -1,0 +1,17 @@
+{
+	x: 15.5d,
+	y: 4.0d,
+	dependencies: [
+		"5d85ff08"
+	],
+	tasks: [{
+		uid: "66626237",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-corruptium_ingot"
+		},
+		{
+			item: "additions:greedycraft-eldritch_slime"
+		}]
+	}]
+}

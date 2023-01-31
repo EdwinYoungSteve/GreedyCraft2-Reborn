@@ -26,5 +26,10 @@
 		uid: "2cb5c53d",
 		type: "xp",
 		xp: 500
+	},
+	{
+		uid: "37557b8d",
+		type: "random",
+		table: 1
 	}]
 }

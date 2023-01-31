@@ -4,7 +4,7 @@
 	y: -12.5d,
 	description: "制作强化升级套件",
 	text: [
-		""
+		"在硬化机器上使用可以将其升级为强化"
 	],
 	dependencies: [
 		"2f3072cf"

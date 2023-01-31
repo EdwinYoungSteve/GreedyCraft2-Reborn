@@ -1,0 +1,16 @@
+{
+	x: -1.5d,
+	y: -4.5d,
+	dependencies: [
+		"375519c2"
+	],
+	tasks: [{
+		uid: "22737aae",
+		type: "item",
+		items: [{
+			item: "gct_ores:door_key_of_orderland"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,6 +1,10 @@
 {
+	title: "§b旅行家 I",
 	x: -3.5d,
 	y: 1.0d,
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "177134b9",
 		type: "stat",

@@ -10,6 +10,8 @@ import mods.tconstruct.Melting;
 import mods.tconstruct.Casting;
 import mods.tconstruct.Alloy;
 import mods.tconstruct.Fuel;
+import mods.tcomplement.highoven.HighOven;
+import mods.tcomplement.highoven.MixRecipeBuilder;
 
 val VOLUME_BLOCK = 1296;
 val VOLUME_INGOT = 144;
@@ -99,11 +101,15 @@ Alloy.addRecipe(<liquid:scientificite> * 432, [<liquid:hydrochloric_acid> * 1000
 Alloy.addRecipe(<liquid:legendite> * 18, [<liquid:liquidlegend> * 125, <liquid:glass> * 250, <liquid:chromasteel> * 9]);
 Alloy.addRecipe(<liquid:eugardite> * 4, [<liquid:decurrium> * 3, <liquid:photonium> * 2, <liquid:solita> * 1, <liquid:dullium> * 2]);
 Alloy.addRecipe(<liquid:solita> * 3, [<liquid:reditrite> * 16, <liquid:soularium>, <liquid:adaminite>]);
+Alloy.addRecipe(<liquid:shallowbreath>*100, [<liquid:betweensludge> * 10, <liquid:stagnant_water> * 10000, <liquid:swamp_water> * 10000]);
 
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block>);
 Casting.removeBasinRecipe(<tiths:block_titanium>);
+Casting.removeBasinRecipe(<moretcon:itemtrichromadentiumsponge:1>);
+Casting.removeBasinRecipe(<moretcon:itemtrichromadentiumsponge:2>);
+Casting.removeBasinRecipe(<moretcon:itemtrichromadentiumsponge:3>);
 
 Casting.removeTableRecipe(<tcomplement:materials:1>);
 Casting.removeTableRecipe(<tiths:ingot_titanium>);
@@ -136,6 +142,8 @@ Casting.addBasinRecipe(<gct_ores:genite_machine_frame>, <thermalexpansion:frame>
 Casting.addBasinRecipe(<gct_ores:everite_machine_frame>, <thermalexpansion:frame>, <liquid:everite>, 576, false, 100);
 Casting.addBasinRecipe(<gct_ores:balanced_matrix_block>, null, <liquid:balanced_matrix>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<additions:greedycraft-titanium_block>, null, <liquid:titanium>, VOLUME_BLOCK, false, 300);
+Casting.addBasinRecipe(<tiths:block_decurrium>, null, <liquid:decurrium>, VOLUME_BLOCK, false, 300);
+Casting.addBasinRecipe(<tiths:block_oraclium>, null, <liquid:oraclium>, VOLUME_BLOCK, false, 300);
 
 Casting.addTableRecipe(<abyssalcraft:ethaxiumingot>, <tconstruct:cast_custom>, <liquid:ethaxium>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<additions:astral_metal_ingot>, <tconstruct:cast_custom>, <liquid:astral_metal>, VOLUME_INGOT, false, 200);
@@ -177,6 +185,11 @@ Casting.addTableRecipe(<gct_ores:chaotic_draconium_ingot>, <tconstruct:cast_cust
 Casting.addTableRecipe(<gct_ores:balanced_matrix_ingot>, <tconstruct:cast_custom>, <liquid:balanced_matrix>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<additions:titanium_ingot>, <tconstruct:cast_custom>, <liquid:titanium>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<additions:greedycraft-titanium_nugget>, <tconstruct:cast_custom:1>, <liquid:titanium>, VOLUME_INGOT, false, 20);
+Casting.addTableRecipe(<thaumcraft:quicksilver>, <tconstruct:cast_custom:2>, <liquid:mercury>, VOLUME_INGOT, false, 20);
+Casting.addTableRecipe(<tiths:ingot_decurrium>, <tconstruct:cast_custom>, <liquid:decurrium>, VOLUME_INGOT, false, 200);
+Casting.addTableRecipe(<tiths:ingot_oraclium>, <tconstruct:cast_custom>, <liquid:oraclium>, VOLUME_INGOT, false, 200);
+Casting.addTableRecipe(<tiths:nugget_decurrium>, <tconstruct:cast_custom:1>, <liquid:decurrium>, VOLUME_NUGGET, false, 20);
+Casting.addTableRecipe(<tiths:nugget_oraclium>, <tconstruct:cast_custom:1>, <liquid:oraclium>, VOLUME_NUGGET, false, 20);
 
 Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
 Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);
@@ -185,6 +198,7 @@ Melting.removeRecipe(<liquid:iron>, <minecraft:detector_rail>);
 Melting.removeRecipe(<liquid:iron>, <minecraft:rail>);
 Melting.removeRecipe(<liquid:osmium>, <minecraft:rail>);
 Melting.removeRecipe(<liquid:meteorite_fluid>, <taiga:obsidiorite_block>);
+Melting.removeRecipe(<liquid:bloodcrust>, <divinerpg:hellstone_ingot>);
 
 Melting.addEntityMelting(<entity:minecraft:cow>, <liquid:milk>);
 Melting.addEntityMelting(<entity:minecraft:enderman>, <liquid:ender>);
@@ -332,6 +346,32 @@ Melting.addRecipe(<liquid:liquidlegend> * 75, <divinerpg:vamacheron_statue>, 800
 Melting.addRecipe(<liquid:liquidlegend> * 75, <divinerpg:termasect_statue>, 800);
 Melting.addRecipe(<liquid:liquidlegend> * 75, <divinerpg:sunstorm_statue>, 800);
 Melting.addRecipe(<liquid:liquidlegend> * 75, <divinerpg:ancient_entity_statue>, 800);
+Melting.addRecipe(<liquid:mercury> * VOLUME_INGOT, <ore:gemMercury>, 300);
+Melting.addRecipe(<liquid:mercury> * VOLUME_NUGGET, <ore:nuggetMercury>, 260);
+Melting.addRecipe(<liquid:mercury> * VOLUME_INGOT, <ore:quicksilver>, 300);
+Melting.addRecipe(<liquid:mercury> * VOLUME_INGOT, <ore:gemQuicksilver>, 300);
+Melting.addRecipe(<liquid:mercury> * VOLUME_NUGGET, <ore:nuggetQuicksilver>, 260);
+Melting.addRecipe(<liquid:mercury> * VOLUME_INGOT, <ore:ingotMercury>, 300);
+Melting.addRecipe(<liquid:mercury> * VOLUME_BLOCK, <ore:blockMercury>, 350);
+Melting.addRecipe(<liquid:mercury> * VOLUME_INGOT, <ore:dustMercury>, 300);
+Melting.addRecipe(<liquid:mercury> * VOLUME_INGOT, <ore:plateMercury>, 300);
+Melting.addRecipe(<liquid:mercury> * 72, <ore:rodMercury>, 280);
+Melting.addRecipe(<liquid:mercury> * (VOLUME_INGOT * 4), <ore:gearMercury>, 320);
+Melting.addRecipe(<liquid:silicon> * 36, <ore:itemSilicon>, 1280);
+Melting.addRecipe(<liquid:decurrium> * VOLUME_NUGGET, <ore:nuggetDecurrium>, 450);
+Melting.addRecipe(<liquid:decurrium> * VOLUME_INGOT, <ore:ingotDecurrium>, 600);
+Melting.addRecipe(<liquid:decurrium> * VOLUME_BLOCK, <ore:blockDecurrium>, 850);
+Melting.addRecipe(<liquid:decurrium> * (VOLUME_INGOT * 4), <ore:gearDecurrium>, 750);
+Melting.addRecipe(<liquid:decurrium> * VOLUME_INGOT, <ore:plateDecurrium>, 600);
+Melting.addRecipe(<liquid:decurrium> * VOLUME_INGOT, <ore:dustDecurrium>, 600);
+Melting.addRecipe(<liquid:oraclium> * VOLUME_NUGGET, <ore:nuggetOraclium>, 450);
+Melting.addRecipe(<liquid:oraclium> * VOLUME_INGOT, <ore:ingotOraclium>, 600);
+Melting.addRecipe(<liquid:oraclium> * VOLUME_BLOCK, <ore:blockOraclium>, 850);
+Melting.addRecipe(<liquid:oraclium> * (VOLUME_INGOT * 4), <ore:gearOraclium>, 750);
+Melting.addRecipe(<liquid:oraclium> * VOLUME_INGOT, <ore:plateOraclium>, 600);
+Melting.addRecipe(<liquid:oraclium> * VOLUME_INGOT, <ore:dustOraclium>, 600);
+Melting.addRecipe(<liquid:bloodcrust> * VOLUME_INGOT, <ore:ingotBloodcrust>, 500);
+Melting.addRecipe(<liquid:bloodcrust> * 288, <ore:oreBloodcrust>, 611);
 
 Fuel.registerFuel(<liquid:infernium> * 1, 600);
 Fuel.registerFuel(<liquid:cosmilite> * 1, 2400);
@@ -362,6 +402,13 @@ Fuel.registerFuel(<liquid:everite> * 1, 200);
 Fuel.registerFuel(<liquid:balanced_matrix> * 1, 200);
 Fuel.registerFuel(<liquid:moltenium> * 1, 1600);
 Fuel.registerFuel(<liquid:thermallite> * 1, 2400);
+Fuel.registerFuel(<liquid:photonium> * 1, 1200);
+
+var betwnite = HighOven.newMixRecipe(<liquid:betwnite> * 144, <liquid:liquidtrichromadentium> * 288, 2680);
+betwnite.addOxidizer(<additions:greedycraft-valonitedruse>, 100);
+betwnite.addReducer(<additions:greedycraft-gemundyingember>, 100);
+betwnite.addPurifier(<ore:dustSwampsteel>, 100);
+betwnite.register();
 
 //Melting.addRecipe(<liquid:liquid_chocolate> * 48, <ore:beanCocoa>, 200);
 

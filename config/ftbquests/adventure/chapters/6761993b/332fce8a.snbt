@@ -1,7 +1,7 @@
 {
 	title: "邪恶工艺的起源",
-	x: -8.0d,
-	y: 13.5d,
+	x: -12.0d,
+	y: 7.5d,
 	tasks: [{
 		uid: "ac1bbb4c",
 		type: "item",

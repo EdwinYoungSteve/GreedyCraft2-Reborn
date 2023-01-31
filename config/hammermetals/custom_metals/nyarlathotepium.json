@@ -1,0 +1,11 @@
+{
+    "addItems": [ "all" ],
+    "addBlocks": [ "all" ],
+    "color": 0x5a4b44,
+    "langs": {
+        "material": {
+            "en": "Nyarlathotepium",
+            "zh": "奈亚拉托提普"
+        }
+    }
+}

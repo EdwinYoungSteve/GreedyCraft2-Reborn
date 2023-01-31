@@ -1,0 +1,15 @@
+{
+	x: -4.5d,
+	y: -4.5d,
+	dependencies: [
+		"ff9c2648",
+		"37208d1b"
+	],
+	tasks: [{
+		uid: "90603a29",
+		type: "item",
+		items: [{
+			item: "modularcontroller:order_fusioner_controller"
+		}]
+	}]
+}

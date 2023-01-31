@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 13.5d,
+	tasks: [{
+		uid: "57f9f135",
+		type: "item",
+		items: [{
+			item: "moretcon:ingottrichromadentium"
+		}]
+	}]
+}

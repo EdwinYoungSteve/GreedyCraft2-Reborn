@@ -1,6 +1,11 @@
 {
-	x: -2.5d,
-	y: 0.5d,
+	title: "§b重要的合成方式",
+	x: -6.0d,
+	y: 4.5d,
+	description: "获得炼金术桌",
+	text: [
+		""
+	],
 	dependencies: [
 		"0cb8bba2"
 	],

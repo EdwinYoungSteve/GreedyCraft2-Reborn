@@ -1,6 +1,10 @@
 {
+	title: "§b倍矿狂魔 IV",
 	x: 7.0d,
 	y: 5.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"14ad039a"
 	],

@@ -91,5 +91,4 @@ GameStagesUtil.stageChaotic.addDimension(78);
 GameStagesUtil.stageChaotic.addDimension(100);
 GameStagesUtil.stageChaotic.addDimension(101);
 GameStagesUtil.stageChaotic.addDimension(324987);
-
-GameStagesUtil.stageCosmic.addDimension(20);
+GameStagesUtil.stageBetweenlandTraveller.addDimension(20);

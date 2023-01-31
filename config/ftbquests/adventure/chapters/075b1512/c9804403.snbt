@@ -1,6 +1,10 @@
 {
+	title: "§b倍矿狂魔 VI",
 	x: 7.0d,
 	y: 8.5d,
+	text: [
+		""
+	],
 	dependencies: [
 		"36d2ada6"
 	],

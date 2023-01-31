@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"3088b490"
+	],
+	tasks: [{
+		uid: "48ed520d",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-murderite_ingot"
+		}]
+	}]
+}

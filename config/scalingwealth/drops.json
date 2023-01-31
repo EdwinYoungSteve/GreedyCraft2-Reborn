@@ -1,5 +1,128 @@
 {
     "entities": {
+        "journey:guardianofdestruction": {
+            "[320, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "gct_ores:senterian_key"
+                }
+            ]
+        },
+        "journey:sentryheart": {
+            "[320, 2147483647]": [
+                {
+                    "amount": "[24,48]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-dullium_ingot"
+                }
+            ]
+        },
+        "ageofminecraft:witherstormbosshelpful": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[5,5]",
+                    "chance": 1.0,
+                    "item": "gct_ores:stormy_shard"
+                },
+                {
+                    "amount": "[8,32]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-withered_nether_star_shard"
+                }
+            ]
+        },
+        "thebetweenlands:sludge_menace": {
+            "[1200, 2147483647]": [
+                {
+                    "amount": "[56,72]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-dirtshape"
+                }
+            ]
+        },
+        "thebetweenlands:peat_mummy": {
+            "[1200, 2147483647]": [
+                {
+                    "amount": "[1,4]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-bone_shard"
+                }
+            ]
+        },
+        "thebetweenlands:dreadful_mummy": {
+            "[1200, 2147483647]": [
+                {
+                    "amount": "[16,24]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-bone_shard"
+                }
+            ]
+        },
+        "thebetweenlands:fortress_boss": {
+            "[1200, 2147483647]": [
+                {
+                    "amount": "[56,72]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-demon_shard"
+                }
+            ]
+        },
+        "thaumicaugmentation:eldritch_warden": {
+            "[640, 1200]": [
+                {
+                    "amount": "[4,16]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-eldritch_slime"
+                }
+            ],
+            "[1200, 1800]": [
+                {
+                    "amount": "[12,28]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-eldritch_slime"
+                }
+            ],
+            "[1800, 2147483647]": [
+                {
+                    "amount": "[20,40]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-eldritch_slime"
+                }
+            ]
+        },
+        "thaumicaugmentation:eldritch_golem": {
+            "[640, 1200]": [
+                {
+                    "amount": "[1,4]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-corruptium_ingot"
+                }
+            ],
+            "[1200, 1800]": [
+                {
+                    "amount": "[3,7]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-corruptium_ingot"
+                }
+            ],
+            "[1800, 2147483647]": [
+                {
+                    "amount": "[5,10]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-corruptium_ingot"
+                }
+            ]
+        },
+        "dungeonsmod:sun": {
+            "[2000, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:bloody-darkest_core"
+                }
+            ]
+        },
         "minecraft:zombie": {
             "[0, 2147483647]": [
                 {
@@ -3331,6 +3454,24 @@
                     "amount": "[1,1]",
                     "chance": 0.16,
                     "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "extrabotany:gaiaiii": {
+            "[2000, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1,
+                    "item": "gct_mobs:gaia_heart"
+                }
+            ]
+        },
+        "extrabotany:voidherrscher": {
+            "[2000, 2147483647]": [
+                {
+                    "amount": "[8,24]",
+                    "chance": 1,
+                    "item": "additions:botaniaddon-kianate_ingot"
                 }
             ]
         },
