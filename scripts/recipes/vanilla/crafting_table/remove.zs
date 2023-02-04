@@ -350,7 +350,6 @@ val removedRecipes as IIngredient[] = [
     <torchmaster:dread_lamp>,
     <modularmachinery:blockcasing:2>,
     <openblocks:sponge>,
-    <globalxp:xp_block>,
     <actuallyadditions:item_growth_ring>,
     <tconstruct:throwball:1>,
     <openblocks:elevator:*>,

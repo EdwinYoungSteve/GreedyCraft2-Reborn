@@ -1491,11 +1491,6 @@ RecipeUtil.addShaped("openblocks_sponge", <openblocks:sponge> * 2, [
     [<minecraft:sponge>, <ore:slimeball>, <minecraft:sponge>],
     [<ore:slimeball>, <minecraft:sponge>, <ore:slimeball>]
 ]);
-RecipeUtil.addShaped("xp_block", <globalxp:xp_block>, [
-    [<minecraft:iron_bars>, <ore:ingotExperience>, <minecraft:iron_bars>],
-    [<ore:ingotExperience>, <minecraft:emerald>, <ore:ingotExperience>],
-    [<minecraft:iron_bars>, <ore:ingotExperience>, <minecraft:iron_bars>]
-]);
 RecipeUtil.addShaped("growth_ring", <actuallyadditions:item_growth_ring>, [
     [<ore:shardCreative>, <minecraft:wheat_seeds>, <ore:shardCreative>],
     [<minecraft:wheat_seeds>, <actuallyadditions:item_misc:6>, <minecraft:wheat_seeds>],
