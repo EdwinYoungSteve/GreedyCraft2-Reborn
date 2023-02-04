@@ -513,13 +513,14 @@
             <max>
                 <var>helmetdamageleft</var>
                 <num>0</num>
-                <round>
+            <round>
                 <pct>
                     <var>helmetdamageleft</var>
                     <var>helmetmaxdamage</var>
                 </pct>
-                </round>
-                <str>                     </str>
+                <num>0</num>
+            </round>
+                <str/>
             </max>
             <max>
                 <var>helmetdamageleft</var>
@@ -556,13 +557,14 @@
             <max>
                 <var>chestplatedamageleft</var>
                 <num>0</num>
-                <round>
+            <round>
                 <pct>
                     <var>chestplatedamageleft</var>
                     <var>chestplatemaxdamage</var>
                 </pct>
-                </round>
-                <str>                     </str>
+                <num>0</num>
+            </round>
+                <str/>
             </max>
             <max>
                 <var>chestplatedamageleft</var>
@@ -598,12 +600,13 @@
             <max>
                 <var>leggingsdamageleft</var>
                 <num>0</num>
-                <round>
+            <round>
                 <pct>
                     <var>leggingsdamageleft</var>
                     <var>leggingsmaxdamage</var>
                 </pct>
-                </round>
+                <num>0</num>
+            </round>
                 <str/>
             </max>
             <max>
@@ -640,12 +643,13 @@
             <max>
                 <var>bootsdamageleft</var>
                 <num>0</num>
-                <round>
+            <round>
                 <pct>
                     <var>bootsdamageleft</var>
                     <var>bootsmaxdamage</var>
                 </pct>
-                </round>
+                <num>0</num>
+            </round>
                 <str/>
             </max>
             <max>
