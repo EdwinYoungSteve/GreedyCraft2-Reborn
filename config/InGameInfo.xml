@@ -526,7 +526,7 @@
                 <var>helmetdamageleft</var>
                 <num>0</num>
                 <str>%</str>
-                <str/>
+                <str>                     </str>
             </max>
             <str> </str>
             <var>helmetlargeicon</var>
@@ -570,7 +570,7 @@
                 <var>chestplatedamageleft</var>
                 <num>0</num>
                 <str>%</str>
-                <str/>
+            <str>                     </str>
             </max>
             <str> </str>
             <var>chestplatelargeicon</var>
