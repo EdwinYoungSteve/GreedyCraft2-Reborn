@@ -21,11 +21,6 @@
 		xp: 100
 	},
 	{
-		uid: "6f9ee5a1",
-		type: "item",
-		item: "teslacorelib:wrench"
-	},
-	{
 		uid: "a4ddc019",
 		type: "item",
 		item: "enderio:item_yeta_wrench"
@@ -65,11 +60,6 @@
 		uid: "c402704b",
 		type: "item",
 		item: "draconicevolution:crystal_binder"
-	},
-	{
-		uid: "9edb34c3",
-		type: "item",
-		item: "bigreactors:wrench"
 	},
 	{
 		uid: "bf44806b",

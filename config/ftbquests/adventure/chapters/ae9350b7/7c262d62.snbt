@@ -7,10 +7,17 @@
 		"可以无线传输物品的箱子，谁不爱呢？（不要与原版末影箱混淆哟~）"
 	],
 	tasks: [{
-		uid: "1476071a",
+		uid: "49fccd27",
 		type: "item",
 		items: [{
-			item: "enderstorage:ender_storage"
+			id: "enderstorage:ender_storage",
+			tag: {
+				Frequency: {
+					left: 0,
+					middle: 0,
+					right: 0
+				}
+			}
 		}]
 	}],
 	rewards: [{

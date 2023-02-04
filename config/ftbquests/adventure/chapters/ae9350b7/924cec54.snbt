@@ -1,16 +1,16 @@
 {
-	title: "§b经验方块",
+	title: "§b经验方尖碑",
 	x: 1.5d,
 	y: 0.0d,
-	description: "合成一个经验方块，用于存储大量经验",
+	description: "合成一个经验方尖碑，用于存储大量经验",
 	text: [
 		""
 	],
 	tasks: [{
-		uid: "98a6bee8",
+		uid: "be1332e1",
 		type: "item",
 		items: [{
-			item: "globalxp:xp_block"
+			item: "enderio:block_experience_obelisk"
 		}]
 	}],
 	rewards: [{
