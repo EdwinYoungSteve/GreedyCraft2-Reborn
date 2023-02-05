@@ -36,6 +36,11 @@ recipes.addShapeless(<botania:dreamwood:1> * 4, [<gct_mobs:dreamwood_log>]);
 recipes.addShapeless(<gct_mobs:reversed_dreamwood_plank> * 4, [<gct_mobs:reversed_dreamwood_log>]);
 recipes.addShapeless(<botania:manaresource:5> * 32, [<gct_mobs:gaia_heart>]);
 
+recipes.addShapeless(<additions:greedycraft-godlikeum_essence>, [<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>]);
+recipes.addShapeless(<additions:greedycraft-extremium_essence> * 4, [<ore:essenceGodlikeum>]);
+recipes.addShapeless(<mysticalagradditions:insanium> * 4, [<ore:essenceExtremium>]);
+recipes.addShapeless(<additions:greedycraft-extremium_essence>, [<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>]);
+
 RecipeUtil.addShapeless("silicon_gem_1to4", <appliedenergistics2:material:5> * 4,
     [<ore:ingotSilicon>]
 );
@@ -47,6 +52,9 @@ RecipeUtil.addShapeless("carbon_ingot_4to1", <additions:greedycraft-carbon_ingot
 );
 RecipeUtil.addShapeless("carbon_ingot_1to4", <nuclearcraft:dust:8> * 4,
     [<ore:ingotCarbon>]
+);
+RecipeUtil.addShapeless("steeleaf_alloy_arrowshaft", <tconstruct:arrow_shaft>.withTag({Material: "moretcon.ferroherb"}), 
+    [<tconstruct:arrow_shaft>.withTag({Material: "steeleaf"}), <ore:dustIronwood>]
 );
 RecipeUtil.addShapeless("star_1", <additions:greedycraft-canopy_star>, 
     [<additions:greedycraft-broken_canopy_star>, <additions:greedycraft-canopy_seed>]

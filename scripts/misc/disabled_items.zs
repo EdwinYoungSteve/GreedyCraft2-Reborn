@@ -19,6 +19,7 @@ import scripts.util.recipes as RecipeUtil;
 import scripts.util.lang as LangUtil;
 
 val disabledItems as IIngredient[] = [
+    <charm:totem_of_shielding>,
     <additions:greedycraft-astral_projector_2>,
     <additions:greedycraft-astral_projector>,
     <nuclearcraft:ingot_former>,

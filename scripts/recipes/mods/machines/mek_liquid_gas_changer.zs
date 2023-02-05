@@ -92,3 +92,6 @@ RecipeBuilder.newBuilder("gas_nitric_acid", "mek_changer", 1).addFluidInput(<flu
 
 RecipeBuilder.newBuilder("liquid_hydrochloric_acid", "mek_changer", 1).addGasInput("hydrochloricacid", 10).addFluidOutput(<fluid:hydrochloric_acid> * 10).build();
 RecipeBuilder.newBuilder("gas_hydrochloric_acid", "mek_changer", 1).addFluidInput(<fluid:hydrochloric_acid> * 10).addGasOutput("hydrochloricacid", 10).build();
+
+RecipeBuilder.newBuilder("liquid_liquidhydrofluoricacid", "mek_changer", 1).addGasInput("hydrofluoricacid", 10).addFluidOutput(<fluid:liquidhydrofluoricacid> * 10).build();
+RecipeBuilder.newBuilder("gas_liquidhydrofluoricacid", "mek_changer", 1).addFluidInput(<fluid:liquidhydrofluoricacid> * 10).addGasOutput("hydrofluoricacid", 10).build();

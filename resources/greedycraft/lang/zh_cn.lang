@@ -754,7 +754,7 @@ greedycraft.tconstruct.tool_trait.artTrait.desc=§o战斗也是一门艺术。\n
 greedycraft.tconstruct.tool_trait.cooperationTrait.name=联动
 greedycraft.tconstruct.tool_trait.cooperationTrait.desc=§o我们联合！\n§r当同时拥有带有此属性的盔甲和武器时，获得力量V效果。
 greedycraft.tconstruct.tool_trait.lucklessTrait.name=气运已尽
-greedycraft.tconstruct.tool_trait.lucklessTrait.desc=§o赌狗本性……\n§r攻击时有三分之一的概率获得一个随机效果。
+greedycraft.tconstruct.tool_trait.lucklessTrait.desc=§o赌狗本性……\n§r攻击时有5%的概率获得一个随机效果。
 greedycraft.tconstruct.tool_trait.trapTrait.name=陷阱
 greedycraft.tconstruct.tool_trait.trapTrait.desc=§o“你就站在此地，不要走动。”\n§r攻击时有小概率定身对手。
 greedycraft.tconstruct.tool_trait.make_believeTrait.name=虚晃一枪
@@ -780,7 +780,7 @@ greedycraft.tconstruct.tool_trait.depth_abyssTrait.desc=§o万劫不复！\n§r�
 greedycraft.tconstruct.tool_trait.disorientedTrait.name=无所适从
 greedycraft.tconstruct.tool_trait.disorientedTrait.desc=§o该往哪里走？\n§r让你的对手晕头转向。
 greedycraft.tconstruct.tool_trait.true_damageTrait.name=真实伤害
-greedycraft.tconstruct.tool_trait.true_damageTrait.desc=§o有了这个，其他的貌似都没用了？\n§r固定造成150点虚空伤害。
+greedycraft.tconstruct.tool_trait.true_damageTrait.desc=§o有了这个，其他的貌似都没用了？\n§r你普通攻击造成的伤害会非常低，但暴击时会固定对目标造成150点虚空伤害。
 greedycraft.tconstruct.tool_trait.vigorousTrait.name=活跃
 greedycraft.tconstruct.tool_trait.vigorousTrait.desc=§o好与坏？\n§r造成1.2倍伤害，但是对手会获得加速效果。
 greedycraft.tconstruct.tool_trait.sky_shockingTrait.name=天光乍现
@@ -2117,6 +2117,9 @@ greedycraft.content.tablet_of_enlightenment.stage=§7(§a阶段：§6%s§7)
 greedycraft.content.tablet_of_enlightenment.player_name=§a所有者：§e%s
 greedycraft.content.tablet_of_enlightenment.unlock=你解锁了游戏阶段：
 greedycraft.content.tablet_of_enlightenment.not_owner=你不是该启示之板的所有者！
+
+item.contenttweaker.seed_balanced_matrix.name=平衡矩阵种子
+item.contenttweaker.essence_balanced_matrix.name=平衡矩阵精华
 
 greedycraft.event.sponsor.prefix.redstone=初级赞助者
 greedycraft.event.sponsor.prefix.gold=中级赞助者

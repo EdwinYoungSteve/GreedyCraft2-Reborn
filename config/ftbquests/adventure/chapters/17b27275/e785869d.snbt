@@ -1,10 +1,13 @@
 {
 	title: "大树",
-	x: -3.0d,
+	x: 0.0d,
 	y: 3.0d,
 	description: "在一棵巨大的杂草树附近获得白梨种子",
 	text: [
 		"巨型杂草树上会生成带有白梨种子的藤蔓"
+	],
+	dependencies: [
+		"81216f69"
 	],
 	tasks: [{
 		uid: "7da9d236",

@@ -1,10 +1,14 @@
 {
 	title: "§b为时未晚",
-	x: -0.5d,
-	y: 21.0d,
+	x: 0.0d,
+	y: 15.0d,
 	description: "合成终焉锭！",
 	text: [
 		""
+	],
+	dependencies: [
+		"702fcf51",
+		"68abcc25"
 	],
 	tasks: [{
 		uid: "d7b2d84b",

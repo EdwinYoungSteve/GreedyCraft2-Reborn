@@ -190,6 +190,7 @@ Casting.addTableRecipe(<tiths:ingot_decurrium>, <tconstruct:cast_custom>, <liqui
 Casting.addTableRecipe(<tiths:ingot_oraclium>, <tconstruct:cast_custom>, <liquid:oraclium>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<tiths:nugget_decurrium>, <tconstruct:cast_custom:1>, <liquid:decurrium>, VOLUME_NUGGET, false, 20);
 Casting.addTableRecipe(<tiths:nugget_oraclium>, <tconstruct:cast_custom:1>, <liquid:oraclium>, VOLUME_NUGGET, false, 20);
+Casting.addTableRecipe(<additions:moltenium_ingot>, <tconstruct:cast_custom>, <liquid:moltenium>, VOLUME_INGOT, false, 200);
 
 Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
 Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);

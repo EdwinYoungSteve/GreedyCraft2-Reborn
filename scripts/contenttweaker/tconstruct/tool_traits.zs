@@ -1441,9 +1441,9 @@ lucklessTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.l
 lucklessTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.lucklessTrait.desc");
 lucklessTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
     if (attacker instanceof IPlayer && target instanceof IEntityMob) {
-        if (Math.random() < 0.33) {
+        if (Math.random() < 0.05) {
             val player as IPlayer = attacker;
-            player.addPotionEffect(<potion:potioncore:chance>.makePotionEffect(100, 0, false, false));
+            player.addPotionEffect(<potion:potioncore:chance>.makePotionEffect(1, 0, false, false));
         }
     }
 };
@@ -1621,13 +1621,12 @@ true_damageTrait.color = Color.fromHex("5d4037").getIntColor();
 true_damageTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.true_damageTrait.name");
 true_damageTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.true_damageTrait.desc");
 true_damageTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
-    if (target.health > 150) {
+    if (!(isCritical)) {
+        return newDamage * 0.1f;
+    } else {
         target.health -= 150.0f;
         return newDamage * 0.0f;
-    } else {
-        return 100000.0f;
     }
-    return newDamage;
 };
 true_damageTrait.register();
 

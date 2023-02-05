@@ -1,9 +1,0 @@
-{
-	x: 10.5d,
-	y: 1.5d,
-	tasks: [{
-		uid: "7b85521a",
-		type: "checkmark",
-		title: "模块化血之祭坛"
-	}]
-}

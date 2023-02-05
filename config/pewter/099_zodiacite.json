@@ -105,51 +105,50 @@
   "specificTraits": {
     "EXTRA": [
       "knowledgeful",
-      "tconevo.culling",
-      "starsky",
-      "bane_of_night"
+      "bane_of_night",
+      "tconevo.attuned_bootes",
+      "tconevo.attuned_octans"
     ],
     "HEAD": [
       "knowledgeful",
-      "tconevo.culling",
-      "tconevo.astral",
-      "bane_of_night"
+      "bane_of_night",
+      "tconevo.attuned_discidia",
+      "tconevo.attuned_evorsio"
     ],
     "HANDLE": [
       "knowledgeful",
-      "tconevo.culling",
-      "starsky",
-      "bane_of_night"
+      "bane_of_night",
+      "tconevo.attuned_aevitas",
+      "tconevo.attuned_pelotrio"
     ],
     "BOW": [
       "knowledgeful",
-      "tconevo.culling",
-      "tconevo.astral",
-      "bane_of_night"
+      "bane_of_night",
+      "tconevo.attuned_discidia",
+      "tconevo.attuned_evorsio"
     ],
     "PROJECTILE": [
       "knowledgeful",
-      "tconevo.culling",
-      "starsky",
-      "bane_of_night"
+      "bane_of_night",
+      "tconevo.attuned_aevitas",
+      "tconevo.attuned_pelotrio"
     ],
     "CORE": [
       "knowledgeful_armor",
       "terrafirma2",
-      "duritos_ranch_armor",
-      "tconevo.astral_armor"
+      "tconevo.attuned_armara_armor",
+      "tconevo.attuned_mineralis_armor"
     ],
     "PLATES": [
       "knowledgeful_armor",
       "terrafirma2",
-      "duritos_ranch_armor",
-      "elementfriendly_armor"
+      "tconevo.attuned_vicio_armor",
+      "tconevo.attuned_lucerna_armor"
     ],
     "TRIM": [
       "knowledgeful_armor",
       "terrafirma2",
-      "duritos_ranch_armor",
-      "elementfriendly_armor"
+      "tconevo.attuned_fornax_armor"
     ]
   }
 }

@@ -1,12 +1,11 @@
 {
 	title: "污泥地牢！",
-	x: 0.0d,
-	y: 12.0d,
+	x: 3.0d,
+	y: 3.0d,
 	description: "开门",
 	text: [
 		"使用炽焰铁，点燃放置苔藓后的火盆并进行解密进入污泥地牢"
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"27de749c"
 	],

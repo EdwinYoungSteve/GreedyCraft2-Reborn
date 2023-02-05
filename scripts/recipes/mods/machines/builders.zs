@@ -109,7 +109,7 @@ for i in 3 to 7 {
         .addItemInput(<ore:plateVoid>, 16)
         .addItemInput(<ore:circuitBasic>, 20)
         .addItemInput(<ore:circuitAdvanced>, 10)
-        .addEnergyPerTickInput(400)
+        .addEnergyPerTickInput(900)
         .addItemOutput(<modularcontroller:chromasteel_forge_controller>)
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:chromasteel_forge"}))
         .build();
@@ -130,6 +130,25 @@ for i in 4 to 7 {
         .addEnergyPerTickInput(2000)
         .addItemOutput(<modularcontroller:cosmic_forge_controller>) 
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:cosmic_forge"})) 
+        .build();
+}
+//终焉熔合机
+for i in 4 to 7 {
+    RecipeBuilder.newBuilder("controller_final_forge" + i, "builder_" + i, 9000)
+        .addFluidInput(<liquid:redstone> * 256000)
+        .addFluidInput(<liquid:crystaltine> * 2880)
+        .addItemInput(<ore:ingotModularium>, 2048)
+        .addItemInput(<ore:plateCosmilite>, 8)
+        .addItemInput(<ore:plateBetwnite>, 16)
+        .addItemInput(<ore:plateThermallite>, 6)
+        .addItemInput(<ore:plateCreativeAlloy>, 6)
+        .addItemInput(<ore:plateScientificite>, 6)
+        .addItemInput(<ore:circuitElite>, 16)
+        .addItemInput(<ore:circuitUltimate>, 8)
+        .addItemInput(<ore:circuitFinal>, 4)
+        .addEnergyPerTickInput(6000)
+        .addItemOutput(<modularcontroller:final_forge_controller>) 
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:final_forge"})) 
         .build();
 }
 //固体离心机

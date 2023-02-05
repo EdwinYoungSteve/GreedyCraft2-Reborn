@@ -1,6 +1,6 @@
 {
-	x: 3.0d,
-	y: 0.0d,
+	x: 0.0d,
+	y: -3.0d,
 	dependencies: [
 		"bc81a549"
 	],
@@ -8,14 +8,14 @@
 		uid: "2c823774",
 		type: "item",
 		items: [{
-			item: "additions:taigaddon-overlaite_ingot"
+			item: "additions:overlaite_ingot"
 		}]
 	},
 	{
-		uid: "02db1c76",
+		uid: "1e2159a3",
 		type: "item",
 		items: [{
-			item: "additions:taigaddon-flashite_ingot"
+			item: "additions:flashite_ingot"
 		}]
 	}]
 }

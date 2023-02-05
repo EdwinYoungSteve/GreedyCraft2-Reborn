@@ -87,7 +87,7 @@ InfusionRitual.addRitual("key_order", 4, 53, 100000, true, <gct_ores:door_key_of
     <gct_ores:equipment_witherium_block>
 ] as IIngredient[], false);
 
-InfusionRitual.addRitual("ancient_mud", 4, 53, 50000, true, <gct_aby:ancientmud>, <thebetweenlands:sap_ball>, [
+InfusionRitual.addRitual("ancient_mud", 4, 53, 50000, true, <gct_aby:ancientmud>, <minecraft:slime_ball>, [
     <gct_mobs:sanite_block>,
     <abyssalcraft:ingotblock:3>,
     <gct_aby:essenceofdarkerrealm>,

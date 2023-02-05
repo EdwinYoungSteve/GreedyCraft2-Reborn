@@ -39,6 +39,8 @@ liquiddeuterium                                   ([no block])                  
 liquidtritium                                     ([no block])                                                                     = ë°
 liquidfusionfuel                                  ([no block])                                                                     = ë®ë°È¼ÁÏ
 liquidlithium                                     ([no block])                                                                     = ÈÛÈÚï®
+liquidsuperheatedsodium                           ([no block])                                                                     = ¹ýÈÈÄÆ½¬Òº
+liquidhydrofluoricacid                            ([no block])                                                                     = Çâ·úËá
 heavywater                                        ([no block])                                                                     = ÖØË®
 steam                                             ([no block])                                                                     = ÕôÆû
 void                                              (voidcraft:blockvoidfluid)                                                       = Ðé¿ÕÒºÌå
@@ -1055,6 +1057,19 @@ ec.internal.deuterium                             ([no block])                  
 ec.internal.tritium                               ([no block])                                                                     = ë°£¨Æø£©
 ec.internal.fusionfuel                            ([no block])                                                                     = ë®ë°È¼ÁÏ£¨Æø£©
 ec.internal.lithium                               ([no block])                                                                     = ï®½¬Òº
+ec.internal.nutritionalpaste                      ([no block])                                                                     = ÓªÑøºý¼Á£¨Æø£©
+ec.internal.nuclearwaste                          ([no block])                                                                     = ºË·ÏË®£¨Æø£©
+ec.internal.plutonium                             ([no block])                                                                     = îÐ½¬Òº£¨Æø£©
+ec.internal.polonium                              ([no block])                                                                     = îÇ½¬Òº£¨Æø£©
+ec.internal.spentnuclearwaste                     ([no block])                                                                     = ÓÃ¾¡µÄºË·ÏÁÏ£¨Æø£©
+ec.internal.antimatter                            ([no block])                                                                     = ·´ÎïÖÊ£¨Æø£©
+ec.internal.fissilefule                           ([no block])                                                                     = ÁÑ±äÈ¼ÁÏ£¨Æø£©
+ec.internal.superheatedsodium                     ([no block])                                                                     = ¹ýÈÈµÄÄÆÕôÆø£¨Æø£©
+ec.internal.uraniumhexafluoride                   ([no block])                                                                     = Áù·ú»¯ÓË£¨Æø£©
+ec.internal.uraniumoxide                          ([no block])                                                                     = Ñõ»¯ÓË£¨Æø£©
+ec.internal.nutrientsolution                      ([no block])                                                                     = ÓªÑøÒº£¨Æø£©
+ec.internal.oxygenenrichedwater                   ([no block])                                                                     = ¸»ÑõÕôÆø£¨Æø£©
+ec.internal.hydrofluoricacid                      ([no block])                                                                     = Çâ·úËá£¨Æø£©
 ec.internal.liquidosmium                          ([no block])                                                                     = ÒºÌ¬ï°
 ec.internal.cleaniron                             ([no block])                                                                     = ´¿¾»Ìú½¬Òº
 ec.internal.iron                                  ([no block])                                                                     = Ìú½¬Òº
@@ -1070,6 +1085,8 @@ ec.internal.cleansilver                           ([no block])                  
 ec.internal.silver                                ([no block])                                                                     = Òø½¬Òº
 ec.internal.cleanlead                             ([no block])                                                                     = ´¿¾»Ç¦½¬Òº
 ec.internal.lead                                  ([no block])                                                                     = Ç¦½¬Òº
+ec.internal.cleanuranium                          ([no block])                                                                     = ´¿¾»ÓË½¬Òº
+ec.internal.uranium                               ([no block])                                                                     = ÓË½¬Òº
 ec.internal.nitrogen                              ([no block])                                                                     = µª£¨Æø£©
 ec.internal.helium                                ([no block])                                                                     = º¤£¨Æø£©
 ec.internal.neon                                  ([no block])                                                                     = ÄÊ£¨Æø£©
@@ -1095,8 +1112,6 @@ ec.internal.fluorine                              ([no block])                  
 ec.internal.hydrogenfluoride                      ([no block])                                                                     = ·ú»¯Çâ£¨Æø£©
 ec.internal.ammonia                               ([no block])                                                                     = °±£¨Æø£©
 ec.internal.sodiumhydroxide                       ([no block])                                                                     = ÇâÑõ»¯ÄÆÈÜÒº£¨Æø£©
-ec.internal.cleanuranium                          ([no block])                                                                     = ´¿¾»ÓË½¬Òº
-ec.internal.uranium                               ([no block])                                                                     = ÓË½¬Òº
 ec.internal.cleanyellorium                        ([no block])                                                                     = ´¿¾»»ÆÓË½¬Òº
 ec.internal.yellorium                             ([no block])                                                                     = »ÆÓË½¬Òº
 ec.internal.cleannickel                           ([no block])                                                                     = ´¿¾»Äø½¬Òº

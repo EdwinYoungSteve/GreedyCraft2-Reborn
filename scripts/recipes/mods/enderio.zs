@@ -70,7 +70,7 @@ AlloySmelter.addRecipe(<additions:waringlium_ingot> * 3, [<ore:ingotSwinium> * 2
 AlloySmelter.addRecipe(<additions:tierite_ingot> * 2, [<ore:ingotCloudite> * 3, <ore:ingotTerrax> * 3, <ore:ingotVibranium> * 2], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:cheatieum_ingot> * 2, [<ore:ingotMangisite> * 2, <ore:ingotGhostite>, <ore:ingotManyullyn> * 3], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:idiessite_ingot>, [<ore:ingotSoilium> * 3, <ore:ingotHeavenite>, <ore:ingotAdamant>], 2000, 10.0f);
-AlloySmelter.addRecipe(<additions:moltenium_ingot> * 2, [<ore:ingotOsram> * 4, <ore:ingotHeavenite> * 2, <ore:ingotDimensium>], 2000, 10.0f);
+AlloySmelter.addRecipe(<additions:moltenium_ingot> * 2, [<ore:ingotOsram> * 4, <ore:ingotHeavenite> * 2, <ore:ingotDimesium>], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:ranglium_ingot>, [<ore:ingotIdiessite>, <ore:ingotCheatieum>, <ore:ingotCloudite>], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:godiarite_ingot> * 3, [<ore:ingotAdamant> * 3, <ore:ingotTogrium> * 2, <ore:ingotYoggleseum> * 2], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:rainite_ingot> * 3, [<ore:ingotRanglium> * 2, <ore:ingotIdiessite> * 2, <ore:ingotOneo> * 3], 2000, 10.0f);

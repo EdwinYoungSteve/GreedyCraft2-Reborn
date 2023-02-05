@@ -140,7 +140,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "betternether:reeds_slab_half@0"
+                "betternether:reeds_slab_half@1"
             ]
         },
         {
@@ -188,7 +188,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "betternether:reeds_slab_half@1"
+                "betternether:reeds_slab_half@0"
             ]
         },
         {
@@ -252,7 +252,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "betternether:reeds_slab_half@1"
+                "betternether:reeds_slab_half@0"
             ]
         },
         {
@@ -404,7 +404,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "betternether:reeds_slab_half@1"
+                "betternether:reeds_slab_half@0"
             ]
         },
         {
@@ -412,7 +412,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "betternether:reeds_slab_half@1"
+                "betternether:reeds_slab_half@0"
             ]
         },
         {
@@ -700,7 +700,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "betternether:reeds_slab_half@1"
+                "betternether:reeds_slab_half@0"
             ]
         },
         {
@@ -716,7 +716,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "betternether:reeds_slab_half@1"
+                "betternether:reeds_slab_half@0"
             ]
         },
         {
@@ -820,7 +820,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "betternether:reeds_slab_half@1"
+                "betternether:reeds_slab_half@0"
             ]
         },
         {
@@ -828,7 +828,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "betternether:reeds_slab_half@1"
+                "betternether:reeds_slab_half@0"
             ]
         },
         {
