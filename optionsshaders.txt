@@ -1,5 +1,5 @@
 #Fri Aug 12 18:44:13 CST 2022
-shaderPack=ComplementaryShaders_v4.0.2.zip
+shaderPack=ComplementaryShaders_v4.7.1.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
