@@ -14,7 +14,6 @@ import scripts.util.recipes as RecipeUtil;
 
 val removedRecipes as IIngredient[] = [
     <moretcon:spacetimedisruptionpowder>,
-    <globalxp:xp_block>,
     <journey:reinforcedcrystalingot>,
     <naturalpledge:holy_symbol>,
     <evilcraft:primed_pendant>,
@@ -351,7 +350,6 @@ val removedRecipes as IIngredient[] = [
     <torchmaster:dread_lamp>,
     <modularmachinery:blockcasing:2>,
     <openblocks:sponge>,
-    <globalxp:xp_block>,
     <actuallyadditions:item_growth_ring>,
     <tconstruct:throwball:1>,
     <openblocks:elevator:*>,
