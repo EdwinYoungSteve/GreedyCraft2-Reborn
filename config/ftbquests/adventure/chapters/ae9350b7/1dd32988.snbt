@@ -10,7 +10,11 @@
 		uid: "2792a2f3",
 		type: "item",
 		items: [{
-			item: "tconstruct:ingots 1 4"
+			id: "tconstruct:ingots",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

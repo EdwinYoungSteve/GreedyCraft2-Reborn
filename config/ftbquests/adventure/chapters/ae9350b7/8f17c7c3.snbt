@@ -10,7 +10,10 @@
 		uid: "d35d4109",
 		type: "item",
 		items: [{
-			item: "cyclicmagic:tool_harvest_crops"
+			id: "cyclicmagic:tool_harvest_crops",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

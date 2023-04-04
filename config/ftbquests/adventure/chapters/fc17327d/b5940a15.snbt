@@ -1,7 +1,7 @@
 {
 	title: "§b又是一个万恶之源",
-	x: -15.0d,
-	y: 5.0d,
+	x: -18.0d,
+	y: 3.0d,
 	description: "制作冶炼炉控制器",
 	text: [
 		""
@@ -9,6 +9,7 @@
 	dependencies: [
 		"5d0a6239"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "8fdf0d3b",
 		type: "item",

@@ -25,6 +25,12 @@ import mods.contenttweaker.Commands;
 import mods.contenttweaker.BlockPos;
 import mods.contenttweaker.BlockState;
 import mods.contenttweaker.ResourceLocation;
+import mods.contenttweaker.MaterialBuilder;
+import mods.contenttweaker.Material;
+import mods.contenttweaker.Part;
+import mods.contenttweaker.PartBuilder;
+import mods.contenttweaker.PartType;
+import mods.contenttweaker.MaterialSystem;
 import mods.zenutils.I18n;
 
 var eTablet = VanillaFactory.createItem("tablet_of_enlightenment");
@@ -72,3 +78,62 @@ eTablet.itemRightClick = function(stack, world, player, hand) {
     return "PASS";
 };
 eTablet.register();
+
+val materialList as string[] = [
+    "Falsite",
+    "Ventium",
+    "Horizonite",
+    "Arlemite",
+    "Realmite",
+    "Rupee",
+    "LavaSolid",
+    "Ethaxium",
+    "Dreadium",
+    "Azathothium",
+    "Nyarlathotepium",
+    "Yogsothothium",
+    "Shubniggurathium",
+    "Elementium",
+    "Terrasteel",
+    "Orichalcos",
+    "Shadium",
+    "Lunium",
+    "Bloodcrust",
+    "Celestium",
+    "Mekyum",
+    "Korite",
+    "Storon",
+    "Orbadite",
+    "Flairium",
+    "Des",
+    "Cerulean",
+    "Moonstone",
+    "Altairium",
+    "Chloroplast",
+    "Halleium",
+    "Hothium",
+    "ImmersedSilver",
+    "Polarium",
+    "Stellarium",
+    "Tonium",
+    "Tiberium",
+    "Aurorium",
+    "Prometheum",
+    "Duranite",
+    "Valyrium",
+    "Vibranium",
+    "Karmesine",
+    "Ovium",
+    "Jauxum",
+    "Palladium",
+    "Uru",
+    "Osram",
+    "Eezo",
+    "Abyssum",
+
+];
+
+for materials in materialList {
+    var mat as Material = MaterialSystem.getMaterialBuilder().setName(materials).setColor(0xFFFFFF).build();
+    mat.registerParts(["ore"] as string[]);
+}

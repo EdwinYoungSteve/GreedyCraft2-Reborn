@@ -139,7 +139,6 @@ rangolarite                                       (contenttweaker:rangolarite)  
 clearite                                          (contenttweaker:clearite)                                                        = ÈÛÈÚÇçÌìºÏ½ğ
 wefenium                                          (contenttweaker:wefenium)                                                        = ÈÛÈÚ¼â¾§
 technetium                                        (jaopca:fluid_moltentechnetium)                                                  = ÈÛÈÚï½
-antimony                                          (jaopca:fluid_moltenantimony)                                                    = ÈÛÈÚÌà
 rubium                                            (jaopca:fluid_moltenrubium)                                                      = ÈÛÈÚÉîºì½ğÊô
 rapesesium                                        (jaopca:fluid_moltenrapesesium)                                                  = ÈÛÈÚÀ­ÆÕÎ÷Ë¹
 circlium                                          (jaopca:fluid_moltencirclium)                                                    = ÈÛÈÚ»·½ğ
@@ -152,6 +151,8 @@ fraxinium                                         (jaopca:fluid_moltenfraxinium)
 martisite                                         (contenttweaker:martisite)                                                       = ÈÛÈÚÕ½ÉñºÏ½ğ
 flashite                                          (contenttweaker:flashite)                                                        = ÈÛÈÚÉÁ½ğ
 overlaite                                         (contenttweaker:overlaite)                                                       = ÈÛÈÚµş½ğ
+dragonsteel_fire                                  (tconstruct:molten_dragonsteel_fire)                                             = ÈÛÈÚÁúÑ×¸Ö
+dragonsteel_ice                                   (tconstruct:molten_dragonsteel_ice)                                              = ÈÛÈÚÁúËª¸Ö 
 molten_blood_infused_iron                         (bloodarsenal:bloodarsenal.molten_blood_infused_iron)                            = ÈÛÈÚ×¢ÑªÌú
 umbrium                                           (defiledlands:molten_umbrium)                                                    = ÈÛÈÚÓ°ËØ
 xu_evil_metal                                     ([no block])                                                                     = ¶ñÄ§¹à×¢Ìú
@@ -252,6 +253,8 @@ prudentium                                        (mysticalagradditions:molten_p
 intermedium                                       (mysticalagradditions:molten_intermedium)                                        = ÈÛÈÚÖĞ¼¶¾«»ª
 superium                                          (mysticalagradditions:molten_superium)                                           = ÈÛÈÚ¸ß¼¶¾«»ª
 supremium                                         (mysticalagradditions:molten_supremium)                                          = ÈÛÈÚÖÕ¼«¾«»ª
+dawnstone                                         (embers:dawnstone)                                                               = ÈÛÈÚÀèÃ÷Ê¯
+antimony                                          ([no block])                                                                     = ÈÛÈÚÌà
 thyminite                                         (pewter:molten_thyminite)                                                        = Molten ĞØÏÙà×
 guaninite                                         (pewter:molten_guaninite)                                                        = Molten ÄñàÑßÊ
 adeninite                                         (pewter:molten_adeninite)                                                        = Molten ÏÙàÑßÊ
@@ -348,6 +351,7 @@ lava_solid                                        (pewter:molten_lava_solid)    
 realmite                                          (pewter:molten_realmite)                                                         = Molten ÅµÃ×ÌØ
 rupee                                             (pewter:molten_rupee)                                                            = Molten Â¬±È
 shadow_bar                                        (pewter:molten_shadow_bar)                                                       = Molten ÒõÓ°
+star_alloy                                        (pewter:molten_star_alloy)                                                       = Molten ĞÇÁ´ºÏ½ğ
 gravitite                                         (tinkersaether:molten_gravitite)                                                 = ÈÛÈÚÖØÁ¦¾§
 valkyrie                                          (tinkersaether:molten_valkyrie)                                                  = ÈÛÈÚÅ®ÎäÉñ½ğÊô
 royal_alloy                                       (tiths:molten_royal_alloy)                                                       = ÈÛÈÚÉİ»ªºÏ½ğ

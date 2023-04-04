@@ -5,7 +5,10 @@
 		uid: "b3d45720",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:enderium_seeds"
+			id: "mysticalagriculture:enderium_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

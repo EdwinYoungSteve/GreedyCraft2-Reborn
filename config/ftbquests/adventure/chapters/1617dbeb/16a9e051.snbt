@@ -5,7 +5,10 @@
 		uid: "bbfdebcc",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:blitz_seeds"
+			id: "mysticalagriculture:blitz_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

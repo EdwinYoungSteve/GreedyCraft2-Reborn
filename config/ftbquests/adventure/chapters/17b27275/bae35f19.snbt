@@ -1,6 +1,11 @@
 {
-	x: -1.5d,
-	y: 3.0d,
+	title: "§b黏滑骨头",
+	x: 2.5d,
+	y: 2.0d,
+	description: "获得粘骨",
+	text: [
+		""
+	],
 	dependencies: [
 		"81216f69"
 	],

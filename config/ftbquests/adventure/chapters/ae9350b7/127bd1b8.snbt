@@ -10,7 +10,10 @@
 		uid: "3f9481c2",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-creative_soul"
+			id: "additions:greedycraft-creative_soul",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

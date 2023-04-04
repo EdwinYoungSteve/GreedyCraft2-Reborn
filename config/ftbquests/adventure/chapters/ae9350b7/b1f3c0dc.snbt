@@ -10,7 +10,10 @@
 		uid: "1a934384",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:growth_accelerator"
+			id: "mysticalagriculture:growth_accelerator",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

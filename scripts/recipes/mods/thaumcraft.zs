@@ -35,7 +35,6 @@ var removedRecipes as IItemStack[] = [
     <thaumadditions:mithminite_scythe>,
     <thaumadditions:mithminite_blade>,
     <thaumadditions:mithminite_handle>,
-    <thaumadditions:adaminite_fabric>,
     <thaumadditions:mithminite_fabric>,
     <thaumadditions:entity_summoner>,
     <thaumadditions:dna_sample>

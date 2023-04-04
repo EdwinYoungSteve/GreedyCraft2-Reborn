@@ -1,8 +1,8 @@
 {
 	title: "§b永恒之力",
-	x: 0.0d,
-	y: -3.0d,
-	shape: "gear",
+	x: 5.25d,
+	y: -4.5d,
+	shape: "circle",
 	description: "在梦魇世界四层击杀月光女神",
 	text: [
 		"使用原始之钟在亡魂祭坛上召唤",
@@ -12,6 +12,7 @@
 		"37813a2d",
 		"ceefd2a5"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "3c5825d2",
 		type: "item",
@@ -37,10 +38,5 @@
 		uid: "693d0165",
 		type: "item",
 		item: "additions:greedycraft-vethea_token"
-	},
-	{
-		uid: "5a45a8fc",
-		type: "item",
-		item: "minecraft:ender_chest"
 	}]
 }

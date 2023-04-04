@@ -10,7 +10,10 @@
 		uid: "3a646038",
 		type: "item",
 		items: [{
-			item: "minecraft:bedrock"
+			id: "minecraft:bedrock",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

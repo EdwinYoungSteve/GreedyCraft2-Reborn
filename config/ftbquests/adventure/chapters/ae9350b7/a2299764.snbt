@@ -10,7 +10,10 @@
 		uid: "c8d2002f",
 		type: "item",
 		items: [{
-			item: "bonsaitrees:bonsaipot"
+			id: "bonsaitrees:bonsaipot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

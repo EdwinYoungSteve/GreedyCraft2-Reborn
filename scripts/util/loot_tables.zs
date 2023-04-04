@@ -83,26 +83,6 @@ for pool in hardmodePools {
     }]);
 }
 
-static itemBlacklist as IItemStack[] = [
-    <bibliocraft:bibliocreativelock>
-] as IItemStack[];
-
-function isBlacklisted(target as IItemStack) as bool {
-
-    for item in itemBlacklist {
-        if (target.definition.id == item.definition.id && target.metadata == item.metadata) {
-            if (!isNull(item.tag)) {
-                if (item.tag as IData == target.tag as IData) {
-                    return true;
-                }
-            } else {
-                return true;
-            }
-        }
-    }
-    return false;
-}
-
 function addItem(item as IItemStack, weight as int, quality as int, minCount as int, maxCount as int) {
     for pool in pools {
         pool.addItemEntry(item, weight, quality, [Functions.setCount(minCount, maxCount)], []);

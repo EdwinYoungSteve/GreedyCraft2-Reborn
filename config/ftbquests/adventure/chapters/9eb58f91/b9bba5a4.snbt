@@ -1,6 +1,6 @@
 {
 	title: "§b黝黑框架",
-	x: 7.5d,
+	x: 11.5d,
 	y: 0.0d,
 	shape: "gear",
 	description: "获得强化机器框架",
@@ -13,6 +13,7 @@
 		"7b441dcf",
 		"736f80c3"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "047339b3",
 		type: "item",

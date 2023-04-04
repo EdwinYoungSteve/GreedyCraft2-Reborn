@@ -10,7 +10,10 @@
 		uid: "5936c98f",
 		type: "item",
 		items: [{
-			item: "minecraft:beacon"
+			id: "minecraft:beacon",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

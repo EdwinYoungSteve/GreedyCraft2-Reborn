@@ -5,7 +5,10 @@
 		uid: "8914ba11",
 		type: "item",
 		items: [{
-			item: "mysticalagradditions:awakened_draconium_seeds"
+			id: "mysticalagradditions:awakened_draconium_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

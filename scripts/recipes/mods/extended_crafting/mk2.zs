@@ -127,15 +127,15 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:taigaddon-heaven_gem
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:greedycraft-everbright_gem>, [
 	[null, null, <blue_skies:diopside_block>, null, null], 
-	[null, <blue_skies:turquoise_stone>, <blue_skies:moonstone>, <blue_skies:turquoise_stone>, null], 
+	[null, <blue_skies:lunar_stone>, <blue_skies:moonstone>, <blue_skies:lunar_stone>, null], 
 	[<blue_skies:turquoise_block>, <blue_skies:moonstone>, <extendedcrafting:material:40>, <blue_skies:moonstone>, <blue_skies:pyrope_block>], 
-	[null, <blue_skies:turquoise_stone>, <blue_skies:moonstone>, <blue_skies:turquoise_stone>, null], 
+	[null, <blue_skies:lunar_stone>, <blue_skies:moonstone>, <blue_skies:lunar_stone>, null], 
 	[null, null, <blue_skies:charoite_block>, null, null]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:greedycraft-everdawn_gem>, [
 	[null, null, <blue_skies:diopside_block>, null, null], 
 	[null, <blue_skies:lunar_stone>, <blue_skies:moonstone>, <blue_skies:lunar_stone>, null], 
-	[<blue_skies:turquoise_block>, <blue_skies:moonstone>, <extendedcrafting:material:40>, <blue_skies:moonstone>, <blue_skies:pyrope_block>], 
+	[<blue_skies:turquoise_block>, <blue_skies:moonstone>, <minecraft:nether_star>, <blue_skies:moonstone>, <blue_skies:pyrope_block>], 
 	[null, <blue_skies:lunar_stone>, <blue_skies:moonstone>, <blue_skies:lunar_stone>, null], 
 	[null, null, <blue_skies:charoite_block>, null, null]
 ]);
@@ -219,7 +219,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:rune_active_7>, [
 mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:rune_active_8>, [
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
-	[<ore:dustShadowium>, <ore:dustElfsteel>, <ore:runeRaphael>, <ore:dustElfsteel>, <ore:dustShadowium>], 
+	[<ore:dustShadowium>, <ore:dustElfsteel>, <ore:runeRaphaelB>, <ore:dustElfsteel>, <ore:dustShadowium>], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null]
 ]);

@@ -1,14 +1,20 @@
 {
 	title: "§b无上荣耀",
-	x: 0.0d,
-	y: 12.0d,
+	icon: {
+		id: "ageofminecraft:witherboss",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	x: 6.0d,
+	y: -3.0d,
 	shape: "gear",
 	description: "召唤并击杀凋灵，获得下界之星！",
 	text: [
 		"提示：建议试试硬化玻璃，真的很有效"
 	],
 	dependencies: [
-		"6124dc63"
+		"3aaeba7e"
 	],
 	tasks: [{
 		uid: "27c00b22",

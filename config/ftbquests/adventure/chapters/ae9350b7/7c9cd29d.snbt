@@ -10,7 +10,10 @@
 		uid: "eaf6ef84",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-difficulty_changer"
+			id: "additions:greedycraft-difficulty_changer",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

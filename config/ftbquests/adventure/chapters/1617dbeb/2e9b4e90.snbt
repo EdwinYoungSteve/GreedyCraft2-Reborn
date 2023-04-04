@@ -5,7 +5,10 @@
 		uid: "02728d17",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:thyminite_seeds"
+			id: "mysticalcreations:thyminite_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

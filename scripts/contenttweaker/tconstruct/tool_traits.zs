@@ -1624,8 +1624,11 @@ true_damageTrait.calcDamage = function(trait, tool, attacker, target, originalDa
     if (!(isCritical)) {
         return newDamage * 0.1f;
     } else {
-        target.health -= 150.0f;
-        return newDamage * 0.0f;
+        if (!(target.isBoss)) {
+            target.health -= 150.0f;
+            return newDamage * 0.0f;
+        }
+        return newDamage * 0.1f;
     }
 };
 true_damageTrait.register();
@@ -1793,3 +1796,67 @@ crystalystTrait.onHit = function(trait, tool, attacker, target, damage, isCritic
     }
 };
 crystalystTrait.register();
+
+val thadTrait = TraitBuilder.create("tinkers_heartwork");
+thadTrait.color = Color.fromHex("ffee58").getIntColor(); 
+thadTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.thadTrait.name");
+thadTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.thadTrait.desc");
+thadTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var multiplier as int = 0;
+        for str in tool.tag.asString().split("Traits: ") {
+            if (!(str has "{")) {
+                var counter as int = 0;
+                for i in 1 to str.length {
+                    if (str[i] == "\"") {
+                        counter += 1;
+                    }
+                }
+                multiplier = counter / 2; 
+            }
+        }
+        if (tool.definition.id == "tconstruct:shuriken") {
+            if (multiplier <= 28) {
+                return newDamage * (pow(1.05, multiplier) - 1) * 0.5f as float;
+            } else {
+                return newDamage * 1.5f;
+            }
+        } else {
+            if (multiplier <= 28) {
+                return newDamage * (pow(1.05, multiplier) - 1) as float;
+            } else {
+                return newDamage * 3.0f;
+            }
+        }
+    }
+    return newDamage;
+};
+thadTrait.register();
+
+val aura_infusedTrait = TraitBuilder.create("aura_infused");
+aura_infusedTrait.color = Color.fromHex("ffee58").getIntColor(); 
+aura_infusedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.aura_infusedTrait.name");
+aura_infusedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.aura_infusedTrait.desc");
+aura_infusedTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        if (!isNull(tool.tag.aura)) {
+            var auraBefore as int = tool.tag.aura.asInt();
+            if (!(player.isPotionActive(<potion:naturesaura:breathless>))) {
+                if (auraBefore <= 1000000) {
+                    mods.contenttweaker.Commands.call("naaura drain 1000", player, player.world, false, true);
+                    tool.mutable().updateTag({aura : (auraBefore + 1000) as int});
+                }
+            }
+            if (auraBefore >= 10000) {
+                if (tool.damage != 0) {
+                    tool.mutable().updateTag({aura : (auraBefore - 10000) as int});
+                    tool.mutable().damageItem(-1, player);
+                }
+            }
+        } else {
+            tool.mutable().updateTag({aura : 0 as int});
+        }
+    }
+};
+aura_infusedTrait.register();

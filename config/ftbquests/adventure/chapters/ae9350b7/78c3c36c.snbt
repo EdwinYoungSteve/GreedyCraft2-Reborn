@@ -10,7 +10,10 @@
 		uid: "f5d22155",
 		type: "item",
 		items: [{
-			item: "nyx:fallen_star"
+			id: "nyx:fallen_star",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

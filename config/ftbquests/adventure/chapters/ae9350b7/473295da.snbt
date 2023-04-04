@@ -10,7 +10,10 @@
 		uid: "45b567db",
 		type: "item",
 		items: [{
-			item: "mowziesmobs:wrought_axe"
+			id: "mowziesmobs:wrought_axe",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

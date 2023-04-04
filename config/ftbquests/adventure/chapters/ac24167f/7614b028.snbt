@@ -1,0 +1,23 @@
+{
+	x: -3.5d,
+	y: 6.0d,
+	dependencies: [
+		"19b1c641",
+		"cd821aa2"
+	],
+	tasks: [{
+		uid: "034eabd5",
+		type: "item",
+		items: [{
+			id: "naturesaura:eye_improved",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

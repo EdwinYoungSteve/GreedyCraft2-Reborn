@@ -10,7 +10,10 @@
 		uid: "5fb0d702",
 		type: "item",
 		items: [{
-			item: "bountiful:bountyboarditem"
+			id: "bountiful:bountyboarditem",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

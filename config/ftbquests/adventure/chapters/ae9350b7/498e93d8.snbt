@@ -5,245 +5,376 @@
 		uid: "736f5f83",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 27"
+			id: "mist:mushrooms_food",
+			Damage: 27s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "2a8d3f26",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 26"
+			id: "mist:mushrooms_food",
+			Damage: 26s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "b9578330",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 25"
+			id: "mist:mushrooms_food",
+			Damage: 25s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "da9eeafd",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 24"
+			id: "mist:mushrooms_food",
+			Damage: 24s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "1637d7d2",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 23"
+			id: "mist:mushrooms_food",
+			Damage: 23s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "5b6f38dd",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 22"
+			id: "mist:mushrooms_food",
+			Damage: 22s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "35a0cb7a",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 21"
+			id: "mist:mushrooms_food",
+			Damage: 21s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "2f3fd00b",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 20"
+			id: "mist:mushrooms_food",
+			Damage: 20s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "446f57bd",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 19"
+			id: "mist:mushrooms_food",
+			Damage: 19s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "16806ec0",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 17"
+			id: "mist:mushrooms_food",
+			Damage: 17s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "f7ce8f6f",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 18"
+			id: "mist:mushrooms_food",
+			Damage: 18s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "0857eb5b",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 16"
+			id: "mist:mushrooms_food",
+			Damage: 16s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "269f3f88",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 12"
+			id: "mist:mushrooms_food",
+			Damage: 12s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "3e3bb27c",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 10"
+			id: "mist:mushrooms_food",
+			Damage: 10s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "c5639236",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 9"
+			id: "mist:mushrooms_food",
+			Damage: 9s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "2ebf41f1",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 8"
+			id: "mist:mushrooms_food",
+			Damage: 8s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "68de850e",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 7"
+			id: "mist:mushrooms_food",
+			Damage: 7s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "6d167807",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 6"
+			id: "mist:mushrooms_food",
+			Damage: 6s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "186d27d0",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 5"
+			id: "mist:mushrooms_food",
+			Damage: 5s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "6456ce66",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 4"
+			id: "mist:mushrooms_food",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "6149db3b",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 3"
+			id: "mist:mushrooms_food",
+			Damage: 3s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "663f9000",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 2"
+			id: "mist:mushrooms_food",
+			Damage: 2s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "37300ce7",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food 1 1"
+			id: "mist:mushrooms_food",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "3063337b",
 		type: "item",
 		items: [{
-			item: "mist:mushrooms_food"
+			id: "mist:mushrooms_food",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "03d8871d",
 		type: "item",
 		items: [{
-			item: "minecraft:red_mushroom"
+			id: "minecraft:red_mushroom",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "c50f95f7",
 		type: "item",
 		items: [{
-			item: "minecraft:brown_mushroom"
+			id: "minecraft:brown_mushroom",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "8251ca5e",
 		type: "item",
 		items: [{
-			item: "twilightforest:twilight_plant 1 4"
+			id: "twilightforest:twilight_plant",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "fc6ea2ca",
 		type: "item",
 		items: [{
-			item: "randomthings:glowingmushroom"
+			id: "randomthings:glowingmushroom",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "5777b553",
 		type: "item",
 		items: [{
-			item: "natura:nether_glowshroom"
+			id: "natura:nether_glowshroom",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "192bab30",
 		type: "item",
 		items: [{
-			item: "natura:nether_glowshroom 1 1"
+			id: "natura:nether_glowshroom",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "e9a2f132",
 		type: "item",
 		items: [{
-			item: "natura:nether_glowshroom 1 2"
+			id: "natura:nether_glowshroom",
+			Damage: 2s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "a0c430d3",
 		type: "item",
 		items: [{
-			item: "divinerpg:white_mushroom"
+			id: "divinerpg:white_mushroom",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "e622b6dd",
 		type: "item",
 		items: [{
-			item: "defiledlands:scuronotte"
+			id: "defiledlands:scuronotte",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "78d3ee03",
 		type: "item",
 		items: [{
-			item: "quark:glowshroom"
+			id: "quark:glowshroom",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "6d51654a",
 		type: "item",
 		items: [{
-			item: "harvestcraft:whitemushroomitem"
+			id: "harvestcraft:whitemushroomitem",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

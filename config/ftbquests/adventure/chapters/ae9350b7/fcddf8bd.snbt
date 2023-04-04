@@ -10,7 +10,10 @@
 		uid: "92d4ade4",
 		type: "item",
 		items: [{
-			item: "bountifulbaubles:wormholemirror"
+			id: "bountifulbaubles:wormholemirror",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

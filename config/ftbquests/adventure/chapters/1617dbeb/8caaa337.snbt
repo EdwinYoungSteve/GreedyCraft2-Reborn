@@ -5,7 +5,10 @@
 		uid: "ebf7ce05",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:apatite_seeds"
+			id: "mysticalagriculture:apatite_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

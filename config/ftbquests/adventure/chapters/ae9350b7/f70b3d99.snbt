@@ -10,7 +10,10 @@
 		uid: "9662aeeb",
 		type: "item",
 		items: [{
-			item: "sakura:bamboo"
+			id: "sakura:bamboo",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

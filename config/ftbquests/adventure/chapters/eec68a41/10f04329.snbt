@@ -13,18 +13,7 @@
 		uid: "72e78549",
 		type: "item",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any ingotOrichalcos"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "ingotOrichalcos"
-				}
-			}
+			item: "extrabotany:material 1 1"
 		}]
 	}],
 	rewards: [{

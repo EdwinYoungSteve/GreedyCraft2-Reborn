@@ -10,7 +10,11 @@
 		uid: "d4908b4c",
 		type: "item",
 		items: [{
-			item: "ironchest:iron_chest 1 2"
+			id: "ironchest:iron_chest",
+			Damage: 2s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

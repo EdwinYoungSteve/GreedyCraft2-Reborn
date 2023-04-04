@@ -23,7 +23,7 @@ MMUtil.addForgeRecipe("durasteel_forge", MMUtil.getStack(<additions:durasteel_in
     <additions:greedycraft-balancite_ingot>,
     <additions:greedycraft-iciricium_ingot>,
     <abyssalcraft:cingot>,
-    <abyssalcraft:dreadiumingot>,
+    <theaurorian:auroriansteel>,
     <divinerpg:shadow_bar>,
     <tconstruct:ingots:2>,
     <additions:twilightaddon-refined_twilight_gem>

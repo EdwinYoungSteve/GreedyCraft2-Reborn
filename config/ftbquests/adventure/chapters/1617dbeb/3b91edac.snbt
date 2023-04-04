@@ -5,7 +5,10 @@
 		uid: "a4e3a176",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:bnightium_seeds"
+			id: "mysticalcreations:bnightium_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

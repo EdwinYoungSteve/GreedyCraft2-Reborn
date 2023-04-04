@@ -10,7 +10,11 @@
 		uid: "1a4406af",
 		type: "item",
 		items: [{
-			item: "hooked:hook 1 3"
+			id: "hooked:hook",
+			Damage: 3s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_nbt: 1b
 	}],

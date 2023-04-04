@@ -1,7 +1,7 @@
 {
 	title: "§b创世神",
-	x: 6.0d,
-	y: -9.0d,
+	x: 10.0d,
+	y: -4.5d,
 	description: "制作一个创世合金锭",
 	text: [
 		""

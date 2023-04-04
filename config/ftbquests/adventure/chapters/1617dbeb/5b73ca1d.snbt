@@ -5,7 +5,10 @@
 		uid: "904a7473",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:fusion_matrix_seeds"
+			id: "mysticalcreations:fusion_matrix_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

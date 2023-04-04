@@ -1,7 +1,7 @@
 {
 	title: "§b过于昂贵",
-	x: -9.5d,
-	y: 7.0d,
+	x: -8.0d,
+	y: 10.0d,
 	description: "制作奥法控制电路",
 	text: [
 		""

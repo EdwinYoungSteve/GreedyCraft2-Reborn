@@ -5,7 +5,10 @@
 		uid: "7824d6da",
 		type: "item",
 		items: [{
-			item: "arcanearchives:radiant_resonator"
+			id: "arcanearchives:radiant_resonator",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

@@ -5,7 +5,10 @@
 		uid: "cb52e22f",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:aetherium_seeds"
+			id: "mysticalcreations:aetherium_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

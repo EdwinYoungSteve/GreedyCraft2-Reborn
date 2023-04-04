@@ -1,6 +1,11 @@
 {
-	x: 9.0d,
-	y: 1.5d,
+	title: "§b黄金地牢",
+	x: 14.5d,
+	y: -12.5d,
+	description: "击杀烈阳巨灵，获得烈阳神晶",
+	text: [
+		""
+	],
 	dependencies: [
 		"fe753cdf"
 	],

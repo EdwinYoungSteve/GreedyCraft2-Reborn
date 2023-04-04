@@ -1,7 +1,7 @@
 {
 	title: "§b皆为虚幻",
-	x: -8.0d,
-	y: -2.0d,
+	x: -8.5d,
+	y: -5.5d,
 	description: "在亚特兰蒂斯挖掘拟素",
 	text: [
 		""
@@ -13,7 +13,10 @@
 		uid: "e6a50241",
 		type: "item",
 		items: [{
-			item: "tiths:ingot_imitatium"
+			id: "tiths:ingot_imitatium",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

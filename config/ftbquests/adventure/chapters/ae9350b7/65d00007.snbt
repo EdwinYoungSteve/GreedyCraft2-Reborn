@@ -10,7 +10,10 @@
 		uid: "e2b262e8",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-delivery_order"
+			id: "additions:greedycraft-delivery_order",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

@@ -5,7 +5,10 @@
 		uid: "bfa87c89",
 		type: "item",
 		items: [{
-			item: "mysticalagradditions:neutronium_seeds"
+			id: "mysticalagradditions:neutronium_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

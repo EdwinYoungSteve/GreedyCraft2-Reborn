@@ -1,7 +1,7 @@
 {
 	title: "§b晶莹剔透",
-	x: 0.0d,
-	y: 1.5d,
+	x: -3.0d,
+	y: -1.0d,
 	description: "制作赛特斯石英水晶",
 	text: [
 		""
@@ -10,7 +10,10 @@
 		uid: "a4a55c34",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:material"
+			id: "appliedenergistics2:material",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

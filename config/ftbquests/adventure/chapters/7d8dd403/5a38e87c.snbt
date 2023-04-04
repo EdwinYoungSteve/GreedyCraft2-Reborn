@@ -1,7 +1,7 @@
 {
 	title: "§b生命起源",
-	x: 2.5d,
-	y: -0.5d,
+	x: 3.0d,
+	y: -4.0d,
 	description: "制作基因金属锭",
 	text: [
 		""

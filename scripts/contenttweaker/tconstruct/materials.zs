@@ -1815,7 +1815,7 @@ technetium.addHandleMaterialStats(3.45,4500);
 technetium.addExtraMaterialStats(4000);
 technetium.register();
 
-val antimony = mods.contenttweaker.tconstruct.MaterialBuilder.create("antimony");
+/*val antimony = mods.contenttweaker.tconstruct.MaterialBuilder.create("antimony");
 antimony.color = Color.fromHex("c8ceaa").getIntColor();
 antimony.craftable = false;
 antimony.castable =  true;
@@ -1827,6 +1827,7 @@ antimony.addHeadMaterialStats(8425,24.6,42.25,11);
 antimony.addHandleMaterialStats(4,2175);
 antimony.addExtraMaterialStats(2060);
 antimony.register();
+*/
 
 val rubium = mods.contenttweaker.tconstruct.MaterialBuilder.create("rubium");
 rubium.color = Color.fromHex("680000").getIntColor();
@@ -1983,3 +1984,17 @@ overlaite.addHeadMaterialStats(30600,30,105.6,12);
 overlaite.addHandleMaterialStats(2.75,7130);
 overlaite.addExtraMaterialStats(6880);
 overlaite.register();
+
+/*val aura_iron = mods.contenttweaker.tconstruct.MaterialBuilder.create("aura_iron");
+aura_iron.color = Color.fromHex("30a738").getIntColor();
+aura_iron.craftable = false;
+aura_iron.castable =  true;
+aura_iron.representativeItem = <item:naturesaura:infused_iron>;
+aura_iron.addItem(<item:additions:aura_iron_ingot>);
+aura_iron.liquid = <liquid:aura_iron>;
+aura_iron.localizedName = game.localize("greedycraft.tconstruct.material.aura_iron.name");
+aura_iron.addHeadMaterialStats(600,8.5,10,5);
+aura_iron.addHandleMaterialStats(1.3,200);
+aura_iron.addExtraMaterialStats(200);
+aura_iron.register();
+*/

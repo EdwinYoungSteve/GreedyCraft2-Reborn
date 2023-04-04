@@ -1,9 +1,0 @@
-{
-	x: -9.5d,
-	y: 4.0d,
-	tasks: [{
-		uid: "1251eb45",
-		type: "gamestage",
-		stage: "chaotic_dominator"
-	}]
-}

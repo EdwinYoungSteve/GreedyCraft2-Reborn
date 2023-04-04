@@ -15,6 +15,9 @@
 				blockstate: {
 					Name: "minecraft:air"
 				}
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_damage: true,

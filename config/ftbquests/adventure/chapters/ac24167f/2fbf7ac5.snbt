@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: 2.0d,
+	dependencies: [
+		"cb4f437b",
+		"1999aa8a"
+	],
+	tasks: [{
+		uid: "e41d3e2c",
+		type: "item",
+		items: [{
+			id: "naturesaura:sky_ingot",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}]
+}

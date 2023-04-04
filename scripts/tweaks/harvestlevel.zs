@@ -80,11 +80,11 @@
 
 <item:thebetweenlands:sulfur_ore>.asBlock().definition.setHarvestLevel("pickaxe", 5);
 
-<item:blue_skies:falsite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:blue_skies:falsite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 9);
 
-<item:blue_skies:ventium_ore>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:blue_skies:ventium_ore>.asBlock().definition.setHarvestLevel("pickaxe", 9);
 
-<item:blue_skies:horizonite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:blue_skies:horizonite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 9);
 
 <item:tiths:ore_altairium>.asBlock().definition.setHarvestLevel("pickaxe", 11);
 

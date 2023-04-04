@@ -10,14 +10,20 @@
 		uid: "7382ef8e",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-blood_sigil"
+			id: "additions:greedycraft-blood_sigil",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	},
 	{
 		uid: "5c1dfdec",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-bloody_sacrifice"
+			id: "additions:greedycraft-bloody_sacrifice",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

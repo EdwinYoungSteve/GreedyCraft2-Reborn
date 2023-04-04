@@ -13,7 +13,10 @@
 		uid: "8ea75fc4",
 		type: "item",
 		items: [{
-			item: "bloodmagic:soul_snare"
+			id: "bloodmagic:soul_snare",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

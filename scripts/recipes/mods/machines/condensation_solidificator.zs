@@ -20,10 +20,10 @@ import scripts.util.machines as MMUtil;
 RecipeBuilder.newBuilder("solidification_mana", "condensation_solidificator", 40)
     .addFluidInput(<liquid:mana> * 144)
     .addEnergyPerTickInput(50000)
-    .addItemOutput(<hammermetals:mana_ingot>)
+    .addItemOutput(<additions:greedycraft-mana_ingot>)
     .build();
 RecipeBuilder.newBuilder("solidification_pe", "condensation_solidificator", 40)
     .addFluidInput(<liquid:pe> * 144)
     .addEnergyPerTickInput(50000)
-    .addItemOutput(<hammermetals:pe_ingot>)
+    .addItemOutput(<additions:greedycraft-pe_ingot>)
     .build();

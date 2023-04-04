@@ -10,7 +10,10 @@
 		uid: "75a2409a",
 		type: "item",
 		items: [{
-			item: "minecraft:elytra"
+			id: "minecraft:elytra",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

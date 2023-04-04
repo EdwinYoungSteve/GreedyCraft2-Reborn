@@ -10,7 +10,10 @@
 		uid: "60d21d4f",
 		type: "item",
 		items: [{
-			item: "cyclicmagic:glowing_chorus"
+			id: "cyclicmagic:glowing_chorus",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

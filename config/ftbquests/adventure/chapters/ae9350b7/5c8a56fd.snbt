@@ -10,7 +10,10 @@
 		uid: "5499cb5b",
 		type: "item",
 		items: [{
-			item: "chisel:chisel_iron"
+			id: "chisel:chisel_iron",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -1,19 +1,20 @@
 {
 	title: "§b更好的机器框架",
-	x: 7.5d,
-	y: -1.5d,
+	x: 14.0d,
+	y: -2.5d,
 	description: "制作一个末影钢机器框架",
 	text: [
 		""
-	],
-	dependencies: [
-		"1fe9930e"
 	],
 	tasks: [{
 		uid: "b5dfcc80",
 		type: "item",
 		items: [{
-			item: "enderio:item_material 1 66"
+			id: "enderio:item_material",
+			Damage: 66s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

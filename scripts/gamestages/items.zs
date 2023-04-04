@@ -35,9 +35,6 @@ GameStagesUtil.stageDescendantOfTheSun.addIngredients([
     <additions:greedycraft-freezite_ingot>,
     <gct_ores:freezite_nugget>,
     <additions:greedycraft-dullium_ingot>,
-    <hammermetals:dullium_dust>,
-    <hammermetals:dullium_nugget>,
-    <hammermetals:dullium_block>,
     <gct_ores:relifed_core>
 ], true);
 
@@ -120,7 +117,6 @@ GameStagesUtil.stageFusionMatrix.addIngredients([
     <ore:blockElectronium>,
     <mysticalcreations:fusion_matrix_essence>,
     <gct_ores:fallen_core>,
-    <ore:oreWitherium>,
     <ore:dustWitherium>,
     <tiths:ingot_witherium>,
     <tiths:block_witherium>,
@@ -128,7 +124,6 @@ GameStagesUtil.stageFusionMatrix.addIngredients([
     <gct_ores:witherium_ore_overworld>,
     <gct_ores:witherium_ore_nether>,
     <gct_ores:witherium_ore_end>,
-    <hammermetals:witherium_nugget>,
     <gct_ores:witheric_core>,
     <divinerpg:nightmare_bed>,
     <gct_ores:relifed_witherium_ingot>,
@@ -178,7 +173,11 @@ GameStagesUtil.stageWyvern.addIngredients([
     <journey:cloudiaportalframe>,
     <journey:senterianportalframe>,
     <journey:sentryeye>,
-    <additions:greedycraft-quardstate_star>
+    <additions:greedycraft-quardstate_star>,
+    <ore:ingotChromasteel>,
+    <ore:blockChromasteel>,
+    <additions:greedycraft-ventium_ore>,
+    <additions:greedycraft-falsite_ore>
 ], true);
 
 GameStagesUtil.stageAwakened.addIngredients([
@@ -207,8 +206,6 @@ GameStagesUtil.stageAwakened.addIngredients([
     <ore:ingotProtonium>,
     <ore:blockProtonium>,
     <modularmachinery:blockcasing:5>,
-    <ore:ingotChromasteel>,
-    <ore:blockChromasteel>,
     <openmodularturrets:turret_base:4>,
     <additions:greedycraft-mistium_ore>,
     <additions:greedycraft-mistium_ingot>,
@@ -240,6 +237,9 @@ GameStagesUtil.stageNether.addIngredients([
     <threng:material>,
     <threng:material:1>,
     <threng:material:2>,
+    <appliedenergistics2:material:42>,
+    <appliedenergistics2:material:43>,
+    <appliedenergistics2:material:44>,
     <ore:pearlFluix>,
     <ore:dustFluix>,
     <appliedenergistics2:part:140>,
@@ -505,6 +505,54 @@ GameStagesUtil.stageCosmic.addIngredients([
     <gct_ores:balanced_matrix_ingot>
 ], false);
 
+GameStagesUtil.stageBalancedMatrix.addIngredients([
+    <additions:greedycraft-betweenland_rune>,
+    <ore:ingotEugardite>,
+    <ore:blockEugardite>,
+    <ore:nuggetEugardite>,
+    <ore:dustEugardite>
+], false);
+
+GameStagesUtil.stageBetweenlandTraveller.addIngredients([
+    <ore:ingotBetwnite>,
+    <ore:blockBetwnite>,
+    <ore:nuggetBetwnite>,
+    <ore:dustBetwnite>,
+    <ore:druseValonite>,
+    <ore:gemUndyingember>,
+    <ore:dustOctine>,
+    <ore:dustSyrmorite>,
+    <moretcon:ingotswampsteel>,
+    <moretcon:nuggetswampsteel>,
+    <moretcon:blockswampsteel>,
+    <moretcon:dustswampsteel>,
+    <moretcon:ingotrotiron>,
+    <moretcon:nuggetrotiron>,
+    <moretcon:blockrotiron>,
+    <moretcon:dustrotiron>
+], false);
+
+GameStagesUtil.stageWarped.addIngredients([
+    <gct_ores:door_key_of_orderland>,
+    <gct_ores:order_crystal_ore>,
+    <gct_ores:ordered_fusion_core>,
+    <gct_ores:order_crystal_block>,
+    <gct_ores:order_crystal>,
+    <gct_ores:ordered_core>
+], false);
+
+GameStagesUtil.stageOrder.addIngredients([
+    <gct_ores:ordered_metal_ingot>,
+    <gct_ores:ordered_metal_nugget>,
+    <gct_ores:ordered_metal_block>,
+    <gct_ores:ordered_metal_dust>,
+    <gct_ores:finallium_ingot>,
+    <ore:blockFinallium>,
+    <ore:dustFinallium>,
+    <ore:nuggetFinallium>,
+    <ore:plateFinallium>
+], false);
+
 GameStagesUtil.stageChaotic.addIngredients([
     <ore:ingotChaoticMetal>,
     <ore:blockChaoticMetal>,
@@ -715,8 +763,6 @@ GameStagesUtil.stageHardmode.addIngredients([
     <gct_ores:genite_dust>,
     <gct_ores:genite_nugget>,
     <divinerpg:twilight_stone>,
-    <divinerpg:eden_ore>,
-    <divinerpg:wildwood_ore>,
     <divinerpg:apalachia_ore>,
     <divinerpg:skythern_ore>,
     <divinerpg:mortum_ore>,
@@ -892,6 +938,11 @@ GameStagesUtil.stageNoviceWizard.addIngredients([
 ], false);
 
 GameStagesUtil.stageSkilledWizard.addIngredients([
+    <ore:blockCrimsonite>,
+    <ore:ingotCrimsonite>
+], false);
+
+GameStagesUtil.stageMasterWizard.addIngredients([
     <thaumadditions:void_thaumometer>,
     <thaumadditions:crystal_bore>,
     <thaumcraft:matrix_speed>,
@@ -905,12 +956,10 @@ GameStagesUtil.stageSkilledWizard.addIngredients([
     <astralsorcery:itemcraftingcomponent:4>,
     <additions:greedycraft-arcane_crystal_ball>,
     <ore:blockAstralMetal>,
-    <ore:ingotAstralMetal>,
-    <ore:blockCrimsonite>,
-    <ore:ingotCrimsonite>
+    <ore:ingotAstralMetal>
 ], false);
 
-GameStagesUtil.stageMasterWizard.addIngredients([
+GameStagesUtil.stageEpicWizard.addIngredients([ 
     <thaumcraft:primordial_pearl>,
     <additions:greedycraft-purifying_pill>,
     <additions:greedycraft-energy_matter_core>,
@@ -947,7 +996,6 @@ GameStagesUtil.stageEnderCharm.addIngredients([
     <minecraft:end_rod>,
     <minecraft:end_bricks>,
     <minecraft:end_portal_frame>,
-    <prefab:item_basic_structure>.withTag({ForgeCaps: {"prefab:structuresconfiguration": {configuration: {wareHouseFacing: "north", structureEnumName: "EnderGateway"}}}, id: "prefab:item_basic_structure", Count: 1 as byte, Damage: 0 as short}),
     <ore:endstone>,
     <ore:cropChorusfruit>,
     <hooked:hook:4>,
@@ -1089,14 +1137,18 @@ GameStagesUtil.stageGatekeeper.addIngredients([
 ], true);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators"]);
-GameStagesUtil.stageHardmode.addModId(["avaritia", "draconicevolution", "extrabotany", "projecte", "projectex", "taiga", "theaurorian"]);
-GameStagesUtil.stageNether.addModId(["aether_legacy", "cyclicmagic", "touhou_little_maid", "aeble"]);
+GameStagesUtil.stageHardmode.addModId(["avaritia", "draconicevolution", "extrabotany", "projecte", "projectex", "taiga"]);
+GameStagesUtil.stageNether.addModId(["aether_legacy", "cyclicmagic", "touhou_little_maid", "aeble", "theaurorian"]);
+GameStagesUtil.stageNoobWizard.addModId(["astralsorcery"]);
 GameStagesUtil.stageNoviceWizard.addModId(["bloodmagic", "bloodarsenal", "animus"]);
+GameStagesUtil.stageSkilledWizard.addModId(["naturesaura", "naturesdestruction", "auraddons"]);
+GameStagesUtil.stageNoobEngineer.addModId(["thermaldynamics", "thermalexpansion", "appliedenergistics2"]);
 GameStagesUtil.stageNoviceEngineer.addModId(["enderio"]);
 GameStagesUtil.stageWyvern.addModId(["blue_skies"]);
 GameStagesUtil.stageChaoticDominator.addModId(["extendedcrafting"]);
 GameStagesUtil.stageGatekeeper.addModId(["gct_aby"]);
 GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft"]);
 GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);
+GameStagesUtil.stageFinal.addModId(["iceandfire"]);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");

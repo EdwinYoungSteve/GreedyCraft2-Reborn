@@ -6,6 +6,9 @@
 	text: [
 		""
 	],
+	dependencies: [
+		"9ba0e7cf"
+	],
 	tasks: [{
 		uid: "37392953",
 		type: "item",
@@ -16,7 +19,8 @@
 				Parent: {
 					id: "ore",
 					data: "stoneMarble"
-				}
+				},
+				"customnpcs:itemscripteddata": {}
 			}
 		}]
 	}],

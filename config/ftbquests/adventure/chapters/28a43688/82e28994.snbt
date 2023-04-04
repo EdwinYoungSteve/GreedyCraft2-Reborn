@@ -1,7 +1,7 @@
 {
 	title: "§b和eio的不一样",
-	x: -6.5d,
-	y: -0.5d,
+	x: -13.5d,
+	y: -4.0d,
 	description: "合成末影锭",
 	text: [
 		""
@@ -10,7 +10,11 @@
 		uid: "55a8c43c",
 		type: "item",
 		items: [{
-			item: "extendedcrafting:material 1 36"
+			id: "extendedcrafting:material",
+			Damage: 36s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

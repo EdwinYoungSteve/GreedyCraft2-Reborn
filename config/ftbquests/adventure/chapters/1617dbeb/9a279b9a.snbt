@@ -5,7 +5,10 @@
 		uid: "67c59262",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:certus_quartz_seeds"
+			id: "mysticalagriculture:certus_quartz_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

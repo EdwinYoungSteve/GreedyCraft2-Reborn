@@ -1,7 +1,7 @@
 {
 	title: "§b紫水晶！",
-	x: 6.0d,
-	y: 1.5d,
+	x: 8.0d,
+	y: -5.5d,
 	description: "挖掘紫晶矿石，获得紫晶石",
 	text: [
 		""
@@ -13,7 +13,10 @@
 		uid: "87c4b3be",
 		type: "item",
 		items: [{
-			item: "aether_legacy:zanite_gemstone"
+			id: "aether_legacy:zanite_gemstone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

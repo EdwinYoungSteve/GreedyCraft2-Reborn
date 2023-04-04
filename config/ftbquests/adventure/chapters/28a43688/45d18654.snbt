@@ -1,7 +1,7 @@
 {
 	title: "§b灵之主",
-	x: -12.5d,
-	y: -5.0d,
+	x: -17.25d,
+	y: -6.75d,
 	description: "召唤并击杀远古修格斯",
 	text: [
 		""
@@ -10,6 +10,7 @@
 		"23a595e1",
 		"1d0ed0da"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "57ac11f6",
 		type: "kill",

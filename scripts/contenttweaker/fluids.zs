@@ -452,17 +452,17 @@ molten_idiessite.stillLocation = "base:fluids/molten";
 molten_idiessite.flowingLocation = "base:fluids/molten_flowing";
 molten_idiessite.register();
 
-val molten_cthoghate = mods.contenttweaker.VanillaFactory.createFluid("cthoghate", Color.fromHex("c2003d").getIntColor()); 
-molten_cthoghate.material = <blockmaterial:lava>;
-molten_cthoghate.viscosity = 3000;
-molten_cthoghate.density = 6500;
-molten_cthoghate.colorize = true;
-molten_cthoghate.temperature = 8000;
-molten_cthoghate.luminosity = 10;
-molten_cthoghate.color = Color.fromHex("c2003d").getIntColor();
-molten_cthoghate.stillLocation = "base:fluids/molten";
-molten_cthoghate.flowingLocation = "base:fluids/molten_flowing";
-molten_cthoghate.register();
+val molten_cthughate = mods.contenttweaker.VanillaFactory.createFluid("cthughate", Color.fromHex("c2003d").getIntColor()); 
+molten_cthughate.material = <blockmaterial:lava>;
+molten_cthughate.viscosity = 3000;
+molten_cthughate.density = 6500;
+molten_cthughate.colorize = true;
+molten_cthughate.temperature = 8000;
+molten_cthughate.luminosity = 10;
+molten_cthughate.color = Color.fromHex("c2003d").getIntColor();
+molten_cthughate.stillLocation = "base:fluids/molten";
+molten_cthughate.flowingLocation = "base:fluids/molten_flowing";
+molten_cthughate.register();
 
 val molten_ranglium = mods.contenttweaker.VanillaFactory.createFluid("ranglium", Color.fromHex("7f7f7f").getIntColor()); 
 molten_ranglium.material = <blockmaterial:lava>;
@@ -1689,6 +1689,20 @@ molten_botanical_awakened.color = Color.fromHex("53756b").getIntColor();
 molten_botanical_awakened.stillLocation = "base:fluids/molten";
 molten_botanical_awakened.flowingLocation = "base:fluids/molten_flowing";
 molten_botanical_awakened.register();
+
+val molten_star_alloy = mods.contenttweaker.VanillaFactory.createFluid("star_alloy", Color.fromHex("b9b4a0").getIntColor());
+molten_star_alloy.material = <blockmaterial:lava>;
+molten_star_alloy.viscosity = 3000;
+molten_star_alloy.density = 6500;
+molten_star_alloy.colorize = true;
+molten_star_alloy.temperature = 1000;
+molten_star_alloy.luminosity = 10;
+molten_star_alloy.color = Color.fromHex("b9b4a0").getIntColor();
+molten_star_alloy.stillLocation = "base:fluids/molten";
+molten_star_alloy.flowingLocation = "base:fluids/molten_flowing";
+molten_star_alloy.register();
+
+
 
 //液化类
 val liquid_air = mods.contenttweaker.VanillaFactory.createFluid("liquid_air", Color.fromHex("ffffff").getIntColor());

@@ -10,7 +10,10 @@
 		uid: "eb06afb2",
 		type: "item",
 		items: [{
-			item: "torchmaster:mega_torch"
+			id: "torchmaster:mega_torch",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

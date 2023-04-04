@@ -10,7 +10,11 @@
 		uid: "63312615",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:crafting 1 38"
+			id: "mysticalagriculture:crafting",
+			Damage: 38s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

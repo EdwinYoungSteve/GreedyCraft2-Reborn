@@ -5,7 +5,10 @@
 		uid: "fbb6cdca",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:redstone_seeds"
+			id: "mysticalagriculture:redstone_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

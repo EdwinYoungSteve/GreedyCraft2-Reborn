@@ -274,10 +274,6 @@ LootUtil.addHardmodeItem(<additions:greedycraft-compressed_experience_block>, 2,
 LootUtil.addHardmodeItem(<additions:greedycraft-pearl_of_knowledge>, 1, 1, 1, 1);
 LootUtil.addHardmodeItem(<appliedenergistics2:material:7>, 2, 1, 20, 42);
 LootUtil.addHardmodeItem(<additions:netherite_scrap>, 2, 1, 3, 6);
-LootUtil.addHardmodeItem(<prefab:item_advanced_warehouse>, 1, 1, 1, 1);
-LootUtil.addHardmodeItem(<prefab:item_basic_structure>.withTag({ForgeCaps: {"prefab:structuresconfiguration": {configuration: {wareHouseFacing: "north", structureEnumName: "AdvancedHorseStable"}}}, id: "prefab:item_basic_structure", Count: 1 as byte, Damage: 0 as short}), 1, 1, 1, 1);
-LootUtil.addHardmodeItem(<prefab:item_basic_structure>.withTag({ForgeCaps: {"prefab:structuresconfiguration": {configuration: {wareHouseFacing: "north", structureEnumName: "AdvancedCoop"}}}, id: "prefab:item_basic_structure", Count: 1 as byte, Damage: 0 as short}), 1, 1, 1, 1);
-LootUtil.addHardmodeItem(<prefab:item_moderate_house>, 1, 1, 1, 1);
 LootUtil.addHardmodeItem(<compactmachines3:wallbreakable>, 2, 1, 32, 64);
 LootUtil.addHardmodeItem(<compactmachines3:machine:5>, 1, 1, 1, 1);
 LootUtil.addHardmodeItem(<compactmachines3:machine:4>, 1, 1, 1, 1);

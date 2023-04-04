@@ -1,13 +1,13 @@
 {
 	title: "§b变异烈焰人",
-	x: 0.0d,
-	y: 0.0d,
+	x: -4.5d,
+	y: -7.0d,
 	description: "击杀紫焰人，获得紫焰粉",
 	text: [
 		""
 	],
 	dependencies: [
-		"4c400631"
+		"b0907c42"
 	],
 	tasks: [{
 		uid: "6fa86b25",

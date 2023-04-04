@@ -10,7 +10,10 @@
 		uid: "5ab1d82d",
 		type: "item",
 		items: [{
-			item: "randomthings:lavawader"
+			id: "randomthings:lavawader",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

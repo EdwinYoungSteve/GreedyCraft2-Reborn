@@ -1,10 +1,13 @@
 {
 	title: "§b只能起一点作用吧……",
-	x: -1.0d,
-	y: -3.5d,
+	x: -20.0d,
+	y: -17.0d,
 	description: "制作有机灌注器",
 	text: [
 		""
+	],
+	dependencies: [
+		"56ae2c57"
 	],
 	tasks: [{
 		uid: "b07ecf9b",

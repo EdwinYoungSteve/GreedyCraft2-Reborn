@@ -16,6 +16,9 @@
 					key: "aer",
 					amount: 1
 				}]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
@@ -25,6 +28,9 @@
 					key: "ignis",
 					amount: 1
 				}]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
@@ -34,6 +40,9 @@
 					key: "aqua",
 					amount: 1
 				}]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
@@ -43,6 +52,9 @@
 					key: "ordo",
 					amount: 1
 				}]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
@@ -52,6 +64,9 @@
 					key: "perditio",
 					amount: 1
 				}]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		},
 		{
@@ -61,6 +76,9 @@
 					key: "terra",
 					amount: 1
 				}]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_damage: true,

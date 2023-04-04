@@ -1,7 +1,7 @@
 {
 	title: "§b再熟悉不过了",
-	x: 0.0d,
-	y: 0.0d,
+	x: -3.0d,
+	y: 1.0d,
 	description: "挖掘石英矿石，获得下界石英",
 	text: [
 		""
@@ -10,7 +10,10 @@
 		uid: "90a10432",
 		type: "item",
 		items: [{
-			item: "minecraft:quartz"
+			id: "minecraft:quartz",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

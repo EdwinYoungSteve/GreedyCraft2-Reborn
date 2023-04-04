@@ -1,6 +1,6 @@
 {
 	title: "§b盐塔核心",
-	x: -5.0d,
+	x: -0.5d,
 	y: -2.0d,
 	description: "制作热力蒸馏控制器",
 	text: [

@@ -10,7 +10,10 @@
 		uid: "7ef0c964",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-dragon_soul"
+			id: "additions:greedycraft-dragon_soul",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

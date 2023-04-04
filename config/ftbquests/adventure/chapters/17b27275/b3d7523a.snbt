@@ -1,11 +1,14 @@
 {
-	x: 1.5d,
-	y: 13.5d,
+	x: -2.0d,
+	y: 8.5d,
 	tasks: [{
 		uid: "57f9f135",
 		type: "item",
 		items: [{
-			item: "moretcon:ingottrichromadentium"
+			id: "moretcon:ingottrichromadentium",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

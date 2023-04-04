@@ -1,7 +1,7 @@
 {
 	title: "§b神力之石",
-	x: 4.5d,
-	y: 0.0d,
+	x: 8.0d,
+	y: -12.5d,
 	description: "获得重力晶",
 	text: [
 		""
@@ -13,7 +13,10 @@
 		uid: "8f8f3a75",
 		type: "item",
 		items: [{
-			item: "aether_legacy:enchanted_gravitite"
+			id: "aether_legacy:enchanted_gravitite",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

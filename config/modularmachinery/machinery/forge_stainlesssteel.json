@@ -120,7 +120,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "hammermetals:terrasteel_casing@0"
+                "botania:storage@1"
             ]
         },
         {
@@ -376,7 +376,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "hammermetals:invar_casing@0"
+                "thermalfoundation:storage_alloy@2"
             ]
         },
         {
@@ -384,7 +384,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "hammermetals:invar_casing@0"
+                "thermalfoundation:storage_alloy@2"
             ]
         },
         {
@@ -392,7 +392,7 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "hammermetals:invar_casing@0"
+                "thermalfoundation:storage_alloy@2"
             ]
         },
         {
@@ -408,7 +408,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "hammermetals:invar_casing@0"
+                "thermalfoundation:storage_alloy@2"
             ]
         },
         {
@@ -424,7 +424,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "hammermetals:invar_casing@0"
+                "thermalfoundation:storage_alloy@2"
             ]
         },
         {
@@ -432,7 +432,7 @@
             "y": 3,
             "z": 2,
             "elements": [
-                "hammermetals:invar_casing@0"
+                "thermalfoundation:storage_alloy@2"
             ]
         },
         {

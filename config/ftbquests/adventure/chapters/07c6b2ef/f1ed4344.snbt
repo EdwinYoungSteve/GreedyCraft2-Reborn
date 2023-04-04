@@ -1,10 +1,13 @@
 {
 	title: "§b力量三变力量四！",
-	x: -2.5d,
-	y: 1.0d,
+	x: -18.5d,
+	y: -12.0d,
 	description: "制作流体精炼机",
 	text: [
 		""
+	],
+	dependencies: [
+		"56ae2c57"
 	],
 	tasks: [{
 		uid: "56616af5",

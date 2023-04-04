@@ -10,7 +10,10 @@
 		uid: "d6d36619",
 		type: "item",
 		items: [{
-			item: "tofucraft:tofustick"
+			id: "tofucraft:tofustick",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

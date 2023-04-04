@@ -1,0 +1,17 @@
+{
+	x: -22.5d,
+	y: 0.0d,
+	dependencies: [
+		"2c6906dc"
+	],
+	tasks: [{
+		uid: "c0e5153c",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:supercooler",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

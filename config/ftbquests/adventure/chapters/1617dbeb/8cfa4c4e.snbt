@@ -5,7 +5,10 @@
 		uid: "92dbc652",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:nickel_seeds"
+			id: "mysticalagriculture:nickel_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

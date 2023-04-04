@@ -112,7 +112,6 @@
     "HEAD": [
       "tconevo.infinitum",
       "tconevo.soul_rend3",
-      "tconevo.evolved",
       "insatiable",
       "world_end"
     ],
@@ -125,7 +124,6 @@
     "BOW": [
       "tconevo.infinitum",
       "tconevo.soul_rend3",
-      "tconevo.evolved",
       "insatiable",
       "world_end"
     ],
@@ -136,7 +134,6 @@
       "world_end"
     ],
     "CORE": [
-      "tconevo.evolved_armor",
       "tconevo.gale_force3_armor",
       "tconevo.infinitum",
       "tconevo.celestial_armor"

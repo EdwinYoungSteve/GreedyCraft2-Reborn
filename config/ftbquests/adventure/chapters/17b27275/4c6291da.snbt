@@ -1,8 +1,7 @@
 {
-	x: -1.5d,
-	y: 12.0d,
+	x: 0.0d,
+	y: 10.5d,
 	dependencies: [
-		"d01f7a37",
 		"433f8f7f"
 	],
 	tasks: [{

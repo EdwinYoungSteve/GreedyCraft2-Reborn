@@ -5,7 +5,10 @@
 		uid: "96328c9d",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:gold_seeds"
+			id: "mysticalagriculture:gold_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

@@ -5,7 +5,10 @@
 		uid: "e4957e75",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:draconium_seeds"
+			id: "mysticalagriculture:draconium_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

@@ -5,7 +5,10 @@
 		uid: "52244961",
 		type: "item",
 		items: [{
-			item: "mysticalagradditions:nether_star_seeds"
+			id: "mysticalagradditions:nether_star_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

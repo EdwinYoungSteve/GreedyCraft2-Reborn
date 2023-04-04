@@ -1,9 +1,0 @@
-{
-	x: -15.5d,
-	y: -8.0d,
-	tasks: [{
-		uid: "5f4f3e70",
-		type: "gamestage",
-		stage: "epic_engineer"
-	}]
-}

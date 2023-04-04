@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: 1.0d,
+	dependencies: [
+		"1c43f13e"
+	],
+	tasks: [{
+		uid: "14fb14f0",
+		type: "item",
+		items: [{
+			id: "naturesaura:offering_table",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}]
+}

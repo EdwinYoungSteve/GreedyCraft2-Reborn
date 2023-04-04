@@ -10,13 +10,22 @@
 		uid: "e797560e",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-bounty_hunter_medal"
+			id: "additions:greedycraft-bounty_hunter_medal",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		},
 		{
-			item: "additions:greedycraft-bounty_hunter_medal_silver"
+			id: "additions:greedycraft-bounty_hunter_medal_silver",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		},
 		{
-			item: "additions:greedycraft-bounty_hunter_medal_bronze"
+			id: "additions:greedycraft-bounty_hunter_medal_bronze",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

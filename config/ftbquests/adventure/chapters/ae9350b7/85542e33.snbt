@@ -10,7 +10,10 @@
 		uid: "426ac008",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-ancient_tome"
+			id: "additions:greedycraft-ancient_tome",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

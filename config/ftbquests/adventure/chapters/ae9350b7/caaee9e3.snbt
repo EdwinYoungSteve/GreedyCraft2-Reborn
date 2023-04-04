@@ -10,7 +10,10 @@
 		uid: "fd1653b0",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-death_coin"
+			id: "additions:greedycraft-death_coin",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

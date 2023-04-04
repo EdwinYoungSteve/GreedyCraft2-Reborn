@@ -1,7 +1,7 @@
 {
 	title: "§b清洁能源I",
-	x: 3.5d,
-	y: -6.5d,
+	x: -27.0d,
+	y: -4.5d,
 	description: "制作指定的太阳能电池板",
 	text: [
 		""
@@ -10,7 +10,10 @@
 		uid: "f0db00db",
 		type: "item",
 		items: [{
-			item: "solarflux:solar_panel_1"
+			id: "solarflux:solar_panel_1",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

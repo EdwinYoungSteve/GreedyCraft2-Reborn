@@ -1,8 +1,8 @@
 {
 	title: "§b结束了？还早着呢……",
-	x: 2.5d,
-	y: 5.5d,
-	shape: "gear",
+	x: 3.0d,
+	y: 4.5d,
+	shape: "circle",
 	description: "击杀末影龙",
 	text: [
 		"困难模式，新的挑战"
@@ -10,6 +10,7 @@
 	dependencies: [
 		"2d09df12"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "20c06902",
 		type: "kill",

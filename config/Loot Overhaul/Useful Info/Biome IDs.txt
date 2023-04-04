@@ -33,7 +33,7 @@ minecraft:desert
    - Height Variation: 0.05
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: HOT SANDY DRY 
+   - Forge Biome Types: DRY HOT SANDY 
 
 
 minecraft:extreme_hills
@@ -42,7 +42,7 @@ minecraft:extreme_hills
    - Height Variation: 0.5
    - Humidity: 0.3
    - Temperature: 0.2
-   - Forge Biome Types: HILLS MOUNTAIN 
+   - Forge Biome Types: MOUNTAIN HILLS 
 
 
 minecraft:forest
@@ -60,7 +60,7 @@ minecraft:taiga
    - Height Variation: 0.2
    - Humidity: 0.8
    - Temperature: 0.25
-   - Forge Biome Types: COLD FOREST CONIFEROUS 
+   - Forge Biome Types: FOREST CONIFEROUS COLD 
 
 
 minecraft:swampland
@@ -69,7 +69,7 @@ minecraft:swampland
    - Height Variation: 0.1
    - Humidity: 0.9
    - Temperature: 0.8
-   - Forge Biome Types: WET SWAMP 
+   - Forge Biome Types: SWAMP WET 
 
 
 minecraft:river
@@ -87,7 +87,7 @@ minecraft:hell
    - Height Variation: 0.2
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: NETHER HOT DRY 
+   - Forge Biome Types: DRY HOT NETHER 
 
 
 minecraft:sky
@@ -96,7 +96,7 @@ minecraft:sky
    - Height Variation: 0.2
    - Humidity: 0.5
    - Temperature: 0.5
-   - Forge Biome Types: COLD DRY END 
+   - Forge Biome Types: END DRY COLD 
 
 
 minecraft:frozen_ocean
@@ -105,7 +105,7 @@ minecraft:frozen_ocean
    - Height Variation: 0.1
    - Humidity: 0.5
    - Temperature: 0.0
-   - Forge Biome Types: SNOWY COLD WATER OCEAN 
+   - Forge Biome Types: WATER OCEAN SNOWY COLD 
 
 
 minecraft:frozen_river
@@ -114,7 +114,7 @@ minecraft:frozen_river
    - Height Variation: 0.0
    - Humidity: 0.5
    - Temperature: 0.0
-   - Forge Biome Types: SNOWY COLD WATER RIVER 
+   - Forge Biome Types: WATER SNOWY RIVER COLD 
 
 
 minecraft:ice_flats
@@ -123,7 +123,7 @@ minecraft:ice_flats
    - Height Variation: 0.05
    - Humidity: 0.5
    - Temperature: 0.0
-   - Forge Biome Types: SNOWY COLD WASTELAND 
+   - Forge Biome Types: SNOWY WASTELAND COLD 
 
 
 minecraft:ice_mountains
@@ -132,7 +132,7 @@ minecraft:ice_mountains
    - Height Variation: 0.3
    - Humidity: 0.5
    - Temperature: 0.0
-   - Forge Biome Types: SNOWY COLD MOUNTAIN 
+   - Forge Biome Types: SNOWY MOUNTAIN COLD 
 
 
 minecraft:mushroom_island
@@ -150,7 +150,7 @@ minecraft:mushroom_island_shore
    - Height Variation: 0.025
    - Humidity: 1.0
    - Temperature: 0.9
-   - Forge Biome Types: BEACH RARE MUSHROOM 
+   - Forge Biome Types: RARE MUSHROOM BEACH 
 
 
 minecraft:beaches
@@ -168,7 +168,7 @@ minecraft:desert_hills
    - Height Variation: 0.3
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: HILLS HOT SANDY DRY 
+   - Forge Biome Types: DRY HOT SANDY HILLS 
 
 
 minecraft:forest_hills
@@ -177,7 +177,7 @@ minecraft:forest_hills
    - Height Variation: 0.3
    - Humidity: 0.8
    - Temperature: 0.7
-   - Forge Biome Types: HILLS FOREST 
+   - Forge Biome Types: FOREST HILLS 
 
 
 minecraft:taiga_hills
@@ -186,7 +186,7 @@ minecraft:taiga_hills
    - Height Variation: 0.3
    - Humidity: 0.8
    - Temperature: 0.25
-   - Forge Biome Types: COLD HILLS FOREST CONIFEROUS 
+   - Forge Biome Types: FOREST CONIFEROUS HILLS COLD 
 
 
 minecraft:smaller_extreme_hills
@@ -204,7 +204,7 @@ minecraft:jungle
    - Height Variation: 0.2
    - Humidity: 0.9
    - Temperature: 0.95
-   - Forge Biome Types: WET JUNGLE HOT DENSE 
+   - Forge Biome Types: JUNGLE HOT WET DENSE 
 
 
 minecraft:jungle_hills
@@ -213,7 +213,7 @@ minecraft:jungle_hills
    - Height Variation: 0.3
    - Humidity: 0.9
    - Temperature: 0.95
-   - Forge Biome Types: WET JUNGLE HILLS HOT DENSE 
+   - Forge Biome Types: JUNGLE HOT WET HILLS DENSE 
 
 
 minecraft:jungle_edge
@@ -222,7 +222,7 @@ minecraft:jungle_edge
    - Height Variation: 0.2
    - Humidity: 0.8
    - Temperature: 0.95
-   - Forge Biome Types: WET JUNGLE FOREST HOT RARE 
+   - Forge Biome Types: FOREST JUNGLE RARE HOT WET 
 
 
 minecraft:deep_ocean
@@ -249,7 +249,7 @@ minecraft:cold_beach
    - Height Variation: 0.025
    - Humidity: 0.3
    - Temperature: 0.05
-   - Forge Biome Types: SNOWY COLD BEACH 
+   - Forge Biome Types: SNOWY BEACH COLD 
 
 
 minecraft:birch_forest
@@ -267,7 +267,7 @@ minecraft:birch_forest_hills
    - Height Variation: 0.3
    - Humidity: 0.6
    - Temperature: 0.6
-   - Forge Biome Types: HILLS FOREST BIRCH_TREES THEMED_TREES 
+   - Forge Biome Types: FOREST BIRCH_TREES THEMED_TREES HILLS 
 
 
 minecraft:roofed_forest
@@ -276,7 +276,7 @@ minecraft:roofed_forest
    - Height Variation: 0.2
    - Humidity: 0.8
    - Temperature: 0.7
-   - Forge Biome Types: FOREST DENSE BIRCH_TREES SPOOKY THEMED_TREES 
+   - Forge Biome Types: FOREST BIRCH_TREES THEMED_TREES SPOOKY DENSE 
 
 
 minecraft:taiga_cold
@@ -285,7 +285,7 @@ minecraft:taiga_cold
    - Height Variation: 0.2
    - Humidity: 0.4
    - Temperature: -0.5
-   - Forge Biome Types: SNOWY COLD FOREST CONIFEROUS 
+   - Forge Biome Types: FOREST SNOWY CONIFEROUS COLD 
 
 
 minecraft:taiga_cold_hills
@@ -294,7 +294,7 @@ minecraft:taiga_cold_hills
    - Height Variation: 0.3
    - Humidity: 0.4
    - Temperature: -0.5
-   - Forge Biome Types: SNOWY COLD HILLS FOREST CONIFEROUS 
+   - Forge Biome Types: FOREST SNOWY CONIFEROUS HILLS COLD 
 
 
 minecraft:redwood_taiga
@@ -303,7 +303,7 @@ minecraft:redwood_taiga
    - Height Variation: 0.2
    - Humidity: 0.8
    - Temperature: 0.3
-   - Forge Biome Types: COLD FOREST CONIFEROUS MEGA_TAIGA_TREES THEMED_TREES 
+   - Forge Biome Types: FOREST CONIFEROUS MEGA_TAIGA_TREES THEMED_TREES COLD 
 
 
 minecraft:redwood_taiga_hills
@@ -312,7 +312,7 @@ minecraft:redwood_taiga_hills
    - Height Variation: 0.3
    - Humidity: 0.8
    - Temperature: 0.3
-   - Forge Biome Types: COLD HILLS FOREST CONIFEROUS MEGA_TAIGA_TREES THEMED_TREES 
+   - Forge Biome Types: FOREST CONIFEROUS MEGA_TAIGA_TREES THEMED_TREES HILLS COLD 
 
 
 minecraft:extreme_hills_with_trees
@@ -321,7 +321,7 @@ minecraft:extreme_hills_with_trees
    - Height Variation: 0.5
    - Humidity: 0.3
    - Temperature: 0.2
-   - Forge Biome Types: FOREST MOUNTAIN SPARSE 
+   - Forge Biome Types: FOREST SPARSE MOUNTAIN 
 
 
 minecraft:savanna
@@ -330,7 +330,7 @@ minecraft:savanna
    - Height Variation: 0.05
    - Humidity: 0.0
    - Temperature: 1.2
-   - Forge Biome Types: PLAINS HOT SPARSE SAVANNA 
+   - Forge Biome Types: SPARSE HOT PLAINS SAVANNA 
 
 
 minecraft:savanna_rock
@@ -339,7 +339,7 @@ minecraft:savanna_rock
    - Height Variation: 0.025
    - Humidity: 0.0
    - Temperature: 1.0
-   - Forge Biome Types: PLAINS HOT RARE SPARSE SAVANNA 
+   - Forge Biome Types: SPARSE RARE HOT PLAINS SAVANNA 
 
 
 minecraft:mesa
@@ -348,7 +348,7 @@ minecraft:mesa
    - Height Variation: 0.2
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: MESA SANDY DRY 
+   - Forge Biome Types: MESA DRY SANDY 
 
 
 minecraft:mesa_rock
@@ -357,7 +357,7 @@ minecraft:mesa_rock
    - Height Variation: 0.025
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: MESA SANDY SPARSE DRY 
+   - Forge Biome Types: SPARSE MESA DRY SANDY 
 
 
 minecraft:mesa_clear_rock
@@ -366,7 +366,7 @@ minecraft:mesa_clear_rock
    - Height Variation: 0.025
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: MESA SANDY DRY 
+   - Forge Biome Types: MESA DRY SANDY 
 
 
 biomesoplenty:gravel_beach
@@ -393,7 +393,7 @@ biomesoplenty:origin_beach
    - Height Variation: 0.112500004
    - Humidity: 0.6
    - Temperature: 0.6
-   - Forge Biome Types: BEACH RARE 
+   - Forge Biome Types: RARE BEACH 
 
 
 biomesoplenty:alps
@@ -402,7 +402,7 @@ biomesoplenty:alps
    - Height Variation: 0.23125
    - Humidity: 0.3
    - Temperature: -0.25
-   - Forge Biome Types: SNOWY COLD MOUNTAIN DRY 
+   - Forge Biome Types: SNOWY DRY MOUNTAIN COLD 
 
 
 biomesoplenty:bamboo_forest
@@ -411,7 +411,7 @@ biomesoplenty:bamboo_forest
    - Height Variation: 0.043750003
    - Humidity: 0.85
    - Temperature: 0.9
-   - Forge Biome Types: WET JUNGLE FOREST DENSE 
+   - Forge Biome Types: FOREST JUNGLE WET DENSE 
 
 
 biomesoplenty:bayou
@@ -420,7 +420,7 @@ biomesoplenty:bayou
    - Height Variation: 0.025
    - Humidity: 0.9
    - Temperature: 0.95
-   - Forge Biome Types: WET SWAMP HOT DENSE 
+   - Forge Biome Types: SWAMP HOT WET DENSE 
 
 
 biomesoplenty:bog
@@ -429,7 +429,7 @@ biomesoplenty:bog
    - Height Variation: 0.012500001
    - Humidity: 0.9
    - Temperature: 0.5
-   - Forge Biome Types: WET COLD SWAMP FOREST 
+   - Forge Biome Types: FOREST SWAMP WET COLD 
 
 
 biomesoplenty:boreal_forest
@@ -438,7 +438,7 @@ biomesoplenty:boreal_forest
    - Height Variation: 0.41875
    - Humidity: 0.6
    - Temperature: 0.3
-   - Forge Biome Types: COLD HILLS FOREST CONIFEROUS DENSE 
+   - Forge Biome Types: FOREST CONIFEROUS HILLS DENSE COLD 
 
 
 biomesoplenty:brushland
@@ -447,7 +447,7 @@ biomesoplenty:brushland
    - Height Variation: 0.05625
    - Humidity: 0.1
    - Temperature: 1.5
-   - Forge Biome Types: HOT SPARSE SAVANNA DRY 
+   - Forge Biome Types: SPARSE DRY HOT SAVANNA 
 
 
 biomesoplenty:chaparral
@@ -456,7 +456,7 @@ biomesoplenty:chaparral
    - Height Variation: 0.23125
    - Humidity: 0.4
    - Temperature: 0.8
-   - Forge Biome Types: PLAINS DRY 
+   - Forge Biome Types: DRY PLAINS 
 
 
 biomesoplenty:cherry_blossom_grove
@@ -465,7 +465,7 @@ biomesoplenty:cherry_blossom_grove
    - Height Variation: 0.1375
    - Humidity: 0.8
    - Temperature: 0.55
-   - Forge Biome Types: WET FOREST DENSE MAGICAL LUSH 
+   - Forge Biome Types: FOREST MAGICAL LUSH WET DENSE 
 
 
 biomesoplenty:cold_desert
@@ -474,7 +474,7 @@ biomesoplenty:cold_desert
    - Height Variation: 0.043750003
    - Humidity: 0.0
    - Temperature: 0.2
-   - Forge Biome Types: SNOWY COLD DRY 
+   - Forge Biome Types: SNOWY DRY COLD 
 
 
 biomesoplenty:coniferous_forest
@@ -483,7 +483,7 @@ biomesoplenty:coniferous_forest
    - Height Variation: 0.23125
    - Humidity: 0.5
    - Temperature: 0.45
-   - Forge Biome Types: COLD FOREST CONIFEROUS DENSE 
+   - Forge Biome Types: FOREST CONIFEROUS DENSE COLD 
 
 
 biomesoplenty:crag
@@ -492,7 +492,7 @@ biomesoplenty:crag
    - Height Variation: 3.1062498
    - Humidity: 0.5
    - Temperature: 0.5
-   - Forge Biome Types: COLD HILLS WASTELAND MOUNTAIN MAGICAL DRY 
+   - Forge Biome Types: MAGICAL WASTELAND DRY MOUNTAIN HILLS COLD 
 
 
 biomesoplenty:dead_forest
@@ -501,7 +501,7 @@ biomesoplenty:dead_forest
    - Height Variation: 0.2125
    - Humidity: 0.3
    - Temperature: 0.3
-   - Forge Biome Types: DEAD COLD FOREST SPARSE DRY 
+   - Forge Biome Types: FOREST SPARSE DEAD DRY COLD 
 
 
 biomesoplenty:dead_swamp
@@ -510,7 +510,7 @@ biomesoplenty:dead_swamp
    - Height Variation: 0.025
    - Humidity: 0.9
    - Temperature: 0.6
-   - Forge Biome Types: WET DEAD COLD SWAMP SPARSE SPOOKY 
+   - Forge Biome Types: SPARSE DEAD SWAMP SPOOKY WET COLD 
 
 
 biomesoplenty:eucalyptus_forest
@@ -519,7 +519,7 @@ biomesoplenty:eucalyptus_forest
    - Height Variation: 0.23125
    - Humidity: 0.9
    - Temperature: 0.95
-   - Forge Biome Types: WET JUNGLE FOREST DENSE LUSH 
+   - Forge Biome Types: FOREST JUNGLE LUSH WET DENSE 
 
 
 biomesoplenty:fen
@@ -528,7 +528,7 @@ biomesoplenty:fen
    - Height Variation: 0.09375
    - Humidity: 0.4
    - Temperature: 0.4
-   - Forge Biome Types: WET COLD DEAD SWAMP FOREST DENSE 
+   - Forge Biome Types: FOREST DEAD SWAMP WET DENSE COLD 
 
 
 biomesoplenty:flower_field
@@ -537,7 +537,7 @@ biomesoplenty:flower_field
    - Height Variation: 0.0125
    - Humidity: 0.7
    - Temperature: 0.7
-   - Forge Biome Types: PLAINS LUSH 
+   - Forge Biome Types: LUSH PLAINS 
 
 
 biomesoplenty:grassland
@@ -546,7 +546,7 @@ biomesoplenty:grassland
    - Height Variation: 0.1625
    - Humidity: 0.7
    - Temperature: 0.6
-   - Forge Biome Types: WET PLAINS HILLS 
+   - Forge Biome Types: PLAINS HILLS WET 
 
 
 biomesoplenty:grove
@@ -555,7 +555,7 @@ biomesoplenty:grove
    - Height Variation: 0.18125
    - Humidity: 0.8
    - Temperature: 0.6
-   - Forge Biome Types: WET PLAINS FOREST LUSH SPARSE 
+   - Forge Biome Types: FOREST SPARSE LUSH PLAINS WET 
 
 
 biomesoplenty:highland
@@ -564,7 +564,7 @@ biomesoplenty:highland
    - Height Variation: 0.95
    - Humidity: 0.8
    - Temperature: 0.6
-   - Forge Biome Types: WET HILLS MOUNTAIN 
+   - Forge Biome Types: MOUNTAIN HILLS WET 
 
 
 biomesoplenty:land_of_lakes
@@ -573,7 +573,7 @@ biomesoplenty:land_of_lakes
    - Height Variation: 0.16875
    - Humidity: 0.9
    - Temperature: 0.5
-   - Forge Biome Types: WET FOREST SWAMP DENSE 
+   - Forge Biome Types: FOREST SWAMP WET DENSE 
 
 
 biomesoplenty:lavender_fields
@@ -582,7 +582,7 @@ biomesoplenty:lavender_fields
    - Height Variation: 0.03125
    - Humidity: 0.7
    - Temperature: 0.7
-   - Forge Biome Types: PLAINS MAGICAL LUSH 
+   - Forge Biome Types: MAGICAL LUSH PLAINS 
 
 
 biomesoplenty:lush_desert
@@ -591,7 +591,7 @@ biomesoplenty:lush_desert
    - Height Variation: 0.30625
    - Humidity: 0.4
    - Temperature: 1.2
-   - Forge Biome Types: HOT SANDY LUSH SPARSE SAVANNA DRY 
+   - Forge Biome Types: SPARSE LUSH DRY HOT SANDY SAVANNA 
 
 
 biomesoplenty:lush_swamp
@@ -600,7 +600,7 @@ biomesoplenty:lush_swamp
    - Height Variation: 0.043750003
    - Humidity: 1.0
    - Temperature: 0.7
-   - Forge Biome Types: WET SWAMP DENSE LUSH 
+   - Forge Biome Types: LUSH SWAMP WET DENSE 
 
 
 biomesoplenty:mangrove
@@ -609,7 +609,7 @@ biomesoplenty:mangrove
    - Height Variation: 0.06875
    - Humidity: 0.3
    - Temperature: 0.85
-   - Forge Biome Types: WET WATER SWAMP DENSE LUSH 
+   - Forge Biome Types: WATER LUSH SWAMP WET DENSE 
 
 
 biomesoplenty:maple_woods
@@ -618,7 +618,7 @@ biomesoplenty:maple_woods
    - Height Variation: 0.2625
    - Humidity: 0.8
    - Temperature: 0.25
-   - Forge Biome Types: COLD FOREST CONIFEROUS DENSE 
+   - Forge Biome Types: FOREST CONIFEROUS DENSE COLD 
 
 
 biomesoplenty:marsh
@@ -627,7 +627,7 @@ biomesoplenty:marsh
    - Height Variation: 0.0
    - Humidity: 0.8
    - Temperature: 0.6
-   - Forge Biome Types: WET LUSH 
+   - Forge Biome Types: LUSH WET 
 
 
 biomesoplenty:meadow
@@ -636,7 +636,7 @@ biomesoplenty:meadow
    - Height Variation: 0.0125
    - Humidity: 0.7
    - Temperature: 0.4
-   - Forge Biome Types: WET PLAINS COLD FOREST LUSH SPARSE 
+   - Forge Biome Types: FOREST SPARSE LUSH PLAINS WET COLD 
 
 
 biomesoplenty:moor
@@ -645,7 +645,7 @@ biomesoplenty:moor
    - Height Variation: 0.118750006
    - Humidity: 1.0
    - Temperature: 0.6
-   - Forge Biome Types: WET HILLS SWAMP 
+   - Forge Biome Types: SWAMP HILLS WET 
 
 
 biomesoplenty:mountain
@@ -654,7 +654,7 @@ biomesoplenty:mountain
    - Height Variation: 0.98125
    - Humidity: 0.1
    - Temperature: 0.5
-   - Forge Biome Types: FOREST MOUNTAIN SPARSE DRY 
+   - Forge Biome Types: FOREST SPARSE DRY MOUNTAIN 
 
 
 biomesoplenty:mystic_grove
@@ -663,7 +663,7 @@ biomesoplenty:mystic_grove
    - Height Variation: 0.106249996
    - Humidity: 0.8
    - Temperature: 0.7
-   - Forge Biome Types: WET FOREST DENSE RARE MAGICAL LUSH 
+   - Forge Biome Types: FOREST RARE MAGICAL LUSH WET DENSE 
 
 
 biomesoplenty:ominous_woods
@@ -672,7 +672,7 @@ biomesoplenty:ominous_woods
    - Height Variation: 0.043750003
    - Humidity: 0.6
    - Temperature: 0.6
-   - Forge Biome Types: WET DEAD FOREST DENSE RARE MAGICAL SPOOKY 
+   - Forge Biome Types: FOREST RARE MAGICAL DEAD SPOOKY WET DENSE 
 
 
 biomesoplenty:orchard
@@ -681,7 +681,7 @@ biomesoplenty:orchard
    - Height Variation: 0.05
    - Humidity: 0.7
    - Temperature: 0.7
-   - Forge Biome Types: PLAINS FOREST DENSE LUSH 
+   - Forge Biome Types: FOREST LUSH PLAINS DENSE 
 
 
 biomesoplenty:outback
@@ -690,7 +690,7 @@ biomesoplenty:outback
    - Height Variation: 0.118750006
    - Humidity: 0.05
    - Temperature: 2.0
-   - Forge Biome Types: HOT SANDY SPARSE SAVANNA DRY 
+   - Forge Biome Types: SPARSE DRY HOT SANDY SAVANNA 
 
 
 biomesoplenty:overgrown_cliffs
@@ -699,7 +699,7 @@ biomesoplenty:overgrown_cliffs
    - Height Variation: 0.60625
    - Humidity: 0.75
    - Temperature: 0.95
-   - Forge Biome Types: WET HILLS JUNGLE DENSE MOUNTAIN LUSH 
+   - Forge Biome Types: JUNGLE LUSH MOUNTAIN HILLS WET DENSE 
 
 
 biomesoplenty:prairie
@@ -708,7 +708,7 @@ biomesoplenty:prairie
    - Height Variation: 0.00625
    - Humidity: 0.3
    - Temperature: 0.8
-   - Forge Biome Types: PLAINS SPARSE DRY 
+   - Forge Biome Types: SPARSE DRY PLAINS 
 
 
 biomesoplenty:quagmire
@@ -717,7 +717,7 @@ biomesoplenty:quagmire
    - Height Variation: 0.043750003
    - Humidity: 0.9
    - Temperature: 0.6
-   - Forge Biome Types: WET DEAD SWAMP WASTELAND 
+   - Forge Biome Types: DEAD WASTELAND SWAMP WET 
 
 
 biomesoplenty:rainforest
@@ -726,7 +726,7 @@ biomesoplenty:rainforest
    - Height Variation: 1.41875
    - Humidity: 1.2
    - Temperature: 0.95
-   - Forge Biome Types: WET JUNGLE HILLS FOREST DENSE LUSH 
+   - Forge Biome Types: FOREST JUNGLE LUSH HILLS WET DENSE 
 
 
 biomesoplenty:redwood_forest
@@ -744,7 +744,7 @@ biomesoplenty:sacred_springs
    - Height Variation: 0.16875
    - Humidity: 0.9
    - Temperature: 0.85
-   - Forge Biome Types: WET JUNGLE FOREST DENSE RARE MAGICAL LUSH 
+   - Forge Biome Types: FOREST JUNGLE RARE MAGICAL LUSH WET DENSE 
 
 
 biomesoplenty:seasonal_forest
@@ -753,7 +753,7 @@ biomesoplenty:seasonal_forest
    - Height Variation: 0.54375
    - Humidity: 0.8
    - Temperature: 0.4
-   - Forge Biome Types: COLD FOREST DENSE 
+   - Forge Biome Types: FOREST DENSE COLD 
 
 
 biomesoplenty:shield
@@ -762,7 +762,7 @@ biomesoplenty:shield
    - Height Variation: 0.16875
    - Humidity: 0.8
    - Temperature: 0.4
-   - Forge Biome Types: WET COLD FOREST DENSE 
+   - Forge Biome Types: FOREST WET DENSE COLD 
 
 
 biomesoplenty:shrubland
@@ -771,7 +771,7 @@ biomesoplenty:shrubland
    - Height Variation: 0.15
    - Humidity: 0.05
    - Temperature: 0.6
-   - Forge Biome Types: PLAINS SPARSE DRY 
+   - Forge Biome Types: SPARSE DRY PLAINS 
 
 
 biomesoplenty:snowy_coniferous_forest
@@ -780,7 +780,7 @@ biomesoplenty:snowy_coniferous_forest
    - Height Variation: 0.23125
    - Humidity: 0.5
    - Temperature: -0.25
-   - Forge Biome Types: SNOWY COLD FOREST CONIFEROUS DENSE 
+   - Forge Biome Types: FOREST SNOWY CONIFEROUS DENSE COLD 
 
 
 biomesoplenty:snowy_forest
@@ -789,7 +789,7 @@ biomesoplenty:snowy_forest
    - Height Variation: 0.1375
    - Humidity: 0.5
    - Temperature: -0.25
-   - Forge Biome Types: WET SNOWY COLD FOREST SPARSE 
+   - Forge Biome Types: FOREST SPARSE SNOWY WET COLD 
 
 
 biomesoplenty:steppe
@@ -798,7 +798,7 @@ biomesoplenty:steppe
    - Height Variation: 0.10625
    - Humidity: 0.1
    - Temperature: 0.75
-   - Forge Biome Types: PLAINS SANDY DRY 
+   - Forge Biome Types: DRY PLAINS SANDY 
 
 
 biomesoplenty:temperate_rainforest
@@ -807,7 +807,7 @@ biomesoplenty:temperate_rainforest
    - Height Variation: 0.825
    - Humidity: 1.2
    - Temperature: 0.75
-   - Forge Biome Types: WET FOREST DENSE LUSH 
+   - Forge Biome Types: FOREST LUSH WET DENSE 
 
 
 biomesoplenty:tropical_rainforest
@@ -816,7 +816,7 @@ biomesoplenty:tropical_rainforest
    - Height Variation: 0.2625
    - Humidity: 1.0
    - Temperature: 1.0
-   - Forge Biome Types: WET JUNGLE HOT DENSE LUSH 
+   - Forge Biome Types: JUNGLE LUSH HOT WET DENSE 
 
 
 biomesoplenty:tundra
@@ -825,7 +825,7 @@ biomesoplenty:tundra
    - Height Variation: 0.043750003
    - Humidity: 0.5
    - Temperature: 0.2
-   - Forge Biome Types: WET COLD DEAD WASTELAND SPARSE 
+   - Forge Biome Types: SPARSE WASTELAND DEAD WET COLD 
 
 
 biomesoplenty:wasteland
@@ -834,7 +834,7 @@ biomesoplenty:wasteland
    - Height Variation: 0.087500006
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: DEAD WASTELAND SPARSE DRY 
+   - Forge Biome Types: SPARSE WASTELAND DEAD DRY 
 
 
 biomesoplenty:wetland
@@ -843,7 +843,7 @@ biomesoplenty:wetland
    - Height Variation: 0.075
    - Humidity: 0.7
    - Temperature: 0.6
-   - Forge Biome Types: WET SWAMP FOREST DENSE LUSH 
+   - Forge Biome Types: FOREST LUSH SWAMP WET DENSE 
 
 
 biomesoplenty:woodland
@@ -852,7 +852,7 @@ biomesoplenty:woodland
    - Height Variation: 0.1625
    - Humidity: 0.5
    - Temperature: 0.7
-   - Forge Biome Types: FOREST DENSE DRY 
+   - Forge Biome Types: FOREST DRY DENSE 
 
 
 biomesoplenty:xeric_shrubland
@@ -861,7 +861,7 @@ biomesoplenty:xeric_shrubland
    - Height Variation: 0.087500006
    - Humidity: 0.1
    - Temperature: 1.75
-   - Forge Biome Types: HOT SANDY LUSH SPARSE SAVANNA DRY 
+   - Forge Biome Types: SPARSE LUSH DRY HOT SANDY SAVANNA 
 
 
 biomesoplenty:alps_foothills
@@ -870,7 +870,7 @@ biomesoplenty:alps_foothills
    - Height Variation: 1.45625
    - Humidity: 0.3
    - Temperature: -0.25
-   - Forge Biome Types: SNOWY COLD FOREST MOUNTAIN SPARSE DRY 
+   - Forge Biome Types: FOREST SPARSE SNOWY DRY MOUNTAIN COLD 
 
 
 biomesoplenty:mountain_foothills
@@ -879,7 +879,7 @@ biomesoplenty:mountain_foothills
    - Height Variation: 0.41875
    - Humidity: 0.1
    - Temperature: 0.5
-   - Forge Biome Types: HILLS FOREST MOUNTAIN SPARSE DRY 
+   - Forge Biome Types: FOREST SPARSE DRY MOUNTAIN HILLS 
 
 
 biomesoplenty:redwood_forest_edge
@@ -897,7 +897,7 @@ biomesoplenty:pasture
    - Height Variation: 0.00625
    - Humidity: 0.3
    - Temperature: 0.8
-   - Forge Biome Types: PLAINS SPARSE DRY 
+   - Forge Biome Types: SPARSE DRY PLAINS 
 
 
 biomesoplenty:glacier
@@ -906,7 +906,7 @@ biomesoplenty:glacier
    - Height Variation: 0.118750006
    - Humidity: 0.2
    - Temperature: -0.5
-   - Forge Biome Types: SNOWY COLD WASTELAND 
+   - Forge Biome Types: SNOWY WASTELAND COLD 
 
 
 biomesoplenty:oasis
@@ -915,7 +915,7 @@ biomesoplenty:oasis
    - Height Variation: 0.025
    - Humidity: 0.5
    - Temperature: 2.0
-   - Forge Biome Types: WET JUNGLE HOT SANDY LUSH SPARSE 
+   - Forge Biome Types: SPARSE JUNGLE LUSH HOT SANDY WET 
 
 
 biomesoplenty:snowy_tundra
@@ -924,7 +924,7 @@ biomesoplenty:snowy_tundra
    - Height Variation: 0.043750003
    - Humidity: 0.5
    - Temperature: 0.0
-   - Forge Biome Types: WET SNOWY COLD DEAD WASTELAND SPARSE 
+   - Forge Biome Types: SPARSE SNOWY WASTELAND DEAD WET COLD 
 
 
 biomesoplenty:coral_reef
@@ -960,7 +960,7 @@ biomesoplenty:tropical_island
    - Height Variation: 0.23125
    - Humidity: 1.0
    - Temperature: 0.95
-   - Forge Biome Types: WET WATER JUNGLE DENSE LUSH 
+   - Forge Biome Types: WATER JUNGLE LUSH WET DENSE 
 
 
 biomesoplenty:volcanic_island
@@ -969,7 +969,7 @@ biomesoplenty:volcanic_island
    - Height Variation: 1.41875
    - Humidity: 0.2
    - Temperature: 1.2
-   - Forge Biome Types: DEAD WATER HOT WASTELAND MOUNTAIN DRY 
+   - Forge Biome Types: WATER DEAD WASTELAND DRY MOUNTAIN HOT 
 
 
 biomesoplenty:flower_island
@@ -978,7 +978,7 @@ biomesoplenty:flower_island
    - Height Variation: 0.2
    - Humidity: 0.8
    - Temperature: 0.8
-   - Forge Biome Types: PLAINS WATER DENSE LUSH MAGICAL 
+   - Forge Biome Types: WATER MAGICAL LUSH PLAINS DENSE 
 
 
 biomesoplenty:corrupted_sands
@@ -987,7 +987,7 @@ biomesoplenty:corrupted_sands
    - Height Variation: 0.2
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: NETHER HOT DENSE SANDY DRY 
+   - Forge Biome Types: DRY HOT NETHER SANDY DENSE 
 
 
 biomesoplenty:fungi_forest
@@ -996,7 +996,7 @@ biomesoplenty:fungi_forest
    - Height Variation: 0.2
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: NETHER HOT DENSE MUSHROOM 
+   - Forge Biome Types: MUSHROOM HOT NETHER DENSE 
 
 
 biomesoplenty:phantasmagoric_inferno
@@ -1005,7 +1005,7 @@ biomesoplenty:phantasmagoric_inferno
    - Height Variation: 0.2
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: NETHER HOT WASTELAND MAGICAL DRY SPOOKY 
+   - Forge Biome Types: MAGICAL WASTELAND DRY HOT NETHER SPOOKY 
 
 
 biomesoplenty:undergarden
@@ -1014,7 +1014,7 @@ biomesoplenty:undergarden
    - Height Variation: 0.2
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: NETHER HOT LUSH 
+   - Forge Biome Types: LUSH HOT NETHER 
 
 
 biomesoplenty:visceral_heap
@@ -1023,133 +1023,133 @@ biomesoplenty:visceral_heap
    - Height Variation: 0.2
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: NETHER WET HOT 
+   - Forge Biome Types: HOT NETHER WET 
 
 
-jeid:error_biome
+journey:biome_euca_gold
    - Id: 113
    - Height Base: 0.1
    - Height Variation: 0.2
+   - Humidity: 0.0
+   - Temperature: 0.5
+   - Forge Biome Types: MAGICAL MOUNTAIN 
+
+
+journey:biome_euca_silver
+   - Id: 114
+   - Height Base: 0.125
+   - Height Variation: 0.05
+   - Humidity: 0.0
+   - Temperature: 0.5
+   - Forge Biome Types: MAGICAL MOUNTAIN 
+
+
+journey:biome_euca_goldite_grains
+   - Id: 115
+   - Height Base: 0.125
+   - Height Variation: 0.05
+   - Humidity: 0.0
+   - Temperature: 0.5
+   - Forge Biome Types: MAGICAL MOUNTAIN 
+
+
+journey:biome_boil_charred_fields
+   - Id: 116
+   - Height Base: -2.0
+   - Height Variation: 0.0
    - Humidity: 0.5
    - Temperature: 0.5
-   - Forge Biome Types: PLAINS 
+   - Forge Biome Types: HOT 
 
 
-pvj:prairie
-   - Id: 114
-   - Height Base: 0.018
-   - Height Variation: 0.005
-   - Humidity: 0.25
-   - Temperature: 0.8
-   - Forge Biome Types: PLAINS 
-
-
-pvj:redwoods
-   - Id: 115
-   - Height Base: 0.19
-   - Height Variation: 0.31
-   - Humidity: 0.6
-   - Temperature: 0.45
-   - Forge Biome Types: FOREST CONIFEROUS 
-
-
-pvj:redwood_peaks
-   - Id: 116
-   - Height Base: 0.8
-   - Height Variation: 0.75
-   - Humidity: 0.55
-   - Temperature: 0.45
-   - Forge Biome Types: FOREST CONIFEROUS MOUNTAIN 
-
-
-pvj:willow_swamp
+journey:biome_boil_scorched_wasteland
    - Id: 117
-   - Height Base: -0.2
-   - Height Variation: 0.05
-   - Humidity: 0.9
-   - Temperature: 0.8
-   - Forge Biome Types: WET SWAMP LUSH 
+   - Height Base: -5.0
+   - Height Variation: 0.1
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: HOT 
 
 
-pvj:boreal_forest
+journey:biome_boil_boiling_sands
    - Id: 118
-   - Height Base: 0.2
-   - Height Variation: 0.1
-   - Humidity: 0.8
-   - Temperature: 0.25
-   - Forge Biome Types: COLD FOREST CONIFEROUS 
+   - Height Base: 0.0
+   - Height Variation: 0.0
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: HOT 
 
 
-pvj:snowy_boreal_forest
+journey:biome_boil_boiling_point
    - Id: 119
-   - Height Base: 0.2
+   - Height Base: 0.125
    - Height Variation: 0.1
-   - Humidity: 0.4
-   - Temperature: -0.5
-   - Forge Biome Types: SNOWY COLD FOREST CONIFEROUS 
+   - Humidity: 0.0
+   - Temperature: 0.5
+   - Forge Biome Types: HOT 
 
 
-pvj:aspen_grove
+journey:biome_cloudia
    - Id: 120
    - Height Base: 0.1
    - Height Variation: 0.2
-   - Humidity: 0.8
-   - Temperature: 0.7
-   - Forge Biome Types: FOREST 
-
-
-pvj:overgrown_spires
-   - Id: 121
-   - Height Base: 0.2
-   - Height Variation: 0.3
-   - Humidity: 0.9
-   - Temperature: 0.95
-   - Forge Biome Types: JUNGLE FOREST 
-
-
-pvj:blossoming_fields
-   - Id: 122
-   - Height Base: 0.009
-   - Height Variation: 0.001
-   - Humidity: 0.55
-   - Temperature: 0.5
-   - Forge Biome Types: FOREST 
-
-
-randomthings:spectral
-   - Id: 123
-   - Height Base: 0.1
-   - Height Variation: 0.2
    - Humidity: 0.5
-   - Temperature: 0.2
+   - Temperature: 0.5
    - Forge Biome Types: MAGICAL 
 
 
-thaumcraft:magical_forest
-   - Id: 124
+journey:biome_corba_forest
+   - Id: 121
    - Height Base: 0.2
-   - Height Variation: 0.3
-   - Humidity: 0.4
-   - Temperature: 0.8
-   - Forge Biome Types: FOREST MAGICAL 
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: DEAD DRY PLAINS 
 
 
-thaumcraft:eerie
-   - Id: 125
-   - Height Base: 0.125
+journey:biome_corba_plains
+   - Id: 122
+   - Height Base: 0.01
+   - Height Variation: 0.05
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: DEAD DRY PLAINS 
+
+
+journey:biome_corba_hills
+   - Id: 123
+   - Height Base: 0.2
    - Height Variation: 0.4
    - Humidity: 0.5
-   - Temperature: 0.8
-   - Forge Biome Types: MAGICAL SPOOKY 
+   - Temperature: 0.5
+   - Forge Biome Types: DEAD DRY PLAINS 
 
 
-thaumcraft:eldritch
+journey:biome_corba_swamp
+   - Id: 124
+   - Height Base: 0.2
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: MAGICAL PLAINS WET 
+
+
+journey:biome_corba_bogweed_fields
+   - Id: 125
+   - Height Base: 0.2
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: MAGICAL PLAINS WET 
+
+
+journey:biome_depths
    - Id: 126
-   - Height Base: 0.125
-   - Height Variation: 0.15
-   - Humidity: 0.2
-   - Temperature: 0.8
-   - Forge Biome Types: MAGICAL SPOOKY END 
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: MAGICAL SPOOKY 
 
 
 minecraft:void
@@ -1161,13 +1161,13 @@ minecraft:void
    - Forge Biome Types: VOID 
 
 
-tofucraft:zunda_tofuplain
+journey:biome_frozen_lands
    - Id: 128
    - Height Base: 0.1
-   - Height Variation: 0.1
-   - Humidity: 0.917
-   - Temperature: 0.422
-   - Forge Biome Types: WET PLAINS 
+   - Height Variation: 0.5
+   - Humidity: 0.5
+   - Temperature: 0.0
+   - Forge Biome Types: COLD 
 
 
 minecraft:mutated_plains
@@ -1176,7 +1176,7 @@ minecraft:mutated_plains
    - Height Variation: 0.05
    - Humidity: 0.4
    - Temperature: 0.8
-   - Forge Biome Types: PLAINS RARE 
+   - Forge Biome Types: RARE PLAINS 
 
 
 minecraft:mutated_desert
@@ -1185,7 +1185,7 @@ minecraft:mutated_desert
    - Height Variation: 0.25
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: HOT RARE SANDY DRY 
+   - Forge Biome Types: RARE DRY HOT SANDY 
 
 
 minecraft:mutated_extreme_hills
@@ -1194,7 +1194,7 @@ minecraft:mutated_extreme_hills
    - Height Variation: 0.5
    - Humidity: 0.3
    - Temperature: 0.2
-   - Forge Biome Types: RARE MOUNTAIN SPARSE 
+   - Forge Biome Types: SPARSE RARE MOUNTAIN 
 
 
 minecraft:mutated_forest
@@ -1203,7 +1203,7 @@ minecraft:mutated_forest
    - Height Variation: 0.4
    - Humidity: 0.8
    - Temperature: 0.7
-   - Forge Biome Types: HILLS FOREST RARE 
+   - Forge Biome Types: FOREST RARE HILLS 
 
 
 minecraft:mutated_taiga
@@ -1212,7 +1212,7 @@ minecraft:mutated_taiga
    - Height Variation: 0.4
    - Humidity: 0.8
    - Temperature: 0.25
-   - Forge Biome Types: COLD FOREST CONIFEROUS RARE MOUNTAIN 
+   - Forge Biome Types: FOREST RARE CONIFEROUS MOUNTAIN COLD 
 
 
 minecraft:mutated_swampland
@@ -1221,52 +1221,52 @@ minecraft:mutated_swampland
    - Height Variation: 0.3
    - Humidity: 0.9
    - Temperature: 0.8
-   - Forge Biome Types: WET HILLS SWAMP RARE 
+   - Forge Biome Types: RARE SWAMP WET HILLS 
 
 
-tofucraft:tofuplain
+journey:biome_terrania
    - Id: 135
-   - Height Base: 0.1
-   - Height Variation: 0.1
-   - Humidity: 0.917
-   - Temperature: 0.422
-   - Forge Biome Types: WET PLAINS 
+   - Height Base: 0.2
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: MAGICAL SPOOKY 
 
 
-tofucraft:tofubuilding
+journey:biome_enchanted_shroom_forest
    - Id: 136
-   - Height Base: 0.05
-   - Height Variation: 0.1
-   - Humidity: 0.917
-   - Temperature: 0.422
-   - Forge Biome Types: WET PLAINS 
+   - Height Base: 0.0
+   - Height Variation: 0.0
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: MAGICAL SPOOKY 
 
 
-tofucraft:tofuforest
+journey:biome_senterian_labyrinth
    - Id: 137
-   - Height Base: 0.05
-   - Height Variation: 0.1
-   - Humidity: 0.969
-   - Temperature: 0.475
-   - Forge Biome Types: WET PLAINS 
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: MAGICAL SPOOKY 
 
 
-tofucraft:tofuforest_hills
+jeid:error_biome
    - Id: 138
-   - Height Base: 0.3
-   - Height Variation: 0.7
-   - Humidity: 0.969
-   - Temperature: 0.475
-   - Forge Biome Types: WET HILLS 
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: PLAINS 
 
 
-tofucraft:tofuleek_plain
+mist:up_meadow
    - Id: 139
-   - Height Base: 0.05
-   - Height Variation: 0.1
-   - Humidity: 0.934
-   - Temperature: 0.51
-   - Forge Biome Types: WET PLAINS 
+   - Height Base: 3.6999998
+   - Height Variation: 0.02
+   - Humidity: 0.4
+   - Temperature: 1.3000001
+   - Forge Biome Types: PLAINS 
 
 
 minecraft:mutated_ice_flats
@@ -1275,79 +1275,79 @@ minecraft:mutated_ice_flats
    - Height Variation: 0.45000002
    - Humidity: 0.5
    - Temperature: 0.0
-   - Forge Biome Types: SNOWY COLD HILLS RARE 
+   - Forge Biome Types: RARE SNOWY HILLS COLD 
 
 
-tofucraft:tofuplain_hills
+mist:up_forest
    - Id: 141
-   - Height Base: 0.1
-   - Height Variation: 0.1
-   - Humidity: 0.917
-   - Temperature: 0.422
-   - Forge Biome Types: WET PLAINS 
-
-
-tofucraft:tofuriver
-   - Id: 142
-   - Height Base: -0.5
-   - Height Variation: 0.0
-   - Humidity: 0.934
-   - Temperature: 0.51
-   - Forge Biome Types: WET WATER SWAMP RIVER 
-
-
-tofucraft:tofumountain
-   - Id: 143
-   - Height Base: 0.3
-   - Height Variation: 1.4
-   - Humidity: 0.759
-   - Temperature: 0.317
-   - Forge Biome Types: HILLS 
-
-
-twilightforest:twilight_lake
-   - Id: 144
-   - Height Base: -1.8
-   - Height Variation: 0.1
-   - Humidity: 1.0
-   - Temperature: 0.66
-   - Forge Biome Types: TWILIGHT WATER OCEAN 
-
-
-twilightforest:twilight_forest
-   - Id: 145
-   - Height Base: 0.1
-   - Height Variation: 0.2
+   - Height Base: 3.75
+   - Height Variation: 0.035
    - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: TWILIGHT FOREST 
+   - Temperature: 1.2
+   - Forge Biome Types: FOREST 
 
 
-twilightforest:dense_twilight_forest
-   - Id: 146
-   - Height Base: 0.2
-   - Height Variation: 0.2
-   - Humidity: 0.8
-   - Temperature: 0.7
-   - Forge Biome Types: TWILIGHT FOREST DENSE 
-
-
-twilightforest:twilight_highlands
-   - Id: 147
-   - Height Base: 3.5
+mist:up_dense_forest
+   - Id: 142
+   - Height Base: 3.75
    - Height Variation: 0.05
-   - Humidity: 0.7
-   - Temperature: 0.4
-   - Forge Biome Types: TWILIGHT FOREST CONIFEROUS MOUNTAIN 
+   - Humidity: 0.6
+   - Temperature: 1.1
+   - Forge Biome Types: FOREST WET DENSE 
 
 
-twilightforest:mushroom_forest
+mist:up_savanna
+   - Id: 143
+   - Height Base: 3.6999998
+   - Height Variation: 0.04
+   - Humidity: 0.2
+   - Temperature: 1.6
+   - Forge Biome Types: DRY HOT SAVANNA 
+
+
+mist:up_desert
+   - Id: 144
+   - Height Base: 3.6999998
+   - Height Variation: 0.0
+   - Humidity: 0.0
+   - Temperature: 2.1
+   - Forge Biome Types: DRY HOT SANDY 
+
+
+mist:up_dunes
+   - Id: 145
+   - Height Base: 3.8
+   - Height Variation: 0.0
+   - Humidity: 0.1
+   - Temperature: 1.9
+   - Forge Biome Types: DRY HOT SANDY HILLS 
+
+
+mist:up_snowfields
+   - Id: 146
+   - Height Base: 3.6999998
+   - Height Variation: 0.02
+   - Humidity: 0.0
+   - Temperature: 0.1
+   - Forge Biome Types: SNOWY CONIFEROUS PLAINS COLD 
+
+
+mist:up_taiga
+   - Id: 147
+   - Height Base: 3.6999998
+   - Height Variation: 0.03
+   - Humidity: 0.2
+   - Temperature: 0.1
+   - Forge Biome Types: FOREST SNOWY CONIFEROUS COLD 
+
+
+mist:up_hilly_taiga
    - Id: 148
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.8
-   - Temperature: 0.8
-   - Forge Biome Types: TWILIGHT FOREST MUSHROOM 
+   - Height Base: 3.8
+   - Height Variation: 0.07
+   - Humidity: 0.3
+   - Temperature: 0.1
+   - Forge Biome Types: FOREST SNOWY CONIFEROUS HILLS COLD 
 
 
 minecraft:mutated_jungle
@@ -1356,16 +1356,16 @@ minecraft:mutated_jungle
    - Height Variation: 0.4
    - Humidity: 0.9
    - Temperature: 0.95
-   - Forge Biome Types: WET JUNGLE HOT DENSE RARE MOUNTAIN 
+   - Forge Biome Types: JUNGLE RARE MOUNTAIN HOT WET DENSE 
 
 
-twilightforest:twilight_swamp
+mist:up_swamp
    - Id: 150
-   - Height Base: -0.125
-   - Height Variation: 0.125
+   - Height Base: 3.6
+   - Height Variation: 0.0
    - Humidity: 0.9
-   - Temperature: 0.8
-   - Forge Biome Types: WET TWILIGHT SWAMP 
+   - Temperature: 0.90000004
+   - Forge Biome Types: SWAMP WET 
 
 
 minecraft:mutated_jungle_edge
@@ -1374,34 +1374,34 @@ minecraft:mutated_jungle_edge
    - Height Variation: 0.4
    - Humidity: 0.8
    - Temperature: 0.95
-   - Forge Biome Types: JUNGLE HILLS HOT RARE SPARSE 
+   - Forge Biome Types: SPARSE JUNGLE RARE HOT HILLS 
 
 
-twilightforest:twilight_stream
+mist:up_swampy_meadow
    - Id: 152
-   - Height Base: -0.5
-   - Height Variation: 0.0
-   - Humidity: 0.1
-   - Temperature: 0.5
-   - Forge Biome Types: TWILIGHT WATER RIVER 
+   - Height Base: 3.6
+   - Height Variation: 0.01
+   - Humidity: 0.7
+   - Temperature: 1.1
+   - Forge Biome Types: SWAMP PLAINS WET 
 
 
-twilightforest:snowy_forest
+mist:up_swampy_forest
    - Id: 153
-   - Height Base: 0.2
-   - Height Variation: 0.2
+   - Height Base: 3.6
+   - Height Variation: 0.03
    - Humidity: 0.9
-   - Temperature: 0.09
-   - Forge Biome Types: TWILIGHT SNOWY COLD FOREST CONIFEROUS 
+   - Temperature: 0.70000005
+   - Forge Biome Types: FOREST SWAMP WET 
 
 
-twilightforest:twilight_glacier
+mist:up_jungle
    - Id: 154
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.1
-   - Temperature: 0.0
-   - Forge Biome Types: TWILIGHT SNOWY COLD WASTELAND 
+   - Height Base: 3.8
+   - Height Variation: 0.05
+   - Humidity: 0.9
+   - Temperature: 1.5
+   - Forge Biome Types: FOREST JUNGLE LUSH WET 
 
 
 minecraft:mutated_birch_forest
@@ -1410,7 +1410,7 @@ minecraft:mutated_birch_forest
    - Height Variation: 0.4
    - Humidity: 0.6
    - Temperature: 0.6
-   - Forge Biome Types: SUPER_BIRCH_TREES HILLS FOREST DENSE RARE THEMED_TREES 
+   - Forge Biome Types: FOREST RARE SUPER_BIRCH_TREES THEMED_TREES HILLS DENSE 
 
 
 minecraft:mutated_birch_forest_hills
@@ -1419,7 +1419,7 @@ minecraft:mutated_birch_forest_hills
    - Height Variation: 0.5
    - Humidity: 0.6
    - Temperature: 0.6
-   - Forge Biome Types: SUPER_BIRCH_TREES FOREST DENSE RARE MOUNTAIN THEMED_TREES 
+   - Forge Biome Types: FOREST RARE SUPER_BIRCH_TREES MOUNTAIN THEMED_TREES DENSE 
 
 
 minecraft:mutated_roofed_forest
@@ -1428,7 +1428,7 @@ minecraft:mutated_roofed_forest
    - Height Variation: 0.4
    - Humidity: 0.8
    - Temperature: 0.7
-   - Forge Biome Types: FOREST DENSE RARE MOUNTAIN SPOOKY 
+   - Forge Biome Types: FOREST RARE MOUNTAIN SPOOKY DENSE 
 
 
 minecraft:mutated_taiga_cold
@@ -1437,16 +1437,16 @@ minecraft:mutated_taiga_cold
    - Height Variation: 0.4
    - Humidity: 0.4
    - Temperature: -0.5
-   - Forge Biome Types: SNOWY COLD FOREST CONIFEROUS RARE MOUNTAIN 
+   - Forge Biome Types: FOREST RARE SNOWY CONIFEROUS MOUNTAIN COLD 
 
 
-twilightforest:twilight_clearing
+mist:up_jungle_edge
    - Id: 159
-   - Height Base: 0.125
-   - Height Variation: 0.05
-   - Humidity: 0.4
-   - Temperature: 0.8
-   - Forge Biome Types: TWILIGHT PLAINS SPARSE 
+   - Height Base: 3.6999998
+   - Height Variation: 0.02
+   - Humidity: 0.8
+   - Temperature: 1.6
+   - Forge Biome Types: JUNGLE WET 
 
 
 minecraft:mutated_redwood_taiga
@@ -1455,7 +1455,7 @@ minecraft:mutated_redwood_taiga
    - Height Variation: 0.2
    - Humidity: 0.8
    - Temperature: 0.25
-   - Forge Biome Types: FOREST DENSE RARE MEGA_TAIGA_SPRUCE_TREES THEMED_TREES 
+   - Forge Biome Types: FOREST RARE MEGA_TAIGA_SPRUCE_TREES THEMED_TREES DENSE 
 
 
 minecraft:mutated_redwood_taiga_hills
@@ -1464,7 +1464,7 @@ minecraft:mutated_redwood_taiga_hills
    - Height Variation: 0.2
    - Humidity: 0.8
    - Temperature: 0.25
-   - Forge Biome Types: HILLS FOREST DENSE RARE MEGA_TAIGA_SPRUCE_TREES THEMED_TREES 
+   - Forge Biome Types: FOREST RARE MEGA_TAIGA_SPRUCE_TREES THEMED_TREES HILLS DENSE 
 
 
 minecraft:mutated_extreme_hills_with_trees
@@ -1473,7 +1473,7 @@ minecraft:mutated_extreme_hills_with_trees
    - Height Variation: 0.5
    - Humidity: 0.3
    - Temperature: 0.2
-   - Forge Biome Types: RARE MOUNTAIN SPARSE 
+   - Forge Biome Types: SPARSE RARE MOUNTAIN 
 
 
 minecraft:mutated_savanna
@@ -1482,7 +1482,7 @@ minecraft:mutated_savanna
    - Height Variation: 1.225
    - Humidity: 0.0
    - Temperature: 1.1
-   - Forge Biome Types: HOT RARE MOUNTAIN SPARSE DRY SAVANNA 
+   - Forge Biome Types: SPARSE RARE DRY MOUNTAIN HOT SAVANNA 
 
 
 minecraft:mutated_savanna_rock
@@ -1491,7 +1491,7 @@ minecraft:mutated_savanna_rock
    - Height Variation: 1.2125001
    - Humidity: 0.0
    - Temperature: 1.0
-   - Forge Biome Types: HILLS HOT RARE SPARSE DRY SAVANNA 
+   - Forge Biome Types: SPARSE RARE DRY HOT HILLS SAVANNA 
 
 
 minecraft:mutated_mesa
@@ -1500,7 +1500,7 @@ minecraft:mutated_mesa
    - Height Variation: 0.2
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: HOT RARE MOUNTAIN SPARSE DRY 
+   - Forge Biome Types: SPARSE RARE DRY MOUNTAIN HOT 
 
 
 minecraft:mutated_mesa_rock
@@ -1509,7 +1509,7 @@ minecraft:mutated_mesa_rock
    - Height Variation: 0.3
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: HILLS HOT RARE SPARSE DRY 
+   - Forge Biome Types: SPARSE RARE DRY HOT HILLS 
 
 
 minecraft:mutated_mesa_clear_rock
@@ -1518,101 +1518,533 @@ minecraft:mutated_mesa_clear_rock
    - Height Variation: 0.3
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: HOT RARE MOUNTAIN SPARSE DRY 
+   - Forge Biome Types: SPARSE RARE DRY MOUNTAIN HOT 
+
+
+mist:up_jungle_hills
+   - Id: 168
+   - Height Base: 3.85
+   - Height Variation: 0.2
+   - Humidity: 0.9
+   - Temperature: 1.5
+   - Forge Biome Types: FOREST JUNGLE LUSH HILLS 
+
+
+mist:up_lake
+   - Id: 169
+   - Height Base: 3.3999999
+   - Height Variation: 0.0
+   - Humidity: 0.6
+   - Temperature: 1.3000001
+   - Forge Biome Types: WATER RIVER WET 
+
+
+mist:up_lowland
+   - Id: 170
+   - Height Base: 3.4499998
+   - Height Variation: 0.01
+   - Humidity: 0.9
+   - Temperature: 0.70000005
+   - Forge Biome Types: JUNGLE WET 
+
+
+mist:up_cold_lowland
+   - Id: 171
+   - Height Base: 3.4499998
+   - Height Variation: 0.01
+   - Humidity: 0.5
+   - Temperature: -0.3
+   - Forge Biome Types: WATER SNOWY RIVER WET COLD 
+
+
+mist:up_marsh
+   - Id: 172
+   - Height Base: 3.4499998
+   - Height Variation: 0.01
+   - Humidity: 0.9
+   - Temperature: 0.70000005
+   - Forge Biome Types: WATER RIVER WET 
+
+
+mist:border_plains
+   - Id: 173
+   - Height Base: 3.6
+   - Height Variation: 0.0
+   - Humidity: 0.4
+   - Temperature: 1.3000001
+   - Forge Biome Types: WASTELAND PLAINS 
+
+
+mist:border_desert
+   - Id: 174
+   - Height Base: 3.6
+   - Height Variation: 0.0
+   - Humidity: 0.2
+   - Temperature: 1.6
+   - Forge Biome Types: WASTELAND DRY HOT SANDY 
+
+
+mist:border_cold
+   - Id: 175
+   - Height Base: 3.6
+   - Height Variation: 0.0
+   - Humidity: 0.0
+   - Temperature: 0.1
+   - Forge Biome Types: SNOWY WASTELAND COLD 
+
+
+mist:border_swamp
+   - Id: 176
+   - Height Base: 3.6
+   - Height Variation: 0.0
+   - Humidity: 0.5
+   - Temperature: 1.1
+   - Forge Biome Types: WASTELAND WET 
+
+
+mist:border_jungle
+   - Id: 177
+   - Height Base: 3.6
+   - Height Variation: 0.0
+   - Humidity: 0.7
+   - Temperature: 1.6
+   - Forge Biome Types: JUNGLE WASTELAND WET 
+
+
+mist:border_down
+   - Id: 178
+   - Height Base: -1.4000001
+   - Height Variation: 0.05
+   - Humidity: 0.5
+   - Temperature: 1.5
+   - Forge Biome Types: DEAD SPOOKY 
+
+
+mist:separator
+   - Id: 179
+   - Height Base: 0.29999995
+   - Height Variation: 0.0
+   - Humidity: 0.5
+   - Temperature: 1.0
+   - Forge Biome Types: DEAD SPOOKY 
+
+
+mist:down
+   - Id: 180
+   - Height Base: -1.7
+   - Height Variation: 0.05
+   - Humidity: 0.5
+   - Temperature: 1.5
+   - Forge Biome Types: DEAD SPOOKY 
+
+
+mist:down_forest
+   - Id: 181
+   - Height Base: -1.5
+   - Height Variation: 0.05
+   - Humidity: 0.7
+   - Temperature: 1.3
+   - Forge Biome Types: DEAD SPOOKY 
+
+
+mist:down_swamp
+   - Id: 182
+   - Height Base: -1.7
+   - Height Variation: 0.01
+   - Humidity: 0.9
+   - Temperature: 1.7
+   - Forge Biome Types: DEAD SPOOKY 
+
+
+mist:down_center
+   - Id: 183
+   - Height Base: -1.6
+   - Height Variation: 0.05
+   - Humidity: 0.1
+   - Temperature: 1.9
+   - Forge Biome Types: DEAD SPOOKY 
+
+
+pvj:prairie
+   - Id: 184
+   - Height Base: 0.018
+   - Height Variation: 0.005
+   - Humidity: 0.25
+   - Temperature: 0.8
+   - Forge Biome Types: PLAINS 
+
+
+pvj:redwoods
+   - Id: 185
+   - Height Base: 0.19
+   - Height Variation: 0.31
+   - Humidity: 0.6
+   - Temperature: 0.45
+   - Forge Biome Types: FOREST CONIFEROUS 
+
+
+pvj:redwood_peaks
+   - Id: 186
+   - Height Base: 0.8
+   - Height Variation: 0.75
+   - Humidity: 0.55
+   - Temperature: 0.45
+   - Forge Biome Types: FOREST CONIFEROUS MOUNTAIN 
+
+
+pvj:willow_swamp
+   - Id: 187
+   - Height Base: -0.2
+   - Height Variation: 0.05
+   - Humidity: 0.9
+   - Temperature: 0.8
+   - Forge Biome Types: LUSH SWAMP WET 
+
+
+pvj:boreal_forest
+   - Id: 188
+   - Height Base: 0.2
+   - Height Variation: 0.1
+   - Humidity: 0.8
+   - Temperature: 0.25
+   - Forge Biome Types: FOREST CONIFEROUS COLD 
+
+
+pvj:snowy_boreal_forest
+   - Id: 189
+   - Height Base: 0.2
+   - Height Variation: 0.1
+   - Humidity: 0.4
+   - Temperature: -0.5
+   - Forge Biome Types: FOREST SNOWY CONIFEROUS COLD 
+
+
+pvj:aspen_grove
+   - Id: 190
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.8
+   - Temperature: 0.7
+   - Forge Biome Types: FOREST 
+
+
+pvj:overgrown_spires
+   - Id: 191
+   - Height Base: 0.2
+   - Height Variation: 0.3
+   - Humidity: 0.9
+   - Temperature: 0.95
+   - Forge Biome Types: FOREST JUNGLE 
+
+
+pvj:blossoming_fields
+   - Id: 192
+   - Height Base: 0.009
+   - Height Variation: 0.001
+   - Humidity: 0.55
+   - Temperature: 0.5
+   - Forge Biome Types: FOREST 
+
+
+randomthings:spectral
+   - Id: 193
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.2
+   - Forge Biome Types: MAGICAL 
+
+
+thaumcraft:magical_forest
+   - Id: 194
+   - Height Base: 0.2
+   - Height Variation: 0.3
+   - Humidity: 0.4
+   - Temperature: 0.8
+   - Forge Biome Types: FOREST MAGICAL 
+
+
+thaumcraft:eerie
+   - Id: 195
+   - Height Base: 0.125
+   - Height Variation: 0.4
+   - Humidity: 0.5
+   - Temperature: 0.8
+   - Forge Biome Types: MAGICAL SPOOKY 
+
+
+thaumcraft:eldritch
+   - Id: 196
+   - Height Base: 0.125
+   - Height Variation: 0.15
+   - Humidity: 0.2
+   - Temperature: 0.8
+   - Forge Biome Types: END MAGICAL SPOOKY 
+
+
+tofucraft:zunda_tofuplain
+   - Id: 197
+   - Height Base: 0.1
+   - Height Variation: 0.1
+   - Humidity: 0.917
+   - Temperature: 0.422
+   - Forge Biome Types: PLAINS WET 
+
+
+tofucraft:tofuplain
+   - Id: 198
+   - Height Base: 0.1
+   - Height Variation: 0.1
+   - Humidity: 0.917
+   - Temperature: 0.422
+   - Forge Biome Types: PLAINS WET 
+
+
+tofucraft:tofubuilding
+   - Id: 199
+   - Height Base: 0.05
+   - Height Variation: 0.1
+   - Humidity: 0.917
+   - Temperature: 0.422
+   - Forge Biome Types: PLAINS WET 
+
+
+tofucraft:tofuforest
+   - Id: 200
+   - Height Base: 0.05
+   - Height Variation: 0.1
+   - Humidity: 0.969
+   - Temperature: 0.475
+   - Forge Biome Types: PLAINS WET 
+
+
+tofucraft:tofuforest_hills
+   - Id: 201
+   - Height Base: 0.3
+   - Height Variation: 0.7
+   - Humidity: 0.969
+   - Temperature: 0.475
+   - Forge Biome Types: WET HILLS 
+
+
+tofucraft:tofuleek_plain
+   - Id: 202
+   - Height Base: 0.05
+   - Height Variation: 0.1
+   - Humidity: 0.934
+   - Temperature: 0.51
+   - Forge Biome Types: PLAINS WET 
+
+
+tofucraft:tofuplain_hills
+   - Id: 203
+   - Height Base: 0.1
+   - Height Variation: 0.1
+   - Humidity: 0.917
+   - Temperature: 0.422
+   - Forge Biome Types: PLAINS WET 
+
+
+tofucraft:tofuriver
+   - Id: 204
+   - Height Base: -0.5
+   - Height Variation: 0.0
+   - Humidity: 0.934
+   - Temperature: 0.51
+   - Forge Biome Types: WATER SWAMP RIVER WET 
+
+
+tofucraft:tofumountain
+   - Id: 205
+   - Height Base: 0.3
+   - Height Variation: 1.4
+   - Humidity: 0.759
+   - Temperature: 0.317
+   - Forge Biome Types: HILLS 
+
+
+twilightforest:twilight_lake
+   - Id: 206
+   - Height Base: -1.8
+   - Height Variation: 0.1
+   - Humidity: 1.0
+   - Temperature: 0.66
+   - Forge Biome Types: WATER OCEAN TWILIGHT 
+
+
+twilightforest:twilight_forest
+   - Id: 207
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: FOREST TWILIGHT 
+
+
+twilightforest:dense_twilight_forest
+   - Id: 208
+   - Height Base: 0.2
+   - Height Variation: 0.2
+   - Humidity: 0.8
+   - Temperature: 0.7
+   - Forge Biome Types: FOREST DENSE TWILIGHT 
+
+
+twilightforest:twilight_highlands
+   - Id: 209
+   - Height Base: 3.5
+   - Height Variation: 0.05
+   - Humidity: 0.7
+   - Temperature: 0.4
+   - Forge Biome Types: FOREST CONIFEROUS MOUNTAIN TWILIGHT 
+
+
+twilightforest:mushroom_forest
+   - Id: 210
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.8
+   - Temperature: 0.8
+   - Forge Biome Types: FOREST MUSHROOM TWILIGHT 
+
+
+twilightforest:twilight_swamp
+   - Id: 211
+   - Height Base: -0.125
+   - Height Variation: 0.125
+   - Humidity: 0.9
+   - Temperature: 0.8
+   - Forge Biome Types: SWAMP WET TWILIGHT 
+
+
+twilightforest:twilight_stream
+   - Id: 212
+   - Height Base: -0.5
+   - Height Variation: 0.0
+   - Humidity: 0.1
+   - Temperature: 0.5
+   - Forge Biome Types: WATER RIVER TWILIGHT 
+
+
+twilightforest:snowy_forest
+   - Id: 213
+   - Height Base: 0.2
+   - Height Variation: 0.2
+   - Humidity: 0.9
+   - Temperature: 0.09
+   - Forge Biome Types: FOREST SNOWY CONIFEROUS TWILIGHT COLD 
+
+
+twilightforest:twilight_glacier
+   - Id: 214
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.1
+   - Temperature: 0.0
+   - Forge Biome Types: SNOWY WASTELAND TWILIGHT COLD 
+
+
+twilightforest:twilight_clearing
+   - Id: 215
+   - Height Base: 0.125
+   - Height Variation: 0.05
+   - Humidity: 0.4
+   - Temperature: 0.8
+   - Forge Biome Types: SPARSE PLAINS TWILIGHT 
 
 
 twilightforest:oak_savannah
-   - Id: 168
+   - Id: 216
    - Height Base: 0.2
    - Height Variation: 0.2
    - Humidity: 0.0
    - Temperature: 0.9
-   - Forge Biome Types: TWILIGHT FOREST SPARSE 
+   - Forge Biome Types: FOREST SPARSE TWILIGHT 
 
 
 twilightforest:firefly_forest
-   - Id: 169
+   - Id: 217
    - Height Base: 0.125
    - Height Variation: 0.05
    - Humidity: 1.0
    - Temperature: 0.5
-   - Forge Biome Types: TWILIGHT FOREST LUSH 
+   - Forge Biome Types: FOREST LUSH TWILIGHT 
 
 
 twilightforest:deep_mushroom_forest
-   - Id: 170
+   - Id: 218
    - Height Base: 0.125
    - Height Variation: 0.05
    - Humidity: 1.0
    - Temperature: 0.8
-   - Forge Biome Types: TWILIGHT FOREST MUSHROOM 
+   - Forge Biome Types: FOREST MUSHROOM TWILIGHT 
 
 
 twilightforest:dark_forest
-   - Id: 171
+   - Id: 219
    - Height Base: 0.125
    - Height Variation: 0.05
    - Humidity: 0.8
    - Temperature: 0.7
-   - Forge Biome Types: TWILIGHT FOREST DENSE SPOOKY 
+   - Forge Biome Types: FOREST SPOOKY DENSE TWILIGHT 
 
 
 twilightforest:enchanted_forest
-   - Id: 172
+   - Id: 220
    - Height Base: 0.1
    - Height Variation: 0.2
    - Humidity: 0.5
    - Temperature: 0.5
-   - Forge Biome Types: TWILIGHT FOREST MAGICAL 
+   - Forge Biome Types: FOREST MAGICAL TWILIGHT 
 
 
 twilightforest:fire_swamp
-   - Id: 173
+   - Id: 221
    - Height Base: 0.1
    - Height Variation: 0.2
    - Humidity: 0.4
    - Temperature: 1.0
-   - Forge Biome Types: TWILIGHT SWAMP HOT WASTELAND 
+   - Forge Biome Types: WASTELAND SWAMP HOT TWILIGHT 
 
 
 twilightforest:dark_forest_center
-   - Id: 174
+   - Id: 222
    - Height Base: 0.125
    - Height Variation: 0.05
    - Humidity: 0.5
    - Temperature: 0.5
-   - Forge Biome Types: TWILIGHT FOREST DENSE MAGICAL SPOOKY 
+   - Forge Biome Types: FOREST MAGICAL SPOOKY DENSE TWILIGHT 
 
 
 twilightforest:highlands_center
-   - Id: 175
+   - Id: 223
    - Height Base: 10.5
    - Height Variation: 0.025
    - Humidity: 0.2
    - Temperature: 0.3
-   - Forge Biome Types: TWILIGHT MESA DEAD WASTELAND DRY 
+   - Forge Biome Types: MESA DEAD WASTELAND DRY TWILIGHT 
 
 
 twilightforest:thornlands
-   - Id: 176
+   - Id: 224
    - Height Base: 6.0
    - Height Variation: 0.1
    - Humidity: 0.2
    - Temperature: 0.3
-   - Forge Biome Types: TWILIGHT DEAD HILLS WASTELAND DRY 
+   - Forge Biome Types: DEAD WASTELAND DRY HILLS TWILIGHT 
 
 
 twilightforest:spooky_forest
-   - Id: 177
+   - Id: 225
    - Height Base: 0.125
    - Height Variation: 0.05
    - Humidity: 1.0
    - Temperature: 0.5
-   - Forge Biome Types: TWILIGHT DEAD FOREST DENSE SPOOKY 
+   - Forge Biome Types: FOREST DEAD SPOOKY DENSE TWILIGHT 
 
 
 appliedenergistics2:storage_biome
-   - Id: 178
+   - Id: 226
    - Height Base: 0.1
    - Height Variation: 0.2
    - Humidity: 0.5
@@ -1620,17 +2052,26 @@ appliedenergistics2:storage_biome
    - Forge Biome Types: PLAINS COLD 
 
 
+iceandfire:glacier
+   - Id: 227
+   - Height Base: 2.125
+   - Height Variation: 0.025
+   - Humidity: 0.5
+   - Temperature: 0.0
+   - Forge Biome Types: SPARSE SNOWY DEAD WASTELAND COLD 
+
+
 defiledlands:desert_defiled
-   - Id: 179
+   - Id: 228
    - Height Base: 0.125
    - Height Variation: 0.05
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: HOT SANDY SPOOKY DRY 
+   - Forge Biome Types: DRY HOT SPOOKY SANDY 
 
 
 defiledlands:plains_defiled
-   - Id: 180
+   - Id: 229
    - Height Base: 0.125
    - Height Variation: 0.05
    - Humidity: 0.4
@@ -1639,7 +2080,7 @@ defiledlands:plains_defiled
 
 
 defiledlands:forest_tenebra
-   - Id: 181
+   - Id: 230
    - Height Base: 0.1
    - Height Variation: 0.2
    - Humidity: 0.8
@@ -1648,7 +2089,7 @@ defiledlands:forest_tenebra
 
 
 defiledlands:forest_vilespine
-   - Id: 182
+   - Id: 231
    - Height Base: 0.1
    - Height Variation: 0.2
    - Humidity: 0.8
@@ -1657,385 +2098,34 @@ defiledlands:forest_vilespine
 
 
 defiledlands:hills_defiled
-   - Id: 183
+   - Id: 232
    - Height Base: 1.0
    - Height Variation: 0.5
    - Humidity: 0.3
    - Temperature: 0.2
-   - Forge Biome Types: HILLS MOUNTAIN SPOOKY 
+   - Forge Biome Types: MOUNTAIN SPOOKY HILLS 
 
 
 defiledlands:swamp_defiled
-   - Id: 184
+   - Id: 233
    - Height Base: -0.2
    - Height Variation: 0.1
    - Humidity: 0.9
    - Temperature: 0.8
-   - Forge Biome Types: WET SWAMP SPOOKY 
+   - Forge Biome Types: SWAMP SPOOKY WET 
 
 
 defiledlands:ice_plains_defiled
-   - Id: 185
+   - Id: 234
    - Height Base: 0.125
    - Height Variation: 0.05
    - Humidity: 0.5
    - Temperature: 0.0
-   - Forge Biome Types: SNOWY COLD WASTELAND SPOOKY 
-
-
-netherex:ruthless_sands
-   - Id: 186
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.0
-   - Temperature: 2.0
-   - Forge Biome Types: NETHER PLAINS HOT SANDY DRY SAVANNA 
-
-
-netherex:fungi_forest
-   - Id: 187
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.0
-   - Temperature: 1.1
-   - Forge Biome Types: NETHER WET PLAINS COLD HOT MUSHROOM DRY SAVANNA 
-
-
-netherex:torrid_wasteland
-   - Id: 188
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.0
-   - Temperature: 4.0
-   - Forge Biome Types: NETHER PLAINS HOT WASTELAND DRY SAVANNA 
-
-
-netherex:arctic_abyss
-   - Id: 189
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.0
-   - Temperature: 0.0
-   - Forge Biome Types: NETHER WET PLAINS COLD DRY 
-
-
-sakura:bamboo_forest
-   - Id: 190
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.9
-   - Temperature: 0.95
-   - Forge Biome Types: WET JUNGLE HOT DENSE 
-
-
-sakura:maple_forest
-   - Id: 191
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.8
-   - Temperature: 0.7
-   - Forge Biome Types: FOREST 
-
-
-thaumicaugmentation:emptiness
-   - Id: 192
-   - Height Base: -1.8
-   - Height Variation: 0.15
-   - Humidity: 0.5
-   - Temperature: 0.25
-   - Forge Biome Types: COLD VOID SPARSE SPOOKY 
-
-
-thaumicaugmentation:tainted_lands
-   - Id: 193
-   - Height Base: -1.8
-   - Height Variation: 0.15
-   - Humidity: 0.5
-   - Temperature: 0.25
-   - Forge Biome Types: COLD VOID SPOOKY 
-
-
-thaumicaugmentation:emptiness_highlands
-   - Id: 194
-   - Height Base: 0.75
-   - Height Variation: 0.3
-   - Humidity: 0.5
-   - Temperature: 0.25
-   - Forge Biome Types: COLD VOID HILLS MOUNTAIN SPARSE SPOOKY 
-
-
-candymod:biome_cotton_candy
-   - Id: 195
-   - Height Base: 0.125
-   - Height Variation: 0.2
-   - Humidity: 0.3
-   - Temperature: 0.8
-   - Forge Biome Types: RARE SPARSE DRY 
-
-
-candymod:biome_chocolate_forest
-   - Id: 196
-   - Height Base: -0.12
-   - Height Variation: 0.05
-   - Humidity: 0.3
-   - Temperature: 0.8
-   - Forge Biome Types: HILLS FOREST DENSE RARE 
-
-
-candymod:biome_gummy_swamp
-   - Id: 197
-   - Height Base: 0.125
-   - Height Variation: 0.01
-   - Humidity: 0.8
-   - Temperature: 0.9
-   - Forge Biome Types: WET SWAMP RARE 
-
-
-gct_ores:void_plain
-   - Id: 198
-   - Height Base: 0.3
-   - Height Variation: 1.2
-   - Humidity: 0.5
-   - Temperature: 2.0
-   - Forge Biome Types: VOID DEAD HOT WASTELAND DRY 
-
-
-gct_ores:void_hill
-   - Id: 199
-   - Height Base: 0.6
-   - Height Variation: 1.4
-   - Humidity: 0.5
-   - Temperature: 2.0
-   - Forge Biome Types: VOID DEAD HOT WASTELAND DRY 
-
-
-gct_ores:nowhere
-   - Id: 200
-   - Height Base: 0.8
-   - Height Variation: 0.6
-   - Humidity: 0.0
-   - Temperature: 0.5
-   - Forge Biome Types: HILLS SWAMP HOT WASTELAND SANDY DRY END COLD FOREST BEACH LUSH MAGICAL SPOOKY WET PLAINS MESA DEAD WATER DENSE CONIFEROUS RARE MOUNTAIN SAVANNA RIVER NETHER SNOWY VOID JUNGLE OCEAN MUSHROOM SPARSE 
-
-
-gct_ores:order_plain
-   - Id: 201
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.0
-   - Temperature: 0.5
-   - Forge Biome Types: PLAINS SPARSE DRY 
-
-
-abyssalcraft:darklands
-   - Id: 202
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: WASTELAND SPOOKY 
-
-
-abyssalcraft:darklands_forest
-   - Id: 203
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: FOREST SPOOKY 
-
-
-abyssalcraft:darklands_plains
-   - Id: 204
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: PLAINS SPOOKY 
-
-
-abyssalcraft:darklands_hills
-   - Id: 205
-   - Height Base: 1.1
-   - Height Variation: 0.5
-   - Humidity: 0.3
-   - Temperature: 0.2
-   - Forge Biome Types: HILLS SPOOKY 
-
-
-abyssalcraft:darklands_mountains
-   - Id: 206
-   - Height Base: 1.3
-   - Height Variation: 0.9
-   - Humidity: 0.3
-   - Temperature: 0.2
-   - Forge Biome Types: MOUNTAIN SPOOKY 
-
-
-abyssalcraft:coralium_infested_swamp
-   - Id: 207
-   - Height Base: -0.2
-   - Height Variation: 0.1
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: SWAMP 
-
-
-abyssalcraft:abyssal_wastelands
-   - Id: 208
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: DEAD 
-
-
-abyssalcraft:dreadlands
-   - Id: 209
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: DEAD 
-
-
-abyssalcraft:purified_dreadlands
-   - Id: 210
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: DEAD 
-
-
-abyssalcraft:dreadlands_forest
-   - Id: 211
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: DEAD 
-
-
-abyssalcraft:dreadlands_mountains
-   - Id: 212
-   - Height Base: 1.3
-   - Height Variation: 0.9
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: DEAD 
-
-
-abyssalcraft:omothol
-   - Id: 213
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: DEAD 
-
-
-abyssalcraft:dark_realm
-   - Id: 214
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: DEAD 
-
-
-abyssalcraft:purged
-   - Id: 215
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: DEAD 
-
-
-aether_legacy:aether_highlands
-   - Id: 216
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.0
-   - Temperature: 0.5
-   - Forge Biome Types: VOID COLD MAGICAL 
-
-
-stygian:stygian_growth
-   - Id: 217
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: END 
-
-
-stygian:acidic_plains
-   - Id: 218
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: END 
-
-
-theaurorian:aurorianforesthills
-   - Id: 219
-   - Height Base: 0.725
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.2
-   - Forge Biome Types: PLAINS COLD HILLS MAGICAL DRY 
-
-
-divinerpg:mortum
-   - Id: 220
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: MAGICAL 
-
-
-theaurorian:weepingwillowforest
-   - Id: 221
-   - Height Base: 0.6
-   - Height Variation: 0.5
-   - Humidity: 0.5
-   - Temperature: 0.2
-   - Forge Biome Types: COLD HILLS FOREST MAGICAL DRY 
-
-
-theaurorian:aurorianlakes
-   - Id: 222
-   - Height Base: -0.3
-   - Height Variation: 0.0
-   - Humidity: 0.5
-   - Temperature: 0.2
-   - Forge Biome Types: PLAINS COLD WATER MAGICAL DRY 
-
-
-divinerpg:arcana
-   - Id: 223
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: MAGICAL 
-
-
-theaurorian:aurorianplains
-   - Id: 224
-   - Height Base: 0.5
-   - Height Variation: 0.01
-   - Humidity: 0.5
-   - Temperature: 0.2
-   - Forge Biome Types: PLAINS COLD MAGICAL DRY 
+   - Forge Biome Types: SNOWY WASTELAND SPOOKY COLD 
 
 
 divinerpg:eden
-   - Id: 225
+   - Id: 235
    - Height Base: 0.1
    - Height Variation: 0.2
    - Humidity: 0.5
@@ -2044,25 +2134,7 @@ divinerpg:eden
 
 
 divinerpg:wildwood
-   - Id: 226
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: MAGICAL 
-
-
-divinerpg:vethea
-   - Id: 227
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: MAGICAL SPOOKY 
-
-
-divinerpg:skythern
-   - Id: 228
+   - Id: 236
    - Height Base: 0.1
    - Height Variation: 0.2
    - Humidity: 0.5
@@ -2071,7 +2143,7 @@ divinerpg:skythern
 
 
 divinerpg:apalachia
-   - Id: 229
+   - Id: 237
    - Height Base: 0.1
    - Height Variation: 0.2
    - Humidity: 0.5
@@ -2079,17 +2151,26 @@ divinerpg:apalachia
    - Forge Biome Types: MAGICAL 
 
 
-theaurorian:aurorianforest
-   - Id: 230
-   - Height Base: 0.5
-   - Height Variation: 0.02
+divinerpg:skythern
+   - Id: 238
+   - Height Base: 0.1
+   - Height Variation: 0.2
    - Humidity: 0.5
-   - Temperature: 0.2
-   - Forge Biome Types: PLAINS COLD FOREST MAGICAL DRY 
+   - Temperature: 0.5
+   - Forge Biome Types: MAGICAL 
+
+
+divinerpg:mortum
+   - Id: 239
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: MAGICAL 
 
 
 divinerpg:iceika
-   - Id: 231
+   - Id: 240
    - Height Base: 0.1
    - Height Variation: 0.5
    - Humidity: 0.5
@@ -2097,395 +2178,8 @@ divinerpg:iceika
    - Forge Biome Types: SNOWY MAGICAL 
 
 
-gct_mobs:curruptplain
-   - Id: 232
-   - Height Base: 0.1
-   - Height Variation: 0.4
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: WASTELAND 
-
-
-gct_mobs:bloodyplain
-   - Id: 233
-   - Height Base: 0.1
-   - Height Variation: 0.4
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: WASTELAND 
-
-
-journey:biome_boil_boiling_sands
-   - Id: 234
-   - Height Base: 0.0
-   - Height Variation: 0.0
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: HOT 
-
-
-mist:up_meadow
-   - Id: 235
-   - Height Base: 3.6999998
-   - Height Variation: 0.02
-   - Humidity: 0.4
-   - Temperature: 1.3000001
-   - Forge Biome Types: PLAINS 
-
-
-journey:biome_boil_charred_fields
-   - Id: 236
-   - Height Base: -2.0
-   - Height Variation: 0.0
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: HOT 
-
-
-journey:biome_terrania
-   - Id: 237
-   - Height Base: 0.2
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: MAGICAL SPOOKY 
-
-
-journey:biome_euca_silver
-   - Id: 238
-   - Height Base: 0.125
-   - Height Variation: 0.05
-   - Humidity: 0.0
-   - Temperature: 0.5
-   - Forge Biome Types: MOUNTAIN MAGICAL 
-
-
-journey:biome_corba_bogweed_fields
-   - Id: 239
-   - Height Base: 0.2
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: WET PLAINS MAGICAL 
-
-
-journey:biome_euca_goldite_grains
-   - Id: 240
-   - Height Base: 0.125
-   - Height Variation: 0.05
-   - Humidity: 0.0
-   - Temperature: 0.5
-   - Forge Biome Types: MOUNTAIN MAGICAL 
-
-
-mist:up_desert
+divinerpg:arcana
    - Id: 241
-   - Height Base: 3.6999998
-   - Height Variation: 0.0
-   - Humidity: 0.0
-   - Temperature: 2.1
-   - Forge Biome Types: HOT SANDY DRY 
-
-
-mist:up_jungle_edge
-   - Id: 242
-   - Height Base: 3.6999998
-   - Height Variation: 0.02
-   - Humidity: 0.8
-   - Temperature: 1.6
-   - Forge Biome Types: WET JUNGLE 
-
-
-journey:biome_corba_hills
-   - Id: 243
-   - Height Base: 0.2
-   - Height Variation: 0.4
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: PLAINS DEAD DRY 
-
-
-journey:biome_corba_swamp
-   - Id: 244
-   - Height Base: 0.2
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: WET PLAINS MAGICAL 
-
-
-journey:biome_senterian_labyrinth
-   - Id: 245
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: MAGICAL SPOOKY 
-
-
-journey:biome_frozen_lands
-   - Id: 246
-   - Height Base: 0.1
-   - Height Variation: 0.5
-   - Humidity: 0.5
-   - Temperature: 0.0
-   - Forge Biome Types: COLD 
-
-
-mist:up_lake
-   - Id: 247
-   - Height Base: 3.3999999
-   - Height Variation: 0.0
-   - Humidity: 0.6
-   - Temperature: 1.3000001
-   - Forge Biome Types: WET WATER RIVER 
-
-
-mist:up_swamp
-   - Id: 248
-   - Height Base: 3.6
-   - Height Variation: 0.0
-   - Humidity: 0.9
-   - Temperature: 0.90000004
-   - Forge Biome Types: WET SWAMP 
-
-
-mist:border_plains
-   - Id: 249
-   - Height Base: 3.6
-   - Height Variation: 0.0
-   - Humidity: 0.4
-   - Temperature: 1.3000001
-   - Forge Biome Types: PLAINS WASTELAND 
-
-
-mist:up_cold_lowland
-   - Id: 250
-   - Height Base: 3.4499998
-   - Height Variation: 0.01
-   - Humidity: 0.5
-   - Temperature: -0.3
-   - Forge Biome Types: WET SNOWY COLD WATER RIVER 
-
-
-mist:down
-   - Id: 251
-   - Height Base: -1.7
-   - Height Variation: 0.05
-   - Humidity: 0.5
-   - Temperature: 1.5
-   - Forge Biome Types: DEAD SPOOKY 
-
-
-mist:down_center
-   - Id: 252
-   - Height Base: -1.6
-   - Height Variation: 0.05
-   - Humidity: 0.1
-   - Temperature: 1.9
-   - Forge Biome Types: DEAD SPOOKY 
-
-
-journey:biome_euca_gold
-   - Id: 253
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.0
-   - Temperature: 0.5
-   - Forge Biome Types: MOUNTAIN MAGICAL 
-
-
-mist:border_desert
-   - Id: 254
-   - Height Base: 3.6
-   - Height Variation: 0.0
-   - Humidity: 0.2
-   - Temperature: 1.6
-   - Forge Biome Types: HOT WASTELAND SANDY DRY 
-
-
-mist:up_marsh
-   - Id: 255
-   - Height Base: 3.4499998
-   - Height Variation: 0.01
-   - Humidity: 0.9
-   - Temperature: 0.70000005
-   - Forge Biome Types: WET WATER RIVER 
-
-
-mist:up_forest
-   - Id: 256
-   - Height Base: 3.75
-   - Height Variation: 0.035
-   - Humidity: 0.5
-   - Temperature: 1.2
-   - Forge Biome Types: FOREST 
-
-
-journey:biome_corba_forest
-   - Id: 257
-   - Height Base: 0.2
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: PLAINS DEAD DRY 
-
-
-mist:up_jungle_hills
-   - Id: 258
-   - Height Base: 3.85
-   - Height Variation: 0.2
-   - Humidity: 0.9
-   - Temperature: 1.5
-   - Forge Biome Types: JUNGLE HILLS FOREST LUSH 
-
-
-mist:up_swampy_forest
-   - Id: 259
-   - Height Base: 3.6
-   - Height Variation: 0.03
-   - Humidity: 0.9
-   - Temperature: 0.70000005
-   - Forge Biome Types: WET SWAMP FOREST 
-
-
-mist:up_lowland
-   - Id: 260
-   - Height Base: 3.4499998
-   - Height Variation: 0.01
-   - Humidity: 0.9
-   - Temperature: 0.70000005
-   - Forge Biome Types: WET JUNGLE 
-
-
-mist:border_down
-   - Id: 261
-   - Height Base: -1.4000001
-   - Height Variation: 0.05
-   - Humidity: 0.5
-   - Temperature: 1.5
-   - Forge Biome Types: DEAD SPOOKY 
-
-
-mist:up_dense_forest
-   - Id: 262
-   - Height Base: 3.75
-   - Height Variation: 0.05
-   - Humidity: 0.6
-   - Temperature: 1.1
-   - Forge Biome Types: WET FOREST DENSE 
-
-
-mist:down_forest
-   - Id: 263
-   - Height Base: -1.5
-   - Height Variation: 0.05
-   - Humidity: 0.7
-   - Temperature: 1.3
-   - Forge Biome Types: DEAD SPOOKY 
-
-
-mist:up_dunes
-   - Id: 264
-   - Height Base: 3.8
-   - Height Variation: 0.0
-   - Humidity: 0.1
-   - Temperature: 1.9
-   - Forge Biome Types: HILLS HOT SANDY DRY 
-
-
-mist:up_swampy_meadow
-   - Id: 265
-   - Height Base: 3.6
-   - Height Variation: 0.01
-   - Humidity: 0.7
-   - Temperature: 1.1
-   - Forge Biome Types: WET PLAINS SWAMP 
-
-
-journey:biome_boil_boiling_point
-   - Id: 266
-   - Height Base: 0.125
-   - Height Variation: 0.1
-   - Humidity: 0.0
-   - Temperature: 0.5
-   - Forge Biome Types: HOT 
-
-
-mist:border_swamp
-   - Id: 267
-   - Height Base: 3.6
-   - Height Variation: 0.0
-   - Humidity: 0.5
-   - Temperature: 1.1
-   - Forge Biome Types: WET WASTELAND 
-
-
-journey:biome_depths
-   - Id: 268
-   - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: MAGICAL SPOOKY 
-
-
-journey:biome_corba_plains
-   - Id: 269
-   - Height Base: 0.01
-   - Height Variation: 0.05
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: PLAINS DEAD DRY 
-
-
-mist:up_savanna
-   - Id: 270
-   - Height Base: 3.6999998
-   - Height Variation: 0.04
-   - Humidity: 0.2
-   - Temperature: 1.6
-   - Forge Biome Types: HOT SAVANNA DRY 
-
-
-mist:down_swamp
-   - Id: 271
-   - Height Base: -1.7
-   - Height Variation: 0.01
-   - Humidity: 0.9
-   - Temperature: 1.7
-   - Forge Biome Types: DEAD SPOOKY 
-
-
-journey:biome_boil_scorched_wasteland
-   - Id: 272
-   - Height Base: -5.0
-   - Height Variation: 0.1
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: HOT 
-
-
-mist:separator
-   - Id: 273
-   - Height Base: 0.29999995
-   - Height Variation: 0.0
-   - Humidity: 0.5
-   - Temperature: 1.0
-   - Forge Biome Types: DEAD SPOOKY 
-
-
-mist:up_taiga
-   - Id: 274
-   - Height Base: 3.6999998
-   - Height Variation: 0.03
-   - Humidity: 0.2
-   - Temperature: 0.1
-   - Forge Biome Types: SNOWY COLD FOREST CONIFEROUS 
-
-
-journey:biome_cloudia
-   - Id: 275
    - Height Base: 0.1
    - Height Variation: 0.2
    - Humidity: 0.5
@@ -2493,269 +2187,395 @@ journey:biome_cloudia
    - Forge Biome Types: MAGICAL 
 
 
-mist:up_jungle
-   - Id: 276
-   - Height Base: 3.8
-   - Height Variation: 0.05
-   - Humidity: 0.9
-   - Temperature: 1.5
-   - Forge Biome Types: WET JUNGLE FOREST LUSH 
-
-
-mist:border_cold
-   - Id: 277
-   - Height Base: 3.6
-   - Height Variation: 0.0
-   - Humidity: 0.0
-   - Temperature: 0.1
-   - Forge Biome Types: SNOWY COLD WASTELAND 
-
-
-mist:border_jungle
-   - Id: 278
-   - Height Base: 3.6
-   - Height Variation: 0.0
-   - Humidity: 0.7
-   - Temperature: 1.6
-   - Forge Biome Types: WET JUNGLE WASTELAND 
-
-
-mist:up_hilly_taiga
-   - Id: 279
-   - Height Base: 3.8
-   - Height Variation: 0.07
-   - Humidity: 0.3
-   - Temperature: 0.1
-   - Forge Biome Types: SNOWY COLD HILLS FOREST CONIFEROUS 
-
-
-thebetweenlands:patchy_islands
-   - Id: 280
-   - Height Base: 118.75
-   - Height Variation: 4.75
-   - Humidity: 0.9
-   - Temperature: 0.8
-   - Forge Biome Types: WET WATER SWAMP 
-
-
-thebetweenlands:swamplands
-   - Id: 281
-   - Height Base: 118.0
-   - Height Variation: 1.0
-   - Humidity: 0.9
-   - Temperature: 0.8
-   - Forge Biome Types: WET WATER SWAMP FOREST DENSE 
-
-
-thebetweenlands:deep_waters
-   - Id: 282
-   - Height Base: 108.0
-   - Height Variation: 5.0
-   - Humidity: 0.9
-   - Temperature: 0.8
-   - Forge Biome Types: WATER SWAMP 
-
-
-thebetweenlands:coarse_islands
-   - Id: 283
-   - Height Base: 115.0
-   - Height Variation: 4.0
-   - Humidity: 0.9
-   - Temperature: 0.8
-   - Forge Biome Types: WET WATER SWAMP 
-
-
-thebetweenlands:raised_isles
-   - Id: 284
-   - Height Base: 115.0
-   - Height Variation: 4.0
-   - Humidity: 0.9
-   - Temperature: 0.8
-   - Forge Biome Types: WET WATER SWAMP 
-
-
-thebetweenlands:sludge_plains
-   - Id: 285
-   - Height Base: 115.0
-   - Height Variation: 3.0
-   - Humidity: 0.9
-   - Temperature: 0.8
-   - Forge Biome Types: WET DEAD SWAMP WASTELAND 
-
-
-thebetweenlands:marsh_0
-   - Id: 286
-   - Height Base: 119.0
-   - Height Variation: 1.1
-   - Humidity: 0.9
-   - Temperature: 0.8
-   - Forge Biome Types: WET WATER SWAMP 
-
-
-thebetweenlands:marsh_1
-   - Id: 287
-   - Height Base: 119.0
-   - Height Variation: 1.1
-   - Humidity: 0.9
-   - Temperature: 0.8
-   - Forge Biome Types: WET WATER SWAMP 
-
-
-thebetweenlands:swamplands_clearing
-   - Id: 288
-   - Height Base: 122.0
-   - Height Variation: 1.0
-   - Humidity: 0.9
-   - Temperature: 0.8
-   - Forge Biome Types: WET WATER SWAMP FOREST DENSE 
-
-
-thebetweenlands:sludge_plains_clearing
-   - Id: 289
-   - Height Base: 124.0
-   - Height Variation: 0.5
-   - Humidity: 0.9
-   - Temperature: 0.8
-   - Forge Biome Types: WET DEAD SWAMP WASTELAND 
-
-
-blue_skies:calming_skies
-   - Id: 290
-   - Height Base: 1.3
-   - Height Variation: 0.2
-   - Humidity: 0.0
-   - Temperature: 0.3
-   - Forge Biome Types: PLAINS COLD MAGICAL DRY 
-
-
-blue_skies:brightlands
-   - Id: 291
-   - Height Base: 1.5
-   - Height Variation: 0.4
-   - Humidity: 0.8
-   - Temperature: 0.0
-   - Forge Biome Types: SNOWY COLD HILLS MOUNTAIN MAGICAL 
-
-
-blue_skies:peeking_oceans
-   - Id: 292
-   - Height Base: -1.0
-   - Height Variation: 0.1
-   - Humidity: 0.0
-   - Temperature: 0.2
-   - Forge Biome Types: PLAINS COLD WATER OCEAN MAGICAL DRY 
-
-
-blue_skies:pale_swamplands
-   - Id: 293
-   - Height Base: -0.15
-   - Height Variation: 0.1
-   - Humidity: 0.8
-   - Temperature: 0.5
-   - Forge Biome Types: PLAINS SNOWY SWAMP MAGICAL 
-
-
-blue_skies:frostbit_forest
-   - Id: 294
-   - Height Base: 1.1
-   - Height Variation: 0.0
-   - Humidity: 0.8
-   - Temperature: 0.0
-   - Forge Biome Types: PLAINS SNOWY COLD FOREST DENSE LUSH MAGICAL 
-
-
-blue_skies:unorthodox_valley
-   - Id: 295
-   - Height Base: 0.2
-   - Height Variation: 0.7
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: HILLS MOUNTAIN MAGICAL 
-
-
-blue_skies:shaded_woods
-   - Id: 296
+divinerpg:vethea
+   - Id: 242
    - Height Base: 0.1
-   - Height Variation: 0.1
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: PLAINS FOREST DENSE LUSH SPOOKY 
-
-
-blue_skies:crystal_dunes
-   - Id: 297
-   - Height Base: 0.125
    - Height Variation: 0.2
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: PLAINS DEAD SANDY DRY 
-
-
-blue_skies:sunset_maple_forest
-   - Id: 298
-   - Height Base: 0.1
-   - Height Variation: 0.1
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: PLAINS 
-
-
-journey:biome_enchanted_shroom_forest
-   - Id: 299
-   - Height Base: 0.0
-   - Height Variation: 0.0
    - Humidity: 0.5
    - Temperature: 0.5
    - Forge Biome Types: MAGICAL SPOOKY 
 
 
-mist:up_snowfields
-   - Id: 300
-   - Height Base: 3.6999998
+evilcraft:biome_degraded
+   - Id: 243
+   - Height Base: 0.125
+   - Height Variation: 0.2
+   - Humidity: 0.9
+   - Temperature: 0.8
+   - Forge Biome Types: PLAINS WET 
+
+
+nuclearcraft:nuclear_wasteland
+   - Id: 244
+   - Height Base: 0.12
    - Height Variation: 0.02
-   - Humidity: 0.0
-   - Temperature: 0.1
-   - Forge Biome Types: PLAINS SNOWY COLD CONIFEROUS 
+   - Humidity: 0.5
+   - Temperature: 2.0
+   - Forge Biome Types: SPARSE DEAD WASTELAND DRY PLAINS HOT SAVANNA 
 
 
-gct_mobs:alfheim_desert_richland
-   - Id: 301
-   - Height Base: 1.0
+voidcraft:voidcraft_biome_void
+   - Id: 245
+   - Height Base: -1.0
    - Height Variation: 0.1
    - Humidity: 0.0
-   - Temperature: 2.0
-   - Forge Biome Types: SANDY DRY 
+   - Temperature: 0.21
+   - Forge Biome Types: WATER OCEAN VOID DRY PLAINS 
 
 
-gct_mobs:alfheim_plain
-   - Id: 302
+voidcraft:voidcraft_biome_xia
+   - Id: 246
+   - Height Base: -1.0
+   - Height Variation: 0.1
+   - Humidity: 0.0
+   - Temperature: 0.21
+   - Forge Biome Types: WATER OCEAN VOID DRY PLAINS 
+
+
+voidcraft:voidcraft_biome_dream_overworld
+   - Id: 247
+   - Height Base: -1.0
+   - Height Variation: 0.1
+   - Humidity: 0.0
+   - Temperature: 0.21
+   - Forge Biome Types: WATER OCEAN VOID DRY PLAINS 
+
+
+voidcraft:voidcraft_biome_dream_nether
+   - Id: 248
+   - Height Base: -1.0
+   - Height Variation: 0.1
+   - Humidity: 0.0
+   - Temperature: 0.21
+   - Forge Biome Types: WATER OCEAN VOID DRY PLAINS 
+
+
+voidcraft:voidcraft_biome_dream_end
+   - Id: 249
+   - Height Base: -1.0
+   - Height Variation: 0.1
+   - Humidity: 0.0
+   - Temperature: 0.21
+   - Forge Biome Types: WATER OCEAN VOID DRY PLAINS 
+
+
+voidcraft:voidcraft_biome_dream_void
+   - Id: 250
+   - Height Base: -1.0
+   - Height Variation: 0.1
+   - Humidity: 0.0
+   - Temperature: 0.21
+   - Forge Biome Types: WATER OCEAN VOID DRY PLAINS 
+
+
+netherex:ruthless_sands
+   - Id: 251
    - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.0
+   - Temperature: 2.0
+   - Forge Biome Types: DRY PLAINS HOT NETHER SANDY SAVANNA 
+
+
+netherex:fungi_forest
+   - Id: 252
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.0
+   - Temperature: 1.1
+   - Forge Biome Types: MUSHROOM DRY PLAINS HOT NETHER WET SAVANNA COLD 
+
+
+netherex:torrid_wasteland
+   - Id: 253
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.0
+   - Temperature: 4.0
+   - Forge Biome Types: WASTELAND DRY PLAINS HOT NETHER SAVANNA 
+
+
+netherex:arctic_abyss
+   - Id: 254
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.0
+   - Temperature: 0.0
+   - Forge Biome Types: DRY PLAINS NETHER WET COLD 
+
+
+sakura:bamboo_forest
+   - Id: 255
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.9
+   - Temperature: 0.95
+   - Forge Biome Types: JUNGLE HOT WET DENSE 
+
+
+sakura:maple_forest
+   - Id: 256
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.8
+   - Temperature: 0.7
+   - Forge Biome Types: FOREST 
+
+
+thaumicaugmentation:emptiness
+   - Id: 257
+   - Height Base: -1.8
+   - Height Variation: 0.15
+   - Humidity: 0.5
+   - Temperature: 0.25
+   - Forge Biome Types: SPARSE VOID SPOOKY COLD 
+
+
+thaumicaugmentation:tainted_lands
+   - Id: 258
+   - Height Base: -1.8
+   - Height Variation: 0.15
+   - Humidity: 0.5
+   - Temperature: 0.25
+   - Forge Biome Types: VOID SPOOKY COLD 
+
+
+thaumicaugmentation:emptiness_highlands
+   - Id: 259
+   - Height Base: 0.75
+   - Height Variation: 0.3
+   - Humidity: 0.5
+   - Temperature: 0.25
+   - Forge Biome Types: SPARSE VOID MOUNTAIN SPOOKY HILLS COLD 
+
+
+theaurorian:aurorianforest
+   - Id: 260
+   - Height Base: 0.5
+   - Height Variation: 0.02
+   - Humidity: 0.5
+   - Temperature: 0.2
+   - Forge Biome Types: FOREST MAGICAL DRY PLAINS COLD 
+
+
+theaurorian:aurorianforesthills
+   - Id: 261
+   - Height Base: 0.725
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.2
+   - Forge Biome Types: MAGICAL DRY PLAINS HILLS COLD 
+
+
+theaurorian:aurorianplains
+   - Id: 262
+   - Height Base: 0.5
+   - Height Variation: 0.01
+   - Humidity: 0.5
+   - Temperature: 0.2
+   - Forge Biome Types: MAGICAL DRY PLAINS COLD 
+
+
+theaurorian:weepingwillowforest
+   - Id: 263
+   - Height Base: 0.6
+   - Height Variation: 0.5
+   - Humidity: 0.5
+   - Temperature: 0.2
+   - Forge Biome Types: FOREST MAGICAL DRY HILLS COLD 
+
+
+theaurorian:aurorianlakes
+   - Id: 264
+   - Height Base: -0.3
+   - Height Variation: 0.0
+   - Humidity: 0.5
+   - Temperature: 0.2
+   - Forge Biome Types: WATER MAGICAL DRY PLAINS COLD 
+
+
+candymod:biome_cotton_candy
+   - Id: 265
+   - Height Base: 0.125
+   - Height Variation: 0.2
+   - Humidity: 0.3
+   - Temperature: 0.8
+   - Forge Biome Types: SPARSE RARE DRY 
+
+
+candymod:biome_chocolate_forest
+   - Id: 266
+   - Height Base: -0.12
+   - Height Variation: 0.05
+   - Humidity: 0.3
+   - Temperature: 0.8
+   - Forge Biome Types: FOREST RARE HILLS DENSE 
+
+
+candymod:biome_gummy_swamp
+   - Id: 267
+   - Height Base: 0.125
+   - Height Variation: 0.01
+   - Humidity: 0.8
+   - Temperature: 0.9
+   - Forge Biome Types: RARE SWAMP WET 
+
+
+midnight:vigilant_forest
+   - Id: 268
+   - Height Base: 0.155
+   - Height Variation: 0.07
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: FOREST PLAINS SPOOKY 
+
+
+midnight:black_ridge
+   - Id: 269
+   - Height Base: 4.5
+   - Height Variation: 0.1
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: SPARSE MOUNTAIN PLAINS SPOOKY HILLS 
+
+
+midnight:deceitful_bog
+   - Id: 270
+   - Height Base: -0.9
    - Height Variation: 0.2
    - Humidity: 0.5
    - Temperature: 0.5
-   - Forge Biome Types: PLAINS MAGICAL 
+   - Forge Biome Types: WATER OCEAN PLAINS SWAMP SPOOKY 
 
 
-gct_mobs:alfheim_desert
-   - Id: 303
+midnight:fungi_forest
+   - Id: 271
+   - Height Base: 0.155
+   - Height Variation: 0.07
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: FOREST PLAINS SPOOKY 
+
+
+midnight:obscured_peaks
+   - Id: 272
+   - Height Base: 6.0
+   - Height Variation: 0.5
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: SPARSE MOUNTAIN SPOOKY HILLS 
+
+
+midnight:warped_fields
+   - Id: 273
    - Height Base: 0.1
-   - Height Variation: 0.2
-   - Humidity: 0.0
-   - Temperature: 2.0
-   - Forge Biome Types: SANDY DRY 
-
-
-gct_mobs:alfheim_plain_hill
-   - Id: 304
-   - Height Base: 0.4
    - Height Variation: 0.8
    - Humidity: 0.5
    - Temperature: 0.5
-   - Forge Biome Types: PLAINS MAGICAL 
+   - Forge Biome Types: SPOOKY HILLS 
+
+
+midnight:crystal_spires
+   - Id: 274
+   - Height Base: 0.6
+   - Height Variation: 0.26
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: MAGICAL PLAINS 
+
+
+midnight:night_plains
+   - Id: 275
+   - Height Base: 0.12
+   - Height Variation: 0.26
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: PLAINS SPOOKY 
+
+
+midnight:obscured_plateau
+   - Id: 276
+   - Height Base: 5.0
+   - Height Variation: 0.01
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: SPARSE MOUNTAIN PLAINS SPOOKY 
+
+
+midnight:phantasmal_valley
+   - Id: 277
+   - Height Base: -1.2
+   - Height Variation: 0.05
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: WATER OCEAN PLAINS SPOOKY 
+
+
+midnight:runebush_grove
+   - Id: 278
+   - Height Base: 0.155
+   - Height Variation: 0.07
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: FOREST PLAINS SPOOKY DENSE 
+
+
+midnight:hilly_vigilant_forest
+   - Id: 279
+   - Height Base: 2.25
+   - Height Variation: 0.4
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: FOREST SPOOKY HILLS 
+
+
+midnight:hilly_fungi_forest
+   - Id: 280
+   - Height Base: 2.25
+   - Height Variation: 0.4
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: FOREST SPOOKY HILLS 
+
+
+gct_aby:darkerrealm
+   - Id: 281
+   - Height Base: 0.4
+   - Height Variation: 0.2
+   - Humidity: 0.0
+   - Temperature: 0.5
+   - Forge Biome Types: DRY PLAINS 
+
+
+gct_aby:warped
+   - Id: 282
+   - Height Base: 3.0
+   - Height Variation: 0.1
+   - Humidity: 0.0
+   - Temperature: 1.5
+   - Forge Biome Types: DRY PLAINS HOT SAVANNA 
+
+
+gct_mobs:bloodyplain
+   - Id: 283
+   - Height Base: 0.1
+   - Height Variation: 0.4
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: WASTELAND 
+
+
+gct_mobs:curruptplain
+   - Id: 284
+   - Height Base: 0.1
+   - Height Variation: 0.4
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: WASTELAND 
 
 
 gct_mobs:mana_forest
-   - Id: 305
+   - Id: 285
    - Height Base: 0.1
    - Height Variation: 0.2
    - Humidity: 0.5
@@ -2763,26 +2583,26 @@ gct_mobs:mana_forest
    - Forge Biome Types: PLAINS 
 
 
-evilcraft:biome_degraded
-   - Id: 306
-   - Height Base: 0.125
+gct_mobs:everheaven_waste
+   - Id: 286
+   - Height Base: 0.1
    - Height Variation: 0.2
-   - Humidity: 0.9
-   - Temperature: 0.8
-   - Forge Biome Types: WET PLAINS 
-
-
-gct_mobs:alfheim_desert_hill
-   - Id: 307
-   - Height Base: 0.3
-   - Height Variation: 0.8
    - Humidity: 0.0
    - Temperature: 2.0
-   - Forge Biome Types: SANDY DRY 
+   - Forge Biome Types: WASTELAND 
+
+
+gct_mobs:alfheim_plain
+   - Id: 287
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: MAGICAL PLAINS 
 
 
 gct_mobs:mana_forest_hill
-   - Id: 308
+   - Id: 288
    - Height Base: 0.4
    - Height Variation: 1.0
    - Humidity: 0.5
@@ -2790,17 +2610,44 @@ gct_mobs:mana_forest_hill
    - Forge Biome Types: HILLS 
 
 
-gct_mobs:reversed_forest
-   - Id: 309
-   - Height Base: 0.2
-   - Height Variation: 0.4
+gct_mobs:alfheim_plain_hill
+   - Id: 289
+   - Height Base: 0.4
+   - Height Variation: 0.8
    - Humidity: 0.5
    - Temperature: 0.5
-   - Forge Biome Types: FOREST MUSHROOM MAGICAL 
+   - Forge Biome Types: MAGICAL PLAINS 
+
+
+gct_mobs:alfheim_desert
+   - Id: 290
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.0
+   - Temperature: 2.0
+   - Forge Biome Types: DRY SANDY 
+
+
+gct_mobs:alfheim_desert_hill
+   - Id: 291
+   - Height Base: 0.3
+   - Height Variation: 0.8
+   - Humidity: 0.0
+   - Temperature: 2.0
+   - Forge Biome Types: DRY SANDY 
+
+
+gct_mobs:alfheim_desert_richland
+   - Id: 292
+   - Height Base: 1.0
+   - Height Variation: 0.1
+   - Humidity: 0.0
+   - Temperature: 2.0
+   - Forge Biome Types: DRY SANDY 
 
 
 gct_mobs:alfheim_forest
-   - Id: 310
+   - Id: 293
    - Height Base: 0.1
    - Height Variation: 0.3
    - Humidity: 0.5
@@ -2808,8 +2655,17 @@ gct_mobs:alfheim_forest
    - Forge Biome Types: FOREST MAGICAL 
 
 
+gct_mobs:reversed_forest
+   - Id: 294
+   - Height Base: 0.2
+   - Height Variation: 0.4
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: FOREST MUSHROOM MAGICAL 
+
+
 gct_mobs:aries_forest
-   - Id: 311
+   - Id: 295
    - Height Base: 0.1
    - Height Variation: 0.4
    - Humidity: 0.5
@@ -2817,9 +2673,9 @@ gct_mobs:aries_forest
    - Forge Biome Types: FOREST 
 
 
-gct_mobs:virgo_plain
-   - Id: 312
-   - Height Base: 0.1
+gct_mobs:taurus_plataeu
+   - Id: 296
+   - Height Base: 1.2
    - Height Variation: 0.1
    - Humidity: 0.5
    - Temperature: 0.5
@@ -2827,7 +2683,7 @@ gct_mobs:virgo_plain
 
 
 gct_mobs:gemini_valley
-   - Id: 313
+   - Id: 297
    - Height Base: -0.3
    - Height Variation: 0.4
    - Humidity: 0.5
@@ -2835,8 +2691,44 @@ gct_mobs:gemini_valley
    - Forge Biome Types: HILLS 
 
 
+gct_mobs:cancer_hills
+   - Id: 298
+   - Height Base: 0.1
+   - Height Variation: 0.8
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: HILLS 
+
+
+gct_mobs:leo_badlands
+   - Id: 299
+   - Height Base: 0.8
+   - Height Variation: 0.1
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: WASTELAND 
+
+
+gct_mobs:virgo_plain
+   - Id: 300
+   - Height Base: 0.1
+   - Height Variation: 0.1
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: PLAINS 
+
+
+gct_mobs:capricorns_cliffs
+   - Id: 301
+   - Height Base: 0.8
+   - Height Variation: 2.0
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: MOUNTAIN 
+
+
 gct_mobs:aquarius_iceplain
-   - Id: 314
+   - Id: 302
    - Height Base: 0.2
    - Height Variation: 0.2
    - Humidity: 0.5
@@ -2845,7 +2737,7 @@ gct_mobs:aquarius_iceplain
 
 
 gct_mobs:pisces_ocean
-   - Id: 315
+   - Id: 303
    - Height Base: 0.0
    - Height Variation: 0.0
    - Humidity: 0.5
@@ -2853,26 +2745,17 @@ gct_mobs:pisces_ocean
    - Forge Biome Types: WATER OCEAN 
 
 
-gct_mobs:taurus_plataeu
-   - Id: 316
-   - Height Base: 1.2
-   - Height Variation: 0.1
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: PLAINS 
-
-
-gct_mobs:cancer_hills
-   - Id: 317
+gct_mobs:sagittarius_denseforest
+   - Id: 304
    - Height Base: 0.1
-   - Height Variation: 0.8
+   - Height Variation: 0.4
    - Humidity: 0.5
    - Temperature: 0.5
-   - Forge Biome Types: HILLS 
+   - Forge Biome Types: FOREST 
 
 
 gct_mobs:scorpio_desert
-   - Id: 318
+   - Id: 305
    - Height Base: 0.2
    - Height Variation: 0.1
    - Humidity: 0.5
@@ -2881,7 +2764,7 @@ gct_mobs:scorpio_desert
 
 
 gct_mobs:libra_island
-   - Id: 319
+   - Id: 306
    - Height Base: 0.2
    - Height Variation: 0.1
    - Humidity: 0.5
@@ -2889,120 +2772,363 @@ gct_mobs:libra_island
    - Forge Biome Types: WASTELAND 
 
 
-gct_mobs:capricorns_cliffs
+gct_ores:void_plain
+   - Id: 307
+   - Height Base: 0.3
+   - Height Variation: 1.2
+   - Humidity: 0.5
+   - Temperature: 2.0
+   - Forge Biome Types: VOID WASTELAND DEAD DRY HOT 
+
+
+gct_ores:void_hill
+   - Id: 308
+   - Height Base: 0.6
+   - Height Variation: 1.4
+   - Humidity: 0.5
+   - Temperature: 2.0
+   - Forge Biome Types: VOID WASTELAND DEAD DRY HOT 
+
+
+gct_ores:nowhere
+   - Id: 309
+   - Height Base: 0.8
+   - Height Variation: 0.6
+   - Humidity: 0.0
+   - Temperature: 0.5
+   - Forge Biome Types: MESA RIVER HILLS COLD OCEAN JUNGLE END MUSHROOM WASTELAND DEAD HOT NETHER SANDY FOREST SPARSE VOID CONIFEROUS LUSH DRY PLAINS SWAMP WET DENSE SAVANNA WATER RARE SNOWY MAGICAL BEACH MOUNTAIN SPOOKY 
+
+
+gct_ores:order_plain
+   - Id: 310
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.0
+   - Temperature: 0.5
+   - Forge Biome Types: SPARSE DRY PLAINS 
+
+
+abyssalcraft:darklands
+   - Id: 311
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: WASTELAND SPOOKY 
+
+
+abyssalcraft:darklands_forest
+   - Id: 312
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: FOREST SPOOKY 
+
+
+abyssalcraft:darklands_plains
+   - Id: 313
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: PLAINS SPOOKY 
+
+
+abyssalcraft:darklands_hills
+   - Id: 314
+   - Height Base: 1.1
+   - Height Variation: 0.5
+   - Humidity: 0.3
+   - Temperature: 0.2
+   - Forge Biome Types: SPOOKY HILLS 
+
+
+abyssalcraft:darklands_mountains
+   - Id: 315
+   - Height Base: 1.3
+   - Height Variation: 0.9
+   - Humidity: 0.3
+   - Temperature: 0.2
+   - Forge Biome Types: MOUNTAIN SPOOKY 
+
+
+abyssalcraft:coralium_infested_swamp
+   - Id: 316
+   - Height Base: -0.2
+   - Height Variation: 0.1
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: SWAMP 
+
+
+abyssalcraft:abyssal_wastelands
+   - Id: 317
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: DEAD 
+
+
+abyssalcraft:dreadlands
+   - Id: 318
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: DEAD 
+
+
+abyssalcraft:purified_dreadlands
+   - Id: 319
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: DEAD 
+
+
+abyssalcraft:dreadlands_forest
    - Id: 320
-   - Height Base: 0.8
-   - Height Variation: 2.0
+   - Height Base: 0.1
+   - Height Variation: 0.2
    - Humidity: 0.5
    - Temperature: 0.5
-   - Forge Biome Types: MOUNTAIN 
+   - Forge Biome Types: DEAD 
 
 
-gct_mobs:sagittarius_denseforest
+abyssalcraft:dreadlands_mountains
    - Id: 321
-   - Height Base: 0.1
-   - Height Variation: 0.4
+   - Height Base: 1.3
+   - Height Variation: 0.9
    - Humidity: 0.5
    - Temperature: 0.5
-   - Forge Biome Types: FOREST 
+   - Forge Biome Types: DEAD 
 
 
-gct_mobs:leo_badlands
+abyssalcraft:omothol
    - Id: 322
-   - Height Base: 0.8
-   - Height Variation: 0.1
-   - Humidity: 0.5
-   - Temperature: 0.5
-   - Forge Biome Types: WASTELAND 
-
-
-gct_aby:warped
-   - Id: 323
-   - Height Base: 3.0
-   - Height Variation: 0.1
-   - Humidity: 0.0
-   - Temperature: 1.5
-   - Forge Biome Types: PLAINS HOT DRY SAVANNA 
-
-
-nuclearcraft:nuclear_wasteland
-   - Id: 326
-   - Height Base: 0.12
-   - Height Variation: 0.02
-   - Humidity: 0.5
-   - Temperature: 2.0
-   - Forge Biome Types: PLAINS DEAD HOT WASTELAND SPARSE DRY SAVANNA 
-
-
-gct_aby:darkerrealm
-   - Id: 329
-   - Height Base: 0.4
+   - Height Base: 0.1
    - Height Variation: 0.2
-   - Humidity: 0.0
+   - Humidity: 0.5
    - Temperature: 0.5
-   - Forge Biome Types: PLAINS DRY 
+   - Forge Biome Types: DEAD 
 
 
-gct_mobs:everheaven_waste
-   - Id: 377
+abyssalcraft:dark_realm
+   - Id: 323
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: DEAD 
+
+
+abyssalcraft:purged
+   - Id: 324
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: DEAD 
+
+
+aether_legacy:aether_highlands
+   - Id: 325
    - Height Base: 0.1
    - Height Variation: 0.2
    - Humidity: 0.0
-   - Temperature: 2.0
-   - Forge Biome Types: WASTELAND 
+   - Temperature: 0.5
+   - Forge Biome Types: VOID MAGICAL COLD 
 
 
-voidcraft:voidcraft_biome_void
-   - Id: 378
+thebetweenlands:patchy_islands
+   - Id: 326
+   - Height Base: 118.75
+   - Height Variation: 4.75
+   - Humidity: 0.9
+   - Temperature: 0.8
+   - Forge Biome Types: WATER SWAMP WET 
+
+
+thebetweenlands:swamplands
+   - Id: 327
+   - Height Base: 118.0
+   - Height Variation: 1.0
+   - Humidity: 0.9
+   - Temperature: 0.8
+   - Forge Biome Types: WATER FOREST SWAMP WET DENSE 
+
+
+thebetweenlands:deep_waters
+   - Id: 328
+   - Height Base: 108.0
+   - Height Variation: 5.0
+   - Humidity: 0.9
+   - Temperature: 0.8
+   - Forge Biome Types: WATER SWAMP 
+
+
+thebetweenlands:coarse_islands
+   - Id: 329
+   - Height Base: 115.0
+   - Height Variation: 4.0
+   - Humidity: 0.9
+   - Temperature: 0.8
+   - Forge Biome Types: WATER SWAMP WET 
+
+
+thebetweenlands:raised_isles
+   - Id: 330
+   - Height Base: 115.0
+   - Height Variation: 4.0
+   - Humidity: 0.9
+   - Temperature: 0.8
+   - Forge Biome Types: WATER SWAMP WET 
+
+
+thebetweenlands:sludge_plains
+   - Id: 331
+   - Height Base: 115.0
+   - Height Variation: 3.0
+   - Humidity: 0.9
+   - Temperature: 0.8
+   - Forge Biome Types: WASTELAND DEAD SWAMP WET 
+
+
+thebetweenlands:marsh_0
+   - Id: 332
+   - Height Base: 119.0
+   - Height Variation: 1.1
+   - Humidity: 0.9
+   - Temperature: 0.8
+   - Forge Biome Types: WATER SWAMP WET 
+
+
+thebetweenlands:marsh_1
+   - Id: 333
+   - Height Base: 119.0
+   - Height Variation: 1.1
+   - Humidity: 0.9
+   - Temperature: 0.8
+   - Forge Biome Types: WATER SWAMP WET 
+
+
+thebetweenlands:swamplands_clearing
+   - Id: 334
+   - Height Base: 122.0
+   - Height Variation: 1.0
+   - Humidity: 0.9
+   - Temperature: 0.8
+   - Forge Biome Types: WATER FOREST SWAMP WET DENSE 
+
+
+thebetweenlands:sludge_plains_clearing
+   - Id: 335
+   - Height Base: 124.0
+   - Height Variation: 0.5
+   - Humidity: 0.9
+   - Temperature: 0.8
+   - Forge Biome Types: WASTELAND DEAD SWAMP WET 
+
+
+blue_skies:calming_skies
+   - Id: 336
+   - Height Base: 1.3
+   - Height Variation: 0.2
+   - Humidity: 0.0
+   - Temperature: 0.3
+   - Forge Biome Types: MAGICAL DRY PLAINS COLD 
+
+
+blue_skies:brightlands
+   - Id: 337
+   - Height Base: 1.5
+   - Height Variation: 0.4
+   - Humidity: 0.8
+   - Temperature: 0.0
+   - Forge Biome Types: SNOWY MAGICAL MOUNTAIN HILLS COLD 
+
+
+blue_skies:peeking_oceans
+   - Id: 338
    - Height Base: -1.0
    - Height Variation: 0.1
    - Humidity: 0.0
-   - Temperature: 0.21
-   - Forge Biome Types: PLAINS VOID WATER OCEAN DRY 
+   - Temperature: 0.2
+   - Forge Biome Types: WATER OCEAN MAGICAL DRY PLAINS COLD 
 
 
-voidcraft:voidcraft_biome_dream_overworld
-   - Id: 379
-   - Height Base: -1.0
+blue_skies:pale_swamplands
+   - Id: 339
+   - Height Base: -0.15
    - Height Variation: 0.1
-   - Humidity: 0.0
-   - Temperature: 0.21
-   - Forge Biome Types: PLAINS VOID WATER OCEAN DRY 
+   - Humidity: 0.8
+   - Temperature: 0.5
+   - Forge Biome Types: SNOWY MAGICAL PLAINS SWAMP 
 
 
-voidcraft:voidcraft_biome_xia
-   - Id: 380
-   - Height Base: -1.0
+blue_skies:frostbit_forest
+   - Id: 340
+   - Height Base: 1.1
+   - Height Variation: 0.0
+   - Humidity: 0.8
+   - Temperature: 0.0
+   - Forge Biome Types: FOREST SNOWY MAGICAL LUSH PLAINS DENSE COLD 
+
+
+blue_skies:unorthodox_valley
+   - Id: 341
+   - Height Base: 0.2
+   - Height Variation: 0.7
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: MAGICAL MOUNTAIN HILLS 
+
+
+blue_skies:shaded_woods
+   - Id: 342
+   - Height Base: 0.1
    - Height Variation: 0.1
-   - Humidity: 0.0
-   - Temperature: 0.21
-   - Forge Biome Types: PLAINS VOID WATER OCEAN DRY 
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: FOREST LUSH PLAINS SPOOKY DENSE 
 
 
-voidcraft:voidcraft_biome_dream_void
-   - Id: 381
-   - Height Base: -1.0
+blue_skies:crystal_dunes
+   - Id: 343
+   - Height Base: 0.125
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: DEAD DRY PLAINS SANDY 
+
+
+blue_skies:sunset_maple_forest
+   - Id: 344
+   - Height Base: 0.1
    - Height Variation: 0.1
-   - Humidity: 0.0
-   - Temperature: 0.21
-   - Forge Biome Types: PLAINS VOID WATER OCEAN DRY 
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: PLAINS 
 
 
-voidcraft:voidcraft_biome_dream_nether
-   - Id: 382
-   - Height Base: -1.0
-   - Height Variation: 0.1
-   - Humidity: 0.0
-   - Temperature: 0.21
-   - Forge Biome Types: PLAINS VOID WATER OCEAN DRY 
+stygian:stygian_growth
+   - Id: 345
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: END 
 
 
-voidcraft:voidcraft_biome_dream_end
-   - Id: 383
-   - Height Base: -1.0
-   - Height Variation: 0.1
-   - Humidity: 0.0
-   - Temperature: 0.21
-   - Forge Biome Types: PLAINS VOID WATER OCEAN DRY 
+stygian:acidic_plains
+   - Id: 346
+   - Height Base: 0.1
+   - Height Variation: 0.2
+   - Humidity: 0.5
+   - Temperature: 0.5
+   - Forge Biome Types: END 
 
 

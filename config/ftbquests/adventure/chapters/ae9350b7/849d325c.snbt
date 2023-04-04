@@ -10,7 +10,10 @@
 		uid: "a61027cf",
 		type: "item",
 		items: [{
-			item: "xlfoodmod:chicken_soup"
+			id: "xlfoodmod:chicken_soup",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

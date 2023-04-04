@@ -10,7 +10,10 @@
 		uid: "f3945673",
 		type: "item",
 		items: [{
-			item: "ftbquests:screen"
+			id: "ftbquests:screen",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

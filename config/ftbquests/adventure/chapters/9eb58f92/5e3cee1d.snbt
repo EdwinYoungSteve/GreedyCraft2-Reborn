@@ -1,7 +1,7 @@
 {
 	title: "§b贵重金属",
-	x: -11.0d,
-	y: -3.5d,
+	x: -5.0d,
+	y: -4.5d,
 	description: "挖掘一个铂矿石",
 	text: [
 		""
@@ -10,7 +10,11 @@
 		uid: "3043a263",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:ore 1 6"
+			id: "thermalfoundation:ore",
+			Damage: 6s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

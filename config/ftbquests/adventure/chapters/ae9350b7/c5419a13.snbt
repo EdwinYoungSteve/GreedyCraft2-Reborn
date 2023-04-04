@@ -10,7 +10,10 @@
 		uid: "5c4d5427",
 		type: "item",
 		items: [{
-			item: "netherex:obsidian_boat"
+			id: "netherex:obsidian_boat",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

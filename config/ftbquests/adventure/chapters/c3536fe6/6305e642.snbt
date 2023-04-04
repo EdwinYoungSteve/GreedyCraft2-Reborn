@@ -1,7 +1,7 @@
 {
 	title: "§b黄金之心",
-	x: 6.0d,
-	y: -1.5d,
+	x: -8.5d,
+	y: 4.0d,
 	description: "合成高贵的皇冠",
 	text: [
 		""

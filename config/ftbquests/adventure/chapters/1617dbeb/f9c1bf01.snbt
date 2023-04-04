@@ -5,7 +5,10 @@
 		uid: "07ec4a6f",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:cytosinite_seeds"
+			id: "mysticalcreations:cytosinite_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

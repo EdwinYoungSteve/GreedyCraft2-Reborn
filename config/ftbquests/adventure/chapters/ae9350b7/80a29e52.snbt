@@ -10,7 +10,10 @@
 		uid: "69481e9a",
 		type: "item",
 		items: [{
-			item: "botania:starfield"
+			id: "botania:starfield",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

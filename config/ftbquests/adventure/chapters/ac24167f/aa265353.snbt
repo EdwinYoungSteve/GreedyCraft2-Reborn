@@ -1,0 +1,20 @@
+{
+	x: -3.5d,
+	y: 2.0d,
+	dependencies: [
+		"5908adab"
+	],
+	tasks: [{
+		uid: "de71aa82",
+		type: "item",
+		items: [{
+			id: "naturesaura:nature_altar",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}]
+}

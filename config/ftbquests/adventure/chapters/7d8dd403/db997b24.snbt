@@ -1,12 +1,11 @@
 {
 	title: "§bC₄H₅N₃O",
-	x: 1.0d,
-	y: 2.5d,
+	x: 0.5d,
+	y: 0.0d,
 	description: "在主世界的泥巴中挖掘胞嘧",
 	text: [
 		""
 	],
-	hide_dependency_lines: true,
 	dependencies: [
 		"9329a5dd"
 	],

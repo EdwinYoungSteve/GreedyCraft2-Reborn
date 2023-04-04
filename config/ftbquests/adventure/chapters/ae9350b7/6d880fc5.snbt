@@ -10,7 +10,10 @@
 		uid: "5f34f035",
 		type: "item",
 		items: [{
-			item: "spiceoflife:lunchbox"
+			id: "spiceoflife:lunchbox",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

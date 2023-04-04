@@ -1,7 +1,7 @@
 {
 	title: "§b夕阳红电路板",
-	x: -9.5d,
-	y: 1.0d,
+	x: -8.0d,
+	y: 2.0d,
 	description: "制作高级控制电路",
 	text: [
 		""

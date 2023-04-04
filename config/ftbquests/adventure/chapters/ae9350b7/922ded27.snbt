@@ -10,7 +10,10 @@
 		uid: "aa26c95c",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-black_hole_remnant"
+			id: "additions:greedycraft-black_hole_remnant",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

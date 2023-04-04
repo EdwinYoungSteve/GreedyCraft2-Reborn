@@ -211,7 +211,7 @@
         },
         "modinfo": {
             "alignment": "bottom_left",
-			"text": "\u00a7bMinecraft Forge \u00a7c\u00a7l#forgeversion#  \u00a7e\u00a7l#modsloaded#\u00a7b\u4e2a\u6a21\u7ec4\u5df2\u52a0\u8f7d\uff01",
+			"text": "\u00a7b\u00a7lMinecraft Forge \u00a7c\u00a7l#forgeversion#  \u00a7e\u00a7l#modsloaded#\u00a7b\u4e2a\u6a21\u7ec4\u5df2\u52a0\u8f7d\uff01",
 			"hoverText": "\u00a7aForge Mod Loader \u00a7d\u00a7l#fmlversion#  \u00a7e\u00a7l#modsactive#\u00a7a\u4e2a\u6a21\u7ec4\u5df2\u542f\u7528\uff01",
             "color": -1,
             "posX": 2,
@@ -238,8 +238,8 @@
             "alignment": "top_left"
         },
         "announcements": {
-            "text": "\u00a7b\u8bbf\u95ee \u00a7e\u00a7lMCBBS \u00a7b\u7f51\u5740\uff01\n\u00a7bQQ\u4ea4\u6d411\u7fa4\uff1a\u00a7c\u00a7l595887137\n\u00a7bQQ\u4ea4\u6d412\u7fa4\uff1a\u00a7c\u00a7l962523950\n\u00a7bQQ\u4ea4\u6d413\u7fa4\uff1a\u00a7c\u00a7l584548646",
-            "hoverText": "\u00a7c\u8d2a\u5a6a\u6574\u5408\u5305II\u7f51\u7ad9\u7b79\u5efa\u4e2d\uff01\n\u00a7bQQ\u4ea4\u6d411\u7fa4\uff1a\u00a7c\u00a7l595887137\n\u00a7bQQ\u4ea4\u6d412\u7fa4\uff1a\u00a7c\u00a7l962523950\n\u00a7bQQ\u4ea4\u6d413\u7fa4\uff1a\u00a7c\u00a7l584548646",
+            "text": "\u00a7b\u8bbf\u95ee \u00a7e\u00a7lMCBBS \u00a7b\u7f51\u5740\uff01\n\u00a7bQQ\u4ea4\u6d411\u7fa4\uff1a\u00a7c\u00a7l595887137\n\u00a7bQQ\u4ea4\u6d412\u7fa4\uff1a\u00a7c\u00a7l962523950\n\u00a7bQQ\u4ea4\u6d413\u7fa4\uff1a\u00a7c\u00a7l584548646\n\u00a7bQQ\u4ea4\u6d414\u7fa4\uff1a\u00a7c\u00a7l805806545",
+            "hoverText": "\u00a7c\u8d2a\u5a6a\u6574\u5408\u5305II\u7f51\u7ad9\u7b79\u5efa\u4e2d\uff01\n\u00a7bQQ\u4ea4\u6d411\u7fa4\uff1a\u00a7c\u00a7l595887137\n\u00a7bQQ\u4ea4\u6d412\u7fa4\uff1a\u00a7c\u00a7l962523950\n\u00a7bQQ\u4ea4\u6d413\u7fa4\uff1a\u00a7c\u00a7l584548646\n\u00a7bQQ\u4ea4\u6d414\u7fa4\uff1a\u00a7c\u00a7l805806545",
             "action": {
                 "type": "openLink",
                 "link": "https://www.mcbbs.net/thread-1369059-1-1.html"
@@ -332,22 +332,7 @@
                     "greedycraft:backgrounds/67.png",
                     "greedycraft:backgrounds/68.png",
                     "greedycraft:backgrounds/69.png",
-                    "greedycraft:backgrounds/70.png",
-                    "greedycraft:backgrounds/71.png",
-                    "greedycraft:backgrounds/72.png",
-                    "greedycraft:backgrounds/73.png",
-                    "greedycraft:backgrounds/74.png",
-                    "greedycraft:backgrounds/75.png",
-                    "greedycraft:backgrounds/76.png",
-                    "greedycraft:backgrounds/77.png",
-                    "greedycraft:backgrounds/78.png",
-                    "greedycraft:backgrounds/79.png",
-                    "greedycraft:backgrounds/80.png",
-                    "greedycraft:backgrounds/81.png",
-                    "greedycraft:backgrounds/82.png",
-                    "greedycraft:backgrounds/83.png",
-                    "greedycraft:backgrounds/84.png",
-                    "greedycraft:backgrounds/85.png"
+                    "greedycraft:backgrounds/70.png"
                 ],
                 "shuffle": true,
                 "displayDuration": 90,

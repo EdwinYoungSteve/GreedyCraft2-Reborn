@@ -10,7 +10,10 @@
 		uid: "af88cc70",
 		type: "item",
 		items: [{
-			item: "candymod:teleporter"
+			id: "candymod:teleporter",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

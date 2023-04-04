@@ -1,14 +1,18 @@
 {
-	x: -17.0d,
-	y: -0.5d,
+	x: -15.0d,
+	y: -1.0d,
 	dependencies: [
-		"6496c2db"
+		"45cd56c0"
 	],
 	tasks: [{
 		uid: "54072fda",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:ore 1 5"
+			id: "nuclearcraft:ore",
+			Damage: 5s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

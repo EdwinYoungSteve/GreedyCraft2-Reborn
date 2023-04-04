@@ -10,7 +10,10 @@
 		uid: "6a2b614b",
 		type: "item",
 		items: [{
-			item: "harvestcraft:netherstartoastitem"
+			id: "harvestcraft:netherstartoastitem",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

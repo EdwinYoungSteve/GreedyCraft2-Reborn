@@ -1,7 +1,7 @@
 {
 	title: "§b晶体还原",
-	x: -4.5d,
-	y: 9.0d,
+	x: 0.0d,
+	y: -1.5d,
 	description: "合成嬗变器",
 	text: [
 		""

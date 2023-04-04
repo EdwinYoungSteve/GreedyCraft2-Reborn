@@ -22,8 +22,8 @@ infuser.removeRecipe(<mekanism:otherdust:1>);
 infuser.addRecipe("OSGLOGLAS", 10, <mekanism:atomicalloy>, <additions:mekaddon-imaginative_alloy>);
 infuser.addRecipe("PORPEZITE", 10, <additions:mekaddon-imaginative_alloy>, <additions:mekaddon-shadowing_alloy>);
 
-enrichment.addRecipe(<hammermetals:osgloglas_dust>, <additions:mekaddon-compressed_osgloglas>);
-enrichment.addRecipe(<hammermetals:porpezite_dust>, <additions:mekaddon-compressed_porpezite>);
+enrichment.addRecipe(<jaopca:item_dustosgloglas>, <additions:mekaddon-compressed_osgloglas>);
+enrichment.addRecipe(<jaopca:item_dustporpezite>, <additions:mekaddon-compressed_porpezite>);
 
 purification.addRecipe(<thermalfoundation:material>, <gas:oxygen>, <additions:mekaddon-iron_oxide_dust>);
 

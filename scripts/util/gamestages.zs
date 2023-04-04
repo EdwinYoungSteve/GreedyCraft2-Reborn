@@ -16,6 +16,7 @@ import mods.ItemStages;
 
 static stageTwilightShield as Stage = ZenStager.initStage("twilight_shield");
 static stageHardmode as Stage = ZenStager.initStage("hardmode");
+static stageNoobEngineer as Stage = ZenStager.initStage("noob_engineer");
 static stageSkilledEngineer as Stage = ZenStager.initStage("skilled_engineer");
 static stageNether as Stage = ZenStager.initStage("nether");
 static stageNoviceEngineer as Stage = ZenStager.initStage("novice_engineer");
@@ -35,9 +36,11 @@ static stageChallenger6 as Stage = ZenStager.initStage("challenger_f");
 static stageChallenger7 as Stage = ZenStager.initStage("challenger_g");
 static stageChallenger8 as Stage = ZenStager.initStage("challenger_all");
 static stageFearlessMan as Stage = ZenStager.initStage("fearless_man");
+static stageNoobWizard as Stage = ZenStager.initStage("noob_wizard");
 static stageNoviceWizard as Stage = ZenStager.initStage("novice_wizard");
 static stageSkilledWizard as Stage = ZenStager.initStage("skilled_wizard");
 static stageMasterWizard as Stage = ZenStager.initStage("master_wizard");
+static stageEpicWizard as Stage = ZenStager.initStage("epic_wizard");
 static stageEnderCharm as Stage = ZenStager.initStage("ender_charm");
 static stageTransmutationTable as Stage = ZenStager.initStage("transmutation_table");
 static stageEnergyMatter as Stage = ZenStager.initStage("energy_matter_core");
@@ -62,6 +65,7 @@ static stageOrder as Stage = ZenStager.initStage("order");
 static stageCosmic as Stage = ZenStager.initStage("cosmic");
 static stageEpicEngineer as Stage = ZenStager.initStage("epic_engineer");
 static stageTinkeringBlueprint as Stage = ZenStager.initStage("tinkering_blueprint");
+static stageWarped as Stage = ZenStager.initStage("warped");
 
 static zenStageMap as Stage[string] = ZenStager.getStageMap();
 

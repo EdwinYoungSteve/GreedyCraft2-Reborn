@@ -12,7 +12,10 @@
 		uid: "3ccbb191",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-city_defender_medal"
+			id: "additions:greedycraft-city_defender_medal",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

@@ -10,7 +10,11 @@
 		uid: "7736171f",
 		type: "item",
 		items: [{
-			item: "twilightforest:trophy 1 8"
+			id: "twilightforest:trophy",
+			Damage: 8s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

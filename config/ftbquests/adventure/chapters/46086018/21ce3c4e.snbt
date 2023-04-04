@@ -1,10 +1,11 @@
 {
-	title: "§b黄金地牢",
-	x: 9.0d,
-	y: 0.0d,
+	title: "§c【可重复】 烈日落幕",
+	x: 11.0d,
+	y: -13.5d,
+	shape: "gear",
 	description: "击杀烈阳巨灵，获得日轮祭坛",
 	text: [
-		"此任务为可重复任务，每次提交一个日轮祭坛都可以获得一些烈阳神晶"
+		""
 	],
 	can_repeat: true,
 	dependencies: [

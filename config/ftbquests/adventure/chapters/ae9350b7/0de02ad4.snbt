@@ -10,7 +10,10 @@
 		uid: "77fac290",
 		type: "item",
 		items: [{
-			item: "gct_ores:command_dismantler"
+			id: "gct_ores:command_dismantler",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

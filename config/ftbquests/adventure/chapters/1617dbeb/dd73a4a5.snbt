@@ -5,7 +5,10 @@
 		uid: "ac121a02",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:mistium_seeds"
+			id: "mysticalcreations:mistium_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

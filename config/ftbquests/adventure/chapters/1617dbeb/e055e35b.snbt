@@ -5,7 +5,10 @@
 		uid: "361cf75a",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:guaninite_seeds"
+			id: "mysticalcreations:guaninite_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

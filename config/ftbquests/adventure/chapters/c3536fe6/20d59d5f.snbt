@@ -1,6 +1,6 @@
 {
 	title: "§b朦胧国度",
-	x: -12.0d,
+	x: -13.0d,
 	y: -4.5d,
 	description: "搭建朦胧世界传送门，进入朦胧世界",
 	text: [
@@ -12,9 +12,19 @@
 	dependencies: [
 		"ecc95796"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "7d193d30",
 		type: "dimension",
+		icon: {
+			id: "mist:stone",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		},
 		dim: 69
 	}],
 	rewards: [{

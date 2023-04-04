@@ -25,8 +25,8 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
     <gct_ores:genite_ingot>,
     <tconevo:material>,
     <enderio:item_alloy_endergy_ingot:3>,
-    <theaurorian:auroriansteel>,
-    <additions:greedycraft-twilight_crystal_ingot>,
+    <abyssalcraft:dreadiumingot>,
+    <divinerpg:arcanium>,
     <draconicevolution:draconium_ingot>
 ] as IItemStack[], {
     <additions:greedycraft-catalyst_star> : {
@@ -37,6 +37,10 @@ MMUtil.addForgeRecipe("aeonsteel_forge", MMUtil.getStack(<additions:aeonsteel_in
         speed: 0.2,
         energy: 0.2
     }, 
+    <additions:greedycraft-twilight_crystal_ingot> : {
+        speed: 0.4,
+        energy: 0.2
+    },
     <draconicevolution:draconic_ingot> : {
         speed: 0.15,
         energy: 0.3

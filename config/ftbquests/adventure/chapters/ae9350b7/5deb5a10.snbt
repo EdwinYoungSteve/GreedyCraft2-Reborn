@@ -10,7 +10,10 @@
 		uid: "e9052d07",
 		type: "item",
 		items: [{
-			item: "comforts:hammock"
+			id: "comforts:hammock",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_nbt: 1b
 	}],

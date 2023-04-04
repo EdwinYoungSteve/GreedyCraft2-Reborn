@@ -1,8 +1,7 @@
 {
 	title: "§b耐心到达极限",
-	x: 0.0d,
-	y: 16.5d,
-	shape: "pentagon",
+	x: 3.5d,
+	y: -24.75d,
 	description: "搭建耐钢熔合机，制作耐钢锭！",
 	text: [
 		"耐钢锭需要多方块结构——耐钢熔合机制作",
@@ -13,8 +12,9 @@
 	],
 	dependencies: [
 		"fe1392a6",
-		"8bc0d2df"
+		"33937ece"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "86fad416",
 		type: "item",

@@ -10,7 +10,10 @@
 		uid: "d4d0745b",
 		type: "item",
 		items: [{
-			item: "cookingforblockheads:sink"
+			id: "cookingforblockheads:sink",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

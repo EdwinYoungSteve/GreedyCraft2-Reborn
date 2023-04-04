@@ -1,10 +1,16 @@
 {
+	title: "§b归于平衡",
 	x: 1.5d,
-	y: -1.5d,
+	y: -5.0d,
+	description: "制作平衡矩阵",
+	text: [
+		""
+	],
 	dependencies: [
 		"dc319614",
 		"c73ef5d0"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "ce356c99",
 		type: "item",
@@ -17,5 +23,26 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "balanced_matrix"
+	},
+	{
+		uid: "21df6b20",
+		type: "item",
+		item: {
+			id: "gct_ores:balanced_matrix_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "f8178ca6",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "5f121e65",
+		type: "random",
+		table: 4
 	}]
 }

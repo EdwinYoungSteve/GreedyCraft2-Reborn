@@ -1,7 +1,7 @@
 {
 	title: "§b盲人摸象",
-	x: -3.0d,
-	y: 6.0d,
+	x: -4.5d,
+	y: 5.5d,
 	description: "合成诅咒：致盲",
 	text: [
 		""

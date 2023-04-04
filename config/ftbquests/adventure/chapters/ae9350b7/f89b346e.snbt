@@ -10,7 +10,10 @@
 		uid: "2c26958e",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-compressed_experience_block"
+			id: "additions:greedycraft-compressed_experience_block",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

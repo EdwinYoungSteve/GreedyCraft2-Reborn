@@ -10,7 +10,10 @@
 		uid: "ee00f69f",
 		type: "item",
 		items: [{
-			item: "minecraft:emerald"
+			id: "minecraft:emerald",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

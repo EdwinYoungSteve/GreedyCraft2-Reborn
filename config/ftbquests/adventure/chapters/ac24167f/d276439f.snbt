@@ -1,0 +1,23 @@
+{
+	x: -5.5d,
+	y: -0.5d,
+	dependencies: [
+		"c22401e6"
+	],
+	tasks: [{
+		uid: "3a149b4b",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:overworld"
+			},
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}]
+}

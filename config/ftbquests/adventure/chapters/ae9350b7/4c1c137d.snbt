@@ -10,7 +10,10 @@
 		uid: "fb35c5d7",
 		type: "item",
 		items: [{
-			item: "minecraft:totem_of_undying"
+			id: "minecraft:totem_of_undying",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

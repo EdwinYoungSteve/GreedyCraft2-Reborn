@@ -10,7 +10,10 @@
 		uid: "6aead106",
 		type: "item",
 		items: [{
-			item: "bountifulbaubles:trinketluckyhorseshoe"
+			id: "bountifulbaubles:trinketluckyhorseshoe",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

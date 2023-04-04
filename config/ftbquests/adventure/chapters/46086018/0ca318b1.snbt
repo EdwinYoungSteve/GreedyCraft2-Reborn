@@ -1,6 +1,11 @@
 {
-	x: 0.0d,
-	y: 1.5d,
+	title: "§b阴阳之火",
+	x: -7.0d,
+	y: -8.0d,
+	description: "合成地狱之火，用于召唤紫焰王",
+	text: [
+		""
+	],
 	dependencies: [
 		"aabc0db4"
 	],
@@ -12,5 +17,26 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e594d1d9",
+		type: "item",
+		item: {
+			id: "minecraft:blaze_powder",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "4d6e66ae",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "33cc9b27",
+		type: "random",
+		table: 1
 	}]
 }

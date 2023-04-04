@@ -10,7 +10,10 @@
 		uid: "2d024afa",
 		type: "item",
 		items: [{
-			item: "botania:reachring"
+			id: "botania:reachring",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

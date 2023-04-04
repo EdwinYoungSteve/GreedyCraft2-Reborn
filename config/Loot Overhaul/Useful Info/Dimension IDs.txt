@@ -369,6 +369,15 @@ candymod
 	- Terrain Scale: 1.0
 
 
+midnight
+	- Id: -23
+	- Height: 255
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
 AetherI
 	- Id: 173
 	- Height: 256

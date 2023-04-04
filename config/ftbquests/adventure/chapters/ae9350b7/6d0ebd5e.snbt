@@ -10,7 +10,10 @@
 		uid: "e0d8f063",
 		type: "item",
 		items: [{
-			item: "prefab:item_start_house"
+			id: "prefab:item_start_house",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

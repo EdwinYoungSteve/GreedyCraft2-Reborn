@@ -1,16 +1,16 @@
 {
 	title: "§b恒心笃定",
-	x: 17.5d,
-	y: 7.0d,
-	shape: "pentagon",
+	x: 8.25d,
+	y: 4.5d,
 	description: "使用恒钢熔炉制作恒钢！",
 	text: [
 		""
 	],
 	dependencies: [
-		"33937ece",
-		"8edb3299"
+		"7d572f6a",
+		"89ff4eb4"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "bd8af430",
 		type: "item",

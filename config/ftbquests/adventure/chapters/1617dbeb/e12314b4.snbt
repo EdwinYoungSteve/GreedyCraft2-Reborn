@@ -5,7 +5,10 @@
 		uid: "0a433076",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:snowingium_seeds"
+			id: "mysticalcreations:snowingium_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

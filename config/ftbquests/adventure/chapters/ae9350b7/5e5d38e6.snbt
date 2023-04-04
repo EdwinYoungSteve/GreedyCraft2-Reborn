@@ -10,7 +10,10 @@
 		uid: "67806b93",
 		type: "item",
 		items: [{
-			item: "defiledlands:essence_destroyer"
+			id: "defiledlands:essence_destroyer",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

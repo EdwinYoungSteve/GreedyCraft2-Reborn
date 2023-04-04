@@ -5,7 +5,10 @@
 		uid: "f6c9af68",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:cryonium_seeds"
+			id: "mysticalcreations:cryonium_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

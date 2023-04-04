@@ -5,7 +5,10 @@
 		uid: "6d238b88",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:copper_seeds"
+			id: "mysticalagriculture:copper_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

@@ -1,7 +1,7 @@
 {
 	title: "§b并非磷和铁",
-	x: 18.0d,
-	y: -3.0d,
+	x: 7.5d,
+	y: 2.5d,
 	description: "获得磷铁锭",
 	text: [
 		""

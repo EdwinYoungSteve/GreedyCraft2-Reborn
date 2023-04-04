@@ -1,7 +1,7 @@
 {
 	title: "§bRh",
-	x: -5.0d,
-	y: 7.0d,
+	x: -3.0d,
+	y: 9.5d,
 	description: "在朦胧世界挖掘铑矿石",
 	text: [
 		""
@@ -10,7 +10,10 @@
 		uid: "653b1f4e",
 		type: "item",
 		items: [{
-			item: "additions:mekaddon-rhodium_ore"
+			id: "additions:mekaddon-rhodium_ore",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

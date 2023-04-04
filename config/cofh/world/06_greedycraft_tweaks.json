@@ -1020,7 +1020,7 @@
             },
             "min-height": 0,
             "max-height": 80,
-            "cluster-count": 4,
+            "cluster-count": 24,
             "retrogen": "true",
             "dimension": {
                 "restriction": "blacklist",
@@ -1665,6 +1665,61 @@
             "dimension": {
                 "restriction": "whitelist",
                 "value": [100,101,102,103]
+            }
+        },
+        "elders_ore": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "gct_aby:nyralathotepium_ore_complex",
+                    "weight": 25
+                },{
+                    "name": "gct_aby:azathothium_ore_complex",
+                    "weight": 25
+                },{
+                    "name": "gct_aby:yogsothothium_ore_complex",
+                    "weight": 25
+                },{
+                    "name": "gct_aby:shubniggurathium_ore_complex",
+                    "weight": 25
+                }],
+                "material": "gct_aby:warprack",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 6,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [55]
+            }
+        },
+        "everdawn": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "blue_skies:horizonite_ore",
+                    "weight": 33
+                },{
+                    "name": "additions:greedycraft-falsite_ore",
+                    "weight": 33
+                },{
+                    "name": "additions:greedycraft-ventium_ore",
+                    "weight": 34
+                }],
+                "material": "blue_skies:lunar_stone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 6,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [77]
             }
         }
     }

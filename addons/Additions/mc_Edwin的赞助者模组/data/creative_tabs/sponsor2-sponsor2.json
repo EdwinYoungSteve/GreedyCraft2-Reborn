@@ -1,0 +1,23 @@
+{
+  "name": "§2赞助者物品 II",
+  "tab_item": {
+    "item": "additions:sponsor2-chest"
+  },
+  "items": [
+    {
+      "item": "additions:sponsor2-ae_mirror"
+    },
+    {
+      "item": "additions:sponsor2-bald"
+    },
+    {
+      "item": "additions:sponsor2-frozen_ring"
+    },
+    {
+      "item": "additions:sponsor2-pure_bone_nail"
+    },
+    {
+      "item": "additions:sponsor2-scroll_of_sister"
+    }
+  ]
+}

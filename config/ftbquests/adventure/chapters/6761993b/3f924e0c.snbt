@@ -11,7 +11,10 @@
 		type: "item",
 		items: [{
 			id: "bloodmagic:sacrificial_dagger",
-			tag: {}
+			tag: {},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_nbt: 1b
 	}],

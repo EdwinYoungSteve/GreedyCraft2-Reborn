@@ -10,7 +10,10 @@
 		uid: "2fa3ab6e",
 		type: "item",
 		items: [{
-			item: "scalinghealth:heartcontainer"
+			id: "scalinghealth:heartcontainer",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

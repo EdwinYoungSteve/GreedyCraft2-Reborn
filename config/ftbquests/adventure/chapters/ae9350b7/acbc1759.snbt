@@ -10,7 +10,10 @@
 		uid: "ec4fe571",
 		type: "item",
 		items: [{
-			item: "redstonepaste:redstonepaste"
+			id: "redstonepaste:redstonepaste",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

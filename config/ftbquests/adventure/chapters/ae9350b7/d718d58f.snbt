@@ -10,7 +10,10 @@
 		uid: "e397d8be",
 		type: "item",
 		items: [{
-			item: "additions:perfectly_generic_item"
+			id: "additions:perfectly_generic_item",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

@@ -1,7 +1,7 @@
 {
 	title: "§b稀有金属，当然可以用来跳阶段",
-	x: -11.0d,
-	y: -0.5d,
+	x: -8.0d,
+	y: -4.5d,
 	description: "挖掘一个铱矿石",
 	text: [
 		""
@@ -10,7 +10,11 @@
 		uid: "be13e7ff",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:ore 1 7"
+			id: "thermalfoundation:ore",
+			Damage: 7s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

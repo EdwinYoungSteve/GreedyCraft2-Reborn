@@ -608,7 +608,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "hammermetals:osmiridium_casing@0"
+                "plustic:osgloglasblock@0"
             ]
         },
         {
@@ -672,7 +672,7 @@
             "y": 5,
             "z": 0,
             "elements": [
-                "hammermetals:osmiridium_casing@0"
+                "plustic:osgloglasblock@0"
             ]
         },
         {
@@ -720,7 +720,7 @@
             "y": 5,
             "z": 0,
             "elements": [
-                "hammermetals:osmiridium_casing@0"
+                "plustic:osgloglasblock@0"
             ]
         },
         {
@@ -864,7 +864,7 @@
             "y": 6,
             "z": 0,
             "elements": [
-                "hammermetals:osgloglas_casing@0"
+                "plustic:osgloglasblock@0"
             ]
         },
         {
@@ -1096,7 +1096,7 @@
             "y": 4,
             "z": 6,
             "elements": [
-                "hammermetals:osmiridium_casing@0"
+                "plustic:osgloglasblock@0"
             ]
         },
         {
@@ -1136,7 +1136,7 @@
             "y": 4,
             "z": 6,
             "elements": [
-                "hammermetals:osmiridium_casing@0"
+                "plustic:osgloglasblock@0"
             ]
         },
         {
@@ -1168,7 +1168,7 @@
             "y": 5,
             "z": 6,
             "elements": [
-                "hammermetals:osmiridium_casing@0"
+                "plustic:osgloglasblock@0"
             ]
         },
         {
@@ -1280,7 +1280,7 @@
             "y": 5,
             "z": 6,
             "elements": [
-                "hammermetals:osmiridium_casing@0"
+                "plustic:osgloglasblock@0"
             ]
         },
         {
@@ -1376,7 +1376,7 @@
             "y": 6,
             "z": 6,
             "elements": [
-                "hammermetals:osgloglas_casing@0"
+                "plustic:osgloglasblock@0"
             ]
         },
         {
@@ -2120,7 +2120,7 @@
             "y": 6,
             "z": 3,
             "elements": [
-                "hammermetals:osgloglas_casing@0"
+                "plustic:osgloglasblock@0"
             ]
         },
         {

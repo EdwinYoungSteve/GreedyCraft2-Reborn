@@ -5,7 +5,10 @@
 		uid: "21d0bf89",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:glowstone_seeds"
+			id: "mysticalagriculture:glowstone_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

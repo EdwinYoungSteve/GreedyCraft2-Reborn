@@ -10,7 +10,10 @@
 		uid: "5c91d61e",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-forbidden_bible"
+			id: "additions:greedycraft-forbidden_bible",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

@@ -10,7 +10,10 @@
 		uid: "8cb55fdd",
 		type: "item",
 		items: [{
-			item: "minecraft:enchanting_table"
+			id: "minecraft:enchanting_table",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

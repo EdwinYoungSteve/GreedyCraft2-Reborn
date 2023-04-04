@@ -1,7 +1,7 @@
 {
 	title: "§b水晶矩阵",
-	x: -17.0d,
-	y: 4.0d,
+	x: -8.5d,
+	y: 14.5d,
 	description: "合成水晶矩阵锭，无尽贪婪的开始",
 	text: [
 		""
@@ -10,7 +10,11 @@
 		uid: "1a14ff71",
 		type: "item",
 		items: [{
-			item: "avaritia:resource 1 1"
+			id: "avaritia:resource",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

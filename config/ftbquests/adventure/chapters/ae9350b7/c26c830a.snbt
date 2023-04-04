@@ -10,7 +10,10 @@
 		uid: "5c36f7d2",
 		type: "item",
 		items: [{
-			item: "gct_ores:blue_print_forge"
+			id: "gct_ores:blue_print_forge",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

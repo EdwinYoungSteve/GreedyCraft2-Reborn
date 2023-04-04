@@ -10,7 +10,10 @@
 		uid: "bef6236c",
 		type: "item",
 		items: [{
-			item: "botania:altar"
+			id: "botania:altar",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

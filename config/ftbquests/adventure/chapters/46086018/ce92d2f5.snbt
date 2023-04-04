@@ -1,19 +1,22 @@
 {
 	title: "§b不是钴-60",
-	x: 1.5d,
-	y: 0.0d,
+	x: -2.5d,
+	y: -9.0d,
 	description: "挖掘一块钴矿石",
 	text: [
 		""
 	],
 	dependencies: [
-		"4c400631"
+		"a6bbe70a"
 	],
 	tasks: [{
 		uid: "2000f17f",
 		type: "item",
 		items: [{
-			item: "tconstruct:ore"
+			id: "tconstruct:ore",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

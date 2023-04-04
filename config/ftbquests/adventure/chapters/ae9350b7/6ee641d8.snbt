@@ -10,7 +10,10 @@
 		uid: "733a7f21",
 		type: "item",
 		items: [{
-			item: "draconicevolution:celestial_manipulator"
+			id: "draconicevolution:celestial_manipulator",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

@@ -20,19 +20,23 @@ import scripts.util.machines as MMUtil;
 
 MMUtil.addForgeRecipe("chromasteel_forge", MMUtil.getStack(<additions:chromasteel_ingot>, 8), (42000 * FORGE_COST_MULTIPLIER) as int, (240000000 as long * FORGE_COST_MULTIPLIER as long) as long, [
     <additions:aeonsteel_ingot>,
-    <gct_ores:everite_ingot>,
-    <tconevo:metal:5>,
-    <gct_ores:relifed_metal_ingot>,
-    <additions:greedycraft-daynight_ingot>,
+    <mist:niobium_ingot>,
+    <tconevo:metal>,
+    <gct_ores:fallen_metal_ingot>,
     <tconevo:metal:20>,
     <plustic:osgloglasingot>,
-    <additions:greedycraft-dullium_ingot>,
+    <additions:greedycraft-eucite_ingot>,
+    <additions:greedycraft-corbite_ingot>,
     <additions:botaniaddon-mythsteel_ingot>,
     <biomesoplenty:terrestrial_artifact>
 ] as IItemStack[], {
     <additions:astral_metal_ingot> : {
         speed: 0.15,
         energy: 0.2
+    },
+    <additions:greedycraft-daynight_ingot> : {
+        speed: 0.5,
+        energy: 0.1
     },
     <tconevo:metal:25> : {
         speed: 0.1,

@@ -388,34 +388,6 @@ for i in 2 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:loot_power_generator"})) 
         .build();
 }
-//暮光合金炉
-for i in 3 to 7 {
-    RecipeBuilder.newBuilder("controller_twilight_alloyer" + i, "builder_" + i, 4800)
-        .addFluidInput(<liquid:redstone> * 8000)
-        .addItemInput(<ore:plateEden>, 4)
-        .addItemInput(<ore:plateWildwood>, 4)
-        .addItemInput(<ore:plateApalachia>, 4)
-        .addItemInput(<ore:plateSkythern>, 4)
-        .addItemInput(<ore:plateMortum>, 4)
-        .addEnergyPerTickInput(600)
-        .addItemOutput(<modularcontroller:twilight_alloyer_controller>)
-        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:twilight_alloyer"})) 
-        .build();
-}
-//极光合金炉
-for i in 3 to 7 {
-    RecipeBuilder.newBuilder("controller_aurorian_alloyer" + i, "builder_" + i, 4800)
-        .addFluidInput(<liquid:redstone> * 8000)
-        .addItemInput(<ore:plateMoonstone>, 4)
-        .addItemInput(<ore:plateCerulean>, 4)
-        .addItemInput(<ore:plateUmbra>, 2)
-        .addItemInput(<ore:plateCrystalline>, 2)
-        .addItemInput(<ore:Aurorianite>, 2)
-        .addEnergyPerTickInput(600)
-        .addItemOutput(<modularcontroller:aurorian_alloyer_controller>)
-        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:aurorian_alloyer"})) 
-        .build();
-}
 //冷凝液化机
 for i in 3 to 7 {
     RecipeBuilder.newBuilder("controller_condensation_liquefactor" + i, "builder_" + i, 4000)

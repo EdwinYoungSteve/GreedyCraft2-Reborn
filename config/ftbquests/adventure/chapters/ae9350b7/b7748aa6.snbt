@@ -10,7 +10,10 @@
 		uid: "47361768",
 		type: "item",
 		items: [{
-			item: "cyclicmagic:tool_elevate"
+			id: "cyclicmagic:tool_elevate",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

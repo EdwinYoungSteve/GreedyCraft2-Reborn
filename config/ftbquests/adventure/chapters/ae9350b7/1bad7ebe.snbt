@@ -10,7 +10,10 @@
 		uid: "c3e87c6e",
 		type: "item",
 		items: [{
-			item: "jecalculation:item_calculator"
+			id: "jecalculation:item_calculator",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_nbt: 1b
 	}],

@@ -10,7 +10,10 @@
 		uid: "8118e7d9",
 		type: "item",
 		items: [{
-			item: "forestry:scoop"
+			id: "forestry:scoop",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

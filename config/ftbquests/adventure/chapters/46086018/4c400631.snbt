@@ -1,10 +1,9 @@
 {
-	x: 0.0d,
-	y: -1.5d,
+	x: 3.5d,
+	y: -9.0d,
 	tasks: [{
 		uid: "6441843f",
 		type: "gamestage",
-		title: "在【冒险·壹】处取得进展",
-		stage: "nether"
+		stage: "twilight_shield"
 	}]
 }

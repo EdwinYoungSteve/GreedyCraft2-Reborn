@@ -1,7 +1,7 @@
 {
 	title: "§b欢迎来到洛式世界",
-	x: -13.5d,
-	y: 9.0d,
+	x: 6.5d,
+	y: 6.5d,
 	description: "获得一本深渊死灵之书",
 	text: [
 		""
@@ -13,6 +13,9 @@
 			id: "abyssalcraft:necronomicon",
 			tag: {
 				PotEnergy: 0.0f
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_damage: true,

@@ -1,6 +1,11 @@
 {
-	x: 0.0d,
-	y: 4.5d,
+	title: "§b交错次元独有的",
+	x: 4.0d,
+	y: 4.0d,
+	description: "在交错次元挖掘本维度的专属矿石",
+	text: [
+		""
+	],
 	dependencies: [
 		"bae35f19",
 		"c6ceb454"

@@ -1,13 +1,12 @@
 {
 	title: "§b倍矿狂魔",
-	x: -9.0d,
-	y: -6.0d,
+	x: -17.5d,
+	y: -8.0d,
 	description: "制作无线气体终端",
 	text: [
 		""
 	],
 	dependencies: [
-		"f42ca7b4",
 		"b5314b30"
 	],
 	tasks: [{

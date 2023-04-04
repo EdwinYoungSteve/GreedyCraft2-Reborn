@@ -1,7 +1,7 @@
 {
 	title: "§b炫目冰花",
-	x: 0.0d,
-	y: 7.5d,
+	x: 3.5d,
+	y: -3.5d,
 	description: "在冰晶雪原挖掘冰纹金矿石",
 	text: [
 		""
@@ -13,7 +13,10 @@
 		uid: "a7d47377",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-iciricium_ore"
+			id: "additions:greedycraft-iciricium_ore",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

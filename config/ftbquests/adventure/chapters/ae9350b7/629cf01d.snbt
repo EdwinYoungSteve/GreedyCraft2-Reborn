@@ -10,7 +10,10 @@
 		uid: "0a7a1e66",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-poop"
+			id: "additions:greedycraft-poop",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

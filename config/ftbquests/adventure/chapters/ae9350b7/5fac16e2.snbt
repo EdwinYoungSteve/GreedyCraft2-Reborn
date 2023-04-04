@@ -10,7 +10,10 @@
 		uid: "dcf22524",
 		type: "item",
 		items: [{
-			item: "cyclicmagic:water_candle"
+			id: "cyclicmagic:water_candle",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

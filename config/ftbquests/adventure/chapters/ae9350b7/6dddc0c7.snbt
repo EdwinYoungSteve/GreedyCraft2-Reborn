@@ -24,6 +24,9 @@
 					id: 35,
 					lvl: 2s
 				}]
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_damage: true,

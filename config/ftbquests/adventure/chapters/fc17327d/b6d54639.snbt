@@ -1,8 +1,7 @@
 {
 	title: "§b真的……现代化……",
-	x: -10.5d,
-	y: 6.5d,
-	shape: "pentagon",
+	x: -12.0d,
+	y: 4.5d,
 	description: "制作一块不锈钢",
 	text: [
 		""
@@ -12,6 +11,7 @@
 		"017c268e",
 		"8314f3ff"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "4e5d56fe",
 		type: "item",

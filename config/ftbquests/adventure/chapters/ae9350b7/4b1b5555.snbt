@@ -10,7 +10,10 @@
 		uid: "e871d890",
 		type: "item",
 		items: [{
-			item: "cyclicmagic:harvester_block"
+			id: "cyclicmagic:harvester_block",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

@@ -5,7 +5,10 @@
 		uid: "60a23ccc",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:fire_seeds"
+			id: "mysticalagriculture:fire_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

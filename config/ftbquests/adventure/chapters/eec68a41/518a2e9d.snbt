@@ -13,7 +13,10 @@
 		uid: "eff83ffe",
 		type: "item",
 		items: [{
-			item: "additions:shadowium_ingot"
+			id: "additions:shadowium_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

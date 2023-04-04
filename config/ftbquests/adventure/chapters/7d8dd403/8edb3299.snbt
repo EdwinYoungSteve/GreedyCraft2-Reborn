@@ -1,13 +1,13 @@
 {
 	title: "§b五合一",
-	x: 16.0d,
-	y: 5.5d,
+	x: 3.0d,
+	y: 13.5d,
 	description: "使用五种暮光维度的金属合金为暮光结晶锭",
 	text: [
 		""
 	],
 	dependencies: [
-		"2a15cc7a"
+		"9fc01909"
 	],
 	tasks: [{
 		uid: "27f91b8c",

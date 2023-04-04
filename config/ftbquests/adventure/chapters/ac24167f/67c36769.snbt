@@ -1,0 +1,20 @@
+{
+	x: -7.5d,
+	y: 1.0d,
+	dependencies: [
+		"76a1d5fc"
+	],
+	tasks: [{
+		uid: "863a2f38",
+		type: "item",
+		items: [{
+			id: "naturesaura:wood_stand",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}]
+}

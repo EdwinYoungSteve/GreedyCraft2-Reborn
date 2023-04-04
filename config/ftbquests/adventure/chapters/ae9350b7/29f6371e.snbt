@@ -9,7 +9,10 @@
 		uid: "5725b57e",
 		type: "item",
 		items: [{
-			item: "extrabotany:elvenking"
+			id: "extrabotany:elvenking",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

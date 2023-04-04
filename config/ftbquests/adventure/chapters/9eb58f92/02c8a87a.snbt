@@ -1,11 +1,14 @@
 {
-	x: -21.5d,
-	y: -3.5d,
+	x: -26.5d,
+	y: -4.0d,
 	tasks: [{
 		uid: "27a47fc8",
 		type: "item",
 		items: [{
-			item: "modularcontroller:air_collector_controller"
+			id: "modularcontroller:air_collector_controller",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

@@ -1,7 +1,7 @@
 {
 	title: "§b贪吃蛇大作战",
-	x: -12.0d,
-	y: 10.0d,
+	x: -8.0d,
+	y: 11.5d,
 	description: "击败娜迦",
 	text: [
 		""

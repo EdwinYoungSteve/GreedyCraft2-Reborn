@@ -10,7 +10,10 @@
 		uid: "f797a3be",
 		type: "item",
 		items: [{
-			item: "mutantbeasts:hulk_hammer"
+			id: "mutantbeasts:hulk_hammer",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

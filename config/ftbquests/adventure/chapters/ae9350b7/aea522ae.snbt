@@ -10,7 +10,10 @@
 		uid: "314fecaa",
 		type: "item",
 		items: [{
-			item: "tofucraft:tofuforce_core"
+			id: "tofucraft:tofuforce_core",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

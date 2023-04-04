@@ -13,6 +13,9 @@
 			id: "randomthings:timeinabottle",
 			tag: {
 				timeData: {}
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_damage: true,

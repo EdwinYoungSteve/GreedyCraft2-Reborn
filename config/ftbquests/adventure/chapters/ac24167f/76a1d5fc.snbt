@@ -1,0 +1,20 @@
+{
+	x: -9.5d,
+	y: 2.0d,
+	dependencies: [
+		"32b4fc93"
+	],
+	tasks: [{
+		uid: "3ae424a4",
+		type: "item",
+		items: [{
+			id: "naturesaura:gold_leaf",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}]
+}

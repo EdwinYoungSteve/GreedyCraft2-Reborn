@@ -10,7 +10,10 @@
 		uid: "ff16273c",
 		type: "item",
 		items: [{
-			item: "bountifulbaubles:trinketankhcharm"
+			id: "bountifulbaubles:trinketankhcharm",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

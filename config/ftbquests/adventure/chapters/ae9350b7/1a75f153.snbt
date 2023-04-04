@@ -10,7 +10,11 @@
 		uid: "c93fc87d",
 		type: "item",
 		items: [{
-			item: "appliedenergistics2:material 1 29"
+			id: "appliedenergistics2:material",
+			Damage: 29s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

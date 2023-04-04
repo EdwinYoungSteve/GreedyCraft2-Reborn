@@ -80,21 +80,6 @@ RecipeUtil.addShapeless("thermal_shapeless_1", <thermalfoundation:material:2051>
 RecipeUtil.addShapeless("thermal_shapeless_2", <thermalfoundation:material:2053>,
     [<minecraft:blaze_powder>,<minecraft:blaze_powder>,<minecraft:stone>]
 );
-RecipeUtil.addShapeless("compressed_stone_convert1", <prefab:block_compressed_stone:5> * 4,
-    [<extrautils2:compresseddirt>,<extrautils2:compresseddirt>,<extrautils2:compresseddirt>,<extrautils2:compresseddirt>]
-);
-RecipeUtil.addShapeless("compressed_stone_convert2", <prefab:block_compressed_stone:6>,
-    [<extrautils2:compresseddirt:1>]
-);
-RecipeUtil.addShapeless("compressed_convert1", <extrautils2:compresseddirt:1>,
-    [<prefab:block_compressed_stone:6>]
-);
-RecipeUtil.addShapeless("compressed_convert2", <extrautils2:compresseddirt>,
-    [<prefab:block_compressed_stone:5>]
-);
-RecipeUtil.addShapeless("compressed_convert3", <prefab:block_compressed_stone:5>,
-    [<extrautils2:compresseddirt>]
-);
 RecipeUtil.addShapeless("thermal_shapeless_3", <thermalfoundation:material:25>,
     [<aether_legacy:golden_ring>]
 );

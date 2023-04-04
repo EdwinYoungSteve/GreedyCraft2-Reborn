@@ -10,7 +10,10 @@
 		uid: "d8102e34",
 		type: "item",
 		items: [{
-			item: "fluxnetworks:flux"
+			id: "fluxnetworks:flux",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

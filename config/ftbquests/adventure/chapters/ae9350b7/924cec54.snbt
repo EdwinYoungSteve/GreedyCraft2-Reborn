@@ -10,7 +10,10 @@
 		uid: "be1332e1",
 		type: "item",
 		items: [{
-			item: "enderio:block_experience_obelisk"
+			id: "enderio:block_experience_obelisk",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

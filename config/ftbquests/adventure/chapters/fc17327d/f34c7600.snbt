@@ -1,8 +1,8 @@
 {
 	title: "§b谁不喜欢呢？",
 	icon: "minecraft:gold_ore",
-	x: -15.0d,
-	y: 10.0d,
+	x: -14.0d,
+	y: 9.5d,
 	description: "挖掘一个金矿石",
 	text: [
 		""
@@ -24,7 +24,8 @@
 				Parent: {
 					id: "ore",
 					data: "oreGold"
-				}
+				},
+				"customnpcs:itemscripteddata": {}
 			}
 		}]
 	}],

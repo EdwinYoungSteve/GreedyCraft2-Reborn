@@ -11,7 +11,10 @@
 		uid: "6ad84128",
 		type: "item",
 		items: [{
-			item: "mysticalagradditions:insanium"
+			id: "mysticalagradditions:insanium",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

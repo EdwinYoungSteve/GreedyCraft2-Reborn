@@ -10,7 +10,10 @@
 		uid: "7dc2e97b",
 		type: "item",
 		items: [{
-			item: "sereneseasons:season_clock"
+			id: "sereneseasons:season_clock",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

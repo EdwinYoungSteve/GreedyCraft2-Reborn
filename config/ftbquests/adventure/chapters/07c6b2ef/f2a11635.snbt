@@ -1,0 +1,17 @@
+{
+	x: -7.5d,
+	y: -4.5d,
+	dependencies: [
+		"ee4861f4"
+	],
+	tasks: [{
+		uid: "ac878d65",
+		type: "item",
+		items: [{
+			id: "solarflux:custom_solar_panel_solar_panel_14",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

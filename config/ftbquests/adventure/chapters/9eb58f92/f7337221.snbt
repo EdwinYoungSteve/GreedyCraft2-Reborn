@@ -1,7 +1,7 @@
 {
 	title: "§b第五周期第VIII族",
-	x: -5.0d,
-	y: 4.0d,
+	x: -3.0d,
+	y: 6.5d,
 	description: "在朦胧世界挖掘钌矿石",
 	text: [
 		""
@@ -10,7 +10,10 @@
 		uid: "ae9759e8",
 		type: "item",
 		items: [{
-			item: "additions:mekaddon-ruthenium_ore"
+			id: "additions:mekaddon-ruthenium_ore",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

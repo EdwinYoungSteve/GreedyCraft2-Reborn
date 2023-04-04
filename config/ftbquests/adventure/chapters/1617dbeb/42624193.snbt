@@ -5,7 +5,10 @@
 		uid: "02c11072",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:infernium_seeds"
+			id: "mysticalcreations:infernium_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

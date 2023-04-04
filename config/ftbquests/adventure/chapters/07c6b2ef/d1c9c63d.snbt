@@ -1,14 +1,14 @@
 {
 	title: "§b神奇的机器",
-	x: -2.5d,
-	y: -6.5d,
+	x: -24.0d,
+	y: -14.0d,
 	shape: "gear",
 	description: "制作感应炉",
 	text: [
 		""
 	],
 	dependencies: [
-		"0995ee29"
+		"56ae2c57"
 	],
 	tasks: [{
 		uid: "53b58155",

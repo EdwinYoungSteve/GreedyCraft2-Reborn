@@ -10,7 +10,11 @@
 		uid: "c5f2af3d",
 		type: "item",
 		items: [{
-			item: "storagedrawers:upgrade_creative 1 1"
+			id: "storagedrawers:upgrade_creative",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

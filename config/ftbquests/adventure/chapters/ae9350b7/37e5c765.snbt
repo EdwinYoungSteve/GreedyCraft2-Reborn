@@ -25,7 +25,8 @@
 				Parent: {
 					Inventory: [],
 					Filter: []
-				}
+				},
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_damage: true,

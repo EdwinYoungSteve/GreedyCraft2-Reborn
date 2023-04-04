@@ -11,7 +11,10 @@
 		type: "item",
 		items: [{
 			id: "extrabotany:buddhistrelics",
-			tag: {}
+			tag: {},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

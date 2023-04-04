@@ -5,7 +5,10 @@
 		uid: "54d1400a",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:freezite_seeds"
+			id: "mysticalcreations:freezite_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

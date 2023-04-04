@@ -1,0 +1,14 @@
+{
+	x: -5.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "30f794ea",
+		type: "item",
+		items: [{
+			id: "naturesaura:bottle_two_the_rebottling",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

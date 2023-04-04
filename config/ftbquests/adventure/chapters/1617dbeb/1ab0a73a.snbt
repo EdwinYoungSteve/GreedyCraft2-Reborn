@@ -9,7 +9,10 @@
 		uid: "d88bcd36",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:crafting"
+			id: "mysticalagriculture:crafting",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

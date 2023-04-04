@@ -10,7 +10,10 @@
 		uid: "0cdb1711",
 		type: "item",
 		items: [{
-			item: "toolprogression:magic_mushroom"
+			id: "toolprogression:magic_mushroom",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

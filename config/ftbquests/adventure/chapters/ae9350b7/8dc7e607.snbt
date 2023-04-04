@@ -10,7 +10,10 @@
 		uid: "cbdf4e6c",
 		type: "item",
 		items: [{
-			item: "snad:snad"
+			id: "snad:snad",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

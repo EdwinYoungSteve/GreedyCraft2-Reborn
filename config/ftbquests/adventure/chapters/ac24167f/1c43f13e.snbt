@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	dependencies: [
+		"aa265353"
+	],
+	tasks: [{
+		uid: "c49b8132",
+		type: "item",
+		items: [{
+			id: "naturesaura:infused_iron",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}]
+}

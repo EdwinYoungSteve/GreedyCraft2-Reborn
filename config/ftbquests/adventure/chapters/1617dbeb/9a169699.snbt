@@ -5,7 +5,10 @@
 		uid: "71fd6d97",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:blaze_seeds"
+			id: "mysticalagriculture:blaze_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

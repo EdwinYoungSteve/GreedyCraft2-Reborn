@@ -1,0 +1,16 @@
+{
+	x: -4.5d,
+	y: -9.0d,
+	tasks: [{
+		uid: "ee5244eb",
+		type: "item",
+		items: [{
+			id: "additions:greedycraft-astral_star",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

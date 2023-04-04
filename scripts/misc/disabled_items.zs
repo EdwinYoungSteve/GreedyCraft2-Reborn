@@ -19,6 +19,7 @@ import scripts.util.recipes as RecipeUtil;
 import scripts.util.lang as LangUtil;
 
 val disabledItems as IIngredient[] = [
+    <actuallyadditions:item_bag>,
     <charm:totem_of_shielding>,
     <additions:greedycraft-astral_projector_2>,
     <additions:greedycraft-astral_projector>,
@@ -307,6 +308,21 @@ val disabledItems as IIngredient[] = [
     <ageofminecraft:vindicator>,
     <ageofminecraft:irongolem>,
     <ageofminecraft:evoker>,
+    <ageofminecraft:mutantcreeper>,
+    <ageofminecraft:mutantsnowgolem>,
+    <ageofminecraft:mutantskeleton>,
+    <ageofminecraft:mutantzombie>,
+    <ageofminecraft:bandage_poor>,
+    <ageofminecraft:bandage_good>,
+    <ageofminecraft:bandage_box>,
+    <ageofminecraft:bandage_artifact>,
+    <ageofminecraft:fusionmutantzombie>,
+    <ageofminecraft:fusionmutantskeleton>,
+    <ageofminecraft:fusionmutantenderman>,
+    <ageofminecraft:fusionmutantcreeper>,
+    <ageofminecraft:fusionmutantsnowgolem>,
+    <ageofminecraft:fusionspiderpig>,
+    <ageofminecraft:spiderpig>,
     <buildinggadgets:exchangertool>,
     <avaritia:neutronium_compressor>,
     <divinerpg:healing_stone>,
@@ -753,6 +769,8 @@ val disabledItems as IIngredient[] = [
     <mekanism:machineblock:5>.withTag({recipeType: 4}),
     <mekanism:machineblock:6>.withTag({recipeType: 4}),
     <mekanism:machineblock:7>.withTag({recipeType: 4}),
+    <mekanism:machineblock3:7>.withTag({recipeType: 4}),
+    <mekanism:machineblock3:8>.withTag({recipeType: 4}),
     <divinerpg:arksiane_hammer>,
     <journey:storonsword>,
     <journey:thewraith>,
@@ -1422,8 +1440,7 @@ val disabledRecipeRegex as string[] = [
     "^actuallyadditions:recipes33[01234567]$",
     "^thermalfoundation:((tool)|(armor))(.*)$",
     "^redstonearsenal:((tool)|(armor))(.*)$",
-    "^redstonerepository:((tool)|(armor))(.*)$",
-    "^hammermetals:((ingot)|(block)|(ore))$"
+    "^redstonerepository:((tool)|(armor))(.*)$"
 ];
 
 val outputBlacklist as IItemStack[] = [

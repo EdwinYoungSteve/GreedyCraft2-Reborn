@@ -5,7 +5,10 @@
 		uid: "a47e75ce",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:adeninite_seeds"
+			id: "mysticalcreations:adeninite_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

@@ -1,12 +1,14 @@
 {
 	title: "§b新的开始",
 	icon: "minecraft:grass",
-	x: -23.0d,
-	y: 9.0d,
+	disable_toast: true,
+	x: -24.0d,
+	y: 7.5d,
 	description: "&a欢迎来到&e贪婪整合包II &aby TCreopargh & mc_Edwin！",
 	text: [
 		""
 	],
+	size: 1.5d,
 	rewards: [{
 		uid: "f19ad107",
 		type: "item",

@@ -1,7 +1,7 @@
 {
 	title: "§b注入灵魂！",
-	x: 7.5d,
-	y: -3.0d,
+	x: 5.0d,
+	y: 7.0d,
 	description: "制作一个魂金锭",
 	text: [
 		""
@@ -10,7 +10,11 @@
 		uid: "6d368d1c",
 		type: "item",
 		items: [{
-			item: "enderio:item_alloy_ingot 1 7"
+			id: "enderio:item_alloy_ingot",
+			Damage: 7s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

@@ -741,7 +741,7 @@ icy_armorTrait.localizedDescription = game.localize("greedycraft.tconstruct.armo
 icy_armorTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
         var attacker as IEntityLivingBase = source.getTrueSource();
-        attacker.addPotionEffect(<potion:twilightforest:frosty>.makePotionEffect(60, 2, false, false));
+        attacker.addPotionEffect(<potion:netherex:freezing>.makePotionEffect(60, 2, false, false));
     }
     return newDamage;
 };
@@ -952,7 +952,7 @@ bellyfulTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.
 bellyfulTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.bellyfulTrait.desc");
 bellyfulTrait.onAbility = function(trait, level, world, player) {
     if (!isNull(player)) {
-        player.addPotionEffect(<potion:cyclicmagic:saturation>.makePotionEffect(20, 0, false, false));
+        player.addPotionEffect(<potion:minecraft:saturation>.makePotionEffect(20, 0, false, false));
     }
 };
 bellyfulTrait.register();
@@ -1262,3 +1262,99 @@ barrierTrait.onAbility = function(trait, level, world, player) {
     }
 };
 barrierTrait.register();
+
+val thadTrait = ArmorTraitBuilder.create("tinkers_heartwork");
+thadTrait.color = Color.fromHex("ffeb3b").getIntColor();
+thadTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.thadTrait.name");
+thadTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.thadTrait.desc");
+thadTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var multiplier as int = 0;
+        for str in armor.tag.asString().split("Traits: ") {
+            if (!(str has "{")) {
+                var counter as int = 0;
+                for i in 1 to str.length {
+                    if (str[i] == "\"") {
+                        counter += 1;
+                    }
+                }
+                multiplier = counter / 2; 
+            }
+        }
+        return newDamage / (pow(1.05, multiplier) - 1) as float;
+    }
+    return newDamage;
+};
+thadTrait.register();
+
+val counterattackTrait = ArmorTraitBuilder.create("counterattack");
+counterattackTrait.color = Color.fromHex("ffeb3b").getIntColor();
+counterattackTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.counterattackTrait.name");
+counterattackTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.counterattackTrait.desc");
+counterattackTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
+        var attacker as IEntityLivingBase = source.getTrueSource();
+        if (Math.random() <= 0.2) {
+            player.health += (attacker.health / 100.0) as float;
+            attacker.health += player.health;
+        }
+        return newDamage;
+    }
+    return newDamage;
+};
+counterattackTrait.register();
+
+val falldownTrait = ArmorTraitBuilder.create("falldown");
+falldownTrait.color = Color.fromHex("ffeb3b").getIntColor();
+falldownTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.falldownTrait.name");
+falldownTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.falldownTrait.desc");
+falldownTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && source.getDamageType() == "FALL") {
+        for entity in player.world.getEntitiesInArea(crafttweaker.util.Position3f.create(((player.x)- 4),((player.y)- 4),((player.z)- 4)),crafttweaker.util.Position3f.create(((player.x)+ 4),((player.y)+ 4),((player.z)+ 4))){
+            if (entity instanceof IEntityLivingBase && !entity instanceof IPlayer) {
+                val en as IEntityLivingBase = entity;
+                en.health -= newDamage * 2.0f;
+            }                    
+        }
+        return 0.0f;
+    }
+    return newDamage;
+};
+falldownTrait.register();
+
+val penetrationTrait = ArmorTraitBuilder.create("penetration");
+penetrationTrait.color = Color.fromHex("ffeb3b").getIntColor();
+penetrationTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.penetrationTrait.name");
+penetrationTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.penetrationTrait.desc");
+penetrationTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        for i in 0 to 9 {
+            if (player.getHotbarStack(i).ores has <ore:blockAluminium>) {
+                player.getHotbarStack(i).mutable().shrink(1);
+                return newDamage * 0.6f;
+                break;
+            }
+        }
+        return newDamage;
+    }
+    return newDamage;
+};
+penetrationTrait.register();
+
+val sunnyTrait = ArmorTraitBuilder.create("sunny");
+sunnyTrait.color = Color.fromHex("ffeb3b").getIntColor();
+sunnyTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.sunnyTrait.name");
+sunnyTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.sunnyTrait.desc");
+sunnyTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (Math.random() <= 0.1) {
+            if (player.world.raining) {
+                mods.contenttweaker.Commands.call("weather clear",player,player.world,false,true);
+            }
+            return newDamage;
+        }
+        return newDamage;
+    }
+    return newDamage;
+};
+sunnyTrait.register();

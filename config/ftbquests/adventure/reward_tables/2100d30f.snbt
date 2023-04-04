@@ -119,7 +119,8 @@
 						structureEnumName: "EnderGateway"
 					}
 				}
-			}
+			},
+			Count: 1b
 		}
 	},
 	{
@@ -145,7 +146,8 @@
 						structureEnumName: "AdvancedCoop"
 					}
 				}
-			}
+			},
+			Count: 1b
 		},
 		random_bonus: 1
 	},
@@ -172,7 +174,8 @@
 						structureEnumName: "AdvancedHorseStable"
 					}
 				}
-			}
+			},
+			Count: 1b
 		},
 		random_bonus: 1
 	},

@@ -198,6 +198,16 @@ global gameStagesLore as string[][string][string][string] = {
                 "可以挑战冰霜巨口"
             ]
         },
+        noob_engineer: {
+            alias: ["工业菜鸟"],
+            lore: [
+                "你理解了什么是通量，什么是导管，什么是机器……"
+            ],
+            unlocks: [
+                "热力膨胀(Thermal Expansion)",
+                "最基础的科技线内容"
+            ]
+        },
         novice_engineer: {
             alias: ["工业萌新"],
             lore: [
@@ -244,6 +254,15 @@ global gameStagesLore as string[][string][string][string] = {
                 "六倍矿，七倍矿"
             ]
         },
+        noob_wizard: {
+            alias: ["魔法学徒"],
+            lore: [
+                "你开始发现世界中蕴含着一些不同于“物质”的东西。"
+            ],
+            unlocks: [
+                "星辉魔法内容"
+            ]
+        },
         novice_wizard: {
             alias: ["初级法师"],
             lore: [
@@ -257,19 +276,29 @@ global gameStagesLore as string[][string][string][string] = {
             ]
         },
         skilled_wizard: {
-            alias: ["大法师"],
+            alias: ["中级法师"],
+            lore: [
+                "在经历了一系列法术实验后，你对魔法的了解又加深了。"
+            ],
+            unlocks: [
+                "猩红锭",
+                "自然灵气内容",
+                "自然帷幕"
+            ]
+        },
+        master_wizard: {
+            alias: ["高级法师"],
             lore: [
                 "伴随着不断的尝试，你对魔法有了更深入的了解。"
             ],
             unlocks: [
-                "猩红锭",
                 "星辉魔法后期内容",
                 "提高注魔合成效率的物品",
                 "奥术水晶球"
             ]
         },
-        master_wizard: {
-            alias: ["魔导士"],
+        epic_wizard: {
+            alias: ["神职法师"],
             lore: [
                 "经过无数次的失败与磨难，你终于对魔法有了极其深入的领悟。"
             ],
@@ -511,8 +540,8 @@ global gameStagesLore as string[][string][string][string] = {
                 "新的状态属性——残蚀值！"
             ]
         },
-        abyss_guardian: {
-            alias: ["深渊守护者"],
+        warped: {
+            alias: ["心灵扭曲"],
             lore: [
                 "扭曲遗址，中层深渊最后的防线。"
             ],
@@ -529,6 +558,17 @@ global gameStagesLore as string[][string][string][string] = {
             ],
             unlocks: [
                 "来自终焉的呼唤已经收到"
+            ]
+        },
+        final: {
+            alias: ["终焉之光"],
+            lore: [
+                "当然，距离结束……还有一段距离。"
+            ],
+            unlocks: [
+                "冰与火之歌系列物品",
+                "难度增加",
+                "龙之研究高级内容"
             ]
         }
     },

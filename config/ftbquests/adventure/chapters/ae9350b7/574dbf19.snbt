@@ -10,7 +10,10 @@
 		uid: "fb63462d",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-wither_soul"
+			id: "additions:greedycraft-wither_soul",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

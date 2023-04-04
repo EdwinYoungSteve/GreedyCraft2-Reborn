@@ -1,7 +1,7 @@
 {
 	title: "§b归于暗淡",
-	x: -18.5d,
-	y: -5.0d,
+	x: -15.5d,
+	y: 2.5d,
 	description: "合成萨多斯的灵魂堕落之匙",
 	text: [
 		""
@@ -13,7 +13,10 @@
 		uid: "37dc85d7",
 		type: "item",
 		items: [{
-			item: "gct_aby:keyofdark"
+			id: "gct_aby:keyofdark",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

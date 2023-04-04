@@ -10,7 +10,10 @@
 		uid: "6c80eb0c",
 		type: "item",
 		items: [{
-			item: "forestry:royal_jelly"
+			id: "forestry:royal_jelly",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

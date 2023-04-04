@@ -10,7 +10,11 @@
 		uid: "cc3e98c7",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:material 1 163"
+			id: "thermalfoundation:material",
+			Damage: 163s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

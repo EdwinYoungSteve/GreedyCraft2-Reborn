@@ -1,6 +1,6 @@
 {
-	x: -15.5d,
-	y: -0.5d,
+	x: -18.5d,
+	y: -4.0d,
 	dependencies: [
 		"2c6906dc"
 	],
@@ -8,7 +8,14 @@
 		uid: "b011f01d",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:pressurizer"
+			id: "nuclearcraft:pressurizer",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
 		}]
 	}]
 }

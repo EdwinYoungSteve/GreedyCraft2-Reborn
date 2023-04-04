@@ -1,6 +1,6 @@
 {
 	title: "§b燃烧吧，基岩！",
-	x: 3.0d,
+	x: 4.0d,
 	y: 0.0d,
 	description: "在基岩上点火，获得基岩粉",
 	text: [
@@ -13,7 +13,11 @@
 		uid: "de2a0339",
 		type: "item",
 		items: [{
-			item: "enderio:item_material 1 20"
+			id: "enderio:item_material",
+			Damage: 20s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

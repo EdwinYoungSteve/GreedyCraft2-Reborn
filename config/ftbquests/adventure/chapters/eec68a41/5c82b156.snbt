@@ -13,7 +13,10 @@
 		uid: "018610de",
 		type: "item",
 		items: [{
-			item: "modularcontroller:mana_liquefactor_controller"
+			id: "modularcontroller:mana_liquefactor_controller",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

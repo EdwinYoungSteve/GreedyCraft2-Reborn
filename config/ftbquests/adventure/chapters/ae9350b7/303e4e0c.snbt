@@ -10,7 +10,10 @@
 		uid: "9e775883",
 		type: "item",
 		items: [{
-			item: "projecte:item.pe_matter"
+			id: "projecte:item.pe_matter",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

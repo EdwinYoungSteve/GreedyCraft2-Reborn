@@ -5,7 +5,10 @@
 		uid: "79f64671",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:zombie_seeds"
+			id: "mysticalagriculture:zombie_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

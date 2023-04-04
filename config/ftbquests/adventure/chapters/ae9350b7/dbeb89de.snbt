@@ -10,7 +10,10 @@
 		uid: "e49e14c8",
 		type: "item",
 		items: [{
-			item: "farmingforblockheads:market"
+			id: "farmingforblockheads:market",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

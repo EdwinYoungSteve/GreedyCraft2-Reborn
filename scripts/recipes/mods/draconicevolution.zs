@@ -145,15 +145,6 @@ FusionCrafting.add(<gct_ores:stormy_metal_ingot>, <tconevo:material>, 3, 1024000
     <minecraft:dragon_egg>
 ]);
 
-FusionCrafting.add(<journey:ancient_stone> * 18, <prefab:block_compressed_stone:2> * 18, 2, 16777216, [
-    <journey:reinforcedstoneingot>,
-    <journey:reinforcedstoneingot>,
-    <journey:reinforcedstoneingot>,
-    <journey:reinforcedstoneingot>,
-    <journey:trophystalk>,
-    <journey:trophystalk>
-]);
-
 FusionCrafting.add(<gct_ores:ordered_fusion_core>, <draconicevolution:fusion_crafting_core>, 3, 131072000000, [
     <ore:gemOrderCrystal>,
     <ore:gemOrderCrystal>,

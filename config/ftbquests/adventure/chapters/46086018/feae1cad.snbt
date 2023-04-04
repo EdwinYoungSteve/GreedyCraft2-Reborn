@@ -1,19 +1,22 @@
 {
 	title: "§b热力学高峰",
-	x: -1.5d,
-	y: 0.0d,
+	x: -2.0d,
+	y: -12.0d,
 	description: "获得熔岩锭",
 	text: [
 		""
 	],
 	dependencies: [
-		"4c400631"
+		"a6bbe70a"
 	],
 	tasks: [{
 		uid: "9e7c4874",
 		type: "item",
 		items: [{
-			item: "divinerpg:netherite_ingot"
+			id: "divinerpg:netherite_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

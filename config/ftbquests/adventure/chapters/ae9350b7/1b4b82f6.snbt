@@ -10,7 +10,10 @@
 		uid: "8fd13806",
 		type: "item",
 		items: [{
-			item: "storagedrawers:controller"
+			id: "storagedrawers:controller",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

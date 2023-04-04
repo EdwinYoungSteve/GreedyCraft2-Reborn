@@ -10,7 +10,10 @@
 		uid: "4825e797",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-medkit_super"
+			id: "additions:greedycraft-medkit_super",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

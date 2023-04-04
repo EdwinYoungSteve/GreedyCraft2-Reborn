@@ -10,7 +10,10 @@
 		uid: "07e83cfc",
 		type: "item",
 		items: [{
-			item: "ambience:soundnizer"
+			id: "ambience:soundnizer",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

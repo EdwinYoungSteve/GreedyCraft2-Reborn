@@ -10,10 +10,13 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+import mods.jaopca.JAOPCA;
+
 import scripts.util.recipes as RecipeUtil;
 
 val removedRecipes as IIngredient[] = [
     <moretcon:spacetimedisruptionpowder>,
+    <globalxp:xp_block>,
     <journey:reinforcedcrystalingot>,
     <naturalpledge:holy_symbol>,
     <evilcraft:primed_pendant>,
@@ -296,7 +299,6 @@ val removedRecipes as IIngredient[] = [
     <bloodarsenal:blood_infused_wooden_axe>,
     <bloodmagic:upgrade_trainer>,
     <bloodmagic:upgrade_tome>,
-    <prefab:item_bulldozer:*>,
     <bloodmagic:mimic:*>,
     <enderio:item_endergy_conduit:11>,
     <enderio:item_fluid_conduit>,
@@ -350,6 +352,7 @@ val removedRecipes as IIngredient[] = [
     <torchmaster:dread_lamp>,
     <modularmachinery:blockcasing:2>,
     <openblocks:sponge>,
+    <globalxp:xp_block>,
     <actuallyadditions:item_growth_ring>,
     <tconstruct:throwball:1>,
     <openblocks:elevator:*>,
@@ -479,7 +482,8 @@ val removedRecipes as IIngredient[] = [
     <mekanism:machineblock:5>,
     <mekanism:machineblock:6>,
     <mekanism:machineblock:7>,
-    <mekanism:machineblock:8>
+    <mekanism:machineblock:8>,
+    <naturalpledge:spell_focus>
 ];
 
 val removedRecipeNames as string[] = [
@@ -491,7 +495,6 @@ val removedRecipeNames as string[] = [
     "projecte:conversions/gold_to_iron",
     "extrautils2:watering_can",
     "thaumcraft:ambertoblock",
-    "prefab:ender_gateway",
     "botania:flighttiara_0",
     "botania:flighttiara_1",
     "botania:flighttiara_2",
@@ -525,6 +528,10 @@ val removedRecipeNames as string[] = [
     "thebetweenlands:amate_map_aqua",
     "thebetweenlands:amate_map_crimson"
 ];
+
+for itemOredict in JAOPCA.getOresForType("INGOT") {
+    RecipeUtil.remove(itemOredict.getOreDictEntry("crystalCluster"));
+}
 
 for ingredient in removedRecipes {
     RecipeUtil.remove(ingredient);

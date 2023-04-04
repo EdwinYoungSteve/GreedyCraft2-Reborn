@@ -1,10 +1,10 @@
 {
 	title: "§b吹响暮光的号角",
-	x: 5.5d,
-	y: 5.5d,
+	x: 3.0d,
+	y: 11.0d,
 	description: "合成暮光之钟",
 	text: [
-		""
+		"用于激活五个暮光维度传送门"
 	],
 	dependencies: [
 		"5a26917f",

@@ -1,7 +1,7 @@
 {
 	title: "§b四倍产矿",
-	x: -3.5d,
-	y: -2.0d,
+	x: 1.5d,
+	y: -0.5d,
 	shape: "gear",
 	description: "制作一个化学压射室",
 	text: [
@@ -10,6 +10,7 @@
 	dependencies: [
 		"d115dc4e"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "2d3a3a16",
 		type: "item",

@@ -188,4 +188,9 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     if (!(player.hasGameStage("epic_engineer"))) {
         player.setRadiation(0.0d);
     }
+
+    // Remove the bleeding from Engender Mod
+    if (player.isPotionActive(<potion:ageofminecraft:bleeding>)) {
+        player.removePotionEffect(<potion:ageofminecraft:bleeding>);
+    }
 });

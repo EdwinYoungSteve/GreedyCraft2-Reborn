@@ -10,7 +10,10 @@
 		uid: "947fe67d",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-lucky_clover"
+			id: "additions:greedycraft-lucky_clover",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

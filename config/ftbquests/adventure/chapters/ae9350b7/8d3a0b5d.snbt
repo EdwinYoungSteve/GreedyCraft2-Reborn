@@ -10,7 +10,11 @@
 		uid: "10b16013",
 		type: "item",
 		items: [{
-			item: "openmodularturrets:turret_base 1 4"
+			id: "openmodularturrets:turret_base",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

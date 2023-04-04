@@ -1,13 +1,21 @@
 {
 	title: "§b开始你的工业之旅吧！",
-	x: -7.0d,
-	y: -9.0d,
+	x: -11.5d,
+	y: -14.0d,
 	text: [
 		""
 	],
+	size: 1.5d,
 	tasks: [{
-		uid: "5650e16f",
-		type: "checkmark",
-		title: "开启你的工业之旅吧"
+		uid: "7db8f7f2",
+		type: "item",
+		items: [{
+			id: "additions:greedycraft-conduct_gear",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

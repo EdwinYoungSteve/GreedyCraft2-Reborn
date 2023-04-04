@@ -1,0 +1,20 @@
+{
+	x: -7.5d,
+	y: 3.0d,
+	dependencies: [
+		"76a1d5fc"
+	],
+	tasks: [{
+		uid: "f2aba3e3",
+		type: "item",
+		items: [{
+			id: "naturesaura:gold_powder",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}]
+}

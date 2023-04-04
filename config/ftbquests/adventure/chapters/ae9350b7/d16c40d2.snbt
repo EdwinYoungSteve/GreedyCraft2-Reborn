@@ -10,7 +10,10 @@
 		uid: "b7c844aa",
 		type: "item",
 		items: [{
-			item: "morphtool:tool"
+			id: "morphtool:tool",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

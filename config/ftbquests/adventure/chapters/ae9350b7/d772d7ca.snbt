@@ -10,7 +10,10 @@
 		uid: "e8487fb1",
 		type: "item",
 		items: [{
-			item: "magicfeather:magicfeather"
+			id: "magicfeather:magicfeather",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

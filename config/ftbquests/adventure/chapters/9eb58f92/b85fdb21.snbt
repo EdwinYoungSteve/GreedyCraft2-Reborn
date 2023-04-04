@@ -1,6 +1,6 @@
 {
 	title: "§bmek的基础！",
-	x: -12.5d,
+	x: -9.5d,
 	y: -2.0d,
 	description: "挖掘一个锇矿石",
 	text: [
@@ -10,7 +10,10 @@
 		uid: "e2add549",
 		type: "item",
 		items: [{
-			item: "mekanism:oreblock"
+			id: "mekanism:oreblock",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

@@ -1,6 +1,6 @@
 {
 	x: 9.5d,
-	y: 4.0d,
+	y: 8.0d,
 	text: [
 		"将元动模块安装至护手后靠近裂隙便可汲取裂隙的元动能量"
 	],
@@ -18,7 +18,8 @@
 					energy: {
 						energy: 0L
 					}
-				}
+				},
+				"customnpcs:itemscripteddata": {}
 			}
 		}],
 		ignore_damage: true,

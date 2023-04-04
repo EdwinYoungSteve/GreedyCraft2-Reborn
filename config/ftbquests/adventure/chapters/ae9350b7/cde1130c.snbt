@@ -10,7 +10,10 @@
 		uid: "f4738897",
 		type: "item",
 		items: [{
-			item: "packagedauto:packager"
+			id: "packagedauto:packager",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

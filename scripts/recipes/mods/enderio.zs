@@ -91,6 +91,7 @@ AlloySmelter.addRecipe(<additions:martisite_ingot> * 3, [<ore:ingotCestium> * 4,
 AlloySmelter.addRecipe(<additions:flashite_ingot> * 3, [<ore:ingotFraxinium> * 2, <ore:ingotTreasurite> * 2, <ore:ingotErrorite> * 2], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:overlaite_ingot>, [<ore:ingotMartisite>, <ore:ingotClearite>], 2000, 10.0f);
 AlloySmelter.addRecipe(<plustic:osgloglasingot>, [<ore:ingotOsmium>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedObsidian>], 2000, 10.0f);
+AlloySmelter.addRecipe(<nuclearcraft:alloy:16> * 2, [<ore:ingotZirconium>, <ore:ingotMolybdenum>], 2000, 10.0f);
 
 AlloySmelter.addRecipe(<additions:eioaddon-blackhole_alloy_ingot> * 2, [<ore:ingotStellarAlloy>, <draconicevolution:chaos_shard:1> * 4, <ore:ingotVoid>], 300000, 200.0f);
 AlloySmelter.addRecipe(<additions:eioaddon-creative_alloy_ingot> * 2, [<ore:ingotBlackholeAlloy> * 2, <ore:ingotBalancedMatrix>, <ore:shardCreative>], 1000000, 1000.0f);

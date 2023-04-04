@@ -55,7 +55,8 @@ GameStagesUtil.removeItemStages([
     <nuclearcraft:ingot_block:11>,
     <extendedcrafting:material:36>,
     <extendedcrafting:material:37>,
-    <extendedcrafting:storage:5>
+    <extendedcrafting:storage:5>,
+    <nuclearcraft:fission_dust:6>
 ] as IIngredient[]);
 
 GameStagesUtil.restageItems("wielder_of_infinity", [
@@ -73,6 +74,11 @@ GameStagesUtil.restageItems("wielder_of_infinity", [
     <ore:blockInfinity>,
     <bloodmagic:sacrificial_dagger:1>,
     <thermalcultivation:watering_can:32000>
+]);
+
+GameStagesUtil.restageItems("warped", [
+    <gct_aby:key_of_warped>,
+    <gct_aby:key_of_warped_active>
 ]);
 
 GameStagesUtil.restageItem("awakened", <draconicevolution:chaos_shard>);
@@ -176,6 +182,14 @@ GameStagesUtil.restageItems("master_engineer", [
     <ore:ingotFerroboron>,
     <ore:ingotTough>,
     <ore:ingotHardCarbon>
+] as IIngredient[]);
+GameStagesUtil.restageItems("master_wizard", [
+    <astralsorcery:blockstarlightinfuser>,
+    <astralsorcery:blockattunementaltar>,
+    <astralsorcery:blockaltar:3>,
+    <astralsorcery:blockprism>,
+    <astralsorcery:itemshiftingstar>,
+    <astralsorcery:itemcraftingcomponent:4>
 ] as IIngredient[]);
 GameStagesUtil.restageItems("energy_matter_core", [
     <projectex:stone_table>,

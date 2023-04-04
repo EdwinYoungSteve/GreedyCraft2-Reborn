@@ -17,6 +17,9 @@
 					middle: 0,
 					right: 0
 				}
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
 			}
 		}]
 	}],

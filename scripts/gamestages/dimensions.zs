@@ -18,6 +18,7 @@
 52 奥穆索
 53 黑暗领域
 54 深暗领域
+55 扭曲遗址
 56 豆腐世界
 69 朦胧世界
 76 永昼之地
@@ -68,17 +69,16 @@ GameStagesUtil.stageFearlessMan.addDimension(51);
 GameStagesUtil.stageHardmode.addDimension(52);
 GameStagesUtil.stageNether.addDimension(4);
 GameStagesUtil.stageNether.addDimension(425);
+GameStagesUtil.stageNether.addDimension(645);
 GameStagesUtil.stageHardmode.addDimension(-11325);
 GameStagesUtil.stageWitherSlayer.addDimension(822);
 GameStagesUtil.stageWitherSlayer.addDimension(823);
 GameStagesUtil.stageWitherSlayer.addDimension(426);
-GameStagesUtil.stageHardmode.addDimension(645);
 GameStagesUtil.stageHardmode.addDimension(420);
 GameStagesUtil.stageHardmode.addDimension(421);
 GameStagesUtil.stageHardmode.addDimension(422);
 GameStagesUtil.stageHardmode.addDimension(423);
 GameStagesUtil.stageHardmode.addDimension(424);
-GameStagesUtil.stageFusionMatrix.addDimension(76);
 GameStagesUtil.stageFusionMatrix.addDimension(77);
 GameStagesUtil.stageFusionMatrix.addDimension(820);
 GameStagesUtil.stageFusionMatrix.addDimension(821);
@@ -90,5 +90,10 @@ GameStagesUtil.stageWyvern.addDimension(829);
 GameStagesUtil.stageChaotic.addDimension(78);
 GameStagesUtil.stageChaotic.addDimension(100);
 GameStagesUtil.stageChaotic.addDimension(101);
+GameStagesUtil.stageChaotic.addDimension(54);
 GameStagesUtil.stageChaotic.addDimension(324987);
 GameStagesUtil.stageBetweenlandTraveller.addDimension(20);
+GameStagesUtil.stageWarped.addDimension(55);
+GameStagesUtil.stageWarped.addDimension(102);
+GameStagesUtil.stageFinal.addDimension(2);
+GameStagesUtil.stageGraduated.addDimension(76);

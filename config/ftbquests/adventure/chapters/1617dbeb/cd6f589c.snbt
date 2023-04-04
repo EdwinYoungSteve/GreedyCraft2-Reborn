@@ -5,7 +5,10 @@
 		uid: "7b641959",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:oceanium_seeds"
+			id: "mysticalcreations:oceanium_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

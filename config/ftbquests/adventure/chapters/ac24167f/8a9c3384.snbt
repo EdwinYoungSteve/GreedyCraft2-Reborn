@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	dependencies: [
+		"1c43f13e"
+	],
+	tasks: [{
+		uid: "df6ac571",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_cache",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

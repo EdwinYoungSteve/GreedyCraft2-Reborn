@@ -9,7 +9,10 @@
 		uid: "93ab2201",
 		type: "item",
 		items: [{
-			item: "minecraft:furnace"
+			id: "minecraft:furnace",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

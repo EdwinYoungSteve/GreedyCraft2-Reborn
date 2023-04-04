@@ -2,7 +2,7 @@
   "name": "rhodium",
   "tool": {
     "head": {
-      "attackDamage": 66,
+      "attackDamage": 46,
       "speed": 12,
       "durability": 1800,
       "harvestLevel": 9
@@ -98,11 +98,11 @@
     ],
     "HANDLE": [
       "luxurious",
-      "luxury",
+      "luxury"
     ],
     "EXTRA": [
       "luxurious",
-      "luxury",
+      "luxury"
     ],
     "BOW": [
       "luxurious",

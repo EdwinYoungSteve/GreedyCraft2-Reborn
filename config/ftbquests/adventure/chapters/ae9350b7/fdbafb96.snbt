@@ -10,10 +10,16 @@
 		uid: "1a9010c5",
 		type: "item",
 		items: [{
-			item: "mca:baby_boy"
+			id: "mca:baby_boy",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		},
 		{
-			item: "mca:baby_girl"
+			id: "mca:baby_girl",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -67,9 +67,9 @@ Alloy.addRecipe(<liquid:godiarite> * 3, [<liquid:adamant_fluid> * 3, <liquid:tog
 Alloy.addRecipe(<liquid:rainite> * 3, [<liquid:ranglium> * 2, <liquid:idiessite> * 2, <liquid:oneo> * 3]);
 Alloy.addRecipe(<liquid:panloeseum> * 3, [<liquid:ghostite> * 4, <liquid:breakium>]);
 Alloy.addRecipe(<liquid:typhoonite> * 2, [<liquid:moltenium> * 2, <liquid:godiarite> * 2, <liquid:xenidium>]);
-Alloy.addRecipe(<liquid:fallenium> * 2, [<liquid:vanadium> * 2, <liquid:gallium> * 3, <liquid:fenzium> * 2]);
+Alloy.addRecipe(<liquid:fallenium> * 2, [<liquid:vanadium> * 2, <liquid:liquidgallium> * 3, <liquid:fenzium> * 2]);
 Alloy.addRecipe(<liquid:phoenixite> * 2, [<liquid:fenzium> * 3, <liquid:dawnium> * 2]);
-Alloy.addRecipe(<liquid:depthite> * 3, [<liquid:rainite> * 2, <liquid:breakium> * 4, <liquid:gallium> * 2]);
+Alloy.addRecipe(<liquid:depthite> * 3, [<liquid:rainite> * 2, <liquid:breakium> * 4, <liquid:liquidgallium> * 2]);
 Alloy.addRecipe(<liquid:lovaquite> * 2, [<liquid:fallenium> * 2, <liquid:molybdenum> * 2, <liquid:losessium>]);
 Alloy.addRecipe(<liquid:rangolarite> * 2, [<liquid:phoenixite> * 3, <liquid:depthite>]);
 Alloy.addRecipe(<liquid:clearite> * 3, [<liquid:indium> * 2, <liquid:sissidium> * 2, <liquid:typhoonite> * 2]);
@@ -102,6 +102,7 @@ Alloy.addRecipe(<liquid:legendite> * 18, [<liquid:liquidlegend> * 125, <liquid:g
 Alloy.addRecipe(<liquid:eugardite> * 4, [<liquid:decurrium> * 3, <liquid:photonium> * 2, <liquid:solita> * 1, <liquid:dullium> * 2]);
 Alloy.addRecipe(<liquid:solita> * 3, [<liquid:reditrite> * 16, <liquid:soularium>, <liquid:adaminite>]);
 Alloy.addRecipe(<liquid:shallowbreath>*100, [<liquid:betweensludge> * 10, <liquid:stagnant_water> * 10000, <liquid:swamp_water> * 10000]);
+Alloy.addRecipe(<liquid:zirconium_molybdenum> * 2, [<liquid:zirconium> * 1, <liquid:molybdenum> * 1]);
 
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);

@@ -5,7 +5,10 @@
 		uid: "8ad883f2",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:titanium_seeds"
+			id: "mysticalcreations:titanium_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

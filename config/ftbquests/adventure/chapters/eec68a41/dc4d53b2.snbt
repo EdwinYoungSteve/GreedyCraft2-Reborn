@@ -13,7 +13,10 @@
 		uid: "e4a1b8d6",
 		type: "item",
 		items: [{
-			item: "extrabotany:nightmarefuel"
+			id: "extrabotany:nightmarefuel",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

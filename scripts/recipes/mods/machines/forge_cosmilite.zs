@@ -23,10 +23,10 @@ MMUtil.addForgeRecipe("cosmic_forge", <additions:cosmilite_ingot> * 8, (72000 * 
     <additions:taigaddon-compressite_ingot>,
     <tconevo:metal:10>,
     <gct_ores:stormy_metal_ingot>,
-    <thaumadditions:adaminite_ingot>,
-    <additions:eioaddon-blackhole_alloy_ingot>,
+    <naturesaura:sky_ingot>,
+    <gct_ores:everite_ingot>,
     <additions:mekaddon-porpezite_ingot>,
-    <extrabotany:material:1>,
+    <additions:greedycraft-dullium_ingot>,
     <gct_mobs:cthulhurite_ingot>,
     <additions:crimsonite_ingot>,
     <additions:astral_metal_ingot>,
@@ -54,6 +54,14 @@ MMUtil.addForgeRecipe("cosmic_forge", <additions:cosmilite_ingot> * 8, (72000 * 
     },
     <additions:greedycraft-anti_entropy_matter> : {
         speed: 0.9,
+        energy: 0.9
+    },
+    <thaumadditions:adaminite_ingot> : {
+        speed: 0.8,
+        energy: 0.75
+    },
+    <additions:eioaddon-blackhole_alloy_ingot> : {
+        speed: 0.8,
         energy: 0.9
     }
 } as double[string][IItemStack]);

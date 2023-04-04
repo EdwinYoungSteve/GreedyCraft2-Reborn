@@ -10,7 +10,10 @@
 		uid: "b24013ec",
 		type: "item",
 		items: [{
-			item: "cyclicmagic:tool_mount_inverse"
+			id: "cyclicmagic:tool_mount_inverse",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

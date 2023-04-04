@@ -5,7 +5,10 @@
 		uid: "fb846187",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:canopium_seeds"
+			id: "mysticalcreations:canopium_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

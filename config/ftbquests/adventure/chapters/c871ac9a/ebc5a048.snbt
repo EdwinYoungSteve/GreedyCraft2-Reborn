@@ -5,7 +5,10 @@
 		uid: "011384ff",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-greedy_medal"
+			id: "additions:greedycraft-greedy_medal",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

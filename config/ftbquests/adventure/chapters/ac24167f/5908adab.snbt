@@ -1,0 +1,22 @@
+{
+	x: -5.5d,
+	y: 2.0d,
+	dependencies: [
+		"900c86e8",
+		"d276439f",
+		"67c36769"
+	],
+	tasks: [{
+		uid: "b579f9f1",
+		type: "item",
+		items: [{
+			id: "naturesaura:token_joy",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}]
+}

@@ -5,7 +5,10 @@
 		uid: "249893f8",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:plasmarite_seeds"
+			id: "mysticalcreations:plasmarite_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

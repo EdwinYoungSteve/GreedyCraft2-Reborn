@@ -1,7 +1,7 @@
 {
 	title: "§b深水区",
 	x: -10.5d,
-	y: 5.0d,
+	y: 3.0d,
 	description: "挖掘一块锰矿石",
 	text: [
 		""

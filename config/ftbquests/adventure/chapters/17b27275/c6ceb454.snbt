@@ -1,6 +1,11 @@
 {
-	x: 1.5d,
-	y: 3.0d,
+	title: "§b这是……甘蔗？",
+	x: 5.5d,
+	y: 2.0d,
+	description: "获得沼泽芦苇",
+	text: [
+		""
+	],
 	dependencies: [
 		"81216f69"
 	],

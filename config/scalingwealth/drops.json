@@ -41,15 +41,6 @@
                 }
             ]
         },
-        "thebetweenlands:peat_mummy": {
-            "[1200, 2147483647]": [
-                {
-                    "amount": "[1,4]",
-                    "chance": 1.0,
-                    "item": "additions:greedycraft-bone_shard"
-                }
-            ]
-        },
         "thebetweenlands:dreadful_mummy": {
             "[1200, 2147483647]": [
                 {

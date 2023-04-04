@@ -10,7 +10,10 @@
 		uid: "20756664",
 		type: "item",
 		items: [{
-			item: "cookingforblockheads:cow_jar"
+			id: "cookingforblockheads:cow_jar",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

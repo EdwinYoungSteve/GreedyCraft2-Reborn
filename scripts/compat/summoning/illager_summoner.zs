@@ -74,7 +74,7 @@ SummoningDirector.addSummonInfo(
             } else if (!pass2) {
                 attempt.success = false;
                 attempt.message = LangUtil.translate("greedycraft.zensummoning.summoner.fail.2");
-            } else if (attempt.world.getProvider().getDimensionID() != 76) {
+            } else if (attempt.world.getProvider().getDimensionID() != 77) {
                 attempt.success = false;
                 attempt.message = LangUtil.translate("greedycraft.zensummoning.summoner.fail.5");
             } else {

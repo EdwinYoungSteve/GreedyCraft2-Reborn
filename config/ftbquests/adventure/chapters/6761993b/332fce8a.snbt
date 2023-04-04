@@ -6,7 +6,10 @@
 		uid: "ac1bbb4c",
 		type: "item",
 		items: [{
-			item: "evilcraft:dark_gem"
+			id: "evilcraft:dark_gem",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

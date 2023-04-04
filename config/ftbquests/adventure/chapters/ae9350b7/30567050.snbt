@@ -10,7 +10,11 @@
 		uid: "da8473cb",
 		type: "item",
 		items: [{
-			item: "extrautils2:teleporter 1 1"
+			id: "extrautils2:teleporter",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

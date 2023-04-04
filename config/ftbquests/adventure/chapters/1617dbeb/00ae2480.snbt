@@ -5,7 +5,10 @@
 		uid: "e129f9c3",
 		type: "item",
 		items: [{
-			item: "mysticalcreations:lavarite_seeds"
+			id: "mysticalcreations:lavarite_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}]
 }

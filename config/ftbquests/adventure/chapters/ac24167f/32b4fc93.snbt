@@ -1,0 +1,14 @@
+{
+	x: -11.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: "1a99648d",
+		type: "item",
+		items: [{
+			id: "naturesaura:gold_fiber",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

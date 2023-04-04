@@ -1,6 +1,11 @@
 {
-	x: -3.0d,
-	y: 13.5d,
+	title: "§b灵魂凝胶",
+	x: 1.5d,
+	y: 1.0d,
+	description: "击杀小型灵魂树脸，获得凝胶液",
+	text: [
+		""
+	],
 	dependencies: [
 		"c637c294"
 	],

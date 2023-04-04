@@ -10,7 +10,10 @@
 		uid: "1242e095",
 		type: "item",
 		items: [{
-			item: "forestry:apatite"
+			id: "forestry:apatite",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
 		}]
 	}],
 	rewards: [{

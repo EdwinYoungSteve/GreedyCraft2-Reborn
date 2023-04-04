@@ -53,7 +53,7 @@ Transposer.addFillRecipe(<additions:mekaddon-thermallite_core_5>, <additions:mek
 Transposer.addFillRecipe(<additions:mekaddon-thermallite_core_6>, <additions:mekaddon-thermallite_core_5>, <liquid:noxexeum> * 10000, 256000);
 Transposer.addFillRecipe(<additions:mekaddon-thermallite_core_7>, <additions:mekaddon-thermallite_core_6>, <liquid:tonitruium> * 10000, 256000);
 Transposer.addFillRecipe(<additions:mekaddon-thermallite_ingot>, <additions:mekaddon-thermallite_core_7>, <liquid:naturaeum> * 10000, 256000);
-Transposer.addFillRecipe(<hammermetals:husturite_dust>, <hammermetals:cthulhurite_dust>, <liquid:aerotheum> * 6400, 400000);
+Transposer.addFillRecipe(<jaopca:item_dusthusturite>, <jaopca:item_dustcthulhurite>, <liquid:aerotheum> * 6400, 400000);
 
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:1>, 200000);
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:2>, 400000);

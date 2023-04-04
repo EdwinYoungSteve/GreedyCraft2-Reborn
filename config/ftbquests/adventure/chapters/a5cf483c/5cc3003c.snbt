@@ -3,6 +3,9 @@
 	x: -4.5d,
 	y: -7.0d,
 	description: "{greedycraft.quest.5cc3003c.desc}",
+	dependencies: [
+		"9ba0e7cf"
+	],
 	tasks: [{
 		uid: "7644b80f",
 		type: "item",
